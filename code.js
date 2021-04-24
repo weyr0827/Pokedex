@@ -3451,6 +3451,1098 @@ let nationalDex = [
         type: ["Normal"],
         category: "Alpha",
         region: "Sinnoh"
+    },
+    {
+        name: "Victini",
+        number: "494",
+        type: ["Psychic", "Fire"],
+        category: "Victory",
+        region: "Unova"
+    },
+    {
+        name: "Snivy",
+        number: "495",
+        type: ["Grass"],
+        category: "Grass Snake",
+        region: "Unova"
+    },
+    {
+        name: "Servine",
+        number: "496",
+        type: ["Grass"],
+        category: "Grass Snake",
+        region: "Unova"
+    },
+    {
+        name: "Serperior",
+        number: "497",
+        type: ["Grass"],
+        category: "Regal",
+        region: "Unova"
+    },
+    {
+        name: "Tepig",
+        number: "498",
+        type: ["Fire"],
+        category: "Fire Pig",
+        region: "Unova"
+    },
+    {
+        name: "Pignite",
+        number: "499",
+        type: ["Fire", "Fighting"],
+        category: "Fire Pig",
+        region: "Unova"
+    },
+    {
+        name: "Emboar",
+        number: "500",
+        type: ["Fire", "Fighting"],
+        category: "Mega Fire Pig",
+        region: "Unova"
+    },
+    {
+        name: "Oshawott",
+        number: "501",
+        type: ["Water"],
+        category: "Sea Otter",
+        region: "Unova"
+    },
+    {
+        name: "Dewott",
+        number: "502",
+        type: ["Water"],
+        category: "Discipline",
+        region: "Unova"
+    },
+    {
+        name: "Samurott",
+        number: "503",
+        type: ["Water"],
+        category: "Formidable",
+        region: "Unova"
+    },
+    {
+        name: "Patrat",
+        number: "504",
+        type: ["Normal"],
+        category: "Scout",
+        region: "Unova"
+    },
+    {
+        name: "Watchog",
+        number: "505",
+        type: ["Normal"],
+        category: "Lookout",
+        region: "Unova"
+    },
+    {
+        name: "Lillipup",
+        number: "506",
+        type: ["Normal"],
+        category: "Puppy",
+        region: "Unova"
+    },
+    {
+        name: "Herdier",
+        number: "507",
+        type: ["Normal"],
+        category: "Loyal Dog",
+        region: "Unova"
+    },
+    {
+        name: "Stoutland",
+        number: "508",
+        type: ["Normal"],
+        category: "Big-Hearted",
+        region: "Unova"
+    },
+    {
+        name: "Purrloin",
+        number: "509",
+        type: ["Dark"],
+        category: "Devious",
+        region: "Unova"
+    },
+    {
+        name: "Liepard",
+        number: "510",
+        type: ["Dark"],
+        category: "Cruel",
+        region: "Unova"
+    },
+    {
+        name: "Pansage",
+        number: "511",
+        type: ["Grass"],
+        category: "Grass Monkey",
+        region: "Unova"
+    },
+    {
+        name: "Simisage",
+        number: "512",
+        type: ["Grass"],
+        category: "Thorn Monkey",
+        region: "Unova"
+    },
+    {
+        name: "Pansear",
+        number: "513",
+        type: ["Fire"],
+        category: "High Temp",
+        region: "Unova"
+    },
+    {
+        name: "Simisear",
+        number: "514",
+        type: ["Fire"],
+        category: "Ember",
+        region: "Unova"
+    },
+    {
+        name: "Panpour",
+        number: "515",
+        type: ["Water"],
+        category: "Spray",
+        region: "Unova"
+    },
+    {
+        name: "Simipour",
+        number: "516",
+        type: ["Water"],
+        category: "Geyser",
+        region: "Unova"
+    },
+    {
+        name: "Munna",
+        number: "517",
+        type: ["Psychic"],
+        category: "Dream Eater",
+        region: "Unova"
+    },
+    {
+        name: "Musharna",
+        number: "518",
+        type: ["Psychic"],
+        category: "Drowsing",
+        region: "Unova"
+    },
+    {
+        name: "Pidove",
+        number: "519",
+        type: ["Normal", "Flying"],
+        category: "Tiny Pigeon",
+        region: "Unova"
+    },
+    {
+        name: "Tranquill",
+        number: "520",
+        type: ["Normal", "Flying"],
+        category: "Wild Pigeon",
+        region: "Unova"
+    },
+    {
+        name: "Unfezant",
+        number: "521",
+        type: ["Normal", "Flying"],
+        category: "Proud",
+        region: "Unova"
+    },
+    {
+        name: "Blitzle",
+        number: "522",
+        type: ["Electric"],
+        category: "Electrified",
+        region: "Unova"
+    },
+    {
+        name: "Zebstrika",
+        number: "523",
+        type: ["Electric"],
+        category: "Thunderbolt",
+        region: "Unova"
+    },
+    {
+        name: "Roggenrola",
+        number: "524",
+        type: ["Rock"],
+        category: "Mantle",
+        region: "Unova"
+    },
+    {
+        name: "Boldore",
+        number: "524",
+        type: ["Rock"],
+        category: "Ore",
+        region: "Unova"
+    },
+    {
+        name: "Gigalith",
+        number: "526",
+        type: ["Rock"],
+        category: "Compressed",
+        region: "Unova"
+    },
+    {
+        name: "Woobat",
+        number: "527",
+        type: ["Psychic", "Flying"],
+        category: "Bat",
+        region: "Unova"
+    },
+    {
+        name: "Swoobat",
+        number: "528",
+        type: ["Psychic", "Flying"],
+        category: "Courting",
+        region: "Unova"
+    },
+    {
+        name: "Drilbur",
+        number: "529",
+        type: ["Ground"],
+        category: "Mole",
+        region: "Unova"
+    },
+    {
+        name: "Excadrill",
+        number: "530",
+        type: ["Ground", "Steel"],
+        category: "Subterrene",
+        region: "Unova"
+    },
+    {
+        name: "Audino",
+        number: "531",
+        type: ["Normal"],
+        category: "Hearing",
+        region: "Unova"
+    },
+    {
+        name: "Timburr",
+        number: "532",
+        type: ["Fighting"],
+        category: "Muscular",
+        region: "Unova"
+    },
+    {
+        name: "Gurdurr",
+        number: "533",
+        type: ["Fighting"],
+        category: "Muscular",
+        region: "Unova"
+    },
+    {
+        name: "Conkeldurr",
+        number: "534",
+        type: ["Fighting"],
+        category: "Muscular",
+        region: "Unova"
+    },
+    {
+        name: "Tympole",
+        number: "535",
+        type: ["Water"],
+        category: "Tadpole",
+        region: "Unova"
+    },
+    {
+        name: "Palpitoad",
+        number: "536",
+        type: ["Water", "Ground"],
+        category: "Vibration",
+        region: "Unova"
+    },
+    {
+        name: "Seismitoad",
+        number: "537",
+        type: ["Water", "Ground"],
+        category: "Tadpole",
+        region: "Unova"
+    },
+    {
+        name: "Throh",
+        number: "538",
+        type: ["Fighting"],
+        category: "Judo",
+        region: "Unova"
+    },
+    {
+        name: "Sawk",
+        number: "539",
+        type: ["Fighting"],
+        category: "Karate",
+        region: "Unova"
+    },
+    {
+        name: "Sewaddle",
+        number: "540",
+        type: ["Bug", "Grass"],
+        category: "Sewing",
+        region: "Unova"
+    },
+    {
+        name: "Swadloon",
+        number: "541",
+        type: ["Bug", "Grass"],
+        category: "Leaf-Wrapped",
+        region: "Unova"
+    },
+    {
+        name: "Leavanny",
+        number: "542",
+        type: ["Bug", "Grass"],
+        category: "Nurturing",
+        region: "Unova"
+    },
+    {
+        name: "Venipede",
+        number: "543",
+        type: ["Bug", "Poison"],
+        category: "Centipede",
+        region: "Unova"
+    },
+    {
+        name: "Whirlipede",
+        number: "544",
+        type: ["Bug", "Poison"],
+        category: "Curlipede",
+        region: "Unova"
+    },
+    {
+        name: "Scolipede",
+        number: "545",
+        type: ["Bug", "Poison"],
+        category: "Megapede",
+        region: "Unova"
+    },
+    {
+        name: "Cottonee",
+        number: "546",
+        type: ["Grass", "Fairy"],
+        category: "Cotton Puff",
+        region: "Unova"
+    },
+    {
+        name: "Whimsicott",
+        number: "547",
+        type: ["Grass", "Fairy"],
+        category: "Windveiled",
+        region: "Unova"
+    },
+    {
+        name: "Petilil",
+        number: "548",
+        type: ["Grass"],
+        category: "Bulb",
+        region: "Unova"
+    },
+    {
+        name: "Lilligant",
+        number: "549",
+        type: ["Grass"],
+        category: "Flowering",
+        region: "Unova"
+    },
+    {
+        name: "Basculin",
+        number: "550",
+        type: ["Water"],
+        category: "Hostile",
+        region: "Unova"
+    },
+    {
+        name: "Sandile",
+        number: "551",
+        type: ["Ground", "Dark"],
+        category: "Desert Croc",
+        region: "Unova"
+    },
+    {
+        name: "Krokorok",
+        number: "552",
+        type: ["Ground", "Dark"],
+        category: "Desert Croc",
+        region: "Unova"
+    },
+    {
+        name: "Krookodile",
+        number: "553",
+        type: ["Ground", "Dark"],
+        category: "Intimidation",
+        region: "Unova"
+    },
+    {
+        name: "Darumaka",
+        number: "554",
+        type: ["Fire"],
+        category: "Zen Charm",
+        region: "Unova"
+    },
+    {
+        name: "Darmanitan",
+        number: "555",
+        type: ["Fire"],
+        category: "Blazing",
+        region: "Unova"
+    },
+    {
+        name: "Maractus",
+        number: "556",
+        type: ["Grass"],
+        category: "Cactus",
+        region: "Unova"
+    },
+    {
+        name: "Dwebble",
+        number: "557",
+        type: ["Bug", "Rock"],
+        category: "Rock Inn",
+        region: "Unova"
+    },
+    {
+        name: "Crustle",
+        number: "558",
+        type: ["Bug", "Rock"],
+        category: "Stone Home",
+        region: "Unova"
+    },
+    {
+        name: "Scraggy",
+        number: "559",
+        type: ["Dark", "Fighting"],
+        category: "Shedding",
+        region: "Unova"
+    },
+    {
+        name: "Scrafty",
+        number: "560",
+        type: ["Dark", "Fighting"],
+        category: "Hoodlum",
+        region: "Unova"
+    },
+    {
+        name: "Sigilyph",
+        number: "561",
+        type: ["Psychic", "Flying"],
+        category: "Avianoid",
+        region: "Unova"
+    },
+    {
+        name: "Yamask",
+        number: "562",
+        type: ["Ghost"],
+        category: "Spirit",
+        region: "Unova"
+    },
+    {
+        name: "Cofagrigus",
+        number: "563",
+        type: ["Ghost"],
+        category: "Coffin",
+        region: "Unova"
+    },
+    {
+        name: "Tirtouga",
+        number: "564",
+        type: ["Water", "Rock"],
+        category: "Prototurtle",
+        region: "Unova"
+    },
+    {
+        name: "Carracosta",
+        number: "565",
+        type: ["Water", "Rock"],
+        category: "Prototurtle",
+        region: "Unova"
+    },
+    {
+        name: "Archen",
+        number: "566",
+        type: ["Rock", "Flying"],
+        category: "First Bird",
+        region: "Unova"
+    },
+    {
+        name: "Archeops",
+        number: "567",
+        type: ["Rock", "Flying"],
+        category: "First Bird",
+        region: "Unova"
+    },
+    {
+        name: "Trubbish",
+        number: "568",
+        type: ["Poison"],
+        category: "Trash Bag",
+        region: "Unova"
+    },
+    {
+        name: "Garbodor",
+        number: "569",
+        type: ["Poison"],
+        category: "Trash Heap",
+        region: "Unova"
+    },
+    {
+        name: "Zorua",
+        number: "570",
+        type: ["Dark"],
+        category: "Tricky Fox",
+        region: "Unova"
+    },
+    {
+        name: "Zoroark",
+        number: "571",
+        type: ["Dark"],
+        category: "Illusion Fox",
+        region: "Unova"
+    },
+    {
+        name: "Minccino",
+        number: "572",
+        type: ["Normal"],
+        category: "Chinchilla",
+        region: "Unova"
+    },
+    {
+        name: "Cinccino",
+        number: "573",
+        type: ["Normal"],
+        category: "Scarf",
+        region: "Unova"
+    },
+    {
+        name: "Gothita",
+        number: "574",
+        type: ["Psychic"],
+        category: "Fixation",
+        region: "Unova"
+    },
+    {
+        name: "Gothorita",
+        number: "575",
+        type: ["Psychic"],
+        category: "Manipulate",
+        region: "Unova"
+    },
+    {
+        name: "Gothitelle",
+        number: "576",
+        type: ["Psychic"],
+        category: "Astral Body",
+        region: "Unova"
+    },
+    {
+        name: "Solosis",
+        number: "577",
+        type: ["Psychic"],
+        category: "Cell",
+        region: "Unova"
+    },
+    {
+        name: "Duosion",
+        number: "578",
+        type: ["Psychic"],
+        category: "Mitosis",
+        region: "Unova"
+    },
+    {
+        name: "Reuniclus",
+        number: "579",
+        type: ["Psychic"],
+        category: "Multiplying",
+        region: "Unova"
+    },
+    {
+        name: "Ducklett",
+        number: "580",
+        type: ["Water", "Flying"],
+        category: "Water Bird",
+        region: "Unova"
+    },
+    {
+        name: "Swanna",
+        number: "581",
+        type: ["Water", "Flying"],
+        category: "White Bird",
+        region: "Unova"
+    },
+    {
+        name: "Vanillite",
+        number: "582",
+        type: ["Ice"],
+        category: "Fresh Snow",
+        region: "Unova"
+    },
+    {
+        name: "Vanillish",
+        number: "583",
+        type: ["Ice"],
+        category: "Icy Snow",
+        region: "Unova"
+    },
+    {
+        name: "Vanilluxe",
+        number: "584",
+        type: ["Ice"],
+        category: "Snowstorm",
+        region: "Unova"
+    },
+    {
+        name: "Deerling",
+        number: "585",
+        type: ["Normal", "Grass"],
+        category: "Season",
+        region: "Unova"
+    },
+    {
+        name: "Sawsbuck",
+        number: "586",
+        type: ["Normal", "Grass"],
+        category: "Season",
+        region: "Unova"
+    },
+    {
+        name: "Emolga",
+        number: "587",
+        type: ["Electric", "Flying"],
+        category: "Sky Squirrel",
+        region: "Unova"
+    },
+    {
+        name: "Karrablast",
+        number: "588",
+        type: ["Bug"],
+        category: "Clamping",
+        region: "Unova"
+    },
+    {
+        name: "Escavalier",
+        number: "589",
+        type: ["Bug", "Steel"],
+        category: "Cavalry",
+        region: "Unova"
+    },
+    {
+        name: "Foongus",
+        number: "590",
+        type: ["Grass", "Poison"],
+        category: "Mushroom",
+        region: "Unova"
+    },
+    {
+        name: "Amoonguss",
+        number: "591",
+        type: ["Grass", "Poison"],
+        category: "Mushroom",
+        region: "Unova"
+    },
+    {
+        name: "Frillish",
+        number: "592",
+        type: ["Water", "Ghost"],
+        category: "Floating",
+        region: "Unova"
+    },
+    {
+        name: "Jellicent",
+        number: "593",
+        type: ["Water", "Ghost"],
+        category: "Floating",
+        region: "Unova"
+    },
+    {
+        name: "Alomomola",
+        number: "594",
+        type: ["Water"],
+        category: "Floating",
+        region: "Unova"
+    },
+    {
+        name: "Joltik",
+        number: "595",
+        type: ["Bug", "Electric"],
+        category: "Attaching",
+        region: "Unova"
+    },
+    {
+        name: "Galvantula",
+        number: "596",
+        type: ["Bug", "Electric"],
+        category: "EleSpider",
+        region: "Unova"
+    },
+    {
+        name: "Ferroseed",
+        number: "597",
+        type: ["Grass", "Steel"],
+        category: "Thorn Seed",
+        region: "Unova"
+    },
+    {
+        name: "Ferrothorn",
+        number: "598",
+        type: ["Grass", "Steel"],
+        category: "Thorn Pod",
+        region: "Unova"
+    },
+    {
+        name: "Klink",
+        number: "599",
+        type: ["Steel"],
+        category: "Gear",
+        region: "Unova"
+    },
+    {
+        name: "Klang",
+        number: "600",
+        type: ["Steel"],
+        category: "Gear",
+        region: "Unova"
+    },
+    {
+        name: "Klinklang",
+        number: "601",
+        type: ["Steel"],
+        category: "Gear",
+        region: "Unova"
+    },
+    {
+        name: "Tynamo",
+        number: "602",
+        type: ["Electric"],
+        category: "EleFish",
+        region: "Unova"
+    },
+    {
+        name: "Eelektrik",
+        number: "603",
+        type: ["Electric"],
+        category: "EleFish",
+        region: "Unova"
+    },
+    {
+        name: "Eelektross",
+        number: "604",
+        type: ["Electric"],
+        category: "EleFish",
+        region: "Unova"
+    },
+    {
+        name: "Elgyem",
+        number: "605",
+        type: ["Psychic"],
+        category: "Cerebral",
+        region: "Unova"
+    },
+    {
+        name: "Beheeyem",
+        number: "606",
+        type: ["Psychic"],
+        category: "Cerebral",
+        region: "Unova"
+    },
+    {
+        name: "Litwick",
+        number: "607",
+        type: ["Ghost", "Fire"],
+        category: "Candle",
+        region: "Unova"
+    },
+    {
+        name: "Lampent",
+        number: "608",
+        type: ["Ghost", "Fire"],
+        category: "Lamp",
+        region: "Unova"
+    },
+    {
+        name: "Chandelure",
+        number: "609",
+        type: ["Ghost", "Fire"],
+        category: "Luring",
+        region: "Unova"
+    },
+    {
+        name: "Axew",
+        number: "610",
+        type: ["Dragon"],
+        category: "Tusk",
+        region: "Unova"
+    },
+    {
+        name: "Fraxure",
+        number: "611",
+        type: ["Dragon"],
+        category: "Axe Jaw",
+        region: "Unova"
+    },
+    {
+        name: "Haxorus",
+        number: "612",
+        type: ["Dragon"],
+        category: "Axe Jaw",
+        region: "Unova"
+    },
+    {
+        name: "Cubchoo",
+        number: "613",
+        type: ["Ice"],
+        category: "Chill",
+        region: "Unova"
+    },
+    {
+        name: "Beartic",
+        number: "614",
+        type: ["Ice"],
+        category: "Freezing",
+        region: "Unova"
+    },
+    {
+        name: "Cryogonal",
+        number: "615",
+        type: ["Ice"],
+        category: "Crystallizing",
+        region: "Unova"
+    },
+    {
+        name: "Shelmet",
+        number: "616",
+        type: ["Bug"],
+        category: "Snail",
+        region: "Unova"
+    },
+    {
+        name: "Accelgor",
+        number: "617",
+        type: ["Bug"],
+        category: "Shell Out",
+        region: "Unova"
+    },
+    {
+        name: "Stunfisk",
+        number: "618",
+        type: ["Ground", "Electric"],
+        category: "Trap",
+        region: "Unova"
+    },
+    {
+        name: "Mienfoo",
+        number: "619",
+        type: ["Fighting"],
+        category: "Martial Arts",
+        region: "Unova"
+    },
+    {
+        name: "Mienshao",
+        number: "620",
+        type: ["Fighting"],
+        category: "Martial Arts",
+        region: "Unova"
+    },
+    {
+        name: "Druddigon",
+        number: "621",
+        type: ["Dragon"],
+        category: "Cave",
+        region: "Unova"
+    },
+    {
+        name: "Golett",
+        number: "622",
+        type: ["Ground", "Ghost"],
+        category: "Automaton",
+        region: "Unova"
+    },
+    {
+        name: "Golurk",
+        number: "623",
+        type: ["Ground", "Ghost"],
+        category: "Automaton",
+        region: "Unova"
+    },
+    {
+        name: "Pawniard",
+        number: "624",
+        type: ["Dark", "Steel"],
+        category: "Sharp Blade",
+        region: "Unova"
+    },
+    {
+        name: "Bisharp",
+        number: "625",
+        type: ["Dark", "Steel"],
+        category: "Sword Blade",
+        region: "Unova"
+    },
+    {
+        name: "Bouffalant",
+        number: "626",
+        type: ["Normal"],
+        category: "Bash Buffalo",
+        region: "Unova"
+    },
+    {
+        name: "Rufflet",
+        number: "627",
+        type: ["Normal", "Flying"],
+        category: "Eaglet",
+        region: "Unova"
+    },
+    {
+        name: "Braviary",
+        number: "628",
+        type: ["Normal", "Flying"],
+        category: "Valiant",
+        region: "Unova"
+    },
+    {
+        name: "Vullaby",
+        number: "629",
+        type: ["Dark", "Flying"],
+        category: "Diapered",
+        region: "Unova"
+    },
+    {
+        name: "Mandibuzz",
+        number: "630",
+        type: ["Dark", "Flying"],
+        category: "Bone Vulture",
+        region: "Unova"
+    },
+    {
+        name: "Heatmor",
+        number: "631",
+        type: ["Fire"],
+        category: "Anteater",
+        region: "Unova"
+    },
+    {
+        name: "Durant",
+        number: "632",
+        type: ["Bug", "Steel"],
+        category: "Iron Ant",
+        region: "Unova"
+    },
+    {
+        name: "Deino",
+        number: "633",
+        type: ["Dark", "Dragon"],
+        category: "Irate",
+        region: "Unova"
+    },
+    {
+        name: "Zweilous",
+        number: "634",
+        type: ["Dark", "Dragon"],
+        category: "Hostile",
+        region: "Unova"
+    },
+    {
+        name: "Hydreigon",
+        number: "635",
+        type: ["Dark", "Dragon"],
+        category: "Brutal",
+        region: "Unova"
+    },
+    {
+        name: "Larvesta",
+        number: "636",
+        type: ["Bug", "Fire"],
+        category: "Torch",
+        region: "Unova"
+    },
+    {
+        name: "Volcarona",
+        number: "637",
+        type: ["Bug", "Fire"],
+        category: "Sun",
+        region: "Unova"
+    },
+    {
+        name: "Cobalion",
+        number: "638",
+        type: ["Steel", "Fighting"],
+        category: "Iron Will",
+        region: "Unova"
+    },
+    {
+        name: "Terrakion",
+        number: "639",
+        type: ["Rock", "Fighting"],
+        category: "Cavern",
+        region: "Unova"
+    },
+    {
+        name: "Virizion",
+        number: "640",
+        type: ["Grass", "Fighting"],
+        category: "Grassland",
+        region: "Unova"
+    },
+    {
+        name: "Tornadus",
+        number: "641",
+        type: ["Flying"],
+        category: "Cyclone",
+        region: "Unova"
+    },
+    {
+        name: "Thundurus",
+        number: "642",
+        type: ["Electric", "Flying"],
+        category: "Bolt Strike",
+        region: "Unova"
+    },
+    {
+        name: "Reshiram",
+        number: "643",
+        type: ["Dragon", "Fire"],
+        category: "Vast White",
+        region: "Unova"
+    },
+    {
+        name: "Zekrom",
+        number: "644",
+        type: ["Dragon", "Electric"],
+        category: "Deep Black",
+        region: "Unova"
+    },
+    {
+        name: "Landorus",
+        number: "645",
+        type: ["Ground", "Flying"],
+        category: "Abundance",
+        region: "Unova"
+    },
+    {
+        name: "Kyurem",
+        number: "646",
+        type: ["Dragon", "Ice"],
+        category: "Boundary",
+        region: "Unova"
+    },
+    {
+        name: "Keldeo",
+        number: "647",
+        type: ["Water", "Fighting"],
+        category: "Colt",
+        region: "Unova"
+    },
+    {
+        name: "Meloetta",
+        number: "648",
+        type: ["Normal", "Psychic"],
+        category: "Melody",
+        region: "Unova"
+    },
+    {
+        name: "Genesect",
+        number: "649",
+        type: ["Bug", "Steel"],
+        category: "Paleozoic",
+        region: "Unova"
     }
 ]
 
