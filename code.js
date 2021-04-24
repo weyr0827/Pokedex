@@ -1757,6 +1757,951 @@ let nationalDex = [
         type: ["Psychic", "Grass"],
         category: "Time Travel",
         region: "Johto"
+    },
+    {
+        name: "Treecko",
+        number: "252",
+        type: ["Grass"],
+        category: "Wood Gecko",
+        region: "Hoenn"
+    },
+    {
+        name: "Grovyle",
+        number: "253",
+        type: ["Grass"],
+        category: "Wood Gecko",
+        region: "Hoenn"
+    },
+    {
+        name: "Sceptile",
+        number: "254",
+        type: ["Grass"],
+        category: "Forest",
+        region: "Hoenn"
+    },
+    {
+        name: "Torchic",
+        number: "255",
+        type: ["Fire"],
+        category: "Chick",
+        region: "Hoenn"
+    },
+    {
+        name: "Combusken",
+        number: "256",
+        type: ["Fire", "Fighting"],
+        category: "Young Fowl",
+        region: "Hoenn"
+    },
+    {
+        name: "Blaziken",
+        number: "257",
+        type: ["Fire", "Fighting"],
+        category: "Blaze",
+        region: "Hoenn"
+    },
+    {
+        name: "Mudkip",
+        number: "258",
+        type: ["Water"],
+        category: "Mud Fish",
+        region: "Hoenn"
+    },
+    {
+        name: "Marshtomp",
+        number: "259",
+        type: ["Water", "Ground"],
+        category: "Mud Fish",
+        region: "Hoenn"
+    },
+    {
+        name: "Swampert",
+        number: "260",
+        type: ["Water", "Ground"],
+        category: "Mud Fish",
+        region: "Hoenn"
+    },
+    {
+        name: "Poochyena",
+        number: "261",
+        type: ["Dark"],
+        category: "Bite",
+        region: "Hoenn"
+    },
+    {
+        name: "Mightyena",
+        number: "262",
+        type: ["Dark"],
+        category: "Bite",
+        region: "Hoenn"
+    },
+    {
+        name: "Zigzagoon",
+        number: "263",
+        type: ["Normal"],
+        category: "Tiny Raccoon",
+        region: "Hoenn"
+    },
+    {
+        name: "Linoone",
+        number: "264",
+        type: ["Normal"],
+        category: "Rushing",
+        region: "Hoenn"
+    },
+    {
+        name: "Wurmple",
+        number: "265",
+        type: ["Bug"],
+        category: "Worm",
+        region: "Hoenn"
+    },
+    {
+        name: "Silcoon",
+        number: "266",
+        type: ["Bug"],
+        category: "Cocoon",
+        region: "Hoenn"
+    },
+    {
+        name: "Beautifly",
+        number: "267",
+        type: ["Bug", "Flying"],
+        category: "Butterfly",
+        region: "Hoenn"
+    },
+    {
+        name: "Cascoon",
+        number: "268",
+        type: ["Bug"],
+        category: "Cocoon",
+        region: "Hoenn"
+    },
+    {
+        name: "Dustox",
+        number: "269",
+        type: ["Bug", "Poison"],
+        category: "Poison Moth",
+        region: "Hoenn"
+    },
+    {
+        name: "Lotad",
+        number: "270",
+        type: ["Water", "Grass"],
+        category: "Water Weed",
+        region: "Hoenn"
+    },
+    {
+        name: "Lombre",
+        number: "271",
+        type: ["Water", "Grass"],
+        category: "Jolly",
+        region: "Hoenn"
+    },
+    {
+        name: "Ludicolo",
+        number: "272",
+        type: ["Water", "Grass"],
+        category: "Carefree",
+        region: "Hoenn"
+    },
+    {
+        name: "Seedot",
+        number: "273",
+        type: ["Grass"],
+        category: "Acorn",
+        region: "Hoenn"
+    },
+    {
+        name: "Nuzleaf",
+        number: "274",
+        type: ["Grass", "Dark"],
+        category: "Wily",
+        region: "Hoenn"
+    },
+    {
+        name: "Shiftry",
+        number: "275",
+        type: ["Grass", "Dark"],
+        category: "Wicked",
+        region: "Hoenn"
+    },
+    {
+        name: "Taillow",
+        number: "276",
+        type: ["Normal", "Flying"],
+        category: "Tiny Swallow",
+        region: "Hoenn"
+    },
+    {
+        name: "Swellow",
+        number: "277",
+        type: ["Normal", "Flying"],
+        category: "Swallow",
+        region: "Hoenn"
+    },
+    {
+        name: "Wingull",
+        number: "278",
+        type: ["Water", "Flying"],
+        category: "Seagull",
+        region: "Hoenn"
+    },
+    {
+        name: "Pelipper",
+        number: "279",
+        type: ["Water", "Flying"],
+        category: "Water Bird",
+        region: "Hoenn"
+    },
+    {
+        name: "Ralts",
+        number: "280",
+        type: ["Psychic", "Fairy"],
+        category: "Feeling",
+        region: "Hoenn"
+    },
+    {
+        name: "Kirlia",
+        number: "281",
+        type: ["Psychic", "Fairy"],
+        category: "Emotion",
+        region: "Hoenn"
+    },
+    {
+        name: "Gardevoir",
+        number: "282",
+        type: ["Psychic", "Fairy"],
+        category: "Embrace",
+        region: "Hoenn"
+    },
+    {
+        name: "Surskit",
+        number: "283",
+        type: ["Bug", "Water"],
+        category: "Pond Skater",
+        region: "Hoenn"
+    },
+    {
+        name: "Masquerain",
+        number: "284",
+        type: ["Bug", "Flying"],
+        category: "Eyeball",
+        region: "Hoenn"
+    },
+    {
+        name: "Shroomish",
+        number: "285",
+        type: ["Grass"],
+        category: "Mushroom",
+        region: "Hoenn"
+    },
+    {
+        name: "Breloom",
+        number: "286",
+        type: ["Grass", "Fighting"],
+        category: "Mushroom",
+        region: "Hoenn"
+    },
+    {
+        name: "Slakoth",
+        number: "287",
+        type: ["Normal"],
+        category: "Slacker",
+        region: "Hoenn"
+    },
+    {
+        name: "Vigoroth",
+        number: "288",
+        type: ["Normal"],
+        category: "Wild Monkey",
+        region: "Hoenn"
+    },
+    {
+        name: "Slaking",
+        number: "289",
+        type: ["Normal"],
+        category: "Lazy",
+        region: "Hoenn"
+    },
+    {
+        name: "Nincada",
+        number: "290",
+        type: ["Bug", "Ground"],
+        category: "Trainee",
+        region: "Hoenn"
+    },
+    {
+        name: "Ninjask",
+        number: "291",
+        type: ["Bug", "Flying"],
+        category: "Ninja",
+        region: "Hoenn"
+    },
+    {
+        name: "Shedinja",
+        number: "292",
+        type: ["Bug", "Ghost"],
+        category: "Shed",
+        region: "Hoenn"
+    },
+    {
+        name: "Whismur",
+        number: "293",
+        type: ["Normal"],
+        category: "Whisper",
+        region: "Hoenn"
+    },
+    {
+        name: "Loudred",
+        number: "294",
+        type: ["Normal"],
+        category: "Big Voice",
+        region: "Hoenn"
+    },
+    {
+        name: "Exploud",
+        number: "295",
+        type: ["Normal"],
+        category: "Loud Noise",
+        region: "Hoenn"
+    },
+    {
+        name: "Makuhita",
+        number: "296",
+        type: ["Fighting"],
+        category: "Guts",
+        region: "Hoenn"
+    },
+    {
+        name: "Hariyama",
+        number: "297",
+        type: ["Fighting"],
+        category: "Arm Thrust",
+        region: "Hoenn"
+    },
+    {
+        name: "Azurill",
+        number: "298",
+        type: ["Normal", "Fairy"],
+        category: "Polka Dot",
+        region: "Hoenn"
+    },
+    {
+        name: "Nosepass",
+        number: "299",
+        type: ["Rock"],
+        category: "Compass",
+        region: "Hoenn"
+    },
+    {
+        name: "Skitty",
+        number: "300",
+        type: ["Normal"],
+        category: "Kitten",
+        region: "Hoenn"
+    },
+    {
+        name: "Delcatty",
+        number: "301",
+        type: ["Normal"],
+        category: "Prim",
+        region: "Hoenn"
+    },
+    {
+        name: "Sableye",
+        number: "302",
+        type: ["Dark", "Ghost"],
+        category: "Darkness",
+        region: "Hoenn"
+    },
+    {
+        name: "Mawile",
+        number: "303",
+        type: ["Steel", "Fairy"],
+        category: "Deceiver",
+        region: "Hoenn"
+    },
+    {
+        name: "Aron",
+        number: "304",
+        type: ["Steel", "Rock"],
+        category: "Iron Armor",
+        region: "Hoenn"
+    },
+    {
+        name: "Lairon",
+        number: "305",
+        type: ["Steel", "Rock"],
+        category: "Iron Armor",
+        region: "Hoenn"
+    },
+    {
+        name: "Aggron",
+        number: "306",
+        type: ["Steel", "Rock"],
+        category: "Iron Armor",
+        region: "Hoenn"
+    },
+    {
+        name: "Meditie",
+        number: "307",
+        type: ["Fighting", "Psychic"],
+        category: "Meditate",
+        region: "Hoenn"
+    },
+    {
+        name: "Medicham",
+        number: "308",
+        type: ["Fighting", "Psychic"],
+        category: "Meditate",
+        region: "Hoenn"
+    },
+    {
+        name: "Electrike",
+        number: "309",
+        type: ["Electric"],
+        category: "Lightning",
+        region: "Hoenn"
+    },
+    {
+        name: "Manectric",
+        number: "310",
+        type: ["Electric"],
+        category: "Discharge",
+        region: "Hoenn"
+    },
+    {
+        name: "Plusle",
+        number: "311",
+        type: ["Electric"],
+        category: "Cheering",
+        region: "Hoenn"
+    },
+    {
+        name: "Minun",
+        number: "312",
+        type: ["Electric"],
+        category: "Cheering",
+        region: "Hoenn"
+    },
+    {
+        name: "Volbeat",
+        number: "313",
+        type: ["Bug"],
+        category: "Firefly",
+        region: "Hoenn"
+    },
+    {
+        name: "Illumise",
+        number: "314",
+        type: ["Bug"],
+        category: "Firefly",
+        region: "Hoenn"
+    },
+    {
+        name: "Roselia",
+        number: "315",
+        type: ["Grass", "Poison"],
+        category: "Thorn",
+        region: "Hoenn"
+    },
+    {
+        name: "Gulpin",
+        number: "316",
+        type: ["Poison"],
+        category: "Stomach",
+        region: "Hoenn"
+    },
+    {
+        name: "Swalot",
+        number: "317",
+        type: ["Poison"],
+        category: "Poison Bag",
+        region: "Hoenn"
+    },
+    {
+        name: "Carvanha",
+        number: "318",
+        type: ["Water", "Dark"],
+        category: "Savage",
+        region: "Hoenn"
+    },
+    {
+        name: "Sharpedo",
+        number: "319",
+        type: ["Water", "Dark"],
+        category: "Brutal",
+        region: "Hoenn"
+    },
+    {
+        name: "Wailmer",
+        number: "320",
+        type: ["Water"],
+        category: "Ball Whale",
+        region: "Hoenn"
+    },
+    {
+        name: "Wailord",
+        number: "321",
+        type: ["Water"],
+        category: "Float Whale",
+        region: "Hoenn"
+    },
+    {
+        name: "Numel",
+        number: "322",
+        type: ["Fire", "Ground"],
+        category: "Numb",
+        region: "Hoenn"
+    },
+    {
+        name: "Camerupt",
+        number: "323",
+        type: ["Fire", "Ground"],
+        category: "Eruption",
+        region: "Hoenn"
+    },
+    {
+        name: "Torkoal",
+        number: "324",
+        type: ["Fire"],
+        category: "Coal",
+        region: "Hoenn"
+    },
+    {
+        name: "Spoink",
+        number: "325",
+        type: ["Psychic"],
+        category: "Bounce",
+        region: "Hoenn"
+    },
+    {
+        name: "Grumpig",
+        number: "326",
+        type: ["Psychic"],
+        category: "Manipulate",
+        region: "Hoenn"
+    },
+    {
+        name: "Spinda",
+        number: "327",
+        type: ["Normal"],
+        category: "Spot Panda",
+        region: "Hoenn"
+    },
+    {
+        name: "Trapinch",
+        number: "328",
+        type: ["Ground"],
+        category: "Ant Pit",
+        region: "Hoenn"
+    },
+    {
+        name: "Vibrava",
+        number: "329",
+        type: ["Ground", "Dragon"],
+        category: "Vibration",
+        region: "Hoenn"
+    },
+    {
+        name: "Flygon",
+        number: "330",
+        type: ["Ground", "Dragon"],
+        category: "Mystic",
+        region: "Hoenn"
+    },
+    {
+        name: "Cacnea",
+        number: "331",
+        type: ["Grass"],
+        category: "Cactus",
+        region: "Hoenn"
+    },
+    {
+        name: "Cacturne",
+        number: "332",
+        type: ["Grass", "Dark"],
+        category: "Scarecrow",
+        region: "Hoenn"
+    },
+    {
+        name: "Swablu",
+        number: "333",
+        type: ["Normal", "Flying"],
+        category: "Cotton Bird",
+        region: "Hoenn"
+    },
+    {
+        name: "Altaria",
+        number: "334",
+        type: ["Dragon", "Flying"],
+        category: "Humming",
+        region: "Hoenn"
+    },
+    {
+        name: "Zangoose",
+        number: "335",
+        type: ["Normal"],
+        category: "Cat Ferret",
+        region: "Hoenn"
+    },
+    {
+        name: "Seviper",
+        number: "336",
+        type: ["Poison"],
+        category: "Fang Snake",
+        region: "Hoenn"
+    },
+    {
+        name: "Lunatone",
+        number: "337",
+        type: ["Rock", "Psychic"],
+        category: "Meteorite",
+        region: "Hoenn"
+    },
+    {
+        name: "Solrock",
+        number: "338",
+        type: ["Rock", "Psychic"],
+        category: "Meteorite",
+        region: "Hoenn"
+    },
+    {
+        name: "Barboach",
+        number: "339",
+        type: ["Water", "Ground"],
+        category: "Whiskers",
+        region: "Hoenn"
+    },
+    {
+        name: "Whiscash",
+        number: "340",
+        type: ["Water", "Ground"],
+        category: "Whiskers",
+        region: "Hoenn"
+    },
+    {
+        name: "Corphish",
+        number: "341",
+        type: ["Water"],
+        category: "Ruffian",
+        region: "Hoenn"
+    },
+    {
+        name: "Crawdaunt",
+        number: "342",
+        type: ["Water", "Dark"],
+        category: "Rogue",
+        region: "Hoenn"
+    },
+    {
+        name: "Baltoy",
+        number: "343",
+        type: ["Ground", "Psychic"],
+        category: "Clay Doll",
+        region: "Hoenn"
+    },
+    {
+        name: "Claydol",
+        number: "344",
+        type: ["Ground", "Psychic"],
+        category: "Clay Doll",
+        region: "Hoenn"
+    },
+    {
+        name: "Lileep",
+        number: "345",
+        type: ["Rock", "Grass"],
+        category: "Sea Lily",
+        region: "Hoenn"
+    },
+    {
+        name: "Cradily",
+        number: "346",
+        type: ["Rock", "Grass"],
+        category: "Barnacle",
+        region: "Hoenn"
+    },
+    {
+        name: "Anorith",
+        number: "347",
+        type: ["Rock", "Bug"],
+        category: "Old Shrimp",
+        region: "Hoenn"
+    },
+    {
+        name: "Armaldo",
+        number: "348",
+        type: ["Rock", "Bug"],
+        category: "Plate",
+        region: "Hoenn"
+    },
+    {
+        name: "Feebas",
+        number: "349",
+        type: ["Water"],
+        category: "Fish",
+        region: "Hoenn"
+    },
+    {
+        name: "Milotic",
+        number: "350",
+        type: ["Water"],
+        category: "Tender",
+        region: "Hoenn"
+    },
+    {
+        name: "Castforrm",
+        number: "351",
+        type: ["Normal"],
+        category: "Weather",
+        region: "Hoenn"
+    },
+    {
+        name: "Kecleon",
+        number: "352",
+        type: ["Normal"],
+        category: "Color Swap",
+        region: "Hoenn"
+    },
+    {
+        name: "Shuppet",
+        number: "353",
+        type: ["Ghost"],
+        category: "Puppet",
+        region: "Hoenn"
+    },
+    {
+        name: "Banette",
+        number: "354",
+        type: ["Ghost"],
+        category: "Marionette",
+        region: "Hoenn"
+    },
+    {
+        name: "Duskull",
+        number: "355",
+        type: ["Ghost"],
+        category: "Requiem",
+        region: "Hoenn"
+    },
+    {
+        name: "Dusclops",
+        number: "356",
+        type: ["Ghost"],
+        category: "Beckon",
+        region: "Hoenn"
+    },
+    {
+        name: "Tropius",
+        number: "357",
+        type: ["Grass", "Flying"],
+        category: "Fruit",
+        region: "Hoenn"
+    },
+    {
+        name: "Chimecho",
+        number: "358",
+        type: ["Psychic"],
+        category: "Wind Chime",
+        region: "Hoenn"
+    },
+    {
+        name: "Absol",
+        number: "359",
+        type: ["Dark"],
+        category: "Disaster",
+        region: "Hoenn"
+    },
+    {
+        name: "Wynaut",
+        number: "360",
+        type: ["Psychic"],
+        category: "Bright",
+        region: "Hoenn"
+    },
+    {
+        name: "Snorunt",
+        number: "361",
+        type: ["Ice"],
+        category: "Snow Hat",
+        region: "Hoenn"
+    },
+    {
+        name: "Glalie",
+        number: "362",
+        type: ["Ice"],
+        category: "Face",
+        region: "Hoenn"
+    },
+    {
+        name: "Spheal",
+        number: "363",
+        type: ["Ice", "Water"],
+        category: "Clap",
+        region: "Hoenn"
+    },
+    {
+        name: "Sealeo",
+        number: "364",
+        type: ["Ice", "Water"],
+        category: "Ball Roll",
+        region: "Hoenn"
+    },
+    {
+        name: "Walrein",
+        number: "365",
+        type: ["Ice", "Water"],
+        category: "Ice Break",
+        region: "Hoenn"
+    },
+    {
+        name: "Clamperl",
+        number: "366",
+        type: ["Water"],
+        category: "Bivalve",
+        region: "Hoenn"
+    },
+    {
+        name: "Huntail",
+        number: "367",
+        type: ["Water"],
+        category: "Deep Sea",
+        region: "Hoenn"
+    },
+    {
+        name: "Gorebyss",
+        number: "368",
+        type: ["Water"],
+        category: "South Sea",
+        region: "Hoenn"
+    },
+    {
+        name: "Relicanth",
+        number: "369",
+        type: ["Water", "Rock"],
+        category: "Longevity",
+        region: "Hoenn"
+    },
+    {
+        name: "Luvdisc",
+        number: "370",
+        type: ["Water"],
+        category: "Rendezvous",
+        region: "Hoenn"
+    },
+    {
+        name: "Bagon",
+        number: "371",
+        type: ["Dragon"],
+        category: "Rock Head",
+        region: "Hoenn"
+    },
+    {
+        name: "Shelgon",
+        number: "372",
+        type: ["Dragon"],
+        category: "Endurance",
+        region: "Hoenn"
+    },
+    {
+        name: "Salamence",
+        number: "373",
+        type: ["Dragon", "Flying"],
+        category: "Dragon",
+        region: "Hoenn"
+    },
+    {
+        name: "Beldum",
+        number: "374",
+        type: ["Steel", "Psychic"],
+        category: "Iron Ball",
+        region: "Hoenn"
+    },
+    {
+        name: "Metang",
+        number: "375",
+        type: ["Steel", "Psychic"],
+        category: "Iron Claw",
+        region: "Hoenn"
+    },
+    {
+        name: "Metagross",
+        number: "376",
+        type: ["Steel", "Psychic"],
+        category: "Iron Leg",
+        region: "Hoenn"
+    },
+    {
+        name: "Regirock",
+        number: "377",
+        type: ["Rock"],
+        category: "Rock Peak",
+        region: "Hoenn"
+    },
+    {
+        name: "Regice",
+        number: "378",
+        type: ["Ice"],
+        category: "Iceberg",
+        region: "Hoenn"
+    },
+    {
+        name: "Registeel",
+        number: "379",
+        type: ["Steel"],
+        category: "Iron",
+        region: "Hoenn"
+    },
+    {
+        name: "Latias",
+        number: "380",
+        type: ["Dragon", "Psychic"],
+        category: "Eon",
+        region: "Hoenn"
+    },
+    {
+        name: "Latios",
+        number: "381",
+        type: ["Dragon", "Psychic"],
+        category: "Eon",
+        region: "Hoenn"
+    },
+    {
+        name: "Kyogre",
+        number: "382",
+        type: ["Water"],
+        category: "Sea Basin",
+        region: "Hoenn"
+    },
+    {
+        name: "Groudon",
+        number: "383",
+        type: ["Ground"],
+        category: "Continent",
+        region: "Hoenn"
+    },
+    {
+        name: "Rayquaza",
+        number: "384",
+        type: ["Dragon", "Flying"],
+        category: "Sky High",
+        region: "Hoenn"
+    },
+    {
+        name: "Jirachi",
+        number: "385",
+        type: ["Steel", "Psychic"],
+        category: "Wish",
+        region: "Hoenn"
+    },
+    {
+        name: "Deoxys",
+        number: "386",
+        type: ["Psychic"],
+        category: "DNA",
+        region: "Hoenn"
     }
 ]
 
@@ -1769,8 +2714,8 @@ let dexRender = (pokedex) => {
         divVariable.className = "pokemon"
         let pokemonName = document.createElement("h4")
         pokemonName.append(pocketMonster.name)
-        // let movieImage = document.createElement("img")
-        // movieImage.src = movieMovie.imageUrl
+        // let pokemonImage = document.createElement("img")
+        // pokemonImage.src = pocketMonster.imageUrl
         let pokemonNumber = document.createElement("p")
         pokemonNumber.append("#", pocketMonster.number)
         let pokemonType = document.createElement("p")
@@ -1780,7 +2725,7 @@ let dexRender = (pokedex) => {
         let pokemonRegion = document.createElement("p")
         pokemonRegion.append("Region: " , pocketMonster.region)
         divVariable.append(pokemonName)
-        // divVariable.append(movieImage)
+        // divVariable.append(pokemonImage)
         divVariable.append(pokemonNumber)
         divVariable.append(pokemonType)
         divVariable.append(pokemonCategory)
