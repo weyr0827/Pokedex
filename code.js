@@ -4543,6 +4543,510 @@ let nationalDex = [
         type: ["Bug", "Steel"],
         category: "Paleozoic",
         region: "Unova"
+    },
+    {
+        name: "Chespin",
+        number: "650",
+        type: ["Grass"],
+        category: "Spiny Nut",
+        region: "Kalos"
+    },
+    {
+        name: "Quilladin",
+        number: "651",
+        type: ["Grass"],
+        category: "Spiny Armor",
+        region: "Kalos"
+    },
+    {
+        name: "Chesnaught",
+        number: "652",
+        type: ["Grass", "Fighting"],
+        category: "Spiny Armor",
+        region: "Kalos"
+    },
+    {
+        name: "Fennekin",
+        number: "653",
+        type: ["Fire"],
+        category: "Fox",
+        region: "Kalos"
+    },
+    {
+        name: "Braixen",
+        number: "654",
+        type: ["Fire"],
+        category: "Fox",
+        region: "Kalos"
+    },
+    {
+        name: "Delphox",
+        number: "655",
+        type: ["Fire", "Psychic"],
+        category: "Fox",
+        region: "Kalos"
+    },
+    {
+        name: "Froakie",
+        number: "656",
+        type: ["Water"],
+        category: "Bubble Frog",
+        region: "Kalos"
+    },
+    {
+        name: "Frogadier",
+        number: "657",
+        type: ["Water"],
+        category: "Bubble Frog",
+        region: "Kalos"
+    },
+    {
+        name: "Greninja",
+        number: "658",
+        type: ["Water", "Dark"],
+        category: "Ninja",
+        region: "Kalos"
+    },
+    {
+        name: "Bunnelby",
+        number: "659",
+        type: ["Normal"],
+        category: "Digging",
+        region: "Kalos"
+    },
+    {
+        name: "Diggersby",
+        number: "660",
+        type: ["Normal", "Ground"],
+        category: "Digging",
+        region: "Kalos"
+    },
+    {
+        name: "Fletchling",
+        number: "661",
+        type: ["Normal", "Flying"],
+        category: "Tiny Robin",
+        region: "Kalos"
+    },
+    {
+        name: "Fletchinder",
+        number: "662",
+        type: ["Fire", "Flying"],
+        category: "Ember",
+        region: "Kalos"
+    },
+    {
+        name: "Talonflame",
+        number: "663",
+        type: ["Fire", "Flying"],
+        category: "Scorching",
+        region: "Kalos"
+    },
+    {
+        name: "Scatterbug",
+        number: "664",
+        type: ["Bug"],
+        category: "Scatterdust",
+        region: "Kalos"
+    },
+    {
+        name: "Spewpa",
+        number: "665",
+        type: ["Bug"],
+        category: "Scatterdust",
+        region: "Kalos"
+    },
+    {
+        name: "Vivillon",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos"
+    },
+    {
+        name: "Litleo",
+        number: "667",
+        type: ["Fire", "Normal"],
+        category: "Lion Cub",
+        region: "Kalos"
+    },
+    {
+        name: "Pyroar",
+        number: "668",
+        type: ["Fire", "Normal"],
+        category: "Royal",
+        region: "Kalos"
+    },
+    {
+        name: "Flabébé",
+        number: "669",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos"
+    },
+    {
+        name: "Floette",
+        number: "670",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos"
+    },
+    {
+        name: "Florges",
+        number: "671",
+        type: ["Fairy"],
+        category: "Garden",
+        region: "Kalos"
+    },
+    {
+        name: "Skiddo",
+        number: "672",
+        type: ["Grass"],
+        category: "Mount",
+        region: "Kalos"
+    },
+    {
+        name: "Gogoat",
+        number: "673",
+        type: ["Grass"],
+        category: "Mount",
+        region: "Kalos"
+    },
+    {
+        name: "Pancham",
+        number: "674",
+        type: ["Fighting"],
+        category: "Playful",
+        region: "Kalos"
+    },
+    {
+        name: "Pangoro",
+        number: "675",
+        type: ["Fighting", "Dark"],
+        category: "Daunting",
+        region: "Kalos"
+    },
+    {
+        name: "Furfrou",
+        number: "676",
+        type: ["Poodle"],
+        category: "Normal",
+        region: "Kalos"
+    },
+    {
+        name: "Espurr",
+        number: "677",
+        type: ["Psychic"],
+        category: "Restraint",
+        region: "Kalos"
+    },
+    {
+        name: "Meowstic",
+        number: "678",
+        type: ["Psychic"],
+        category: "Constraint",
+        region: "Kalos"
+    },
+    {
+        name: "Honedge",
+        number: "679",
+        type: ["Steel", "Ghost"],
+        category: "Sword",
+        region: "Kalos"
+    },
+    {
+        name: "Doublade",
+        number: "680",
+        type: ["Steel", "Ghost"],
+        category: "Sword",
+        region: "Kalos"
+    },
+    {
+        name: "Aegislash",
+        number: "681",
+        type: ["Steel", "Ghost"],
+        category: "Royal Sword",
+        region: "Kalos"
+    },
+    {
+        name: "Spritzee",
+        number: "682",
+        type: ["Fairy"],
+        category: "Perfume",
+        region: "Kalos"
+    },
+    {
+        name: "Aromatisse",
+        number: "683",
+        type: ["Fairy"],
+        category: "Fragrance",
+        region: "Kalos"
+    },
+    {
+        name: "Swirlix",
+        number: "684",
+        type: ["Fairy"],
+        category: "Cotton Candy",
+        region: "Kalos"
+    },
+    {
+        name: "Slurpuff",
+        number: "685",
+        type: ["Fairy"],
+        category: "Meringue",
+        region: "Kalos"
+    },
+    {
+        name: "Inkay",
+        number: "686",
+        type: ["Dark", "Psychic"],
+        category: "Revolving",
+        region: "Kalos"
+    },
+    {
+        name: "Malamar",
+        number: "687",
+        type: ["Dark", "Psychic"],
+        category: "Overturning",
+        region: "Kalos"
+    },
+    {
+        name: "Binacle",
+        number: "688",
+        type: ["Rock", "Water"],
+        category: "Two-Handed",
+        region: "Kalos"
+    },
+    {
+        name: "Barbaracle",
+        number: "689",
+        type: ["Rock", "Water"],
+        category: "Collective",
+        region: "Kalos"
+    },
+    {
+        name: "Skrelp",
+        number: "690",
+        type: ["Poison", "Water"],
+        category: "Mock Kelp",
+        region: "Kalos"
+    },
+    {
+        name: "Dragalge",
+        number: "691",
+        type: ["Poison", "Dragon"],
+        category: "Mock Kelp",
+        region: "Kalos"
+    },
+    {
+        name: "Clauncher",
+        number: "692",
+        type: ["Water"],
+        category: "Water Gun",
+        region: "Kalos"
+    },
+    {
+        name: "Clawitzer",
+        number: "693",
+        type: ["Water"],
+        category: "Howitzer",
+        region: "Kalos"
+    },
+    {
+        name: "Helioptile",
+        number: "694",
+        type: ["Electric", "Normal"],
+        category: "Generator",
+        region: "Kalos"
+    },
+    {
+        name: "Heliolisk",
+        number: "695",
+        type: ["Electric", "Normal"],
+        category: "Generator",
+        region: "Kalos"
+    },
+    {
+        name: "Tyrunt",
+        number: "696",
+        type: ["Rock", "Dragon"],
+        category: "Royal Heir",
+        region: "Kalos"
+    },
+    {
+        name: "Tyrantrum",
+        number: "697",
+        type: ["Rock", "Dragon"],
+        category: "Despot",
+        region: "Kalos"
+    },
+    {
+        name: "Amaura",
+        number: "698",
+        type: ["Rock", "Ice"],
+        category: "Tundra",
+        region: "Kalos"
+    },
+    {
+        name: "Aurorus",
+        number: "699",
+        type: ["Rock", "Ice"],
+        category: "Tundra",
+        region: "Kalos"
+    },
+    {
+        name: "Sylveon",
+        number: "700",
+        type: ["Fairy"],
+        category: "Intertwining",
+        region: "Kalos"
+    },
+    {
+        name: "Hawlucha",
+        number: "701",
+        type: ["Fighting", "Flying"],
+        category: "Wrestling",
+        region: "Kalos"
+    },
+    {
+        name: "Dedenne",
+        number: "702",
+        type: ["Electric", "Fairy"],
+        category: "Antenna",
+        region: "Kalos"
+    },
+    {
+        name: "Carbink",
+        number: "703",
+        type: ["Rock", "Fairy"],
+        category: "Jewel",
+        region: "Kalos"
+    },
+    {
+        name: "Goomy",
+        number: "704",
+        type: ["Dragon"],
+        category: "Soft Tissue",
+        region: "Kalos"
+    },
+    {
+        name: "Sliggoo",
+        number: "705",
+        type: ["Dragon"],
+        category: "Soft Tissue",
+        region: "Kalos"
+    },
+    {
+        name: "Goodra",
+        number: "706",
+        type: ["Dragon"],
+        category: "Dragon",
+        region: "Kalos"
+    },
+    {
+        name: "Klefki",
+        number: "707",
+        type: ["Steel", "Fairy"],
+        category: "Key Ring",
+        region: "Kalos"
+    },
+    {
+        name: "Phantump",
+        number: "708",
+        type: ["Ghost", "Grass"],
+        category: "Stump",
+        region: "Kalos"
+    },
+    {
+        name: "Trevenant",
+        number: "709",
+        type: ["Ghost", "Grass"],
+        category: "Elder Tree",
+        region: "Kalos"
+    },
+    {
+        name: "Pumpkaboo",
+        number: "710",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos"
+    },
+    {
+        name: "Gourgeist",
+        number: "711",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos"
+    },
+    {
+        name: "Bergmite",
+        number: "712",
+        type: ["Ice"],
+        category: "Ice Chunk",
+        region: "Kalos"
+    },
+    {
+        name: "Avalugg",
+        number: "713",
+        type: ["Ice"],
+        category: "Iceberg",
+        region: "Kalos"
+    },
+    {
+        name: "Noibat",
+        number: "714",
+        type: ["Flying", "Dragon"],
+        category: "Sound Wave",
+        region: "Kalos"
+    },
+    {
+        name: "Noivern",
+        number: "715",
+        type: ["Flying", "Dragon"],
+        category: "Sound Wave",
+        region: "Kalos"
+    },
+    {
+        name: "Xerneas",
+        number: "716",
+        type: ["Fairy"],
+        category: "Life",
+        region: "Kalos"
+    },
+    {
+        name: "Yveltal",
+        number: "717",
+        type: ["Dark", "Flying"],
+        category: "Destruction",
+        region: "Kalos"
+    },
+    {
+        name: "Zygarde",
+        number: "718",
+        type: ["Dragon", "Ground"],
+        category: "Order",
+        region: "Kalos"
+    },
+    {
+        name: "Diancie",
+        number: "719",
+        type: ["Rock", "Fairy"],
+        category: "Jewel",
+        region: "Kalos"
+    },
+    {
+        name: "Hoopa",
+        number: "720",
+        type: ["Psychic", "Ghost"],
+        category: "Mischief",
+        region: "Kalos"
+    },
+    {
+        name: "Volcanion",
+        number: "721",
+        type: ["Fire", "Water"],
+        category: "Steam",
+        region: "Kalos"
     }
 ]
 
