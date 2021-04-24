@@ -2702,6 +2702,755 @@ let nationalDex = [
         type: ["Psychic"],
         category: "DNA",
         region: "Hoenn"
+    },
+    {
+        name: "Turtwig",
+        number: "387",
+        type: ["Grass"],
+        category: "Tiny Leaf",
+        region: "Sinnoh"
+    },
+    {
+        name: "Grotle",
+        number: "388",
+        type: ["Grass"],
+        category: "Grove",
+        region: "Sinnoh"
+    },
+    {
+        name: "Torterra",
+        number: "389",
+        type: ["Grass", "Ground"],
+        category: "Continent",
+        region: "Sinnoh"
+    },
+    {
+        name: "Chimchar",
+        number: "390",
+        type: ["Fire"],
+        category: "Chimp",
+        region: "Sinnoh"
+    },
+    {
+        name: "Monferno",
+        number: "391",
+        type: ["Fire", "Fighting"],
+        category: "Playful",
+        region: "Sinnoh"
+    },
+    {
+        name: "Infernape",
+        number: "392",
+        type: ["Fire", "Fighting"],
+        category: "Flame",
+        region: "Sinnoh"
+    },
+    {
+        name: "Piplup",
+        number: "393",
+        type: ["Water"],
+        category: "Penguin",
+        region: "Sinnoh"
+    },
+    {
+        name: "Prinplup",
+        number: "394",
+        type: ["Water"],
+        category: "Penguin",
+        region: "Sinnoh"
+    },
+    {
+        name: "Empoleon",
+        number: "395",
+        type: ["Water", "Steel"],
+        category: "Emperor",
+        region: "Sinnoh"
+    },
+    {
+        name: "Starly",
+        number: "396",
+        type: ["Normal", "Flying"],
+        category: "Starling",
+        region: "Sinnoh"
+    },
+    {
+        name: "Staravia",
+        number: "397",
+        type: ["Normal", "Flying"],
+        category: "Starling",
+        region: "Sinnoh"
+    },
+    {
+        name: "Staraptor",
+        number: "398",
+        type: ["Normal", "Flying"],
+        category: "Predator",
+        region: "Sinnoh"
+    },
+    {
+        name: "Bidoof",
+        number: "399",
+        type: ["Normal"],
+        category: "Plump Mouse",
+        region: "Sinnoh"
+    },
+    {
+        name: "Bibarel",
+        number: "400",
+        type: ["Normal", "Water"],
+        category: "Beaver",
+        region: "Sinnoh"
+    },
+    {
+        name: "Kricketot",
+        number: "401",
+        type: ["Bug"],
+        category: "Cricket",
+        region: "Sinnoh"
+    },
+    {
+        name: "Kricketune",
+        number: "402",
+        type: ["Bug"],
+        category: "Cricket",
+        region: "Sinnoh"
+    },
+    {
+        name: "Shinx",
+        number: "403",
+        type: ["Electric"],
+        category: "Flash",
+        region: "Sinnoh"
+    },
+    {
+        name: "Luxio",
+        number: "404",
+        type: ["Electric"],
+        category: "Spark",
+        region: "Sinnoh"
+    },
+    {
+        name: "Luxray",
+        number: "405",
+        type: ["Electric"],
+        category: "Gleam Eyes",
+        region: "Sinnoh"
+    },
+    {
+        name: "Budew",
+        number: "406",
+        type: ["Grass", "Poison"],
+        category: "Bud",
+        region: "Sinnoh"
+    },
+    {
+        name: "Roserade",
+        number: "407",
+        type: ["Grass", "Poison"],
+        category: "Bouquet",
+        region: "Sinnoh"
+    },
+    {
+        name: "Cranidos",
+        number: "408",
+        type: ["Rock"],
+        category: "Head Butt",
+        region: "Sinnoh"
+    },
+    {
+        name: "Rampardos",
+        number: "409",
+        type: ["Rock"],
+        category: "Head Butt",
+        region: "Sinnoh"
+    },
+    {
+        name: "Shieldon",
+        number: "410",
+        type: ["Rock", "Steel"],
+        category: "Shield",
+        region: "Sinnoh"
+    },
+    {
+        name: "Bastiodon",
+        number: "411",
+        type: ["Rock", "Steel"],
+        category: "Shield",
+        region: "Sinnoh"
+    },
+    {
+        name: "Burmy",
+        number: "412",
+        type: ["Bug"],
+        category: "Bagworm",
+        region: "Sinnoh"
+    },
+    {
+        name: "Wormadam",
+        number: "413",
+        type: ["Bug", "Grass"],
+        category: "Bagworm",
+        region: "Sinnoh"
+    },
+    {
+        name: "Mothim",
+        number: "414",
+        type: ["Bug", "Flying"],
+        category: "Moth",
+        region: "Sinnoh"
+    },
+    {
+        name: "Combee",
+        number: "415",
+        type: ["Bug", "Flying"],
+        category: "Tiny Bee",
+        region: "Sinnoh"
+    },
+    {
+        name: "Vespiquen",
+        number: "416",
+        type: ["Bug", "Flying"],
+        category: "Beehive",
+        region: "Sinnoh"
+    },
+    {
+        name: "Pachirisu",
+        number: "417",
+        type: ["Electric"],
+        category: "EleSquirrel",
+        region: "Sinnoh"
+    },
+    {
+        name: "Buizel",
+        number: "418",
+        type: ["Water"],
+        category: "Sea Weasel",
+        region: "Sinnoh"
+    },
+    {
+        name: "Floatzel",
+        number: "419",
+        type: ["Water"],
+        category: "Sea Weasel",
+        region: "Sinnoh"
+    },
+    {
+        name: "Cherubi",
+        number: "420",
+        type: ["Grass"],
+        category: "Cherry",
+        region: "Sinnoh"
+    },
+    {
+        name: "Cherrim",
+        number: "421",
+        type: ["Grass"],
+        category: "Blossom",
+        region: "Sinnoh"
+    },
+    {
+        name: "Shellos",
+        number: "422",
+        type: ["Water"],
+        category: "Sea Slug",
+        region: "Sinnoh"
+    },
+    {
+        name: "Gastrodon",
+        number: "423",
+        type: ["Water", "Ground"],
+        category: "Sea Slug",
+        region: "Sinnoh"
+    },
+    {
+        name: "Ambipom",
+        number: "424",
+        type: ["Normal"],
+        category: "Long Tail",
+        region: "Sinnoh"
+    },
+    {
+        name: "Drifloon",
+        number: "425",
+        type: ["Ghost", "Flying"],
+        category: "Balloon",
+        region: "Sinnoh"
+    },
+    {
+        name: "Drifblim",
+        number: "426",
+        type: ["Ghost", "Flying"],
+        category: "Blimp",
+        region: "Sinnoh"
+    },
+    {
+        name: "Buneary",
+        number: "427",
+        type: ["Normal"],
+        category: "Rabbit",
+        region: "Sinnoh"
+    },
+    {
+        name: "Lopunny",
+        number: "428",
+        type: ["Normal"],
+        category: "Rabbit",
+        region: "Sinnoh"
+    },
+    {
+        name: "Mismagius",
+        number: "429",
+        type: ["Ghost"],
+        category: "Magical",
+        region: "Sinnoh"
+    },
+    {
+        name: "Honchkrow",
+        number: "430",
+        type: ["Dark", "Flying"],
+        category: "Big Boss",
+        region: "Sinnoh"
+    },
+    {
+        name: "Glameow",
+        number: "431",
+        type: ["Normal"],
+        category: "Catty",
+        region: "Sinnoh"
+    },
+    {
+        name: "Purugly",
+        number: "432",
+        type: ["Normal"],
+        category: "Tiger Cat",
+        region: "Sinnoh"
+    },
+    {
+        name: "Chingling",
+        number: "433",
+        type: ["Psychic"],
+        category: "Bell",
+        region: "Sinnoh"
+    },
+    {
+        name: "Stunky",
+        number: "434",
+        type: ["Poison", "Dark"],
+        category: "Skunk",
+        region: "Sinnoh"
+    },
+    {
+        name: "Skuntank",
+        number: "435",
+        type: ["Poison", "Dark"],
+        category: "Skunk",
+        region: "Sinnoh"
+    },
+    {
+        name: "Bronzor",
+        number: "436",
+        type: ["Steel", "Psychic"],
+        category: "Bronze",
+        region: "Sinnoh"
+    },
+    {
+        name: "Bronzong",
+        number: "437",
+        type: ["Steel", "Psychic"],
+        category: "Bronze Bell",
+        region: "Sinnoh"
+    },
+    {
+        name: "Bonsly",
+        number: "438",
+        type: ["Rock"],
+        category: "Bonsai",
+        region: "Sinnoh"
+    },
+    {
+        name: "Mime Jr.",
+        number: "439",
+        type: ["Psychic", "Fairy"],
+        category: "Mime",
+        region: "Sinnoh"
+    },
+    {
+        name: "Happiny",
+        number: "440",
+        type: ["Normal"],
+        category: "Playhouse",
+        region: "Sinnoh"
+    },
+    {
+        name: "Chatot",
+        number: "441",
+        type: ["Normal", "Flying"],
+        category: "Music Note",
+        region: "Sinnoh"
+    },
+    {
+        name: "Spiritomb",
+        number: "442",
+        type: ["Ghost", "Dark"],
+        category: "Forbidden",
+        region: "Sinnoh"
+    },
+    {
+        name: "Gible",
+        number: "443",
+        type: ["Dragon", "Ground"],
+        category: "Land Shark",
+        region: "Sinnoh"
+    },
+    {
+        name: "Gabite",
+        number: "444",
+        type: ["Dragon", "Ground"],
+        category: "Cave",
+        region: "Sinnoh"
+    },
+    {
+        name: "Garchomp",
+        number: "445",
+        type: ["Dragon", "Ground"],
+        category: "Mach",
+        region: "Sinnoh"
+    },
+    {
+        name: "Munchlax",
+        number: "446",
+        type: ["Normal"],
+        category: "Big Eater",
+        region: "Sinnoh"
+    },
+    {
+        name: "Riolu",
+        number: "447",
+        type: ["Fighting"],
+        category: "Emanation",
+        region: "Sinnoh"
+    },
+    {
+        name: "Lucario",
+        number: "448",
+        type: ["Fighting", "Steel"],
+        category: "Aura",
+        region: "Sinnoh"
+    },
+    {
+        name: "Hippopotas",
+        number: "449",
+        type: ["Ground"],
+        category: "Hippo",
+        region: "Sinnoh"
+    },
+    {
+        name: "Hippowdon",
+        number: "450",
+        type: ["Ground"],
+        category: "Heavyweight",
+        region: "Sinnoh"
+    },
+    {
+        name: "Skorupi",
+        number: "451",
+        type: ["Poison", "Bug"],
+        category: "Scorpion",
+        region: "Sinnoh"
+    },
+    {
+        name: "Drapion",
+        number: "452",
+        type: ["Poison", "Dark"],
+        category: "Ogre Scorpion",
+        region: "Sinnoh"
+    },
+    {
+        name: "Croagunk",
+        number: "453",
+        type: ["Poison", "Fighting"],
+        category: "Toxic Mouth",
+        region: "Sinnoh"
+    },
+    {
+        name: "Toxicroak",
+        number: "454",
+        type: ["Poison", "Fighting"],
+        category: "Toxic Mouth",
+        region: "Sinnoh"
+    },
+    {
+        name: "Carnivine",
+        number: "455",
+        type: ["Grass"],
+        category: "Bug Catcher",
+        region: "Sinnoh"
+    },
+    {
+        name: "Finneon",
+        number: "456",
+        type: ["Water"],
+        category: "Wing Fish",
+        region: "Sinnoh"
+    },
+    {
+        name: "Lumineon",
+        number: "457",
+        type: ["Water"],
+        category: "Neon",
+        region: "Sinnoh"
+    },
+    {
+        name: "Mantyke",
+        number: "458",
+        type: ["Water", "Flying"],
+        category: "Kite",
+        region: "Sinnoh"
+    },
+    {
+        name: "Snover",
+        number: "459",
+        type: ["Grass", "Ice"],
+        category: "Frost Tree",
+        region: "Sinnoh"
+    },
+    {
+        name: "Abomasnow",
+        number: "460",
+        type: ["Grass", "Ice"],
+        category: "Frost Tree",
+        region: "Sinnoh"
+    },
+    {
+        name: "Weavile",
+        number: "461",
+        type: ["Dark", "Ice"],
+        category: "Sharp Claw",
+        region: "Sinnoh"
+    },
+    {
+        name: "Magnezone",
+        number: "462",
+        type: ["Electric", "Steel"],
+        category: "Magnet Area",
+        region: "Sinnoh"
+    },
+    {
+        name: "Lickilicky",
+        number: "463",
+        type: ["Normal"],
+        category: "Licking",
+        region: "Sinnoh"
+    },
+    {
+        name: "Rhyperior",
+        number: "464",
+        type: ["Ground", "Rock"],
+        category: "Drill",
+        region: "Sinnoh"
+    },
+    {
+        name: "Tangrowth",
+        number: "465",
+        type: ["Grass"],
+        category: "Vine",
+        region: "Sinnoh"
+    },
+    {
+        name: "Electivire",
+        number: "466",
+        type: ["Electric"],
+        category: "Thunderbolt",
+        region: "Sinnoh"
+    },
+    {
+        name: "Magmortar",
+        number: "467",
+        type: ["Fire"],
+        category: "Blast",
+        region: "Sinnoh"
+    },
+    {
+        name: "Togekiss",
+        number: "468",
+        type: ["Fairy", "Flying"],
+        category: "Jubilee",
+        region: "Sinnoh"
+    },
+    {
+        name: "Yanmega",
+        number: "469",
+        type: ["Bug", "Flying"],
+        category: "Ogre Darner",
+        region: "Sinnoh"
+    },
+    {
+        name: "Leafeon",
+        number: "470",
+        type: ["Grass"],
+        category: "Verdant",
+        region: "Sinnoh"
+    },
+    {
+        name: "Glaceon",
+        number: "471",
+        type: ["Ice"],
+        category: "Fresh Snow",
+        region: "Sinnoh"
+    },
+    {
+        name: "Gliscor",
+        number: "472",
+        type: ["Ground", "Flying"],
+        category: "Fang Scorpion",
+        region: "Sinnoh"
+    },
+    {
+        name: "Mamoswine",
+        number: "473",
+        type: ["Ice", "Ground"],
+        category: "Twin Tusk",
+        region: "Sinnoh"
+    },
+    {
+        name: "Porygon-Z",
+        number: "474",
+        type: ["Normal"],
+        category: "Virtual",
+        region: "Sinnoh"
+    },
+    {
+        name: "Gallade",
+        number: "475",
+        type: ["Psychic", "Fighting"],
+        category: "Blade",
+        region: "Sinnoh"
+    },
+    {
+        name: "Probopass",
+        number: "476",
+        type: ["Rock", "Steel"],
+        category: "Compass",
+        region: "Sinnoh"
+    },
+    {
+        name: "Dusknoir",
+        number: "477",
+        type: ["Ghost"],
+        category: "Gripper",
+        region: "Sinnoh"
+    },
+    {
+        name: "Froslass",
+        number: "478",
+        type: ["Ice", "Ghost"],
+        category: "Snow Land",
+        region: "Sinnoh"
+    },
+    {
+        name: "Rotom",
+        number: "479",
+        type: ["Electric", "Ghost"],
+        category: "Plasma",
+        region: "Sinnoh"
+    },
+    {
+        name: "Uxie",
+        number: "480",
+        type: ["Psychic"],
+        category: "Knowledge",
+        region: "Sinnoh"
+    },
+    {
+        name: "Mesprit",
+        number: "481",
+        type: ["Psychic"],
+        category: "Emotion",
+        region: "Sinnoh"
+    },
+    {
+        name: "Azelf",
+        number: "482",
+        type: ["Psychic"],
+        category: "Willpower",
+        region: "Sinnoh"
+    },
+    {
+        name: "Dialga",
+        number: "483",
+        type: ["Steel", "Dragon"],
+        category: "Temporal",
+        region: "Sinnoh"
+    },
+    {
+        name: "Palkia",
+        number: "484",
+        type: ["Water", "Dragon"],
+        category: "Spatial",
+        region: "Sinnoh"
+    },
+    {
+        name: "Heatran",
+        number: "485",
+        type: ["Fire", "Steel"],
+        category: "Lava Dome",
+        region: "Sinnoh"
+    },
+    {
+        name: "Regigigas",
+        number: "486",
+        type: ["Normal"],
+        category: "Colossal",
+        region: "Sinnoh"
+    },
+    {
+        name: "Giratina",
+        number: "487",
+        type: ["Ghost", "Dragon"],
+        category: "Renegade",
+        region: "Sinnoh"
+    },
+    {
+        name: "Cresselia",
+        number: "488",
+        type: ["Psychic"],
+        category: "Lunar",
+        region: "Sinnoh"
+    },
+    {
+        name: "Phione",
+        number: "489",
+        type: ["Water"],
+        category: "Sea Drifter",
+        region: "Sinnoh"
+    },
+    {
+        name: "Manaphy",
+        number: "490",
+        type: ["Water"],
+        category: "Seafaring",
+        region: "Sinnoh"
+    },
+    {
+        name: "Darkrai",
+        number: "491",
+        type: ["Dark"],
+        category: "Pitch-Black",
+        region: "Sinnoh"
+    },
+    {
+        name: "Shaymin",
+        number: "492",
+        type: ["Grass"],
+        category: "Gratitude",
+        region: "Sinnoh"
+    },
+    {
+        name: "Arceus",
+        number: "493",
+        type: ["Normal"],
+        category: "Alpha",
+        region: "Sinnoh"
     }
 ]
 
