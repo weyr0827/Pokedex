@@ -1057,6 +1057,706 @@ let nationalDex = [
         type: ["Psychic"],
         category: "New Species",
         region: "Kanto"
+    },
+    {
+        name: "Chikorita",
+        number: "152",
+        type: ["Grass"],
+        category: "Leaf",
+        region: "Johto"
+    },
+    {
+        name: "Bayleef",
+        number: "153",
+        type: ["Grass"],
+        category: "Leaf",
+        region: "Johto"
+    },
+    {
+        name: "Meganium",
+        number: "154",
+        type: ["Grass"],
+        category: "Herb",
+        region: "Johto"
+    },
+    {
+        name: "Cyndaquil",
+        number: "155",
+        type: ["Fire"],
+        category: "Fire Mouse",
+        region: "Johto"
+    },
+    {
+        name: "Quilava",
+        number: "156",
+        type: ["Fire"],
+        category: "Volcano",
+        region: "Johto"
+    },
+    {
+        name: "Typhlosion",
+        number: "157",
+        type: ["Fire"],
+        category: "Volcano",
+        region: "Johto"
+    },
+    {
+        name: "Totodile",
+        number: "158",
+        type: ["Water"],
+        category: "Big Jaw",
+        region: "Johto"
+    },
+    {
+        name: "Croconaw",
+        number: "159",
+        type: ["Water"],
+        category: "Big Jaw",
+        region: "Johto"
+    },
+    {
+        name: "Feraligatr",
+        number: "160",
+        type: ["Water"],
+        category: "Big Jaw",
+        region: "Johto"
+    },
+    {
+        name: "Sentret",
+        number: "161",
+        type: ["Normal"],
+        category: "Scout",
+        region: "Johto"
+    },
+    {
+        name: "Furret",
+        number: "162",
+        type: ["Normal"],
+        category: "Long Body",
+        region: "Johto"
+    },
+    {
+        name: "Hoothoot",
+        number: "163",
+        type: ["Normal", "Flying"],
+        category: "Owl",
+        region: "Johto"
+    },
+    {
+        name: "Noctowl",
+        number: "164",
+        type: ["Normal", "Flying"],
+        category: "Owl",
+        region: "Johto"
+    },
+    {
+        name: "Ledyba",
+        number: "165",
+        type: ["Bug", "Flying"],
+        category: "Five Star",
+        region: "Johto"
+    },
+    {
+        name: "Ledian",
+        number: "166",
+        type: ["Bug", "Flying"],
+        category: "Five Star",
+        region: "Johto"
+    },
+    {
+        name: "Spinarak",
+        number: "167",
+        type: ["Bug", "Poison"],
+        category: "String Spit",
+        region: "Johto"
+    },
+    {
+        name: "Ariados",
+        number: "168",
+        type: ["Bug", "Poison"],
+        category: "Long Leg",
+        region: "Johto"
+    },
+    {
+        name: "Crobat",
+        number: "169",
+        type: ["Poison", "Flying"],
+        category: "Bat",
+        region: "Johto"
+    },
+    {
+        name: "Chinchou",
+        number: "170",
+        type: ["Water", "Electric"],
+        category: "Angler",
+        region: "Johto"
+    },
+    {
+        name: "Lanturn",
+        number: "171",
+        type: ["Water", "Electric"],
+        category: "Light",
+        region: "Johto"
+    },
+    {
+        name: "Pichu",
+        number: "172",
+        type: ["Electric"],
+        category: "Tiny Mouse",
+        region: "Johto"
+    },
+    {
+        name: "Cleffa",
+        number: "173",
+        type: ["Fairy"],
+        category: "Star Shape",
+        region: "Johto"
+    },
+    {
+        name: "Igglybuff",
+        number: "174",
+        type: ["Normal", "Fairy"],
+        category: "Balloon",
+        region: "Johto"
+    },
+    {
+        name: "Togepi",
+        number: "175",
+        type: ["Fairy"],
+        category: "Spike Ball",
+        region: "Johto"
+    },
+    {
+        name: "Togetic",
+        number: "176",
+        type: ["Fairy", "Flying"],
+        category: "Happiness",
+        region: "Johto"
+    },
+    {
+        name: "Natu",
+        number: "177",
+        type: ["Psychic", "Flying"],
+        category: "Tiny Bird",
+        region: "Johto"
+    },
+    {
+        name: "Xatu",
+        number: "178",
+        type: ["Psychic", "Flying"],
+        category: "Mystic",
+        region: "Johto"
+    },
+    {
+        name: "Mareep",
+        number: "179",
+        type: ["Electric"],
+        category: "Wool",
+        region: "Johto"
+    },
+    {
+        name: "Flaaffy",
+        number: "180",
+        type: ["Electric"],
+        category: "Wool",
+        region: "Johto"
+    },
+    {
+        name: "Ampharos",
+        number: "181",
+        type: ["Electric"],
+        category: "Light",
+        region: "Johto"
+    },
+    {
+        name: "Bellossom",
+        number: "182",
+        type: ["Grass"],
+        category: "Flower",
+        region: "Johto"
+    },
+    {
+        name: "Marill",
+        number: "183",
+        type: ["Water", "Fairy"],
+        category: "Aqua Mouse",
+        region: "Johto"
+    },
+    {
+        name: "Azumarill",
+        number: "184",
+        type: ["Water", "Fairy"],
+        category: "Aqua Rabbit",
+        region: "Johto"
+    },
+    {
+        name: "Sudowoodo",
+        number: "185",
+        type: ["Rock"],
+        category: "Imitation",
+        region: "Johto"
+    },
+    {
+        name: "Politoed",
+        number: "186",
+        type: ["Water"],
+        category: "Frog",
+        region: "Johto"
+    },
+    {
+        name: "Hoppip",
+        number: "187",
+        type: ["Grass", "Flying"],
+        category: "Cottonweed",
+        region: "Johto"
+    },
+    {
+        name: "Skiploom",
+        number: "188",
+        type: ["Grass", "Flying"],
+        category: "Cottonweed",
+        region: "Johto"
+    },
+    {
+        name: "Jumpluff",
+        number: "189",
+        type: ["Grass", "Flying"],
+        category: "Cottonweed",
+        region: "Johto"
+    },
+    {
+        name: "Aipom",
+        number: "190",
+        type: ["Normal"],
+        category: "Long Tail",
+        region: "Johto"
+    },
+    {
+        name: "Sunkern",
+        number: "191",
+        type: ["Grass"],
+        category: "Seed",
+        region: "Johto"
+    },
+    {
+        name: "Sunflora",
+        number: "192",
+        type: ["Grass"],
+        category: "Sun",
+        region: "Johto"
+    },
+    {
+        name: "Yanma",
+        number: "193",
+        type: ["Bug", "Flying"],
+        category: "Clear Wing",
+        region: "Johto"
+    },
+    {
+        name: "Wooper",
+        number: "194",
+        type: ["Water", "Ground"],
+        category: "Water Fish",
+        region: "Johto"
+    },
+    {
+        name: "Quagsire",
+        number: "195",
+        type: ["Water", "Ground"],
+        category: "Water Fish",
+        region: "Johto"
+    },
+    {
+        name: "Espeon",
+        number: "196",
+        type: ["Psychic"],
+        category: "Sun",
+        region: "Johto"
+    },
+    {
+        name: "Umbreon",
+        number: "197",
+        type: ["Dark"],
+        category: "Moonlight",
+        region: "Johto"
+    },
+    {
+        name: "Murkrow",
+        number: "198",
+        type: ["Dark", "Flying"],
+        category: "Darkness",
+        region: "Johto"
+    },
+    {
+        name: "Slowking",
+        number: "199",
+        type: ["Water", "Psychic"],
+        category: "Royal",
+        region: "Johto"
+    },
+    {
+        name: "Misdreavus",
+        number: "200",
+        type: ["Ghost"],
+        category: "Screech",
+        region: "Johto"
+    },
+    {
+        name: "Unown",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto"
+    },
+    {
+        name: "Wobbuffet",
+        number: "202",
+        type: ["Psychic"],
+        category: "Patient",
+        region: "Johto"
+    },
+    {
+        name: "Girafarig",
+        number: "203",
+        type: ["Normal", "Psychic"],
+        category: "Long Neck",
+        region: "Johto"
+    },
+    {
+        name: "Pineco",
+        number: "204",
+        type: ["Bug"],
+        category: "Bagworm",
+        region: "Johto"
+    },
+    {
+        name: "Forretress",
+        number: "205",
+        type: ["Bug", "Steel"],
+        category: "Bagworm",
+        region: "Johto"
+    },
+    {
+        name: "Dunsparce",
+        number: "206",
+        type: ["Normal"],
+        category: "Land Snake",
+        region: "Johto"
+    },
+    {
+        name: "Gligar",
+        number: "207",
+        type: ["Ground", "Flying"],
+        category: "Fly Scorpion",
+        region: "Johto"
+    },
+    {
+        name: "Steelix",
+        number: "208",
+        type: ["Steel", "Ground"],
+        category: "Iron Snake",
+        region: "Johto"
+    },
+    {
+        name: "Snubbull",
+        number: "209",
+        type: ["Fairy"],
+        category: "Fairy",
+        region: "Johto"
+    },
+    {
+        name: "Granbull",
+        number: "210",
+        type: ["Fairy"],
+        category: "Fairy",
+        region: "Johto"
+    },
+    {
+        name: "Qwilfish",
+        number: "211",
+        type: ["Water", "Poison"],
+        category: "Balloon",
+        region: "Johto"
+    },
+    {
+        name: "Scizor",
+        number: "212",
+        type: ["Bug", "Steel"],
+        category: "Pincer",
+        region: "Johto"
+    },
+    {
+        name: "Shuckle",
+        number: "213",
+        type: ["Bug", "Rock"],
+        category: "Mold",
+        region: "Johto"
+    },
+    {
+        name: "Heracross",
+        number: "214",
+        type: ["Bug", "Fighting"],
+        category: "Single Horn",
+        region: "Johto"
+    },
+    {
+        name: "Sneasel",
+        number: "215",
+        type: ["Dark", "Ice"],
+        category: "Sharp Claw",
+        region: "Johto"
+    },
+    {
+        name: "Teddiursa",
+        number: "216",
+        type: ["Normal"],
+        category: "Little Bear",
+        region: "Johto"
+    },
+    {
+        name: "Ursaring",
+        number: "217",
+        type: ["Normal"],
+        category: "Hibernator",
+        region: "Johto"
+    },
+    {
+        name: "Slugma",
+        number: "218",
+        type: ["Fire"],
+        category: "Lava",
+        region: "Johto"
+    },
+    {
+        name: "Magcargo",
+        number: "219",
+        type: ["Fire", "Rock"],
+        category: "Lava",
+        region: "Johto"
+    },
+    {
+        name: "Swinub",
+        number: "220",
+        type: ["Ice", "Ground"],
+        category: "Pig",
+        region: "Johto"
+    },
+    {
+        name: "Piloswine",
+        number: "221",
+        type: ["Ice", "Ground"],
+        category: "Swine",
+        region: "Johto"
+    },
+    {
+        name: "Corsola",
+        number: "222",
+        type: ["Water", "Rock"],
+        category: "Coral",
+        region: "Johto"
+    },
+    {
+        name: "Remoraid",
+        number: "223",
+        type: ["Water"],
+        category: "Jet",
+        region: "Johto"
+    },
+    {
+        name: "Octillery",
+        number: "224",
+        type: ["Water"],
+        category: "Jet",
+        region: "Johto"
+    },
+    {
+        name: "Delibird",
+        number: "225",
+        type: ["Ice", "Flying"],
+        category: "Delivery",
+        region: "Johto"
+    },
+    {
+        name: "Mantine",
+        number: "226",
+        type: ["Water", "Flying"],
+        category: "Kite",
+        region: "Johto"
+    },
+    {
+        name: "Skarmory",
+        number: "227",
+        type: ["Steel", "Flying"],
+        category: "Armor Bird",
+        region: "Johto"
+    },
+    {
+        name: "Houndour",
+        number: "228",
+        type: ["Dark", "Fire"],
+        category: "Dark",
+        region: "Johto"
+    },
+    {
+        name: "Houndoom",
+        number: "229",
+        type: ["Dark", "Fire"],
+        category: "Dark",
+        region: "Johto"
+    },
+    {
+        name: "Kingdra",
+        number: "230",
+        type: ["Water", "Dragon"],
+        category: "Dragon",
+        region: "Johto"
+    },
+    {
+        name: "Phanpy",
+        number: "231",
+        type: ["Ground"],
+        category: "Long Nose",
+        region: "Johto"
+    },
+    {
+        name: "Donphan",
+        number: "232",
+        type: ["Ground"],
+        category: "Armor",
+        region: "Johto"
+    },
+    {
+        name: "Porygon2",
+        number: "233",
+        type: ["Normal"],
+        category: "Virtual",
+        region: "Johto"
+    },
+    {
+        name: "Stantler",
+        number: "234",
+        type: ["Normal"],
+        category: "Big Horn",
+        region: "Johto"
+    },
+    {
+        name: "Smeargle",
+        number: "235",
+        type: ["Normal"],
+        category: "Painter",
+        region: "Johto"
+    },
+    {
+        name: "Tyrogue",
+        number: "236",
+        type: ["Fighting"],
+        category: "Scuffle",
+        region: "Johto"
+    },
+    {
+        name: "Hitmontop",
+        number: "237",
+        type: ["Fighting"],
+        category: "Handstand",
+        region: "Johto"
+    },
+    {
+        name: "Smoochum",
+        number: "238",
+        type: ["Ice", "Psychic"],
+        category: "Kiss",
+        region: "Johto"
+    },
+    {
+        name: "Elekid",
+        number: "239",
+        type: ["Electric"],
+        category: "Electric",
+        region: "Johto"
+    },
+    {
+        name: "Magby",
+        number: "240",
+        type: ["Fire"],
+        category: "Live Coal",
+        region: "Johto"
+    },
+    {
+        name: "Miltank",
+        number: "241",
+        type: ["Normal"],
+        category: "Milk Cow",
+        region: "Johto"
+    },
+    {
+        name: "Blissey",
+        number: "242",
+        type: ["Normal"],
+        category: "Happiness",
+        region: "Johto"
+    },
+    {
+        name: "Raikou",
+        number: "243",
+        type: ["Electric"],
+        category: "Thunder",
+        region: "Johto"
+    },
+    {
+        name: "Entei",
+        number: "244",
+        type: ["Fire"],
+        category: "Volcano",
+        region: "Johto"
+    },
+    {
+        name: "Suicune",
+        number: "245",
+        type: ["Water"],
+        category: "Aurora",
+        region: "Johto"
+    },
+    {
+        name: "Larvitar",
+        number: "246",
+        type: ["Rock", "Ground"],
+        category: "Rock Skin",
+        region: "Johto"
+    },
+    {
+        name: "Pupitar",
+        number: "247",
+        type: ["Rock", "Ground"],
+        category: "Hard Shell",
+        region: "Johto"
+    },
+    {
+        name: "Tyranitar",
+        number: "248",
+        type: ["Rock", "Dark"],
+        category: "Armor",
+        region: "Johto"
+    },
+    {
+        name: "Lugia",
+        number: "249",
+        type: ["Psychic", "Flying"],
+        category: "Diving",
+        region: "Johto"
+    },
+    {
+        name: "Ho-Oh",
+        number: "250",
+        type: ["Fire", "Flying"],
+        category: "Rainbow",
+        region: "Johto"
+    },
+    {
+        name: "Celebi",
+        number: "251",
+        type: ["Psychic", "Grass"],
+        category: "Time Travel",
+        region: "Johto"
     }
 ]
 
