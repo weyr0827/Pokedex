@@ -5663,6 +5663,629 @@ let nationalDex = [
         type: ["Steel"],
         category: "Hex Nut",
         region: "Alola"
+    },
+    {
+        name: "Grookey",
+        number: "810",
+        type: ["Grass"],
+        category: "Chimp",
+        region: "Galar"
+    },
+    {
+        name: "Thwackey",
+        number: "811",
+        type: ["Grass"],
+        category: "Beat",
+        region: "Galar"
+    },
+    {
+        name: "Rillaboom",
+        number: "812",
+        type: ["Grass"],
+        category: "Drummer",
+        region: "Galar"
+    },
+    {
+        name: "Scorbunny",
+        number: "813",
+        type: ["Fire"],
+        category: "Rabbit",
+        region: "Galar"
+    },
+    {
+        name: "Raboot",
+        number: "814",
+        type: ["Fire"],
+        category: "Rabbit",
+        region: "Galar"
+    },
+    {
+        name: "Cinderace",
+        number: "815",
+        type: ["Fire"],
+        category: "Striker",
+        region: "Galar"
+    },
+    {
+        name: "Sobble",
+        number: "816",
+        type: ["Water"],
+        category: "Water Lizard",
+        region: "Galar"
+    },
+    {
+        name: "Drizzile",
+        number: "817",
+        type: ["Water"],
+        category: "Water Lizard",
+        region: "Galar"
+    },
+    {
+        name: "Inteleon",
+        number: "818",
+        type: ["Water"],
+        category: "Secret Agent",
+        region: "Galar"
+    },
+    {
+        name: "Skwovet",
+        number: "819",
+        type: ["Normal"],
+        category: "Cheeky",
+        region: "Galar"
+    },
+    {
+        name: "Greedent",
+        number: "820",
+        type: ["Normal"],
+        category: "Greedy",
+        region: "Galar"
+    },
+    {
+        name: "Rookidee",
+        number: "821",
+        type: ["Flying"],
+        category: "Tiny Bird",
+        region: "Galar"
+    },
+    {
+        name: "Corvisquire",
+        number: "822",
+        type: ["Flying"],
+        category: "Raven",
+        region: "Galar"
+    },
+    {
+        name: "Corviknight",
+        number: "823",
+        type: ["Flying", "Steel"],
+        category: "Raven",
+        region: "Galar"
+    },
+    {
+        name: "Blipbug",
+        number: "824",
+        type: ["Bug"],
+        category: "Larva",
+        region: "Galar"
+    },
+    {
+        name: "Dottler",
+        number: "825",
+        type: ["Bug", "Psychic"],
+        category: "Radome",
+        region: "Galar"
+    },
+    {
+        name: "Orbeetle",
+        number: "826",
+        type: ["Bug", "Psychic"],
+        category: "Seven Spot",
+        region: "Galar"
+    },
+    {
+        name: "Nickit",
+        number: "827",
+        type: ["Dark"],
+        category: "Fox",
+        region: "Galar"
+    },
+    {
+        name: "Thievul",
+        number: "828",
+        type: ["Dark"],
+        category: "Fox",
+        region: "Galar"
+    },
+    {
+        name: "Gossifleur",
+        number: "829",
+        type: ["Grass"],
+        category: "Flowering",
+        region: "Galar"
+    },
+    {
+        name: "Eldegoss",
+        number: "830",
+        type: ["Grass"],
+        category: "Cotton Bloom",
+        region: "Galar"
+    },
+    {
+        name: "Wooloo",
+        number: "831",
+        type: ["Normal"],
+        category: "Sheep",
+        region: "Galar"
+    },
+    {
+        name: "Dubwool",
+        number: "832",
+        type: ["Normal"],
+        category: "Sheep",
+        region: "Galar"
+    },
+    {
+        name: "Chewtle",
+        number: "833",
+        type: ["Water"],
+        category: "Snapping",
+        region: "Galar"
+    },
+    {
+        name: "Drednaw",
+        number: "834",
+        type: ["Water", "Rock"],
+        category: "Bite",
+        region: "Galar"
+    },
+    {
+        name: "Yamper",
+        number: "835",
+        type: ["Electric"],
+        category: "Puppy",
+        region: "Galar"
+    },
+    {
+        name: "Boltund",
+        number: "836",
+        type: ["Electric"],
+        category: "Dog",
+        region: "Galar"
+    },
+    {
+        name: "Rolycoly",
+        number: "837",
+        type: ["Rock"],
+        category: "Coal",
+        region: "Galar"
+    },
+    {
+        name: "Carkol",
+        number: "838",
+        type: ["Rock", "Fire"],
+        category: "Coal",
+        region: "Galar"
+    },
+    {
+        name: "Coalossal",
+        number: "839",
+        type: ["Rock", "Fire"],
+        category: "Coal",
+        region: "Galar"
+    },
+    {
+        name: "Applin",
+        number: "840",
+        type: ["Grass", "Dragon"],
+        category: "Apple Core",
+        region: "Galar"
+    },
+    {
+        name: "Flapple",
+        number: "841",
+        type: ["Grass", "Dragon"],
+        category: "Apple Wing",
+        region: "Galar"
+    },
+    {
+        name: "Appletun",
+        number: "842",
+        type: ["Grass", "Dragon"],
+        category: "Apple Nectar",
+        region: "Galar"
+    },
+    {
+        name: "Silicobra",
+        number: "843",
+        type: ["Ground"],
+        category: "Sand Snake",
+        region: "Galar"
+    },
+    {
+        name: "Sandaconda",
+        number: "844",
+        type: ["Ground"],
+        category: "Sand Snake",
+        region: "Galar"
+    },
+    {
+        name: "Cramorant",
+        number: "845",
+        type: ["Flying", "Water"],
+        category: "Sand Snake",
+        region: "Galar"
+    },
+    {
+        name: "Arrokuda",
+        number: "846",
+        type: ["Water"],
+        category: "Rush",
+        region: "Galar"
+    },
+    {
+        name: "Barraskewda",
+        number: "847",
+        type: ["Water"],
+        category: "Skewer",
+        region: "Galar"
+    },
+    {
+        name: "Toxel",
+        number: "848",
+        type: ["Electric", "Poison"],
+        category: "Baby",
+        region: "Galar"
+    },
+    {
+        name: "Toxtricity",
+        number: "849",
+        type: ["Electric", "Poison"],
+        category: "Punk",
+        region: "Galar"
+    },
+    {
+        name: "Sizzlipede",
+        number: "850",
+        type: ["Fire", "Bug"],
+        category: "Radiator",
+        region: "Galar"
+    },
+    {
+        name: "Centiskorch",
+        number: "851",
+        type: ["Fire", "Bug"],
+        category: "Radiator",
+        region: "Galar"
+    },
+    {
+        name: "Clobbopus",
+        number: "852",
+        type: ["Fighting"],
+        category: "Tantrum",
+        region: "Galar"
+    },
+    {
+        name: "Grapploct",
+        number: "853",
+        type: ["Fighting"],
+        category: "Jujitsu",
+        region: "Galar"
+    },
+    {
+        name: "Sinistea",
+        number: "854",
+        type: ["Ghost"],
+        category: "Black Tea",
+        region: "Galar"
+    },
+    {
+        name: "Polteageist",
+        number: "855",
+        type: ["Ghost"],
+        category: "Black Tea",
+        region: "Galar"
+    },
+    {
+        name: "Hatenna",
+        number: "856",
+        type: ["Psychic"],
+        category: "Calm",
+        region: "Galar"
+    },
+    {
+        name: "Hattrem",
+        number: "857",
+        type: ["Psychic"],
+        category: "Serene",
+        region: "Galar"
+    },
+    {
+        name: "Hatterene",
+        number: "858",
+        type: ["Psychic", "Fairy"],
+        category: "Silent",
+        region: "Galar"
+    },
+    {
+        name: "Impidimp",
+        number: "859",
+        type: ["Dark", "Fairy"],
+        category: "Wily",
+        region: "Galar"
+    },
+    {
+        name: "Morgrem",
+        number: "860",
+        type: ["Dark", "Fairy"],
+        category: "Devious",
+        region: "Galar"
+    },
+    {
+        name: "Grimmsnarl",
+        number: "861",
+        type: ["Dark", "Fairy"],
+        category: "Bulk Up",
+        region: "Galar"
+    },
+    {
+        name: "Obstagoon",
+        number: "862",
+        type: ["Dark", "Normal"],
+        category: "Blocking",
+        region: "Galar"
+    },
+    {
+        name: "Perrserker",
+        number: "863",
+        type: ["Steel"],
+        category: "Viking",
+        region: "Galar"
+    },
+    {
+        name: "Cursola",
+        number: "864",
+        type: ["Ghost"],
+        category: "Coral",
+        region: "Galar"
+    },
+    {
+        name: "Sirfetch'd",
+        number: "865",
+        type: ["Fighting"],
+        category: "Wild Duck",
+        region: "Galar"
+    },
+    {
+        name: "Mr. Rime",
+        number: "866",
+        type: ["Ice, Psychic"],
+        category: "Comedian",
+        region: "Galar"
+    },
+    {
+        name: "Runerigus",
+        number: "867",
+        type: ["Ground", "Ghost"],
+        category: "Grudge",
+        region: "Galar"
+    },
+    {
+        name: "Milcery",
+        number: "868",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar"
+    },
+    {
+        name: "Alcremie",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar"
+    },
+    {
+        name: "Falinks",
+        number: "870",
+        type: ["Fighting"],
+        category: "Formation",
+        region: "Galar"
+    },
+    {
+        name: "Pincurchin",
+        number: "871",
+        type: ["Electric"],
+        category: "Sea Urchin",
+        region: "Galar"
+    },
+    {
+        name: "Snom",
+        number: "872",
+        type: ["Ice", "Bug"],
+        category: "Worm",
+        region: "Galar"
+    },
+    {
+        name: "Frosmoth",
+        number: "873",
+        type: ["Ice", "Bug"],
+        category: "Frost Moth",
+        region: "Galar"
+    },
+    {
+        name: "Stonjourner",
+        number: "874",
+        type: ["Rock"],
+        category: "Big Rock",
+        region: "Galar"
+    },
+    {
+        name: "Eiscue",
+        number: "875",
+        type: ["Ice"],
+        category: "Penguin",
+        region: "Galar"
+    },
+    {
+        name: "Indeedee",
+        number: "876",
+        type: ["Psychic", "Normal"],
+        category: "Emotion",
+        region: "Galar"
+    },
+    {
+        name: "Morpeko",
+        number: "877",
+        type: ["Electric", "Dark"],
+        category: "Two-Sided",
+        region: "Galar"
+    },
+    {
+        name: "Cufant",
+        number: "878",
+        type: ["Steel"],
+        category: "Copperderm",
+        region: "Galar"
+    },
+    {
+        name: "Copperajah",
+        number: "879",
+        type: ["Steel"],
+        category: "Copperderm",
+        region: "Galar"
+    },
+    {
+        name: "Dracozolt",
+        number: "880",
+        type: ["Electric", "Dragon"],
+        category: "Fossil",
+        region: "Galar"
+    },
+    {
+        name: "Arctozolt",
+        number: "881",
+        type: ["Electric", "Ice"],
+        category: "Fossil",
+        region: "Galar"
+    },
+    {
+        name: "Dracovish",
+        number: "882",
+        type: ["Water", "Dragon"],
+        category: "Fossil",
+        region: "Galar"
+    },
+    {
+        name: "Arctovish",
+        number: "883",
+        type: ["Water", "Ice"],
+        category: "Fossil",
+        region: "Galar"
+    },
+    {
+        name: "Duraludon",
+        number: "884",
+        type: ["Steel", "Dragon"],
+        category: "Alloy",
+        region: "Galar"
+    },
+    {
+        name: "Dreepy",
+        number: "885",
+        type: ["Dragon", "Ghost"],
+        category: "Lingering",
+        region: "Galar"
+    },
+    {
+        name: "Drakloak",
+        number: "886",
+        type: ["Dragon", "Ghost"],
+        category: "Caretaker",
+        region: "Galar"
+    },
+    {
+        name: "Dragapult",
+        number: "887",
+        type: ["Dragon", "Ghost"],
+        category: "Stealth",
+        region: "Galar"
+    },
+    {
+        name: "Zacian",
+        number: "888",
+        type: ["Fairy", "Steel"],
+        category: "Warrior",
+        region: "Galar"
+    },
+    {
+        name: "Zamazenta",
+        number: "889",
+        type: ["Fighting", "Steel"],
+        category: "Warrior",
+        region: "Galar"
+    },
+    {
+        name: "Eternatus",
+        number: "890",
+        type: ["Poison", "Dragon"],
+        category: "Gigantic",
+        region: "Galar"
+    },
+    {
+        name: "Kubfu",
+        number: "891",
+        type: ["Fighting"],
+        category: "Wushu",
+        region: "Galar"
+    },
+    {
+        name: "Urshifu",
+        number: "892",
+        type: ["Fighting", "Dark"],
+        category: "Wushu",
+        region: "Galar"
+    },
+    {
+        name: "Zarude",
+        number: "893",
+        type: ["Dark", "Grass"],
+        category: "Rogue Monkey",
+        region: "Galar"
+    },
+    {
+        name: "Regieleki",
+        number: "894",
+        type: ["Electric"],
+        category: "Electron",
+        region: "Galar"
+    },
+    {
+        name: "Regidrago",
+        number: "895",
+        type: ["Dragon"],
+        category: "Dragon Orb",
+        region: "Galar"
+    },
+    {
+        name: "Glastrier",
+        number: "896",
+        type: ["Ice"],
+        category: "Wild Horse",
+        region: "Galar"
+    },
+    {
+        name: "Spectrier",
+        number: "897",
+        type: ["Ghost"],
+        category: "Swift Horse",
+        region: "Galar"
+    },
+    {
+        name: "Calyrex",
+        number: "898",
+        type: ["Psychic", "Grass"],
+        category: "King",
+        region: "Galar"
     }
 ]
 
