@@ -5047,6 +5047,622 @@ let nationalDex = [
         type: ["Fire", "Water"],
         category: "Steam",
         region: "Kalos"
+    },
+    {
+        name: "Rowlet",
+        number: "722",
+        type: ["Grass", "Flying"],
+        category: "Grass Quill",
+        region: "Alola"
+    },
+    {
+        name: "Dartrix",
+        number: "723",
+        type: ["Grass", "Flying"],
+        category: "Blade Quill",
+        region: "Alola"
+    },
+    {
+        name: "Decidueye",
+        number: "724",
+        type: ["Grass", "Ghost"],
+        category: "Arrow Quill",
+        region: "Alola"
+    },
+    {
+        name: "Litten",
+        number: "725",
+        type: ["Fire"],
+        category: "Fire Cat",
+        region: "Alola"
+    },
+    {
+        name: "Torracat",
+        number: "726",
+        type: ["Fire"],
+        category: "Fire Cat",
+        region: "Alola"
+    },
+    {
+        name: "Incineroar",
+        number: "727",
+        type: ["Fire", "Dark"],
+        category: "Heel",
+        region: "Alola"
+    },
+    {
+        name: "Popplio",
+        number: "728",
+        type: ["Water"],
+        category: "Sea Lion",
+        region: "Alola"
+    },
+    {
+        name: "Brionne",
+        number: "729",
+        type: ["Water"],
+        category: "Pop Star",
+        region: "Alola"
+    },
+    {
+        name: "Primarina",
+        number: "730",
+        type: ["Water", "Fairy"],
+        category: "Soloist",
+        region: "Alola"
+    },
+    {
+        name: "Pikipek",
+        number: "731",
+        type: ["Normal", "Flying"],
+        category: "Woodpecker",
+        region: "Alola"
+    },
+    {
+        name: "Trumbeak",
+        number: "732",
+        type: ["Normal", "Flying"],
+        category: "Bugle Beak",
+        region: "Alola"
+    },
+    {
+        name: "Toucannon",
+        number: "733",
+        type: ["Normal", "Flying"],
+        category: "Cannon",
+        region: "Alola"
+    },
+    {
+        name: "Yungoos",
+        number: "734",
+        type: ["Normal"],
+        category: "Loitering",
+        region: "Alola"
+    },
+    {
+        name: "Gumshoos",
+        number: "735",
+        type: ["Normal"],
+        category: "Stakeout",
+        region: "Alola"
+    },
+    {
+        name: "Grubbin",
+        number: "736",
+        type: ["Bug"],
+        category: "Larva",
+        region: "Alola"
+    },
+    {
+        name: "Charjabug",
+        number: "737",
+        type: ["Bug", "Electric"],
+        category: "Battery",
+        region: "Alola"
+    },
+    {
+        name: "Vikavolt",
+        number: "738",
+        type: ["Bug", "Electric"],
+        category: "Stag Beetle",
+        region: "Alola"
+    },
+    {
+        name: "Crabrawler",
+        number: "739",
+        type: ["Fighting"],
+        category: "Boxing",
+        region: "Alola"
+    },
+    {
+        name: "Crabominable",
+        number: "740",
+        type: ["Fighting", "Ice"],
+        category: "Woolly Crab",
+        region: "Alola"
+    },
+    {
+        name: "Oricorio",
+        number: "741",
+        type: ["Fire", "Flying"],
+        category: "Dancing",
+        region: "Alola"
+    },
+    {
+        name: "Cutiefly",
+        number: "742",
+        type: ["Bug", "Fairy"],
+        category: "Bee Fly",
+        region: "Alola"
+    },
+    {
+        name: "Ribombee",
+        number: "743",
+        type: ["Bug", "Fairy"],
+        category: "Bee Fly",
+        region: "Alola"
+    },
+    {
+        name: "Rockruff",
+        number: "744",
+        type: ["Rock"],
+        category: "Puppy",
+        region: "Alola"
+    },
+    {
+        name: "Lycanroc",
+        number: "745",
+        type: ["Rock"],
+        category: "Wolf",
+        region: "Alola"
+    },
+    {
+        name: "Wishiwashi",
+        number: "746",
+        type: ["Water"],
+        category: "Small Fry",
+        region: "Alola"
+    },
+    {
+        name: "Mareanie",
+        number: "747",
+        type: ["Poison", "Water"],
+        category: "Brutal Star",
+        region: "Alola"
+    },
+    {
+        name: "Toxapex",
+        number: "748",
+        type: ["Poison", "Water"],
+        category: "Brutal Star",
+        region: "Alola"
+    },
+    {
+        name: "Mudbray",
+        number: "749",
+        type: ["Ground"],
+        category: "Donkey",
+        region: "Alola"
+    },
+    {
+        name: "Mudsdale",
+        number: "750",
+        type: ["Ground"],
+        category: "Draft Horse",
+        region: "Alola"
+    },
+    {
+        name: "Dewpider",
+        number: "751",
+        type: ["Water", "Bug"],
+        category: "Water Bubble",
+        region: "Alola"
+    },
+    {
+        name: "Araquanid",
+        number: "752",
+        type: ["Water", "Bug"],
+        category: "Water Bubble",
+        region: "Alola"
+    },
+    {
+        name: "Fomantis",
+        number: "753",
+        type: ["Grass"],
+        category: "Sickle Grass",
+        region: "Alola"
+    },
+    {
+        name: "Lurantis",
+        number: "754",
+        type: ["Grass"],
+        category: "Bloom Sickle",
+        region: "Alola"
+    },
+    {
+        name: "Morelull",
+        number: "755",
+        type: ["Grass", "Fairy"],
+        category: "Illuminating",
+        region: "Alola"
+    },
+    {
+        name: "Shiinotic",
+        number: "756",
+        type: ["Grass", "Fairy"],
+        category: "Illuminating",
+        region: "Alola"
+    },
+    {
+        name: "Salandit",
+        number: "757",
+        type: ["Poison", "Fire"],
+        category: "Toxic Lizard",
+        region: "Alola"
+    },
+    {
+        name: "Salazzle",
+        number: "758",
+        type: ["Poison", "FIre"],
+        category: "Toxic Lizard",
+        region: "Alola"
+    },
+    {
+        name: "Stufful",
+        number: "759",
+        type: ["Normal", "Fighting"],
+        category: "Flailing",
+        region: "Alola"
+    },
+    {
+        name: "Bewear",
+        number: "760",
+        type: ["Normal", "Fighting"],
+        category: "Strong Arm",
+        region: "Alola"
+    },
+    {
+        name: "Bounsweet",
+        number: "761",
+        type: ["Grass"],
+        category: "Fruit",
+        region: "Alola"
+    },
+    {
+        name: "Steenee",
+        number: "762",
+        type: ["Grass"],
+        category: "Fruit",
+        region: "Alola"
+    },
+    {
+        name: "Tsareena",
+        number: "763",
+        type: ["Grass"],
+        category: "Fruit",
+        region: "Alola"
+    },
+    {
+        name: "Comfey",
+        number: "764",
+        type: ["Fairy"],
+        category: "Posy Picker",
+        region: "Alola"
+    },
+    {
+        name: "Oranguru",
+        number: "765",
+        type: ["Normal", "Psychic"],
+        category: "Sage",
+        region: "Alola"
+    },
+    {
+        name: "Passimian",
+        number: "766",
+        type: ["Fighting"],
+        category: "Teamwork",
+        region: "Alola"
+    },
+    {
+        name: "Wimpod",
+        number: "767",
+        type: ["Bug", "Water"],
+        category: "Turn Tail",
+        region: "Alola"
+    },
+    {
+        name: "Golisopod",
+        number: "768",
+        type: ["Bug", "Water"],
+        category: "Hard Scale",
+        region: "Alola"
+    },
+    {
+        name: "Sandygast",
+        number: "769",
+        type: ["Ghost", "Ground"],
+        category: "Sand Heap",
+        region: "Alola"
+    },
+    {
+        name: "Palossand",
+        number: "770",
+        type: ["Ghost", "Ground"],
+        category: "Sand Castle",
+        region: "Alola"
+    },
+    {
+        name: "Pyukumuku",
+        number: "771",
+        type: ["Water"],
+        category: "Sea Cucumber",
+        region: "Alola"
+    },
+    {
+        name: "Type: Null",
+        number: "772",
+        type: ["Normal"],
+        category: "Synthetic",
+        region: "Alola"
+    },
+    {
+        name: "Silvally",
+        number: "773",
+        type: ["Normal"],
+        category: "Synthetic",
+        region: "Alola"
+    },
+    {
+        name: "Minior",
+        number: "774",
+        type: ["Rock", "Flying"],
+        category: "Meteor",
+        region: "Alola"
+    },
+    {
+        name: "Komala",
+        number: "775",
+        type: ["Normal"],
+        category: "Drowsing",
+        region: "Alola"
+    },
+    {
+        name: "Turtonator",
+        number: "776",
+        type: ["Fire", "Dragon"],
+        category: "Blast Turtle",
+        region: "Alola"
+    },
+    {
+        name: "Togedemaru",
+        number: "777",
+        type: ["Electric", "Steel"],
+        category: "Roly-Poly",
+        region: "Alola"
+    },
+    {
+        name: "Mimikyu",
+        number: "778",
+        type: ["Ghost", "Fairy"],
+        category: "Disguise",
+        region: "Alola"
+    },
+    {
+        name: "Bruxish",
+        number: "779",
+        type: ["Water", "Psychic"],
+        category: "Gnash Teeth",
+        region: "Alola"
+    },
+    {
+        name: "Drampa",
+        number: "780",
+        type: ["Normal", "Dragon"],
+        category: "Placid",
+        region: "Alola"
+    },
+    {
+        name: "Dhelmise",
+        number: "781",
+        type: ["Ghost", "Grass"],
+        category: "Sea Creeper",
+        region: "Alola"
+    },
+    {
+        name: "Jangmo-o",
+        number: "782",
+        type: ["Dragon"],
+        category: "Scaly",
+        region: "Alola"
+    },
+    {
+        name: "Hakamo-o",
+        number: "783",
+        type: ["Dragon", "Fighting"],
+        category: "Scaly",
+        region: "Alola"
+    },
+    {
+        name: "Kommo-o",
+        number: "784",
+        type: ["Dragon", "Fighting"],
+        category: "Scaly",
+        region: "Alola"
+    },
+    {
+        name: "Tapu Koko",
+        number: "785",
+        type: ["Electric", "Fairy"],
+        category: "Land Spirit",
+        region: "Alola"
+    },
+    {
+        name: "Tapu Lele",
+        number: "786",
+        type: ["Psychic", "Fairy"],
+        category: "Land Spirit",
+        region: "Alola"
+    },
+    {
+        name: "Tapu Bulu",
+        number: "787",
+        type: ["Grass", "Fairy"],
+        category: "Land Spirit",
+        region: "Alola"
+    },
+    {
+        name: "Tapu Fini",
+        number: "788",
+        type: ["Water", "Fairy"],
+        category: "Land Spirit",
+        region: "Alola"
+    },
+    {
+        name: "Cosmog",
+        number: "789",
+        type: ["Psychic"],
+        category: "Nebula",
+        region: "Alola"
+    },
+    {
+        name: "Cosmoem",
+        number: "790",
+        type: ["Psychic"],
+        category: "Protostar",
+        region: "Alola"
+    },
+    {
+        name: "Solgaleo",
+        number: "791",
+        type: ["Psychic", "Steel"],
+        category: "Sunne",
+        region: "Alola"
+    },
+    {
+        name: "Lunala",
+        number: "792",
+        type: ["Psychic", "Ghost"],
+        category: "Moone",
+        region: "Alola"
+    },
+    {
+        name: "Nihilego",
+        number: "793",
+        type: ["Rock", "Poison"],
+        category: "Parasite",
+        region: "Alola"
+    },
+    {
+        name: "Buzzwole",
+        number: "794",
+        type: ["Bug", "Fighting"],
+        category: "Swollen",
+        region: "Alola"
+    },
+    {
+        name: "Pheromosa",
+        number: "795",
+        type: ["Bug", "Fighting"],
+        category: "Lissome",
+        region: "Alola"
+    },
+    {
+        name: "Xurkitree",
+        number: "796",
+        type: ["Electric"],
+        category: "Glowing",
+        region: "Alola"
+    },
+    {
+        name: "Celesteela",
+        number: "797",
+        type: ["Steel", "Flying"],
+        category: "Launch",
+        region: "Alola"
+    },
+    {
+        name: "Kartana",
+        number: "798",
+        type: ["Grass", "Steel"],
+        category: "Drawn Sword",
+        region: "Alola"
+    },
+    {
+        name: "Guzzlord",
+        number: "799",
+        type: ["Dark", "Dragon"],
+        category: "Junkivore",
+        region: "Alola"
+    },
+    {
+        name: "Necrozma",
+        number: "800",
+        type: ["Psychic"],
+        category: "Prism",
+        region: "Alola"
+    },
+    {
+        name: "Magearna",
+        number: "801",
+        type: ["Steel", "Fairy"],
+        category: "Artificial",
+        region: "Alola"
+    },
+    {
+        name: "Marshadow",
+        number: "802",
+        type: ["Fighting", "Ghost"],
+        category: "Gloomdweller",
+        region: "Alola"
+    },
+    {
+        name: "Poipole",
+        number: "803",
+        type: ["Poison"],
+        category: "Poison Pin",
+        region: "Alola"
+    },
+    {
+        name: "Naganadel",
+        number: "804",
+        type: ["Poison", "Dragon"],
+        category: "Poison Pin",
+        region: "Alola"
+    },
+    {
+        name: "Stakataka",
+        number: "805",
+        type: ["Rock", "Steel"],
+        category: "Rampart",
+        region: "Alola"
+    },
+    {
+        name: "Blacephalon",
+        number: "806",
+        type: ["Fire", "Ghost"],
+        category: "Fireworks",
+        region: "Alola"
+    },
+    {
+        name: "Zeraora",
+        number: "807",
+        type: ["Electric"],
+        category: "Thunderclap",
+        region: "Alola"
+    },
+    {
+        name: "Meltan",
+        number: "808",
+        type: ["Steel"],
+        category: "Hex Nut",
+        region: "Alola"
+    },
+    {
+        name: "Melmetal",
+        number: "809",
+        type: ["Steel"],
+        category: "Hex Nut",
+        region: "Alola"
     }
 ]
 
