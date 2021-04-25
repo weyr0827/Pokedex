@@ -6325,10 +6325,16 @@ function searchFilter(event){
     event.preventDefault()
 
 let nameId = document.getElementById("name_input").value
+let numberId = document.getElementById("number_input").value
 let typeId = document.getElementById("type_input").value
+let categoryId = document.getElementById("category_input").value
+let regionId = document.getElementById("region_input").value
 
 let filterPokemon = nationalDex.filter(searching => searching.name.toLowerCase().indexOf(nameId.toLowerCase()) > -1 )
+.filter(searching => searching.number.indexOf(numberId) > -1 )
 .filter(searching => String(searching.type).toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
+.filter(searching => String(searching.category).toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
+.filter(searching => String(searching.region).toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
 
 dexRender(filterPokemon)
 
