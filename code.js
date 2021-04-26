@@ -5405,8 +5405,8 @@ let nationalDex = [
         name: "Furfrou",
         imageUrl: "images/676Furfrou.png",
         number: "676",
-        type: ["Poodle"],
-        category: "Normal",
+        type: ["Normal"],
+        category: "Poodle",
         region: "Kalos"
     },
     {
