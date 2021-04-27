@@ -1578,7 +1578,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "GalarianZapdos",
+        name: "Galarian Zapdos",
         imageUrl: "forms/145Zapdos-Galar.png",
         number: "145",
         type: ["Fighting", "Flying"],
