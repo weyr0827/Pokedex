@@ -7233,9 +7233,9 @@ let regionId = document.getElementById("region_input").value
 
 let filterPokemon = nationalDex.filter(searching => searching.name.toLowerCase().indexOf(nameId.toLowerCase()) > -1 )
 .filter(searching => searching.number.indexOf(numberId) > -1 )
-.filter(searching => String(searching.type).toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
-.filter(searching => String(searching.category).toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
-.filter(searching => String(searching.region).toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
+.filter(searching => searching.type.toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
+.filter(searching => searching.category.toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
+.filter(searching => searching.region.toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
 
 dexRender(filterPokemon)
 
