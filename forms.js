@@ -26,7 +26,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Venusaur",
+        name: "Mega Venusaur",
         imageUrl: "forms/003Venusaur-Mega.png",
         number: "003",
         type: ["Grass", "Poison"],
@@ -34,7 +34,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Venusaur",
+        name: "Gigantamax Venusaur",
         imageUrl: "forms/003Venusaur-Gigantamax.png",
         number: "003",
         type: ["Grass", "Poison"],
@@ -66,7 +66,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Charizard",
+        name: "Mega Charizard X",
         imageUrl: "forms/006Charizard-Mega_X.png",
         number: "006",
         type: ["Fire", "Dragon"],
@@ -74,7 +74,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Charizard",
+        name: "Mega Charizard Y",
         imageUrl: "forms/006Charizard-Mega_Y.png",
         number: "006",
         type: ["Fire", "Flying"],
@@ -82,7 +82,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Charizard",
+        name: "Gigantamax Charizard",
         imageUrl: "forms/006Charizard-Gigantamax.png",
         number: "006",
         type: ["Fire", "Flying"],
@@ -114,7 +114,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Blastoise",
+        name: "Mega Blastoise",
         imageUrl: "forms/009Blastoise-Mega.png",
         number: "009",
         type: ["Water"],
@@ -122,7 +122,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Blastoise",
+        name: "Gigantamax Blastoise",
         imageUrl: "forms/009Blastoise-Gigantamax.png",
         number: "009",
         type: ["Water"],
@@ -154,7 +154,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Butterfree",
+        name: "Gigantamax Butterfree",
         imageUrl: "forms/012Butterfree-Gigantamax.png",
         number: "012",
         type: ["Bug", "Flying"],
@@ -186,7 +186,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Beedrill",
+        name: "Mega Beedrill",
         imageUrl: "forms/015Beedrill-Mega.png",
         number: "015",
         type: ["Bug", "Poison"],
@@ -218,7 +218,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Pidgeot",
+        name: "Mega Pidgeot",
         imageUrl: "forms/018Pidgeot-Mega.png",
         number: "018",
         type: ["Normal", "Flying"],
@@ -234,7 +234,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Rattata",
+        name: "Alolan Rattata",
         imageUrl: "forms/019Rattata-Alola.png",
         number: "019",
         type: ["Dark", "Normal"],
@@ -250,7 +250,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Raticate",
+        name: "Alolan Raticate",
         imageUrl: "forms/020Raticate-Alola.png",
         number: "020",
         type: ["Dark", "Normal"],
@@ -298,7 +298,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Pikachu",
+        name: "Gigantamax Pikachu",
         imageUrl: "forms/025Pikachu-Gigantamax.png",
         number: "025",
         type: ["Electric"],
@@ -314,7 +314,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Raichu",
+        name: "Alolan Raichu",
         imageUrl: "forms/026Raichu-Alola.png",
         number: "026",
         type: ["Electric", "Psychic"],
@@ -330,7 +330,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Sandshrew",
+        name: "Alolan Sandshrew",
         imageUrl: "forms/027Sandshrew-Alola.png",
         number: "027",
         type: ["Ice", "Steel"],
@@ -346,7 +346,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Sandslash",
+        name: "Alolan Sandslash",
         imageUrl: "forms/028Sandslash-Alola.png",
         number: "028",
         type: ["Ice", "Steel"],
@@ -426,7 +426,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Vulpix",
+        name: "Alolan Vulpix",
         imageUrl: "forms/037Vulpix-Alola.png",
         number: "037",
         type: ["Ice"],
@@ -442,7 +442,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Ninetales",
+        name: "Alolan Ninetales",
         imageUrl: "forms/038Ninetales-Alola.png",
         number: "038",
         type: ["Ice", "Fairy"],
@@ -546,7 +546,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Diglett",
+        name: "Alolan Diglett",
         imageUrl: "forms/050Diglett-Alola.png",
         number: "050",
         type: ["Ground", "Steel"],
@@ -562,7 +562,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Dugtrio",
+        name: "Alolan Dugtrio",
         imageUrl: "forms/051Dugtrio-Alola.png",
         number: "051",
         type: ["Ground", "Steel"],
@@ -578,7 +578,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Meowth",
+        name: "Gigantamax Meowth",
         imageUrl: "forms/052Meowth-Gigantamax.png",
         number: "052",
         type: ["Normal"],
@@ -586,7 +586,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Meowth",
+        name: "Alolan Meowth",
         imageUrl: "forms/052Meowth-Alola.png",
         number: "052",
         type: ["Dark"],
@@ -594,7 +594,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Meowth",
+        name: "Galarian Meowth",
         imageUrl: "forms/052Meowth-Galar.png",
         number: "052",
         type: ["Steel"],
@@ -610,7 +610,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Persian",
+        name: "Alolan Persian",
         imageUrl: "forms/053Persian-Alola.png",
         number: "053",
         type: ["Dark"],
@@ -714,7 +714,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Alakazam",
+        name: "Mega Alakazam",
         imageUrl: "forms/065Alakazam-Mega.png",
         number: "065",
         type: ["Psychic"],
@@ -746,7 +746,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Machamp",
+        name: "Gigantamax Machamp",
         imageUrl: "forms/068Machamp-Gigantamax.png",
         number: "068",
         type: ["Fighting"],
@@ -802,7 +802,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Geodude",
+        name: "AlolanGeodude",
         imageUrl: "forms/074Geodude-Alola.png",
         number: "074",
         type: ["Rock", "Electric"],
@@ -818,7 +818,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Graveler",
+        name: "Alolan Graveler",
         imageUrl: "forms/075Graveler-Alola.png",
         number: "075",
         type: ["Rock", "Electric"],
@@ -834,7 +834,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Golem",
+        name: "Alolan Golem",
         imageUrl: "forms/076Golem-Alola.png",
         number: "076",
         type: ["Rock", "Electric"],
@@ -850,7 +850,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Ponyta",
+        name: "Galarian Ponyta",
         imageUrl: "forms/077Ponyta-Galar.png",
         number: "077",
         type: ["Psychic"],
@@ -866,7 +866,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Rapidash",
+        name: "Galarian Rapidash",
         imageUrl: "forms/078Rapidash-Galar.png",
         number: "078",
         type: ["Psychic", "Fairy"],
@@ -882,7 +882,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Slowpoke",
+        name: "Galarian Slowpoke",
         imageUrl: "forms/079Slowpoke-Galar.png",
         number: "079",
         type: ["Psychic"],
@@ -898,7 +898,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Slowbro",
+        name: "Mega Slowbro",
         imageUrl: "forms/080Slowbro-Mega.png",
         number: "080",
         type: ["Water", "Psychic"],
@@ -906,7 +906,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Slowbro",
+        name: "Galarian Slowbro",
         imageUrl: "forms/080Slowbro-Galar.png",
         number: "080",
         type: ["Poison", "Psychic"],
@@ -938,7 +938,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Farfetch'd",
+        name: "Galarian Farfetch'd",
         imageUrl: "forms/083Farfetch'd-Galar.png",
         number: "083",
         type: ["Fighting"],
@@ -986,7 +986,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Grimer",
+        name: "Alolan Grimer",
         imageUrl: "forms/088Grimer-Alola.png",
         number: "088",
         type: ["Poison", "Dark"],
@@ -1002,7 +1002,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Muk",
+        name: "Alolan Muk",
         imageUrl: "forms/089Muk-Alola.png",
         number: "089",
         type: ["Poison", "Dark"],
@@ -1050,7 +1050,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Gengar",
+        name: "Mega Gengar",
         imageUrl: "forms/094Gengar-Mega.png",
         number: "094",
         type: ["Ghost", "Poison"],
@@ -1058,7 +1058,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Gengar",
+        name: "Gigantamax Gengar",
         imageUrl: "forms/094Gengar-Gigantamax.png",
         number: "094",
         type: ["Ghost", "Poison"],
@@ -1106,7 +1106,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Kingler",
+        name: "Gigantamax Kingler",
         imageUrl: "forms/099Kingler-Gigantamax.png",
         number: "099",
         type: ["Water"],
@@ -1146,7 +1146,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Exeggutor",
+        name: "Alolan Exeggutor",
         imageUrl: "forms/103Exeggutor-Alola.png",
         number: "103",
         type: ["Grass", "Dragon"],
@@ -1170,7 +1170,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Marowak",
+        name: "Alolan Marowak",
         imageUrl: "forms/105Marowak-Alola.png",
         number: "105",
         type: ["Fire", "Ghost"],
@@ -1218,7 +1218,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Weezing",
+        name: "Galarian Weezing",
         imageUrl: "forms/110Weezing-Galar.png",
         number: "110",
         type: ["Poison", "Fairy"],
@@ -1266,7 +1266,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Kangaskhan",
+        name: "Mega Kangaskhan",
         imageUrl: "forms/115Kangaskhan-Mega.png",
         number: "115",
         type: ["Normal"],
@@ -1330,7 +1330,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Mr. Mime",
+        name: "Galarian Mr. Mime",
         imageUrl: "forms/122Mr._Mime-Galar.png",
         number: "122",
         type: ["Ice", "Psychic"],
@@ -1378,7 +1378,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Pinsir",
+        name: "Mega Pinsir",
         imageUrl: "forms/127Pinsir-Mega.png",
         number: "127",
         type: ["Bug", "Flying"],
@@ -1410,7 +1410,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Gyarados",
+        name: "Mega Gyarados",
         imageUrl: "forms/130Gyarados-Mega.png",
         number: "130",
         type: ["Water", "Dark"],
@@ -1426,7 +1426,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Lapras",
+        name: "Gigantamax Lapras",
         imageUrl: "forms/131Lapras-Gigantamax.png",
         number: "131",
         type: ["Water", "Ice"],
@@ -1450,7 +1450,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Eevee",
+        name: "Gigantamax Eevee",
         imageUrl: "forms/133Eevee-Gigantamax.png",
         number: "133",
         type: ["Normal"],
@@ -1530,7 +1530,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Aerodactyl",
+        name: "Mega Aerodactyl",
         imageUrl: "forms/142Aerodactyl-Mega.png",
         number: "142",
         type: ["Rock", "Flying"],
@@ -1546,7 +1546,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Snorlax",
+        name: "Gigantamax Snorlax",
         imageUrl: "forms/143Snorlax-Gigantamax.png",
         number: "143",
         type: ["Normal"],
@@ -1562,7 +1562,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Articuno",
+        name: "Galarian Articuno",
         imageUrl: "forms/144Articuno-Galar.png",
         number: "144",
         type: ["Psychic", "Flying"],
@@ -1578,7 +1578,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Zapdos",
+        name: "GalarianZapdos",
         imageUrl: "forms/145Zapdos-Galar.png",
         number: "145",
         type: ["Fighting", "Flying"],
@@ -1594,7 +1594,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Moltres",
+        name: "Galarian Moltres",
         imageUrl: "forms/146Moltres-Galar.png",
         number: "146",
         type: ["Dark", "Flying"],
@@ -1634,7 +1634,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Mewtwo",
+        name: "Mega Mewtwo X",
         imageUrl: "forms/150Mewtwo-Mega_X.png",
         number: "150",
         type: ["Psychic", "Fighting"],
@@ -1642,7 +1642,7 @@ let nationalDex = [
         region: "Kanto"
     },
     {
-        name: "Mewtwo",
+        name: "Mega Mewtwo Y",
         imageUrl: "forms/150Mewtwo-Mega_Y.png",
         number: "150",
         type: ["Psychic"],
@@ -1898,7 +1898,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Ampharos",
+        name: "Mega Ampharos",
         imageUrl: "forms/181Ampharos-Mega.png",
         number: "181",
         type: ["Electric", "Dragon"],
@@ -2050,7 +2050,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Slowking",
+        name: "Galarian Slowking",
         imageUrl: "forms/199Slowking-Galar.png",
         number: "199",
         type: ["Poison", "Psychic"],
@@ -2130,7 +2130,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Steelix",
+        name: "Mega Steelix",
         imageUrl: "forms/208Steelix-Mega.png",
         number: "208",
         type: ["Steel", "Ground"],
@@ -2170,7 +2170,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Scizor",
+        name: "Mega Scizor",
         imageUrl: "forms/212Scizor-Mega.png",
         number: "212",
         type: ["Bug", "Steel"],
@@ -2194,7 +2194,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Heracross",
+        name: "Mega Heracross",
         imageUrl: "forms/214Heracross-Mega.png",
         number: "214",
         type: ["Bug", "Fighting"],
@@ -2266,7 +2266,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Corsola",
+        name: "Galarian Corsola",
         imageUrl: "forms/222Corsola-Galar.png",
         number: "222",
         type: ["Ghost"],
@@ -2330,7 +2330,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Houndoom",
+        name: "Mega Houndoom",
         imageUrl: "forms/229Houndoom-Mega.png",
         number: "229",
         type: ["Dark", "Fire"],
@@ -2490,7 +2490,7 @@ let nationalDex = [
         region: "Johto"
     },
     {
-        name: "Tyranitar",
+        name: "Mega Tyranitar",
         imageUrl: "forms/248Tyranitar-Mega.png",
         number: "248",
         type: ["Rock", "Dark"],
@@ -2546,7 +2546,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Sceptile",
+        name: "Mega Sceptile",
         imageUrl: "forms/254Sceptile-Mega.png",
         number: "254",
         type: ["Grass", "Dragon"],
@@ -2578,7 +2578,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Blaziken",
+        name: "Mega Blaziken",
         imageUrl: "forms/257Blaziken-Mega.png",
         number: "257",
         type: ["Fire", "Fighting"],
@@ -2610,7 +2610,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Swampert",
+        name: "Mega Swampert",
         imageUrl: "forms/260Swampert-Mega.png",
         number: "260",
         type: ["Water", "Ground"],
@@ -2642,7 +2642,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Zigzagoon",
+        name: "Galarian Zigzagoon",
         imageUrl: "forms/263Zigzagoon-Galar.png",
         number: "263",
         type: ["Dark", "Normal"],
@@ -2658,7 +2658,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Linoone",
+        name: "Galarian Linoone",
         imageUrl: "forms/264Linoone-Galar.png",
         number: "264",
         type: ["Dark", "Normal"],
@@ -2810,7 +2810,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Gardevoir",
+        name: "Mega Gardevoir",
         imageUrl: "forms/282Gardevoir-Mega.png",
         number: "282",
         type: ["Psychic", "Fairy"],
@@ -2978,7 +2978,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Sableye",
+        name: "Mega Sableye",
         imageUrl: "forms/302Sableye-Mega.png",
         number: "302",
         type: ["Dark", "Ghost"],
@@ -2994,7 +2994,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Mawile",
+        name: "Mega Mawile",
         imageUrl: "forms/303Mawile-Mega.png",
         number: "303",
         type: ["Steel", "Fairy"],
@@ -3018,7 +3018,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Aggron",
+        name: "Mega Aggron",
         imageUrl: "images/306Aggron.png",
         number: "306",
         type: ["Steel", "Rock"],
@@ -3050,7 +3050,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Medicham",
+        name: "Mega Medicham",
         imageUrl: "forms/308Medicham-Mega.png",
         number: "308",
         type: ["Fighting", "Psychic"],
@@ -3074,7 +3074,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Manectric",
+        name: "Mega Manectric",
         imageUrl: "forms/310Manectric-Mega.png",
         number: "310",
         type: ["Electric"],
@@ -3154,7 +3154,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Sharpedo",
+        name: "Mega Sharpedo",
         imageUrl: "forms/319Sharpedo-Mega.png",
         number: "319",
         type: ["Water", "Dark"],
@@ -3194,7 +3194,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Camerupt",
+        name: "Mega Camerupt",
         imageUrl: "forms/323Camerupt-Mega.png",
         number: "323",
         type: ["Fire", "Ground"],
@@ -3290,7 +3290,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Altaria",
+        name: "Mega Altaria",
         imageUrl: "forms/334Altaria-Mega.png",
         number: "334",
         type: ["Dragon", "Fairy"],
@@ -3434,7 +3434,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Castform",
+        name: "Castform (Sunny Form)",
         imageUrl: "forms/351Castform-Sunny.png",
         number: "351",
         type: ["Fire"],
@@ -3442,7 +3442,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Castform",
+        name: "Castform (Rainy Form)",
         imageUrl: "forms/351Castform-Rainy.png",
         number: "351",
         type: ["Water"],
@@ -3450,7 +3450,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Castform",
+        name: "Castform (Snowy Form)",
         imageUrl: "forms/351Castform-Snowy.png",
         number: "351",
         type: ["Ice"],
@@ -3482,7 +3482,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Banette",
+        name: "Mega Banette",
         imageUrl: "forms/354Banette-Mega.png",
         number: "354",
         type: ["Ghost"],
@@ -3530,7 +3530,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Absol",
+        name: "Mega Absol",
         imageUrl: "forms/359Absol-Mega.png",
         number: "359",
         type: ["Dark"],
@@ -3562,7 +3562,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Glalie",
+        name: "Mega Glalie",
         imageUrl: "forms/362Glalie-Mega.png",
         number: "362",
         type: ["Ice"],
@@ -3658,7 +3658,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Salamence",
+        name: "Mega Salamence",
         imageUrl: "forms/373Salamence-Mega.png",
         number: "373",
         type: ["Dragon", "Flying"],
@@ -3690,7 +3690,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Metagross",
+        name: "Mega Metagross",
         imageUrl: "forms/376Metagross-Mega.png",
         number: "376",
         type: ["Steel", "Psychic"],
@@ -3730,7 +3730,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Latias",
+        name: "Mega Latias",
         imageUrl: "forms/380Latias-Mega.png",
         number: "380",
         type: ["Dragon", "Psychic"],
@@ -3746,7 +3746,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Latios",
+        name: "Mega Latios",
         imageUrl: "forms/381Latios-Mega.png",
         number: "381",
         type: ["Dragon", "Psychic"],
@@ -3762,7 +3762,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Kyogre",
+        name: "Primal Kyogre",
         imageUrl: "forms/382Kyogre-Primal.png",
         number: "382",
         type: ["Water"],
@@ -3778,7 +3778,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Groudon",
+        name: "Primal Groudon",
         imageUrl: "forms/383Groudon-Primal.png",
         number: "383",
         type: ["Ground", "Fire"],
@@ -3794,7 +3794,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Rayquaza",
+        name: "Mega Rayquaza",
         imageUrl: "forms/384Rayquaza-Mega.png",
         number: "384",
         type: ["Dragon", "Flying"],
@@ -3818,7 +3818,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Deoxys",
+        name: "Deoxys (Attack Forme)",
         imageUrl: "forms/386Deoxys-Attack.png",
         number: "386",
         type: ["Psychic"],
@@ -3826,7 +3826,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Deoxys",
+        name: "Deoxys (Defense Forme)",
         imageUrl: "forms/386Deoxys-Defense.png",
         number: "386",
         type: ["Psychic"],
@@ -3834,7 +3834,7 @@ let nationalDex = [
         region: "Hoenn"
     },
     {
-        name: "Deoxys",
+        name: "Deoxys (Speed Forme)",
         imageUrl: "forms/386Deoxys-Speed.png",
         number: "386",
         type: ["Psychic"],
@@ -4042,7 +4042,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Burmy",
+        name: "Burmy (Plant Cloak)",
         imageUrl: "images/412Burmy.png",
         number: "412",
         type: ["Bug"],
@@ -4050,7 +4050,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Burmy",
+        name: "Burmy (Sandy Cloak)",
         imageUrl: "forms/412Burmy-Sandy.png",
         number: "412",
         type: ["Bug"],
@@ -4058,7 +4058,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Burmy",
+        name: "Burmy (Trash Cloak)",
         imageUrl: "forms/412Burmy-Trash.png",
         number: "412",
         type: ["Bug"],
@@ -4066,7 +4066,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Wormadam",
+        name: "Wormadam (Plant Cloak)",
         imageUrl: "images/413Wormadam.png",
         number: "413",
         type: ["Bug", "Grass"],
@@ -4074,7 +4074,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Wormadam",
+        name: "Wormadam (Sandy Cloak)",
         imageUrl: "forms/413Wormadam-Sandy.png",
         number: "413",
         type: ["Bug", "Ground"],
@@ -4082,7 +4082,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Wormadam",
+        name: "Wormadam (Trash Cloak)",
         imageUrl: "forms/413Wormadam-Trash.png",
         number: "413",
         type: ["Bug", "Steel"],
@@ -4146,7 +4146,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Cherrim",
+        name: "Cherrim (Overcast Form)",
         imageUrl: "images/421Cherrim.png",
         number: "421",
         type: ["Grass"],
@@ -4154,7 +4154,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Cherrim",
+        name: "Cherrim (Sunshine Form)",
         imageUrl: "forms/421Cherrim-Sunny.png",
         number: "421",
         type: ["Grass"],
@@ -4162,7 +4162,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Shellos",
+        name: "Shellos (East Sea)",
         imageUrl: "images/422Shellos.png",
         number: "422",
         type: ["Water"],
@@ -4170,7 +4170,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Shellos",
+        name: "Shellos (West Sea)",
         imageUrl: "forms/422Shellos-West.png",
         number: "422",
         type: ["Water"],
@@ -4178,7 +4178,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Gastrodon",
+        name: "Gastrodon (East Sea)",
         imageUrl: "images/423Gastrodon.png",
         number: "423",
         type: ["Water", "Ground"],
@@ -4186,7 +4186,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Gastrodon",
+        name: "Gastrodon (West Sea)",
         imageUrl: "forms/423Gastrodon-West.png",
         number: "423",
         type: ["Water", "Ground"],
@@ -4234,7 +4234,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Lopunny",
+        name: "Mega Lopunny",
         imageUrl: "forms/428Lopunny-Mega.png",
         number: "428",
         type: ["Normal", "Fighting"],
@@ -4378,7 +4378,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Garchomp",
+        name: "Mega Garchomp",
         imageUrl: "forms/445Garchomp-Mega.png",
         number: "445",
         type: ["Dragon", "Ground"],
@@ -4410,7 +4410,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Lucario",
+        name: "Mega Lucario",
         imageUrl: "forms/448Lucario-Mega.png",
         number: "448",
         type: ["Fighting", "Steel"],
@@ -4514,7 +4514,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Abomasnow",
+        name: "Mega Abomasnow",
         imageUrl: "forms/460Abomasnow-Mega.png",
         number: "460",
         type: ["Grass", "Ice"],
@@ -4642,6 +4642,14 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
+        name: "Mega Gallade",
+        imageUrl: "forms/475Gallade-Mega.png",
+        number: "475",
+        type: ["Psychic", "Fighting"],
+        category: "Blade",
+        region: "Sinnoh"
+    },
+    {
         name: "Probopass",
         imageUrl: "images/476Probopass.png",
         number: "476",
@@ -4674,7 +4682,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Rotom",
+        name: "Heat Rotom",
         imageUrl: "forms/479Rotom-Heat.png",
         number: "479",
         type: ["Electric", "Fire"],
@@ -4682,7 +4690,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Rotom",
+        name: "Wash Rotom",
         imageUrl: "forms/479Rotom-Wash.png",
         number: "479",
         type: ["Electric", "Water"],
@@ -4690,7 +4698,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Rotom",
+        name: "Frost Rotom",
         imageUrl: "forms/479Rotom-Frost.png",
         number: "479",
         type: ["Electric", "Ice"],
@@ -4698,7 +4706,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Rotom",
+        name: "Fan Rotom",
         imageUrl: "forms/479Rotom-Fan.png",
         number: "479",
         type: ["Electric", "Flying"],
@@ -4706,7 +4714,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Rotom",
+        name: "Mow Rotom",
         imageUrl: "forms/479Rotom-Mow.png",
         number: "479",
         type: ["Electric", "Grass"],
@@ -4770,7 +4778,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Giratina",
+        name: "Giratina (Altered Forme)",
         imageUrl: "images/487Giratina.png",
         number: "487",
         type: ["Ghost", "Dragon"],
@@ -4778,7 +4786,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Giratina",
+        name: "Giratina (Origin Forme)",
         imageUrl: "forms/487Giratina-Origin.png",
         number: "487",
         type: ["Ghost", "Dragon"],
@@ -4818,7 +4826,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Shaymin",
+        name: "Shaymin (Land Forme)",
         imageUrl: "images/492Shaymin.png",
         number: "492",
         type: ["Grass"],
@@ -4826,7 +4834,7 @@ let nationalDex = [
         region: "Sinnoh"
     },
     {
-        name: "Shaymin",
+        name: "Shaymin (Sky Forme)",
         imageUrl: "forms/492Shaymin-Sky.png",
         number: "492",
         type: ["Grass"],
@@ -5058,7 +5066,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Unfezant",
+        name: "Unfezant (Male)",
         imageUrl: "images/521Unfezant.png",
         number: "521",
         type: ["Normal", "Flying"],
@@ -5066,7 +5074,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Unfezant",
+        name: "Unfezant (Female)",
         imageUrl: "forms/521Unfezant-Female.png",
         number: "521",
         type: ["Normal", "Flying"],
@@ -5154,7 +5162,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Audino",
+        name: "Mega Audino",
         imageUrl: "forms/531Audino-Mega.png",
         number: "531",
         type: ["Normal", "Fairy"],
@@ -5306,7 +5314,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Basculin",
+        name: "Red-Striped Basculin",
         imageUrl: "images/550Basculin.png",
         number: "550",
         type: ["Water"],
@@ -5314,7 +5322,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Basculin",
+        name: "Blue-Striped Basculin",
         imageUrl: "forms/550Basculin-Blue.png",
         number: "550",
         type: ["Water"],
@@ -5354,7 +5362,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Darumaka",
+        name: "Galarian Darumaka",
         imageUrl: "forms/554Darumaka-Galar.png",
         number: "554",
         type: ["Ice"],
@@ -5370,7 +5378,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Darmanitan",
+        name: "Darmanitan (Zen Mode)",
         imageUrl: "forms/555Darmanitan-Zen.png",
         number: "555",
         type: ["Fire", "Psychic"],
@@ -5378,7 +5386,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Darmanitan",
+        name: "Galarian Darmanitan",
         imageUrl: "forms/555Darmanitan-Galar.png",
         number: "555",
         type: ["Ice"],
@@ -5386,7 +5394,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Darmanitan",
+        name: "Galarian Darmanitan (Zen Mode)",
         imageUrl: "forms/555Darmanitan-Galar-Zen.png",
         number: "555",
         type: ["Ice", "Fire"],
@@ -5450,7 +5458,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Yamask",
+        name: "Galarian Yamask",
         imageUrl: "forms/562Yamask-Galar.png",
         number: "562",
         type: ["Ground", "Ghost"],
@@ -5514,7 +5522,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Garbodor",
+        name: "Gigantamax Garbodor",
         imageUrl: "forms/569Garbodor-Gigantamax.png",
         number: "569",
         type: ["Poison"],
@@ -5642,7 +5650,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Deerling",
+        name: "Deerling (Spring Form)",
         imageUrl: "images/585Deerling.png",
         number: "585",
         type: ["Normal", "Grass"],
@@ -5650,7 +5658,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Deerling",
+        name: "Deerling (Summer Form)",
         imageUrl: "forms/585Deerling-Summer.png",
         number: "585",
         type: ["Normal", "Grass"],
@@ -5658,7 +5666,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Deerling",
+        name: "Deerling (Autumn Form)",
         imageUrl: "forms/585Deerling-Autumn.png",
         number: "585",
         type: ["Normal", "Grass"],
@@ -5666,7 +5674,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Deerling",
+        name: "Deerling (Winter Form)",
         imageUrl: "forms/585Deerling-Winter.png",
         number: "585",
         type: ["Normal", "Grass"],
@@ -5674,7 +5682,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Sawsbuck",
+        name: "Sawsbuck (Spring Form)",
         imageUrl: "images/586Sawsbuck.png",
         number: "586",
         type: ["Normal", "Grass"],
@@ -5682,7 +5690,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Sawsbuck",
+        name: "Sawsbuck (Summer Form)",
         imageUrl: "forms/586Sawsbuck-Summer.png",
         number: "586",
         type: ["Normal", "Grass"],
@@ -5690,7 +5698,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Sawsbuck",
+        name: "Sawsbuck (Autumn Form)",
         imageUrl: "forms/586Sawsbuck-Autumn.png",
         number: "586",
         type: ["Normal", "Grass"],
@@ -5698,7 +5706,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Sawsbuck",
+        name: "Sawsbuck (Winter Form)",
         imageUrl: "forms/586Sawsbuck-Winter.png",
         number: "586",
         type: ["Normal", "Grass"],
@@ -5746,7 +5754,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Frillish",
+        name: "Frillish (Male)",
         imageUrl: "images/592Frillish.png",
         number: "592",
         type: ["Water", "Ghost"],
@@ -5754,7 +5762,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Frillish",
+        name: "Frillish (Female)",
         imageUrl: "forms/592Frillish-Female.png",
         number: "592",
         type: ["Water", "Ghost"],
@@ -5762,7 +5770,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Jellicent",
+        name: "Jellicent (Male)",
         imageUrl: "images/593Jellicent.png",
         number: "593",
         type: ["Water", "Ghost"],
@@ -5770,7 +5778,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Jellicent",
+        name: "Jellicent (Female)",
         imageUrl: "forms/593Jellicent-Female.png",
         number: "593",
         type: ["Water", "Ghost"],
@@ -5978,7 +5986,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Stunfisk",
+        name: "Galarian Stunfisk",
         imageUrl: "forms/618Stunfisk-Galar.png",
         number: "618",
         type: ["Ground", "Steel"],
@@ -6162,7 +6170,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Tornadus",
+        name: "Tornadus (Incarnate Forme)",
         imageUrl: "images/641Tornadus.png",
         number: "641",
         type: ["Flying"],
@@ -6170,7 +6178,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Tornadus",
+        name: "Tornadus (Therian Forme)",
         imageUrl: "forms/641Tornadus-Therian.png",
         number: "641",
         type: ["Flying"],
@@ -6178,7 +6186,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Thundurus",
+        name: "Thundurus (Incarnate Forme)",
         imageUrl: "images/642Thundurus.png",
         number: "642",
         type: ["Electric", "Flying"],
@@ -6186,7 +6194,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Thundurus",
+        name: "Thundurus (Therian Forme)",
         imageUrl: "forms/642Thundurus-Therian.png",
         number: "642",
         type: ["Electric", "Flying"],
@@ -6210,7 +6218,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Landorus",
+        name: "Landorus (Incarnate Forme)",
         imageUrl: "images/645Landorus.png",
         number: "645",
         type: ["Ground", "Flying"],
@@ -6218,7 +6226,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Landorus",
+        name: "Landorus (Therian Forme)",
         imageUrl: "forms/645Landorus-Therian.png",
         number: "645",
         type: ["Ground", "Flying"],
@@ -6234,7 +6242,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Kyurem",
+        name: "Black Kyurem",
         imageUrl: "forms/646Kyurem-Black.png",
         number: "646",
         type: ["Dragon", "Ice"],
@@ -6242,7 +6250,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Kyurem",
+        name: "White Kyurem",
         imageUrl: "forms/646Kyurem-White.png",
         number: "646",
         type: ["Dragon", "Ice"],
@@ -6250,7 +6258,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Keldeo",
+        name: "Keldeo (Ordinary Form)",
         imageUrl: "images/647Keldeo.png",
         number: "647",
         type: ["Water", "Fighting"],
@@ -6258,7 +6266,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Keldeo",
+        name: "Keldeo (Resolute Form)",
         imageUrl: "forms/647Keldeo-Resolute.png",
         number: "647",
         type: ["Water", "Fighting"],
@@ -6266,7 +6274,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Meloetta",
+        name: "Meloetta (Aria Forme)",
         imageUrl: "images/648Meloetta.png",
         number: "648",
         type: ["Normal", "Psychic"],
@@ -6274,7 +6282,7 @@ let nationalDex = [
         region: "Unova"
     },
     {
-        name: "Meloetta",
+        name: "Meloetta (Pirouette Forme)",
         imageUrl: "forms/648Meloetta-Pirouette.png",
         number: "648",
         type: ["Normal", "Fighting"],
@@ -6362,7 +6370,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Greninja",
+        name: "Ash-Greninja",
         imageUrl: "forms/658Greninja-Ash.png",
         number: "658",
         type: ["Water", "Dark"],
@@ -6442,7 +6450,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Pyroar",
+        name: "Pyroar (Male)",
         imageUrl: "images/668Pyroar.png",
         number: "668",
         type: ["Fire", "Normal"],
@@ -6450,7 +6458,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Pyroar",
+        name: "Pyroar (Female)",
         imageUrl: "forms/668Pyroar-Female.png",
         number: "668",
         type: ["Fire", "Normal"],
@@ -6530,7 +6538,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Meowstic",
+        name: "Meowstic (Male)",
         imageUrl: "images/678Meowstic.png",
         number: "678",
         type: ["Psychic"],
@@ -6538,7 +6546,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Meowstic",
+        name: "Meowstic (Female)",
         imageUrl: "forms/678Meowstic-Female.png",
         number: "678",
         type: ["Psychic"],
@@ -6562,7 +6570,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Aegislash",
+        name: "Aegislash (Shield Forme)",
         imageUrl: "images/681Aegislash.png",
         number: "681",
         type: ["Steel", "Ghost"],
@@ -6570,7 +6578,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Aegislash",
+        name: "Aegislash (Blade Forme)",
         imageUrl: "forms/681Aegislash-Blade.png",
         number: "681",
         type: ["Steel", "Ghost"],
@@ -6866,7 +6874,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Zygarde",
+        name: "Zygarde (50% Forme)",
         imageUrl: "images/718Zygarde.png",
         number: "718",
         type: ["Dragon", "Ground"],
@@ -6874,7 +6882,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Zygarde",
+        name: "Zygarde (10% Forme)",
         imageUrl: "forms/718Zygarde-10Percent.png",
         number: "718",
         type: ["Dragon", "Ground"],
@@ -6882,7 +6890,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Zygarde",
+        name: "Zygarde (Complete Forme)",
         imageUrl: "forms/718Zygarde-Complete.png",
         number: "718",
         type: ["Dragon", "Ground"],
@@ -6898,7 +6906,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Diancie",
+        name: "Mega Diancie",
         imageUrl: "forms/719Diancie-Mega.png",
         number: "719",
         type: ["Rock", "Fairy"],
@@ -6906,7 +6914,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Hoopa",
+        name: "Hoopa Confined",
         imageUrl: "images/720Hoopa.png",
         number: "720",
         type: ["Psychic", "Ghost"],
@@ -6914,7 +6922,7 @@ let nationalDex = [
         region: "Kalos"
     },
     {
-        name: "Hoopa",
+        name: "Hoopa Unbound",
         imageUrl: "forms/720Hoopa-Unbound.png",
         number: "720",
         type: ["Psychic", "Dark"],
@@ -7082,7 +7090,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Oricorio",
+        name: "Oricorio (Baile Style)",
         imageUrl: "images/741Oricorio.png",
         number: "741",
         type: ["Fire", "Flying"],
@@ -7090,7 +7098,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Oricorio",
+        name: "Oricorio (Pom-Pom Style)",
         imageUrl: "forms/741Oricorio-Pom-Pom.png",
         number: "741",
         type: ["Electric", "Flying"],
@@ -7098,7 +7106,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Oricorio",
+        name: "Oricorio (Pa'u Style)",
         imageUrl: "forms/741Oricorio-Pa'u.png",
         number: "741",
         type: ["Psychic", "Flying"],
@@ -7106,7 +7114,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Oricorio",
+        name: "Oricorio (Sensu Style)",
         imageUrl: "forms/741Oricorio-Sensu.png",
         number: "741",
         type: ["Ghost", "Flying"],
@@ -7138,7 +7146,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Lycanroc",
+        name: "Lycanroc (Midday Form)",
         imageUrl: "images/745Lycanroc.png",
         number: "745",
         type: ["Rock"],
@@ -7146,7 +7154,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Lycanroc",
+        name: "Lycanroc (Midnight Form)",
         imageUrl: "forms/745Lycanroc-Midnight.png",
         number: "745",
         type: ["Rock"],
@@ -7154,7 +7162,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Lycanroc",
+        name: "Lycanroc (Dusk Form)",
         imageUrl: "forms/745Lycanroc-Dusk.png",
         number: "745",
         type: ["Rock"],
@@ -7162,7 +7170,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Wishiwashi",
+        name: "Wishiwashi (Solo Form)",
         imageUrl: "images/746Wishiwashi.png",
         number: "746",
         type: ["Water"],
@@ -7170,7 +7178,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Wishiwashi",
+        name: "Wishiwashi (School Form)",
         imageUrl: "forms/746Wishiwashi-School.png",
         number: "746",
         type: ["Water"],
@@ -7402,7 +7410,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Minior",
+        name: "Minior (Core)",
         imageUrl: "forms/774Minior-Core.png",
         number: "774",
         type: ["Rock", "Flying"],
@@ -7618,7 +7626,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Necrozma",
+        name: "Dusk Mane Necrozma",
         imageUrl: "forms/800Necrozma-Dusk_Mane.png",
         number: "800",
         type: ["Psychic", "Steel"],
@@ -7626,7 +7634,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Necrozma",
+        name: "Dawn Wings Necrozma",
         imageUrl: "forms/800Necrozma-Dawn_Wings.png",
         number: "800",
         type: ["Psychic", "Ghost"],
@@ -7634,7 +7642,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Necrozma",
+        name: "Ultra Necrozma",
         imageUrl: "forms/800Necrozma-Ultra.png",
         number: "800",
         type: ["Psychic", "Dragon"],
@@ -7714,7 +7722,7 @@ let nationalDex = [
         region: "Alola"
     },
     {
-        name: "Melmetal",
+        name: "Gigantamax Melmetal",
         imageUrl: "forms/809Melmetal-Gigantamax.png",
         number: "809",
         type: ["Steel"],
@@ -7746,7 +7754,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Rillaboom",
+        name: "Gigantamax Rillaboom",
         imageUrl: "forms/812Rillaboom-Gigantamax.png",
         number: "812",
         type: ["Grass"],
@@ -7778,7 +7786,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Cinderace",
+        name: "Gigantamax Cinderace",
         imageUrl: "forms/815Cinderace-Gigantamax.png",
         number: "815",
         type: ["Fire"],
@@ -7810,7 +7818,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Inteleon",
+        name: "Gigantamax Inteleon",
         imageUrl: "forms/818Inteleon-Gigantamax.png",
         number: "818",
         type: ["Water"],
@@ -7858,7 +7866,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Corviknight",
+        name: "Gigantamax Corviknight",
         imageUrl: "forms/823Corviknight-Gigantamax.png",
         number: "823",
         type: ["Flying", "Steel"],
@@ -7890,7 +7898,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Orbeetle",
+        name: "Gigantamax Orbeetle",
         imageUrl: "forms/826Orbeetle-Gigantamax.png",
         number: "826",
         type: ["Bug", "Psychic"],
@@ -7962,7 +7970,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Drednaw",
+        name: "Gigantamax Drednaw",
         imageUrl: "forms/834Drednaw-Gigantamax.png",
         number: "834",
         type: ["Water", "Rock"],
@@ -8010,7 +8018,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Coalossal",
+        name: "Gigantamax Coalossal",
         imageUrl: "forms/839Coalossal-Gigantamax.png",
         number: "839",
         type: ["Rock", "Fire"],
@@ -8034,7 +8042,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Flapple",
+        name: "Gigantamax Flapple",
         imageUrl: "forms/841Flapple-Gigantamax.png",
         number: "841",
         type: ["Grass", "Dragon"],
@@ -8050,7 +8058,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Appletun",
+        name: "Gigantamax Appletun",
         imageUrl: "forms/842Appletun-Gigantamax.png",
         number: "842",
         type: ["Grass", "Dragon"],
@@ -8074,7 +8082,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Sandaconda",
+        name: "Gigantamax Sandaconda",
         imageUrl: "forms/844Sandaconda-Gigantamax.png",
         number: "844",
         type: ["Ground"],
@@ -8114,7 +8122,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Toxtricity",
+        name: "Toxtricity (Amped Form)",
         imageUrl: "images/849Toxtricity.png",
         number: "849",
         type: ["Electric", "Poison"],
@@ -8122,7 +8130,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Toxtricity",
+        name: "Toxtricity (Low Key Form)",
         imageUrl: "forms/849Toxtricity-Low_Key.png",
         number: "849",
         type: ["Electric", "Poison"],
@@ -8130,7 +8138,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Toxtricity",
+        name: "Gigantamax Toxtricity",
         imageUrl: "forms/849Toxtricity-Gigantamax.png",
         number: "849",
         type: ["Electric", "Poison"],
@@ -8154,7 +8162,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Centiskorch",
+        name: "Gigantamax Centiskorch",
         imageUrl: "forms/851Centiskorch-Gigantamax.png",
         number: "851",
         type: ["Fire", "Bug"],
@@ -8218,7 +8226,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Hatterene",
+        name: "Gigantamax Hatterene",
         imageUrl: "forms/858Hatterene-Gigantamax.png",
         number: "858",
         type: ["Psychic", "Fairy"],
@@ -8250,7 +8258,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Grimmsnarl",
+        name: "Gigantamax Grimmsnarl",
         imageUrl: "forms/861Grimmsnarl-Gigantamax.png",
         number: "861",
         type: ["Dark", "Fairy"],
@@ -8322,7 +8330,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Alcremie",
+        name: "Gigantamax Alcremie",
         imageUrl: "forms/869Alcremie-Gigantamax.png",
         number: "869",
         type: ["Fairy"],
@@ -8370,7 +8378,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Eiscue",
+        name: "Eiscue (Ice Face)",
         imageUrl: "images/875Eiscue.png",
         number: "875",
         type: ["Ice"],
@@ -8378,7 +8386,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Eiscue",
+        name: "Eiscue (Noice Face)",
         imageUrl: "forms/875Eiscue-Noice.png",
         number: "875",
         type: ["Ice"],
@@ -8386,7 +8394,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Indeedee",
+        name: "Indeedee (Male)",
         imageUrl: "images/876Indeedee.png",
         number: "876",
         type: ["Psychic", "Normal"],
@@ -8394,7 +8402,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Indeedee",
+        name: "Indeedee (Female)",
         imageUrl: "forms/876Indeedee-Female.png",
         number: "876",
         type: ["Psychic", "Normal"],
@@ -8402,7 +8410,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Morpeko",
+        name: "Morpeko (Full Belly Mode)",
         imageUrl: "images/877Morpeko.png",
         number: "877",
         type: ["Electric", "Dark"],
@@ -8410,7 +8418,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Morpeko",
+        name: "Morpeko (Hangry Mode)",
         imageUrl: "forms/877Morpeko-Hangry.png",
         number: "877",
         type: ["Electric", "Dark"],
@@ -8434,7 +8442,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Copperajah",
+        name: "Gigantamax Copperajah",
         imageUrl: "forms/879Copperajah-Gigantamax.png",
         number: "879",
         type: ["Steel"],
@@ -8482,7 +8490,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Duraludon",
+        name: "Gigantamax Duraludon",
         imageUrl: "forms/884Duraludon-Gigantamax.png",
         number: "884",
         type: ["Steel", "Dragon"],
@@ -8514,7 +8522,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Zacian",
+        name: "Zacian (Crowned Sword)",
         imageUrl: "images/888Zacian.png",
         number: "888",
         type: ["Fairy", "Steel"],
@@ -8522,7 +8530,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Zacian",
+        name: "Zacian (Hero of Many Battles)",
         imageUrl: "forms/888Zacian-Hero.png",
         number: "888",
         type: ["Fairy"],
@@ -8530,7 +8538,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Zamazenta",
+        name: "Zamazenta (Crowned Shield)",
         imageUrl: "images/889Zamazenta.png",
         number: "889",
         type: ["Fighting", "Steel"],
@@ -8538,7 +8546,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Zamazenta",
+        name: "Zamazenta (Hero of Many Battles)",
         imageUrl: "forms/889Zamazenta-Hero.png",
         number: "889",
         type: ["Fighting"],
@@ -8554,7 +8562,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Eternatus",
+        name: "Eternamax Eternatus",
         imageUrl: "forms/890Eternatus-Eternamax.png",
         number: "890",
         type: ["Poison", "Dragon"],
@@ -8570,7 +8578,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Urshifu",
+        name: "Urshifu (Single Strike Style)",
         imageUrl: "images/892Urshifu.png",
         number: "892",
         type: ["Fighting", "Dark"],
@@ -8578,7 +8586,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Urshifu",
+        name: "Gigantamax Urshifu (Single Strike Style)",
         imageUrl: "forms/892Urshifu-Gigantamax_Single_Strike.png",
         number: "892",
         type: ["Fighting", "Dark"],
@@ -8586,7 +8594,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Urshifu",
+        name: "Urshifu (Rapid Strike Style)",
         imageUrl: "forms/892Urshifu-Rapid_Strike.png",
         number: "892",
         type: ["Fighting", "Water"],
@@ -8594,7 +8602,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Urshifu",
+        name: "Gigantamax Urshifu (Rapid Strike Style)",
         imageUrl: "forms/892Urshifu-Gigantamax_Rapid_Strike.png",
         number: "892",
         type: ["Fighting", "Water"],
@@ -8650,7 +8658,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Calyrex",
+        name: "Ice Rider Calyrex",
         imageUrl: "forms/898Calyrex-Ice_Rider.png",
         number: "898",
         type: ["Psychic", "Ice"],
@@ -8658,7 +8666,7 @@ let nationalDex = [
         region: "Galar"
     },
     {
-        name: "Calyrex",
+        name: "Shadow Rider Calyrex",
         imageUrl: "forms/898Calyrex-Shadow_Rider.png",
         number: "898",
         type: ["Psychic", "Ghost"],
@@ -8713,7 +8721,7 @@ let regionId = document.getElementById("region_input").value
 
 let filterPokemon = nationalDex.filter(searching => searching.name.toLowerCase().indexOf(nameId.toLowerCase()) > -1 )
 .filter(searching => searching.number.indexOf(numberId) > -1 )
-.filter(searching => searching.type.toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
+.filter(searching => String(searching.type).toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
 .filter(searching => searching.category.toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
 .filter(searching => searching.region.toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
 
