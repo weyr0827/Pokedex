@@ -8725,6 +8725,68 @@ let filterPokemon = nationalDex.filter(searching => searching.name.toLowerCase()
 .filter(searching => searching.category.toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
 .filter(searching => searching.region.toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
 
-dexRender(filterPokemon)
+function coloring(){
+    let typeColor = document.getElementById("type_input").value
 
+    if (typeColor === "Normal" || typeColor === "normal" || typeColor === "NORMAL") {
+        document.body.style.backgroundColor = "#a8a878"
+    }
+    else if (typeColor === "Fire" || typeColor === "fire" || typeColor === "FIRE") {
+        document.body.style.backgroundColor = "#f08030"
+    }
+    else if (typeColor === "Water" || typeColor === "water" || typeColor === "WATER") {
+        document.body.style.backgroundColor = "#6890f0"
+    }
+    else if (typeColor === "Electric" || typeColor === "electric" || typeColor === "ELECTRIC") {
+        document.body.style.backgroundColor = "#f8d030"
+    }
+    else if (typeColor === "Grass" || typeColor === "grass" || typeColor === "GRASS") {
+        document.body.style.backgroundColor = "#78c850"
+    }
+    else if (typeColor === "Ice" || typeColor === "ice" || typeColor === "ICE") {
+        document.body.style.backgroundColor = "#98d8d8"
+    }
+    else if (typeColor === "Fighting" || typeColor === "fighting" || typeColor === "FIGHTING") {
+        document.body.style.backgroundColor = "#c03028"
+    }
+    else if (typeColor === "Poison" || typeColor === "poison" || typeColor === "POISON") {
+        document.body.style.backgroundColor = "#a040a0"
+    }
+    else if (typeColor === "Ground" || typeColor === "ground" || typeColor === "GROUND") {
+        document.body.style.backgroundColor = "#e0c068"
+    }
+    else if (typeColor === "Flying" || typeColor === "flying" || typeColor === "FLYING") {
+        document.body.style.backgroundColor = "#a890f0"
+    }
+    else if (typeColor === "Psychic" || typeColor === "psychic" || typeColor === "PSYCHIC") {
+        document.body.style.backgroundColor = "#f85888"
+    }
+    else if (typeColor === "Bug" || typeColor === "bug" || typeColor === "BUG") {
+        document.body.style.backgroundColor = "#a8b820"
+    }
+    else if (typeColor === "Rock" || typeColor === "rock" || typeColor === "ROCK") {
+        document.body.style.backgroundColor = "#b8a038"
+    }
+    else if (typeColor === "Ghost" || typeColor === "ghost" || typeColor === "GHOST") {
+        document.body.style.backgroundColor = "#705898"
+    }
+    else if (typeColor === "Dragon" || typeColor === "dragon" || typeColor === "DRAGON") {
+        document.body.style.backgroundColor = "#7038f8"
+    }
+    else if (typeColor === "Dark" || typeColor === "dark" || typeColor === "DARK") {
+        document.body.style.backgroundColor = "#705848"
+    }
+    else if (typeColor === "Steel" || typeColor === "steel" || typeColor === "STEEL") {
+        document.body.style.backgroundColor = "#b8b8d0"
+    }
+    else if (typeColor === "Fairy" || typeColor === "fairy" || typeColor === "FAIRY") {
+        document.body.style.backgroundColor = "#ee99ac"
+    }
+    else {
+        document.body.style.backgroundColor = "darkturquoise"
+    }
+}  
+
+dexRender(filterPokemon)
+coloring()
 }
