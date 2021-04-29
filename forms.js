@@ -2077,7 +2077,9 @@ let nationalDex = [
         number: "152",
         type: ["Grass"],
         category: "Leaf",
-        region: "Johto"
+        region: "Johto",
+        height: "2'11''",
+        weight: "14.1 lbs."
     },
     {
         name: "Bayleef",
@@ -2085,7 +2087,9 @@ let nationalDex = [
         number: "153",
         type: ["Grass"],
         category: "Leaf",
-        region: "Johto"
+        region: "Johto",
+        height: "3'11''",
+        weight: "34.8 lbs."
     },
     {
         name: "Meganium",
@@ -2093,7 +2097,9 @@ let nationalDex = [
         number: "154",
         type: ["Grass"],
         category: "Herb",
-        region: "Johto"
+        region: "Johto",
+        height: "5'11''",
+        weight: "221.6 lbs."
     },
     {
         name: "Cyndaquil",
@@ -2101,7 +2107,9 @@ let nationalDex = [
         number: "155",
         type: ["Fire"],
         category: "Fire Mouse",
-        region: "Johto"
+        region: "Johto",
+        height: "1'08''",
+        weight: "17.4 lbs."
     },
     {
         name: "Quilava",
@@ -2109,7 +2117,9 @@ let nationalDex = [
         number: "156",
         type: ["Fire"],
         category: "Volcano",
-        region: "Johto"
+        region: "Johto",
+        height: "2'11''",
+        weight: "41.9 lbs."
     },
     {
         name: "Typhlosion",
@@ -2117,7 +2127,9 @@ let nationalDex = [
         number: "157",
         type: ["Fire"],
         category: "Volcano",
-        region: "Johto"
+        region: "Johto",
+        height: "5'07''",
+        weight: "175.3 lbs."
     },
     {
         name: "Totodile",
@@ -2125,7 +2137,9 @@ let nationalDex = [
         number: "158",
         type: ["Water"],
         category: "Big Jaw",
-        region: "Johto"
+        region: "Johto",
+        height: "2'00''",
+        weight: "20.9 lbs."
     },
     {
         name: "Croconaw",
@@ -2133,7 +2147,9 @@ let nationalDex = [
         number: "159",
         type: ["Water"],
         category: "Big Jaw",
-        region: "Johto"
+        region: "Johto",
+        height: "3'07''",
+        weight: "55.1 lbs."
     },
     {
         name: "Feraligatr",
@@ -2141,7 +2157,9 @@ let nationalDex = [
         number: "160",
         type: ["Water"],
         category: "Big Jaw",
-        region: "Johto"
+        region: "Johto",
+        height: "7'07''",
+        weight: "195.8 lbs."
     },
     {
         name: "Sentret",
@@ -2149,7 +2167,9 @@ let nationalDex = [
         number: "161",
         type: ["Normal"],
         category: "Scout",
-        region: "Johto"
+        region: "Johto",
+        height: "2'07''",
+        weight: "13.2 lbs."
     },
     {
         name: "Furret",
@@ -2157,7 +2177,9 @@ let nationalDex = [
         number: "162",
         type: ["Normal"],
         category: "Long Body",
-        region: "Johto"
+        region: "Johto",
+        height: "5'11''",
+        weight: "71.7 lbs."
     },
     {
         name: "Hoothoot",
@@ -2165,7 +2187,9 @@ let nationalDex = [
         number: "163",
         type: ["Normal", "Flying"],
         category: "Owl",
-        region: "Johto"
+        region: "Johto",
+        height: "2'04''",
+        weight: "46.7 lbs."
     },
     {
         name: "Noctowl",
@@ -2173,7 +2197,9 @@ let nationalDex = [
         number: "164",
         type: ["Normal", "Flying"],
         category: "Owl",
-        region: "Johto"
+        region: "Johto",
+        height: "5'03''",
+        weight: "89.9 lbs."
     },
     {
         name: "Ledyba",
@@ -2181,7 +2207,9 @@ let nationalDex = [
         number: "165",
         type: ["Bug", "Flying"],
         category: "Five Star",
-        region: "Johto"
+        region: "Johto",
+        height: "3'03''",
+        weight: "23.8 lbs."
     },
     {
         name: "Ledian",
@@ -2189,7 +2217,9 @@ let nationalDex = [
         number: "166",
         type: ["Bug", "Flying"],
         category: "Five Star",
-        region: "Johto"
+        region: "Johto",
+        height: "4'07''",
+        weight: "78.5 lbs."
     },
     {
         name: "Spinarak",
@@ -2197,7 +2227,9 @@ let nationalDex = [
         number: "167",
         type: ["Bug", "Poison"],
         category: "String Spit",
-        region: "Johto"
+        region: "Johto",
+        height: "1'08''",
+        weight: "18.7 lbs."
     },
     {
         name: "Ariados",
@@ -2205,7 +2237,9 @@ let nationalDex = [
         number: "168",
         type: ["Bug", "Poison"],
         category: "Long Leg",
-        region: "Johto"
+        region: "Johto",
+        height: "3'07''",
+        weight: "73.9 lbs."
     },
     {
         name: "Crobat",
@@ -2213,7 +2247,9 @@ let nationalDex = [
         number: "169",
         type: ["Poison", "Flying"],
         category: "Bat",
-        region: "Johto"
+        region: "Johto",
+        height: "5'11''",
+        weight: "165.3 lbs."
     },
     {
         name: "Chinchou",
@@ -2221,7 +2257,9 @@ let nationalDex = [
         number: "170",
         type: ["Water", "Electric"],
         category: "Angler",
-        region: "Johto"
+        region: "Johto",
+        height: "1'08''",
+        weight: "26.5 lbs."
     },
     {
         name: "Lanturn",
@@ -2229,7 +2267,9 @@ let nationalDex = [
         number: "171",
         type: ["Water", "Electric"],
         category: "Light",
-        region: "Johto"
+        region: "Johto",
+        height: "3'11''",
+        weight: "49.6 lbs."
     },
     {
         name: "Pichu",
@@ -2237,7 +2277,9 @@ let nationalDex = [
         number: "172",
         type: ["Electric"],
         category: "Tiny Mouse",
-        region: "Johto"
+        region: "Johto",
+        height: "1'00''",
+        weight: "4.4 lbs."
     },
     {
         name: "Cleffa",
@@ -2245,7 +2287,9 @@ let nationalDex = [
         number: "173",
         type: ["Fairy"],
         category: "Star Shape",
-        region: "Johto"
+        region: "Johto",
+        height: "1'00''",
+        weight: "6.6 lbs."
     },
     {
         name: "Igglybuff",
@@ -2253,7 +2297,9 @@ let nationalDex = [
         number: "174",
         type: ["Normal", "Fairy"],
         category: "Balloon",
-        region: "Johto"
+        region: "Johto",
+        height: "1'00''",
+        weight: "2.2 lbs."
     },
     {
         name: "Togepi",
@@ -2261,7 +2307,9 @@ let nationalDex = [
         number: "175",
         type: ["Fairy"],
         category: "Spike Ball",
-        region: "Johto"
+        region: "Johto",
+        height: "1'00''",
+        weight: "3.3 lbs."
     },
     {
         name: "Togetic",
@@ -2269,7 +2317,9 @@ let nationalDex = [
         number: "176",
         type: ["Fairy", "Flying"],
         category: "Happiness",
-        region: "Johto"
+        region: "Johto",
+        height: "2'00''",
+        weight: "7.1 lbs."
     },
     {
         name: "Natu",
@@ -2277,7 +2327,9 @@ let nationalDex = [
         number: "177",
         type: ["Psychic", "Flying"],
         category: "Tiny Bird",
-        region: "Johto"
+        region: "Johto",
+        height: "0'08''",
+        weight: "4.4 lbs."
     },
     {
         name: "Xatu",
@@ -2285,7 +2337,9 @@ let nationalDex = [
         number: "178",
         type: ["Psychic", "Flying"],
         category: "Mystic",
-        region: "Johto"
+        region: "Johto",
+        height: "4'11''",
+        weight: "33.1 lbs."
     },
     {
         name: "Mareep",
@@ -2293,7 +2347,9 @@ let nationalDex = [
         number: "179",
         type: ["Electric"],
         category: "Wool",
-        region: "Johto"
+        region: "Johto",
+        height: "2'00''",
+        weight: "17.2 lbs."
     },
     {
         name: "Flaaffy",
@@ -2301,7 +2357,9 @@ let nationalDex = [
         number: "180",
         type: ["Electric"],
         category: "Wool",
-        region: "Johto"
+        region: "Johto",
+        height: "2'07''",
+        weight: "29.3 lbs."
     },
     {
         name: "Ampharos",
@@ -2309,7 +2367,9 @@ let nationalDex = [
         number: "181",
         type: ["Electric",],
         category: "Light",
-        region: "Johto"
+        region: "Johto",
+        height: "4'07''",
+        weight: "135.6 lbs."
     },
     {
         name: "Mega Ampharos",
@@ -2317,7 +2377,9 @@ let nationalDex = [
         number: "181",
         type: ["Electric", "Dragon"],
         category: "Light",
-        region: "Johto"
+        region: "Johto",
+        height: "4'07''",
+        weight: "135.6 lbs."
     },
     {
         name: "Bellossom",
@@ -2325,7 +2387,9 @@ let nationalDex = [
         number: "182",
         type: ["Grass"],
         category: "Flower",
-        region: "Johto"
+        region: "Johto",
+        height: "1'04''",
+        weight: "12.8 lbs."
     },
     {
         name: "Marill",
@@ -2333,7 +2397,9 @@ let nationalDex = [
         number: "183",
         type: ["Water", "Fairy"],
         category: "Aqua Mouse",
-        region: "Johto"
+        region: "Johto",
+        height: "1'04''",
+        weight: "18.7 lbs."
     },
     {
         name: "Azumarill",
@@ -2341,7 +2407,9 @@ let nationalDex = [
         number: "184",
         type: ["Water", "Fairy"],
         category: "Aqua Rabbit",
-        region: "Johto"
+        region: "Johto",
+        height: "2'07''",
+        weight: "62.8 lbs."
     },
     {
         name: "Sudowoodo",
@@ -2349,7 +2417,9 @@ let nationalDex = [
         number: "185",
         type: ["Rock"],
         category: "Imitation",
-        region: "Johto"
+        region: "Johto",
+        height: "3'11''",
+        weight: "83.8 lbs."
     },
     {
         name: "Politoed",
@@ -2357,7 +2427,9 @@ let nationalDex = [
         number: "186",
         type: ["Water"],
         category: "Frog",
-        region: "Johto"
+        region: "Johto",
+        height: "3'07''",
+        weight: "74.7 lbs."
     },
     {
         name: "Hoppip",
@@ -2365,7 +2437,9 @@ let nationalDex = [
         number: "187",
         type: ["Grass", "Flying"],
         category: "Cottonweed",
-        region: "Johto"
+        region: "Johto",
+        height: "1'04''",
+        weight: "1.1 lbs."
     },
     {
         name: "Skiploom",
@@ -2373,7 +2447,9 @@ let nationalDex = [
         number: "188",
         type: ["Grass", "Flying"],
         category: "Cottonweed",
-        region: "Johto"
+        region: "Johto",
+        height: "2'00''",
+        weight: "2.2 lbs."
     },
     {
         name: "Jumpluff",
@@ -2381,7 +2457,9 @@ let nationalDex = [
         number: "189",
         type: ["Grass", "Flying"],
         category: "Cottonweed",
-        region: "Johto"
+        region: "Johto",
+        height: "2'07''",
+        weight: "6.6 lbs."
     },
     {
         name: "Aipom",
@@ -2389,7 +2467,9 @@ let nationalDex = [
         number: "190",
         type: ["Normal"],
         category: "Long Tail",
-        region: "Johto"
+        region: "Johto",
+        height: "2'07''",
+        weight: "25.4 lbs."
     },
     {
         name: "Sunkern",
@@ -2397,7 +2477,9 @@ let nationalDex = [
         number: "191",
         type: ["Grass"],
         category: "Seed",
-        region: "Johto"
+        region: "Johto",
+        height: "1'00''",
+        weight: "4.0 lbs."
     },
     {
         name: "Sunflora",
@@ -2405,7 +2487,9 @@ let nationalDex = [
         number: "192",
         type: ["Grass"],
         category: "Sun",
-        region: "Johto"
+        region: "Johto",
+        height: "2'07''",
+        weight: "18.7 lbs."
     },
     {
         name: "Yanma",
@@ -2413,7 +2497,9 @@ let nationalDex = [
         number: "193",
         type: ["Bug", "Flying"],
         category: "Clear Wing",
-        region: "Johto"
+        region: "Johto",
+        height: "3'11''",
+        weight: "83.8 lbs."
     },
     {
         name: "Wooper",
@@ -2421,7 +2507,9 @@ let nationalDex = [
         number: "194",
         type: ["Water", "Ground"],
         category: "Water Fish",
-        region: "Johto"
+        region: "Johto",
+        height: "1'04''",
+        weight: "18.7 lbs."
     },
     {
         name: "Quagsire",
@@ -2429,7 +2517,9 @@ let nationalDex = [
         number: "195",
         type: ["Water", "Ground"],
         category: "Water Fish",
-        region: "Johto"
+        region: "Johto",
+        height: "4'07''",
+        weight: "165.3 lbs."
     },
     {
         name: "Espeon",
@@ -2437,7 +2527,9 @@ let nationalDex = [
         number: "196",
         type: ["Psychic"],
         category: "Sun",
-        region: "Johto"
+        region: "Johto",
+        height: "2'11''",
+        weight: "58.4 lbs."
     },
     {
         name: "Umbreon",
@@ -2445,7 +2537,9 @@ let nationalDex = [
         number: "197",
         type: ["Dark"],
         category: "Moonlight",
-        region: "Johto"
+        region: "Johto",
+        height: "3'03''",
+        weight: "59.5 lbs."
     },
     {
         name: "Murkrow",
@@ -2453,7 +2547,9 @@ let nationalDex = [
         number: "198",
         type: ["Dark", "Flying"],
         category: "Darkness",
-        region: "Johto"
+        region: "Johto",
+        height: "1'08''",
+        weight: "4.6 lbs."
     },
     {
         name: "Slowking",
