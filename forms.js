@@ -987,7 +987,9 @@ let nationalDex = [
         number: "073",
         type: ["Water", "Poison"],
         category: "Jellyfish",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'03''",
+        weight: "121.3 lbs."
     },
     {
         name: "Geodude",
@@ -995,15 +997,19 @@ let nationalDex = [
         number: "074",
         type: ["Rock", "Ground"],
         category: "Rock",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "44.1 lbs."
     },
     {
-        name: "AlolanGeodude",
+        name: "Alolan Geodude",
         imageUrl: "forms/074Geodude-Alola.png",
         number: "074",
         type: ["Rock", "Electric"],
         category: "Rock",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "44.8 lbs."
     },
     {
         name: "Graveler",
@@ -1011,7 +1017,9 @@ let nationalDex = [
         number: "075",
         type: ["Rock", "Ground"],
         category: "Rock",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "231.5 lbs."
     },
     {
         name: "Alolan Graveler",
@@ -1019,7 +1027,9 @@ let nationalDex = [
         number: "075",
         type: ["Rock", "Electric"],
         category: "Rock",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "242.5 lbs."
     },
     {
         name: "Golem",
@@ -1027,7 +1037,9 @@ let nationalDex = [
         number: "076",
         type: ["Rock", "Ground"],
         category: "Megaton",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'07''",
+        weight: "661.4 lbs."
     },
     {
         name: "Alolan Golem",
@@ -1035,7 +1047,9 @@ let nationalDex = [
         number: "076",
         type: ["Rock", "Electric"],
         category: "Megaton",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'07''",
+        weight: "696.7 lbs."
     },
     {
         name: "Ponyta",
@@ -1043,7 +1057,9 @@ let nationalDex = [
         number: "077",
         type: ["Fire"],
         category: "Fire Horse",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "66.1 lbs."
     },
     {
         name: "Galarian Ponyta",
@@ -1051,7 +1067,9 @@ let nationalDex = [
         number: "077",
         type: ["Psychic"],
         category: "Unique Horn",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'07''",
+        weight: "52.9 lbs."
     },
     {
         name: "Rapidash",
@@ -1059,7 +1077,9 @@ let nationalDex = [
         number: "078",
         type: ["Fire"],
         category: "Fire Horse",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'07''",
+        weight: "209.4 lbs."
     },
     {
         name: "Galarian Rapidash",
@@ -1067,7 +1087,9 @@ let nationalDex = [
         number: "078",
         type: ["Psychic", "Fairy"],
         category: "Unique Horn",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'07''",
+        weight: "176.4 lbs."
     },
     {
         name: "Slowpoke",
@@ -1075,7 +1097,9 @@ let nationalDex = [
         number: "079",
         type: ["Water", "Psychic"],
         category: "Dopey",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'11''",
+        weight: "79.4 lbs."
     },
     {
         name: "Galarian Slowpoke",
@@ -1083,7 +1107,9 @@ let nationalDex = [
         number: "079",
         type: ["Psychic"],
         category: "Dopey",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'11''",
+        weight: "79.4 lbs."
     },
     {
         name: "Slowbro",
@@ -1091,7 +1117,9 @@ let nationalDex = [
         number: "080",
         type: ["Water", "Psychic"],
         category: "Hermit Crab",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'03''",
+        weight: "173.1 lbs."
     },
     {
         name: "Mega Slowbro",
@@ -1099,7 +1127,9 @@ let nationalDex = [
         number: "080",
         type: ["Water", "Psychic"],
         category: "Hermit Crab",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'07''",
+        weight: "264.6 lbs."
     },
     {
         name: "Galarian Slowbro",
@@ -1107,7 +1137,9 @@ let nationalDex = [
         number: "080",
         type: ["Poison", "Psychic"],
         category: "Hermit Crab",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'03''",
+        weight: "155.4 lbs."
     },
     {
         name: "Magnemite",
@@ -1115,7 +1147,9 @@ let nationalDex = [
         number: "081",
         type: ["Electric", "Steel"],
         category: "Magnet",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'00''",
+        weight: "13.2 lbs."
     },
     {
         name: "Magneton",
@@ -1123,7 +1157,9 @@ let nationalDex = [
         number: "082",
         type: ["Electric", "Steel"],
         category: "Magnet",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "132.3 lbs."
     },
     {
         name: "Farfetch'd",
@@ -1131,7 +1167,9 @@ let nationalDex = [
         number: "083",
         type: ["Normal", "Flying"],
         category: "Wild Duck",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'07''",
+        weight: "33.1 lbs."
     },
     {
         name: "Galarian Farfetch'd",
@@ -1139,7 +1177,9 @@ let nationalDex = [
         number: "083",
         type: ["Fighting"],
         category: "Wild Duck",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'07''",
+        weight: "92.6 lbs."
     },
     {
         name: "Doduo",
@@ -1147,7 +1187,9 @@ let nationalDex = [
         number: "084",
         type: ["Normal", "Flying"],
         category: "Twin Bird",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'07''",
+        weight: "86.4 lbs."
     },
     {
         name: "Dodrio",
@@ -1155,7 +1197,9 @@ let nationalDex = [
         number: "085",
         type: ["Normal", "Flying"],
         category: "Triple Bird",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'11''",
+        weight: "187.8 lbs."
     },
     {
         name: "Seel",
@@ -1163,7 +1207,9 @@ let nationalDex = [
         number: "086",
         type: ["Water"],
         category: "Sea Lion",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'07''",
+        weight: "198.4 lbs."
     },
     {
         name: "Dewgong",
@@ -1171,7 +1217,9 @@ let nationalDex = [
         number: "087",
         type: ["Water", "Ice"],
         category: "Sea Lion",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'07''",
+        weight: "264.6 lbs."
     },
     {
         name: "Grimer",
@@ -1179,7 +1227,9 @@ let nationalDex = [
         number: "088",
         type: ["Poison"],
         category: "Sludge",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'11''",
+        weight: "66.1 lbs."
     },
     {
         name: "Alolan Grimer",
@@ -1187,7 +1237,9 @@ let nationalDex = [
         number: "088",
         type: ["Poison", "Dark"],
         category: "Sludge",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'04''",
+        weight: "92.6 lbs."
     },
     {
         name: "Muk",
@@ -1195,7 +1247,9 @@ let nationalDex = [
         number: "089",
         type: ["Poison"],
         category: "Sludge",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'11''",
+        weight: "66.1 lbs."
     },
     {
         name: "Alolan Muk",
@@ -1203,7 +1257,9 @@ let nationalDex = [
         number: "089",
         type: ["Poison", "Dark"],
         category: "Sludge",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "114.6 lbs."
     },
     {
         name: "Shellder",
@@ -1211,7 +1267,9 @@ let nationalDex = [
         number: "090",
         type: ["Water"],
         category: "Bivalve",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'00''",
+        weight: "8.8 lbs."
     },
     {
         name: "Cloyster",
@@ -1219,7 +1277,9 @@ let nationalDex = [
         number: "091",
         type: ["Water", "Ice"],
         category: "Bivalve",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'11''",
+        weight: "292.1 lbs."
     },
     {
         name: "Gastly",
@@ -1227,7 +1287,9 @@ let nationalDex = [
         number: "092",
         type: ["Ghost", "Poison"],
         category: "Gas",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'03''",
+        weight: "0.2 lbs."
     },
     {
         name: "Haunter",
@@ -1235,7 +1297,9 @@ let nationalDex = [
         number: "093",
         type: ["Ghost", "Poison"],
         category: "Gas",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'03''",
+        weight: "0.2 lbs."
     },
     {
         name: "Gengar",
@@ -1243,7 +1307,9 @@ let nationalDex = [
         number: "094",
         type: ["Ghost", "Poison"],
         category: "Shadow",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'11''",
+        weight: "89.3 lbs."
     },
     {
         name: "Mega Gengar",
@@ -1251,7 +1317,9 @@ let nationalDex = [
         number: "094",
         type: ["Ghost", "Poison"],
         category: "Shadow",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'07''",
+        weight: "89.3 lbs."
     },
     {
         name: "Gigantamax Gengar",
@@ -1259,7 +1327,9 @@ let nationalDex = [
         number: "094",
         type: ["Ghost", "Poison"],
         category: "Shadow",
-        region: "Kanto"
+        region: "Kanto",
+        height: "65'07''+",
+        weight: "??? lbs."
     },
     {
         name: "Onix",
@@ -1267,7 +1337,9 @@ let nationalDex = [
         number: "095",
         type: ["Rock", "Ground"],
         category: "Rock Snake",
-        region: "Kanto"
+        region: "Kanto",
+        height: "28'10''",
+        weight: "463.0 lbs."
     },
     {
         name: "Drowzee",
@@ -1275,7 +1347,9 @@ let nationalDex = [
         number: "096",
         type: ["Psychic"],
         category: "Hypnosis",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "71.4 lbs."
     },
     {
         name: "Hypno",
@@ -1283,7 +1357,9 @@ let nationalDex = [
         number: "097",
         type: ["Psychic"],
         category: "Hypnosis",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'03''",
+        weight: "71.4 lbs."
     },
     {
         name: "Krabby",
@@ -1291,7 +1367,9 @@ let nationalDex = [
         number: "098",
         type: ["Water"],
         category: "River Crab",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "14.3 lbs."
     },
     {
         name: "Kingler",
@@ -1299,7 +1377,9 @@ let nationalDex = [
         number: "099",
         type: ["Water"],
         category: "Pincer",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'03''",
+        weight: "132.3 lbs."
     },
     {
         name: "Gigantamax Kingler",
@@ -1307,7 +1387,9 @@ let nationalDex = [
         number: "099",
         type: ["Water"],
         category: "Pincer",
-        region: "Kanto"
+        region: "Kanto",
+        height: "62'04''+",
+        weight: "??? lbs."
     },
     {
         name: "Voltorb",
@@ -1315,7 +1397,9 @@ let nationalDex = [
         number: "100",
         type: ["Electric"],
         category: "Ball",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'08''",
+        weight: "22.9 lbs."
     },
     {
         name: "Electrode",
@@ -1323,7 +1407,9 @@ let nationalDex = [
         number: "101",
         type: ["Electric"],
         category: "Ball",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'11''",
+        weight: "146.8 lbs."
     },
     {
         name: "Exeggcute",
@@ -1331,7 +1417,9 @@ let nationalDex = [
         number: "102",
         type: ["Grass", "Psychic"],
         category: "Egg",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "5.5 lbs."
     },
     {
         name: "Exeggutor",
@@ -1339,7 +1427,9 @@ let nationalDex = [
         number: "103",
         type: ["Grass", "Psychic"],
         category: "Coconut",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'07''",
+        weight: "264.6 lbs."
     },
     {
         name: "Alolan Exeggutor",
@@ -1347,7 +1437,9 @@ let nationalDex = [
         number: "103",
         type: ["Grass", "Dragon"],
         category: "Coconut",
-        region: "Kanto"
+        region: "Kanto",
+        height: "35'09''",
+        weight: "916.2 lbs."
     },
     {
         name: "Cubone",
@@ -1355,7 +1447,9 @@ let nationalDex = [
         number: "104",
         type: ["Ground"],
         category: "Lonely",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "14.3 lbs."
     },
     {
         name: "Marowak",
@@ -1363,7 +1457,9 @@ let nationalDex = [
         number: "105",
         type: ["Ground"],
         category: "Bone Keeper",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "99.2 lbs."
     },
     {
         name: "Alolan Marowak",
@@ -1371,7 +1467,9 @@ let nationalDex = [
         number: "105",
         type: ["Fire", "Ghost"],
         category: "Bone Keeper",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "75.0 lbs."
     },
     {
         name: "Hitmonlee",
@@ -1379,7 +1477,9 @@ let nationalDex = [
         number: "106",
         type: ["Fighting"],
         category: "Kicking",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'11''",
+        weight: "109.8 lbs."
     },
     {
         name: "Hitmonchan",
@@ -1387,7 +1487,9 @@ let nationalDex = [
         number: "107",
         type: ["Fighting"],
         category: "Punching",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'07''",
+        weight: "110.7 lbs."
     },
     {
         name: "Lickitung",
@@ -1395,7 +1497,9 @@ let nationalDex = [
         number: "108",
         type: ["Normal"],
         category: "Licking",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'11''",
+        weight: "144.4 lbs."
     },
     {
         name: "Koffing",
@@ -1403,7 +1507,9 @@ let nationalDex = [
         number: "109",
         type: ["Poison"],
         category: "Poison Gas",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'00''",
+        weight: "2.2 lbs."
     },
     {
         name: "Weezing",
@@ -1411,7 +1517,9 @@ let nationalDex = [
         number: "110",
         type: ["Poison"],
         category: "Poison Gas",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'11''",
+        weight: "20.9 lbs."
     },
     {
         name: "Galarian Weezing",
@@ -1419,7 +1527,9 @@ let nationalDex = [
         number: "110",
         type: ["Poison", "Fairy"],
         category: "Poison Gas",
-        region: "Kanto"
+        region: "Kanto",
+        height: "9'10''",
+        weight: "35.3 lbs."
     },
     {
         name: "Rhyhorn",
@@ -1427,7 +1537,9 @@ let nationalDex = [
         number: "111",
         type: ["Ground", "Rock"],
         category: "Spikes",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "253.5 lbs."
     },
     {
         name: "Rhydon",
@@ -1435,7 +1547,9 @@ let nationalDex = [
         number: "112",
         type: ["Ground", "Rock"],
         category: "Drill",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'03''",
+        weight: "264.6 lbs."
     },
     {
         name: "Chansey",
@@ -1443,7 +1557,9 @@ let nationalDex = [
         number: "113",
         type: ["Normal"],
         category: "Egg",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'07''",
+        weight: "76.3 lbs."
     },
     {
         name: "Tangela",
@@ -1451,7 +1567,9 @@ let nationalDex = [
         number: "114",
         type: ["Grass"],
         category: "Vine",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "77.2 lbs."
     },
     {
         name: "Kangaskhan",
@@ -1459,7 +1577,9 @@ let nationalDex = [
         number: "115",
         type: ["Normal"],
         category: "Parent",
-        region: "Kanto"
+        region: "Kanto",
+        height: "7'03''",
+        weight: "176.4 lbs."
     },
     {
         name: "Mega Kangaskhan",
@@ -1467,7 +1587,9 @@ let nationalDex = [
         number: "115",
         type: ["Normal"],
         category: "Parent",
-        region: "Kanto"
+        region: "Kanto",
+        height: "7'03''",
+        weight: "220.5 lbs."
     },
     {
         name: "Horsea",
@@ -1475,7 +1597,9 @@ let nationalDex = [
         number: "116",
         type: ["Water"],
         category: "Dragon",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "17.6 lbs."
     },
     {
         name: "Seadra",
@@ -1483,7 +1607,9 @@ let nationalDex = [
         number: "117",
         type: ["Water"],
         category: "Dragon",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'11''",
+        weight: "55.1 lbs."
     },
     {
         name: "Goldeen",
@@ -1491,7 +1617,9 @@ let nationalDex = [
         number: "118",
         type: ["Water"],
         category: "Goldfish",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'00''",
+        weight: "33.1 lbs."
     },
     {
         name: "Seaking",
@@ -1499,7 +1627,9 @@ let nationalDex = [
         number: "119",
         type: ["Water"],
         category: "Goldfish",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'00''",
+        weight: "33.1 lbs."
     },
     {
         name: "Staryu",
@@ -1507,7 +1637,9 @@ let nationalDex = [
         number: "120",
         type: ["Water"],
         category: "Star Shape",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'07''",
+        weight: "76.1 lbs."
     },
     {
         name: "Starmie",
@@ -1515,7 +1647,9 @@ let nationalDex = [
         number: "121",
         type: ["Water", "Psychic"],
         category: "Mysterious",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'07''",
+        weight: "176.4 lbs."
     },
     {
         name: "Mr. Mime",
@@ -1523,7 +1657,9 @@ let nationalDex = [
         number: "122",
         type: ["Psychic", "Fairy"],
         category: "Barrier",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'03''",
+        weight: "120.2 lbs."
     },
     {
         name: "Galarian Mr. Mime",
@@ -1531,7 +1667,9 @@ let nationalDex = [
         number: "122",
         type: ["Ice", "Psychic"],
         category: "Dancing",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'07''",
+        weight: "125.2 lbs."
     },
     {
         name: "Scyther",
@@ -1539,7 +1677,9 @@ let nationalDex = [
         number: "123",
         type: ["Bug", "Flying"],
         category: "Mantis",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'11''",
+        weight: "123.5 lbs."
     },
     {
         name: "Jynx",
@@ -1547,7 +1687,9 @@ let nationalDex = [
         number: "124",
         type: ["Ice", "Psychic"],
         category: "Human Shape",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'07''",
+        weight: "89.5 lbs."
     },
     {
         name: "Electabuzz",
@@ -1555,7 +1697,9 @@ let nationalDex = [
         number: "125",
         type: ["Electric"],
         category: "Electric",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'07''",
+        weight: "66.1 lbs."
     },
     {
         name: "Magmar",
@@ -1563,7 +1707,9 @@ let nationalDex = [
         number: "126",
         type: ["Fire"],
         category: "Spitfire",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'03''",
+        weight: "98.1 lbs."
     },
     {
         name: "Pinsir",
@@ -1571,7 +1717,9 @@ let nationalDex = [
         number: "127",
         type: ["Bug"],
         category: "Stag Beetle",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'11''",
+        weight: "121.3 lbs."
     },
     {
         name: "Mega Pinsir",
@@ -1579,7 +1727,9 @@ let nationalDex = [
         number: "127",
         type: ["Bug", "Flying"],
         category: "Stag Beetle",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'07''",
+        weight: "130.1 lbs."
     },
     {
         name: "Tauros",
@@ -1587,7 +1737,9 @@ let nationalDex = [
         number: "128",
         type: ["Normal"],
         category: "Wild Bull",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'07''",
+        weight: "194.9 lbs."
     },
     {
         name: "Magikarp",
@@ -1595,7 +1747,9 @@ let nationalDex = [
         number: "129",
         type: ["Water"],
         category: "Fish",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'11''",
+        weight: "22.0 lbs."
     },
     {
         name: "Gyarados",
@@ -1603,7 +1757,9 @@ let nationalDex = [
         number: "130",
         type: ["Water", "Flying"],
         category: "Atrocious",
-        region: "Kanto"
+        region: "Kanto",
+        height: "21'04''",
+        weight: "518.1 lbs."
     },
     {
         name: "Mega Gyarados",
@@ -1611,7 +1767,9 @@ let nationalDex = [
         number: "130",
         type: ["Water", "Dark"],
         category: "Atrocious",
-        region: "Kanto"
+        region: "Kanto",
+        height: "21'04''",
+        weight: "627.4 lbs."
     },
     {
         name: "Lapras",
@@ -1619,7 +1777,9 @@ let nationalDex = [
         number: "131",
         type: ["Water", "Ice"],
         category: "Transport",
-        region: "Kanto"
+        region: "Kanto",
+        height: "8'02''",
+        weight: "485.0 lbs."
     },
     {
         name: "Gigantamax Lapras",
@@ -1627,7 +1787,9 @@ let nationalDex = [
         number: "131",
         type: ["Water", "Ice"],
         category: "Transport",
-        region: "Kanto"
+        region: "Kanto",
+        height: "78'00''+",
+        weight: "??? lbs."
     },
     {
         name: "Ditto",
@@ -1635,7 +1797,9 @@ let nationalDex = [
         number: "132",
         type: ["Normal"],
         category: "Transform",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'00''",
+        weight: "8.8 lbs."
     },
     {
         name: "Eevee",
@@ -1643,7 +1807,9 @@ let nationalDex = [
         number: "133",
         type: ["Normal"],
         category: "Evolution",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'00''",
+        weight: "14.3 lbs."
     },
     {
         name: "Gigantamax Eevee",
@@ -1651,7 +1817,9 @@ let nationalDex = [
         number: "133",
         type: ["Normal"],
         category: "Evolution",
-        region: "Kanto"
+        region: "Kanto",
+        height: "59'01''+",
+        weight: "??? lbs."
     },
     {
         name: "Vaporeon",
@@ -1659,7 +1827,9 @@ let nationalDex = [
         number: "134",
         type: ["Water"],
         category: "Bubble Jet",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "63.9 lbs."
     },
     {
         name: "Jolteon",
@@ -1667,7 +1837,9 @@ let nationalDex = [
         number: "135",
         type: ["Electric"],
         category: "Lightning",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'07''",
+        weight: "54.0 lbs."
     },
     {
         name: "Flareon",
@@ -1675,7 +1847,9 @@ let nationalDex = [
         number: "136",
         type: ["Fire"],
         category: "Flame",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'11''",
+        weight: "55.1 lbs."
     },
     {
         name: "Porygon",
@@ -1683,7 +1857,9 @@ let nationalDex = [
         number: "137",
         type: ["Normal"],
         category: "Virtual",
-        region: "Kanto"
+        region: "Kanto",
+        height: "2'07''",
+        weight: "80.5 lbs."
     },
     {
         name: "Omanyte",
@@ -1691,7 +1867,9 @@ let nationalDex = [
         number: "138",
         type: ["Rock", "Water"],
         category: "Spiral",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "16.5 lbs."
     },
     {
         name: "Omastar",
@@ -1699,7 +1877,9 @@ let nationalDex = [
         number: "139",
         type: ["Rock", "Water"],
         category: "Spiral",
-        region: "Kanto"
+        region: "Kanto",
+        height: "3'03''",
+        weight: "77.2 lbs."
     },
     {
         name: "Kabuto",
@@ -1707,7 +1887,9 @@ let nationalDex = [
         number: "140",
         type: ["Rock", "Water"],
         category: "Shellfish",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'08''",
+        weight: "25.4 lbs."
     },
     {
         name: "Kabutops",
@@ -1715,7 +1897,9 @@ let nationalDex = [
         number: "141",
         type: ["Rock", "Water"],
         category: "Shellfish",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'03''",
+        weight: "25.4 lbs."
     },
     {
         name: "Aerodactyl",
@@ -1723,7 +1907,9 @@ let nationalDex = [
         number: "142",
         type: ["Rock", "Flying"],
         category: "Fossil",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'11''",
+        weight: "130.1 lbs."
     },
     {
         name: "Mega Aerodactyl",
@@ -1731,7 +1917,9 @@ let nationalDex = [
         number: "142",
         type: ["Rock", "Flying"],
         category: "Fossil",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'11''",
+        weight: "174.2 lbs."
     },
     {
         name: "Snorlax",
@@ -1739,7 +1927,9 @@ let nationalDex = [
         number: "143",
         type: ["Normal"],
         category: "Sleeping",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'11''",
+        weight: "1041.1 lbs."
     },
     {
         name: "Gigantamax Snorlax",
@@ -1747,7 +1937,9 @@ let nationalDex = [
         number: "143",
         type: ["Normal"],
         category: "Sleeping",
-        region: "Kanto"
+        region: "Kanto",
+        height: "114'10''+",
+        weight: "??? lbs."
     },
     {
         name: "Articuno",
@@ -1755,7 +1947,9 @@ let nationalDex = [
         number: "144",
         type: ["Ice", "Flying"],
         category: "Freeze",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'07''",
+        weight: "122.1 lbs."
     },
     {
         name: "Galarian Articuno",
@@ -1763,7 +1957,9 @@ let nationalDex = [
         number: "144",
         type: ["Psychic", "Flying"],
         category: "Cruel",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'07''",
+        weight: "112.2 lbs."
     },
     {
         name: "Zapdos",
@@ -1771,7 +1967,9 @@ let nationalDex = [
         number: "145",
         type: ["Electric", "Flying"],
         category: "Electric",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'03''",
+        weight: "116.0 lbs."
     },
     {
         name: "Galarian Zapdos",
@@ -1779,7 +1977,9 @@ let nationalDex = [
         number: "145",
         type: ["Fighting", "Flying"],
         category: "Strong Legs",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'03''",
+        weight: "128.3 lbs."
     },
     {
         name: "Moltres",
@@ -1787,7 +1987,9 @@ let nationalDex = [
         number: "146",
         type: ["Fire", "Flying"],
         category: "Flame",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'07''",
+        weight: "132.3 lbs."
     },
     {
         name: "Galarian Moltres",
@@ -1795,7 +1997,9 @@ let nationalDex = [
         number: "146",
         type: ["Dark", "Flying"],
         category: "Malevolent",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'07''",
+        weight: "145.5 lbs."
     },
     {
         name: "Dratini",
@@ -1803,7 +2007,9 @@ let nationalDex = [
         number: "147",
         type: ["Dragon"],
         category: "Dragon",
-        region: "Kanto"
+        region: "Kanto",
+        height: "5'11''",
+        weight: "7.3 lbs."
     },
     {
         name: "Dragonair",
@@ -1811,7 +2017,9 @@ let nationalDex = [
         number: "148",
         type: ["Dragon"],
         category: "Dragon",
-        region: "Kanto"
+        region: "Kanto",
+        height: "13'01''",
+        weight: "36.4 lbs."
     },
     {
         name: "Dragonite",
@@ -1819,7 +2027,9 @@ let nationalDex = [
         number: "149",
         type: ["Dragon", "Flying"],
         category: "Dragon",
-        region: "Kanto"
+        region: "Kanto",
+        height: "7'03''",
+        weight: "463.0 lbs."
     },
     {
         name: "Mewtwo",
@@ -1827,7 +2037,9 @@ let nationalDex = [
         number: "150",
         type: ["Psychic"],
         category: "Genetic",
-        region: "Kanto"
+        region: "Kanto",
+        height: "6'07''",
+        weight: "269.0 lbs."
     },
     {
         name: "Mega Mewtwo X",
@@ -1835,7 +2047,9 @@ let nationalDex = [
         number: "150",
         type: ["Psychic", "Fighting"],
         category: "Genetic",
-        region: "Kanto"
+        region: "Kanto",
+        height: "7'07''",
+        weight: "280.0 lbs."
     },
     {
         name: "Mega Mewtwo Y",
@@ -1843,7 +2057,9 @@ let nationalDex = [
         number: "150",
         type: ["Psychic"],
         category: "Genetic",
-        region: "Kanto"
+        region: "Kanto",
+        height: "4'11''",
+        weight: "72.8 lbs."
     },
     {
         name: "Mew",
@@ -1851,7 +2067,9 @@ let nationalDex = [
         number: "151",
         type: ["Psychic"],
         category: "New Species",
-        region: "Kanto"
+        region: "Kanto",
+        height: "1'04''",
+        weight: "8.8 lbs."
     },
     {
         name: "Chikorita",
