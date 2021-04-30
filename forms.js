@@ -5547,7 +5547,9 @@ let nationalDex = [
         number: "451",
         type: ["Poison", "Bug"],
         category: "Scorpion",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "2'07''",
+        weight: "26.5 lbs."
     },
     {
         name: "Drapion",
@@ -5555,7 +5557,9 @@ let nationalDex = [
         number: "452",
         type: ["Poison", "Dark"],
         category: "Ogre Scorpion",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'03''",
+        weight: "135.6 lbs."
     },
     {
         name: "Croagunk",
@@ -5563,7 +5567,9 @@ let nationalDex = [
         number: "453",
         type: ["Poison", "Fighting"],
         category: "Toxic Mouth",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "2'04''",
+        weight: "50.7 lbs."
     },
     {
         name: "Toxicroak",
@@ -5571,7 +5577,9 @@ let nationalDex = [
         number: "454",
         type: ["Poison", "Fighting"],
         category: "Toxic Mouth",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'03''",
+        weight: "97.9 lbs."
     },
     {
         name: "Carnivine",
@@ -5579,7 +5587,9 @@ let nationalDex = [
         number: "455",
         type: ["Grass"],
         category: "Bug Catcher",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'07''",
+        weight: "59.5 lbs."
     },
     {
         name: "Finneon",
@@ -5587,7 +5597,9 @@ let nationalDex = [
         number: "456",
         type: ["Water"],
         category: "Wing Fish",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'04''",
+        weight: "15.4 lbs."
     },
     {
         name: "Lumineon",
@@ -5595,7 +5607,9 @@ let nationalDex = [
         number: "457",
         type: ["Water"],
         category: "Neon",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "3'11''",
+        weight: "52.9 lbs."
     },
     {
         name: "Mantyke",
@@ -5603,7 +5617,9 @@ let nationalDex = [
         number: "458",
         type: ["Water", "Flying"],
         category: "Kite",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "3'03''",
+        weight: "143.3 lbs."
     },
     {
         name: "Snover",
@@ -5611,7 +5627,9 @@ let nationalDex = [
         number: "459",
         type: ["Grass", "Ice"],
         category: "Frost Tree",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "3'03''",
+        weight: "111.3 lbs."
     },
     {
         name: "Abomasnow",
@@ -5619,7 +5637,9 @@ let nationalDex = [
         number: "460",
         type: ["Grass", "Ice"],
         category: "Frost Tree",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "7'03''",
+        weight: "298.7 lbs."
     },
     {
         name: "Mega Abomasnow",
@@ -5627,7 +5647,9 @@ let nationalDex = [
         number: "460",
         type: ["Grass", "Ice"],
         category: "Frost Tree",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "8'10''",
+        weight: "407.9 lbs."
     },
     {
         name: "Weavile",
@@ -5635,7 +5657,9 @@ let nationalDex = [
         number: "461",
         type: ["Dark", "Ice"],
         category: "Sharp Claw",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "3'07''",
+        weight: "75.0 lbs."
     },
     {
         name: "Magnezone",
@@ -5643,7 +5667,9 @@ let nationalDex = [
         number: "462",
         type: ["Electric", "Steel"],
         category: "Magnet Area",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "3'11''",
+        weight: "396.8 lbs."
     },
     {
         name: "Lickilicky",
@@ -5651,7 +5677,9 @@ let nationalDex = [
         number: "463",
         type: ["Normal"],
         category: "Licking",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "5'07''",
+        weight: "308.6 lbs."
     },
     {
         name: "Rhyperior",
@@ -5659,7 +5687,9 @@ let nationalDex = [
         number: "464",
         type: ["Ground", "Rock"],
         category: "Drill",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "7'10''",
+        weight: "623.5 lbs."
     },
     {
         name: "Tangrowth",
@@ -5667,7 +5697,9 @@ let nationalDex = [
         number: "465",
         type: ["Grass"],
         category: "Vine",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "6'07''",
+        weight: "283.5 lbs."
     },
     {
         name: "Electivire",
@@ -5675,7 +5707,9 @@ let nationalDex = [
         number: "466",
         type: ["Electric"],
         category: "Thunderbolt",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "5'11''",
+        weight: "305.6 lbs."
     },
     {
         name: "Magmortar",
@@ -5683,7 +5717,9 @@ let nationalDex = [
         number: "467",
         type: ["Fire"],
         category: "Blast",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "5'03''",
+        weight: "149.9 lbs."
     },
     {
         name: "Togekiss",
@@ -5691,7 +5727,9 @@ let nationalDex = [
         number: "468",
         type: ["Fairy", "Flying"],
         category: "Jubilee",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'11''",
+        weight: "83.8 lbs."
     },
     {
         name: "Yanmega",
@@ -5699,7 +5737,9 @@ let nationalDex = [
         number: "469",
         type: ["Bug", "Flying"],
         category: "Ogre Darner",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "6'03''",
+        weight: "113.5 lbs."
     },
     {
         name: "Leafeon",
@@ -5707,7 +5747,9 @@ let nationalDex = [
         number: "470",
         type: ["Grass"],
         category: "Verdant",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "3'03''",
+        weight: "56.2 lbs."
     },
     {
         name: "Glaceon",
@@ -5715,7 +5757,9 @@ let nationalDex = [
         number: "471",
         type: ["Ice"],
         category: "Fresh Snow",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "2'07''",
+        weight: "57.1 lbs."
     },
     {
         name: "Gliscor",
@@ -5723,7 +5767,9 @@ let nationalDex = [
         number: "472",
         type: ["Ground", "Flying"],
         category: "Fang Scorpion",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "6'07''",
+        weight: "93.7 lbs."
     },
     {
         name: "Mamoswine",
@@ -5731,7 +5777,9 @@ let nationalDex = [
         number: "473",
         type: ["Ice", "Ground"],
         category: "Twin Tusk",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "8'02''",
+        weight: "641.5 lbs."
     },
     {
         name: "Porygon-Z",
@@ -5739,7 +5787,9 @@ let nationalDex = [
         number: "474",
         type: ["Normal"],
         category: "Virtual",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "2'11''",
+        weight: "75.0 lbs."
     },
     {
         name: "Gallade",
@@ -5747,7 +5797,9 @@ let nationalDex = [
         number: "475",
         type: ["Psychic", "Fighting"],
         category: "Blade",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "5'03''",
+        weight: "114.6 lbs."
     },
     {
         name: "Mega Gallade",
@@ -5755,7 +5807,9 @@ let nationalDex = [
         number: "475",
         type: ["Psychic", "Fighting"],
         category: "Blade",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "5'03''",
+        weight: "124.3 lbs."
     },
     {
         name: "Probopass",
@@ -5763,7 +5817,9 @@ let nationalDex = [
         number: "476",
         type: ["Rock", "Steel"],
         category: "Compass",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'07''",
+        weight: "749.6 lbs."
     },
     {
         name: "Dusknoir",
@@ -5771,7 +5827,9 @@ let nationalDex = [
         number: "477",
         type: ["Ghost"],
         category: "Gripper",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "7'03''",
+        weight: "235.0 lbs."
     },
     {
         name: "Froslass",
@@ -5779,7 +5837,9 @@ let nationalDex = [
         number: "478",
         type: ["Ice", "Ghost"],
         category: "Snow Land",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'03''",
+        weight: "58.6 lbs."
     },
     {
         name: "Rotom",
@@ -5787,7 +5847,9 @@ let nationalDex = [
         number: "479",
         type: ["Electric", "Ghost"],
         category: "Plasma",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Heat Rotom",
@@ -5795,7 +5857,9 @@ let nationalDex = [
         number: "479",
         type: ["Electric", "Fire"],
         category: "Plasma",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Wash Rotom",
@@ -5803,7 +5867,9 @@ let nationalDex = [
         number: "479",
         type: ["Electric", "Water"],
         category: "Plasma",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Frost Rotom",
@@ -5811,7 +5877,9 @@ let nationalDex = [
         number: "479",
         type: ["Electric", "Ice"],
         category: "Plasma",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Fan Rotom",
@@ -5819,7 +5887,9 @@ let nationalDex = [
         number: "479",
         type: ["Electric", "Flying"],
         category: "Plasma",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Mow Rotom",
@@ -5827,7 +5897,9 @@ let nationalDex = [
         number: "479",
         type: ["Electric", "Grass"],
         category: "Plasma",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Uxie",
@@ -5835,7 +5907,9 @@ let nationalDex = [
         number: "480",
         type: ["Psychic"],
         category: "Knowledge",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Mesprit",
@@ -5843,7 +5917,9 @@ let nationalDex = [
         number: "481",
         type: ["Psychic"],
         category: "Emotion",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Azelf",
@@ -5851,7 +5927,9 @@ let nationalDex = [
         number: "482",
         type: ["Psychic"],
         category: "Willpower",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "0.7 lbs."
     },
     {
         name: "Dialga",
@@ -5859,7 +5937,9 @@ let nationalDex = [
         number: "483",
         type: ["Steel", "Dragon"],
         category: "Temporal",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "17'09''",
+        weight: "1505.8 lbs."
     },
     {
         name: "Palkia",
@@ -5867,7 +5947,9 @@ let nationalDex = [
         number: "484",
         type: ["Water", "Dragon"],
         category: "Spatial",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "13'09''",
+        weight: "740.8 lbs."
     },
     {
         name: "Heatran",
@@ -5875,7 +5957,9 @@ let nationalDex = [
         number: "485",
         type: ["Fire", "Steel"],
         category: "Lava Dome",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "5'07''",
+        weight: "948.0 lbs."
     },
     {
         name: "Regigigas",
@@ -5883,7 +5967,9 @@ let nationalDex = [
         number: "486",
         type: ["Normal"],
         category: "Colossal",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "12'02''",
+        weight: "925.9 lbs."
     },
     {
         name: "Giratina (Altered Forme)",
@@ -5891,7 +5977,9 @@ let nationalDex = [
         number: "487",
         type: ["Ghost", "Dragon"],
         category: "Renegade",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "14'09''",
+        weight: "1653.5 lbs."
     },
     {
         name: "Giratina (Origin Forme)",
@@ -5899,7 +5987,9 @@ let nationalDex = [
         number: "487",
         type: ["Ghost", "Dragon"],
         category: "Renegade",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "22'08''",
+        weight: "1433.0 lbs."
     },
     {
         name: "Cresselia",
@@ -5907,7 +5997,9 @@ let nationalDex = [
         number: "488",
         type: ["Psychic"],
         category: "Lunar",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'11''",
+        weight: "188.7 lbs."
     },
     {
         name: "Phione",
@@ -5915,7 +6007,9 @@ let nationalDex = [
         number: "489",
         type: ["Water"],
         category: "Sea Drifter",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'04''",
+        weight: "6.8 lbs."
     },
     {
         name: "Manaphy",
@@ -5923,7 +6017,9 @@ let nationalDex = [
         number: "490",
         type: ["Water"],
         category: "Seafaring",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'00''",
+        weight: "3.1 lbs."
     },
     {
         name: "Darkrai",
@@ -5931,7 +6027,9 @@ let nationalDex = [
         number: "491",
         type: ["Dark"],
         category: "Pitch-Black",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "4'11''",
+        weight: "111.3 lbs."
     },
     {
         name: "Shaymin (Land Forme)",
@@ -5939,7 +6037,9 @@ let nationalDex = [
         number: "492",
         type: ["Grass"],
         category: "Gratitude",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "0'08''",
+        weight: "4.6 lbs."
     },
     {
         name: "Shaymin (Sky Forme)",
@@ -5947,7 +6047,9 @@ let nationalDex = [
         number: "492",
         type: ["Grass"],
         category: "Gratitude",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "1'04''",
+        weight: "11.5 lbs."
     },
     {
         name: "Arceus",
@@ -5955,7 +6057,9 @@ let nationalDex = [
         number: "493",
         type: ["Normal"],
         category: "Alpha",
-        region: "Sinnoh"
+        region: "Sinnoh",
+        height: "10'06''",
+        weight: "705.5 lbs."
     },
     {
         name: "Victini",
