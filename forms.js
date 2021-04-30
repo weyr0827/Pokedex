@@ -4708,7 +4708,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Basin",
         region: "Hoenn",
-        height: "32'002''",
+        height: "32'02''",
         weight: "948.0 lbs."
     },
     {
