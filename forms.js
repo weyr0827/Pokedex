@@ -3907,7 +3907,9 @@ let nationalDex = [
         number: "316",
         type: ["Poison"],
         category: "Stomach",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'04''",
+        weight: "22.7 lbs."
     },
     {
         name: "Swalot",
@@ -3915,7 +3917,9 @@ let nationalDex = [
         number: "317",
         type: ["Poison"],
         category: "Poison Bag",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'07''",
+        weight: "176.4 lbs."
     },
     {
         name: "Carvanha",
@@ -3923,7 +3927,9 @@ let nationalDex = [
         number: "318",
         type: ["Water", "Dark"],
         category: "Savage",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'07''",
+        weight: "45.9 lbs."
     },
     {
         name: "Sharpedo",
@@ -3931,7 +3937,9 @@ let nationalDex = [
         number: "319",
         type: ["Water", "Dark"],
         category: "Brutal",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'11''",
+        weight: "195.8 lbs."
     },
     {
         name: "Mega Sharpedo",
@@ -3939,7 +3947,9 @@ let nationalDex = [
         number: "319",
         type: ["Water", "Dark"],
         category: "Brutal",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "8'02''",
+        weight: "287.3 lbs."
     },
     {
         name: "Wailmer",
@@ -3947,7 +3957,9 @@ let nationalDex = [
         number: "320",
         type: ["Water"],
         category: "Ball Whale",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "6'07''",
+        weight: "286.6 lbs."
     },
     {
         name: "Wailord",
@@ -3955,7 +3967,9 @@ let nationalDex = [
         number: "321",
         type: ["Water"],
         category: "Float Whale",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "47'07''",
+        weight: "877.4 lbs."
     },
     {
         name: "Numel",
@@ -3963,7 +3977,9 @@ let nationalDex = [
         number: "322",
         type: ["Fire", "Ground"],
         category: "Numb",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'04''",
+        weight: "52.9 lbs."
     },
     {
         name: "Camerupt",
@@ -3971,7 +3987,9 @@ let nationalDex = [
         number: "323",
         type: ["Fire", "Ground"],
         category: "Eruption",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "6'03''",
+        weight: "485.0 lbs."
     },
     {
         name: "Mega Camerupt",
@@ -3979,7 +3997,9 @@ let nationalDex = [
         number: "323",
         type: ["Fire", "Ground"],
         category: "Eruption",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "8'02''",
+        weight: "706.6 lbs."
     },
     {
         name: "Torkoal",
@@ -3987,7 +4007,9 @@ let nationalDex = [
         number: "324",
         type: ["Fire"],
         category: "Coal",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'08''",
+        weight: "177.3 lbs."
     },
     {
         name: "Spoink",
@@ -3995,7 +4017,9 @@ let nationalDex = [
         number: "325",
         type: ["Psychic"],
         category: "Bounce",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'04''",
+        weight: "67.5 lbs."
     },
     {
         name: "Grumpig",
@@ -4003,7 +4027,9 @@ let nationalDex = [
         number: "326",
         type: ["Psychic"],
         category: "Manipulate",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'11''",
+        weight: "157.6 lbs."
     },
     {
         name: "Spinda",
@@ -4011,7 +4037,9 @@ let nationalDex = [
         number: "327",
         type: ["Normal"],
         category: "Spot Panda",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'07''",
+        weight: "11.0 lbs."
     },
     {
         name: "Trapinch",
@@ -4019,7 +4047,9 @@ let nationalDex = [
         number: "328",
         type: ["Ground"],
         category: "Ant Pit",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'04''",
+        weight: "33.1 lbs."
     },
     {
         name: "Vibrava",
@@ -4027,7 +4057,9 @@ let nationalDex = [
         number: "329",
         type: ["Ground", "Dragon"],
         category: "Vibration",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'07''",
+        weight: "33.7 lbs."
     },
     {
         name: "Flygon",
@@ -4035,7 +4067,9 @@ let nationalDex = [
         number: "330",
         type: ["Ground", "Dragon"],
         category: "Mystic",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "6'07''",
+        weight: "180.8 lbs."
     },
     {
         name: "Cacnea",
@@ -4043,7 +4077,9 @@ let nationalDex = [
         number: "331",
         type: ["Grass"],
         category: "Cactus",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'04''",
+        weight: "113.1 lbs."
     },
     {
         name: "Cacturne",
@@ -4051,7 +4087,9 @@ let nationalDex = [
         number: "332",
         type: ["Grass", "Dark"],
         category: "Scarecrow",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'03''",
+        weight: "170.6 lbs."
     },
     {
         name: "Swablu",
@@ -4059,7 +4097,9 @@ let nationalDex = [
         number: "333",
         type: ["Normal", "Flying"],
         category: "Cotton Bird",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'04''",
+        weight: "2.6 lbs."
     },
     {
         name: "Altaria",
@@ -4067,7 +4107,9 @@ let nationalDex = [
         number: "334",
         type: ["Dragon", "Flying"],
         category: "Humming",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'07''",
+        weight: "45.4 lbs."
     },
     {
         name: "Mega Altaria",
@@ -4075,7 +4117,9 @@ let nationalDex = [
         number: "334",
         type: ["Dragon", "Fairy"],
         category: "Humming",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'11''",
+        weight: "45.4 lbs."
     },
     {
         name: "Zangoose",
@@ -4083,7 +4127,9 @@ let nationalDex = [
         number: "335",
         type: ["Normal"],
         category: "Cat Ferret",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'03''",
+        weight: "88.8 lbs."
     },
     {
         name: "Seviper",
@@ -4091,7 +4137,9 @@ let nationalDex = [
         number: "336",
         type: ["Poison"],
         category: "Fang Snake",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "8'10''",
+        weight: "115.7 lbs."
     },
     {
         name: "Lunatone",
@@ -4099,7 +4147,9 @@ let nationalDex = [
         number: "337",
         type: ["Rock", "Psychic"],
         category: "Meteorite",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'03''",
+        weight: "370.4 lbs."
     },
     {
         name: "Solrock",
@@ -4107,7 +4157,9 @@ let nationalDex = [
         number: "338",
         type: ["Rock", "Psychic"],
         category: "Meteorite",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'11''",
+        weight: "339.5 lbs."
     },
     {
         name: "Barboach",
@@ -4115,7 +4167,9 @@ let nationalDex = [
         number: "339",
         type: ["Water", "Ground"],
         category: "Whiskers",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'04''",
+        weight: "4.2 lbs."
     },
     {
         name: "Whiscash",
@@ -4123,7 +4177,9 @@ let nationalDex = [
         number: "340",
         type: ["Water", "Ground"],
         category: "Whiskers",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'11''",
+        weight: "52.0 lbs."
     },
     {
         name: "Corphish",
@@ -4131,7 +4187,9 @@ let nationalDex = [
         number: "341",
         type: ["Water"],
         category: "Ruffian",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "25.4 lbs."
     },
     {
         name: "Crawdaunt",
@@ -4139,7 +4197,9 @@ let nationalDex = [
         number: "342",
         type: ["Water", "Dark"],
         category: "Rogue",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'07''",
+        weight: "72.3 lbs."
     },
     {
         name: "Baltoy",
@@ -4147,7 +4207,9 @@ let nationalDex = [
         number: "343",
         type: ["Ground", "Psychic"],
         category: "Clay Doll",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'08''",
+        weight: "47.4 lbs."
     },
     {
         name: "Claydol",
@@ -4155,7 +4217,9 @@ let nationalDex = [
         number: "344",
         type: ["Ground", "Psychic"],
         category: "Clay Doll",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'11''",
+        weight: "238.0 lbs."
     },
     {
         name: "Lileep",
@@ -4163,7 +4227,9 @@ let nationalDex = [
         number: "345",
         type: ["Rock", "Grass"],
         category: "Sea Lily",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'03''",
+        weight: "52.5 lbs."
     },
     {
         name: "Cradily",
@@ -4171,7 +4237,9 @@ let nationalDex = [
         number: "346",
         type: ["Rock", "Grass"],
         category: "Barnacle",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'11''",
+        weight: "133.2 lbs."
     },
     {
         name: "Anorith",
@@ -4179,7 +4247,9 @@ let nationalDex = [
         number: "347",
         type: ["Rock", "Bug"],
         category: "Old Shrimp",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'04''",
+        weight: "27.6 lbs."
     },
     {
         name: "Armaldo",
@@ -4187,7 +4257,9 @@ let nationalDex = [
         number: "348",
         type: ["Rock", "Bug"],
         category: "Plate",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'11''",
+        weight: "150.4 lbs."
     },
     {
         name: "Feebas",
@@ -4195,7 +4267,9 @@ let nationalDex = [
         number: "349",
         type: ["Water"],
         category: "Fish",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "16.3 lbs."
     },
     {
         name: "Milotic",
@@ -4203,7 +4277,9 @@ let nationalDex = [
         number: "350",
         type: ["Water"],
         category: "Tender",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "20'04''",
+        weight: "357.1 lbs."
     },
     {
         name: "Castform",
@@ -4211,7 +4287,9 @@ let nationalDex = [
         number: "351",
         type: ["Normal"],
         category: "Weather",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'00''",
+        weight: "1.8 lbs."
     },
     {
         name: "Castform (Sunny Form)",
@@ -4219,7 +4297,9 @@ let nationalDex = [
         number: "351",
         type: ["Fire"],
         category: "Weather",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'00''",
+        weight: "1.8 lbs."
     },
     {
         name: "Castform (Rainy Form)",
@@ -4227,7 +4307,9 @@ let nationalDex = [
         number: "351",
         type: ["Water"],
         category: "Weather",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'00''",
+        weight: "1.8 lbs."
     },
     {
         name: "Castform (Snowy Form)",
@@ -4235,7 +4317,9 @@ let nationalDex = [
         number: "351",
         type: ["Ice"],
         category: "Weather",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'00''",
+        weight: "1.8 lbs."
     },
     {
         name: "Kecleon",
@@ -4243,7 +4327,9 @@ let nationalDex = [
         number: "352",
         type: ["Normal"],
         category: "Color Swap",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'03''",
+        weight: "48.5 lbs."
     },
     {
         name: "Shuppet",
@@ -4251,7 +4337,9 @@ let nationalDex = [
         number: "353",
         type: ["Ghost"],
         category: "Puppet",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "5.1 lbs."
     },
     {
         name: "Banette",
@@ -4259,7 +4347,9 @@ let nationalDex = [
         number: "354",
         type: ["Ghost"],
         category: "Marionette",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'07''",
+        weight: "27.6 lbs."
     },
     {
         name: "Mega Banette",
@@ -4267,7 +4357,9 @@ let nationalDex = [
         number: "354",
         type: ["Ghost"],
         category: "Marionette",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'11''",
+        weight: "28.7 lbs."
     },
     {
         name: "Duskull",
@@ -4275,7 +4367,9 @@ let nationalDex = [
         number: "355",
         type: ["Ghost"],
         category: "Requiem",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'07''",
+        weight: "33.1 lbs."
     },
     {
         name: "Dusclops",
@@ -4283,7 +4377,9 @@ let nationalDex = [
         number: "356",
         type: ["Ghost"],
         category: "Beckon",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'03''",
+        weight: "67.5 lbs."
     },
     {
         name: "Tropius",
@@ -4291,7 +4387,9 @@ let nationalDex = [
         number: "357",
         type: ["Grass", "Flying"],
         category: "Fruit",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "6'07''",
+        weight: "220.5 lbs."
     },
     {
         name: "Chimecho",
@@ -4299,7 +4397,9 @@ let nationalDex = [
         number: "358",
         type: ["Psychic"],
         category: "Wind Chime",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "2.2 lbs."
     },
     {
         name: "Absol",
@@ -4307,7 +4407,9 @@ let nationalDex = [
         number: "359",
         type: ["Dark"],
         category: "Disaster",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'11''",
+        weight: "103.6 lbs."
     },
     {
         name: "Mega Absol",
@@ -4315,7 +4417,9 @@ let nationalDex = [
         number: "359",
         type: ["Dark"],
         category: "Disaster",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'11''",
+        weight: "108.0 lbs."
     },
     {
         name: "Wynaut",
@@ -4323,7 +4427,9 @@ let nationalDex = [
         number: "360",
         type: ["Psychic"],
         category: "Bright",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "30.9 lbs."
     },
     {
         name: "Snorunt",
@@ -4331,7 +4437,9 @@ let nationalDex = [
         number: "361",
         type: ["Ice"],
         category: "Snow Hat",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'04''",
+        weight: "37.0 lbs."
     },
     {
         name: "Glalie",
@@ -4339,7 +4447,9 @@ let nationalDex = [
         number: "362",
         type: ["Ice"],
         category: "Face",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'11''",
+        weight: "565.5 lbs."
     },
     {
         name: "Mega Glalie",
@@ -4347,7 +4457,9 @@ let nationalDex = [
         number: "362",
         type: ["Ice"],
         category: "Face",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "6'11''",
+        weight: "772.1 lbs."
     },
     {
         name: "Spheal",
@@ -4355,7 +4467,9 @@ let nationalDex = [
         number: "363",
         type: ["Ice", "Water"],
         category: "Clap",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'07''",
+        weight: "87.1 lbs."
     },
     {
         name: "Sealeo",
@@ -4363,7 +4477,9 @@ let nationalDex = [
         number: "364",
         type: ["Ice", "Water"],
         category: "Ball Roll",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'07''",
+        weight: "193.1 lbs."
     },
     {
         name: "Walrein",
@@ -4371,7 +4487,9 @@ let nationalDex = [
         number: "365",
         type: ["Ice", "Water"],
         category: "Ice Break",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'07''",
+        weight: "332.0 lbs."
     },
     {
         name: "Clamperl",
@@ -4379,7 +4497,9 @@ let nationalDex = [
         number: "366",
         type: ["Water"],
         category: "Bivalve",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'04''",
+        weight: "115.7 lbs."
     },
     {
         name: "Huntail",
@@ -4387,7 +4507,9 @@ let nationalDex = [
         number: "367",
         type: ["Water"],
         category: "Deep Sea",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'07''",
+        weight: "59.5 lbs."
     },
     {
         name: "Gorebyss",
@@ -4395,7 +4517,9 @@ let nationalDex = [
         number: "368",
         type: ["Water"],
         category: "South Sea",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'11''",
+        weight: "49.8 lbs."
     },
     {
         name: "Relicanth",
@@ -4403,7 +4527,9 @@ let nationalDex = [
         number: "369",
         type: ["Water", "Rock"],
         category: "Longevity",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'03''",
+        weight: "51.6 lbs."
     },
     {
         name: "Luvdisc",
@@ -4411,7 +4537,9 @@ let nationalDex = [
         number: "370",
         type: ["Water"],
         category: "Rendezvous",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "19.2 lbs."
     },
     {
         name: "Bagon",
@@ -4419,7 +4547,9 @@ let nationalDex = [
         number: "371",
         type: ["Dragon"],
         category: "Rock Head",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "92.8 lbs."
     },
     {
         name: "Shelgon",
@@ -4427,7 +4557,9 @@ let nationalDex = [
         number: "372",
         type: ["Dragon"],
         category: "Endurance",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'07''",
+        weight: "243.6 lbs."
     },
     {
         name: "Salamence",
@@ -4435,7 +4567,9 @@ let nationalDex = [
         number: "373",
         type: ["Dragon", "Flying"],
         category: "Dragon",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'11''",
+        weight: "226.2 lbs."
     },
     {
         name: "Mega Salamence",
@@ -4443,7 +4577,9 @@ let nationalDex = [
         number: "373",
         type: ["Dragon", "Flying"],
         category: "Dragon",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'11''",
+        weight: "248.2 lbs."
     },
     {
         name: "Beldum",
@@ -4451,7 +4587,9 @@ let nationalDex = [
         number: "374",
         type: ["Steel", "Psychic"],
         category: "Iron Ball",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "2'00''",
+        weight: "209.9 lbs."
     },
     {
         name: "Metang",
@@ -4459,7 +4597,9 @@ let nationalDex = [
         number: "375",
         type: ["Steel", "Psychic"],
         category: "Iron Claw",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "3'11''",
+        weight: "446.4 lbs."
     },
     {
         name: "Metagross",
@@ -4467,7 +4607,9 @@ let nationalDex = [
         number: "376",
         type: ["Steel", "Psychic"],
         category: "Iron Leg",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'03''",
+        weight: "1212.5 lbs."
     },
     {
         name: "Mega Metagross",
@@ -4475,7 +4617,9 @@ let nationalDex = [
         number: "376",
         type: ["Steel", "Psychic"],
         category: "Iron Leg",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "8'02''",
+        weight: "2078.7 lbs."
     },
     {
         name: "Regirock",
@@ -4483,7 +4627,9 @@ let nationalDex = [
         number: "377",
         type: ["Rock"],
         category: "Rock Peak",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'07''",
+        weight: "507.1 lbs."
     },
     {
         name: "Regice",
@@ -4491,7 +4637,9 @@ let nationalDex = [
         number: "378",
         type: ["Ice"],
         category: "Iceberg",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'11''",
+        weight: "385.8 lbs."
     },
     {
         name: "Registeel",
@@ -4499,7 +4647,9 @@ let nationalDex = [
         number: "379",
         type: ["Steel"],
         category: "Iron",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "6'03''",
+        weight: "451.9 lbs."
     },
     {
         name: "Latias",
@@ -4507,7 +4657,9 @@ let nationalDex = [
         number: "380",
         type: ["Dragon", "Psychic"],
         category: "Eon",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "4'07''",
+        weight: "88.2 lbs."
     },
     {
         name: "Mega Latias",
@@ -4515,7 +4667,9 @@ let nationalDex = [
         number: "380",
         type: ["Dragon", "Psychic"],
         category: "Eon",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'11''",
+        weight: "114.6 lbs."
     },
     {
         name: "Latios",
@@ -4523,7 +4677,9 @@ let nationalDex = [
         number: "381",
         type: ["Dragon", "Psychic"],
         category: "Eon",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "6'07''",
+        weight: "132.3 lbs."
     },
     {
         name: "Mega Latios",
@@ -4531,7 +4687,9 @@ let nationalDex = [
         number: "381",
         type: ["Dragon", "Psychic"],
         category: "Eon",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "7'07''",
+        weight: "154.3 lbs."
     },
     {
         name: "Kyogre",
@@ -4539,7 +4697,9 @@ let nationalDex = [
         number: "382",
         type: ["Water"],
         category: "Sea Basin",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "14'09''",
+        weight: "776.0 lbs."
     },
     {
         name: "Primal Kyogre",
@@ -4547,7 +4707,9 @@ let nationalDex = [
         number: "382",
         type: ["Water"],
         category: "Sea Basin",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "32'002''",
+        weight: "948.0 lbs."
     },
     {
         name: "Groudon",
@@ -4555,7 +4717,9 @@ let nationalDex = [
         number: "383",
         type: ["Ground"],
         category: "Continent",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "11'06''",
+        weight: "2094.4 lbs."
     },
     {
         name: "Primal Groudon",
@@ -4563,7 +4727,9 @@ let nationalDex = [
         number: "383",
         type: ["Ground", "Fire"],
         category: "Continent",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "16'05''",
+        weight: "2204.0 lbs."
     },
     {
         name: "Rayquaza",
@@ -4571,7 +4737,9 @@ let nationalDex = [
         number: "384",
         type: ["Dragon", "Flying"],
         category: "Sky High",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "23'00''",
+        weight: "455.3 lbs."
     },
     {
         name: "Mega Rayquaza",
@@ -4579,7 +4747,9 @@ let nationalDex = [
         number: "384",
         type: ["Dragon", "Flying"],
         category: "Sky High",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "35'05''",
+        weight: "864.2 lbs."
     },
     {
         name: "Jirachi",
@@ -4587,7 +4757,9 @@ let nationalDex = [
         number: "385",
         type: ["Steel", "Psychic"],
         category: "Wish",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "1'00''",
+        weight: "2.4 lbs."
     },
     {
         name: "Deoxys",
@@ -4595,7 +4767,9 @@ let nationalDex = [
         number: "386",
         type: ["Psychic"],
         category: "DNA",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'07''",
+        weight: "134.0 lbs."
     },
     {
         name: "Deoxys (Attack Forme)",
@@ -4603,7 +4777,9 @@ let nationalDex = [
         number: "386",
         type: ["Psychic"],
         category: "DNA",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'07''",
+        weight: "134.0 lbs."
     },
     {
         name: "Deoxys (Defense Forme)",
@@ -4611,7 +4787,9 @@ let nationalDex = [
         number: "386",
         type: ["Psychic"],
         category: "DNA",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'07''",
+        weight: "134.0 lbs."
     },
     {
         name: "Deoxys (Speed Forme)",
@@ -4619,7 +4797,9 @@ let nationalDex = [
         number: "386",
         type: ["Psychic"],
         category: "DNA",
-        region: "Hoenn"
+        region: "Hoenn",
+        height: "5'07''",
+        weight: "134.0 lbs."
     },
     {
         name: "Turtwig",
