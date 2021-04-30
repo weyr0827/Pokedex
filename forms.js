@@ -8,7 +8,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "15.2 lbs."
     },
     {
@@ -18,7 +18,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "28.7 lbs."
     },
     {
@@ -28,7 +28,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "220.5 lbs."
     },
     {
@@ -38,7 +38,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
-        height: "7'10''",
+        height: "7'10\"",
         weight: "342.8 lbs."
     },
     {
@@ -48,7 +48,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
-        height: "78'09''+",
+        height: "78'09\"+",
         weight: "??? lbs."
     },
     {
@@ -58,7 +58,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Lizard",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "18.7 lbs."
     },
     {
@@ -68,7 +68,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Flame",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "41.9 lbs."
     },
     {
@@ -78,7 +78,7 @@ let nationalDex = [
         type: ["Fire", "Flying"],
         category: "Flame",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "199.5 lbs."
     },
     {
@@ -88,7 +88,7 @@ let nationalDex = [
         type: ["Fire", "Dragon"],
         category: "Flame",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "243.6 lbs."
     },
     {
@@ -98,7 +98,7 @@ let nationalDex = [
         type: ["Fire", "Flying"],
         category: "Flame",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "221.6 lbs."
     },
     {
@@ -108,7 +108,7 @@ let nationalDex = [
         type: ["Fire", "Flying"],
         category: "Flame",
         region: "Kanto",
-        height: "91'10''+",
+        height: "91'10\"+",
         weight: "??? lbs."
     },
     {
@@ -118,7 +118,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Tiny Turtle",
         region: "Kanto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "19.8 lbs."
     },
     {
@@ -128,7 +128,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Turtle",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "49.6 lbs."
     },
     {
@@ -138,7 +138,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Shellfish",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "188.5 lbs."
     },
     {
@@ -148,7 +148,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Shellfish",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "222.9 lbs."
     },
     {
@@ -158,7 +158,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Shellfish",
         region: "Kanto",
-        height: "82'00''+",
+        height: "82'00\"+",
         weight: "??? lbs."
     },
     {
@@ -168,7 +168,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Worm",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "6.4 lbs."
     },
     {
@@ -178,7 +178,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Cocoon",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "21.8 lbs."
     },
     {
@@ -188,7 +188,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Butterfly",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "70.5 lbs."
     },
     {
@@ -198,7 +198,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Butterfly",
         region: "Kanto",
-        height: "55'09''+",
+        height: "55'09\"+",
         weight: "??? lbs."
     },
     {
@@ -208,7 +208,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Hairy Bug",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "7.1 lbs."
     },
     {
@@ -218,7 +218,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Cocoon",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "22.0 lbs."
     },
     {
@@ -228,7 +228,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Poison Bee",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "65.0 lbs."
     },
     {
@@ -238,7 +238,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Poison Bee",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "89.3 lbs."
     },
     {
@@ -248,7 +248,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Tiny Bird",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "4.0 lbs."
     },
     {
@@ -258,7 +258,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Bird",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "66.1 lbs."
     },
     {
@@ -268,7 +268,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Bird",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "87.1 lbs."
     },
     {
@@ -278,7 +278,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Bird",
         region: "Kanto",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "111.3 lbs."
     },
     {
@@ -288,7 +288,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Mouse",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "7.7 lbs."
     },
     {
@@ -298,7 +298,7 @@ let nationalDex = [
         type: ["Dark", "Normal"],
         category: "Mouse",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "8.4 lbs."
     },
     {
@@ -308,7 +308,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Mouse",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "40.8 lbs."
     },
     {
@@ -318,7 +318,7 @@ let nationalDex = [
         type: ["Dark", "Normal"],
         category: "Mouse",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "56.2 lbs."
     },
     {
@@ -328,7 +328,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Tiny Bird",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "4.4 lbs."
     },
     {
@@ -338,7 +338,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Beak",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "83.8 lbs."
     },
     {
@@ -348,7 +348,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Snake",
         region: "Kanto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "15.2 lbs."
     },
     {
@@ -358,7 +358,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Cobra",
         region: "Kanto",
-        height: "11'06''",
+        height: "11'06\"",
         weight: "143.3 lbs."
     },
     {
@@ -368,7 +368,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Mouse",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "13.2 lbs."
     },
     {
@@ -378,7 +378,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Mouse",
         region: "Kanto",
-        height: "68'11''+",
+        height: "68'11\"+",
         weight: "??? lbs."
     },
     {
@@ -388,7 +388,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Mouse",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "66.1 lbs."
     },
     {
@@ -398,7 +398,7 @@ let nationalDex = [
         type: ["Electric", "Psychic"],
         category: "Mouse",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "46.3 lbs."
     },
     {
@@ -408,7 +408,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Mouse",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "26.5 lbs."
     },
     {
@@ -418,7 +418,7 @@ let nationalDex = [
         type: ["Ice", "Steel"],
         category: "Mouse",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "88.2 lbs."
     },
     {
@@ -428,7 +428,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Mouse",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "65.0 lbs."
     },
     {
@@ -438,7 +438,7 @@ let nationalDex = [
         type: ["Ice", "Steel"],
         category: "Mouse",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "121.3 lbs."
     },
     {
@@ -448,7 +448,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "15.4 lbs."
     },
     {
@@ -458,7 +458,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "44.1 lbs."
     },
     {
@@ -468,7 +468,7 @@ let nationalDex = [
         type: ["Poison", "Ground"],
         category: "Drill",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "132.3 lbs."
     },
     {
@@ -478,7 +478,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "19.8 lbs."
     },
     {
@@ -488,7 +488,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "43.0 lbs."
     },
     {
@@ -498,7 +498,7 @@ let nationalDex = [
         type: ["Poison", "Ground"],
         category: "Drill",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "136.7 lbs."
     },
     {
@@ -508,7 +508,7 @@ let nationalDex = [
         type: ["Fairy"],
         category: "Fairy",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "16.5 lbs."
     },
     {
@@ -518,7 +518,7 @@ let nationalDex = [
         type: ["Fairy"],
         category: "Fairy",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "88.2 lbs."
     },
     {
@@ -528,7 +528,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Fox",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "21.8 lbs."
     },
     {
@@ -538,7 +538,7 @@ let nationalDex = [
         type: ["Ice"],
         category: "Fox",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "21.8 lbs."
     },
     {
@@ -548,7 +548,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Fox",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "43.9 lbs."
     },
     {
@@ -558,7 +558,7 @@ let nationalDex = [
         type: ["Ice", "Fairy"],
         category: "Fox",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "43.9 lbs."
     },
     {
@@ -568,7 +568,7 @@ let nationalDex = [
         type: ["Normal", "Fairy"],
         category: "Balloon",
         region: "Kanto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "12.1 lbs."
     },
     {
@@ -578,7 +578,7 @@ let nationalDex = [
         type: ["Normal", "Fairy"],
         category: "Balloon",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "26.5 lbs."
     },
     {
@@ -588,7 +588,7 @@ let nationalDex = [
         type: ["Poison", "Flying"],
         category: "Bat",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "16.5 lbs."
     },
     {
@@ -598,7 +598,7 @@ let nationalDex = [
         type: ["Poison", "Flying"],
         category: "Bat",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "121.3 lbs."
     },
     {
@@ -608,7 +608,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Weed",
         region: "Kanto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "11.9 lbs."
     },
     {
@@ -618,7 +618,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Weed",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "19.0 lbs."
     },
     {
@@ -628,7 +628,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Flower",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "41.0 lbs."
     },
     {
@@ -638,7 +638,7 @@ let nationalDex = [
         type: ["Bug", "Grass"],
         category: "Mushroom",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "11.9 lbs."
     },
     {
@@ -648,7 +648,7 @@ let nationalDex = [
         type: ["Bug", "Grass"],
         category: "Mushroom",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "65.0 lbs."
     },
     {
@@ -658,7 +658,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Insect",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "66.1 lbs."
     },
     {
@@ -668,7 +668,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Poison Moth",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "27.6 lbs."
     },
     {
@@ -678,7 +678,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Mole",
         region: "Kanto",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "1.8 lbs."
     },
     {
@@ -688,7 +688,7 @@ let nationalDex = [
         type: ["Ground", "Steel"],
         category: "Mole",
         region: "Kanto",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "2.2 lbs."
     },
     {
@@ -698,7 +698,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Mole",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "73.4 lbs."
     },
     {
@@ -708,7 +708,7 @@ let nationalDex = [
         type: ["Ground", "Steel"],
         category: "Mole",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "146.8 lbs."
     },
     {
@@ -718,7 +718,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Scratch Cat",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "9.3 lbs."
     },
     {
@@ -728,7 +728,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Scratch Cat",
         region: "Kanto",
-        height: "103'03''+",
+        height: "103'03\"+",
         weight: "??? lbs."
     },
     {
@@ -738,7 +738,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Scratch Cat",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "9.3 lbs."
     },
     {
@@ -748,7 +748,7 @@ let nationalDex = [
         type: ["Steel"],
         category: "Scratch Cat",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "16.5 lbs."
     },
     {
@@ -758,7 +758,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Classy Cat",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "70.5 lbs."
     },
     {
@@ -768,7 +768,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Classy Cat",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "72.8 lbs."
     },
     {
@@ -778,7 +778,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Duck",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "43.2 lbs."
     },
     {
@@ -788,7 +788,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Duck",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "168.9 lbs."
     },
     {
@@ -798,7 +798,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Pig Monkey",
         region: "Kanto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "61.7 lbs."
     },
     {
@@ -808,7 +808,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Pig Monkey",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "70.5 lbs."
     },
     {
@@ -818,7 +818,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Puppy",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "41.9 lbs."
     },
     {
@@ -828,7 +828,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Legendary",
         region: "Kanto",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "341.7 lbs."
     },
     {
@@ -838,7 +838,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Tadpole",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "27.3 lbs."
     },
     {
@@ -848,7 +848,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Tadpole",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "44.1 lbs."
     },
     {
@@ -858,7 +858,7 @@ let nationalDex = [
         type: ["Water", "Fighting"],
         category: "Tadpole",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "119.0 lbs."
     },
     {
@@ -868,7 +868,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Psi",
         region: "Kanto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "43.0 lbs."
     },
     {
@@ -878,7 +878,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Psi",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "124.6 lbs."
     },
     {
@@ -888,7 +888,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Psi",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "105.8 lbs."
     },
     {
@@ -898,7 +898,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Psi",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "105.8 lbs."
     },
     {
@@ -908,7 +908,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Superpower",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "43.0 lbs."
     },
     {
@@ -918,7 +918,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Superpower",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "155.4 lbs."
     },
     {
@@ -928,7 +928,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Superpower",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "286.6 lbs."
     },
     {
@@ -938,7 +938,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Superpower",
         region: "Kanto",
-        height: "82'00''+",
+        height: "82'00\"+",
         weight: "??? lbs."
     },
     {
@@ -948,7 +948,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Flower",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "8.8 lbs."
     },
     {
@@ -958,7 +958,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Flycatcher",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "14.1 lbs."
     },
     {
@@ -968,7 +968,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Flycatcher",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "34.2 lbs."
     },
     {
@@ -978,7 +978,7 @@ let nationalDex = [
         type: ["Water", "Poison"],
         category: "Jellyfish",
         region: "Kanto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "100.3 lbs."
     },
     {
@@ -988,7 +988,7 @@ let nationalDex = [
         type: ["Water", "Poison"],
         category: "Jellyfish",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "121.3 lbs."
     },
     {
@@ -998,7 +998,7 @@ let nationalDex = [
         type: ["Rock", "Ground"],
         category: "Rock",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "44.1 lbs."
     },
     {
@@ -1008,7 +1008,7 @@ let nationalDex = [
         type: ["Rock", "Electric"],
         category: "Rock",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "44.8 lbs."
     },
     {
@@ -1018,7 +1018,7 @@ let nationalDex = [
         type: ["Rock", "Ground"],
         category: "Rock",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "231.5 lbs."
     },
     {
@@ -1028,7 +1028,7 @@ let nationalDex = [
         type: ["Rock", "Electric"],
         category: "Rock",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "242.5 lbs."
     },
     {
@@ -1038,7 +1038,7 @@ let nationalDex = [
         type: ["Rock", "Ground"],
         category: "Megaton",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "661.4 lbs."
     },
     {
@@ -1048,7 +1048,7 @@ let nationalDex = [
         type: ["Rock", "Electric"],
         category: "Megaton",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "696.7 lbs."
     },
     {
@@ -1058,7 +1058,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Fire Horse",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "66.1 lbs."
     },
     {
@@ -1068,7 +1068,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Unique Horn",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "52.9 lbs."
     },
     {
@@ -1078,7 +1078,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Fire Horse",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "209.4 lbs."
     },
     {
@@ -1088,7 +1088,7 @@ let nationalDex = [
         type: ["Psychic", "Fairy"],
         category: "Unique Horn",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "176.4 lbs."
     },
     {
@@ -1098,7 +1098,7 @@ let nationalDex = [
         type: ["Water", "Psychic"],
         category: "Dopey",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "79.4 lbs."
     },
     {
@@ -1108,7 +1108,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Dopey",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "79.4 lbs."
     },
     {
@@ -1118,7 +1118,7 @@ let nationalDex = [
         type: ["Water", "Psychic"],
         category: "Hermit Crab",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "173.1 lbs."
     },
     {
@@ -1128,7 +1128,7 @@ let nationalDex = [
         type: ["Water", "Psychic"],
         category: "Hermit Crab",
         region: "Kanto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "264.6 lbs."
     },
     {
@@ -1138,7 +1138,7 @@ let nationalDex = [
         type: ["Poison", "Psychic"],
         category: "Hermit Crab",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "155.4 lbs."
     },
     {
@@ -1148,7 +1148,7 @@ let nationalDex = [
         type: ["Electric", "Steel"],
         category: "Magnet",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "13.2 lbs."
     },
     {
@@ -1158,7 +1158,7 @@ let nationalDex = [
         type: ["Electric", "Steel"],
         category: "Magnet",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "132.3 lbs."
     },
     {
@@ -1168,7 +1168,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Wild Duck",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "33.1 lbs."
     },
     {
@@ -1178,7 +1178,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Wild Duck",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "92.6 lbs."
     },
     {
@@ -1188,7 +1188,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Twin Bird",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "86.4 lbs."
     },
     {
@@ -1198,7 +1198,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Triple Bird",
         region: "Kanto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "187.8 lbs."
     },
     {
@@ -1208,7 +1208,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Lion",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "198.4 lbs."
     },
     {
@@ -1218,7 +1218,7 @@ let nationalDex = [
         type: ["Water", "Ice"],
         category: "Sea Lion",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "264.6 lbs."
     },
     {
@@ -1228,7 +1228,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Sludge",
         region: "Kanto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "66.1 lbs."
     },
     {
@@ -1238,7 +1238,7 @@ let nationalDex = [
         type: ["Poison", "Dark"],
         category: "Sludge",
         region: "Kanto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "92.6 lbs."
     },
     {
@@ -1248,7 +1248,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Sludge",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "66.1 lbs."
     },
     {
@@ -1258,7 +1258,7 @@ let nationalDex = [
         type: ["Poison", "Dark"],
         category: "Sludge",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "114.6 lbs."
     },
     {
@@ -1268,7 +1268,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Bivalve",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "8.8 lbs."
     },
     {
@@ -1278,7 +1278,7 @@ let nationalDex = [
         type: ["Water", "Ice"],
         category: "Bivalve",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "292.1 lbs."
     },
     {
@@ -1288,7 +1288,7 @@ let nationalDex = [
         type: ["Ghost", "Poison"],
         category: "Gas",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "0.2 lbs."
     },
     {
@@ -1298,7 +1298,7 @@ let nationalDex = [
         type: ["Ghost", "Poison"],
         category: "Gas",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "0.2 lbs."
     },
     {
@@ -1308,7 +1308,7 @@ let nationalDex = [
         type: ["Ghost", "Poison"],
         category: "Shadow",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "89.3 lbs."
     },
     {
@@ -1318,7 +1318,7 @@ let nationalDex = [
         type: ["Ghost", "Poison"],
         category: "Shadow",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "89.3 lbs."
     },
     {
@@ -1328,7 +1328,7 @@ let nationalDex = [
         type: ["Ghost", "Poison"],
         category: "Shadow",
         region: "Kanto",
-        height: "65'07''+",
+        height: "65'07\"+",
         weight: "??? lbs."
     },
     {
@@ -1338,7 +1338,7 @@ let nationalDex = [
         type: ["Rock", "Ground"],
         category: "Rock Snake",
         region: "Kanto",
-        height: "28'10''",
+        height: "28'10\"",
         weight: "463.0 lbs."
     },
     {
@@ -1348,7 +1348,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Hypnosis",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "71.4 lbs."
     },
     {
@@ -1358,7 +1358,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Hypnosis",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "71.4 lbs."
     },
     {
@@ -1368,7 +1368,7 @@ let nationalDex = [
         type: ["Water"],
         category: "River Crab",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "14.3 lbs."
     },
     {
@@ -1378,7 +1378,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Pincer",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "132.3 lbs."
     },
     {
@@ -1388,7 +1388,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Pincer",
         region: "Kanto",
-        height: "62'04''+",
+        height: "62'04\"+",
         weight: "??? lbs."
     },
     {
@@ -1398,7 +1398,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Ball",
         region: "Kanto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "22.9 lbs."
     },
     {
@@ -1408,7 +1408,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Ball",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "146.8 lbs."
     },
     {
@@ -1418,7 +1418,7 @@ let nationalDex = [
         type: ["Grass", "Psychic"],
         category: "Egg",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "5.5 lbs."
     },
     {
@@ -1428,7 +1428,7 @@ let nationalDex = [
         type: ["Grass", "Psychic"],
         category: "Coconut",
         region: "Kanto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "264.6 lbs."
     },
     {
@@ -1438,7 +1438,7 @@ let nationalDex = [
         type: ["Grass", "Dragon"],
         category: "Coconut",
         region: "Kanto",
-        height: "35'09''",
+        height: "35'09\"",
         weight: "916.2 lbs."
     },
     {
@@ -1448,7 +1448,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Lonely",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "14.3 lbs."
     },
     {
@@ -1458,7 +1458,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Bone Keeper",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "99.2 lbs."
     },
     {
@@ -1468,7 +1468,7 @@ let nationalDex = [
         type: ["Fire", "Ghost"],
         category: "Bone Keeper",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "75.0 lbs."
     },
     {
@@ -1478,7 +1478,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Kicking",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "109.8 lbs."
     },
     {
@@ -1488,7 +1488,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Punching",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "110.7 lbs."
     },
     {
@@ -1498,7 +1498,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Licking",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "144.4 lbs."
     },
     {
@@ -1508,7 +1508,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Poison Gas",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "2.2 lbs."
     },
     {
@@ -1518,7 +1518,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Poison Gas",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "20.9 lbs."
     },
     {
@@ -1528,7 +1528,7 @@ let nationalDex = [
         type: ["Poison", "Fairy"],
         category: "Poison Gas",
         region: "Kanto",
-        height: "9'10''",
+        height: "9'10\"",
         weight: "35.3 lbs."
     },
     {
@@ -1538,7 +1538,7 @@ let nationalDex = [
         type: ["Ground", "Rock"],
         category: "Spikes",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "253.5 lbs."
     },
     {
@@ -1548,7 +1548,7 @@ let nationalDex = [
         type: ["Ground", "Rock"],
         category: "Drill",
         region: "Kanto",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "264.6 lbs."
     },
     {
@@ -1558,7 +1558,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Egg",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "76.3 lbs."
     },
     {
@@ -1568,7 +1568,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Vine",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "77.2 lbs."
     },
     {
@@ -1578,7 +1578,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Parent",
         region: "Kanto",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "176.4 lbs."
     },
     {
@@ -1588,7 +1588,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Parent",
         region: "Kanto",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "220.5 lbs."
     },
     {
@@ -1598,7 +1598,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Dragon",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "17.6 lbs."
     },
     {
@@ -1608,7 +1608,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Dragon",
         region: "Kanto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "55.1 lbs."
     },
     {
@@ -1618,7 +1618,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Goldfish",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "33.1 lbs."
     },
     {
@@ -1628,7 +1628,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Goldfish",
         region: "Kanto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "33.1 lbs."
     },
     {
@@ -1638,7 +1638,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Star Shape",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "76.1 lbs."
     },
     {
@@ -1648,7 +1648,7 @@ let nationalDex = [
         type: ["Water", "Psychic"],
         category: "Mysterious",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "176.4 lbs."
     },
     {
@@ -1658,7 +1658,7 @@ let nationalDex = [
         type: ["Psychic", "Fairy"],
         category: "Barrier",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "120.2 lbs."
     },
     {
@@ -1668,7 +1668,7 @@ let nationalDex = [
         type: ["Ice", "Psychic"],
         category: "Dancing",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "125.2 lbs."
     },
     {
@@ -1678,7 +1678,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Mantis",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "123.5 lbs."
     },
     {
@@ -1688,7 +1688,7 @@ let nationalDex = [
         type: ["Ice", "Psychic"],
         category: "Human Shape",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "89.5 lbs."
     },
     {
@@ -1698,7 +1698,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Electric",
         region: "Kanto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "66.1 lbs."
     },
     {
@@ -1708,7 +1708,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Spitfire",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "98.1 lbs."
     },
     {
@@ -1718,7 +1718,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Stag Beetle",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "121.3 lbs."
     },
     {
@@ -1728,7 +1728,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Stag Beetle",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "130.1 lbs."
     },
     {
@@ -1738,7 +1738,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Wild Bull",
         region: "Kanto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "194.9 lbs."
     },
     {
@@ -1748,7 +1748,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Fish",
         region: "Kanto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "22.0 lbs."
     },
     {
@@ -1758,7 +1758,7 @@ let nationalDex = [
         type: ["Water", "Flying"],
         category: "Atrocious",
         region: "Kanto",
-        height: "21'04''",
+        height: "21'04\"",
         weight: "518.1 lbs."
     },
     {
@@ -1768,7 +1768,7 @@ let nationalDex = [
         type: ["Water", "Dark"],
         category: "Atrocious",
         region: "Kanto",
-        height: "21'04''",
+        height: "21'04\"",
         weight: "627.4 lbs."
     },
     {
@@ -1778,7 +1778,7 @@ let nationalDex = [
         type: ["Water", "Ice"],
         category: "Transport",
         region: "Kanto",
-        height: "8'02''",
+        height: "8'02\"",
         weight: "485.0 lbs."
     },
     {
@@ -1788,7 +1788,7 @@ let nationalDex = [
         type: ["Water", "Ice"],
         category: "Transport",
         region: "Kanto",
-        height: "78'00''+",
+        height: "78'00\"+",
         weight: "??? lbs."
     },
     {
@@ -1798,7 +1798,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Transform",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "8.8 lbs."
     },
     {
@@ -1808,7 +1808,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Evolution",
         region: "Kanto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "14.3 lbs."
     },
     {
@@ -1818,7 +1818,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Evolution",
         region: "Kanto",
-        height: "59'01''+",
+        height: "59'01\"+",
         weight: "??? lbs."
     },
     {
@@ -1828,7 +1828,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Bubble Jet",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "63.9 lbs."
     },
     {
@@ -1838,7 +1838,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Lightning",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "54.0 lbs."
     },
     {
@@ -1848,7 +1848,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Flame",
         region: "Kanto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "55.1 lbs."
     },
     {
@@ -1858,7 +1858,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Virtual",
         region: "Kanto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "80.5 lbs."
     },
     {
@@ -1868,7 +1868,7 @@ let nationalDex = [
         type: ["Rock", "Water"],
         category: "Spiral",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "16.5 lbs."
     },
     {
@@ -1878,7 +1878,7 @@ let nationalDex = [
         type: ["Rock", "Water"],
         category: "Spiral",
         region: "Kanto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "77.2 lbs."
     },
     {
@@ -1888,7 +1888,7 @@ let nationalDex = [
         type: ["Rock", "Water"],
         category: "Shellfish",
         region: "Kanto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "25.4 lbs."
     },
     {
@@ -1898,7 +1898,7 @@ let nationalDex = [
         type: ["Rock", "Water"],
         category: "Shellfish",
         region: "Kanto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "25.4 lbs."
     },
     {
@@ -1908,7 +1908,7 @@ let nationalDex = [
         type: ["Rock", "Flying"],
         category: "Fossil",
         region: "Kanto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "130.1 lbs."
     },
     {
@@ -1918,7 +1918,7 @@ let nationalDex = [
         type: ["Rock", "Flying"],
         category: "Fossil",
         region: "Kanto",
-        height: "6'11''",
+        height: "6'11\"",
         weight: "174.2 lbs."
     },
     {
@@ -1928,7 +1928,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Sleeping",
         region: "Kanto",
-        height: "6'11''",
+        height: "6'11\"",
         weight: "1041.1 lbs."
     },
     {
@@ -1938,7 +1938,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Sleeping",
         region: "Kanto",
-        height: "114'10''+",
+        height: "114'10\"+",
         weight: "??? lbs."
     },
     {
@@ -1948,7 +1948,7 @@ let nationalDex = [
         type: ["Ice", "Flying"],
         category: "Freeze",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "122.1 lbs."
     },
     {
@@ -1958,7 +1958,7 @@ let nationalDex = [
         type: ["Psychic", "Flying"],
         category: "Cruel",
         region: "Kanto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "112.2 lbs."
     },
     {
@@ -1968,7 +1968,7 @@ let nationalDex = [
         type: ["Electric", "Flying"],
         category: "Electric",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "116.0 lbs."
     },
     {
@@ -1978,7 +1978,7 @@ let nationalDex = [
         type: ["Fighting", "Flying"],
         category: "Strong Legs",
         region: "Kanto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "128.3 lbs."
     },
     {
@@ -1988,7 +1988,7 @@ let nationalDex = [
         type: ["Fire", "Flying"],
         category: "Flame",
         region: "Kanto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "132.3 lbs."
     },
     {
@@ -1998,7 +1998,7 @@ let nationalDex = [
         type: ["Dark", "Flying"],
         category: "Malevolent",
         region: "Kanto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "145.5 lbs."
     },
     {
@@ -2008,7 +2008,7 @@ let nationalDex = [
         type: ["Dragon"],
         category: "Dragon",
         region: "Kanto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "7.3 lbs."
     },
     {
@@ -2018,7 +2018,7 @@ let nationalDex = [
         type: ["Dragon"],
         category: "Dragon",
         region: "Kanto",
-        height: "13'01''",
+        height: "13'01\"",
         weight: "36.4 lbs."
     },
     {
@@ -2028,7 +2028,7 @@ let nationalDex = [
         type: ["Dragon", "Flying"],
         category: "Dragon",
         region: "Kanto",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "463.0 lbs."
     },
     {
@@ -2038,7 +2038,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Genetic",
         region: "Kanto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "269.0 lbs."
     },
     {
@@ -2048,7 +2048,7 @@ let nationalDex = [
         type: ["Psychic", "Fighting"],
         category: "Genetic",
         region: "Kanto",
-        height: "7'07''",
+        height: "7'07\"",
         weight: "280.0 lbs."
     },
     {
@@ -2058,7 +2058,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Genetic",
         region: "Kanto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "72.8 lbs."
     },
     {
@@ -2068,7 +2068,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "New Species",
         region: "Kanto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "8.8 lbs."
     },
     {
@@ -2078,7 +2078,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Leaf",
         region: "Johto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "14.1 lbs."
     },
     {
@@ -2088,7 +2088,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Leaf",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "34.8 lbs."
     },
     {
@@ -2098,7 +2098,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Herb",
         region: "Johto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "221.6 lbs."
     },
     {
@@ -2108,7 +2108,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Fire Mouse",
         region: "Johto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "17.4 lbs."
     },
     {
@@ -2118,7 +2118,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Volcano",
         region: "Johto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "41.9 lbs."
     },
     {
@@ -2128,7 +2128,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Volcano",
         region: "Johto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "175.3 lbs."
     },
     {
@@ -2138,7 +2138,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Big Jaw",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "20.9 lbs."
     },
     {
@@ -2148,7 +2148,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Big Jaw",
         region: "Johto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "55.1 lbs."
     },
     {
@@ -2158,7 +2158,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Big Jaw",
         region: "Johto",
-        height: "7'07''",
+        height: "7'07\"",
         weight: "195.8 lbs."
     },
     {
@@ -2168,7 +2168,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Scout",
         region: "Johto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "13.2 lbs."
     },
     {
@@ -2178,7 +2178,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Long Body",
         region: "Johto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "71.7 lbs."
     },
     {
@@ -2188,7 +2188,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Owl",
         region: "Johto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "46.7 lbs."
     },
     {
@@ -2198,7 +2198,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Owl",
         region: "Johto",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "89.9 lbs."
     },
     {
@@ -2208,7 +2208,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Five Star",
         region: "Johto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "23.8 lbs."
     },
     {
@@ -2218,7 +2218,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Five Star",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "78.5 lbs."
     },
     {
@@ -2228,7 +2228,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "String Spit",
         region: "Johto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "18.7 lbs."
     },
     {
@@ -2238,7 +2238,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Long Leg",
         region: "Johto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "73.9 lbs."
     },
     {
@@ -2248,7 +2248,7 @@ let nationalDex = [
         type: ["Poison", "Flying"],
         category: "Bat",
         region: "Johto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "165.3 lbs."
     },
     {
@@ -2258,7 +2258,7 @@ let nationalDex = [
         type: ["Water", "Electric"],
         category: "Angler",
         region: "Johto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "26.5 lbs."
     },
     {
@@ -2268,7 +2268,7 @@ let nationalDex = [
         type: ["Water", "Electric"],
         category: "Light",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "49.6 lbs."
     },
     {
@@ -2278,7 +2278,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Tiny Mouse",
         region: "Johto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "4.4 lbs."
     },
     {
@@ -2288,7 +2288,7 @@ let nationalDex = [
         type: ["Fairy"],
         category: "Star Shape",
         region: "Johto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "6.6 lbs."
     },
     {
@@ -2298,7 +2298,7 @@ let nationalDex = [
         type: ["Normal", "Fairy"],
         category: "Balloon",
         region: "Johto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "2.2 lbs."
     },
     {
@@ -2308,7 +2308,7 @@ let nationalDex = [
         type: ["Fairy"],
         category: "Spike Ball",
         region: "Johto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "3.3 lbs."
     },
     {
@@ -2318,7 +2318,7 @@ let nationalDex = [
         type: ["Fairy", "Flying"],
         category: "Happiness",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "7.1 lbs."
     },
     {
@@ -2328,7 +2328,7 @@ let nationalDex = [
         type: ["Psychic", "Flying"],
         category: "Tiny Bird",
         region: "Johto",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "4.4 lbs."
     },
     {
@@ -2338,7 +2338,7 @@ let nationalDex = [
         type: ["Psychic", "Flying"],
         category: "Mystic",
         region: "Johto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "33.1 lbs."
     },
     {
@@ -2348,7 +2348,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Wool",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "17.2 lbs."
     },
     {
@@ -2358,7 +2358,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Wool",
         region: "Johto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "29.3 lbs."
     },
     {
@@ -2368,7 +2368,7 @@ let nationalDex = [
         type: ["Electric",],
         category: "Light",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "135.6 lbs."
     },
     {
@@ -2378,7 +2378,7 @@ let nationalDex = [
         type: ["Electric", "Dragon"],
         category: "Light",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "135.6 lbs."
     },
     {
@@ -2388,7 +2388,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Flower",
         region: "Johto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "12.8 lbs."
     },
     {
@@ -2398,7 +2398,7 @@ let nationalDex = [
         type: ["Water", "Fairy"],
         category: "Aqua Mouse",
         region: "Johto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "18.7 lbs."
     },
     {
@@ -2408,7 +2408,7 @@ let nationalDex = [
         type: ["Water", "Fairy"],
         category: "Aqua Rabbit",
         region: "Johto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "62.8 lbs."
     },
     {
@@ -2418,7 +2418,7 @@ let nationalDex = [
         type: ["Rock"],
         category: "Imitation",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "83.8 lbs."
     },
     {
@@ -2428,7 +2428,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Frog",
         region: "Johto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "74.7 lbs."
     },
     {
@@ -2438,7 +2438,7 @@ let nationalDex = [
         type: ["Grass", "Flying"],
         category: "Cottonweed",
         region: "Johto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "1.1 lbs."
     },
     {
@@ -2448,7 +2448,7 @@ let nationalDex = [
         type: ["Grass", "Flying"],
         category: "Cottonweed",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "2.2 lbs."
     },
     {
@@ -2458,7 +2458,7 @@ let nationalDex = [
         type: ["Grass", "Flying"],
         category: "Cottonweed",
         region: "Johto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "6.6 lbs."
     },
     {
@@ -2468,7 +2468,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Long Tail",
         region: "Johto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "25.4 lbs."
     },
     {
@@ -2478,7 +2478,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Seed",
         region: "Johto",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "4.0 lbs."
     },
     {
@@ -2488,7 +2488,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Sun",
         region: "Johto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "18.7 lbs."
     },
     {
@@ -2498,7 +2498,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Clear Wing",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "83.8 lbs."
     },
     {
@@ -2508,7 +2508,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Water Fish",
         region: "Johto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "18.7 lbs."
     },
     {
@@ -2518,7 +2518,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Water Fish",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "165.3 lbs."
     },
     {
@@ -2528,7 +2528,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Sun",
         region: "Johto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "58.4 lbs."
     },
     {
@@ -2538,7 +2538,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Moonlight",
         region: "Johto",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "59.5 lbs."
     },
     {
@@ -2548,7 +2548,7 @@ let nationalDex = [
         type: ["Dark", "Flying"],
         category: "Darkness",
         region: "Johto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "4.6 lbs."
     },
     {
@@ -2558,7 +2558,7 @@ let nationalDex = [
         type: ["Water", "Psychic"],
         category: "Royal",
         region: "Johto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "175.3 lbs."
     },
     {
@@ -2568,7 +2568,7 @@ let nationalDex = [
         type: ["Poison", "Psychic"],
         category: "Hexpert",
         region: "Johto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "175.3 lbs."
     },
     {
@@ -2578,7 +2578,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Screech",
         region: "Johto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "2.2 lbs."
     },
     {
@@ -2588,7 +2588,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Symbol",
         region: "Johto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "11.0 lbs."
     },
     {
@@ -2598,7 +2598,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Patient",
         region: "Johto",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "62.8 lbs."
     },
     {
@@ -2608,7 +2608,7 @@ let nationalDex = [
         type: ["Normal", "Psychic"],
         category: "Long Neck",
         region: "Johto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "91.5 lbs."
     },
     {
@@ -2618,7 +2618,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Bagworm",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "15.9 lbs."
     },
     {
@@ -2628,7 +2628,7 @@ let nationalDex = [
         type: ["Bug", "Steel"],
         category: "Bagworm",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "277.3 lbs."
     },
     {
@@ -2638,7 +2638,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Land Snake",
         region: "Johto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "30.9 lbs."
     },
     {
@@ -2648,7 +2648,7 @@ let nationalDex = [
         type: ["Ground", "Flying"],
         category: "Fly Scorpion",
         region: "Johto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "142.9 lbs."
     },
     {
@@ -2658,7 +2658,7 @@ let nationalDex = [
         type: ["Steel", "Ground"],
         category: "Iron Snake",
         region: "Johto",
-        height: "30'02''",
+        height: "30'02\"",
         weight: "881.8 lbs."
     },
     {
@@ -2668,7 +2668,7 @@ let nationalDex = [
         type: ["Steel", "Ground"],
         category: "Iron Snake",
         region: "Johto",
-        height: "34'05''",
+        height: "34'05\"",
         weight: "1631.4 lbs."
     },
     {
@@ -2678,7 +2678,7 @@ let nationalDex = [
         type: ["Fairy"],
         category: "Fairy",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "17.2 lbs."
     },
     {
@@ -2688,7 +2688,7 @@ let nationalDex = [
         type: ["Fairy"],
         category: "Fairy",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "107.4 lbs."
     },
     {
@@ -2698,7 +2698,7 @@ let nationalDex = [
         type: ["Water", "Poison"],
         category: "Balloon",
         region: "Johto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "8.6 lbs."
     },
     {
@@ -2708,7 +2708,7 @@ let nationalDex = [
         type: ["Bug", "Steel"],
         category: "Pincer",
         region: "Johto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "260.1 lbs."
     },
     {
@@ -2718,7 +2718,7 @@ let nationalDex = [
         type: ["Bug", "Steel"],
         category: "Pincer",
         region: "Johto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "275.6 lbs."
     },
     {
@@ -2728,7 +2728,7 @@ let nationalDex = [
         type: ["Bug", "Rock"],
         category: "Mold",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "45.2 lbs."
     },
     {
@@ -2738,7 +2738,7 @@ let nationalDex = [
         type: ["Bug", "Fighting"],
         category: "Single Horn",
         region: "Johto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "119.0 lbs."
     },
     {
@@ -2748,7 +2748,7 @@ let nationalDex = [
         type: ["Bug", "Fighting"],
         category: "Single Horn",
         region: "Johto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "137.8 lbs."
     },
     {
@@ -2758,7 +2758,7 @@ let nationalDex = [
         type: ["Dark", "Ice"],
         category: "Sharp Claw",
         region: "Johto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "61.7 lbs."
     },
     {
@@ -2768,7 +2768,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Little Bear",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "19.4 lbs."
     },
     {
@@ -2778,7 +2778,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Hibernator",
         region: "Johto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "277.3 lbs."
     },
     {
@@ -2788,7 +2788,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Lava",
         region: "Johto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "77.2 lbs."
     },
     {
@@ -2798,7 +2798,7 @@ let nationalDex = [
         type: ["Fire", "Rock"],
         category: "Lava",
         region: "Johto",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "121.3 lbs."
     },
     {
@@ -2808,7 +2808,7 @@ let nationalDex = [
         type: ["Ice", "Ground"],
         category: "Pig",
         region: "Johto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "14.3 lbs."
     },
     {
@@ -2818,7 +2818,7 @@ let nationalDex = [
         type: ["Ice", "Ground"],
         category: "Swine",
         region: "Johto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "123.0 lbs."
     },
     {
@@ -2828,7 +2828,7 @@ let nationalDex = [
         type: ["Water", "Rock"],
         category: "Coral",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "11.0 lbs."
     },
     {
@@ -2838,7 +2838,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Coral",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "1.1 lbs."
     },
     {
@@ -2848,7 +2848,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Jet",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "26.5 lbs."
     },
     {
@@ -2858,7 +2858,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Jet",
         region: "Johto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "62.8 lbs."
     },
     {
@@ -2868,7 +2868,7 @@ let nationalDex = [
         type: ["Ice", "Flying"],
         category: "Delivery",
         region: "Johto",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "35.3 lbs."
     },
     {
@@ -2878,7 +2878,7 @@ let nationalDex = [
         type: ["Water", "Flying"],
         category: "Kite",
         region: "Johto",
-        height: "6'11''",
+        height: "6'11\"",
         weight: "485.0 lbs."
     },
     {
@@ -2888,7 +2888,7 @@ let nationalDex = [
         type: ["Steel", "Flying"],
         category: "Armor Bird",
         region: "Johto",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "111.3 lbs."
     },
     {
@@ -2898,7 +2898,7 @@ let nationalDex = [
         type: ["Dark", "Fire"],
         category: "Dark",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "23.8 lbs."
     },
     {
@@ -2908,7 +2908,7 @@ let nationalDex = [
         type: ["Dark", "Fire"],
         category: "Dark",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "77.2 lbs."
     },
     {
@@ -2918,7 +2918,7 @@ let nationalDex = [
         type: ["Dark", "Fire"],
         category: "Dark",
         region: "Johto",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "109.1 lbs."
     },
     {
@@ -2928,7 +2928,7 @@ let nationalDex = [
         type: ["Water", "Dragon"],
         category: "Dragon",
         region: "Johto",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "335.1 lbs."
     },
     {
@@ -2938,7 +2938,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Long Nose",
         region: "Johto",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "73.9 lbs."
     },
     {
@@ -2948,7 +2948,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Armor",
         region: "Johto",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "264.6 lbs."
     },
     {
@@ -2958,7 +2958,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Virtual",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "71.7 lbs."
     },
     {
@@ -2968,7 +2968,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Big Horn",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "157.0 lbs."
     },
     {
@@ -2978,7 +2978,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Painter",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "127.9 lbs."
     },
     {
@@ -2988,7 +2988,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Scuffle",
         region: "Johto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "46.3 lbs."
     },
     {
@@ -2998,7 +2998,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Handstand",
         region: "Johto",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "105.8 lbs."
     },
     {
@@ -3008,7 +3008,7 @@ let nationalDex = [
         type: ["Ice", "Psychic"],
         category: "Kiss",
         region: "Johto",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "13.2 lbs."
     },
     {
@@ -3018,7 +3018,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Electric",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "51.8 lbs."
     },
     {
@@ -3028,7 +3028,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Live Coal",
         region: "Johto",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "47.2 lbs."
     },
     {
@@ -3038,7 +3038,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Milk Cow",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "166.4 lbs."
     },
     {
@@ -3048,7 +3048,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Happiness",
         region: "Johto",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "103.2 lbs."
     },
     {
@@ -3058,7 +3058,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Thunder",
         region: "Johto",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "392.4 lbs."
     },
     {
@@ -3068,7 +3068,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Volcano",
         region: "Johto",
-        height: "6'11''",
+        height: "6'11\"",
         weight: "436.5 lbs."
     },
     {
@@ -3078,7 +3078,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Aurora",
         region: "Johto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "412.3 lbs."
     },
     {
@@ -3088,7 +3088,7 @@ let nationalDex = [
         type: ["Rock", "Ground"],
         category: "Rock Skin",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "158.7 lbs."
     },
     {
@@ -3098,7 +3098,7 @@ let nationalDex = [
         type: ["Rock", "Ground"],
         category: "Hard Shell",
         region: "Johto",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "335.1 lbs."
     },
     {
@@ -3108,7 +3108,7 @@ let nationalDex = [
         type: ["Rock", "Dark"],
         category: "Armor",
         region: "Johto",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "445.3 lbs."
     },
     {
@@ -3118,7 +3118,7 @@ let nationalDex = [
         type: ["Rock", "Dark"],
         category: "Armor",
         region: "Johto",
-        height: "8'02''",
+        height: "8'02\"",
         weight: "562.2 lbs."
     },
     {
@@ -3128,7 +3128,7 @@ let nationalDex = [
         type: ["Psychic", "Flying"],
         category: "Diving",
         region: "Johto",
-        height: "17'01''",
+        height: "17'01\"",
         weight: "476.2 lbs."
     },
     {
@@ -3138,7 +3138,7 @@ let nationalDex = [
         type: ["Fire", "Flying"],
         category: "Rainbow",
         region: "Johto",
-        height: "12'06''",
+        height: "12'06\"",
         weight: "438.7 lbs."
     },
     {
@@ -3148,7 +3148,7 @@ let nationalDex = [
         type: ["Psychic", "Grass"],
         category: "Time Travel",
         region: "Johto",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "11.0 lbs."
     },
     {
@@ -3158,7 +3158,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Wood Gecko",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "11.0 lbs."
     },
     {
@@ -3168,7 +3168,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Wood Gecko",
         region: "Hoenn",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "47.6 lbs."
     },
     {
@@ -3178,7 +3178,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Forest",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "115.1 lbs."
     },
     {
@@ -3188,7 +3188,7 @@ let nationalDex = [
         type: ["Grass", "Dragon"],
         category: "Forest",
         region: "Hoenn",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "121.7 lbs."
     },
     {
@@ -3198,7 +3198,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Chick",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "5.5 lbs."
     },
     {
@@ -3208,7 +3208,7 @@ let nationalDex = [
         type: ["Fire", "Fighting"],
         category: "Young Fowl",
         region: "Hoenn",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "43.0 lbs."
     },
     {
@@ -3218,7 +3218,7 @@ let nationalDex = [
         type: ["Fire", "Fighting"],
         category: "Blaze",
         region: "Hoenn",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "114.6 lbs."
     },
     {
@@ -3228,7 +3228,7 @@ let nationalDex = [
         type: ["Fire", "Fighting"],
         category: "Blaze",
         region: "Hoenn",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "114.6 lbs."
     },
     {
@@ -3238,7 +3238,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Mud Fish",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "16.8 lbs."
     },
     {
@@ -3248,7 +3248,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Mud Fish",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "61.7 lbs."
     },
     {
@@ -3258,7 +3258,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Mud Fish",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "180.6 lbs."
     },
     {
@@ -3268,7 +3268,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Mud Fish",
         region: "Hoenn",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "224.9 lbs."
     },
     {
@@ -3278,7 +3278,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Bite",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "30.0 lbs."
     },
     {
@@ -3288,7 +3288,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Bite",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "81.6 lbs."
     },
     {
@@ -3298,7 +3298,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Tiny Raccoon",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "38.6 lbs."
     },
     {
@@ -3308,7 +3308,7 @@ let nationalDex = [
         type: ["Dark", "Normal"],
         category: "Tiny Raccoon",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "38.6 lbs."
     },
     {
@@ -3318,7 +3318,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Rushing",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "71.7 lbs."
     },
     {
@@ -3328,7 +3328,7 @@ let nationalDex = [
         type: ["Dark", "Normal"],
         category: "Rushing",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "71.7 lbs."
     },
     {
@@ -3338,7 +3338,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Worm",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "7.9 lbs."
     },
     {
@@ -3348,7 +3348,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Cocoon",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "22.0 lbs."
     },
     {
@@ -3358,7 +3358,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Butterfly",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "62.6 lbs."
     },
     {
@@ -3368,7 +3368,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Cocoon",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "25.4 lbs."
     },
     {
@@ -3378,7 +3378,7 @@ let nationalDex = [
         type: ["Bug", "Poison"],
         category: "Poison Moth",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "69.7 lbs."
     },
     {
@@ -3388,7 +3388,7 @@ let nationalDex = [
         type: ["Water", "Grass"],
         category: "Water Weed",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "5.7 lbs."
     },
     {
@@ -3398,7 +3398,7 @@ let nationalDex = [
         type: ["Water", "Grass"],
         category: "Jolly",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "71.7 lbs."
     },
     {
@@ -3408,7 +3408,7 @@ let nationalDex = [
         type: ["Water", "Grass"],
         category: "Carefree",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "121.3 lbs."
     },
     {
@@ -3418,7 +3418,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Acorn",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "8.8 lbs."
     },
     {
@@ -3428,7 +3428,7 @@ let nationalDex = [
         type: ["Grass", "Dark"],
         category: "Wily",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "61.7 lbs."
     },
     {
@@ -3438,7 +3438,7 @@ let nationalDex = [
         type: ["Grass", "Dark"],
         category: "Wicked",
         region: "Hoenn",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "131.4 lbs."
     },
     {
@@ -3448,7 +3448,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Tiny Swallow",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "5.1 lbs."
     },
     {
@@ -3458,7 +3458,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Swallow",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "43.7 lbs."
     },
     {
@@ -3468,7 +3468,7 @@ let nationalDex = [
         type: ["Water", "Flying"],
         category: "Seagull",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "20.9 lbs."
     },
     {
@@ -3478,7 +3478,7 @@ let nationalDex = [
         type: ["Water", "Flying"],
         category: "Water Bird",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "61.7 lbs."
     },
     {
@@ -3488,7 +3488,7 @@ let nationalDex = [
         type: ["Psychic", "Fairy"],
         category: "Feeling",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "14.6 lbs."
     },
     {
@@ -3498,7 +3498,7 @@ let nationalDex = [
         type: ["Psychic", "Fairy"],
         category: "Emotion",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "44.5 lbs."
     },
     {
@@ -3508,7 +3508,7 @@ let nationalDex = [
         type: ["Psychic", "Fairy"],
         category: "Embrace",
         region: "Hoenn",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "106.7 lbs."
     },
     {
@@ -3518,7 +3518,7 @@ let nationalDex = [
         type: ["Psychic", "Fairy"],
         category: "Embrace",
         region: "Hoenn",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "106.7 lbs."
     },
     {
@@ -3528,7 +3528,7 @@ let nationalDex = [
         type: ["Bug", "Water"],
         category: "Pond Skater",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "3.7 lbs."
     },
     {
@@ -3538,7 +3538,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Eyeball",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "7.9 lbs."
     },
     {
@@ -3548,7 +3548,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Mushroom",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "9.9 lbs."
     },
     {
@@ -3558,7 +3558,7 @@ let nationalDex = [
         type: ["Grass", "Fighting"],
         category: "Mushroom",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "86.4 lbs."
     },
     {
@@ -3568,7 +3568,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Slacker",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "52.9 lbs."
     },
     {
@@ -3578,7 +3578,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Wild Monkey",
         region: "Hoenn",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "102.5 lbs."
     },
     {
@@ -3588,7 +3588,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Lazy",
         region: "Hoenn",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "287.7 lbs."
     },
     {
@@ -3598,7 +3598,7 @@ let nationalDex = [
         type: ["Bug", "Ground"],
         category: "Trainee",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "12.1 lbs."
     },
     {
@@ -3608,7 +3608,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Ninja",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "26.5 lbs."
     },
     {
@@ -3618,7 +3618,7 @@ let nationalDex = [
         type: ["Bug", "Ghost"],
         category: "Shed",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "2.6 lbs."
     },
     {
@@ -3628,7 +3628,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Whisper",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "35.9 lbs."
     },
     {
@@ -3638,7 +3638,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Big Voice",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "89.3 lbs."
     },
     {
@@ -3648,7 +3648,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Loud Noise",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "185.2 lbs."
     },
     {
@@ -3658,7 +3658,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Guts",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "190.5 lbs."
     },
     {
@@ -3668,7 +3668,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Arm Thrust",
         region: "Hoenn",
-        height: "7'07''",
+        height: "7'07\"",
         weight: "559.5 lbs."
     },
     {
@@ -3678,7 +3678,7 @@ let nationalDex = [
         type: ["Normal", "Fairy"],
         category: "Polka Dot",
         region: "Hoenn",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "4.4 lbs."
     },
     {
@@ -3688,7 +3688,7 @@ let nationalDex = [
         type: ["Rock"],
         category: "Compass",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "213.8 lbs."
     },
     {
@@ -3698,7 +3698,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Kitten",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "24.3 lbs."
     },
     {
@@ -3708,7 +3708,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Prim",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "71.9 lbs."
     },
     {
@@ -3718,7 +3718,7 @@ let nationalDex = [
         type: ["Dark", "Ghost"],
         category: "Darkness",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "24.3 lbs."
     },
     {
@@ -3728,7 +3728,7 @@ let nationalDex = [
         type: ["Dark", "Ghost"],
         category: "Darkness",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "354.9 lbs."
     },
     {
@@ -3738,7 +3738,7 @@ let nationalDex = [
         type: ["Steel", "Fairy"],
         category: "Deceiver",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "25.4 lbs."
     },
     {
@@ -3748,7 +3748,7 @@ let nationalDex = [
         type: ["Steel", "Fairy"],
         category: "Deceiver",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "51.8 lbs."
     },
     {
@@ -3758,7 +3758,7 @@ let nationalDex = [
         type: ["Steel", "Rock"],
         category: "Iron Armor",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "132.3 lbs."
     },
     {
@@ -3768,7 +3768,7 @@ let nationalDex = [
         type: ["Steel", "Rock"],
         category: "Iron Armor",
         region: "Hoenn",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "264.6 lbs."
     },
     {
@@ -3778,7 +3778,7 @@ let nationalDex = [
         type: ["Steel", "Rock"],
         category: "Iron Armor",
         region: "Hoenn",
-        height: "6'11''",
+        height: "6'11\"",
         weight: "793.7 lbs."
     },
     {
@@ -3788,7 +3788,7 @@ let nationalDex = [
         type: ["Steel"],
         category: "Iron Armor",
         region: "Hoenn",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "870.8 lbs."
     },
     {
@@ -3798,7 +3798,7 @@ let nationalDex = [
         type: ["Fighting", "Psychic"],
         category: "Meditate",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "24.7 lbs."
     },
     {
@@ -3808,7 +3808,7 @@ let nationalDex = [
         type: ["Fighting", "Psychic"],
         category: "Meditate",
         region: "Hoenn",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "69.4 lbs."
     },
     {
@@ -3818,7 +3818,7 @@ let nationalDex = [
         type: ["Fighting", "Psychic"],
         category: "Meditate",
         region: "Hoenn",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "69.4 lbs."
     },
     {
@@ -3828,7 +3828,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Lightning",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "33.5 lbs."
     },
     {
@@ -3838,7 +3838,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Discharge",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "88.6 lbs."
     },
     {
@@ -3848,7 +3848,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Discharge",
         region: "Hoenn",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "97.0 lbs."
     },
     {
@@ -3858,7 +3858,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Cheering",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "9.3 lbs."
     },
     {
@@ -3868,7 +3868,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Cheering",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "9.3 lbs."
     },
     {
@@ -3878,7 +3878,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Firefly",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "39.0 lbs."
     },
     {
@@ -3888,7 +3888,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Firefly",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "39.0 lbs."
     },
     {
@@ -3898,7 +3898,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Thorn",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "4.4 lbs."
     },
     {
@@ -3908,7 +3908,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Stomach",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "22.7 lbs."
     },
     {
@@ -3918,7 +3918,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Poison Bag",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "176.4 lbs."
     },
     {
@@ -3928,7 +3928,7 @@ let nationalDex = [
         type: ["Water", "Dark"],
         category: "Savage",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "45.9 lbs."
     },
     {
@@ -3938,7 +3938,7 @@ let nationalDex = [
         type: ["Water", "Dark"],
         category: "Brutal",
         region: "Hoenn",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "195.8 lbs."
     },
     {
@@ -3948,7 +3948,7 @@ let nationalDex = [
         type: ["Water", "Dark"],
         category: "Brutal",
         region: "Hoenn",
-        height: "8'02''",
+        height: "8'02\"",
         weight: "287.3 lbs."
     },
     {
@@ -3958,7 +3958,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Ball Whale",
         region: "Hoenn",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "286.6 lbs."
     },
     {
@@ -3968,7 +3968,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Float Whale",
         region: "Hoenn",
-        height: "47'07''",
+        height: "47'07\"",
         weight: "877.4 lbs."
     },
     {
@@ -3978,7 +3978,7 @@ let nationalDex = [
         type: ["Fire", "Ground"],
         category: "Numb",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "52.9 lbs."
     },
     {
@@ -3988,7 +3988,7 @@ let nationalDex = [
         type: ["Fire", "Ground"],
         category: "Eruption",
         region: "Hoenn",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "485.0 lbs."
     },
     {
@@ -3998,7 +3998,7 @@ let nationalDex = [
         type: ["Fire", "Ground"],
         category: "Eruption",
         region: "Hoenn",
-        height: "8'02''",
+        height: "8'02\"",
         weight: "706.6 lbs."
     },
     {
@@ -4008,7 +4008,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Coal",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "177.3 lbs."
     },
     {
@@ -4018,7 +4018,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Bounce",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "67.5 lbs."
     },
     {
@@ -4028,7 +4028,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Manipulate",
         region: "Hoenn",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "157.6 lbs."
     },
     {
@@ -4038,7 +4038,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Spot Panda",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "11.0 lbs."
     },
     {
@@ -4048,7 +4048,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Ant Pit",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "33.1 lbs."
     },
     {
@@ -4058,7 +4058,7 @@ let nationalDex = [
         type: ["Ground", "Dragon"],
         category: "Vibration",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "33.7 lbs."
     },
     {
@@ -4068,7 +4068,7 @@ let nationalDex = [
         type: ["Ground", "Dragon"],
         category: "Mystic",
         region: "Hoenn",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "180.8 lbs."
     },
     {
@@ -4078,7 +4078,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Cactus",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "113.1 lbs."
     },
     {
@@ -4088,7 +4088,7 @@ let nationalDex = [
         type: ["Grass", "Dark"],
         category: "Scarecrow",
         region: "Hoenn",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "170.6 lbs."
     },
     {
@@ -4098,7 +4098,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Cotton Bird",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "2.6 lbs."
     },
     {
@@ -4108,7 +4108,7 @@ let nationalDex = [
         type: ["Dragon", "Flying"],
         category: "Humming",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "45.4 lbs."
     },
     {
@@ -4118,7 +4118,7 @@ let nationalDex = [
         type: ["Dragon", "Fairy"],
         category: "Humming",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "45.4 lbs."
     },
     {
@@ -4128,7 +4128,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Cat Ferret",
         region: "Hoenn",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "88.8 lbs."
     },
     {
@@ -4138,7 +4138,7 @@ let nationalDex = [
         type: ["Poison"],
         category: "Fang Snake",
         region: "Hoenn",
-        height: "8'10''",
+        height: "8'10\"",
         weight: "115.7 lbs."
     },
     {
@@ -4148,7 +4148,7 @@ let nationalDex = [
         type: ["Rock", "Psychic"],
         category: "Meteorite",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "370.4 lbs."
     },
     {
@@ -4158,7 +4158,7 @@ let nationalDex = [
         type: ["Rock", "Psychic"],
         category: "Meteorite",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "339.5 lbs."
     },
     {
@@ -4168,7 +4168,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Whiskers",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "4.2 lbs."
     },
     {
@@ -4178,7 +4178,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Whiskers",
         region: "Hoenn",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "52.0 lbs."
     },
     {
@@ -4188,7 +4188,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Ruffian",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "25.4 lbs."
     },
     {
@@ -4198,7 +4198,7 @@ let nationalDex = [
         type: ["Water", "Dark"],
         category: "Rogue",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "72.3 lbs."
     },
     {
@@ -4208,7 +4208,7 @@ let nationalDex = [
         type: ["Ground", "Psychic"],
         category: "Clay Doll",
         region: "Hoenn",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "47.4 lbs."
     },
     {
@@ -4218,7 +4218,7 @@ let nationalDex = [
         type: ["Ground", "Psychic"],
         category: "Clay Doll",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "238.0 lbs."
     },
     {
@@ -4228,7 +4228,7 @@ let nationalDex = [
         type: ["Rock", "Grass"],
         category: "Sea Lily",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "52.5 lbs."
     },
     {
@@ -4238,7 +4238,7 @@ let nationalDex = [
         type: ["Rock", "Grass"],
         category: "Barnacle",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "133.2 lbs."
     },
     {
@@ -4248,7 +4248,7 @@ let nationalDex = [
         type: ["Rock", "Bug"],
         category: "Old Shrimp",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "27.6 lbs."
     },
     {
@@ -4258,7 +4258,7 @@ let nationalDex = [
         type: ["Rock", "Bug"],
         category: "Plate",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "150.4 lbs."
     },
     {
@@ -4268,7 +4268,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Fish",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "16.3 lbs."
     },
     {
@@ -4278,7 +4278,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Tender",
         region: "Hoenn",
-        height: "20'04''",
+        height: "20'04\"",
         weight: "357.1 lbs."
     },
     {
@@ -4288,7 +4288,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Weather",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "1.8 lbs."
     },
     {
@@ -4298,7 +4298,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Weather",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "1.8 lbs."
     },
     {
@@ -4308,7 +4308,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Weather",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "1.8 lbs."
     },
     {
@@ -4318,7 +4318,7 @@ let nationalDex = [
         type: ["Ice"],
         category: "Weather",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "1.8 lbs."
     },
     {
@@ -4328,7 +4328,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Color Swap",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "48.5 lbs."
     },
     {
@@ -4338,7 +4338,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Puppet",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "5.1 lbs."
     },
     {
@@ -4348,7 +4348,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Marionette",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "27.6 lbs."
     },
     {
@@ -4358,7 +4358,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Marionette",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "28.7 lbs."
     },
     {
@@ -4368,7 +4368,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Requiem",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "33.1 lbs."
     },
     {
@@ -4378,7 +4378,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Beckon",
         region: "Hoenn",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "67.5 lbs."
     },
     {
@@ -4388,7 +4388,7 @@ let nationalDex = [
         type: ["Grass", "Flying"],
         category: "Fruit",
         region: "Hoenn",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "220.5 lbs."
     },
     {
@@ -4398,7 +4398,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Wind Chime",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "2.2 lbs."
     },
     {
@@ -4408,7 +4408,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Disaster",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "103.6 lbs."
     },
     {
@@ -4418,7 +4418,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Disaster",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "108.0 lbs."
     },
     {
@@ -4428,7 +4428,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Bright",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "30.9 lbs."
     },
     {
@@ -4438,7 +4438,7 @@ let nationalDex = [
         type: ["Ice"],
         category: "Snow Hat",
         region: "Hoenn",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "37.0 lbs."
     },
     {
@@ -4448,7 +4448,7 @@ let nationalDex = [
         type: ["Ice"],
         category: "Face",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "565.5 lbs."
     },
     {
@@ -4458,7 +4458,7 @@ let nationalDex = [
         type: ["Ice"],
         category: "Face",
         region: "Hoenn",
-        height: "6'11''",
+        height: "6'11\"",
         weight: "772.1 lbs."
     },
     {
@@ -4468,7 +4468,7 @@ let nationalDex = [
         type: ["Ice", "Water"],
         category: "Clap",
         region: "Hoenn",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "87.1 lbs."
     },
     {
@@ -4478,7 +4478,7 @@ let nationalDex = [
         type: ["Ice", "Water"],
         category: "Ball Roll",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "193.1 lbs."
     },
     {
@@ -4488,7 +4488,7 @@ let nationalDex = [
         type: ["Ice", "Water"],
         category: "Ice Break",
         region: "Hoenn",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "332.0 lbs."
     },
     {
@@ -4498,7 +4498,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Bivalve",
         region: "Hoenn",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "115.7 lbs."
     },
     {
@@ -4508,7 +4508,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Deep Sea",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "59.5 lbs."
     },
     {
@@ -4518,7 +4518,7 @@ let nationalDex = [
         type: ["Water"],
         category: "South Sea",
         region: "Hoenn",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "49.8 lbs."
     },
     {
@@ -4528,7 +4528,7 @@ let nationalDex = [
         type: ["Water", "Rock"],
         category: "Longevity",
         region: "Hoenn",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "51.6 lbs."
     },
     {
@@ -4538,7 +4538,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Rendezvous",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "19.2 lbs."
     },
     {
@@ -4548,7 +4548,7 @@ let nationalDex = [
         type: ["Dragon"],
         category: "Rock Head",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "92.8 lbs."
     },
     {
@@ -4558,7 +4558,7 @@ let nationalDex = [
         type: ["Dragon"],
         category: "Endurance",
         region: "Hoenn",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "243.6 lbs."
     },
     {
@@ -4568,7 +4568,7 @@ let nationalDex = [
         type: ["Dragon", "Flying"],
         category: "Dragon",
         region: "Hoenn",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "226.2 lbs."
     },
     {
@@ -4578,7 +4578,7 @@ let nationalDex = [
         type: ["Dragon", "Flying"],
         category: "Dragon",
         region: "Hoenn",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "248.2 lbs."
     },
     {
@@ -4588,7 +4588,7 @@ let nationalDex = [
         type: ["Steel", "Psychic"],
         category: "Iron Ball",
         region: "Hoenn",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "209.9 lbs."
     },
     {
@@ -4598,7 +4598,7 @@ let nationalDex = [
         type: ["Steel", "Psychic"],
         category: "Iron Claw",
         region: "Hoenn",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "446.4 lbs."
     },
     {
@@ -4608,7 +4608,7 @@ let nationalDex = [
         type: ["Steel", "Psychic"],
         category: "Iron Leg",
         region: "Hoenn",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "1212.5 lbs."
     },
     {
@@ -4618,7 +4618,7 @@ let nationalDex = [
         type: ["Steel", "Psychic"],
         category: "Iron Leg",
         region: "Hoenn",
-        height: "8'02''",
+        height: "8'02\"",
         weight: "2078.7 lbs."
     },
     {
@@ -4628,7 +4628,7 @@ let nationalDex = [
         type: ["Rock"],
         category: "Rock Peak",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "507.1 lbs."
     },
     {
@@ -4638,7 +4638,7 @@ let nationalDex = [
         type: ["Ice"],
         category: "Iceberg",
         region: "Hoenn",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "385.8 lbs."
     },
     {
@@ -4648,7 +4648,7 @@ let nationalDex = [
         type: ["Steel"],
         category: "Iron",
         region: "Hoenn",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "451.9 lbs."
     },
     {
@@ -4658,7 +4658,7 @@ let nationalDex = [
         type: ["Dragon", "Psychic"],
         category: "Eon",
         region: "Hoenn",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "88.2 lbs."
     },
     {
@@ -4668,7 +4668,7 @@ let nationalDex = [
         type: ["Dragon", "Psychic"],
         category: "Eon",
         region: "Hoenn",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "114.6 lbs."
     },
     {
@@ -4678,7 +4678,7 @@ let nationalDex = [
         type: ["Dragon", "Psychic"],
         category: "Eon",
         region: "Hoenn",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "132.3 lbs."
     },
     {
@@ -4688,7 +4688,7 @@ let nationalDex = [
         type: ["Dragon", "Psychic"],
         category: "Eon",
         region: "Hoenn",
-        height: "7'07''",
+        height: "7'07\"",
         weight: "154.3 lbs."
     },
     {
@@ -4698,7 +4698,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Basin",
         region: "Hoenn",
-        height: "14'09''",
+        height: "14'09\"",
         weight: "776.0 lbs."
     },
     {
@@ -4708,7 +4708,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Basin",
         region: "Hoenn",
-        height: "32'02''",
+        height: "32'02\"",
         weight: "948.0 lbs."
     },
     {
@@ -4718,7 +4718,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Continent",
         region: "Hoenn",
-        height: "11'06''",
+        height: "11'06\"",
         weight: "2094.4 lbs."
     },
     {
@@ -4728,7 +4728,7 @@ let nationalDex = [
         type: ["Ground", "Fire"],
         category: "Continent",
         region: "Hoenn",
-        height: "16'05''",
+        height: "16'05\"",
         weight: "2204.0 lbs."
     },
     {
@@ -4738,7 +4738,7 @@ let nationalDex = [
         type: ["Dragon", "Flying"],
         category: "Sky High",
         region: "Hoenn",
-        height: "23'00''",
+        height: "23'00\"",
         weight: "455.3 lbs."
     },
     {
@@ -4748,7 +4748,7 @@ let nationalDex = [
         type: ["Dragon", "Flying"],
         category: "Sky High",
         region: "Hoenn",
-        height: "35'05''",
+        height: "35'05\"",
         weight: "864.2 lbs."
     },
     {
@@ -4758,7 +4758,7 @@ let nationalDex = [
         type: ["Steel", "Psychic"],
         category: "Wish",
         region: "Hoenn",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "2.4 lbs."
     },
     {
@@ -4768,7 +4768,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "DNA",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "134.0 lbs."
     },
     {
@@ -4778,7 +4778,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "DNA",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "134.0 lbs."
     },
     {
@@ -4788,7 +4788,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "DNA",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "134.0 lbs."
     },
     {
@@ -4798,7 +4798,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "DNA",
         region: "Hoenn",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "134.0 lbs."
     },
     {
@@ -4808,7 +4808,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Tiny Leaf",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "22.5 lbs."
     },
     {
@@ -4818,7 +4818,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Grove",
         region: "Sinnoh",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "213.8 lbs."
     },
     {
@@ -4828,7 +4828,7 @@ let nationalDex = [
         type: ["Grass", "Ground"],
         category: "Continent",
         region: "Sinnoh",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "683.4 lbs."
     },
     {
@@ -4838,7 +4838,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Chimp",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "13.7 lbs."
     },
     {
@@ -4848,7 +4848,7 @@ let nationalDex = [
         type: ["Fire", "Fighting"],
         category: "Playful",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "48.5 lbs."
     },
     {
@@ -4858,7 +4858,7 @@ let nationalDex = [
         type: ["Fire", "Fighting"],
         category: "Flame",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "121.3 lbs."
     },
     {
@@ -4868,7 +4868,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Penguin",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "11.5 lbs."
     },
     {
@@ -4878,7 +4878,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Penguin",
         region: "Sinnoh",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "50.7 lbs."
     },
     {
@@ -4888,7 +4888,7 @@ let nationalDex = [
         type: ["Water", "Steel"],
         category: "Emperor",
         region: "Sinnoh",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "186.3 lbs."
     },
     {
@@ -4898,7 +4898,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Starling",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "4.4 lbs."
     },
     {
@@ -4908,7 +4908,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Starling",
         region: "Sinnoh",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "34.2 lbs."
     },
     {
@@ -4918,7 +4918,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Predator",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "54.9 lbs."
     },
     {
@@ -4928,7 +4928,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Plump Mouse",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "44.1 lbs."
     },
     {
@@ -4938,7 +4938,7 @@ let nationalDex = [
         type: ["Normal", "Water"],
         category: "Beaver",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "69.4 lbs."
     },
     {
@@ -4948,7 +4948,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Cricket",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "4.9 lbs."
     },
     {
@@ -4958,7 +4958,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Cricket",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "56.2 lbs."
     },
     {
@@ -4968,7 +4968,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Flash",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "20.9 lbs."
     },
     {
@@ -4978,7 +4978,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Spark",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "67.2 lbs."
     },
     {
@@ -4988,7 +4988,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Gleam Eyes",
         region: "Sinnoh",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "92.6 lbs."
     },
     {
@@ -4998,7 +4998,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Bud",
         region: "Sinnoh",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "2.6 lbs."
     },
     {
@@ -5008,7 +5008,7 @@ let nationalDex = [
         type: ["Grass", "Poison"],
         category: "Bouquet",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "32.0 lbs."
     },
     {
@@ -5018,7 +5018,7 @@ let nationalDex = [
         type: ["Rock"],
         category: "Head Butt",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "69.4 lbs."
     },
     {
@@ -5028,7 +5028,7 @@ let nationalDex = [
         type: ["Rock"],
         category: "Head Butt",
         region: "Sinnoh",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "226.0 lbs."
     },
     {
@@ -5038,7 +5038,7 @@ let nationalDex = [
         type: ["Rock", "Steel"],
         category: "Shield",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "125.7 lbs."
     },
     {
@@ -5048,7 +5048,7 @@ let nationalDex = [
         type: ["Rock", "Steel"],
         category: "Shield",
         region: "Sinnoh",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "329.6 lbs."
     },
     {
@@ -5058,7 +5058,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Bagworm",
         region: "Sinnoh",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "7.5 lbs."
     },
     {
@@ -5068,7 +5068,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Bagworm",
         region: "Sinnoh",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "7.5 lbs."
     },
     {
@@ -5078,7 +5078,7 @@ let nationalDex = [
         type: ["Bug"],
         category: "Bagworm",
         region: "Sinnoh",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "7.5 lbs."
     },
     {
@@ -5088,7 +5088,7 @@ let nationalDex = [
         type: ["Bug", "Grass"],
         category: "Bagworm",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "14.3 lbs."
     },
     {
@@ -5098,7 +5098,7 @@ let nationalDex = [
         type: ["Bug", "Ground"],
         category: "Bagworm",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "14.3 lbs."
     },
     {
@@ -5108,7 +5108,7 @@ let nationalDex = [
         type: ["Bug", "Steel"],
         category: "Bagworm",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "14.3 lbs."
     },
     {
@@ -5118,7 +5118,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Moth",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "51.4 lbs."
     },
     {
@@ -5128,7 +5128,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Tiny Bee",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "12.1 lbs."
     },
     {
@@ -5138,7 +5138,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Beehive",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "84.9 lbs."
     },
     {
@@ -5148,7 +5148,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "EleSquirrel",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "8.6 lbs."
     },
     {
@@ -5158,7 +5158,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Weasel",
         region: "Sinnoh",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "65.0 lbs."
     },
     {
@@ -5168,7 +5168,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Weasel",
         region: "Sinnoh",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "73.9 lbs."
     },
     {
@@ -5178,7 +5178,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Cherry",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "7.3 lbs."
     },
     {
@@ -5188,7 +5188,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Blossom",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "20.5 lbs."
     },
     {
@@ -5198,7 +5198,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Blossom",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "20.5 lbs."
     },
     {
@@ -5208,7 +5208,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Slug",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "13.9 lbs."
     },
     {
@@ -5218,7 +5218,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Slug",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "13.9 lbs."
     },
     {
@@ -5228,7 +5228,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Sea Slug",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "65.9 lbs."
     },
     {
@@ -5238,7 +5238,7 @@ let nationalDex = [
         type: ["Water", "Ground"],
         category: "Sea Slug",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "65.9 lbs."
     },
     {
@@ -5248,7 +5248,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Long Tail",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "44.8 lbs."
     },
     {
@@ -5258,7 +5258,7 @@ let nationalDex = [
         type: ["Ghost", "Flying"],
         category: "Balloon",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "2.6 lbs."
     },
     {
@@ -5268,7 +5268,7 @@ let nationalDex = [
         type: ["Ghost", "Flying"],
         category: "Blimp",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "33.1 lbs."
     },
     {
@@ -5278,7 +5278,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Rabbit",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "12.1 lbs."
     },
     {
@@ -5288,7 +5288,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Rabbit",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "73.4 lbs."
     },
     {
@@ -5298,7 +5298,7 @@ let nationalDex = [
         type: ["Normal", "Fighting"],
         category: "Rabbit",
         region: "Sinnoh",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "62.4 lbs."
     },
     {
@@ -5308,7 +5308,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Magical",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "9.7 lbs."
     },
     {
@@ -5318,7 +5318,7 @@ let nationalDex = [
         type: ["Dark", "Flying"],
         category: "Big Boss",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "60.2 lbs."
     },
     {
@@ -5328,7 +5328,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Catty",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "8.6 lbs."
     },
     {
@@ -5338,7 +5338,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Tiger Cat",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "96.6 lbs."
     },
     {
@@ -5348,7 +5348,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Bell",
         region: "Sinnoh",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "1.3 lbs."
     },
     {
@@ -5358,7 +5358,7 @@ let nationalDex = [
         type: ["Poison", "Dark"],
         category: "Skunk",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "42.3 lbs."
     },
     {
@@ -5368,7 +5368,7 @@ let nationalDex = [
         type: ["Poison", "Dark"],
         category: "Skunk",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "83.8 lbs."
     },
     {
@@ -5378,7 +5378,7 @@ let nationalDex = [
         type: ["Steel", "Psychic"],
         category: "Bronze",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "133.4 lbs."
     },
     {
@@ -5388,7 +5388,7 @@ let nationalDex = [
         type: ["Steel", "Psychic"],
         category: "Bronze Bell",
         region: "Sinnoh",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "412.3 lbs."
     },
     {
@@ -5398,7 +5398,7 @@ let nationalDex = [
         type: ["Rock"],
         category: "Bonsai",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "33.1 lbs."
     },
     {
@@ -5408,7 +5408,7 @@ let nationalDex = [
         type: ["Psychic", "Fairy"],
         category: "Mime",
         region: "Sinnoh",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "28.7 lbs."
     },
     {
@@ -5418,7 +5418,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Playhouse",
         region: "Sinnoh",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "53.8 lbs."
     },
     {
@@ -5428,7 +5428,7 @@ let nationalDex = [
         type: ["Normal", "Flying"],
         category: "Music Note",
         region: "Sinnoh",
-        height: "1'08''",
+        height: "1'08\"",
         weight: "4.2 lbs."
     },
     {
@@ -5438,7 +5438,7 @@ let nationalDex = [
         type: ["Ghost", "Dark"],
         category: "Forbidden",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "238.1 lbs."
     },
     {
@@ -5448,7 +5448,7 @@ let nationalDex = [
         type: ["Dragon", "Ground"],
         category: "Land Shark",
         region: "Sinnoh",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "45.2 lbs."
     },
     {
@@ -5458,7 +5458,7 @@ let nationalDex = [
         type: ["Dragon", "Ground"],
         category: "Cave",
         region: "Sinnoh",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "123.5 lbs."
     },
     {
@@ -5468,7 +5468,7 @@ let nationalDex = [
         type: ["Dragon", "Ground"],
         category: "Mach",
         region: "Sinnoh",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "209.4 lbs."
     },
     {
@@ -5478,7 +5478,7 @@ let nationalDex = [
         type: ["Dragon", "Ground"],
         category: "Mach",
         region: "Sinnoh",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "209.4 lbs."
     },
     {
@@ -5488,7 +5488,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Big Eater",
         region: "Sinnoh",
-        height: "2'00''",
+        height: "2'00\"",
         weight: "231.5 lbs."
     },
     {
@@ -5498,7 +5498,7 @@ let nationalDex = [
         type: ["Fighting"],
         category: "Emanation",
         region: "Sinnoh",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "44.5 lbs."
     },
     {
@@ -5508,7 +5508,7 @@ let nationalDex = [
         type: ["Fighting", "Steel"],
         category: "Aura",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "119.0 lbs."
     },
     {
@@ -5518,7 +5518,7 @@ let nationalDex = [
         type: ["Fighting", "Steel"],
         category: "Aura",
         region: "Sinnoh",
-        height: "4'09''",
+        height: "4'09\"",
         weight: "126.8 lbs."
     },
     {
@@ -5528,7 +5528,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Hippo",
         region: "Sinnoh",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "109.1 lbs."
     },
     {
@@ -5538,7 +5538,7 @@ let nationalDex = [
         type: ["Ground"],
         category: "Heavyweight",
         region: "Sinnoh",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "661.4 lbs."
     },
     {
@@ -5548,7 +5548,7 @@ let nationalDex = [
         type: ["Poison", "Bug"],
         category: "Scorpion",
         region: "Sinnoh",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "26.5 lbs."
     },
     {
@@ -5558,7 +5558,7 @@ let nationalDex = [
         type: ["Poison", "Dark"],
         category: "Ogre Scorpion",
         region: "Sinnoh",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "135.6 lbs."
     },
     {
@@ -5568,7 +5568,7 @@ let nationalDex = [
         type: ["Poison", "Fighting"],
         category: "Toxic Mouth",
         region: "Sinnoh",
-        height: "2'04''",
+        height: "2'04\"",
         weight: "50.7 lbs."
     },
     {
@@ -5578,7 +5578,7 @@ let nationalDex = [
         type: ["Poison", "Fighting"],
         category: "Toxic Mouth",
         region: "Sinnoh",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "97.9 lbs."
     },
     {
@@ -5588,7 +5588,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Bug Catcher",
         region: "Sinnoh",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "59.5 lbs."
     },
     {
@@ -5598,7 +5598,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Wing Fish",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "15.4 lbs."
     },
     {
@@ -5608,7 +5608,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Neon",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "52.9 lbs."
     },
     {
@@ -5618,7 +5618,7 @@ let nationalDex = [
         type: ["Water", "Flying"],
         category: "Kite",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "143.3 lbs."
     },
     {
@@ -5628,7 +5628,7 @@ let nationalDex = [
         type: ["Grass", "Ice"],
         category: "Frost Tree",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "111.3 lbs."
     },
     {
@@ -5638,7 +5638,7 @@ let nationalDex = [
         type: ["Grass", "Ice"],
         category: "Frost Tree",
         region: "Sinnoh",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "298.7 lbs."
     },
     {
@@ -5648,7 +5648,7 @@ let nationalDex = [
         type: ["Grass", "Ice"],
         category: "Frost Tree",
         region: "Sinnoh",
-        height: "8'10''",
+        height: "8'10\"",
         weight: "407.9 lbs."
     },
     {
@@ -5658,7 +5658,7 @@ let nationalDex = [
         type: ["Dark", "Ice"],
         category: "Sharp Claw",
         region: "Sinnoh",
-        height: "3'07''",
+        height: "3'07\"",
         weight: "75.0 lbs."
     },
     {
@@ -5668,7 +5668,7 @@ let nationalDex = [
         type: ["Electric", "Steel"],
         category: "Magnet Area",
         region: "Sinnoh",
-        height: "3'11''",
+        height: "3'11\"",
         weight: "396.8 lbs."
     },
     {
@@ -5678,7 +5678,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Licking",
         region: "Sinnoh",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "308.6 lbs."
     },
     {
@@ -5688,7 +5688,7 @@ let nationalDex = [
         type: ["Ground", "Rock"],
         category: "Drill",
         region: "Sinnoh",
-        height: "7'10''",
+        height: "7'10\"",
         weight: "623.5 lbs."
     },
     {
@@ -5698,7 +5698,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Vine",
         region: "Sinnoh",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "283.5 lbs."
     },
     {
@@ -5708,7 +5708,7 @@ let nationalDex = [
         type: ["Electric"],
         category: "Thunderbolt",
         region: "Sinnoh",
-        height: "5'11''",
+        height: "5'11\"",
         weight: "305.6 lbs."
     },
     {
@@ -5718,7 +5718,7 @@ let nationalDex = [
         type: ["Fire"],
         category: "Blast",
         region: "Sinnoh",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "149.9 lbs."
     },
     {
@@ -5728,7 +5728,7 @@ let nationalDex = [
         type: ["Fairy", "Flying"],
         category: "Jubilee",
         region: "Sinnoh",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "83.8 lbs."
     },
     {
@@ -5738,7 +5738,7 @@ let nationalDex = [
         type: ["Bug", "Flying"],
         category: "Ogre Darner",
         region: "Sinnoh",
-        height: "6'03''",
+        height: "6'03\"",
         weight: "113.5 lbs."
     },
     {
@@ -5748,7 +5748,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Verdant",
         region: "Sinnoh",
-        height: "3'03''",
+        height: "3'03\"",
         weight: "56.2 lbs."
     },
     {
@@ -5758,7 +5758,7 @@ let nationalDex = [
         type: ["Ice"],
         category: "Fresh Snow",
         region: "Sinnoh",
-        height: "2'07''",
+        height: "2'07\"",
         weight: "57.1 lbs."
     },
     {
@@ -5768,7 +5768,7 @@ let nationalDex = [
         type: ["Ground", "Flying"],
         category: "Fang Scorpion",
         region: "Sinnoh",
-        height: "6'07''",
+        height: "6'07\"",
         weight: "93.7 lbs."
     },
     {
@@ -5778,7 +5778,7 @@ let nationalDex = [
         type: ["Ice", "Ground"],
         category: "Twin Tusk",
         region: "Sinnoh",
-        height: "8'02''",
+        height: "8'02\"",
         weight: "641.5 lbs."
     },
     {
@@ -5788,7 +5788,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Virtual",
         region: "Sinnoh",
-        height: "2'11''",
+        height: "2'11\"",
         weight: "75.0 lbs."
     },
     {
@@ -5798,7 +5798,7 @@ let nationalDex = [
         type: ["Psychic", "Fighting"],
         category: "Blade",
         region: "Sinnoh",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "114.6 lbs."
     },
     {
@@ -5808,7 +5808,7 @@ let nationalDex = [
         type: ["Psychic", "Fighting"],
         category: "Blade",
         region: "Sinnoh",
-        height: "5'03''",
+        height: "5'03\"",
         weight: "124.3 lbs."
     },
     {
@@ -5818,7 +5818,7 @@ let nationalDex = [
         type: ["Rock", "Steel"],
         category: "Compass",
         region: "Sinnoh",
-        height: "4'07''",
+        height: "4'07\"",
         weight: "749.6 lbs."
     },
     {
@@ -5828,7 +5828,7 @@ let nationalDex = [
         type: ["Ghost"],
         category: "Gripper",
         region: "Sinnoh",
-        height: "7'03''",
+        height: "7'03\"",
         weight: "235.0 lbs."
     },
     {
@@ -5838,7 +5838,7 @@ let nationalDex = [
         type: ["Ice", "Ghost"],
         category: "Snow Land",
         region: "Sinnoh",
-        height: "4'03''",
+        height: "4'03\"",
         weight: "58.6 lbs."
     },
     {
@@ -5848,7 +5848,7 @@ let nationalDex = [
         type: ["Electric", "Ghost"],
         category: "Plasma",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5858,7 +5858,7 @@ let nationalDex = [
         type: ["Electric", "Fire"],
         category: "Plasma",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5868,7 +5868,7 @@ let nationalDex = [
         type: ["Electric", "Water"],
         category: "Plasma",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5878,7 +5878,7 @@ let nationalDex = [
         type: ["Electric", "Ice"],
         category: "Plasma",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5888,7 +5888,7 @@ let nationalDex = [
         type: ["Electric", "Flying"],
         category: "Plasma",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5898,7 +5898,7 @@ let nationalDex = [
         type: ["Electric", "Grass"],
         category: "Plasma",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5908,7 +5908,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Knowledge",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5918,7 +5918,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Emotion",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5928,7 +5928,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Willpower",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "0.7 lbs."
     },
     {
@@ -5938,7 +5938,7 @@ let nationalDex = [
         type: ["Steel", "Dragon"],
         category: "Temporal",
         region: "Sinnoh",
-        height: "17'09''",
+        height: "17'09\"",
         weight: "1505.8 lbs."
     },
     {
@@ -5948,7 +5948,7 @@ let nationalDex = [
         type: ["Water", "Dragon"],
         category: "Spatial",
         region: "Sinnoh",
-        height: "13'09''",
+        height: "13'09\"",
         weight: "740.8 lbs."
     },
     {
@@ -5958,7 +5958,7 @@ let nationalDex = [
         type: ["Fire", "Steel"],
         category: "Lava Dome",
         region: "Sinnoh",
-        height: "5'07''",
+        height: "5'07\"",
         weight: "948.0 lbs."
     },
     {
@@ -5968,7 +5968,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Colossal",
         region: "Sinnoh",
-        height: "12'02''",
+        height: "12'02\"",
         weight: "925.9 lbs."
     },
     {
@@ -5978,7 +5978,7 @@ let nationalDex = [
         type: ["Ghost", "Dragon"],
         category: "Renegade",
         region: "Sinnoh",
-        height: "14'09''",
+        height: "14'09\"",
         weight: "1653.5 lbs."
     },
     {
@@ -5988,7 +5988,7 @@ let nationalDex = [
         type: ["Ghost", "Dragon"],
         category: "Renegade",
         region: "Sinnoh",
-        height: "22'08''",
+        height: "22'08\"",
         weight: "1433.0 lbs."
     },
     {
@@ -5998,7 +5998,7 @@ let nationalDex = [
         type: ["Psychic"],
         category: "Lunar",
         region: "Sinnoh",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "188.7 lbs."
     },
     {
@@ -6008,7 +6008,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Sea Drifter",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "6.8 lbs."
     },
     {
@@ -6018,7 +6018,7 @@ let nationalDex = [
         type: ["Water"],
         category: "Seafaring",
         region: "Sinnoh",
-        height: "1'00''",
+        height: "1'00\"",
         weight: "3.1 lbs."
     },
     {
@@ -6028,7 +6028,7 @@ let nationalDex = [
         type: ["Dark"],
         category: "Pitch-Black",
         region: "Sinnoh",
-        height: "4'11''",
+        height: "4'11\"",
         weight: "111.3 lbs."
     },
     {
@@ -6038,7 +6038,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Gratitude",
         region: "Sinnoh",
-        height: "0'08''",
+        height: "0'08\"",
         weight: "4.6 lbs."
     },
     {
@@ -6048,7 +6048,7 @@ let nationalDex = [
         type: ["Grass"],
         category: "Gratitude",
         region: "Sinnoh",
-        height: "1'04''",
+        height: "1'04\"",
         weight: "11.5 lbs."
     },
     {
@@ -6058,7 +6058,7 @@ let nationalDex = [
         type: ["Normal"],
         category: "Alpha",
         region: "Sinnoh",
-        height: "10'06''",
+        height: "10'06\"",
         weight: "705.5 lbs."
     },
     {
