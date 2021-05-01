@@ -8677,7 +8677,9 @@ let nationalDex = [
         number: "722",
         type: ["Grass", "Flying"],
         category: "Grass Quill",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "3.3 lbs."
     },
     {
         name: "Dartrix",
@@ -8685,7 +8687,9 @@ let nationalDex = [
         number: "723",
         type: ["Grass", "Flying"],
         category: "Blade Quill",
-        region: "Alola"
+        region: "Alola",
+        height: "2'04\"",
+        weight: "35.3 lbs."
     },
     {
         name: "Decidueye",
@@ -8693,7 +8697,9 @@ let nationalDex = [
         number: "724",
         type: ["Grass", "Ghost"],
         category: "Arrow Quill",
-        region: "Alola"
+        region: "Alola",
+        height: "5'03\"",
+        weight: "80.7 lbs."
     },
     {
         name: "Litten",
@@ -8701,7 +8707,9 @@ let nationalDex = [
         number: "725",
         type: ["Fire"],
         category: "Fire Cat",
-        region: "Alola"
+        region: "Alola",
+        height: "1'04\"",
+        weight: "9.5 lbs."
     },
     {
         name: "Torracat",
@@ -8709,7 +8717,9 @@ let nationalDex = [
         number: "726",
         type: ["Fire"],
         category: "Fire Cat",
-        region: "Alola"
+        region: "Alola",
+        height: "2'04\"",
+        weight: "55.1 lbs."
     },
     {
         name: "Incineroar",
@@ -8717,7 +8727,9 @@ let nationalDex = [
         number: "727",
         type: ["Fire", "Dark"],
         category: "Heel",
-        region: "Alola"
+        region: "Alola",
+        height: "5'11\"",
+        weight: "183.0 lbs."
     },
     {
         name: "Popplio",
@@ -8725,7 +8737,9 @@ let nationalDex = [
         number: "728",
         type: ["Water"],
         category: "Sea Lion",
-        region: "Alola"
+        region: "Alola",
+        height: "1'04\"",
+        weight: "16.5 lbs."
     },
     {
         name: "Brionne",
@@ -8733,7 +8747,9 @@ let nationalDex = [
         number: "729",
         type: ["Water"],
         category: "Pop Star",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "38.6 lbs."
     },
     {
         name: "Primarina",
@@ -8741,7 +8757,9 @@ let nationalDex = [
         number: "730",
         type: ["Water", "Fairy"],
         category: "Soloist",
-        region: "Alola"
+        region: "Alola",
+        height: "5'11\"",
+        weight: "97.0 lbs."
     },
     {
         name: "Pikipek",
@@ -8749,7 +8767,9 @@ let nationalDex = [
         number: "731",
         type: ["Normal", "Flying"],
         category: "Woodpecker",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "2.6 lbs."
     },
     {
         name: "Trumbeak",
@@ -8757,7 +8777,9 @@ let nationalDex = [
         number: "732",
         type: ["Normal", "Flying"],
         category: "Bugle Beak",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "32.6 lbs."
     },
     {
         name: "Toucannon",
@@ -8765,7 +8787,9 @@ let nationalDex = [
         number: "733",
         type: ["Normal", "Flying"],
         category: "Cannon",
-        region: "Alola"
+        region: "Alola",
+        height: "3'07\"",
+        weight: "57.3 lbs."
     },
     {
         name: "Yungoos",
@@ -8773,7 +8797,9 @@ let nationalDex = [
         number: "734",
         type: ["Normal"],
         category: "Loitering",
-        region: "Alola"
+        region: "Alola",
+        height: "1'04\"",
+        weight: "13.2 lbs."
     },
     {
         name: "Gumshoos",
@@ -8781,7 +8807,9 @@ let nationalDex = [
         number: "735",
         type: ["Normal"],
         category: "Stakeout",
-        region: "Alola"
+        region: "Alola",
+        height: "2'04\"",
+        weight: "31.3 lbs."
     },
     {
         name: "Grubbin",
@@ -8789,7 +8817,9 @@ let nationalDex = [
         number: "736",
         type: ["Bug"],
         category: "Larva",
-        region: "Alola"
+        region: "Alola",
+        height: "1'04\"",
+        weight: "9.7 lbs."
     },
     {
         name: "Charjabug",
@@ -8797,7 +8827,9 @@ let nationalDex = [
         number: "737",
         type: ["Bug", "Electric"],
         category: "Battery",
-        region: "Alola"
+        region: "Alola",
+        height: "1'08\"",
+        weight: "23.1 lbs."
     },
     {
         name: "Vikavolt",
@@ -8805,7 +8837,9 @@ let nationalDex = [
         number: "738",
         type: ["Bug", "Electric"],
         category: "Stag Beetle",
-        region: "Alola"
+        region: "Alola",
+        height: "4'11\"",
+        weight: "99.2 lbs."
     },
     {
         name: "Crabrawler",
@@ -8813,7 +8847,9 @@ let nationalDex = [
         number: "739",
         type: ["Fighting"],
         category: "Boxing",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "15.4 lbs."
     },
     {
         name: "Crabominable",
@@ -8821,7 +8857,9 @@ let nationalDex = [
         number: "740",
         type: ["Fighting", "Ice"],
         category: "Woolly Crab",
-        region: "Alola"
+        region: "Alola",
+        height: "5'07\"",
+        weight: "396.8 lbs."
     },
     {
         name: "Oricorio (Baile Style)",
@@ -8829,7 +8867,9 @@ let nationalDex = [
         number: "741",
         type: ["Fire", "Flying"],
         category: "Dancing",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "7.5 lbs."
     },
     {
         name: "Oricorio (Pom-Pom Style)",
@@ -8837,7 +8877,9 @@ let nationalDex = [
         number: "741",
         type: ["Electric", "Flying"],
         category: "Dancing",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "7.5 lbs."
     },
     {
         name: "Oricorio (Pa'u Style)",
@@ -8845,7 +8887,9 @@ let nationalDex = [
         number: "741",
         type: ["Psychic", "Flying"],
         category: "Dancing",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "7.5 lbs."
     },
     {
         name: "Oricorio (Sensu Style)",
@@ -8853,7 +8897,9 @@ let nationalDex = [
         number: "741",
         type: ["Ghost", "Flying"],
         category: "Dancing",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "7.5 lbs."
     },
     {
         name: "Cutiefly",
@@ -8861,7 +8907,9 @@ let nationalDex = [
         number: "742",
         type: ["Bug", "Fairy"],
         category: "Bee Fly",
-        region: "Alola"
+        region: "Alola",
+        height: "0'04\"",
+        weight: "0.4 lbs."
     },
     {
         name: "Ribombee",
@@ -8869,7 +8917,9 @@ let nationalDex = [
         number: "743",
         type: ["Bug", "Fairy"],
         category: "Bee Fly",
-        region: "Alola"
+        region: "Alola",
+        height: "0'08\"",
+        weight: "1.1 lbs."
     },
     {
         name: "Rockruff",
@@ -8877,7 +8927,9 @@ let nationalDex = [
         number: "744",
         type: ["Rock"],
         category: "Puppy",
-        region: "Alola"
+        region: "Alola",
+        height: "1'08\"",
+        weight: "20.3 lbs."
     },
     {
         name: "Lycanroc (Midday Form)",
@@ -8885,7 +8937,9 @@ let nationalDex = [
         number: "745",
         type: ["Rock"],
         category: "Wolf",
-        region: "Alola"
+        region: "Alola",
+        height: "2'07\"",
+        weight: "55.1 lbs."
     },
     {
         name: "Lycanroc (Midnight Form)",
@@ -8893,7 +8947,9 @@ let nationalDex = [
         number: "745",
         type: ["Rock"],
         category: "Wolf",
-        region: "Alola"
+        region: "Alola",
+        height: "3'07\"",
+        weight: "55.1 lbs."
     },
     {
         name: "Lycanroc (Dusk Form)",
@@ -8901,7 +8957,9 @@ let nationalDex = [
         number: "745",
         type: ["Rock"],
         category: "Wolf",
-        region: "Alola"
+        region: "Alola",
+        height: "2'07\"",
+        weight: "55.1 lbs."
     },
     {
         name: "Wishiwashi (Solo Form)",
@@ -8909,7 +8967,9 @@ let nationalDex = [
         number: "746",
         type: ["Water"],
         category: "Small Fry",
-        region: "Alola"
+        region: "Alola",
+        height: "0'08\"",
+        weight: "0.7 lbs."
     },
     {
         name: "Wishiwashi (School Form)",
@@ -8917,7 +8977,9 @@ let nationalDex = [
         number: "746",
         type: ["Water"],
         category: "Small Fry",
-        region: "Alola"
+        region: "Alola",
+        height: "26'11\"",
+        weight: "173.3 lbs."
     },
     {
         name: "Mareanie",
@@ -8925,7 +8987,9 @@ let nationalDex = [
         number: "747",
         type: ["Poison", "Water"],
         category: "Brutal Star",
-        region: "Alola"
+        region: "Alola",
+        height: "1'04\"",
+        weight: "17.6 lbs."
     },
     {
         name: "Toxapex",
@@ -8933,7 +8997,9 @@ let nationalDex = [
         number: "748",
         type: ["Poison", "Water"],
         category: "Brutal Star",
-        region: "Alola"
+        region: "Alola",
+        height: "2'04\"",
+        weight: "32.0 lbs."
     },
     {
         name: "Mudbray",
@@ -8941,7 +9007,9 @@ let nationalDex = [
         number: "749",
         type: ["Ground"],
         category: "Donkey",
-        region: "Alola"
+        region: "Alola",
+        height: "3'03\"",
+        weight: "242.5 lbs."
     },
     {
         name: "Mudsdale",
@@ -8949,7 +9017,9 @@ let nationalDex = [
         number: "750",
         type: ["Ground"],
         category: "Draft Horse",
-        region: "Alola"
+        region: "Alola",
+        height: "8'02\"",
+        weight: "2028.3 lbs."
     },
     {
         name: "Dewpider",
@@ -8957,7 +9027,9 @@ let nationalDex = [
         number: "751",
         type: ["Water", "Bug"],
         category: "Water Bubble",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "8.8 lbs."
     },
     {
         name: "Araquanid",
@@ -8965,7 +9037,9 @@ let nationalDex = [
         number: "752",
         type: ["Water", "Bug"],
         category: "Water Bubble",
-        region: "Alola"
+        region: "Alola",
+        height: "5'11\"",
+        weight: "180.8 lbs."
     },
     {
         name: "Fomantis",
@@ -8973,7 +9047,9 @@ let nationalDex = [
         number: "753",
         type: ["Grass"],
         category: "Sickle Grass",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "3.3 lbs."
     },
     {
         name: "Lurantis",
@@ -8981,7 +9057,9 @@ let nationalDex = [
         number: "754",
         type: ["Grass"],
         category: "Bloom Sickle",
-        region: "Alola"
+        region: "Alola",
+        height: "2'11\"",
+        weight: "40.8 lbs."
     },
     {
         name: "Morelull",
@@ -8989,7 +9067,9 @@ let nationalDex = [
         number: "755",
         type: ["Grass", "Fairy"],
         category: "Illuminating",
-        region: "Alola"
+        region: "Alola",
+        height: "0'08\"",
+        weight: "3.3 lbs."
     },
     {
         name: "Shiinotic",
@@ -8997,7 +9077,9 @@ let nationalDex = [
         number: "756",
         type: ["Grass", "Fairy"],
         category: "Illuminating",
-        region: "Alola"
+        region: "Alola",
+        height: "3'03\"",
+        weight: "25.4 lbs."
     },
     {
         name: "Salandit",
@@ -9005,7 +9087,9 @@ let nationalDex = [
         number: "757",
         type: ["Poison", "Fire"],
         category: "Toxic Lizard",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "10.6 lbs."
     },
     {
         name: "Salazzle",
@@ -9013,7 +9097,9 @@ let nationalDex = [
         number: "758",
         type: ["Poison", "FIre"],
         category: "Toxic Lizard",
-        region: "Alola"
+        region: "Alola",
+        height: "3'11\"",
+        weight: "48.9 lbs."
     },
     {
         name: "Stufful",
@@ -9021,7 +9107,9 @@ let nationalDex = [
         number: "759",
         type: ["Normal", "Fighting"],
         category: "Flailing",
-        region: "Alola"
+        region: "Alola",
+        height: "1'08\"",
+        weight: "15.0 lbs."
     },
     {
         name: "Bewear",
@@ -9029,7 +9117,9 @@ let nationalDex = [
         number: "760",
         type: ["Normal", "Fighting"],
         category: "Strong Arm",
-        region: "Alola"
+        region: "Alola",
+        height: "6'11\"",
+        weight: "297.6 lbs."
     },
     {
         name: "Bounsweet",
@@ -9037,7 +9127,9 @@ let nationalDex = [
         number: "761",
         type: ["Grass"],
         category: "Fruit",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "7.1 lbs."
     },
     {
         name: "Steenee",
@@ -9045,7 +9137,9 @@ let nationalDex = [
         number: "762",
         type: ["Grass"],
         category: "Fruit",
-        region: "Alola"
+        region: "Alola",
+        height: "2'04\"",
+        weight: "18.1 lbs."
     },
     {
         name: "Tsareena",
@@ -9053,7 +9147,9 @@ let nationalDex = [
         number: "763",
         type: ["Grass"],
         category: "Fruit",
-        region: "Alola"
+        region: "Alola",
+        height: "3'11\"",
+        weight: "47.2 lbs."
     },
     {
         name: "Comfey",
@@ -9061,7 +9157,9 @@ let nationalDex = [
         number: "764",
         type: ["Fairy"],
         category: "Posy Picker",
-        region: "Alola"
+        region: "Alola",
+        height: "0'04\"",
+        weight: "0.7 lbs."
     },
     {
         name: "Oranguru",
@@ -9069,7 +9167,9 @@ let nationalDex = [
         number: "765",
         type: ["Normal", "Psychic"],
         category: "Sage",
-        region: "Alola"
+        region: "Alola",
+        height: "4'11\"",
+        weight: "167.6 lbs."
     },
     {
         name: "Passimian",
@@ -9077,7 +9177,9 @@ let nationalDex = [
         number: "766",
         type: ["Fighting"],
         category: "Teamwork",
-        region: "Alola"
+        region: "Alola",
+        height: "6'07\"",
+        weight: "182.5 lbs."
     },
     {
         name: "Wimpod",
@@ -9085,7 +9187,9 @@ let nationalDex = [
         number: "767",
         type: ["Bug", "Water"],
         category: "Turn Tail",
-        region: "Alola"
+        region: "Alola",
+        height: "1'08\"",
+        weight: "26.5 lbs."
     },
     {
         name: "Golisopod",
@@ -9093,7 +9197,9 @@ let nationalDex = [
         number: "768",
         type: ["Bug", "Water"],
         category: "Hard Scale",
-        region: "Alola"
+        region: "Alola",
+        height: "6'07\"",
+        weight: "238.1 lbs."
     },
     {
         name: "Sandygast",
@@ -9101,7 +9207,9 @@ let nationalDex = [
         number: "769",
         type: ["Ghost", "Ground"],
         category: "Sand Heap",
-        region: "Alola"
+        region: "Alola",
+        height: "1'08\"",
+        weight: "154.3 lbs."
     },
     {
         name: "Palossand",
@@ -9109,7 +9217,9 @@ let nationalDex = [
         number: "770",
         type: ["Ghost", "Ground"],
         category: "Sand Castle",
-        region: "Alola"
+        region: "Alola",
+        height: "4'03\"",
+        weight: "551.2 lbs."
     },
     {
         name: "Pyukumuku",
@@ -9117,7 +9227,9 @@ let nationalDex = [
         number: "771",
         type: ["Water"],
         category: "Sea Cucumber",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "2.6 lbs."
     },
     {
         name: "Type: Null",
@@ -9125,7 +9237,9 @@ let nationalDex = [
         number: "772",
         type: ["Normal"],
         category: "Synthetic",
-        region: "Alola"
+        region: "Alola",
+        height: "6'03\"",
+        weight: "265.7 lbs."
     },
     {
         name: "Silvally",
@@ -9133,7 +9247,9 @@ let nationalDex = [
         number: "773",
         type: ["Normal"],
         category: "Synthetic",
-        region: "Alola"
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
     },
     {
         name: "Minior",
@@ -9141,7 +9257,9 @@ let nationalDex = [
         number: "774",
         type: ["Rock", "Flying"],
         category: "Meteor",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "88.2 lbs."
     },
     {
         name: "Minior (Core)",
@@ -9149,7 +9267,9 @@ let nationalDex = [
         number: "774",
         type: ["Rock", "Flying"],
         category: "Meteor",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.7 lbs."
     },
     {
         name: "Komala",
