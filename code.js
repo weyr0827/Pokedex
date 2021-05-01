@@ -6497,7 +6497,9 @@ let nationalDex = [
         number: "650",
         type: ["Grass"],
         category: "Spiny Nut",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'04\"",
+        weight: "19.8 lbs."
     },
     {
         name: "Quilladin",
@@ -6505,7 +6507,9 @@ let nationalDex = [
         number: "651",
         type: ["Grass"],
         category: "Spiny Armor",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'04\"",
+        weight: "63.9 lbs."
     },
     {
         name: "Chesnaught",
@@ -6513,7 +6517,9 @@ let nationalDex = [
         number: "652",
         type: ["Grass", "Fighting"],
         category: "Spiny Armor",
-        region: "Kalos"
+        region: "Kalos",
+        height: "5'03\"",
+        weight: "198.4 lbs."
     },
     {
         name: "Fennekin",
@@ -6521,7 +6527,9 @@ let nationalDex = [
         number: "653",
         type: ["Fire"],
         category: "Fox",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'04\"",
+        weight: "20.7 lbs."
     },
     {
         name: "Braixen",
@@ -6529,7 +6537,9 @@ let nationalDex = [
         number: "654",
         type: ["Fire"],
         category: "Fox",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'03\"",
+        weight: "32.0 lbs."
     },
     {
         name: "Delphox",
@@ -6537,7 +6547,9 @@ let nationalDex = [
         number: "655",
         type: ["Fire", "Psychic"],
         category: "Fox",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'11\"",
+        weight: "86.0 lbs."
     },
     {
         name: "Froakie",
@@ -6545,7 +6557,9 @@ let nationalDex = [
         number: "656",
         type: ["Water"],
         category: "Bubble Frog",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "15.4 lbs."
     },
     {
         name: "Frogadier",
@@ -6553,7 +6567,9 @@ let nationalDex = [
         number: "657",
         type: ["Water"],
         category: "Bubble Frog",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'00\"",
+        weight: "24.0 lbs."
     },
     {
         name: "Greninja",
@@ -6561,7 +6577,9 @@ let nationalDex = [
         number: "658",
         type: ["Water", "Dark"],
         category: "Ninja",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'11\"",
+        weight: "88.2 lbs."
     },
     {
         name: "Bunnelby",
@@ -6569,7 +6587,9 @@ let nationalDex = [
         number: "659",
         type: ["Normal"],
         category: "Digging",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'04\"",
+        weight: "11.0 lbs."
     },
     {
         name: "Diggersby",
@@ -6577,7 +6597,9 @@ let nationalDex = [
         number: "660",
         type: ["Normal", "Ground"],
         category: "Digging",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'03\"",
+        weight: "93.5 lbs."
     },
     {
         name: "Fletchling",
@@ -6585,7 +6607,9 @@ let nationalDex = [
         number: "661",
         type: ["Normal", "Flying"],
         category: "Tiny Robin",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "3.7 lbs."
     },
     {
         name: "Fletchinder",
@@ -6593,7 +6617,9 @@ let nationalDex = [
         number: "662",
         type: ["Fire", "Flying"],
         category: "Ember",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'04\"",
+        weight: "35.3 lbs."
     },
     {
         name: "Talonflame",
@@ -6601,7 +6627,9 @@ let nationalDex = [
         number: "663",
         type: ["Fire", "Flying"],
         category: "Scorching",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "54.0 lbs."
     },
     {
         name: "Scatterbug",
@@ -6609,7 +6637,9 @@ let nationalDex = [
         number: "664",
         type: ["Bug"],
         category: "Scatterdust",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "5.5 lbs."
     },
     {
         name: "Spewpa",
@@ -6617,7 +6647,9 @@ let nationalDex = [
         number: "665",
         type: ["Bug"],
         category: "Scatterdust",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "18.5 lbs."
     },
     {
         name: "Vivillon",
@@ -6625,7 +6657,9 @@ let nationalDex = [
         number: "666",
         type: ["Bug", "Flying"],
         category: "Scale",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
     },
     {
         name: "Litleo",
@@ -6633,7 +6667,9 @@ let nationalDex = [
         number: "667",
         type: ["Fire", "Normal"],
         category: "Lion Cub",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'00\"",
+        weight: "29.8 lbs."
     },
     {
         name: "Pyroar",
@@ -6641,7 +6677,9 @@ let nationalDex = [
         number: "668",
         type: ["Fire", "Normal"],
         category: "Royal",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'11\"",
+        weight: "179.7 lbs."
     },
     {
         name: "Flabébé",
@@ -6649,7 +6687,9 @@ let nationalDex = [
         number: "669",
         type: ["Fairy"],
         category: "Single Bloom",
-        region: "Kalos"
+        region: "Kalos",
+        height: "0'04\"",
+        weight: "0.2 lbs."
     },
     {
         name: "Floette",
@@ -6657,7 +6697,9 @@ let nationalDex = [
         number: "670",
         type: ["Fairy"],
         category: "Single Bloom",
-        region: "Kalos"
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "2.0 lbs."
     },
     {
         name: "Florges",
@@ -6665,7 +6707,9 @@ let nationalDex = [
         number: "671",
         type: ["Fairy"],
         category: "Garden",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'07\"",
+        weight: "22.0 lbs."
     },
     {
         name: "Skiddo",
@@ -6673,7 +6717,9 @@ let nationalDex = [
         number: "672",
         type: ["Grass"],
         category: "Mount",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'11\"",
+        weight: "68.3 lbs."
     },
     {
         name: "Gogoat",
@@ -6681,7 +6727,9 @@ let nationalDex = [
         number: "673",
         type: ["Grass"],
         category: "Mount",
-        region: "Kalos"
+        region: "Kalos",
+        height: "5'07\"",
+        weight: "200.6 lbs."
     },
     {
         name: "Pancham",
@@ -6689,7 +6737,9 @@ let nationalDex = [
         number: "674",
         type: ["Fighting"],
         category: "Playful",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'00\"",
+        weight: "17.6 lbs."
     },
     {
         name: "Pangoro",
@@ -6697,7 +6747,9 @@ let nationalDex = [
         number: "675",
         type: ["Fighting", "Dark"],
         category: "Daunting",
-        region: "Kalos"
+        region: "Kalos",
+        height: "6'11\"",
+        weight: "299.8 lbs."
     },
     {
         name: "Furfrou",
@@ -6705,7 +6757,9 @@ let nationalDex = [
         number: "676",
         type: ["Normal"],
         category: "Poodle",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
     },
     {
         name: "Espurr",
@@ -6713,7 +6767,9 @@ let nationalDex = [
         number: "677",
         type: ["Psychic"],
         category: "Restraint",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "7.7 lbs."
     },
     {
         name: "Meowstic",
@@ -6721,7 +6777,9 @@ let nationalDex = [
         number: "678",
         type: ["Psychic"],
         category: "Constraint",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'00\"",
+        weight: "18.7 lbs."
     },
     {
         name: "Honedge",
@@ -6729,7 +6787,9 @@ let nationalDex = [
         number: "679",
         type: ["Steel", "Ghost"],
         category: "Sword",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "4.4 lbs."
     },
     {
         name: "Doublade",
@@ -6737,7 +6797,9 @@ let nationalDex = [
         number: "680",
         type: ["Steel", "Ghost"],
         category: "Sword",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "9.9 lbs."
     },
     {
         name: "Aegislash",
@@ -6745,7 +6807,9 @@ let nationalDex = [
         number: "681",
         type: ["Steel", "Ghost"],
         category: "Royal Sword",
-        region: "Kalos"
+        region: "Kalos",
+        height: "5'07\"",
+        weight: "116.8 lbs."
     },
     {
         name: "Spritzee",
@@ -6753,7 +6817,9 @@ let nationalDex = [
         number: "682",
         type: ["Fairy"],
         category: "Perfume",
-        region: "Kalos"
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "1.1 lbs."
     },
     {
         name: "Aromatisse",
@@ -6761,7 +6827,9 @@ let nationalDex = [
         number: "683",
         type: ["Fairy"],
         category: "Fragrance",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "34.2 lbs."
     },
     {
         name: "Swirlix",
@@ -6769,7 +6837,9 @@ let nationalDex = [
         number: "684",
         type: ["Fairy"],
         category: "Cotton Candy",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'04\"",
+        weight: "7.7 lbs."
     },
     {
         name: "Slurpuff",
@@ -6777,7 +6847,9 @@ let nationalDex = [
         number: "685",
         type: ["Fairy"],
         category: "Meringue",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "11.0 lbs."
     },
     {
         name: "Inkay",
