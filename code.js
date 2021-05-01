@@ -5767,7 +5767,9 @@ let nationalDex = [
         number: "577",
         type: ["Psychic"],
         category: "Cell",
-        region: "Unova"
+        region: "Unova",
+        height: "1'00\"",
+        weight: "2.2 lbs."
     },
     {
         name: "Duosion",
@@ -5775,7 +5777,9 @@ let nationalDex = [
         number: "578",
         type: ["Psychic"],
         category: "Mitosis",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "17.6 lbs."
     },
     {
         name: "Reuniclus",
@@ -5783,7 +5787,9 @@ let nationalDex = [
         number: "579",
         type: ["Psychic"],
         category: "Multiplying",
-        region: "Unova"
+        region: "Unova",
+        height: "3'03\"",
+        weight: "44.3 lbs."
     },
     {
         name: "Ducklett",
@@ -5791,7 +5797,9 @@ let nationalDex = [
         number: "580",
         type: ["Water", "Flying"],
         category: "Water Bird",
-        region: "Unova"
+        region: "Unova",
+        height: "1'08\"",
+        weight: "12.1 lbs."
     },
     {
         name: "Swanna",
@@ -5799,7 +5807,9 @@ let nationalDex = [
         number: "581",
         type: ["Water", "Flying"],
         category: "White Bird",
-        region: "Unova"
+        region: "Unova",
+        height: "4'03\"",
+        weight: "53.4 lbs."
     },
     {
         name: "Vanillite",
@@ -5807,7 +5817,9 @@ let nationalDex = [
         number: "582",
         type: ["Ice"],
         category: "Fresh Snow",
-        region: "Unova"
+        region: "Unova",
+        height: "1'04\"",
+        weight: "12.6 lbs."
     },
     {
         name: "Vanillish",
@@ -5815,7 +5827,9 @@ let nationalDex = [
         number: "583",
         type: ["Ice"],
         category: "Icy Snow",
-        region: "Unova"
+        region: "Unova",
+        height: "3'07\"",
+        weight: "90.4 lbs."
     },
     {
         name: "Vanilluxe",
@@ -5823,7 +5837,9 @@ let nationalDex = [
         number: "584",
         type: ["Ice"],
         category: "Snowstorm",
-        region: "Unova"
+        region: "Unova",
+        height: "4'03\"",
+        weight: "126.8 lbs."
     },
     {
         name: "Deerling",
@@ -5831,7 +5847,9 @@ let nationalDex = [
         number: "585",
         type: ["Normal", "Grass"],
         category: "Season",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "43.0 lbs."
     },
     {
         name: "Sawsbuck",
@@ -5839,7 +5857,9 @@ let nationalDex = [
         number: "586",
         type: ["Normal", "Grass"],
         category: "Season",
-        region: "Unova"
+        region: "Unova",
+        height: "6'03\"",
+        weight: "203.9 lbs."
     },
     {
         name: "Emolga",
@@ -5847,7 +5867,9 @@ let nationalDex = [
         number: "587",
         type: ["Electric", "Flying"],
         category: "Sky Squirrel",
-        region: "Unova"
+        region: "Unova",
+        height: "1'04\"",
+        weight: "11.0 lbs."
     },
     {
         name: "Karrablast",
@@ -5855,7 +5877,9 @@ let nationalDex = [
         number: "588",
         type: ["Bug"],
         category: "Clamping",
-        region: "Unova"
+        region: "Unova",
+        height: "1'08\"",
+        weight: "13.0 lbs."
     },
     {
         name: "Escavalier",
@@ -5863,7 +5887,9 @@ let nationalDex = [
         number: "589",
         type: ["Bug", "Steel"],
         category: "Cavalry",
-        region: "Unova"
+        region: "Unova",
+        height: "3'03\"",
+        weight: "72.8 lbs."
     },
     {
         name: "Foongus",
@@ -5871,7 +5897,9 @@ let nationalDex = [
         number: "590",
         type: ["Grass", "Poison"],
         category: "Mushroom",
-        region: "Unova"
+        region: "Unova",
+        height: "0'08\"",
+        weight: "2.2 lbs."
     },
     {
         name: "Amoonguss",
@@ -5879,7 +5907,9 @@ let nationalDex = [
         number: "591",
         type: ["Grass", "Poison"],
         category: "Mushroom",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "23.1 lbs."
     },
     {
         name: "Frillish",
@@ -5887,7 +5917,9 @@ let nationalDex = [
         number: "592",
         type: ["Water", "Ghost"],
         category: "Floating",
-        region: "Unova"
+        region: "Unova",
+        height: "3'11\"",
+        weight: "72.8 lbs."
     },
     {
         name: "Jellicent",
@@ -5895,7 +5927,9 @@ let nationalDex = [
         number: "593",
         type: ["Water", "Ghost"],
         category: "Floating",
-        region: "Unova"
+        region: "Unova",
+        height: "7'03\"",
+        weight: "297.6 lbs."
     },
     {
         name: "Alomomola",
@@ -5903,7 +5937,9 @@ let nationalDex = [
         number: "594",
         type: ["Water"],
         category: "Floating",
-        region: "Unova"
+        region: "Unova",
+        height: "3'11\"",
+        weight: "69.7 lbs."
     },
     {
         name: "Joltik",
@@ -5911,7 +5947,9 @@ let nationalDex = [
         number: "595",
         type: ["Bug", "Electric"],
         category: "Attaching",
-        region: "Unova"
+        region: "Unova",
+        height: "0'04\"",
+        weight: "1.3 lbs."
     },
     {
         name: "Galvantula",
@@ -5919,7 +5957,9 @@ let nationalDex = [
         number: "596",
         type: ["Bug", "Electric"],
         category: "EleSpider",
-        region: "Unova"
+        region: "Unova",
+        height: "2'07\"",
+        weight: "31.5 lbs."
     },
     {
         name: "Ferroseed",
@@ -5927,7 +5967,9 @@ let nationalDex = [
         number: "597",
         type: ["Grass", "Steel"],
         category: "Thorn Seed",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "41.4 lbs."
     },
     {
         name: "Ferrothorn",
@@ -5935,7 +5977,9 @@ let nationalDex = [
         number: "598",
         type: ["Grass", "Steel"],
         category: "Thorn Pod",
-        region: "Unova"
+        region: "Unova",
+        height: "3'03\"",
+        weight: "242.5 lbs."
     },
     {
         name: "Klink",
@@ -5943,7 +5987,9 @@ let nationalDex = [
         number: "599",
         type: ["Steel"],
         category: "Gear",
-        region: "Unova"
+        region: "Unova",
+        height: "1'00\"",
+        weight: "46.3 lbs."
     },
     {
         name: "Klang",
@@ -5951,7 +5997,9 @@ let nationalDex = [
         number: "600",
         type: ["Steel"],
         category: "Gear",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "112.4 lbs."
     },
     {
         name: "Klinklang",
@@ -5959,7 +6007,9 @@ let nationalDex = [
         number: "601",
         type: ["Steel"],
         category: "Gear",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "178.6 lbs."
     },
     {
         name: "Tynamo",
@@ -5967,7 +6017,9 @@ let nationalDex = [
         number: "602",
         type: ["Electric"],
         category: "EleFish",
-        region: "Unova"
+        region: "Unova",
+        height: "0'08\"",
+        weight: "0.7 lbs."
     },
     {
         name: "Eelektrik",
@@ -5975,7 +6027,9 @@ let nationalDex = [
         number: "603",
         type: ["Electric"],
         category: "EleFish",
-        region: "Unova"
+        region: "Unova",
+        height: "3'11\"",
+        weight: "48.5 lbs."
     },
     {
         name: "Eelektross",
@@ -5983,7 +6037,9 @@ let nationalDex = [
         number: "604",
         type: ["Electric"],
         category: "EleFish",
-        region: "Unova"
+        region: "Unova",
+        height: "6'11\"",
+        weight: "177.5 lbs."
     },
     {
         name: "Elgyem",
@@ -5991,7 +6047,9 @@ let nationalDex = [
         number: "605",
         type: ["Psychic"],
         category: "Cerebral",
-        region: "Unova"
+        region: "Unova",
+        height: "1'08\"",
+        weight: "19.8 lbs."
     },
     {
         name: "Beheeyem",
@@ -5999,7 +6057,9 @@ let nationalDex = [
         number: "606",
         type: ["Psychic"],
         category: "Cerebral",
-        region: "Unova"
+        region: "Unova",
+        height: "3'03\"",
+        weight: "76.1 lbs."
     },
     {
         name: "Litwick",
@@ -6007,7 +6067,9 @@ let nationalDex = [
         number: "607",
         type: ["Ghost", "Fire"],
         category: "Candle",
-        region: "Unova"
+        region: "Unova",
+        height: "1'00\"",
+        weight: "6.8 lbs."
     },
     {
         name: "Lampent",
@@ -6015,7 +6077,9 @@ let nationalDex = [
         number: "608",
         type: ["Ghost", "Fire"],
         category: "Lamp",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "28.7 lbs."
     },
     {
         name: "Chandelure",
@@ -6023,7 +6087,9 @@ let nationalDex = [
         number: "609",
         type: ["Ghost", "Fire"],
         category: "Luring",
-        region: "Unova"
+        region: "Unova",
+        height: "3'03\"",
+        weight: "75.6 lbs."
     },
     {
         name: "Axew",
@@ -6031,7 +6097,9 @@ let nationalDex = [
         number: "610",
         type: ["Dragon"],
         category: "Tusk",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "39.7 lbs."
     },
     {
         name: "Fraxure",
@@ -6039,7 +6107,9 @@ let nationalDex = [
         number: "611",
         type: ["Dragon"],
         category: "Axe Jaw",
-        region: "Unova"
+        region: "Unova",
+        height: "3'03\"",
+        weight: "79.4 lbs."
     },
     {
         name: "Haxorus",
@@ -6047,7 +6117,9 @@ let nationalDex = [
         number: "612",
         type: ["Dragon"],
         category: "Axe Jaw",
-        region: "Unova"
+        region: "Unova",
+        height: "5'11\"",
+        weight: "232.6 lbs."
     },
     {
         name: "Cubchoo",
@@ -6055,7 +6127,9 @@ let nationalDex = [
         number: "613",
         type: ["Ice"],
         category: "Chill",
-        region: "Unova"
+        region: "Unova",
+        height: "1'08\"",
+        weight: "18.7 lbs."
     },
     {
         name: "Beartic",
@@ -6063,7 +6137,9 @@ let nationalDex = [
         number: "614",
         type: ["Ice"],
         category: "Freezing",
-        region: "Unova"
+        region: "Unova",
+        height: "8'06\"",
+        weight: "573.2 lbs."
     },
     {
         name: "Cryogonal",
@@ -6071,7 +6147,9 @@ let nationalDex = [
         number: "615",
         type: ["Ice"],
         category: "Crystallizing",
-        region: "Unova"
+        region: "Unova",
+        height: "3'07\"",
+        weight: "326.3 lbs."
     },
     {
         name: "Shelmet",
@@ -6079,7 +6157,9 @@ let nationalDex = [
         number: "616",
         type: ["Bug"],
         category: "Snail",
-        region: "Unova"
+        region: "Unova",
+        height: "1'04\"",
+        weight: "17.0 lbs."
     },
     {
         name: "Accelgor",
@@ -6087,7 +6167,9 @@ let nationalDex = [
         number: "617",
         type: ["Bug"],
         category: "Shell Out",
-        region: "Unova"
+        region: "Unova",
+        height: "2'07\"",
+        weight: "55.8 lbs."
     },
     {
         name: "Stunfisk",
@@ -6095,7 +6177,9 @@ let nationalDex = [
         number: "618",
         type: ["Ground", "Electric"],
         category: "Trap",
-        region: "Unova"
+        region: "Unova",
+        height: "2'04\"",
+        weight: "24.3 lbs."
     },
     {
         name: "Mienfoo",
@@ -6103,7 +6187,9 @@ let nationalDex = [
         number: "619",
         type: ["Fighting"],
         category: "Martial Arts",
-        region: "Unova"
+        region: "Unova",
+        height: "2'11\"",
+        weight: "44.1 lbs."
     },
     {
         name: "Mienshao",
@@ -6111,7 +6197,9 @@ let nationalDex = [
         number: "620",
         type: ["Fighting"],
         category: "Martial Arts",
-        region: "Unova"
+        region: "Unova",
+        height: "4'07\"",
+        weight: "78.3 lbs."
     },
     {
         name: "Druddigon",
@@ -6119,7 +6207,9 @@ let nationalDex = [
         number: "621",
         type: ["Dragon"],
         category: "Cave",
-        region: "Unova"
+        region: "Unova",
+        height: "5'03\"",
+        weight: "306.4 lbs."
     },
     {
         name: "Golett",
@@ -6127,7 +6217,9 @@ let nationalDex = [
         number: "622",
         type: ["Ground", "Ghost"],
         category: "Automaton",
-        region: "Unova"
+        region: "Unova",
+        height: "3'03\"",
+        weight: "202.8 lbs."
     },
     {
         name: "Golurk",
@@ -6135,7 +6227,9 @@ let nationalDex = [
         number: "623",
         type: ["Ground", "Ghost"],
         category: "Automaton",
-        region: "Unova"
+        region: "Unova",
+        height: "9'02\"",
+        weight: "727.5 lbs."
     },
     {
         name: "Pawniard",
@@ -6143,7 +6237,9 @@ let nationalDex = [
         number: "624",
         type: ["Dark", "Steel"],
         category: "Sharp Blade",
-        region: "Unova"
+        region: "Unova",
+        height: "1'08\"",
+        weight: "22.5 lbs."
     },
     {
         name: "Bisharp",
@@ -6151,7 +6247,9 @@ let nationalDex = [
         number: "625",
         type: ["Dark", "Steel"],
         category: "Sword Blade",
-        region: "Unova"
+        region: "Unova",
+        height: "5'03\"",
+        weight: "154.3 lbs."
     },
     {
         name: "Bouffalant",
@@ -6159,7 +6257,9 @@ let nationalDex = [
         number: "626",
         type: ["Normal"],
         category: "Bash Buffalo",
-        region: "Unova"
+        region: "Unova",
+        height: "5'03\"",
+        weight: "208.3 lbs."
     },
     {
         name: "Rufflet",
@@ -6167,7 +6267,9 @@ let nationalDex = [
         number: "627",
         type: ["Normal", "Flying"],
         category: "Eaglet",
-        region: "Unova"
+        region: "Unova",
+        height: "1'08\"",
+        weight: "23.1 lbs."
     },
     {
         name: "Braviary",
@@ -6175,7 +6277,9 @@ let nationalDex = [
         number: "628",
         type: ["Normal", "Flying"],
         category: "Valiant",
-        region: "Unova"
+        region: "Unova",
+        height: "4'11\"",
+        weight: "90.4 lbs."
     },
     {
         name: "Vullaby",
@@ -6183,7 +6287,9 @@ let nationalDex = [
         number: "629",
         type: ["Dark", "Flying"],
         category: "Diapered",
-        region: "Unova"
+        region: "Unova",
+        height: "1'08\"",
+        weight: "19.8 lbs."
     },
     {
         name: "Mandibuzz",
@@ -6191,7 +6297,9 @@ let nationalDex = [
         number: "630",
         type: ["Dark", "Flying"],
         category: "Bone Vulture",
-        region: "Unova"
+        region: "Unova",
+        height: "3'11\"",
+        weight: "87.1 lbs."
     },
     {
         name: "Heatmor",
@@ -6199,7 +6307,9 @@ let nationalDex = [
         number: "631",
         type: ["Fire"],
         category: "Anteater",
-        region: "Unova"
+        region: "Unova",
+        height: "4'07\"",
+        weight: "127.9 lbs."
     },
     {
         name: "Durant",
@@ -6207,7 +6317,9 @@ let nationalDex = [
         number: "632",
         type: ["Bug", "Steel"],
         category: "Iron Ant",
-        region: "Unova"
+        region: "Unova",
+        height: "1'00\"",
+        weight: "72.8 lbs."
     },
     {
         name: "Deino",
@@ -6215,7 +6327,9 @@ let nationalDex = [
         number: "633",
         type: ["Dark", "Dragon"],
         category: "Irate",
-        region: "Unova"
+        region: "Unova",
+        height: "2'07\"",
+        weight: "38.1 lbs."
     },
     {
         name: "Zweilous",
@@ -6223,7 +6337,9 @@ let nationalDex = [
         number: "634",
         type: ["Dark", "Dragon"],
         category: "Hostile",
-        region: "Unova"
+        region: "Unova",
+        height: "4'07\"",
+        weight: "110.2 lbs."
     },
     {
         name: "Hydreigon",
@@ -6231,7 +6347,9 @@ let nationalDex = [
         number: "635",
         type: ["Dark", "Dragon"],
         category: "Brutal",
-        region: "Unova"
+        region: "Unova",
+        height: "5'11\"",
+        weight: "352.7 lbs."
     },
     {
         name: "Larvesta",
@@ -6239,7 +6357,9 @@ let nationalDex = [
         number: "636",
         type: ["Bug", "Fire"],
         category: "Torch",
-        region: "Unova"
+        region: "Unova",
+        height: "3'07\"",
+        weight: "63.5 lbs."
     },
     {
         name: "Volcarona",
@@ -6247,7 +6367,9 @@ let nationalDex = [
         number: "637",
         type: ["Bug", "Fire"],
         category: "Sun",
-        region: "Unova"
+        region: "Unova",
+        height: "5'03\"",
+        weight: "101.4 lbs."
     },
     {
         name: "Cobalion",
@@ -6255,7 +6377,9 @@ let nationalDex = [
         number: "638",
         type: ["Steel", "Fighting"],
         category: "Iron Will",
-        region: "Unova"
+        region: "Unova",
+        height: "6'11\"",
+        weight: "551.2 lbs."
     },
     {
         name: "Terrakion",
@@ -6263,7 +6387,9 @@ let nationalDex = [
         number: "639",
         type: ["Rock", "Fighting"],
         category: "Cavern",
-        region: "Unova"
+        region: "Unova",
+        height: "6'03\"",
+        weight: "573.2 lbs."
     },
     {
         name: "Virizion",
@@ -6271,7 +6397,9 @@ let nationalDex = [
         number: "640",
         type: ["Grass", "Fighting"],
         category: "Grassland",
-        region: "Unova"
+        region: "Unova",
+        height: "6'07\"",
+        weight: "440.9 lbs."
     },
     {
         name: "Tornadus",
@@ -6279,7 +6407,9 @@ let nationalDex = [
         number: "641",
         type: ["Flying"],
         category: "Cyclone",
-        region: "Unova"
+        region: "Unova",
+        height: "4'11\"",
+        weight: "138.9 lbs."
     },
     {
         name: "Thundurus",
@@ -6287,7 +6417,9 @@ let nationalDex = [
         number: "642",
         type: ["Electric", "Flying"],
         category: "Bolt Strike",
-        region: "Unova"
+        region: "Unova",
+        height: "4'11\"",
+        weight: "134.5 lbs."
     },
     {
         name: "Reshiram",
@@ -6295,7 +6427,9 @@ let nationalDex = [
         number: "643",
         type: ["Dragon", "Fire"],
         category: "Vast White",
-        region: "Unova"
+        region: "Unova",
+        height: "10'06\"",
+        weight: "727.5 lbs."
     },
     {
         name: "Zekrom",
@@ -6303,7 +6437,9 @@ let nationalDex = [
         number: "644",
         type: ["Dragon", "Electric"],
         category: "Deep Black",
-        region: "Unova"
+        region: "Unova",
+        height: "9'06\"",
+        weight: "760.6 lbs."
     },
     {
         name: "Landorus",
@@ -6311,7 +6447,9 @@ let nationalDex = [
         number: "645",
         type: ["Ground", "Flying"],
         category: "Abundance",
-        region: "Unova"
+        region: "Unova",
+        height: "4'11\"",
+        weight: "149.9 lbs."
     },
     {
         name: "Kyurem",
@@ -6319,7 +6457,9 @@ let nationalDex = [
         number: "646",
         type: ["Dragon", "Ice"],
         category: "Boundary",
-        region: "Unova"
+        region: "Unova",
+        height: "9'10\"",
+        weight: "716.5 lbs."
     },
     {
         name: "Keldeo",
@@ -6327,7 +6467,9 @@ let nationalDex = [
         number: "647",
         type: ["Water", "Fighting"],
         category: "Colt",
-        region: "Unova"
+        region: "Unova",
+        height: "4'07\"",
+        weight: "106.9 lbs."
     },
     {
         name: "Meloetta",
@@ -6335,7 +6477,9 @@ let nationalDex = [
         number: "648",
         type: ["Normal", "Psychic"],
         category: "Melody",
-        region: "Unova"
+        region: "Unova",
+        height: "2'00\"",
+        weight: "14.3 lbs."
     },
     {
         name: "Genesect",
@@ -6343,7 +6487,9 @@ let nationalDex = [
         number: "649",
         type: ["Bug", "Steel"],
         category: "Paleozoic",
-        region: "Unova"
+        region: "Unova",
+        height: "4'11\"",
+        weight: "181.9 lbs."
     },
     {
         name: "Chespin",
