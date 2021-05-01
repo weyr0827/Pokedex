@@ -9032,12 +9032,16 @@ let numberId = document.getElementById("number_input").value
 let typeId = document.getElementById("type_input").value
 let categoryId = document.getElementById("category_input").value
 let regionId = document.getElementById("region_input").value
+let heightId = document.getElementById("height_input").value
+let weightId = document.getElementById("weight_input").value
 
 let filterPokemon = nationalDex.filter(searching => searching.name.toLowerCase().indexOf(nameId.toLowerCase()) > -1 )
 .filter(searching => searching.number.indexOf(numberId) > -1 )
 .filter(searching => String(searching.type).toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
 .filter(searching => searching.category.toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
 .filter(searching => searching.region.toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
+.filter(searching => searching.height.toLowerCase().indexOf(heightId.toLowerCase()) > -1 )
+.filter(searching => searching.weight.toLowerCase().indexOf(weightId.toLowerCase()) > -1 )
 
 function coloring(){
     let typeColor = document.getElementById("type_input").value
