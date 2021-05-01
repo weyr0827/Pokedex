@@ -9667,7 +9667,9 @@ let nationalDex = [
         number: "810",
         type: ["Grass"],
         category: "Chimp",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "11.0 lbs."
     },
     {
         name: "Thwackey",
@@ -9675,7 +9677,9 @@ let nationalDex = [
         number: "811",
         type: ["Grass"],
         category: "Beat",
-        region: "Galar"
+        region: "Galar",
+        height: "2'04\"",
+        weight: "30.9 lbs."
     },
     {
         name: "Rillaboom",
@@ -9683,7 +9687,9 @@ let nationalDex = [
         number: "812",
         type: ["Grass"],
         category: "Drummer",
-        region: "Galar"
+        region: "Galar",
+        height: "5'11\"",
+        weight: "198.4 lbs."
     },
     {
         name: "Gigantamax Rillaboom",
@@ -9691,7 +9697,9 @@ let nationalDex = [
         number: "812",
         type: ["Grass"],
         category: "Drummer",
-        region: "Galar"
+        region: "Galar",
+        height: "91'10\"+",
+        weight: "??? lbs."
     },
     {
         name: "Scorbunny",
@@ -9699,7 +9707,9 @@ let nationalDex = [
         number: "813",
         type: ["Fire"],
         category: "Rabbit",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "9.9 lbs."
     },
     {
         name: "Raboot",
@@ -9707,7 +9717,9 @@ let nationalDex = [
         number: "814",
         type: ["Fire"],
         category: "Rabbit",
-        region: "Galar"
+        region: "Galar",
+        height: "2'00\"",
+        weight: "19.8 lbs."
     },
     {
         name: "Cinderace",
@@ -9715,7 +9727,9 @@ let nationalDex = [
         number: "815",
         type: ["Fire"],
         category: "Striker",
-        region: "Galar"
+        region: "Galar",
+        height: "4'07\"",
+        weight: "72.8 lbs."
     },
     {
         name: "Gigantamax Cinderace",
@@ -9723,7 +9737,9 @@ let nationalDex = [
         number: "815",
         type: ["Fire"],
         category: "Striker",
-        region: "Galar"
+        region: "Galar",
+        height: "88'07\"+",
+        weight: "??? lbs."
     },
     {
         name: "Sobble",
@@ -9731,7 +9747,9 @@ let nationalDex = [
         number: "816",
         type: ["Water"],
         category: "Water Lizard",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "8.8 lbs."
     },
     {
         name: "Drizzile",
@@ -9739,7 +9757,9 @@ let nationalDex = [
         number: "817",
         type: ["Water"],
         category: "Water Lizard",
-        region: "Galar"
+        region: "Galar",
+        height: "2'04\"",
+        weight: "25.4 lbs."
     },
     {
         name: "Inteleon",
@@ -9747,7 +9767,9 @@ let nationalDex = [
         number: "818",
         type: ["Water"],
         category: "Secret Agent",
-        region: "Galar"
+        region: "Galar",
+        height: "6'03\"",
+        weight: "99.6 lbs."
     },
     {
         name: "Gigantamax Inteleon",
@@ -9755,7 +9777,9 @@ let nationalDex = [
         number: "818",
         type: ["Water"],
         category: "Secret Agent",
-        region: "Galar"
+        region: "Galar",
+        height: "131'03\"+",
+        weight: "??? lbs."
     },
     {
         name: "Skwovet",
@@ -9763,7 +9787,9 @@ let nationalDex = [
         number: "819",
         type: ["Normal"],
         category: "Cheeky",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "5.5 lbs."
     },
     {
         name: "Greedent",
@@ -9771,7 +9797,9 @@ let nationalDex = [
         number: "820",
         type: ["Normal"],
         category: "Greedy",
-        region: "Galar"
+        region: "Galar",
+        height: "2'00\"",
+        weight: "13.2 lbs."
     },
     {
         name: "Rookidee",
@@ -9779,7 +9807,9 @@ let nationalDex = [
         number: "821",
         type: ["Flying"],
         category: "Tiny Bird",
-        region: "Galar"
+        region: "Galar",
+        height: "0'08\"",
+        weight: "4.0 lbs."
     },
     {
         name: "Corvisquire",
@@ -9787,7 +9817,9 @@ let nationalDex = [
         number: "822",
         type: ["Flying"],
         category: "Raven",
-        region: "Galar"
+        region: "Galar",
+        height: "2'07\"",
+        weight: "35.3 lbs."
     },
     {
         name: "Corviknight",
@@ -9795,7 +9827,9 @@ let nationalDex = [
         number: "823",
         type: ["Flying", "Steel"],
         category: "Raven",
-        region: "Galar"
+        region: "Galar",
+        height: "7'03\"",
+        weight: "165.3 lbs."
     },
     {
         name: "Gigantamax Corviknight",
@@ -9803,7 +9837,9 @@ let nationalDex = [
         number: "823",
         type: ["Flying", "Steel"],
         category: "Raven",
-        region: "Galar"
+        region: "Galar",
+        height: "45'11\"+",
+        weight: "??? lbs."
     },
     {
         name: "Blipbug",
@@ -9811,7 +9847,9 @@ let nationalDex = [
         number: "824",
         type: ["Bug"],
         category: "Larva",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "17.6 lbs."
     },
     {
         name: "Dottler",
@@ -9819,7 +9857,9 @@ let nationalDex = [
         number: "825",
         type: ["Bug", "Psychic"],
         category: "Radome",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "43.0 lbs."
     },
     {
         name: "Orbeetle",
@@ -9827,7 +9867,9 @@ let nationalDex = [
         number: "826",
         type: ["Bug", "Psychic"],
         category: "Seven Spot",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "89.9 lbs."
     },
     {
         name: "Gigantamax Orbeetle",
@@ -9835,7 +9877,9 @@ let nationalDex = [
         number: "826",
         type: ["Bug", "Psychic"],
         category: "Seven Spot",
-        region: "Galar"
+        region: "Galar",
+        height: "45'11\"+",
+        weight: "??? lbs."
     },
     {
         name: "Nickit",
@@ -9843,7 +9887,9 @@ let nationalDex = [
         number: "827",
         type: ["Dark"],
         category: "Fox",
-        region: "Galar"
+        region: "Galar",
+        height: "2'00\"",
+        weight: "19.6 lbs."
     },
     {
         name: "Thievul",
@@ -9851,7 +9897,9 @@ let nationalDex = [
         number: "828",
         type: ["Dark"],
         category: "Fox",
-        region: "Galar"
+        region: "Galar",
+        height: "3'11\"",
+        weight: "43.9 lbs."
     },
     {
         name: "Gossifleur",
@@ -9859,7 +9907,9 @@ let nationalDex = [
         number: "829",
         type: ["Grass"],
         category: "Flowering",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "4.9 lbs."
     },
     {
         name: "Eldegoss",
@@ -9867,7 +9917,9 @@ let nationalDex = [
         number: "830",
         type: ["Grass"],
         category: "Cotton Bloom",
-        region: "Galar"
+        region: "Galar",
+        height: "1'08\"",
+        weight: "5.5 lbs."
     },
     {
         name: "Wooloo",
@@ -9875,7 +9927,9 @@ let nationalDex = [
         number: "831",
         type: ["Normal"],
         category: "Sheep",
-        region: "Galar"
+        region: "Galar",
+        height: "2'00\"",
+        weight: "13.2 lbs."
     },
     {
         name: "Dubwool",
@@ -9883,7 +9937,9 @@ let nationalDex = [
         number: "832",
         type: ["Normal"],
         category: "Sheep",
-        region: "Galar"
+        region: "Galar",
+        height: "4'03\"",
+        weight: "94.8 lbs."
     },
     {
         name: "Chewtle",
@@ -9891,7 +9947,9 @@ let nationalDex = [
         number: "833",
         type: ["Water"],
         category: "Snapping",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "18.7 lbs."
     },
     {
         name: "Drednaw",
@@ -9899,7 +9957,9 @@ let nationalDex = [
         number: "834",
         type: ["Water", "Rock"],
         category: "Bite",
-        region: "Galar"
+        region: "Galar",
+        height: "3'03\"",
+        weight: "254.6 lbs."
     },
     {
         name: "Gigantamax Drednaw",
@@ -9907,7 +9967,9 @@ let nationalDex = [
         number: "834",
         type: ["Water", "Rock"],
         category: "Bite",
-        region: "Galar"
+        region: "Galar",
+        height: "78'09\"+",
+        weight: "??? lbs."
     },
     {
         name: "Yamper",
@@ -9915,7 +9977,9 @@ let nationalDex = [
         number: "835",
         type: ["Electric"],
         category: "Puppy",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "29.8 lbs."
     },
     {
         name: "Boltund",
@@ -9923,7 +9987,9 @@ let nationalDex = [
         number: "836",
         type: ["Electric"],
         category: "Dog",
-        region: "Galar"
+        region: "Galar",
+        height: "3'03\"",
+        weight: "75.0 lbs."
     },
     {
         name: "Rolycoly",
@@ -9931,7 +9997,9 @@ let nationalDex = [
         number: "837",
         type: ["Rock"],
         category: "Coal",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "26.5 lbs."
     },
     {
         name: "Carkol",
@@ -9939,7 +10007,9 @@ let nationalDex = [
         number: "838",
         type: ["Rock", "Fire"],
         category: "Coal",
-        region: "Galar"
+        region: "Galar",
+        height: "3'07\"",
+        weight: "172.0 lbs."
     },
     {
         name: "Coalossal",
@@ -9947,7 +10017,9 @@ let nationalDex = [
         number: "839",
         type: ["Rock", "Fire"],
         category: "Coal",
-        region: "Galar"
+        region: "Galar",
+        height: "9'02\"",
+        weight: "684.5 lbs."
     },
     {
         name: "Gigantamax Coalossal",
@@ -9955,7 +10027,9 @@ let nationalDex = [
         number: "839",
         type: ["Rock", "Fire"],
         category: "Coal",
-        region: "Galar"
+        region: "Galar",
+        height: "137'10\"+",
+        weight: "??? lbs."
     },
     {
         name: "Applin",
@@ -9963,7 +10037,9 @@ let nationalDex = [
         number: "840",
         type: ["Grass", "Dragon"],
         category: "Apple Core",
-        region: "Galar"
+        region: "Galar",
+        height: "0'08\"",
+        weight: "1.1 lbs."
     },
     {
         name: "Flapple",
@@ -9971,7 +10047,9 @@ let nationalDex = [
         number: "841",
         type: ["Grass", "Dragon"],
         category: "Apple Wing",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "2.2 lbs."
     },
     {
         name: "Gigantamax Flapple",
@@ -9979,7 +10057,9 @@ let nationalDex = [
         number: "841",
         type: ["Grass", "Dragon"],
         category: "Apple Wing",
-        region: "Galar"
+        region: "Galar",
+        height: "78'09\"+",
+        weight: "??? lbs."
     },
     {
         name: "Appletun",
@@ -9987,7 +10067,9 @@ let nationalDex = [
         number: "842",
         type: ["Grass", "Dragon"],
         category: "Apple Nectar",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "28.7 lbs."
     },
     {
         name: "Gigantamax Appletun",
@@ -9995,7 +10077,9 @@ let nationalDex = [
         number: "842",
         type: ["Grass", "Dragon"],
         category: "Apple Nectar",
-        region: "Galar"
+        region: "Galar",
+        height: "78'09\"+",
+        weight: "??? lbs."
     },
     {
         name: "Silicobra",
@@ -10003,7 +10087,9 @@ let nationalDex = [
         number: "843",
         type: ["Ground"],
         category: "Sand Snake",
-        region: "Galar"
+        region: "Galar",
+        height: "7'03\"",
+        weight: "16.8 lbs."
     },
     {
         name: "Sandaconda",
@@ -10011,7 +10097,9 @@ let nationalDex = [
         number: "844",
         type: ["Ground"],
         category: "Sand Snake",
-        region: "Galar"
+        region: "Galar",
+        height: "12'06\"",
+        weight: "144.4 lbs."
     },
     {
         name: "Gigantamax Sandaconda",
@@ -10019,7 +10107,9 @@ let nationalDex = [
         number: "844",
         type: ["Ground"],
         category: "Sand Snake",
-        region: "Galar"
+        region: "Galar",
+        height: "72'02\"+",
+        weight: "??? lbs."
     },
     {
         name: "Cramorant",
@@ -10027,7 +10117,9 @@ let nationalDex = [
         number: "845",
         type: ["Flying", "Water"],
         category: "Sand Snake",
-        region: "Galar"
+        region: "Galar",
+        height: "2'07\"",
+        weight: "39.7 lbs."
     },
     {
         name: "Arrokuda",
@@ -10035,7 +10127,9 @@ let nationalDex = [
         number: "846",
         type: ["Water"],
         category: "Rush",
-        region: "Galar"
+        region: "Galar",
+        height: "1'08\"",
+        weight: "2.2 lbs."
     },
     {
         name: "Barraskewda",
@@ -10043,7 +10137,9 @@ let nationalDex = [
         number: "847",
         type: ["Water"],
         category: "Skewer",
-        region: "Galar"
+        region: "Galar",
+        height: "4'03\"",
+        weight: "66.1 lbs."
     },
     {
         name: "Toxel",
@@ -10051,7 +10147,9 @@ let nationalDex = [
         number: "848",
         type: ["Electric", "Poison"],
         category: "Baby",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "24.3 lbs."
     },
     {
         name: "Toxtricity (Amped Form)",
@@ -10059,7 +10157,9 @@ let nationalDex = [
         number: "849",
         type: ["Electric", "Poison"],
         category: "Punk",
-        region: "Galar"
+        region: "Galar",
+        height: "5'03\"",
+        weight: "88.2 lbs."
     },
     {
         name: "Toxtricity (Low Key Form)",
@@ -10067,7 +10167,9 @@ let nationalDex = [
         number: "849",
         type: ["Electric", "Poison"],
         category: "Punk",
-        region: "Galar"
+        region: "Galar",
+        height: "5'03\"",
+        weight: "88.2 lbs."
     },
     {
         name: "Gigantamax Toxtricity",
@@ -10075,7 +10177,9 @@ let nationalDex = [
         number: "849",
         type: ["Electric", "Poison"],
         category: "Punk",
-        region: "Galar"
+        region: "Galar",
+        height: "78'09\"+",
+        weight: "??? lbs."
     },
     {
         name: "Sizzlipede",
@@ -10083,7 +10187,9 @@ let nationalDex = [
         number: "850",
         type: ["Fire", "Bug"],
         category: "Radiator",
-        region: "Galar"
+        region: "Galar",
+        height: "2'04\"",
+        weight: "2.2 lbs."
     },
     {
         name: "Centiskorch",
@@ -10091,7 +10197,9 @@ let nationalDex = [
         number: "851",
         type: ["Fire", "Bug"],
         category: "Radiator",
-        region: "Galar"
+        region: "Galar",
+        height: "9'10\"",
+        weight: "264.6 lbs."
     },
     {
         name: "Gigantamax Centiskorch",
@@ -10099,7 +10207,9 @@ let nationalDex = [
         number: "851",
         type: ["Fire", "Bug"],
         category: "Radiator",
-        region: "Galar"
+        region: "Galar",
+        height: "246'01\"+",
+        weight: "??? lbs."
     },
     {
         name: "Clobbopus",
@@ -10107,7 +10217,9 @@ let nationalDex = [
         number: "852",
         type: ["Fighting"],
         category: "Tantrum",
-        region: "Galar"
+        region: "Galar",
+        height: "2'00\"",
+        weight: "8.8 lbs."
     },
     {
         name: "Grapploct",
@@ -10115,7 +10227,9 @@ let nationalDex = [
         number: "853",
         type: ["Fighting"],
         category: "Jujitsu",
-        region: "Galar"
+        region: "Galar",
+        height: "5'03\"",
+        weight: "86.0 lbs."
     },
     {
         name: "Sinistea",
@@ -10123,7 +10237,9 @@ let nationalDex = [
         number: "854",
         type: ["Ghost"],
         category: "Black Tea",
-        region: "Galar"
+        region: "Galar",
+        height: "0'04\"",
+        weight: "0.4 lbs."
     },
     {
         name: "Polteageist",
@@ -10131,7 +10247,9 @@ let nationalDex = [
         number: "855",
         type: ["Ghost"],
         category: "Black Tea",
-        region: "Galar"
+        region: "Galar",
+        height: "0'08\"",
+        weight: "0.9 lbs."
     },
     {
         name: "Hatenna",
