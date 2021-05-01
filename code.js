@@ -6857,7 +6857,9 @@ let nationalDex = [
         number: "686",
         type: ["Dark", "Psychic"],
         category: "Revolving",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'04\"",
+        weight: "7.7 lbs."
     },
     {
         name: "Malamar",
@@ -6865,7 +6867,9 @@ let nationalDex = [
         number: "687",
         type: ["Dark", "Psychic"],
         category: "Overturning",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'11\"",
+        weight: "103.6 lbs."
     },
     {
         name: "Binacle",
@@ -6873,7 +6877,9 @@ let nationalDex = [
         number: "688",
         type: ["Rock", "Water"],
         category: "Two-Handed",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'08\"",
+        weight: "68.3 lbs."
     },
     {
         name: "Barbaracle",
@@ -6881,7 +6887,9 @@ let nationalDex = [
         number: "689",
         type: ["Rock", "Water"],
         category: "Collective",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'03\"",
+        weight: "211.6 lbs."
     },
     {
         name: "Skrelp",
@@ -6889,7 +6897,9 @@ let nationalDex = [
         number: "690",
         type: ["Poison", "Water"],
         category: "Mock Kelp",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'08\"",
+        weight: "16.1 lbs."
     },
     {
         name: "Dragalge",
@@ -6897,7 +6907,9 @@ let nationalDex = [
         number: "691",
         type: ["Poison", "Dragon"],
         category: "Mock Kelp",
-        region: "Kalos"
+        region: "Kalos",
+        height: "5'11\"",
+        weight: "179.7 lbs."
     },
     {
         name: "Clauncher",
@@ -6905,7 +6917,9 @@ let nationalDex = [
         number: "692",
         type: ["Water"],
         category: "Water Gun",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'08\"",
+        weight: "18.3 lbs."
     },
     {
         name: "Clawitzer",
@@ -6913,7 +6927,9 @@ let nationalDex = [
         number: "693",
         type: ["Water"],
         category: "Howitzer",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'03\"",
+        weight: "77.8 lbs."
     },
     {
         name: "Helioptile",
@@ -6921,7 +6937,9 @@ let nationalDex = [
         number: "694",
         type: ["Electric", "Normal"],
         category: "Generator",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'08\"",
+        weight: "13.2 lbs."
     },
     {
         name: "Heliolisk",
@@ -6929,7 +6947,9 @@ let nationalDex = [
         number: "695",
         type: ["Electric", "Normal"],
         category: "Generator",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'03\"",
+        weight: "46.3 lbs."
     },
     {
         name: "Tyrunt",
@@ -6937,7 +6957,9 @@ let nationalDex = [
         number: "696",
         type: ["Rock", "Dragon"],
         category: "Royal Heir",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "57.3 lbs."
     },
     {
         name: "Tyrantrum",
@@ -6945,7 +6967,9 @@ let nationalDex = [
         number: "697",
         type: ["Rock", "Dragon"],
         category: "Despot",
-        region: "Kalos"
+        region: "Kalos",
+        height: "8'02\"",
+        weight: "595.2 lbs."
     },
     {
         name: "Amaura",
@@ -6953,7 +6977,9 @@ let nationalDex = [
         number: "698",
         type: ["Rock", "Ice"],
         category: "Tundra",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'03\"",
+        weight: "55.6 lbs."
     },
     {
         name: "Aurorus",
@@ -6961,7 +6987,9 @@ let nationalDex = [
         number: "699",
         type: ["Rock", "Ice"],
         category: "Tundra",
-        region: "Kalos"
+        region: "Kalos",
+        height: "8'10\"",
+        weight: "496.0 lbs."
     },
     {
         name: "Sylveon",
@@ -6969,7 +6997,9 @@ let nationalDex = [
         number: "700",
         type: ["Fairy"],
         category: "Intertwining",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'03\"",
+        weight: "51.8 lbs."
     },
     {
         name: "Hawlucha",
@@ -6977,7 +7007,9 @@ let nationalDex = [
         number: "701",
         type: ["Fighting", "Flying"],
         category: "Wrestling",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "47.4 lbs."
     },
     {
         name: "Dedenne",
@@ -6985,7 +7017,9 @@ let nationalDex = [
         number: "702",
         type: ["Electric", "Fairy"],
         category: "Antenna",
-        region: "Kalos"
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "4.9 lbs."
     },
     {
         name: "Carbink",
@@ -6993,7 +7027,9 @@ let nationalDex = [
         number: "703",
         type: ["Rock", "Fairy"],
         category: "Jewel",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "12.6 lbs."
     },
     {
         name: "Goomy",
@@ -7001,7 +7037,9 @@ let nationalDex = [
         number: "704",
         type: ["Dragon"],
         category: "Soft Tissue",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "6.2 lbs."
     },
     {
         name: "Sliggoo",
@@ -7009,7 +7047,9 @@ let nationalDex = [
         number: "705",
         type: ["Dragon"],
         category: "Soft Tissue",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "38.6 lbs."
     },
     {
         name: "Goodra",
@@ -7017,7 +7057,9 @@ let nationalDex = [
         number: "706",
         type: ["Dragon"],
         category: "Dragon",
-        region: "Kalos"
+        region: "Kalos",
+        height: "6'07\"",
+        weight: "331.8 lbs."
     },
     {
         name: "Klefki",
@@ -7025,7 +7067,9 @@ let nationalDex = [
         number: "707",
         type: ["Steel", "Fairy"],
         category: "Key Ring",
-        region: "Kalos"
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "6.6 lbs."
     },
     {
         name: "Phantump",
@@ -7033,7 +7077,9 @@ let nationalDex = [
         number: "708",
         type: ["Ghost", "Grass"],
         category: "Stump",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'04\"",
+        weight: "15.4 lbs."
     },
     {
         name: "Trevenant",
@@ -7041,7 +7087,9 @@ let nationalDex = [
         number: "709",
         type: ["Ghost", "Grass"],
         category: "Elder Tree",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'11\"",
+        weight: "156.5 lbs."
     },
     {
         name: "Pumpkaboo",
@@ -7049,7 +7097,9 @@ let nationalDex = [
         number: "710",
         type: ["Ghost", "Grass"],
         category: "Pumpkin",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'04\"",
+        weight: "11.0 lbs."
     },
     {
         name: "Gourgeist",
@@ -7057,7 +7107,9 @@ let nationalDex = [
         number: "711",
         type: ["Ghost", "Grass"],
         category: "Pumpkin",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'11\"",
+        weight: "27.6 lbs."
     },
     {
         name: "Bergmite",
@@ -7065,7 +7117,9 @@ let nationalDex = [
         number: "712",
         type: ["Ice"],
         category: "Ice Chunk",
-        region: "Kalos"
+        region: "Kalos",
+        height: "3'03\"",
+        weight: "219.4 lbs."
     },
     {
         name: "Avalugg",
@@ -7073,7 +7127,9 @@ let nationalDex = [
         number: "713",
         type: ["Ice"],
         category: "Iceberg",
-        region: "Kalos"
+        region: "Kalos",
+        height: "6'07\"",
+        weight: "1113.3 lbs."
     },
     {
         name: "Noibat",
@@ -7081,7 +7137,9 @@ let nationalDex = [
         number: "714",
         type: ["Flying", "Dragon"],
         category: "Sound Wave",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'08\"",
+        weight: "17.6 lbs."
     },
     {
         name: "Noivern",
@@ -7089,7 +7147,9 @@ let nationalDex = [
         number: "715",
         type: ["Flying", "Dragon"],
         category: "Sound Wave",
-        region: "Kalos"
+        region: "Kalos",
+        height: "4'11\"",
+        weight: "187.4 lbs."
     },
     {
         name: "Xerneas",
@@ -7097,7 +7157,9 @@ let nationalDex = [
         number: "716",
         type: ["Fairy"],
         category: "Life",
-        region: "Kalos"
+        region: "Kalos",
+        height: "9'10\"",
+        weight: "474.0 lbs."
     },
     {
         name: "Yveltal",
@@ -7105,7 +7167,9 @@ let nationalDex = [
         number: "717",
         type: ["Dark", "Flying"],
         category: "Destruction",
-        region: "Kalos"
+        region: "Kalos",
+        height: "19'00\"",
+        weight: "447.5 lbs."
     },
     {
         name: "Zygarde",
@@ -7113,7 +7177,9 @@ let nationalDex = [
         number: "718",
         type: ["Dragon", "Ground"],
         category: "Order",
-        region: "Kalos"
+        region: "Kalos",
+        height: "16'05\"",
+        weight: "672.4 lbs."
     },
     {
         name: "Diancie",
@@ -7121,7 +7187,9 @@ let nationalDex = [
         number: "719",
         type: ["Rock", "Fairy"],
         category: "Jewel",
-        region: "Kalos"
+        region: "Kalos",
+        height: "2'04\"",
+        weight: "19.4 lbs."
     },
     {
         name: "Hoopa",
@@ -7129,7 +7197,9 @@ let nationalDex = [
         number: "720",
         type: ["Psychic", "Ghost"],
         category: "Mischief",
-        region: "Kalos"
+        region: "Kalos",
+        height: "1'08\"",
+        weight: "19.8 lbs."
     },
     {
         name: "Volcanion",
@@ -7137,7 +7207,9 @@ let nationalDex = [
         number: "721",
         type: ["Fire", "Water"],
         category: "Steam",
-        region: "Kalos"
+        region: "Kalos",
+        height: "5'07\"",
+        weight: "429.9 lbs."
     },
     {
         name: "Rowlet",
