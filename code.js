@@ -8557,7 +8557,9 @@ let nationalDex = [
         number: "856",
         type: ["Psychic"],
         category: "Calm",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "7.5 lbs."
     },
     {
         name: "Hattrem",
@@ -8565,7 +8567,9 @@ let nationalDex = [
         number: "857",
         type: ["Psychic"],
         category: "Serene",
-        region: "Galar"
+        region: "Galar",
+        height: "2'00\"",
+        weight: "10.6 lbs."
     },
     {
         name: "Hatterene",
@@ -8573,7 +8577,9 @@ let nationalDex = [
         number: "858",
         type: ["Psychic", "Fairy"],
         category: "Silent",
-        region: "Galar"
+        region: "Galar",
+        height: "6'11\"",
+        weight: "11.2 lbs."
     },
     {
         name: "Impidimp",
@@ -8581,7 +8587,9 @@ let nationalDex = [
         number: "859",
         type: ["Dark", "Fairy"],
         category: "Wily",
-        region: "Galar"
+        region: "Galar",
+        height: "1'04\"",
+        weight: "12.1 lbs."
     },
     {
         name: "Morgrem",
@@ -8589,7 +8597,9 @@ let nationalDex = [
         number: "860",
         type: ["Dark", "Fairy"],
         category: "Devious",
-        region: "Galar"
+        region: "Galar",
+        height: "2'07\"",
+        weight: "27.6 lbs."
     },
     {
         name: "Grimmsnarl",
@@ -8597,7 +8607,9 @@ let nationalDex = [
         number: "861",
         type: ["Dark", "Fairy"],
         category: "Bulk Up",
-        region: "Galar"
+        region: "Galar",
+        height: "4'11\"",
+        weight: "134.5 lbs."
     },
     {
         name: "Obstagoon",
@@ -8605,7 +8617,9 @@ let nationalDex = [
         number: "862",
         type: ["Dark", "Normal"],
         category: "Blocking",
-        region: "Galar"
+        region: "Galar",
+        height: "5'03\"",
+        weight: "101.4 lbs."
     },
     {
         name: "Perrserker",
@@ -8613,7 +8627,9 @@ let nationalDex = [
         number: "863",
         type: ["Steel"],
         category: "Viking",
-        region: "Galar"
+        region: "Galar",
+        height: "2'07\"",
+        weight: "61.7 lbs."
     },
     {
         name: "Cursola",
@@ -8621,7 +8637,9 @@ let nationalDex = [
         number: "864",
         type: ["Ghost"],
         category: "Coral",
-        region: "Galar"
+        region: "Galar",
+        height: "3'03\"",
+        weight: "0.9 lbs."
     },
     {
         name: "Sirfetch'd",
@@ -8629,7 +8647,9 @@ let nationalDex = [
         number: "865",
         type: ["Fighting"],
         category: "Wild Duck",
-        region: "Galar"
+        region: "Galar",
+        height: "2'07\"",
+        weight: "257.9 lbs."
     },
     {
         name: "Mr. Rime",
@@ -8637,7 +8657,9 @@ let nationalDex = [
         number: "866",
         type: ["Ice, Psychic"],
         category: "Comedian",
-        region: "Galar"
+        region: "Galar",
+        height: "4'11\"",
+        weight: "128.3 lbs."
     },
     {
         name: "Runerigus",
@@ -8645,7 +8667,9 @@ let nationalDex = [
         number: "867",
         type: ["Ground", "Ghost"],
         category: "Grudge",
-        region: "Galar"
+        region: "Galar",
+        height: "5'03\"",
+        weight: "146.8 lbs."
     },
     {
         name: "Milcery",
@@ -8653,7 +8677,9 @@ let nationalDex = [
         number: "868",
         type: ["Fairy"],
         category: "Cream",
-        region: "Galar"
+        region: "Galar",
+        height: "0'08\"",
+        weight: "0.7 lbs."
     },
     {
         name: "Alcremie",
@@ -8661,7 +8687,9 @@ let nationalDex = [
         number: "869",
         type: ["Fairy"],
         category: "Cream",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
     },
     {
         name: "Falinks",
@@ -8669,7 +8697,9 @@ let nationalDex = [
         number: "870",
         type: ["Fighting"],
         category: "Formation",
-        region: "Galar"
+        region: "Galar",
+        height: "9'10\"",
+        weight: "136.7 lbs."
     },
     {
         name: "Pincurchin",
@@ -8677,7 +8707,9 @@ let nationalDex = [
         number: "871",
         type: ["Electric"],
         category: "Sea Urchin",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "2.2 lbs."
     },
     {
         name: "Snom",
@@ -8685,7 +8717,9 @@ let nationalDex = [
         number: "872",
         type: ["Ice", "Bug"],
         category: "Worm",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "8.4 lbs."
     },
     {
         name: "Frosmoth",
@@ -8693,7 +8727,9 @@ let nationalDex = [
         number: "873",
         type: ["Ice", "Bug"],
         category: "Frost Moth",
-        region: "Galar"
+        region: "Galar",
+        height: "4'03\"",
+        weight: "92.6 lbs."
     },
     {
         name: "Stonjourner",
@@ -8701,7 +8737,9 @@ let nationalDex = [
         number: "874",
         type: ["Rock"],
         category: "Big Rock",
-        region: "Galar"
+        region: "Galar",
+        height: "8'02\"",
+        weight: "1146.4 lbs."
     },
     {
         name: "Eiscue",
@@ -8709,7 +8747,9 @@ let nationalDex = [
         number: "875",
         type: ["Ice"],
         category: "Penguin",
-        region: "Galar"
+        region: "Galar",
+        height: "4'07\"",
+        weight: "196.2 lbs."
     },
     {
         name: "Indeedee",
@@ -8717,7 +8757,9 @@ let nationalDex = [
         number: "876",
         type: ["Psychic", "Normal"],
         category: "Emotion",
-        region: "Galar"
+        region: "Galar",
+        height: "2'11\"",
+        weight: "61.7 lbs."
     },
     {
         name: "Morpeko",
@@ -8725,7 +8767,9 @@ let nationalDex = [
         number: "877",
         type: ["Electric", "Dark"],
         category: "Two-Sided",
-        region: "Galar"
+        region: "Galar",
+        height: "1'00\"",
+        weight: "6.6 lbs."
     },
     {
         name: "Cufant",
@@ -8733,7 +8777,9 @@ let nationalDex = [
         number: "878",
         type: ["Steel"],
         category: "Copperderm",
-        region: "Galar"
+        region: "Galar",
+        height: "3'11\"",
+        weight: "220.5 lbs."
     },
     {
         name: "Copperajah",
@@ -8741,7 +8787,9 @@ let nationalDex = [
         number: "879",
         type: ["Steel"],
         category: "Copperderm",
-        region: "Galar"
+        region: "Galar",
+        height: "9'10\"",
+        weight: "1433.0 lbs."
     },
     {
         name: "Dracozolt",
@@ -8749,7 +8797,9 @@ let nationalDex = [
         number: "880",
         type: ["Electric", "Dragon"],
         category: "Fossil",
-        region: "Galar"
+        region: "Galar",
+        height: "5'11\"",
+        weight: "418.9 lbs."
     },
     {
         name: "Arctozolt",
@@ -8757,7 +8807,9 @@ let nationalDex = [
         number: "881",
         type: ["Electric", "Ice"],
         category: "Fossil",
-        region: "Galar"
+        region: "Galar",
+        height: "7'07\"",
+        weight: "330.7 lbs."
     },
     {
         name: "Dracovish",
@@ -8765,7 +8817,9 @@ let nationalDex = [
         number: "882",
         type: ["Water", "Dragon"],
         category: "Fossil",
-        region: "Galar"
+        region: "Galar",
+        height: "7'07\"",
+        weight: "474.0 lbs."
     },
     {
         name: "Arctovish",
@@ -8773,7 +8827,9 @@ let nationalDex = [
         number: "883",
         type: ["Water", "Ice"],
         category: "Fossil",
-        region: "Galar"
+        region: "Galar",
+        height: "6'07\"",
+        weight: "385.8 lbs."
     },
     {
         name: "Duraludon",
@@ -8781,7 +8837,9 @@ let nationalDex = [
         number: "884",
         type: ["Steel", "Dragon"],
         category: "Alloy",
-        region: "Galar"
+        region: "Galar",
+        height: "5'11\"",
+        weight: "88.2 lbs."
     },
     {
         name: "Dreepy",
@@ -8789,7 +8847,9 @@ let nationalDex = [
         number: "885",
         type: ["Dragon", "Ghost"],
         category: "Lingering",
-        region: "Galar"
+        region: "Galar",
+        height: "1'08\"",
+        weight: "4.4 lbs."
     },
     {
         name: "Drakloak",
@@ -8797,7 +8857,9 @@ let nationalDex = [
         number: "886",
         type: ["Dragon", "Ghost"],
         category: "Caretaker",
-        region: "Galar"
+        region: "Galar",
+        height: "4'07\"",
+        weight: "24.3 lbs."
     },
     {
         name: "Dragapult",
@@ -8805,7 +8867,9 @@ let nationalDex = [
         number: "887",
         type: ["Dragon", "Ghost"],
         category: "Stealth",
-        region: "Galar"
+        region: "Galar",
+        height: "9'10\"",
+        weight: "110.2 lbs."
     },
     {
         name: "Zacian",
@@ -8813,7 +8877,9 @@ let nationalDex = [
         number: "888",
         type: ["Fairy", "Steel"],
         category: "Warrior",
-        region: "Galar"
+        region: "Galar",
+        height: "9'02\"",
+        weight: "782.6 lbs."
     },
     {
         name: "Zamazenta",
@@ -8821,7 +8887,9 @@ let nationalDex = [
         number: "889",
         type: ["Fighting", "Steel"],
         category: "Warrior",
-        region: "Galar"
+        region: "Galar",
+        height: "9'06\"",
+        weight: "1730.6 lbs."
     },
     {
         name: "Eternatus",
@@ -8829,7 +8897,9 @@ let nationalDex = [
         number: "890",
         type: ["Poison", "Dragon"],
         category: "Gigantic",
-        region: "Galar"
+        region: "Galar",
+        height: "65'07\"",
+        weight: "2094.4 lbs."
     },
     {
         name: "Kubfu",
@@ -8837,7 +8907,9 @@ let nationalDex = [
         number: "891",
         type: ["Fighting"],
         category: "Wushu",
-        region: "Galar"
+        region: "Galar",
+        height: "2'00\"",
+        weight: "26.5 lbs."
     },
     {
         name: "Urshifu",
@@ -8845,7 +8917,9 @@ let nationalDex = [
         number: "892",
         type: ["Fighting", "Dark"],
         category: "Wushu",
-        region: "Galar"
+        region: "Galar",
+        height: "6'03\"",
+        weight: "231.5 lbs."
     },
     {
         name: "Zarude",
@@ -8853,7 +8927,9 @@ let nationalDex = [
         number: "893",
         type: ["Dark", "Grass"],
         category: "Rogue Monkey",
-        region: "Galar"
+        region: "Galar",
+        height: "5'11\"",
+        weight: "154.3 lbs."
     },
     {
         name: "Regieleki",
@@ -8861,7 +8937,9 @@ let nationalDex = [
         number: "894",
         type: ["Electric"],
         category: "Electron",
-        region: "Galar"
+        region: "Galar",
+        height: "3'11\"",
+        weight: "319.7 lbs."
     },
     {
         name: "Regidrago",
@@ -8869,7 +8947,9 @@ let nationalDex = [
         number: "895",
         type: ["Dragon"],
         category: "Dragon Orb",
-        region: "Galar"
+        region: "Galar",
+        height: "6'11\"",
+        weight: "440.9 lbs."
     },
     {
         name: "Glastrier",
@@ -8877,7 +8957,9 @@ let nationalDex = [
         number: "896",
         type: ["Ice"],
         category: "Wild Horse",
-        region: "Galar"
+        region: "Galar",
+        height: "7'03\"",
+        weight: "1763.7 lbs."
     },
     {
         name: "Spectrier",
@@ -8885,7 +8967,9 @@ let nationalDex = [
         number: "897",
         type: ["Ghost"],
         category: "Swift Horse",
-        region: "Galar"
+        region: "Galar",
+        height: "6'07\"",
+        weight: "98.1 lbs."
     },
     {
         name: "Calyrex",
@@ -8893,7 +8977,9 @@ let nationalDex = [
         number: "898",
         type: ["Psychic", "Grass"],
         category: "King",
-        region: "Galar"
+        region: "Galar",
+        height: "3'07\"",
+        weight: "17.0 lbs."
     }
 ]
 
