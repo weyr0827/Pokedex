@@ -7747,7 +7747,9 @@ let nationalDex = [
         number: "775",
         type: ["Normal"],
         category: "Drowsing",
-        region: "Alola"
+        region: "Alola",
+        height: "1'04\"",
+        weight: "43.9 lbs."
     },
     {
         name: "Turtonator",
@@ -7755,7 +7757,9 @@ let nationalDex = [
         number: "776",
         type: ["Fire", "Dragon"],
         category: "Blast Turtle",
-        region: "Alola"
+        region: "Alola",
+        height: "6'07\"",
+        weight: "467.4 lbs."
     },
     {
         name: "Togedemaru",
@@ -7763,7 +7767,9 @@ let nationalDex = [
         number: "777",
         type: ["Electric", "Steel"],
         category: "Roly-Poly",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "7.3 lbs."
     },
     {
         name: "Mimikyu",
@@ -7771,7 +7777,9 @@ let nationalDex = [
         number: "778",
         type: ["Ghost", "Fairy"],
         category: "Disguise",
-        region: "Alola"
+        region: "Alola",
+        height: "0'08\"",
+        weight: "1.5 lbs."
     },
     {
         name: "Bruxish",
@@ -7779,7 +7787,9 @@ let nationalDex = [
         number: "779",
         type: ["Water", "Psychic"],
         category: "Gnash Teeth",
-        region: "Alola"
+        region: "Alola",
+        height: "2'11\"",
+        weight: "41.9 lbs."
     },
     {
         name: "Drampa",
@@ -7787,7 +7797,9 @@ let nationalDex = [
         number: "780",
         type: ["Normal", "Dragon"],
         category: "Placid",
-        region: "Alola"
+        region: "Alola",
+        height: "9'10\"",
+        weight: "407.9 lbs."
     },
     {
         name: "Dhelmise",
@@ -7795,7 +7807,9 @@ let nationalDex = [
         number: "781",
         type: ["Ghost", "Grass"],
         category: "Sea Creeper",
-        region: "Alola"
+        region: "Alola",
+        height: "12'10\"",
+        weight: "463.0 lbs."
     },
     {
         name: "Jangmo-o",
@@ -7803,7 +7817,9 @@ let nationalDex = [
         number: "782",
         type: ["Dragon"],
         category: "Scaly",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "65.5 lbs."
     },
     {
         name: "Hakamo-o",
@@ -7811,7 +7827,9 @@ let nationalDex = [
         number: "783",
         type: ["Dragon", "Fighting"],
         category: "Scaly",
-        region: "Alola"
+        region: "Alola",
+        height: "3'11\"",
+        weight: "103.6 lbs."
     },
     {
         name: "Kommo-o",
@@ -7819,7 +7837,9 @@ let nationalDex = [
         number: "784",
         type: ["Dragon", "Fighting"],
         category: "Scaly",
-        region: "Alola"
+        region: "Alola",
+        height: "5'03\"",
+        weight: "172.4 lbs."
     },
     {
         name: "Tapu Koko",
@@ -7827,7 +7847,9 @@ let nationalDex = [
         number: "785",
         type: ["Electric", "Fairy"],
         category: "Land Spirit",
-        region: "Alola"
+        region: "Alola",
+        height: "5'11\"",
+        weight: "45.2 lbs."
     },
     {
         name: "Tapu Lele",
@@ -7835,7 +7857,9 @@ let nationalDex = [
         number: "786",
         type: ["Psychic", "Fairy"],
         category: "Land Spirit",
-        region: "Alola"
+        region: "Alola",
+        height: "3'11\"",
+        weight: "41.0 lbs."
     },
     {
         name: "Tapu Bulu",
@@ -7843,7 +7867,9 @@ let nationalDex = [
         number: "787",
         type: ["Grass", "Fairy"],
         category: "Land Spirit",
-        region: "Alola"
+        region: "Alola",
+        height: "6'03\"",
+        weight: "100.3 lbs."
     },
     {
         name: "Tapu Fini",
@@ -7851,7 +7877,9 @@ let nationalDex = [
         number: "788",
         type: ["Water", "Fairy"],
         category: "Land Spirit",
-        region: "Alola"
+        region: "Alola",
+        height: "4'03\"",
+        weight: "46.7 lbs."
     },
     {
         name: "Cosmog",
@@ -7859,7 +7887,9 @@ let nationalDex = [
         number: "789",
         type: ["Psychic"],
         category: "Nebula",
-        region: "Alola"
+        region: "Alola",
+        height: "0'08\"",
+        weight: "0.2 lbs."
     },
     {
         name: "Cosmoem",
@@ -7867,7 +7897,9 @@ let nationalDex = [
         number: "790",
         type: ["Psychic"],
         category: "Protostar",
-        region: "Alola"
+        region: "Alola",
+        height: "0'04\"",
+        weight: "2204.4 lbs."
     },
     {
         name: "Solgaleo",
@@ -7875,7 +7907,9 @@ let nationalDex = [
         number: "791",
         type: ["Psychic", "Steel"],
         category: "Sunne",
-        region: "Alola"
+        region: "Alola",
+        height: "11'02\"",
+        weight: "507.1 lbs."
     },
     {
         name: "Lunala",
@@ -7883,7 +7917,9 @@ let nationalDex = [
         number: "792",
         type: ["Psychic", "Ghost"],
         category: "Moone",
-        region: "Alola"
+        region: "Alola",
+        height: "13'01\"",
+        weight: "264.6 lbs."
     },
     {
         name: "Nihilego",
@@ -7891,7 +7927,9 @@ let nationalDex = [
         number: "793",
         type: ["Rock", "Poison"],
         category: "Parasite",
-        region: "Alola"
+        region: "Alola",
+        height: "3'11\"",
+        weight: "122.4 lbs."
     },
     {
         name: "Buzzwole",
@@ -7899,7 +7937,9 @@ let nationalDex = [
         number: "794",
         type: ["Bug", "Fighting"],
         category: "Swollen",
-        region: "Alola"
+        region: "Alola",
+        height: "7'10\"",
+        weight: "735.5 lbs."
     },
     {
         name: "Pheromosa",
@@ -7907,7 +7947,9 @@ let nationalDex = [
         number: "795",
         type: ["Bug", "Fighting"],
         category: "Lissome",
-        region: "Alola"
+        region: "Alola",
+        height: "5'11\"",
+        weight: "55.1 lbs."
     },
     {
         name: "Xurkitree",
@@ -7915,7 +7957,9 @@ let nationalDex = [
         number: "796",
         type: ["Electric"],
         category: "Glowing",
-        region: "Alola"
+        region: "Alola",
+        height: "12'06\"",
+        weight: "220.5 lbs."
     },
     {
         name: "Celesteela",
@@ -7923,7 +7967,9 @@ let nationalDex = [
         number: "797",
         type: ["Steel", "Flying"],
         category: "Launch",
-        region: "Alola"
+        region: "Alola",
+        height: "30'02\"",
+        weight: "2204.4 lbs."
     },
     {
         name: "Kartana",
@@ -7931,7 +7977,9 @@ let nationalDex = [
         number: "798",
         type: ["Grass", "Steel"],
         category: "Drawn Sword",
-        region: "Alola"
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.2 lbs."
     },
     {
         name: "Guzzlord",
@@ -7939,7 +7987,9 @@ let nationalDex = [
         number: "799",
         type: ["Dark", "Dragon"],
         category: "Junkivore",
-        region: "Alola"
+        region: "Alola",
+        height: "18'01\"",
+        weight: "1957.7 lbs."
     },
     {
         name: "Necrozma",
@@ -7947,7 +7997,9 @@ let nationalDex = [
         number: "800",
         type: ["Psychic"],
         category: "Prism",
-        region: "Alola"
+        region: "Alola",
+        height: "7'10\"",
+        weight: "507.1 lbs."
     },
     {
         name: "Magearna",
@@ -7955,7 +8007,9 @@ let nationalDex = [
         number: "801",
         type: ["Steel", "Fairy"],
         category: "Artificial",
-        region: "Alola"
+        region: "Alola",
+        height: "3'03\"",
+        weight: "177.5 lbs."
     },
     {
         name: "Marshadow",
@@ -7963,7 +8017,9 @@ let nationalDex = [
         number: "802",
         type: ["Fighting", "Ghost"],
         category: "Gloomdweller",
-        region: "Alola"
+        region: "Alola",
+        height: "2'04\"",
+        weight: "48.9 lbs."
     },
     {
         name: "Poipole",
@@ -7971,7 +8027,9 @@ let nationalDex = [
         number: "803",
         type: ["Poison"],
         category: "Poison Pin",
-        region: "Alola"
+        region: "Alola",
+        height: "2'00\"",
+        weight: "4.0 lbs."
     },
     {
         name: "Naganadel",
@@ -7979,7 +8037,9 @@ let nationalDex = [
         number: "804",
         type: ["Poison", "Dragon"],
         category: "Poison Pin",
-        region: "Alola"
+        region: "Alola",
+        height: "11'10\"",
+        weight: "330.7 lbs."
     },
     {
         name: "Stakataka",
@@ -7987,7 +8047,9 @@ let nationalDex = [
         number: "805",
         type: ["Rock", "Steel"],
         category: "Rampart",
-        region: "Alola"
+        region: "Alola",
+        height: "18'01\"",
+        weight: "1807.8 lbs."
     },
     {
         name: "Blacephalon",
@@ -7995,7 +8057,9 @@ let nationalDex = [
         number: "806",
         type: ["Fire", "Ghost"],
         category: "Fireworks",
-        region: "Alola"
+        region: "Alola",
+        height: "5'11\"",
+        weight: "28.7 lbs."
     },
     {
         name: "Zeraora",
@@ -8003,7 +8067,9 @@ let nationalDex = [
         number: "807",
         type: ["Electric"],
         category: "Thunderclap",
-        region: "Alola"
+        region: "Alola",
+        height: "4'11\"",
+        weight: "98.1 lbs."
     },
     {
         name: "Meltan",
@@ -8011,7 +8077,9 @@ let nationalDex = [
         number: "808",
         type: ["Steel"],
         category: "Hex Nut",
-        region: "Alola"
+        region: "Alola",
+        height: "0'08\"",
+        weight: "17.6 lbs."
     },
     {
         name: "Melmetal",
@@ -8019,7 +8087,9 @@ let nationalDex = [
         number: "809",
         type: ["Steel"],
         category: "Hex Nut",
-        region: "Alola"
+        region: "Alola",
+        height: "8'02\"",
+        weight: "1763.7 lbs."
     },
     {
         name: "Grookey",
