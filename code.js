@@ -9933,6 +9933,47 @@ favoritePokemon.addEventListener("click", favorite)
 }
 dexRender(nationalDex)
 
+
+let sortAbc = document.getElementById("sortAlpha")
+sortAbc.addEventListener("click", sortAlphabet)
+function sortAlphabet(event){
+    event.preventDefault()
+
+let sortedName = nationalDex.sort((a, b) => {
+    let pma = a.name.toLowerCase(),
+        pmb = b.name.toLowerCase();
+
+    if (pma < pmb) {
+        return -1;
+    }
+    if (pma > pmb) {
+        return 1;
+    }
+    return 0;
+});
+nationalDex.forEach((pocketMonster) => {
+    console.log(`${pocketMonster.name}`);
+    
+});
+dexRender(sortedName)
+}
+
+let sort123 = document.getElementById("sortNum")
+sort123.addEventListener("click", sortNumber)
+function sortNumber(event){
+    event.preventDefault()
+
+let sortedNumber = nationalDex.sort((a, b) => {
+    return a.number - b.number;
+});
+nationalDex.forEach((pocketMonster) => {
+    console.log(`${pocketMonster.number}`);
+    
+});
+dexRender(sortedNumber)
+}
+
+
 let search = document.getElementById("searchButton")
 search.addEventListener("click", searchFilter)
 function searchFilter(event){
@@ -10018,7 +10059,11 @@ function coloring(){
     }
 }  
 
+
+
+
 dexRender(filterPokemon)
 coloring()
 }
+
 
