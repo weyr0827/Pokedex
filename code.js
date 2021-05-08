@@ -10,7 +10,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'04\"",
         weight: "15.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 6.9
     },
     {
         name: "Ivysaur",
@@ -21,7 +23,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "28.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 13.0
     },
     {
         name: "Venusaur",
@@ -32,7 +36,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'07\"",
         weight: "220.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 100.0
     },
     {
         name: "Charmander",
@@ -43,7 +49,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.5
     },
     {
         name: "Charmeleon",
@@ -54,7 +62,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "41.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 19.0
     },
     {
         name: "Charizard",
@@ -65,7 +75,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'07\"",
         weight: "199.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 90.5
     },
     {
         name: "Squirtle",
@@ -76,7 +88,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'08\"",
         weight: "19.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.0
     },
     {
         name: "Wartortle",
@@ -87,7 +101,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "49.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 22.5
     },
     {
         name: "Blastoise",
@@ -98,7 +114,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "188.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 85.5
     },
     {
         name: "Caterpie",
@@ -109,7 +127,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "6.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.9
     },
     {
         name: "Metapod",
@@ -120,7 +140,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'04\"",
         weight: "21.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 9.9
     },
     {
         name: "Butterfree",
@@ -131,7 +153,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "70.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 32.0
     },
     {
         name: "Weedle",
@@ -142,7 +166,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "7.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.2
     },
     {
         name: "Kakuna",
@@ -153,7 +179,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "22.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 10.0
     },
     {
         name: "Beedrill",
@@ -164,7 +192,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "65.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 29.5
     },
     {
         name: "Pidgey",
@@ -175,7 +205,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "4.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.8
     },
     {
         name: "Pidgeotto",
@@ -186,7 +218,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 30.0
     },
     {
         name: "Pidgeot",
@@ -197,7 +231,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "87.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 39.5
     },
     {
         name: "Rattata",
@@ -208,7 +244,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "7.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.5
     },
     {
         name: "Raticate",
@@ -219,7 +257,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'04\"",
         weight: "40.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 18.5
     },
     {
         name: "Spearow",
@@ -230,7 +270,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.0
     },
     {
         name: "Fearow",
@@ -241,7 +283,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "83.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 38.0
     },
     {
         name: "Ekans",
@@ -252,7 +296,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'07\"",
         weight: "15.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 6.9
     },
     {
         name: "Arbok",
@@ -263,7 +309,9 @@ let nationalDex = [
         region: "Kanto",
         height: "11'06\"",
         weight: "143.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.5,
+        metricWeight: 65.0
     },
     {
         name: "Pikachu",
@@ -274,7 +322,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 6.0
     },
     {
         name: "Raichu",
@@ -285,7 +335,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 30.0
     },
     {
         name: "Sandshrew",
@@ -296,7 +348,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 12.0
     },
     {
         name: "Sandslash",
@@ -307,7 +361,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "65.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 29.5
     },
     {
         name: "Nidoran♀",
@@ -318,7 +374,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "15.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 7.0
     },
     {
         name: "Nidorina",
@@ -329,7 +387,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "44.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 20.0
     },
     {
         name: "Nidoqueen",
@@ -340,7 +400,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "132.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 60.0
     },
     {
         name: "Nidoran♂",
@@ -351,7 +413,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'08\"",
         weight: "19.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.0
     },
     {
         name: "Nidorino",
@@ -362,7 +426,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'11\"",
         weight: "43.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 19.5
     },
     {
         name: "Nidoking",
@@ -373,7 +439,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'07\"",
         weight: "136.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 62.0
     },
     {
         name: "Clefairy",
@@ -384,7 +452,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "16.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 7.5
     },
     {
         name: "Clefable",
@@ -395,7 +465,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "88.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 40.0
     },
     {
         name: "Vulpix",
@@ -406,7 +478,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "21.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 9.9
     },
     {
         name: "Ninetales",
@@ -417,7 +491,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "43.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 19.9
     },
     {
         name: "Jigglypuff",
@@ -428,7 +504,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'08\"",
         weight: "12.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.5
     },
     {
         name: "Wigglytuff",
@@ -439,7 +517,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 12.0
     },
     {
         name: "Zubat",
@@ -450,7 +530,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "16.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 7.5
     },
     {
         name: "Golbat",
@@ -461,7 +543,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "121.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 55.0
     },
     {
         name: "Oddish",
@@ -472,7 +556,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'08\"",
         weight: "11.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.4
     },
     {
         name: "Gloom",
@@ -483,7 +569,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "19.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 8.6
     },
     {
         name: "Vileplume",
@@ -494,7 +582,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "41.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 18.6
     },
     {
         name: "Paras",
@@ -505,7 +595,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "11.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 5.4
     },
     {
         name: "Parasect",
@@ -516,7 +608,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "65.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 29.5
     },
     {
         name: "Venonat",
@@ -527,7 +621,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 30.0
     },
     {
         name: "Venomoth",
@@ -538,7 +634,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "27.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 12.5
     },
     {
         name: "Diglett",
@@ -549,7 +647,9 @@ let nationalDex = [
         region: "Kanto",
         height: "0'08\"",
         weight: "1.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.8
     },
     {
         name: "Dugtrio",
@@ -560,7 +660,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'04\"",
         weight: "73.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 33.3
     },
     {
         name: "Meowth",
@@ -571,7 +673,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "9.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.2
     },
     {
         name: "Persian",
@@ -582,7 +686,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "70.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 32.0
     },
     {
         name: "Psyduck",
@@ -593,7 +699,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "43.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 19.6
     },
     {
         name: "Golduck",
@@ -604,7 +712,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'07\"",
         weight: "168.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 76.6
     },
     {
         name: "Mankey",
@@ -615,7 +725,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'08\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 28.0
     },
     {
         name: "Primeape",
@@ -626,7 +738,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "70.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 32.0
     },
     {
         name: "Growlithe",
@@ -637,7 +751,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'04\"",
         weight: "41.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 19.0
     },
     {
         name: "Arcanine",
@@ -648,7 +764,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'03\"",
         weight: "341.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 155.0
     },
     {
         name: "Poliwag",
@@ -659,7 +777,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "27.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 12.4
     },
     {
         name: "Poliwhirl",
@@ -670,7 +790,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "44.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 20.0
     },
     {
         name: "Poliwrath",
@@ -681,7 +803,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "119.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 54.0
     },
     {
         name: "Abra",
@@ -692,7 +816,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'11\"",
         weight: "43.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 19.5
     },
     {
         name: "Kadabra",
@@ -703,7 +829,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "124.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 56.5
     },
     {
         name: "Alakazam",
@@ -714,7 +842,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "105.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 48.0
     },
     {
         name: "Machop",
@@ -725,7 +855,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "43.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 19.5
     },
     {
         name: "Machoke",
@@ -736,7 +868,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "155.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 70.5
     },
     {
         name: "Machamp",
@@ -747,7 +881,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "286.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 130.0
     },
     {
         name: "Bellsprout",
@@ -758,7 +894,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'04\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 4.0
     },
     {
         name: "Weepinbell",
@@ -769,7 +907,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "14.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 6.4
     },
     {
         name: "Victreebel",
@@ -780,7 +920,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'07\"",
         weight: "34.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 15.5
     },
     {
         name: "Tentacool",
@@ -791,7 +933,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'11\"",
         weight: "100.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 45.5
     },
     {
         name: "Tentacruel",
@@ -802,7 +946,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "121.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 55.0
     },
     {
         name: "Geodude",
@@ -813,7 +959,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "44.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 20.0
     },
     {
         name: "Graveler",
@@ -824,7 +972,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "231.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 105.0
     },
     {
         name: "Golem",
@@ -835,7 +985,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'07\"",
         weight: "661.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 300.0
     },
     {
         name: "Ponyta",
@@ -846,7 +998,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 30.0
     },
     {
         name: "Rapidash",
@@ -857,7 +1011,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'07\"",
         weight: "209.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 95.0
     },
     {
         name: "Slowpoke",
@@ -868,7 +1024,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "79.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 36.0
     },
     {
         name: "Slowbro",
@@ -879,7 +1037,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "173.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 78.5
     },
     {
         name: "Magnemite",
@@ -890,7 +1050,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 6.0
     },
     {
         name: "Magneton",
@@ -901,7 +1063,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "132.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 60.0
     },
     {
         name: "Farfetch'd",
@@ -912,7 +1076,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 15.0
     },
     {
         name: "Doduo",
@@ -923,7 +1089,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'07\"",
         weight: "86.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 39.2
     },
     {
         name: "Dodrio",
@@ -934,7 +1102,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'11\"",
         weight: "187.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 85.2
     },
     {
         name: "Seel",
@@ -945,7 +1115,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "198.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 90.0
     },
     {
         name: "Dewgong",
@@ -956,7 +1128,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'07\"",
         weight: "264.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 120.0
     },
     {
         name: "Grimer",
@@ -967,7 +1141,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'11\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 30.0
     },
     {
         name: "Muk",
@@ -978,7 +1154,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 30.0
     },
     {
         name: "Shellder",
@@ -989,7 +1167,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 4.0
     },
     {
         name: "Cloyster",
@@ -1000,7 +1180,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "292.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 132.5
     },
     {
         name: "Gastly",
@@ -1011,7 +1193,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "0.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 0.1
     },
     {
         name: "Haunter",
@@ -1022,7 +1206,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "0.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 0.1
     },
     {
         name: "Gengar",
@@ -1033,7 +1219,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "89.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 40.5
     },
     {
         name: "Onix",
@@ -1044,7 +1232,9 @@ let nationalDex = [
         region: "Kanto",
         height: "28'10\"",
         weight: "463.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 8.8,
+        metricWeight: 210.0
     },
     {
         name: "Drowzee",
@@ -1055,7 +1245,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "71.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 32.4
     },
     {
         name: "Hypno",
@@ -1066,7 +1258,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "71.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 75.6
     },
     {
         name: "Krabby",
@@ -1077,7 +1271,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "14.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 6.5
     },
     {
         name: "Kingler",
@@ -1088,7 +1284,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "132.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 60.0
     },
     {
         name: "Voltorb",
@@ -1099,7 +1297,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'08\"",
         weight: "22.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 10.4
     },
     {
         name: "Electrode",
@@ -1110,7 +1310,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "146.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 66.6
     },
     {
         name: "Exeggcute",
@@ -1121,7 +1323,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "5.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 2.5
     },
     {
         name: "Exeggutor",
@@ -1132,7 +1336,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'07\"",
         weight: "264.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 120.0
     },
     {
         name: "Cubone",
@@ -1143,7 +1349,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "14.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 6.5
     },
     {
         name: "Marowak",
@@ -1154,7 +1362,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "99.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 45.0
     },
     {
         name: "Hitmonlee",
@@ -1165,7 +1375,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "109.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 49.8
     },
     {
         name: "Hitmonchan",
@@ -1176,7 +1388,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'07\"",
         weight: "110.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 50.2
     },
     {
         name: "Lickitung",
@@ -1187,7 +1401,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "144.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 65.5
     },
     {
         name: "Koffing",
@@ -1198,7 +1414,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 2.2
     },
     {
         name: "Weezing",
@@ -1209,7 +1427,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "20.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 9.5
     },
     {
         name: "Rhyhorn",
@@ -1220,7 +1440,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "253.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 115.0
     },
     {
         name: "Rhydon",
@@ -1231,7 +1453,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'03\"",
         weight: "264.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 120.0
     },
     {
         name: "Chansey",
@@ -1242,7 +1466,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "76.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 34.6
     },
     {
         name: "Tangela",
@@ -1253,7 +1479,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "77.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 35.0
     },
     {
         name: "Kangaskhan",
@@ -1264,7 +1492,9 @@ let nationalDex = [
         region: "Kanto",
         height: "7'03\"",
         weight: "176.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 80.0
     },
     {
         name: "Horsea",
@@ -1275,7 +1505,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "17.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 8.0
     },
     {
         name: "Seadra",
@@ -1286,7 +1518,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "55.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 25.0
     },
     {
         name: "Goldeen",
@@ -1297,7 +1531,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'00\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 15.0
     },
     {
         name: "Seaking",
@@ -1308,7 +1544,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "86.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 39.0
     },
     {
         name: "Staryu",
@@ -1319,7 +1557,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "76.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 34.5
     },
     {
         name: "Starmie",
@@ -1330,7 +1570,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "176.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 80.0
     },
     {
         name: "Mr. Mime",
@@ -1341,7 +1583,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "120.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 54.5
     },
     {
         name: "Scyther",
@@ -1352,7 +1596,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "123.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 56.0
     },
     {
         name: "Jynx",
@@ -1363,7 +1609,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'07\"",
         weight: "89.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 40.6
     },
     {
         name: "Electabuzz",
@@ -1374,7 +1622,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'07\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 30.0
     },
     {
         name: "Magmar",
@@ -1385,7 +1635,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "98.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 44.5
     },
     {
         name: "Pinsir",
@@ -1396,7 +1648,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'11\"",
         weight: "121.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 55.0
     },
     {
         name: "Tauros",
@@ -1407,7 +1661,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'07\"",
         weight: "194.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 88.4
     },
     {
         name: "Magikarp",
@@ -1418,7 +1674,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'11\"",
         weight: "22.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 10.0
     },
     {
         name: "Gyarados",
@@ -1429,7 +1687,9 @@ let nationalDex = [
         region: "Kanto",
         height: "21'04\"",
         weight: "518.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 6.5,
+        metricWeight: 235.0
     },
     {
         name: "Lapras",
@@ -1440,7 +1700,9 @@ let nationalDex = [
         region: "Kanto",
         height: "8'02\"",
         weight: "485.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.5,
+        metricWeight: 220.0
     },
     {
         name: "Ditto",
@@ -1451,7 +1713,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 4.0
     },
     {
         name: "Eevee",
@@ -1462,7 +1726,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'00\"",
         weight: "14.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 6.5
     },
     {
         name: "Vaporeon",
@@ -1473,7 +1739,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "63.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 29.0
     },
     {
         name: "Jolteon",
@@ -1484,7 +1752,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "54.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 24.5
     },
     {
         name: "Flareon",
@@ -1495,7 +1765,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'11\"",
         weight: "55.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 25.0
     },
     {
         name: "Porygon",
@@ -1506,7 +1778,9 @@ let nationalDex = [
         region: "Kanto",
         height: "2'07\"",
         weight: "80.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 36.5
     },
     {
         name: "Omanyte",
@@ -1517,7 +1791,11 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "16.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 2.2,
+        metricHeight: 0.4,
+        metricWeight: 7.5
     },
     {
         name: "Omastar",
@@ -1528,7 +1806,9 @@ let nationalDex = [
         region: "Kanto",
         height: "3'03\"",
         weight: "77.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 35.0
     },
     {
         name: "Kabuto",
@@ -1539,7 +1819,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'08\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 11.5
     },
     {
         name: "Kabutops",
@@ -1550,7 +1832,9 @@ let nationalDex = [
         region: "Kanto",
         height: "4'03\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 40.5
     },
     {
         name: "Aerodactyl",
@@ -1561,7 +1845,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'11\"",
         weight: "130.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 59.0
     },
     {
         name: "Snorlax",
@@ -1572,7 +1858,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'11\"",
         weight: "1041.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 460.0
     },
     {
         name: "Articuno",
@@ -1583,7 +1871,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'07\"",
         weight: "122.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 55.4
     },
     {
         name: "Zapdos",
@@ -1594,7 +1884,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'03\"",
         weight: "116.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 52.6
     },
     {
         name: "Moltres",
@@ -1605,7 +1897,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'07\"",
         weight: "132.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 60.0
     },
     {
         name: "Dratini",
@@ -1616,7 +1910,9 @@ let nationalDex = [
         region: "Kanto",
         height: "5'11\"",
         weight: "7.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 3.3
     },
     {
         name: "Dragonair",
@@ -1627,7 +1923,9 @@ let nationalDex = [
         region: "Kanto",
         height: "13'01\"",
         weight: "36.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 4.0,
+        metricWeight: 16.5
     },
     {
         name: "Dragonite",
@@ -1638,7 +1936,9 @@ let nationalDex = [
         region: "Kanto",
         height: "7'03\"",
         weight: "463.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 210.0
     },
     {
         name: "Mewtwo",
@@ -1649,7 +1949,9 @@ let nationalDex = [
         region: "Kanto",
         height: "6'07\"",
         weight: "269.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 122.0
     },
     {
         name: "Mew",
@@ -1660,7 +1962,9 @@ let nationalDex = [
         region: "Kanto",
         height: "1'04\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.0
     },
     {
         name: "Chikorita",
@@ -1671,7 +1975,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'11\"",
         weight: "14.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 6.4
     },
     {
         name: "Bayleef",
@@ -1682,7 +1988,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "34.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 15.8
     },
     {
         name: "Meganium",
@@ -1693,7 +2001,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'11\"",
         weight: "221.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 100.5
     },
     {
         name: "Cyndaquil",
@@ -1704,7 +2014,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'08\"",
         weight: "17.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 7.9
     },
     {
         name: "Quilava",
@@ -1715,7 +2027,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'11\"",
         weight: "41.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 19.0
     },
     {
         name: "Typhlosion",
@@ -1726,7 +2040,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'07\"",
         weight: "175.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 79.5
     },
     {
         name: "Totodile",
@@ -1737,7 +2053,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "20.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 9.5
     },
     {
         name: "Croconaw",
@@ -1748,7 +2066,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'07\"",
         weight: "55.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 25.0
     },
     {
         name: "Feraligatr",
@@ -1759,7 +2079,9 @@ let nationalDex = [
         region: "Johto",
         height: "7'07\"",
         weight: "195.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.3,
+        metricWeight: 88.8
     },
     {
         name: "Sentret",
@@ -1770,7 +2092,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'07\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 6.0
     },
     {
         name: "Furret",
@@ -1781,7 +2105,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'11\"",
         weight: "71.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 32.5
     },
     {
         name: "Hoothoot",
@@ -1792,7 +2118,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'04\"",
         weight: "46.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 21.2
     },
     {
         name: "Noctowl",
@@ -1803,7 +2131,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'03\"",
         weight: "89.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 40.8
     },
     {
         name: "Ledyba",
@@ -1814,7 +2144,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'03\"",
         weight: "23.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 10.8
     },
     {
         name: "Ledian",
@@ -1825,7 +2157,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'07\"",
         weight: "78.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 35.6
     },
     {
         name: "Spinarak",
@@ -1836,7 +2170,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'08\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 8.5
     },
     {
         name: "Ariados",
@@ -1847,7 +2183,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'07\"",
         weight: "73.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 33.5
     },
     {
         name: "Crobat",
@@ -1858,7 +2196,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'11\"",
         weight: "165.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 75.0
     },
     {
         name: "Chinchou",
@@ -1869,7 +2209,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'08\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 12.0
     },
     {
         name: "Lanturn",
@@ -1880,7 +2222,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "49.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 22.5
     },
     {
         name: "Pichu",
@@ -1891,7 +2235,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'00\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.0
     },
     {
         name: "Cleffa",
@@ -1902,7 +2248,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'00\"",
         weight: "6.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.0
     },
     {
         name: "Igglybuff",
@@ -1913,7 +2261,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'00\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.0
     },
     {
         name: "Togepi",
@@ -1924,7 +2274,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'00\"",
         weight: "3.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.3
     },
     {
         name: "Togetic",
@@ -1935,7 +2287,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "7.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 3.2
     },
     {
         name: "Natu",
@@ -1946,7 +2300,9 @@ let nationalDex = [
         region: "Johto",
         height: "0'08\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 2.0
     },
     {
         name: "Xatu",
@@ -1957,7 +2313,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'11\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 15.0
     },
     {
         name: "Mareep",
@@ -1968,7 +2326,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "17.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 7.8
     },
     {
         name: "Flaaffy",
@@ -1979,7 +2339,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'07\"",
         weight: "29.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 13.3
     },
     {
         name: "Ampharos",
@@ -1990,7 +2352,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'07\"",
         weight: "135.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 61.5
     },
     {
         name: "Bellossom",
@@ -2001,7 +2365,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'04\"",
         weight: "12.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.8
     },
     {
         name: "Marill",
@@ -2012,7 +2378,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'04\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 8.5
     },
     {
         name: "Azumarill",
@@ -2023,7 +2391,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'07\"",
         weight: "62.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 28.5
     },
     {
         name: "Sudowoodo",
@@ -2034,7 +2404,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "83.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 38.0
     },
     {
         name: "Politoed",
@@ -2045,7 +2417,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'07\"",
         weight: "74.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 33.9
     },
     {
         name: "Hoppip",
@@ -2056,7 +2430,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'04\"",
         weight: "1.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 0.5
     },
     {
         name: "Skiploom",
@@ -2067,7 +2443,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 1.0
     },
     {
         name: "Jumpluff",
@@ -2078,7 +2456,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'07\"",
         weight: "6.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 3.0
     },
     {
         name: "Aipom",
@@ -2089,7 +2469,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'07\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 11.5
     },
     {
         name: "Sunkern",
@@ -2100,7 +2482,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'00\"",
         weight: "4.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.8
     },
     {
         name: "Sunflora",
@@ -2111,7 +2495,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'07\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 8.5
     },
     {
         name: "Yanma",
@@ -2122,7 +2508,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "83.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 38.0
     },
     {
         name: "Wooper",
@@ -2133,7 +2521,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'04\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 8.5
     },
     {
         name: "Quagsire",
@@ -2144,7 +2534,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'07\"",
         weight: "165.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 75.0
     },
     {
         name: "Espeon",
@@ -2155,7 +2547,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'11\"",
         weight: "58.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 26.5
     },
     {
         name: "Umbreon",
@@ -2166,7 +2560,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'03\"",
         weight: "59.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 27.0
     },
     {
         name: "Murkrow",
@@ -2177,7 +2573,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'08\"",
         weight: "4.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 2.1
     },
     {
         name: "Slowking",
@@ -2188,7 +2586,9 @@ let nationalDex = [
         region: "Johto",
         height: "6'07\"",
         weight: "175.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 79.5
     },
     {
         name: "Misdreavus",
@@ -2199,7 +2599,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'04\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 1.0
     },
     {
         name: "Unown",
@@ -2210,7 +2612,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'08\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.0
     },
     {
         name: "Wobbuffet",
@@ -2221,7 +2625,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'03\"",
         weight: "62.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 28.5
     },
     {
         name: "Girafarig",
@@ -2232,7 +2638,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'11\"",
         weight: "91.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 41.5
     },
     {
         name: "Pineco",
@@ -2243,7 +2651,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "15.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 7.2
     },
     {
         name: "Forretress",
@@ -2254,7 +2664,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "277.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 125.8
     },
     {
         name: "Dunsparce",
@@ -2265,7 +2677,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'11\"",
         weight: "30.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 14.0
     },
     {
         name: "Gligar",
@@ -2276,7 +2690,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'07\"",
         weight: "142.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 64.8
     },
     {
         name: "Steelix",
@@ -2287,7 +2703,9 @@ let nationalDex = [
         region: "Johto",
         height: "30'02\"",
         weight: "881.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 9.2,
+        metricWeight: 400.0
     },
     {
         name: "Snubbull",
@@ -2298,7 +2716,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "17.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 7.8
     },
     {
         name: "Granbull",
@@ -2309,7 +2729,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'07\"",
         weight: "107.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 48.7
     },
     {
         name: "Qwilfish",
@@ -2320,7 +2742,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'08\"",
         weight: "8.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 3.9
     },
     {
         name: "Scizor",
@@ -2331,7 +2755,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'11\"",
         weight: "260.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 118.0
     },
     {
         name: "Shuckle",
@@ -2342,7 +2768,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "45.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 20.5
     },
     {
         name: "Heracross",
@@ -2353,7 +2781,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'11\"",
         weight: "119.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 54.0
     },
     {
         name: "Sneasel",
@@ -2364,7 +2794,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'11\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 28.0
     },
     {
         name: "Teddiursa",
@@ -2375,7 +2807,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "19.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.8
     },
     {
         name: "Ursaring",
@@ -2386,7 +2820,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'11\"",
         weight: "277.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 125.8
     },
     {
         name: "Slugma",
@@ -2397,7 +2833,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'04\"",
         weight: "77.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 35.0
     },
     {
         name: "Magcargo",
@@ -2408,7 +2846,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'07\"",
         weight: "121.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 55.0
     },
     {
         name: "Swinub",
@@ -2419,7 +2859,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'04\"",
         weight: "14.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 6.5
     },
     {
         name: "Piloswine",
@@ -2430,7 +2872,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'07\"",
         weight: "123.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 55.8
     },
     {
         name: "Corsola",
@@ -2441,7 +2885,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 5.0
     },
     {
         name: "Remoraid",
@@ -2452,7 +2898,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 12.0
     },
     {
         name: "Octillery",
@@ -2463,7 +2911,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'11\"",
         weight: "62.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 28.5
     },
     {
         name: "Delibird",
@@ -2474,7 +2924,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'11\"",
         weight: "35.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 16.0
     },
     {
         name: "Mantine",
@@ -2485,7 +2937,9 @@ let nationalDex = [
         region: "Johto",
         height: "6'11\"",
         weight: "485.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 220.0
     },
     {
         name: "Skarmory",
@@ -2496,7 +2950,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'07\"",
         weight: "111.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 50.5
     },
     {
         name: "Houndour",
@@ -2507,7 +2963,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "23.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 10.8
     },
     {
         name: "Houndoom",
@@ -2518,7 +2976,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'07\"",
         weight: "77.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 35.0
     },
     {
         name: "Kingdra",
@@ -2529,7 +2989,9 @@ let nationalDex = [
         region: "Johto",
         height: "5'11\"",
         weight: "335.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 152.0
     },
     {
         name: "Phanpy",
@@ -2540,7 +3002,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'08\"",
         weight: "73.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 33.5
     },
     {
         name: "Donphan",
@@ -2551,7 +3015,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'07\"",
         weight: "264.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 120.0
     },
     {
         name: "Porygon2",
@@ -2562,7 +3028,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "71.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 32.5
     },
     {
         name: "Stantler",
@@ -2573,7 +3041,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'07\"",
         weight: "157.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 71.2
     },
     {
         name: "Smeargle",
@@ -2584,7 +3054,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "127.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 58.0
     },
     {
         name: "Tyrogue",
@@ -2595,7 +3067,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'04\"",
         weight: "46.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 21.0
     },
     {
         name: "Hitmontop",
@@ -2606,7 +3080,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'07\"",
         weight: "105.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 48.0
     },
     {
         name: "Smoochum",
@@ -2617,7 +3093,9 @@ let nationalDex = [
         region: "Johto",
         height: "1'04\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 6.0
     },
     {
         name: "Elekid",
@@ -2628,7 +3106,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "51.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 23.5
     },
     {
         name: "Magby",
@@ -2639,7 +3119,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'04\"",
         weight: "47.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 21.4
     },
     {
         name: "Miltank",
@@ -2650,7 +3132,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "166.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 75.5
     },
     {
         name: "Blissey",
@@ -2661,7 +3145,9 @@ let nationalDex = [
         region: "Johto",
         height: "4'11\"",
         weight: "103.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 46.8
     },
     {
         name: "Raikou",
@@ -2672,7 +3158,9 @@ let nationalDex = [
         region: "Johto",
         height: "6'03\"",
         weight: "392.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 178.0
     },
     {
         name: "Entei",
@@ -2683,7 +3171,9 @@ let nationalDex = [
         region: "Johto",
         height: "6'11\"",
         weight: "436.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 198.0
     },
     {
         name: "Suicune",
@@ -2694,7 +3184,9 @@ let nationalDex = [
         region: "Johto",
         height: "6'07\"",
         weight: "412.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 187.0
     },
     {
         name: "Larvitar",
@@ -2705,7 +3197,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "158.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 72.0
     },
     {
         name: "Pupitar",
@@ -2716,7 +3210,9 @@ let nationalDex = [
         region: "Johto",
         height: "3'11\"",
         weight: "335.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 152.0
     },
     {
         name: "Tyranitar",
@@ -2727,7 +3223,9 @@ let nationalDex = [
         region: "Johto",
         height: "6'07\"",
         weight: "445.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 202.0
     },
     {
         name: "Lugia",
@@ -2738,7 +3236,9 @@ let nationalDex = [
         region: "Johto",
         height: "17'01\"",
         weight: "476.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 5.2,
+        metricWeight: 216.0
     },
     {
         name: "Ho-Oh",
@@ -2749,7 +3249,9 @@ let nationalDex = [
         region: "Johto",
         height: "12'06\"",
         weight: "438.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.8,
+        metricWeight: 199.0
     },
     {
         name: "Celebi",
@@ -2760,7 +3262,9 @@ let nationalDex = [
         region: "Johto",
         height: "2'00\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 5.0
     },
     {
         name: "Treecko",
@@ -2771,7 +3275,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.0
     },
     {
         name: "Grovyle",
@@ -2782,7 +3288,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'11\"",
         weight: "47.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 21.6
     },
     {
         name: "Sceptile",
@@ -2793,7 +3301,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'07\"",
         weight: "115.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 52.2
     },
     {
         name: "Torchic",
@@ -2804,7 +3314,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "5.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 2.5
     },
     {
         name: "Combusken",
@@ -2815,7 +3327,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'11\"",
         weight: "43.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 19.5
     },
     {
         name: "Blaziken",
@@ -2826,7 +3340,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'03\"",
         weight: "114.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 52.0
     },
     {
         name: "Mudkip",
@@ -2837,7 +3353,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "16.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 7.6
     },
     {
         name: "Marshtomp",
@@ -2848,7 +3366,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 28.0
     },
     {
         name: "Swampert",
@@ -2859,7 +3379,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "180.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 81.9
     },
     {
         name: "Poochyena",
@@ -2870,7 +3392,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "30.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 13.6
     },
     {
         name: "Mightyena",
@@ -2881,7 +3405,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "81.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 37.0
     },
     {
         name: "Zigzagoon",
@@ -2892,7 +3418,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "38.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 17.5
     },
     {
         name: "Linoone",
@@ -2903,7 +3431,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "71.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 71.7
     },
     {
         name: "Wurmple",
@@ -2914,7 +3444,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'00\"",
         weight: "7.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.6
     },
     {
         name: "Silcoon",
@@ -2925,7 +3457,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "22.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 10.0
     },
     {
         name: "Beautifly",
@@ -2936,7 +3470,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "62.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 28.4
     },
     {
         name: "Cascoon",
@@ -2947,7 +3483,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 11.5
     },
     {
         name: "Dustox",
@@ -2958,7 +3496,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'11\"",
         weight: "69.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 31.6
     },
     {
         name: "Lotad",
@@ -2969,7 +3509,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "5.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 2.6
     },
     {
         name: "Lombre",
@@ -2980,7 +3522,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'11\"",
         weight: "71.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 32.5
     },
     {
         name: "Ludicolo",
@@ -2991,7 +3535,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "121.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 55.0
     },
     {
         name: "Seedot",
@@ -3002,7 +3548,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 4.0
     },
     {
         name: "Nuzleaf",
@@ -3013,7 +3561,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 28.0
     },
     {
         name: "Shiftry",
@@ -3024,7 +3574,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'03\"",
         weight: "131.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 59.6
     },
     {
         name: "Taillow",
@@ -3035,7 +3587,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'00\"",
         weight: "5.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.3
     },
     {
         name: "Swellow",
@@ -3046,7 +3600,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "43.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 19.8
     },
     {
         name: "Wingull",
@@ -3057,7 +3613,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "20.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 9.5
     },
     {
         name: "Pelipper",
@@ -3068,7 +3626,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'11\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 28.0
     },
     {
         name: "Ralts",
@@ -3079,7 +3639,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "14.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 6.6
     },
     {
         name: "Kirlia",
@@ -3090,7 +3652,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "44.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 20.2
     },
     {
         name: "Gardevoir",
@@ -3101,7 +3665,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'03\"",
         weight: "106.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 48.4
     },
     {
         name: "Surskit",
@@ -3112,7 +3678,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "3.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 1.7
     },
     {
         name: "Masquerain",
@@ -3123,7 +3691,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "7.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 3.6
     },
     {
         name: "Shroomish",
@@ -3134,7 +3704,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "9.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.5
     },
     {
         name: "Breloom",
@@ -3145,7 +3717,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'11\"",
         weight: "86.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 39.2
     },
     {
         name: "Slakoth",
@@ -3156,7 +3730,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "52.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 24.0
     },
     {
         name: "Vigoroth",
@@ -3167,7 +3743,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'07\"",
         weight: "102.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 46.5
     },
     {
         name: "Slaking",
@@ -3178,7 +3756,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'07\"",
         weight: "287.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 130.5
     },
     {
         name: "Nincada",
@@ -3189,7 +3769,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "12.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.5
     },
     {
         name: "Ninjask",
@@ -3200,7 +3782,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 12.0
     },
     {
         name: "Shedinja",
@@ -3211,7 +3795,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "2.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 1.2
     },
     {
         name: "Whismur",
@@ -3222,7 +3808,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "35.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 16.3
     },
     {
         name: "Loudred",
@@ -3233,7 +3821,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "89.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 40.5
     },
     {
         name: "Exploud",
@@ -3244,7 +3834,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "185.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 84.0
     },
     {
         name: "Makuhita",
@@ -3255,7 +3847,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "190.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 86.4
     },
     {
         name: "Hariyama",
@@ -3266,7 +3860,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "7'07\"",
         weight: "559.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.3,
+        metricWeight: 253.8
     },
     {
         name: "Azurill",
@@ -3277,7 +3873,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "0'08\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 2.0
     },
     {
         name: "Nosepass",
@@ -3288,7 +3886,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "213.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 97.0
     },
     {
         name: "Skitty",
@@ -3299,7 +3899,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "24.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 11.0
     },
     {
         name: "Delcatty",
@@ -3310,7 +3912,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "71.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 32.6
     },
     {
         name: "Sableye",
@@ -3321,7 +3925,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "24.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 11.0
     },
     {
         name: "Mawile",
@@ -3332,7 +3938,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 11.5
     },
     {
         name: "Aron",
@@ -3343,7 +3951,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "132.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 60.0
     },
     {
         name: "Lairon",
@@ -3354,7 +3964,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'11\"",
         weight: "264.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 120.0
     },
     {
         name: "Aggron",
@@ -3365,7 +3977,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'11\"",
         weight: "793.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 360.0
     },
     {
         name: "Meditite",
@@ -3376,7 +3990,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "24.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 11.2
     },
     {
         name: "Medicham",
@@ -3387,7 +4003,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'03\"",
         weight: "69.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 31.5
     },
     {
         name: "Electrike",
@@ -3398,7 +4016,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "33.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 15.2
     },
     {
         name: "Manectric",
@@ -3409,7 +4029,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "88.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 40.2
     },
     {
         name: "Plusle",
@@ -3420,7 +4042,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "9.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.2
     },
     {
         name: "Minun",
@@ -3431,7 +4055,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "9.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.2
     },
     {
         name: "Volbeat",
@@ -3442,7 +4068,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "39.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 17.7
     },
     {
         name: "Illumise",
@@ -3453,7 +4081,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "39.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 17.7
     },
     {
         name: "Roselia",
@@ -3464,7 +4094,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'00\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.0
     },
     {
         name: "Gulpin",
@@ -3475,7 +4107,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "22.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 10.3
     },
     {
         name: "Swalot",
@@ -3486,7 +4120,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'07\"",
         weight: "176.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 80.0
     },
     {
         name: "Carvanha",
@@ -3497,7 +4133,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "45.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 20.8
     },
     {
         name: "Sharpedo",
@@ -3508,7 +4146,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'11\"",
         weight: "195.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 88.8
     },
     {
         name: "Wailmer",
@@ -3519,7 +4159,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'07\"",
         weight: "286.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 130.0
     },
     {
         name: "Wailord",
@@ -3530,7 +4172,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "47'07\"",
         weight: "877.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 14.5,
+        metricWeight: 398.0
     },
     {
         name: "Numel",
@@ -3541,7 +4185,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "52.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 24.0
     },
     {
         name: "Camerupt",
@@ -3552,7 +4198,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'03\"",
         weight: "485.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 220.0
     },
     {
         name: "Torkoal",
@@ -3563,7 +4211,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "177.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 80.4
     },
     {
         name: "Spoink",
@@ -3574,7 +4224,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "67.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 30.6
     },
     {
         name: "Grumpig",
@@ -3585,7 +4237,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'11\"",
         weight: "157.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 71.5
     },
     {
         name: "Spinda",
@@ -3596,7 +4250,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 5.0
     },
     {
         name: "Trapinch",
@@ -3607,7 +4263,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 15.0
     },
     {
         name: "Vibrava",
@@ -3618,7 +4276,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "33.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 15.3
     },
     {
         name: "Flygon",
@@ -3629,7 +4289,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'07\"",
         weight: "180.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 82.0
     },
     {
         name: "Cacnea",
@@ -3640,7 +4302,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "113.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 51.3
     },
     {
         name: "Cacturne",
@@ -3651,7 +4315,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'03\"",
         weight: "170.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 77.4
     },
     {
         name: "Swablu",
@@ -3662,7 +4328,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "2.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 1.2
     },
     {
         name: "Altaria",
@@ -3673,7 +4341,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "45.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 20.6
     },
     {
         name: "Zangoose",
@@ -3684,7 +4354,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'03\"",
         weight: "88.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 40.3
     },
     {
         name: "Seviper",
@@ -3695,7 +4367,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "8'10\"",
         weight: "115.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.7,
+        metricWeight: 52.5
     },
     {
         name: "Lunatone",
@@ -3706,7 +4380,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "370.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 168.0
     },
     {
         name: "Solrock",
@@ -3717,7 +4393,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'11\"",
         weight: "339.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 154.0
     },
     {
         name: "Barboach",
@@ -3728,7 +4406,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "4.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 1.9
     },
     {
         name: "Whiscash",
@@ -3739,7 +4419,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'11\"",
         weight: "52.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 23.6
     },
     {
         name: "Corphish",
@@ -3750,7 +4432,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 11.5
     },
     {
         name: "Crawdaunt",
@@ -3761,7 +4445,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "72.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 32.8
     },
     {
         name: "Baltoy",
@@ -3772,7 +4458,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'08\"",
         weight: "47.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 21.5
     },
     {
         name: "Claydol",
@@ -3783,7 +4471,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "238.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 108.0
     },
     {
         name: "Lileep",
@@ -3794,7 +4484,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "52.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 23.8
     },
     {
         name: "Cradily",
@@ -3805,7 +4497,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "133.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 60.4
     },
     {
         name: "Anorith",
@@ -3816,7 +4510,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "27.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 12.5
     },
     {
         name: "Armaldo",
@@ -3827,7 +4523,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "150.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 68.2
     },
     {
         name: "Feebas",
@@ -3838,7 +4536,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "16.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 7.4
     },
     {
         name: "Milotic",
@@ -3849,7 +4549,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "20'04\"",
         weight: "357.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 6.2,
+        metricWeight: 162.0
     },
     {
         name: "Castform",
@@ -3860,7 +4562,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'00\"",
         weight: "1.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.8
     },
     {
         name: "Kecleon",
@@ -3871,7 +4575,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "48.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 22.0
     },
     {
         name: "Shuppet",
@@ -3882,7 +4588,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "5.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 2.3
     },
     {
         name: "Banette",
@@ -3893,7 +4601,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "27.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 12.5
     },
     {
         name: "Duskull",
@@ -3904,7 +4614,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 15.0
     },
     {
         name: "Dusclops",
@@ -3915,7 +4627,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'03\"",
         weight: "67.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 30.6
     },
     {
         name: "Tropius",
@@ -3926,7 +4640,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'07\"",
         weight: "220.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 100.0
     },
     {
         name: "Chimecho",
@@ -3937,7 +4653,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 1.0
     },
     {
         name: "Absol",
@@ -3948,7 +4666,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'11\"",
         weight: "103.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 47.0
     },
     {
         name: "Wynaut",
@@ -3959,7 +4679,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "30.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 14.0
     },
     {
         name: "Snorunt",
@@ -3970,7 +4692,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'04\"",
         weight: "37.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 16.8
     },
     {
         name: "Glalie",
@@ -3981,7 +4705,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "565.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 256.5
     },
     {
         name: "Spheal",
@@ -3992,7 +4718,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'07\"",
         weight: "87.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 39.5
     },
     {
         name: "Sealeo",
@@ -4003,7 +4731,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "193.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 87.6
     },
     {
         name: "Walrein",
@@ -4014,7 +4744,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'07\"",
         weight: "332.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 150.6
     },
     {
         name: "Clamperl",
@@ -4025,7 +4757,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'04\"",
         weight: "115.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 52.5
     },
     {
         name: "Huntail",
@@ -4036,7 +4770,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'07\"",
         weight: "59.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 27.0
     },
     {
         name: "Gorebyss",
@@ -4047,7 +4783,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'11\"",
         weight: "49.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 22.6
     },
     {
         name: "Relicanth",
@@ -4058,7 +4796,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'03\"",
         weight: "51.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 23.4
     },
     {
         name: "Luvdisc",
@@ -4069,7 +4809,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "19.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.7
     },
     {
         name: "Bagon",
@@ -4080,7 +4822,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "92.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 42.1
     },
     {
         name: "Shelgon",
@@ -4091,7 +4835,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'07\"",
         weight: "243.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 110.5
     },
     {
         name: "Salamence",
@@ -4102,7 +4848,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'11\"",
         weight: "226.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 102.6
     },
     {
         name: "Beldum",
@@ -4113,7 +4861,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "2'00\"",
         weight: "209.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 95.2
     },
     {
         name: "Metang",
@@ -4124,7 +4874,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "3'11\"",
         weight: "446.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 202.5
     },
     {
         name: "Metagross",
@@ -4135,7 +4887,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'03\"",
         weight: "1212.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 550.0
     },
     {
         name: "Regirock",
@@ -4146,7 +4900,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'07\"",
         weight: "507.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 230.0
     },
     {
         name: "Regice",
@@ -4157,7 +4913,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'11\"",
         weight: "385.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 175.0
     },
     {
         name: "Registeel",
@@ -4168,7 +4926,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'03\"",
         weight: "451.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 205.0
     },
     {
         name: "Latias",
@@ -4179,7 +4939,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "4'07\"",
         weight: "88.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 40.0
     },
     {
         name: "Latios",
@@ -4190,7 +4952,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "6'07\"",
         weight: "132.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 60.0
     },
     {
         name: "Kyogre",
@@ -4201,7 +4965,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "14'09\"",
         weight: "776.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 4.5,
+        metricWeight: 352.0
     },
     {
         name: "Groudon",
@@ -4212,7 +4978,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "11'06\"",
         weight: "2094.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.5,
+        metricWeight: 950.0
     },
     {
         name: "Rayquaza",
@@ -4223,7 +4991,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "23'00\"",
         weight: "455.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 7.0,
+        metricWeight: 206.5
     },
     {
         name: "Jirachi",
@@ -4234,7 +5004,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "1'00\"",
         weight: "2.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.1
     },
     {
         name: "Deoxys",
@@ -4245,7 +5017,9 @@ let nationalDex = [
         region: "Hoenn",
         height: "5'07\"",
         weight: "134.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 60.8
     },
     {
         name: "Turtwig",
@@ -4256,7 +5030,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "22.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 10.2
     },
     {
         name: "Grotle",
@@ -4267,7 +5043,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'07\"",
         weight: "213.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 97.0
     },
     {
         name: "Torterra",
@@ -4278,7 +5056,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "7'03\"",
         weight: "683.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 310.0
     },
     {
         name: "Chimchar",
@@ -4289,7 +5069,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "13.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 6.2
     },
     {
         name: "Monferno",
@@ -4300,7 +5082,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "48.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 22.0
     },
     {
         name: "Infernape",
@@ -4311,7 +5095,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "121.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 55.0
     },
     {
         name: "Piplup",
@@ -4322,7 +5108,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "11.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.2
     },
     {
         name: "Prinplup",
@@ -4333,7 +5121,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'07\"",
         weight: "50.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 23.0
     },
     {
         name: "Empoleon",
@@ -4344,7 +5134,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "5'07\"",
         weight: "186.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 84.5
     },
     {
         name: "Starly",
@@ -4355,7 +5147,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.0
     },
     {
         name: "Staravia",
@@ -4366,7 +5160,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'00\"",
         weight: "34.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 15.5
     },
     {
         name: "Staraptor",
@@ -4377,7 +5173,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "54.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 24.9
     },
     {
         name: "Bidoof",
@@ -4388,7 +5186,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "44.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 20.0
     },
     {
         name: "Bibarel",
@@ -4399,7 +5199,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "69.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 31.5
     },
     {
         name: "Kricketot",
@@ -4410,7 +5212,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "4.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.2
     },
     {
         name: "Kricketune",
@@ -4421,7 +5225,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "56.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 25.5
     },
     {
         name: "Shinx",
@@ -4432,7 +5238,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "20.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.5
     },
     {
         name: "Luxio",
@@ -4443,7 +5251,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "67.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 30.5
     },
     {
         name: "Luxray",
@@ -4454,7 +5264,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'07\"",
         weight: "92.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 42.0
     },
     {
         name: "Budew",
@@ -4465,7 +5277,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "0'08\"",
         weight: "2.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 1.2
     },
     {
         name: "Roserade",
@@ -4476,7 +5290,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "32.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 14.5
     },
     {
         name: "Cranidos",
@@ -4487,7 +5303,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "69.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 31.5
     },
     {
         name: "Rampardos",
@@ -4498,7 +5316,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "5'03\"",
         weight: "226.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 102.5
     },
     {
         name: "Shieldon",
@@ -4509,7 +5329,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "125.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 57.0
     },
     {
         name: "Bastiodon",
@@ -4520,7 +5342,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'03\"",
         weight: "329.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 149.5
     },
     {
         name: "Burmy",
@@ -4531,7 +5355,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "0'08\"",
         weight: "7.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 3.4
     },
     {
         name: "Wormadam",
@@ -4542,7 +5368,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "14.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 6.5
     },
     {
         name: "Mothim",
@@ -4553,7 +5381,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "51.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 23.3
     },
     {
         name: "Combee",
@@ -4564,7 +5394,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "12.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 5.5
     },
     {
         name: "Vespiquen",
@@ -4575,7 +5407,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "84.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 38.5
     },
     {
         name: "Pachirisu",
@@ -4586,7 +5420,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "8.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 3.9
     },
     {
         name: "Buizel",
@@ -4597,7 +5433,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'04\"",
         weight: "65.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 29.5
     },
     {
         name: "Floatzel",
@@ -4608,7 +5446,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'07\"",
         weight: "73.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 33.5
     },
     {
         name: "Cherubi",
@@ -4619,7 +5459,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "7.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 3.3
     },
     {
         name: "Cherrim",
@@ -4630,7 +5472,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "20.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.3
     },
     {
         name: "Shellos",
@@ -4641,7 +5485,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "13.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 6.3
     },
     {
         name: "Gastrodon",
@@ -4652,7 +5498,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "65.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 29.9
     },
     {
         name: "Ambipom",
@@ -4663,7 +5511,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "44.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 20.3
     },
     {
         name: "Drifloon",
@@ -4674,7 +5524,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "2.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 1.2
     },
     {
         name: "Drifblim",
@@ -4685,7 +5537,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 15.0
     },
     {
         name: "Buneary",
@@ -4696,7 +5550,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "12.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.5
     },
     {
         name: "Lopunny",
@@ -4707,7 +5563,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "73.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 33.3
     },
     {
         name: "Mismagius",
@@ -4718,7 +5576,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "9.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 4.4
     },
     {
         name: "Honchkrow",
@@ -4729,7 +5589,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "60.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 27.3
     },
     {
         name: "Glameow",
@@ -4740,7 +5602,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "8.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 3.9
     },
     {
         name: "Purugly",
@@ -4751,7 +5615,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "96.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 43.8
     },
     {
         name: "Chingling",
@@ -4762,7 +5628,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "0'08\"",
         weight: "1.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.6
     },
     {
         name: "Stunky",
@@ -4773,7 +5641,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "42.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 19.2
     },
     {
         name: "Skuntank",
@@ -4784,7 +5654,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "83.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 38.0
     },
     {
         name: "Bronzor",
@@ -4795,7 +5667,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "133.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 60.5
     },
     {
         name: "Bronzong",
@@ -4806,7 +5680,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'03\"",
         weight: "412.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 187.0
     },
     {
         name: "Bonsly",
@@ -4817,7 +5693,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 15.0
     },
     {
         name: "Mime Jr.",
@@ -4828,7 +5706,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'00\"",
         weight: "28.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 13.0
     },
     {
         name: "Happiny",
@@ -4839,7 +5719,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'00\"",
         weight: "53.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 24.4
     },
     {
         name: "Chatot",
@@ -4850,7 +5732,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'08\"",
         weight: "4.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 1.9
     },
     {
         name: "Spiritomb",
@@ -4861,7 +5745,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "238.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 108.0
     },
     {
         name: "Gible",
@@ -4872,7 +5758,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'04\"",
         weight: "45.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 20.5
     },
     {
         name: "Gabite",
@@ -4883,7 +5771,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'07\"",
         weight: "123.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 56.0
     },
     {
         name: "Garchomp",
@@ -4894,7 +5784,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "6'03\"",
         weight: "209.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 95.0
     },
     {
         name: "Munchlax",
@@ -4905,7 +5797,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'00\"",
         weight: "231.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 105.0
     },
     {
         name: "Riolu",
@@ -4916,7 +5810,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'04\"",
         weight: "44.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 20.2
     },
     {
         name: "Lucario",
@@ -4927,7 +5823,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "119.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 54.0
     },
     {
         name: "Hippopotas",
@@ -4938,7 +5836,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'07\"",
         weight: "109.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 49.5
     },
     {
         name: "Hippowdon",
@@ -4949,7 +5849,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "6'07\"",
         weight: "661.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 300.0
     },
     {
         name: "Skorupi",
@@ -4960,7 +5862,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'07\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 12.0
     },
     {
         name: "Drapion",
@@ -4971,7 +5875,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'03\"",
         weight: "135.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 61.5
     },
     {
         name: "Croagunk",
@@ -4982,7 +5888,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'04\"",
         weight: "50.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 23.0
     },
     {
         name: "Toxicroak",
@@ -4993,7 +5901,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'03\"",
         weight: "97.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 44.4
     },
     {
         name: "Carnivine",
@@ -5004,7 +5914,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'07\"",
         weight: "59.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 27.0
     },
     {
         name: "Finneon",
@@ -5015,7 +5927,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "15.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 7.0
     },
     {
         name: "Lumineon",
@@ -5026,7 +5940,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "52.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 24.0
     },
     {
         name: "Mantyke",
@@ -5037,7 +5953,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "143.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 65.0
     },
     {
         name: "Snover",
@@ -5048,7 +5966,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "111.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 50.5
     },
     {
         name: "Abomasnow",
@@ -5059,7 +5979,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "7'03\"",
         weight: "298.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 135.5
     },
     {
         name: "Weavile",
@@ -5070,7 +5992,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'07\"",
         weight: "75.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 34.0
     },
     {
         name: "Magnezone",
@@ -5081,7 +6005,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'11\"",
         weight: "396.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 180.0
     },
     {
         name: "Lickilicky",
@@ -5092,7 +6018,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "5'07\"",
         weight: "308.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 140.0
     },
     {
         name: "Rhyperior",
@@ -5103,7 +6031,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "7'10\"",
         weight: "623.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.4,
+        metricWeight: 282.8
     },
     {
         name: "Tangrowth",
@@ -5114,7 +6044,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "6'07\"",
         weight: "283.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 128.6
     },
     {
         name: "Electivire",
@@ -5125,7 +6057,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "5'11\"",
         weight: "305.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 138.6
     },
     {
         name: "Magmortar",
@@ -5136,7 +6070,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "5'03\"",
         weight: "149.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 68.0
     },
     {
         name: "Togekiss",
@@ -5147,7 +6083,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'11\"",
         weight: "83.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 38.0
     },
     {
         name: "Yanmega",
@@ -5158,7 +6096,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "6'03\"",
         weight: "113.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 51.5
     },
     {
         name: "Leafeon",
@@ -5169,7 +6109,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "3'03\"",
         weight: "56.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 25.5
     },
     {
         name: "Glaceon",
@@ -5180,7 +6122,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'07\"",
         weight: "57.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 25.9
     },
     {
         name: "Gliscor",
@@ -5191,7 +6135,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "6'07\"",
         weight: "93.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 42.5
     },
     {
         name: "Mamoswine",
@@ -5202,7 +6148,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "8'02\"",
         weight: "641.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.5,
+        metricWeight: 291.0
     },
     {
         name: "Porygon-Z",
@@ -5213,7 +6161,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "2'11\"",
         weight: "75.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 34.0
     },
     {
         name: "Gallade",
@@ -5224,7 +6174,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "5'03\"",
         weight: "114.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 52.0
     },
     {
         name: "Probopass",
@@ -5235,7 +6187,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'07\"",
         weight: "749.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 340.0
     },
     {
         name: "Dusknoir",
@@ -5246,7 +6200,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "7'03\"",
         weight: "235.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 106.6
     },
     {
         name: "Froslass",
@@ -5257,7 +6213,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'03\"",
         weight: "58.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 26.6
     },
     {
         name: "Rotom",
@@ -5268,7 +6226,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.3
     },
     {
         name: "Uxie",
@@ -5279,7 +6239,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.3
     },
     {
         name: "Mesprit",
@@ -5290,7 +6252,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.3
     },
     {
         name: "Azelf",
@@ -5301,7 +6265,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.3
     },
     {
         name: "Dialga",
@@ -5312,7 +6278,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "17'09\"",
         weight: "1505.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 5.4,
+        metricWeight: 683.0
     },
     {
         name: "Palkia",
@@ -5323,7 +6291,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "13'09\"",
         weight: "740.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 4.2,
+        metricWeight: 336.0
     },
     {
         name: "Heatran",
@@ -5334,7 +6304,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "5'07\"",
         weight: "948.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 430.0
     },
     {
         name: "Regigigas",
@@ -5345,7 +6317,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "12'02\"",
         weight: "925.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.7,
+        metricWeight: 420.0
     },
     {
         name: "Giratina",
@@ -5356,7 +6330,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "14'09\"",
         weight: "1653.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 4.5,
+        metricWeight: 750.0
     },
     {
         name: "Cresselia",
@@ -5367,7 +6343,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'11\"",
         weight: "188.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 85.6
     },
     {
         name: "Phione",
@@ -5378,7 +6356,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'04\"",
         weight: "6.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 3.1
     },
     {
         name: "Manaphy",
@@ -5389,7 +6369,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "1'00\"",
         weight: "3.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.4
     },
     {
         name: "Darkrai",
@@ -5400,7 +6382,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "4'11\"",
         weight: "111.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 50.5
     },
     {
         name: "Shaymin",
@@ -5411,7 +6395,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "0'08\"",
         weight: "4.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 2.1
     },
     {
         name: "Arceus",
@@ -5422,7 +6408,9 @@ let nationalDex = [
         region: "Sinnoh",
         height: "10'06\"",
         weight: "705.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.2,
+        metricWeight: 320.0
     },
     {
         name: "Victini",
@@ -5433,7 +6421,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.0
     },
     {
         name: "Snivy",
@@ -5444,7 +6434,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "17.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.1
     },
     {
         name: "Servine",
@@ -5455,7 +6447,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'07\"",
         weight: "35.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 16.0
     },
     {
         name: "Serperior",
@@ -5466,7 +6460,9 @@ let nationalDex = [
         region: "Unova",
         height: "10'10\"",
         weight: "138.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.3,
+        metricWeight: 63.0
     },
     {
         name: "Tepig",
@@ -5477,7 +6473,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "21.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.9
     },
     {
         name: "Pignite",
@@ -5488,7 +6486,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "122.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 55.5
     },
     {
         name: "Emboar",
@@ -5499,7 +6499,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "330.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 150.0
     },
     {
         name: "Oshawott",
@@ -5510,7 +6512,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "13.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.9
     },
     {
         name: "Dewott",
@@ -5521,7 +6525,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'07\"",
         weight: "54.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 24.5
     },
     {
         name: "Samurott",
@@ -5532,7 +6538,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "208.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 94.6
     },
     {
         name: "Patrat",
@@ -5543,7 +6551,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "25.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 11.6
     },
     {
         name: "Watchog",
@@ -5554,7 +6564,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "59.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 27.0
     },
     {
         name: "Lillipup",
@@ -5565,7 +6577,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "9.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.1
     },
     {
         name: "Herdier",
@@ -5576,7 +6590,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'11\"",
         weight: "32.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 14.7
     },
     {
         name: "Stoutland",
@@ -5587,7 +6603,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "134.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 61.0
     },
     {
         name: "Purrloin",
@@ -5598,7 +6616,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "22.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 10.1
     },
     {
         name: "Liepard",
@@ -5609,7 +6629,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "82.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 37.5
     },
     {
         name: "Pansage",
@@ -5620,7 +6642,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "23.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 10.5
     },
     {
         name: "Simisage",
@@ -5631,7 +6655,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "67.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 30.5
     },
     {
         name: "Pansear",
@@ -5642,7 +6668,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "24.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 11.0
     },
     {
         name: "Simisear",
@@ -5653,7 +6681,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 28.0
     },
     {
         name: "Panpour",
@@ -5664,7 +6694,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "29.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 13.5
     },
     {
         name: "Simipour",
@@ -5675,7 +6707,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "63.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 29.0
     },
     {
         name: "Munna",
@@ -5686,7 +6720,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "51.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 23.3
     },
     {
         name: "Musharna",
@@ -5697,7 +6733,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "133.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 60.5
     },
     {
         name: "Pidove",
@@ -5708,7 +6746,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "4.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.1
     },
     {
         name: "Tranquill",
@@ -5719,7 +6759,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "33.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 15.0
     },
     {
         name: "Unfezant",
@@ -5730,7 +6772,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "63.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 29.0
     },
     {
         name: "Blitzle",
@@ -5741,7 +6785,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'07\"",
         weight: "65.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 29.8
     },
     {
         name: "Zebstrika",
@@ -5752,7 +6798,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "175.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 79.5
     },
     {
         name: "Roggenrola",
@@ -5763,7 +6811,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "39.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 18.0
     },
     {
         name: "Boldore",
@@ -5774,7 +6824,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'11\"",
         weight: "224.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 102.0
     },
     {
         name: "Gigalith",
@@ -5785,7 +6837,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'07\"",
         weight: "573.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 260.0
     },
     {
         name: "Woobat",
@@ -5796,7 +6850,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "4.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 2.1
     },
     {
         name: "Swoobat",
@@ -5807,7 +6863,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'11\"",
         weight: "23.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 10.5
     },
     {
         name: "Drilbur",
@@ -5818,7 +6876,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 8.5
     },
     {
         name: "Excadrill",
@@ -5829,7 +6889,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'04\"",
         weight: "89.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 40.4
     },
     {
         name: "Audino",
@@ -5840,7 +6902,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "68.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 31.0
     },
     {
         name: "Timburr",
@@ -5851,7 +6915,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "27.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 12.5
     },
     {
         name: "Gurdurr",
@@ -5862,7 +6928,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "88.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 40.0
     },
     {
         name: "Conkeldurr",
@@ -5873,7 +6941,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "191.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 87.0
     },
     {
         name: "Tympole",
@@ -5884,7 +6954,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "9.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 4.5
     },
     {
         name: "Palpitoad",
@@ -5895,7 +6967,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'07\"",
         weight: "37.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 17.0
     },
     {
         name: "Seismitoad",
@@ -5906,7 +6980,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "136.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 62.0
     },
     {
         name: "Throh",
@@ -5917,7 +6993,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'03\"",
         weight: "122.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 55.5
     },
     {
         name: "Sawk",
@@ -5928,7 +7006,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "112.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 51.0
     },
     {
         name: "Sewaddle",
@@ -5939,7 +7019,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "5.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.5
     },
     {
         name: "Swadloon",
@@ -5950,7 +7032,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "16.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 7.3
     },
     {
         name: "Leavanny",
@@ -5961,7 +7045,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "45.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 20.5
     },
     {
         name: "Venipede",
@@ -5972,7 +7058,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "11.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.3
     },
     {
         name: "Whirlipede",
@@ -5983,7 +7071,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "129.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 58.5
     },
     {
         name: "Scolipede",
@@ -5994,7 +7084,9 @@ let nationalDex = [
         region: "Unova",
         height: "8'02\"",
         weight: "442.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.5,
+        metricWeight: 200.5
     },
     {
         name: "Cottonee",
@@ -6005,7 +7097,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "1.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.6
     },
     {
         name: "Whimsicott",
@@ -6016,7 +7110,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'04\"",
         weight: "14.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 6.6
     },
     {
         name: "Petilil",
@@ -6027,7 +7123,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "14.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 6.6
     },
     {
         name: "Lilligant",
@@ -6038,7 +7136,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "35.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 16.3
     },
     {
         name: "Basculin",
@@ -6049,7 +7149,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "39.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 18.0
     },
     {
         name: "Sandile",
@@ -6060,7 +7162,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'04\"",
         weight: "33.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 15.2
     },
     {
         name: "Krokorok",
@@ -6071,7 +7175,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "73.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 33.4
     },
     {
         name: "Krookodile",
@@ -6082,7 +7188,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "212.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 96.3
     },
     {
         name: "Darumaka",
@@ -6093,7 +7201,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "82.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 37.5
     },
     {
         name: "Darmanitan",
@@ -6104,7 +7214,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'03\"",
         weight: "204.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 92.9
     },
     {
         name: "Maractus",
@@ -6115,7 +7227,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 28.0
     },
     {
         name: "Dwebble",
@@ -6126,7 +7240,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "32.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 14.5
     },
     {
         name: "Crustle",
@@ -6137,7 +7253,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "440.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 200.0
     },
     {
         name: "Scraggy",
@@ -6148,7 +7266,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "26.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 11.8
     },
     {
         name: "Scrafty",
@@ -6159,7 +7279,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 30.0
     },
     {
         name: "Sigilyph",
@@ -6170,7 +7292,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "30.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 14.0
     },
     {
         name: "Yamask",
@@ -6181,7 +7305,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "3.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 1.5
     },
     {
         name: "Cofagrigus",
@@ -6192,7 +7318,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'07\"",
         weight: "168.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 76.5
     },
     {
         name: "Tirtouga",
@@ -6203,7 +7331,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'04\"",
         weight: "36.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 16.5
     },
     {
         name: "Carracosta",
@@ -6214,7 +7344,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "178.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 81.0
     },
     {
         name: "Archen",
@@ -6225,7 +7357,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "20.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.5
     },
     {
         name: "Archeops",
@@ -6236,7 +7370,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "70.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 32.0
     },
     {
         name: "Trubbish",
@@ -6247,7 +7383,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "68.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 31.0
     },
     {
         name: "Garbodor",
@@ -6258,7 +7396,9 @@ let nationalDex = [
         region: "Unova",
         height: "6'03\"",
         weight: "236.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 107.3
     },
     {
         name: "Zorua",
@@ -6269,7 +7409,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'04\"",
         weight: "27.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 12.5
     },
     {
         name: "Zoroark",
@@ -6280,7 +7422,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "178.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 81.1
     },
     {
         name: "Minccino",
@@ -6291,7 +7435,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "12.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.8
     },
     {
         name: "Cinccino",
@@ -6302,7 +7448,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "16.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 7.5
     },
     {
         name: "Gothita",
@@ -6313,7 +7461,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "12.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.8
     },
     {
         name: "Gothorita",
@@ -6324,7 +7474,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'04\"",
         weight: "39.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 18.0
     },
     {
         name: "Gothitelle",
@@ -6335,7 +7487,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "97.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 44.0
     },
     {
         name: "Solosis",
@@ -6346,7 +7500,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.0
     },
     {
         name: "Duosion",
@@ -6357,7 +7513,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "17.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.0
     },
     {
         name: "Reuniclus",
@@ -6368,7 +7526,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "44.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 20.1
     },
     {
         name: "Ducklett",
@@ -6379,7 +7539,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "12.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.5
     },
     {
         name: "Swanna",
@@ -6390,7 +7552,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'03\"",
         weight: "53.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 24.2
     },
     {
         name: "Vanillite",
@@ -6401,7 +7565,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "12.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.7
     },
     {
         name: "Vanillish",
@@ -6412,7 +7578,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "90.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 41.0
     },
     {
         name: "Vanilluxe",
@@ -6423,7 +7591,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'03\"",
         weight: "126.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 57.5
     },
     {
         name: "Deerling",
@@ -6434,7 +7604,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "43.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 19.5
     },
     {
         name: "Sawsbuck",
@@ -6445,7 +7617,9 @@ let nationalDex = [
         region: "Unova",
         height: "6'03\"",
         weight: "203.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 92.5
     },
     {
         name: "Emolga",
@@ -6456,7 +7630,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.0
     },
     {
         name: "Karrablast",
@@ -6467,7 +7643,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "13.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 5.9
     },
     {
         name: "Escavalier",
@@ -6478,7 +7656,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "72.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 33.0
     },
     {
         name: "Foongus",
@@ -6489,7 +7669,9 @@ let nationalDex = [
         region: "Unova",
         height: "0'08\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 1.0
     },
     {
         name: "Amoonguss",
@@ -6500,7 +7682,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "23.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 10.5
     },
     {
         name: "Frillish",
@@ -6511,7 +7695,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "72.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 33.0
     },
     {
         name: "Jellicent",
@@ -6522,7 +7708,9 @@ let nationalDex = [
         region: "Unova",
         height: "7'03\"",
         weight: "297.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 135.0
     },
     {
         name: "Alomomola",
@@ -6533,7 +7721,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "69.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 31.6
     },
     {
         name: "Joltik",
@@ -6544,7 +7734,9 @@ let nationalDex = [
         region: "Unova",
         height: "0'04\"",
         weight: "1.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.1,
+        metricWeight: 0.6
     },
     {
         name: "Galvantula",
@@ -6555,7 +7747,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'07\"",
         weight: "31.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 14.3
     },
     {
         name: "Ferroseed",
@@ -6566,7 +7760,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "41.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 18.8
     },
     {
         name: "Ferrothorn",
@@ -6577,7 +7773,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "242.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 110.0
     },
     {
         name: "Klink",
@@ -6588,7 +7786,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "46.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 21.0
     },
     {
         name: "Klang",
@@ -6599,7 +7799,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "112.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 51.0
     },
     {
         name: "Klinklang",
@@ -6610,7 +7812,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "178.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 81.0
     },
     {
         name: "Tynamo",
@@ -6621,7 +7825,9 @@ let nationalDex = [
         region: "Unova",
         height: "0'08\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.3
     },
     {
         name: "Eelektrik",
@@ -6632,7 +7838,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "48.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 22.0
     },
     {
         name: "Eelektross",
@@ -6643,7 +7851,9 @@ let nationalDex = [
         region: "Unova",
         height: "6'11\"",
         weight: "177.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 80.5
     },
     {
         name: "Elgyem",
@@ -6654,7 +7864,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "19.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.0
     },
     {
         name: "Beheeyem",
@@ -6665,7 +7877,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "76.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 34.5
     },
     {
         name: "Litwick",
@@ -6676,7 +7890,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "6.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.1
     },
     {
         name: "Lampent",
@@ -6687,7 +7903,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "28.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 13.0
     },
     {
         name: "Chandelure",
@@ -6698,7 +7916,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "75.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 34.3
     },
     {
         name: "Axew",
@@ -6709,7 +7929,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "39.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 18.0
     },
     {
         name: "Fraxure",
@@ -6720,7 +7942,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "79.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 36.0
     },
     {
         name: "Haxorus",
@@ -6731,7 +7955,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'11\"",
         weight: "232.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 105.5
     },
     {
         name: "Cubchoo",
@@ -6742,7 +7968,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 8.5
     },
     {
         name: "Beartic",
@@ -6753,7 +7981,9 @@ let nationalDex = [
         region: "Unova",
         height: "8'06\"",
         weight: "573.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.6,
+        metricWeight: 260.0
     },
     {
         name: "Cryogonal",
@@ -6764,7 +7994,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "326.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 148.0
     },
     {
         name: "Shelmet",
@@ -6775,7 +8007,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'04\"",
         weight: "17.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 7.7
     },
     {
         name: "Accelgor",
@@ -6786,7 +8020,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'07\"",
         weight: "55.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 25.3
     },
     {
         name: "Stunfisk",
@@ -6797,7 +8033,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'04\"",
         weight: "24.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 11.0
     },
     {
         name: "Mienfoo",
@@ -6808,7 +8046,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'11\"",
         weight: "44.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 20.0
     },
     {
         name: "Mienshao",
@@ -6819,7 +8059,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "78.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 35.5
     },
     {
         name: "Druddigon",
@@ -6830,7 +8072,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "306.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 139.0
     },
     {
         name: "Golett",
@@ -6841,7 +8085,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'03\"",
         weight: "202.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 92.0
     },
     {
         name: "Golurk",
@@ -6852,7 +8098,9 @@ let nationalDex = [
         region: "Unova",
         height: "9'02\"",
         weight: "727.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.8,
+        metricWeight: 330.0
     },
     {
         name: "Pawniard",
@@ -6863,7 +8111,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "22.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 10.2
     },
     {
         name: "Bisharp",
@@ -6874,7 +8124,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "154.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 70.0
     },
     {
         name: "Bouffalant",
@@ -6885,7 +8137,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "208.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 94.5
     },
     {
         name: "Rufflet",
@@ -6896,7 +8150,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "23.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 10.5
     },
     {
         name: "Braviary",
@@ -6907,7 +8163,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "90.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 41.0
     },
     {
         name: "Vullaby",
@@ -6918,7 +8176,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'08\"",
         weight: "19.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.0
     },
     {
         name: "Mandibuzz",
@@ -6929,7 +8189,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'11\"",
         weight: "87.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 39.5
     },
     {
         name: "Heatmor",
@@ -6940,7 +8202,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "127.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 58.0
     },
     {
         name: "Durant",
@@ -6951,7 +8215,9 @@ let nationalDex = [
         region: "Unova",
         height: "1'00\"",
         weight: "72.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 33.0
     },
     {
         name: "Deino",
@@ -6962,7 +8228,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'07\"",
         weight: "38.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 17.3
     },
     {
         name: "Zweilous",
@@ -6973,7 +8241,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "110.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 50.0
     },
     {
         name: "Hydreigon",
@@ -6984,7 +8254,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'11\"",
         weight: "352.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 160.0
     },
     {
         name: "Larvesta",
@@ -6995,7 +8267,9 @@ let nationalDex = [
         region: "Unova",
         height: "3'07\"",
         weight: "63.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 28.8
     },
     {
         name: "Volcarona",
@@ -7006,7 +8280,9 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "101.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 46.0
     },
     {
         name: "Cobalion",
@@ -7017,7 +8293,9 @@ let nationalDex = [
         region: "Unova",
         height: "6'11\"",
         weight: "551.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 250.0
     },
     {
         name: "Terrakion",
@@ -7028,7 +8306,9 @@ let nationalDex = [
         region: "Unova",
         height: "6'03\"",
         weight: "573.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 260.0
     },
     {
         name: "Virizion",
@@ -7039,7 +8319,9 @@ let nationalDex = [
         region: "Unova",
         height: "6'07\"",
         weight: "440.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 200.0
     },
     {
         name: "Tornadus",
@@ -7050,7 +8332,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "138.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 63.0
     },
     {
         name: "Thundurus",
@@ -7061,7 +8345,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "134.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 61.0
     },
     {
         name: "Reshiram",
@@ -7072,7 +8358,9 @@ let nationalDex = [
         region: "Unova",
         height: "10'06\"",
         weight: "727.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.2,
+        metricWeight: 330.0
     },
     {
         name: "Zekrom",
@@ -7083,7 +8371,9 @@ let nationalDex = [
         region: "Unova",
         height: "9'06\"",
         weight: "760.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.9,
+        metricWeight: 345.0
     },
     {
         name: "Landorus",
@@ -7094,7 +8384,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "149.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 68.0
     },
     {
         name: "Kyurem",
@@ -7105,7 +8397,9 @@ let nationalDex = [
         region: "Unova",
         height: "9'10\"",
         weight: "716.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.0,
+        metricWeight: 325.0
     },
     {
         name: "Keldeo",
@@ -7116,7 +8410,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'07\"",
         weight: "106.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 48.5
     },
     {
         name: "Meloetta",
@@ -7127,7 +8423,9 @@ let nationalDex = [
         region: "Unova",
         height: "2'00\"",
         weight: "14.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 6.5
     },
     {
         name: "Genesect",
@@ -7138,7 +8436,9 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "181.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 82.5
     },
     {
         name: "Chespin",
@@ -7149,7 +8449,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'04\"",
         weight: "19.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 9.0
     },
     {
         name: "Quilladin",
@@ -7160,7 +8462,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'04\"",
         weight: "63.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 29.0
     },
     {
         name: "Chesnaught",
@@ -7171,7 +8475,9 @@ let nationalDex = [
         region: "Kalos",
         height: "5'03\"",
         weight: "198.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 90.0
     },
     {
         name: "Fennekin",
@@ -7182,7 +8488,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'04\"",
         weight: "20.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 9.4
     },
     {
         name: "Braixen",
@@ -7193,7 +8501,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'03\"",
         weight: "32.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 14.5
     },
     {
         name: "Delphox",
@@ -7204,7 +8514,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'11\"",
         weight: "86.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 39.0
     },
     {
         name: "Froakie",
@@ -7215,7 +8527,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'00\"",
         weight: "15.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 7.0
     },
     {
         name: "Frogadier",
@@ -7226,7 +8540,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'00\"",
         weight: "24.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 10.9
     },
     {
         name: "Greninja",
@@ -7237,7 +8553,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'11\"",
         weight: "88.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 40.0
     },
     {
         name: "Bunnelby",
@@ -7248,7 +8566,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'04\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.0
     },
     {
         name: "Diggersby",
@@ -7259,7 +8579,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'03\"",
         weight: "93.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 42.4
     },
     {
         name: "Fletchling",
@@ -7270,7 +8592,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'00\"",
         weight: "3.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.7
     },
     {
         name: "Fletchinder",
@@ -7281,7 +8605,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'04\"",
         weight: "35.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 16.0
     },
     {
         name: "Talonflame",
@@ -7292,7 +8618,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'11\"",
         weight: "54.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 24.5
     },
     {
         name: "Scatterbug",
@@ -7303,7 +8631,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'00\"",
         weight: "5.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.5
     },
     {
         name: "Spewpa",
@@ -7314,7 +8644,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'00\"",
         weight: "18.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 8.4
     },
     {
         name: "Vivillon",
@@ -7325,7 +8657,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'11\"",
         weight: "37.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 17.0
     },
     {
         name: "Litleo",
@@ -7336,7 +8670,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'00\"",
         weight: "29.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 13.5
     },
     {
         name: "Pyroar",
@@ -7347,7 +8683,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'11\"",
         weight: "179.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 81.5
     },
     {
         name: "Flabébé",
@@ -7358,7 +8696,9 @@ let nationalDex = [
         region: "Kalos",
         height: "0'04\"",
         weight: "0.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.1,
+        metricWeight: 0.1
     },
     {
         name: "Floette",
@@ -7369,7 +8709,9 @@ let nationalDex = [
         region: "Kalos",
         height: "0'08\"",
         weight: "2.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.9
     },
     {
         name: "Florges",
@@ -7380,7 +8722,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'07\"",
         weight: "22.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 10.0
     },
     {
         name: "Skiddo",
@@ -7391,7 +8735,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'11\"",
         weight: "68.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 31.0
     },
     {
         name: "Gogoat",
@@ -7402,7 +8748,9 @@ let nationalDex = [
         region: "Kalos",
         height: "5'07\"",
         weight: "200.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 91.0
     },
     {
         name: "Pancham",
@@ -7413,7 +8761,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'00\"",
         weight: "17.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.0
     },
     {
         name: "Pangoro",
@@ -7424,7 +8774,9 @@ let nationalDex = [
         region: "Kalos",
         height: "6'11\"",
         weight: "299.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 136.0
     },
     {
         name: "Furfrou",
@@ -7435,7 +8787,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'11\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 28.0
     },
     {
         name: "Espurr",
@@ -7446,7 +8800,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'00\"",
         weight: "7.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.5
     },
     {
         name: "Meowstic",
@@ -7457,7 +8813,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'00\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.5
     },
     {
         name: "Honedge",
@@ -7468,7 +8826,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'07\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 2.0
     },
     {
         name: "Doublade",
@@ -7479,7 +8839,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'07\"",
         weight: "9.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 4.5
     },
     {
         name: "Aegislash",
@@ -7490,7 +8852,9 @@ let nationalDex = [
         region: "Kalos",
         height: "5'07\"",
         weight: "116.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 53.0
     },
     {
         name: "Spritzee",
@@ -7501,7 +8865,9 @@ let nationalDex = [
         region: "Kalos",
         height: "0'08\"",
         weight: "1.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.5
     },
     {
         name: "Aromatisse",
@@ -7512,7 +8878,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'07\"",
         weight: "34.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 15.5
     },
     {
         name: "Swirlix",
@@ -7523,7 +8891,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'04\"",
         weight: "7.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 3.5
     },
     {
         name: "Slurpuff",
@@ -7534,7 +8904,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'07\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 5.0
     },
     {
         name: "Inkay",
@@ -7545,7 +8917,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'04\"",
         weight: "7.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 3.5
     },
     {
         name: "Malamar",
@@ -7556,7 +8930,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'11\"",
         weight: "103.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 47.0
     },
     {
         name: "Binacle",
@@ -7567,7 +8943,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'08\"",
         weight: "68.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 31.0
     },
     {
         name: "Barbaracle",
@@ -7578,7 +8956,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'03\"",
         weight: "211.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 96.0
     },
     {
         name: "Skrelp",
@@ -7589,7 +8969,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'08\"",
         weight: "16.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 7.3
     },
     {
         name: "Dragalge",
@@ -7600,7 +8982,9 @@ let nationalDex = [
         region: "Kalos",
         height: "5'11\"",
         weight: "179.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 81.5
     },
     {
         name: "Clauncher",
@@ -7611,7 +8995,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'08\"",
         weight: "18.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 8.3
     },
     {
         name: "Clawitzer",
@@ -7622,7 +9008,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'03\"",
         weight: "77.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 35.3
     },
     {
         name: "Helioptile",
@@ -7633,7 +9021,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'08\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 6.0
     },
     {
         name: "Heliolisk",
@@ -7644,7 +9034,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'03\"",
         weight: "46.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 21.0
     },
     {
         name: "Tyrunt",
@@ -7655,7 +9047,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'07\"",
         weight: "57.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 26.0
     },
     {
         name: "Tyrantrum",
@@ -7666,7 +9060,9 @@ let nationalDex = [
         region: "Kalos",
         height: "8'02\"",
         weight: "595.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.5,
+        metricWeight: 270.0
     },
     {
         name: "Amaura",
@@ -7677,7 +9073,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'03\"",
         weight: "55.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 25.2
     },
     {
         name: "Aurorus",
@@ -7688,7 +9086,9 @@ let nationalDex = [
         region: "Kalos",
         height: "8'10\"",
         weight: "496.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.7,
+        metricWeight: 225.0
     },
     {
         name: "Sylveon",
@@ -7699,7 +9099,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'03\"",
         weight: "51.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 23.5
     },
     {
         name: "Hawlucha",
@@ -7710,7 +9112,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'07\"",
         weight: "47.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 21.5
     },
     {
         name: "Dedenne",
@@ -7721,7 +9125,9 @@ let nationalDex = [
         region: "Kalos",
         height: "0'08\"",
         weight: "4.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 2.2
     },
     {
         name: "Carbink",
@@ -7732,7 +9138,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'00\"",
         weight: "12.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 5.7
     },
     {
         name: "Goomy",
@@ -7743,7 +9151,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'00\"",
         weight: "6.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.8
     },
     {
         name: "Sliggoo",
@@ -7754,7 +9164,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'07\"",
         weight: "38.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 17.5
     },
     {
         name: "Goodra",
@@ -7765,7 +9177,9 @@ let nationalDex = [
         region: "Kalos",
         height: "6'07\"",
         weight: "331.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 150.5
     },
     {
         name: "Klefki",
@@ -7776,7 +9190,9 @@ let nationalDex = [
         region: "Kalos",
         height: "0'08\"",
         weight: "6.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 3.0
     },
     {
         name: "Phantump",
@@ -7787,7 +9203,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'04\"",
         weight: "15.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 7.0
     },
     {
         name: "Trevenant",
@@ -7798,7 +9216,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'11\"",
         weight: "156.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 71.0
     },
     {
         name: "Pumpkaboo",
@@ -7809,7 +9229,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'04\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.0
     },
     {
         name: "Gourgeist",
@@ -7820,7 +9242,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'11\"",
         weight: "27.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 12.5
     },
     {
         name: "Bergmite",
@@ -7831,7 +9255,9 @@ let nationalDex = [
         region: "Kalos",
         height: "3'03\"",
         weight: "219.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 99.5
     },
     {
         name: "Avalugg",
@@ -7842,7 +9268,9 @@ let nationalDex = [
         region: "Kalos",
         height: "6'07\"",
         weight: "1113.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 505.0
     },
     {
         name: "Noibat",
@@ -7853,7 +9281,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'08\"",
         weight: "17.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 8.0
     },
     {
         name: "Noivern",
@@ -7864,7 +9294,9 @@ let nationalDex = [
         region: "Kalos",
         height: "4'11\"",
         weight: "187.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 85.0
     },
     {
         name: "Xerneas",
@@ -7875,7 +9307,9 @@ let nationalDex = [
         region: "Kalos",
         height: "9'10\"",
         weight: "474.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.0,
+        metricWeight: 215.0
     },
     {
         name: "Yveltal",
@@ -7886,7 +9320,9 @@ let nationalDex = [
         region: "Kalos",
         height: "19'00\"",
         weight: "447.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 5.8,
+        metricWeight: 203.0
     },
     {
         name: "Zygarde",
@@ -7897,7 +9333,9 @@ let nationalDex = [
         region: "Kalos",
         height: "16'05\"",
         weight: "672.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 5.0,
+        metricWeight: 305.0
     },
     {
         name: "Diancie",
@@ -7908,7 +9346,9 @@ let nationalDex = [
         region: "Kalos",
         height: "2'04\"",
         weight: "19.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 8.8
     },
     {
         name: "Hoopa",
@@ -7919,7 +9359,9 @@ let nationalDex = [
         region: "Kalos",
         height: "1'08\"",
         weight: "19.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.0
     },
     {
         name: "Volcanion",
@@ -7930,7 +9372,9 @@ let nationalDex = [
         region: "Kalos",
         height: "5'07\"",
         weight: "429.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 195.0
     },
     {
         name: "Rowlet",
@@ -7941,7 +9385,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "3.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.5
     },
     {
         name: "Dartrix",
@@ -7952,7 +9398,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'04\"",
         weight: "35.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 16.0
     },
     {
         name: "Decidueye",
@@ -7963,7 +9411,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'03\"",
         weight: "80.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 36.6
     },
     {
         name: "Litten",
@@ -7974,7 +9424,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'04\"",
         weight: "9.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.3
     },
     {
         name: "Torracat",
@@ -7985,7 +9437,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'04\"",
         weight: "55.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 25.0
     },
     {
         name: "Incineroar",
@@ -7996,7 +9450,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'11\"",
         weight: "183.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 83.0
     },
     {
         name: "Popplio",
@@ -8007,7 +9463,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'04\"",
         weight: "16.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 7.5
     },
     {
         name: "Brionne",
@@ -8018,7 +9476,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'00\"",
         weight: "38.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 17.5
     },
     {
         name: "Primarina",
@@ -8029,7 +9489,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'11\"",
         weight: "97.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 44.0
     },
     {
         name: "Pikipek",
@@ -8040,7 +9502,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "2.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.2
     },
     {
         name: "Trumbeak",
@@ -8051,7 +9515,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'00\"",
         weight: "32.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 14.8
     },
     {
         name: "Toucannon",
@@ -8062,7 +9528,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'07\"",
         weight: "57.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 26.0
     },
     {
         name: "Yungoos",
@@ -8073,7 +9541,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'04\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 6.0
     },
     {
         name: "Gumshoos",
@@ -8084,7 +9554,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'04\"",
         weight: "31.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 14.2
     },
     {
         name: "Grubbin",
@@ -8095,7 +9567,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'04\"",
         weight: "9.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 4.4
     },
     {
         name: "Charjabug",
@@ -8106,7 +9580,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'08\"",
         weight: "23.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 10.5
     },
     {
         name: "Vikavolt",
@@ -8117,7 +9593,9 @@ let nationalDex = [
         region: "Alola",
         height: "4'11\"",
         weight: "99.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 45.0
     },
     {
         name: "Crabrawler",
@@ -8128,7 +9606,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'00\"",
         weight: "15.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 7.0
     },
     {
         name: "Crabominable",
@@ -8139,7 +9619,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'07\"",
         weight: "396.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.7,
+        metricWeight: 180.0
     },
     {
         name: "Oricorio",
@@ -8150,7 +9632,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'00\"",
         weight: "7.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 3.4
     },
     {
         name: "Cutiefly",
@@ -8161,7 +9645,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'04\"",
         weight: "0.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.1,
+        metricWeight: 0.2
     },
     {
         name: "Ribombee",
@@ -8172,7 +9658,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'08\"",
         weight: "1.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.5
     },
     {
         name: "Rockruff",
@@ -8183,7 +9671,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'08\"",
         weight: "20.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 9.2
     },
     {
         name: "Lycanroc",
@@ -8194,7 +9684,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'07\"",
         weight: "55.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 25.0
     },
     {
         name: "Wishiwashi",
@@ -8205,7 +9697,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'08\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.3
     },
     {
         name: "Mareanie",
@@ -8216,7 +9710,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'04\"",
         weight: "17.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 8.0
     },
     {
         name: "Toxapex",
@@ -8227,7 +9723,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'04\"",
         weight: "32.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 14.5
     },
     {
         name: "Mudbray",
@@ -8238,7 +9736,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'03\"",
         weight: "242.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 110.0
     },
     {
         name: "Mudsdale",
@@ -8249,7 +9749,9 @@ let nationalDex = [
         region: "Alola",
         height: "8'02\"",
         weight: "2028.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.5,
+        metricWeight: 920.0
     },
     {
         name: "Dewpider",
@@ -8260,7 +9762,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 4.0
     },
     {
         name: "Araquanid",
@@ -8271,7 +9775,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'11\"",
         weight: "180.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 82.0
     },
     {
         name: "Fomantis",
@@ -8282,7 +9788,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "3.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.5
     },
     {
         name: "Lurantis",
@@ -8293,7 +9801,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'11\"",
         weight: "40.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 18.5
     },
     {
         name: "Morelull",
@@ -8304,7 +9814,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'08\"",
         weight: "3.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 1.5
     },
     {
         name: "Shiinotic",
@@ -8315,7 +9827,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'03\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 11.5
     },
     {
         name: "Salandit",
@@ -8326,7 +9840,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'00\"",
         weight: "10.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 4.8
     },
     {
         name: "Salazzle",
@@ -8337,7 +9853,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'11\"",
         weight: "48.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 22.2
     },
     {
         name: "Stufful",
@@ -8348,7 +9866,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'08\"",
         weight: "15.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 6.8
     },
     {
         name: "Bewear",
@@ -8359,7 +9879,9 @@ let nationalDex = [
         region: "Alola",
         height: "6'11\"",
         weight: "297.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 135.0
     },
     {
         name: "Bounsweet",
@@ -8370,7 +9892,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "7.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.2
     },
     {
         name: "Steenee",
@@ -8381,7 +9905,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'04\"",
         weight: "18.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 8.2
     },
     {
         name: "Tsareena",
@@ -8392,7 +9918,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'11\"",
         weight: "47.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 21.4
     },
     {
         name: "Comfey",
@@ -8403,7 +9931,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'04\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.1,
+        metricWeight: 0.3
     },
     {
         name: "Oranguru",
@@ -8414,7 +9944,9 @@ let nationalDex = [
         region: "Alola",
         height: "4'11\"",
         weight: "167.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 76.0
     },
     {
         name: "Passimian",
@@ -8425,7 +9957,9 @@ let nationalDex = [
         region: "Alola",
         height: "6'07\"",
         weight: "182.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 82.8
     },
     {
         name: "Wimpod",
@@ -8436,7 +9970,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'08\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 12.0
     },
     {
         name: "Golisopod",
@@ -8447,7 +9983,9 @@ let nationalDex = [
         region: "Alola",
         height: "6'07\"",
         weight: "238.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 108.0
     },
     {
         name: "Sandygast",
@@ -8458,7 +9996,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'08\"",
         weight: "154.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 70.0
     },
     {
         name: "Palossand",
@@ -8469,7 +10009,9 @@ let nationalDex = [
         region: "Alola",
         height: "4'03\"",
         weight: "551.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 250.0
     },
     {
         name: "Pyukumuku",
@@ -8480,7 +10022,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "2.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.2
     },
     {
         name: "Type: Null",
@@ -8491,7 +10035,9 @@ let nationalDex = [
         region: "Alola",
         height: "6'03\"",
         weight: "265.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 120.5
     },
     {
         name: "Silvally",
@@ -8502,7 +10048,9 @@ let nationalDex = [
         region: "Alola",
         height: "7'07\"",
         weight: "221.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.3,
+        metricWeight: 100.5
     },
     {
         name: "Minior",
@@ -8513,7 +10061,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "88.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 40.0
     },
     {
         name: "Komala",
@@ -8524,7 +10074,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'04\"",
         weight: "43.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 19.9
     },
     {
         name: "Turtonator",
@@ -8535,7 +10087,9 @@ let nationalDex = [
         region: "Alola",
         height: "6'07\"",
         weight: "467.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 212.0
     },
     {
         name: "Togedemaru",
@@ -8546,7 +10100,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "7.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.3
     },
     {
         name: "Mimikyu",
@@ -8557,7 +10113,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'08\"",
         weight: "1.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.7
     },
     {
         name: "Bruxish",
@@ -8568,7 +10126,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'11\"",
         weight: "41.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 19.0
     },
     {
         name: "Drampa",
@@ -8579,7 +10139,9 @@ let nationalDex = [
         region: "Alola",
         height: "9'10\"",
         weight: "407.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.0,
+        metricWeight: 185.0
     },
     {
         name: "Dhelmise",
@@ -8590,7 +10152,9 @@ let nationalDex = [
         region: "Alola",
         height: "12'10\"",
         weight: "463.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.9,
+        metricWeight: 210.0
     },
     {
         name: "Jangmo-o",
@@ -8601,7 +10165,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'00\"",
         weight: "65.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 29.7
     },
     {
         name: "Hakamo-o",
@@ -8612,7 +10178,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'11\"",
         weight: "103.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 47.0
     },
     {
         name: "Kommo-o",
@@ -8623,7 +10191,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'03\"",
         weight: "172.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 78.2
     },
     {
         name: "Tapu Koko",
@@ -8634,7 +10204,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'11\"",
         weight: "45.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 20.5
     },
     {
         name: "Tapu Lele",
@@ -8645,7 +10217,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'11\"",
         weight: "41.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 18.6
     },
     {
         name: "Tapu Bulu",
@@ -8656,7 +10230,9 @@ let nationalDex = [
         region: "Alola",
         height: "6'03\"",
         weight: "100.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 45.5
     },
     {
         name: "Tapu Fini",
@@ -8667,7 +10243,9 @@ let nationalDex = [
         region: "Alola",
         height: "4'03\"",
         weight: "46.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 21.2
     },
     {
         name: "Cosmog",
@@ -8678,7 +10256,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'08\"",
         weight: "0.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.1
     },
     {
         name: "Cosmoem",
@@ -8689,7 +10269,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'04\"",
         weight: "2204.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.1,
+        metricWeight: 999.9
     },
     {
         name: "Solgaleo",
@@ -8700,7 +10282,9 @@ let nationalDex = [
         region: "Alola",
         height: "11'02\"",
         weight: "507.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.4,
+        metricWeight: 230.0
     },
     {
         name: "Lunala",
@@ -8711,7 +10295,9 @@ let nationalDex = [
         region: "Alola",
         height: "13'01\"",
         weight: "264.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 4.0,
+        metricWeight: 120.0
     },
     {
         name: "Nihilego",
@@ -8722,7 +10308,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'11\"",
         weight: "122.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 55.5
     },
     {
         name: "Buzzwole",
@@ -8733,7 +10321,9 @@ let nationalDex = [
         region: "Alola",
         height: "7'10\"",
         weight: "735.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.4,
+        metricWeight: 333.6
     },
     {
         name: "Pheromosa",
@@ -8744,7 +10334,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'11\"",
         weight: "55.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 25.0
     },
     {
         name: "Xurkitree",
@@ -8755,7 +10347,9 @@ let nationalDex = [
         region: "Alola",
         height: "12'06\"",
         weight: "220.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.8,
+        metricWeight: 100.0
     },
     {
         name: "Celesteela",
@@ -8766,7 +10360,9 @@ let nationalDex = [
         region: "Alola",
         height: "30'02\"",
         weight: "2204.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 9.2,
+        metricWeight: 999.9
     },
     {
         name: "Kartana",
@@ -8777,7 +10373,9 @@ let nationalDex = [
         region: "Alola",
         height: "1'00\"",
         weight: "0.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.1
     },
     {
         name: "Guzzlord",
@@ -8788,7 +10386,9 @@ let nationalDex = [
         region: "Alola",
         height: "18'01\"",
         weight: "1957.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 5.5,
+        metricWeight: 888.0
     },
     {
         name: "Necrozma",
@@ -8799,7 +10399,9 @@ let nationalDex = [
         region: "Alola",
         height: "7'10\"",
         weight: "507.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.4,
+        metricWeight: 230.0
     },
     {
         name: "Magearna",
@@ -8810,7 +10412,9 @@ let nationalDex = [
         region: "Alola",
         height: "3'03\"",
         weight: "177.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 80.5
     },
     {
         name: "Marshadow",
@@ -8821,7 +10425,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'04\"",
         weight: "48.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 22.2
     },
     {
         name: "Poipole",
@@ -8832,7 +10438,9 @@ let nationalDex = [
         region: "Alola",
         height: "2'00\"",
         weight: "4.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 1.8
     },
     {
         name: "Naganadel",
@@ -8843,7 +10451,9 @@ let nationalDex = [
         region: "Alola",
         height: "11'10\"",
         weight: "330.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.6,
+        metricWeight: 150.0
     },
     {
         name: "Stakataka",
@@ -8854,7 +10464,9 @@ let nationalDex = [
         region: "Alola",
         height: "18'01\"",
         weight: "1807.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 5.5,
+        metricWeight: 820.0
     },
     {
         name: "Blacephalon",
@@ -8865,7 +10477,9 @@ let nationalDex = [
         region: "Alola",
         height: "5'11\"",
         weight: "28.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 13.0
     },
     {
         name: "Zeraora",
@@ -8876,7 +10490,9 @@ let nationalDex = [
         region: "Alola",
         height: "4'11\"",
         weight: "98.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 44.5
     },
     {
         name: "Meltan",
@@ -8887,7 +10503,9 @@ let nationalDex = [
         region: "Alola",
         height: "0'08\"",
         weight: "17.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 8.0
     },
     {
         name: "Melmetal",
@@ -8898,7 +10516,9 @@ let nationalDex = [
         region: "Alola",
         height: "8'02\"",
         weight: "1763.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.5,
+        metricWeight: 800.0
     },
     {
         name: "Grookey",
@@ -8909,7 +10529,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "11.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 5.0
     },
     {
         name: "Thwackey",
@@ -8920,7 +10542,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'04\"",
         weight: "30.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 14.0
     },
     {
         name: "Rillaboom",
@@ -8931,7 +10555,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'11\"",
         weight: "198.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 90.0
     },
     {
         name: "Scorbunny",
@@ -8942,7 +10568,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "9.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 4.5
     },
     {
         name: "Raboot",
@@ -8953,7 +10581,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'00\"",
         weight: "19.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 9.0
     },
     {
         name: "Cinderace",
@@ -8964,7 +10594,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'07\"",
         weight: "72.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 33.0
     },
     {
         name: "Sobble",
@@ -8975,7 +10607,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 4.0
     },
     {
         name: "Drizzile",
@@ -8986,7 +10620,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'04\"",
         weight: "25.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 11.5
     },
     {
         name: "Inteleon",
@@ -8997,7 +10633,9 @@ let nationalDex = [
         region: "Galar",
         height: "6'03\"",
         weight: "99.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 45.2
     },
     {
         name: "Skwovet",
@@ -9008,7 +10646,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "5.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 2.5
     },
     {
         name: "Greedent",
@@ -9019,7 +10659,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'00\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 6.0
     },
     {
         name: "Rookidee",
@@ -9030,7 +10672,9 @@ let nationalDex = [
         region: "Galar",
         height: "0'08\"",
         weight: "4.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 1.8
     },
     {
         name: "Corvisquire",
@@ -9041,7 +10685,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'07\"",
         weight: "35.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 16.0
     },
     {
         name: "Corviknight",
@@ -9052,7 +10698,9 @@ let nationalDex = [
         region: "Galar",
         height: "7'03\"",
         weight: "165.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 75.0
     },
     {
         name: "Blipbug",
@@ -9063,7 +10711,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "17.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 8.0
     },
     {
         name: "Dottler",
@@ -9074,7 +10724,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "43.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 19.5
     },
     {
         name: "Orbeetle",
@@ -9085,7 +10737,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "89.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 40.8
     },
     {
         name: "Nickit",
@@ -9096,7 +10750,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'00\"",
         weight: "19.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 8.9
     },
     {
         name: "Thievul",
@@ -9107,7 +10763,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'11\"",
         weight: "43.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 19.9
     },
     {
         name: "Gossifleur",
@@ -9118,7 +10776,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "4.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 2.2
     },
     {
         name: "Eldegoss",
@@ -9129,7 +10789,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'08\"",
         weight: "5.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 2.5
     },
     {
         name: "Wooloo",
@@ -9140,7 +10802,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'00\"",
         weight: "13.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 6.0
     },
     {
         name: "Dubwool",
@@ -9151,7 +10815,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'03\"",
         weight: "94.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 43.0
     },
     {
         name: "Chewtle",
@@ -9162,7 +10828,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "18.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 8.5
     },
     {
         name: "Drednaw",
@@ -9173,7 +10841,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'03\"",
         weight: "254.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 115.5
     },
     {
         name: "Yamper",
@@ -9184,7 +10854,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "29.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 13.5
     },
     {
         name: "Boltund",
@@ -9195,7 +10867,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'03\"",
         weight: "75.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 34.0
     },
     {
         name: "Rolycoly",
@@ -9206,7 +10880,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 12.0
     },
     {
         name: "Carkol",
@@ -9217,7 +10893,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'07\"",
         weight: "172.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 78.0
     },
     {
         name: "Coalossal",
@@ -9228,7 +10906,9 @@ let nationalDex = [
         region: "Galar",
         height: "9'02\"",
         weight: "684.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.8,
+        metricWeight: 310.5
     },
     {
         name: "Applin",
@@ -9239,7 +10919,9 @@ let nationalDex = [
         region: "Galar",
         height: "0'08\"",
         weight: "1.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.5
     },
     {
         name: "Flapple",
@@ -9250,7 +10932,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.0
     },
     {
         name: "Appletun",
@@ -9261,7 +10945,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "28.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 13.0
     },
     {
         name: "Silicobra",
@@ -9272,7 +10958,9 @@ let nationalDex = [
         region: "Galar",
         height: "7'03\"",
         weight: "16.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 7.6
     },
     {
         name: "Sandaconda",
@@ -9283,7 +10971,9 @@ let nationalDex = [
         region: "Galar",
         height: "12'06\"",
         weight: "144.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.8,
+        metricWeight: 65.5
     },
     {
         name: "Cramorant",
@@ -9294,7 +10984,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'07\"",
         weight: "39.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 18.0
     },
     {
         name: "Arrokuda",
@@ -9305,7 +10997,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'08\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 1.0
     },
     {
         name: "Barraskewda",
@@ -9316,7 +11010,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'03\"",
         weight: "66.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 30.0
     },
     {
         name: "Toxel",
@@ -9327,7 +11023,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "24.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 11.0
     },
     {
         name: "Toxtricity",
@@ -9338,7 +11036,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'03\"",
         weight: "88.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 40.0
     },
     {
         name: "Sizzlipede",
@@ -9349,7 +11049,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'04\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.7,
+        metricWeight: 1.0
     },
     {
         name: "Centiskorch",
@@ -9360,7 +11062,9 @@ let nationalDex = [
         region: "Galar",
         height: "9'10\"",
         weight: "264.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.0,
+        metricWeight: 120.0
     },
     {
         name: "Clobbopus",
@@ -9371,7 +11075,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'00\"",
         weight: "8.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 4.0
     },
     {
         name: "Grapploct",
@@ -9382,7 +11088,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'03\"",
         weight: "86.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 39.0
     },
     {
         name: "Sinistea",
@@ -9393,7 +11101,9 @@ let nationalDex = [
         region: "Galar",
         height: "0'04\"",
         weight: "0.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.1,
+        metricWeight: 0.2
     },
     {
         name: "Polteageist",
@@ -9404,7 +11114,9 @@ let nationalDex = [
         region: "Galar",
         height: "0'08\"",
         weight: "0.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.4
     },
     {
         name: "Hatenna",
@@ -9415,7 +11127,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "7.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 3.4
     },
     {
         name: "Hattrem",
@@ -9426,7 +11140,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'00\"",
         weight: "10.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 4.8
     },
     {
         name: "Hatterene",
@@ -9437,7 +11153,9 @@ let nationalDex = [
         region: "Galar",
         height: "6'11\"",
         weight: "11.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 5.1
     },
     {
         name: "Impidimp",
@@ -9448,7 +11166,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'04\"",
         weight: "12.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.4,
+        metricWeight: 5.5
     },
     {
         name: "Morgrem",
@@ -9459,7 +11179,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'07\"",
         weight: "27.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 12.5
     },
     {
         name: "Grimmsnarl",
@@ -9470,7 +11192,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'11\"",
         weight: "134.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 61.0
     },
     {
         name: "Obstagoon",
@@ -9481,7 +11205,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'03\"",
         weight: "101.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 46.0
     },
     {
         name: "Perrserker",
@@ -9492,7 +11218,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'07\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 28.0
     },
     {
         name: "Cursola",
@@ -9503,7 +11231,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'03\"",
         weight: "0.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.0,
+        metricWeight: 0.4
     },
     {
         name: "Sirfetch'd",
@@ -9514,7 +11244,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'07\"",
         weight: "257.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.8,
+        metricWeight: 117.0
     },
     {
         name: "Mr. Rime",
@@ -9525,7 +11257,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'11\"",
         weight: "128.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.5,
+        metricWeight: 58.2
     },
     {
         name: "Runerigus",
@@ -9536,7 +11270,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'03\"",
         weight: "146.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.6,
+        metricWeight: 66.6
     },
     {
         name: "Milcery",
@@ -9547,7 +11283,9 @@ let nationalDex = [
         region: "Galar",
         height: "0'08\"",
         weight: "0.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.2,
+        metricWeight: 0.3
     },
     {
         name: "Alcremie",
@@ -9558,7 +11296,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "1.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 0.5
     },
     {
         name: "Falinks",
@@ -9569,7 +11309,9 @@ let nationalDex = [
         region: "Galar",
         height: "9'10\"",
         weight: "136.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.0,
+        metricWeight: 62.0
     },
     {
         name: "Pincurchin",
@@ -9580,7 +11322,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "2.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 1.0
     },
     {
         name: "Snom",
@@ -9591,7 +11335,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "8.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.8
     },
     {
         name: "Frosmoth",
@@ -9602,7 +11348,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'03\"",
         weight: "92.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.3,
+        metricWeight: 42.0
     },
     {
         name: "Stonjourner",
@@ -9613,7 +11361,9 @@ let nationalDex = [
         region: "Galar",
         height: "8'02\"",
         weight: "1146.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.5,
+        metricWeight: 520.0
     },
     {
         name: "Eiscue",
@@ -9624,7 +11374,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'07\"",
         weight: "196.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 89.0
     },
     {
         name: "Indeedee",
@@ -9635,7 +11387,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'11\"",
         weight: "61.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.9,
+        metricWeight: 28.0
     },
     {
         name: "Morpeko",
@@ -9646,7 +11400,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'00\"",
         weight: "6.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.3,
+        metricWeight: 3.0
     },
     {
         name: "Cufant",
@@ -9657,7 +11413,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'11\"",
         weight: "220.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 100.0
     },
     {
         name: "Copperajah",
@@ -9668,7 +11426,9 @@ let nationalDex = [
         region: "Galar",
         height: "9'10\"",
         weight: "1433.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.0,
+        metricWeight: 650.0
     },
     {
         name: "Dracozolt",
@@ -9679,7 +11439,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'11\"",
         weight: "418.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 190.0
     },
     {
         name: "Arctozolt",
@@ -9690,7 +11452,9 @@ let nationalDex = [
         region: "Galar",
         height: "7'07\"",
         weight: "330.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.3,
+        metricWeight: 150.0
     },
     {
         name: "Dracovish",
@@ -9701,7 +11465,9 @@ let nationalDex = [
         region: "Galar",
         height: "7'07\"",
         weight: "474.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.3,
+        metricWeight: 215.0
     },
     {
         name: "Arctovish",
@@ -9712,7 +11478,9 @@ let nationalDex = [
         region: "Galar",
         height: "6'07\"",
         weight: "385.8 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 175.0
     },
     {
         name: "Duraludon",
@@ -9723,7 +11491,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'11\"",
         weight: "88.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 40.0
     },
     {
         name: "Dreepy",
@@ -9734,7 +11504,9 @@ let nationalDex = [
         region: "Galar",
         height: "1'08\"",
         weight: "4.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.5,
+        metricWeight: 2.0
     },
     {
         name: "Drakloak",
@@ -9745,7 +11517,9 @@ let nationalDex = [
         region: "Galar",
         height: "4'07\"",
         weight: "24.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.4,
+        metricWeight: 11.0
     },
     {
         name: "Dragapult",
@@ -9756,7 +11530,9 @@ let nationalDex = [
         region: "Galar",
         height: "9'10\"",
         weight: "110.2 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 3.0,
+        metricWeight: 50.0
     },
     {
         name: "Zacian",
@@ -9767,7 +11543,9 @@ let nationalDex = [
         region: "Galar",
         height: "9'02\"",
         weight: "782.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.8,
+        metricWeight: 355.0
     },
     {
         name: "Zamazenta",
@@ -9778,7 +11556,9 @@ let nationalDex = [
         region: "Galar",
         height: "9'06\"",
         weight: "1730.6 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.9,
+        metricWeight: 785.0
     },
     {
         name: "Eternatus",
@@ -9789,7 +11569,9 @@ let nationalDex = [
         region: "Galar",
         height: "65'07\"",
         weight: "2094.4 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 20.0,
+        metricWeight: 950.0
     },
     {
         name: "Kubfu",
@@ -9800,7 +11582,9 @@ let nationalDex = [
         region: "Galar",
         height: "2'00\"",
         weight: "26.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 0.6,
+        metricWeight: 12.0
     },
     {
         name: "Urshifu",
@@ -9811,7 +11595,9 @@ let nationalDex = [
         region: "Galar",
         height: "6'03\"",
         weight: "231.5 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.9,
+        metricWeight: 105.0
     },
     {
         name: "Zarude",
@@ -9822,7 +11608,9 @@ let nationalDex = [
         region: "Galar",
         height: "5'11\"",
         weight: "154.3 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.8,
+        metricWeight: 70.0
     },
     {
         name: "Regieleki",
@@ -9833,7 +11621,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'11\"",
         weight: "319.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.2,
+        metricWeight: 145.0
     },
     {
         name: "Regidrago",
@@ -9844,7 +11634,9 @@ let nationalDex = [
         region: "Galar",
         height: "6'11\"",
         weight: "440.9 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.1,
+        metricWeight: 200.0
     },
     {
         name: "Glastrier",
@@ -9855,7 +11647,9 @@ let nationalDex = [
         region: "Galar",
         height: "7'03\"",
         weight: "1763.7 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.2,
+        metricWeight: 800.0
     },
     {
         name: "Spectrier",
@@ -9866,7 +11660,9 @@ let nationalDex = [
         region: "Galar",
         height: "6'07\"",
         weight: "98.1 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 2.0,
+        metricWeight: 44.5
     },
     {
         name: "Calyrex",
@@ -9877,7 +11673,9 @@ let nationalDex = [
         region: "Galar",
         height: "3'07\"",
         weight: "17.0 lbs.",
-        favorites: false
+        favorites: false,
+        metricHeight: 1.1,
+        metricWeight: 7.7
     }
 ]
 
@@ -9973,6 +11771,35 @@ nationalDex.forEach((pocketMonster) => {
 dexRender(sortedNumber)
 }
 
+let sortHeight = document.getElementById("sortHeight")
+sortHeight.addEventListener("click", sortTall)
+function sortTall(event){
+    event.preventDefault()
+
+let sortedHeight = nationalDex.sort((a, b) => {
+    return a.metricHeight - b.metricHeight;
+});
+nationalDex.forEach((pocketMonster) => {
+    console.log(`${pocketMonster.height}`);
+    
+});
+dexRender(sortedHeight)
+}
+
+let sortWeight = document.getElementById("sortWeight")
+sortWeight.addEventListener("click", sortHeavy)
+function sortHeavy(event){
+    event.preventDefault()
+
+let sortedWeight = nationalDex.sort((a, b) => {
+    return a.metricWeight - b.metricWeight;
+});
+nationalDex.forEach((pocketMonster) => {
+    console.log(`${pocketMonster.weight}`);
+    
+});
+dexRender(sortedWeight)
+}
 
 let search = document.getElementById("searchButton")
 search.addEventListener("click", searchFilter)
