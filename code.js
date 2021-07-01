@@ -10980,7 +10980,7 @@ let nationalDex = [
         imageUrl: "images/845Cramorant.png",
         number: "845",
         type: ["Flying", "Water"],
-        category: "Sand Snake",
+        category: "Gulp",
         region: "Galar",
         height: "2'07\"",
         weight: "39.7 lbs.",
