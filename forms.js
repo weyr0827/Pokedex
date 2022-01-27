@@ -822,6 +822,16 @@ let nationalDex = [
         weight: "41.9 lbs."
     },
     {
+        name: "Hisuian Growlithe",
+        imageUrl: "forms/058Growlithe-Hisui.png",
+        number: "058",
+        type: ["Fire", "Rock"],
+        category: "Scout",
+        region: "Kanto",
+        height: "2'07\"",
+        weight: "50.0 lbs."
+    },
+    {
         name: "Arcanine",
         imageUrl: "images/059Arcanine.png",
         number: "059",
@@ -830,6 +840,16 @@ let nationalDex = [
         region: "Kanto",
         height: "6'03\"",
         weight: "341.7 lbs."
+    },
+    {
+        name: "Hisuian Arcanine",
+        imageUrl: "forms/059Arcanine-Hisui.png",
+        number: "059",
+        type: ["Fire", "Rock"],
+        category: "Legendary",
+        region: "Kanto",
+        height: "6'07\"",
+        weight: "370.4 lbs."
     },
     {
         name: "Poliwag",
@@ -1402,6 +1422,16 @@ let nationalDex = [
         weight: "22.9 lbs."
     },
     {
+        name: "Hisuian Voltorb",
+        imageUrl: "forms/100Voltorb-Hisui.png",
+        number: "100",
+        type: ["Electric", "Grass"],
+        category: "Sphere",
+        region: "Kanto",
+        height: "1'08\"",
+        weight: "28.7 lbs."
+    },
+    {
         name: "Electrode",
         imageUrl: "images/101Electrode.png",
         number: "101",
@@ -1410,6 +1440,16 @@ let nationalDex = [
         region: "Kanto",
         height: "3'11\"",
         weight: "146.8 lbs."
+    },
+    {
+        name: "Hisuian Electrode",
+        imageUrl: "forms/101Electrode-Hisui.png",
+        number: "101",
+        type: ["Electric", "Grass"],
+        category: "Sphere",
+        region: "Kanto",
+        height: "3'11\"",
+        weight: "156.5 lbs."
     },
     {
         name: "Exeggcute",
@@ -2132,6 +2172,16 @@ let nationalDex = [
         weight: "175.3 lbs."
     },
     {
+        name: "Hisuian Typhlosion",
+        imageUrl: "forms/157Typhlosion-Hisui.png",
+        number: "157",
+        type: ["Fire", "Ghost"],
+        category: "Ghost Flame",
+        region: "Johto",
+        height: "5'03\"",
+        weight: "153.9 lbs."
+    },
+    {
         name: "Totodile",
         imageUrl: "images/158Totodile.png",
         number: "158",
@@ -2702,6 +2752,16 @@ let nationalDex = [
         weight: "8.6 lbs."
     },
     {
+        name: "Hisuian Qwilfish",
+        imageUrl: "forms/211Qwilfish-Hisui.png",
+        number: "211",
+        type: ["Dark", "Poison"],
+        category: "Spinning",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "8.6 lbs."
+    },
+    {
         name: "Scizor",
         imageUrl: "images/212Scizor.png",
         number: "212",
@@ -2760,6 +2820,16 @@ let nationalDex = [
         region: "Johto",
         height: "2'11\"",
         weight: "61.7 lbs."
+    },
+    {
+        name: "Hisuian Sneasel",
+        imageUrl: "forms/215Sneasel-Hisui.png",
+        number: "215",
+        type: ["Poison", "Fighting"],
+        category: "Mellow",
+        region: "Johto",
+        height: "2'11\"",
+        weight: "59.5 lbs."
     },
     {
         name: "Teddiursa",
@@ -5942,6 +6012,16 @@ let nationalDex = [
         weight: "1505.8 lbs."
     },
     {
+        name: "Dialga (Origin Forme)",
+        imageUrl: "forms/483Dialga-Origin.png",
+        number: "483",
+        type: ["Steel", "Dragon"],
+        category: "Temporal",
+        region: "Sinnoh",
+        height: "23'00\"",
+        weight: "1873.9 lbs."
+    },
+    {
         name: "Palkia",
         imageUrl: "images/484Palkia.png",
         number: "484",
@@ -5950,6 +6030,16 @@ let nationalDex = [
         region: "Sinnoh",
         height: "13'09\"",
         weight: "740.8 lbs."
+    },
+    {
+        name: "Palkia (Origin Forme)",
+        imageUrl: "forms/484Palkia-Origin.png",
+        number: "484",
+        type: ["Water", "Dragon"],
+        category: "Spatial",
+        region: "Sinnoh",
+        height: "20'08\"",
+        weight: "1455.1 lbs."
     },
     {
         name: "Heatran",
@@ -6160,6 +6250,16 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "208.6 lbs."
+    },
+    {
+        name: "Hisuian Samurott",
+        imageUrl: "forms/503Samurott-Hisui.png",
+        number: "503",
+        type: ["Water", "Dark"],
+        category: "Formidable",
+        region: "Unova",
+        height: "4'11\"",
+        weight: "128.3 lbs."
     },
     {
         name: "Patrat",
@@ -6642,6 +6742,16 @@ let nationalDex = [
         weight: "35.9 lbs."
     },
     {
+        name: "Hisuian Lilligant",
+        imageUrl: "forms/549Lilligant-Hisui.png",
+        number: "549",
+        type: ["Grass", "Fighting"],
+        category: "Flowering",
+        region: "Unova",
+        height: "3'11\"",
+        weight: "42.3 lbs."
+    },
+    {
         name: "Red-Striped Basculin",
         imageUrl: "images/550Basculin.png",
         number: "550",
@@ -6654,6 +6764,16 @@ let nationalDex = [
     {
         name: "Blue-Striped Basculin",
         imageUrl: "forms/550Basculin-Blue.png",
+        number: "550",
+        type: ["Water"],
+        category: "Hostile",
+        region: "Unova",
+        height: "3'03\"",
+        weight: "39.7 lbs."
+    },
+    {
+        name: "White-Striped Basculin",
+        imageUrl: "forms/550Basculin-White.png",
         number: "550",
         type: ["Water"],
         category: "Hostile",
@@ -6922,6 +7042,16 @@ let nationalDex = [
         weight: "27.6 lbs."
     },
     {
+        name: "Hisuian Zorua",
+        imageUrl: "forms/570Zorua-Hisui.png",
+        number: "570",
+        type: ["Normal", "Ghost"],
+        category: "Spiteful Fox",
+        region: "Unova",
+        height: "2'04\"",
+        weight: "12.5 lbs."
+    },
+    {
         name: "Zoroark",
         imageUrl: "images/571Zoroark.png",
         number: "571",
@@ -6930,6 +7060,16 @@ let nationalDex = [
         region: "Unova",
         height: "5'03\"",
         weight: "178.8 lbs."
+    },
+    {
+        name: "Hisuian Zoroark",
+        imageUrl: "forms/571Zoroark-Hisui.png",
+        number: "571",
+        type: ["Normal", "Ghost"],
+        category: "Baneful Fox",
+        region: "Unova",
+        height: "5'03\"",
+        weight: "160.9 lbs."
     },
     {
         name: "Minccino",
@@ -7590,6 +7730,16 @@ let nationalDex = [
         region: "Unova",
         height: "4'11\"",
         weight: "90.4 lbs."
+    },
+    {
+        name: "Hisuian Braviary",
+        imageUrl: "forms/628Braviary-Hisui.png",
+        number: "628",
+        type: ["Psychic", "Flying"],
+        category: "Battle Cry",
+        region: "Unova",
+        height: "5'07\"",
+        weight: "95.7 lbs."
     },
     {
         name: "Vullaby",
@@ -8472,6 +8622,16 @@ let nationalDex = [
         weight: "38.6 lbs."
     },
     {
+        name: "Hisuian Sliggoo",
+        imageUrl: "forms/705Sliggoo-Hisui.png",
+        number: "705",
+        type: ["Dragon", "Steel"],
+        category: "Snail",
+        region: "Kalos",
+        height: "2'04\"",
+        weight: "151.0 lbs."
+    },
+    {
         name: "Goodra",
         imageUrl: "images/706Goodra.png",
         number: "706",
@@ -8480,6 +8640,16 @@ let nationalDex = [
         region: "Kalos",
         height: "6'07\"",
         weight: "331.8 lbs."
+    },
+    {
+        name: "Hisuian Goodra",
+        imageUrl: "forms/706Goodra-Hisui.png",
+        number: "706",
+        type: ["Dragon", "Steel"],
+        category: "Shell Bunker",
+        region: "Kalos",
+        height: "5'07\"",
+        weight: "736.6 lbs."
     },
     {
         name: "Klefki",
@@ -8550,6 +8720,16 @@ let nationalDex = [
         region: "Kalos",
         height: "6'07\"",
         weight: "1113.3 lbs."
+    },
+    {
+        name: "Hisuian Avalugg",
+        imageUrl: "forms/713Avalugg-Hisui.png",
+        number: "713",
+        type: ["Ice", "Rock"],
+        category: "Iceberg",
+        region: "Kalos",
+        height: "4'07\"",
+        weight: "578.5 lbs."
     },
     {
         name: "Noibat",
@@ -8700,6 +8880,16 @@ let nationalDex = [
         region: "Alola",
         height: "5'03\"",
         weight: "80.7 lbs."
+    },
+    {
+        name: "Hisuian Decidueye",
+        imageUrl: "forms/724Decidueye-Hisui.png",
+        number: "724",
+        type: ["Grass", "Fighting"],
+        category: "Arrow Quill",
+        region: "Alola",
+        height: "5'03\"",
+        weight: "81.6 lbs."
     },
     {
         name: "Litten",
@@ -10840,6 +11030,96 @@ let nationalDex = [
         region: "Galar",
         height: "7'10\"",
         weight: "118.2 lbs."
+    },
+    {
+        name: "Wyrdeer",
+        imageUrl: "images/899Wyrdeer.png",
+        number: "899",
+        type: ["Normal", "Psychic"],
+        category: "Big Horn",
+        region: "Galar",
+        height: "5'11\"",
+        weight: "209.7 lbs."
+    },
+    {
+        name: "Kleavor",
+        imageUrl: "images/900Kleavor.png",
+        number: "900",
+        type: ["Bug", "Rock"],
+        category: "Axe",
+        region: "Galar",
+        height: "5'11\"",
+        weight: "129.2 lbs."
+    },
+    {
+        name: "Ursaluna",
+        imageUrl: "images/901Ursaluna.png",
+        number: "901",
+        type: ["Normal", "Ground"],
+        category: "Peat",
+        region: "Galar",
+        height: "7'10\"",
+        weight: "639.3 lbs."
+    },
+    {
+        name: "Basculegion (Male)",
+        imageUrl: "images/902Basculegion.png",
+        number: "902",
+        type: ["Water", "Ghost"],
+        category: "Big Fish",
+        region: "Galar",
+        height: "9'10\"",
+        weight: "242.5 lbs."
+    },
+    {
+        name: "Basculegion (Female)",
+        imageUrl: "forms/902Basculegion-Female.png",
+        number: "902",
+        type: ["Water", "Ghost"],
+        category: "Big Fish",
+        region: "Galar",
+        height: "9'10\"",
+        weight: "242.5 lbs."
+    },
+    {
+        name: "Sneasler",
+        imageUrl: "images/903Sneasler.png",
+        number: "903",
+        type: ["Poison", "Fighting"],
+        category: "Free Climb",
+        region: "Galar",
+        height: "4'03\"",
+        weight: "94.8 lbs."
+    },
+    {
+        name: "Overqwil",
+        imageUrl: "images/904Overqwil.png",
+        number: "904",
+        type: ["Dark", "Poison"],
+        category: "Pin Cluster",
+        region: "Galar",
+        height: "8'02\"",
+        weight: "133.4 lbs."
+    },
+    {
+        name: "Enamorus (Incarnate Forme)",
+        imageUrl: "images/905Enamorus.png",
+        number: "905",
+        type: ["Fairy", "Flying"],
+        category: "Love-Hate",
+        region: "Galar",
+        height: "5'03\"",
+        weight: "105.8 lbs."
+    },
+    {
+        name: "Enamorus (Therian Forme)",
+        imageUrl: "forms/905Enamorus-Therian.png",
+        number: "905",
+        type: ["Fairy", "Flying"],
+        category: "Love-Hate",
+        region: "Galar",
+        height: "5'03\"",
+        weight: "105.8 lbs."
     }
 ]
 
