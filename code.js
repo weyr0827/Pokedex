@@ -13506,7 +13506,7 @@ let nationalDex = {
         name: "Ursaluna",
         imageUrl: "images/901Ursaluna.png",
         number: "901",
-        type: ["Normal", "Ground"],
+        type: ["Ground", "Normal"],
         category: "Peat",
         region: "Other",
         generation: "8",
