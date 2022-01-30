@@ -13536,7 +13536,7 @@ let nationalDex = {
         name: "Sneasler",
         imageUrl: "images/903Sneasler.png",
         number: "903",
-        type: ["Poison", "Fighting"],
+        type: ["Fighting", "Poison"],
         category: "Free Climb",
         region: "Other",
         generation: "8",
