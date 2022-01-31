@@ -2756,7 +2756,7 @@ let nationalDex = [
         imageUrl: "forms/211Qwilfish-Hisui.png",
         number: "211",
         type: ["Dark", "Poison"],
-        category: "Spinning",
+        category: "Balloon",
         region: "Johto",
         height: "1'08\"",
         weight: "8.6 lbs."
@@ -2826,7 +2826,7 @@ let nationalDex = [
         imageUrl: "forms/215Sneasel-Hisui.png",
         number: "215",
         type: ["Fighting", "Poison"],
-        category: "Mellow",
+        category: "Sharp Claw",
         region: "Johto",
         height: "2'11\"",
         weight: "59.5 lbs."
@@ -6776,7 +6776,7 @@ let nationalDex = [
         imageUrl: "forms/550Basculin-White.png",
         number: "550",
         type: ["Water"],
-        category: "Hostile",
+        category: "Mellow",
         region: "Unova",
         height: "3'03\"",
         weight: "39.7 lbs."
