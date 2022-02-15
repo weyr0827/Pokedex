@@ -2632,8 +2632,278 @@ let nationalDex = [
         weight: "2.2 lbs."
     },
     {
-        name: "Unown",
+        name: "Unown A",
+        imageUrl: "forms/201Unown-A.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown B",
+        imageUrl: "forms/201Unown-B.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown C",
+        imageUrl: "forms/201Unown-C.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown D",
+        imageUrl: "forms/201Unown-D.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown E",
+        imageUrl: "forms/201Unown-E.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown F",
         imageUrl: "images/201Unown.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown G",
+        imageUrl: "forms/201Unown-G.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown H",
+        imageUrl: "forms/201Unown-H.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown I",
+        imageUrl: "forms/201Unown-I.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown J",
+        imageUrl: "forms/201Unown-J.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown K",
+        imageUrl: "forms/201Unown-K.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown L",
+        imageUrl: "forms/201Unown-L.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown M",
+        imageUrl: "forms/201Unown-M.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown N",
+        imageUrl: "forms/201Unown-N.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown O",
+        imageUrl: "forms/201Unown-O.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown P",
+        imageUrl: "forms/201Unown-P.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown Q",
+        imageUrl: "forms/201Unown-Q.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown R",
+        imageUrl: "forms/201Unown-R.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown S",
+        imageUrl: "forms/201Unown-S.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown T",
+        imageUrl: "forms/201Unown-T.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown U",
+        imageUrl: "forms/201Unown-U.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown V",
+        imageUrl: "forms/201Unown-V.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown W",
+        imageUrl: "forms/201Unown-W.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown X",
+        imageUrl: "forms/201Unown-X.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown Y",
+        imageUrl: "forms/201Unown-Y.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown Z",
+        imageUrl: "forms/201Unown-Z.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown !",
+        imageUrl: "forms/201Unown-Exclamation.png",
+        number: "201",
+        type: ["Psychic"],
+        category: "Symbol",
+        region: "Johto",
+        height: "1'08\"",
+        weight: "11.0 lbs."
+    },
+    {
+        name: "Unown ?",
+        imageUrl: "forms/201Unown-Question.png",
         number: "201",
         type: ["Psychic"],
         category: "Symbol",
@@ -6142,10 +6412,180 @@ let nationalDex = [
         weight: "11.5 lbs."
     },
     {
-        name: "Arceus",
+        name: "Arceus (Blank Plate)",
         imageUrl: "images/493Arceus.png",
         number: "493",
         type: ["Normal"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Flame Plate)",
+        imageUrl: "forms/493Arceus-Fire.png",
+        number: "493",
+        type: ["Fire"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Splash Plate)",
+        imageUrl: "forms/493Arceus-Water.png",
+        number: "493",
+        type: ["Water"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Zap Plate)",
+        imageUrl: "forms/493Arceus-Electric.png",
+        number: "493",
+        type: ["Electric"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Meadow Plate)",
+        imageUrl: "forms/493Arceus-Grass.png",
+        number: "493",
+        type: ["Grass"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Icicle Plate)",
+        imageUrl: "forms/493Arceus-Ice.png",
+        number: "493",
+        type: ["Ice"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Fist Plate)",
+        imageUrl: "forms/493Arceus-Fighting.png",
+        number: "493",
+        type: ["Fighting"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Toxic Plate)",
+        imageUrl: "forms/493Arceus-Poison.png",
+        number: "493",
+        type: ["Poison"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Earth Plate)",
+        imageUrl: "forms/493Arceus-Ground.png",
+        number: "493",
+        type: ["Ground"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Sky Plate)",
+        imageUrl: "forms/493Arceus-Flying.png",
+        number: "493",
+        type: ["Flying"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Mind Plate)",
+        imageUrl: "forms/493Arceus-Psychic.png",
+        number: "493",
+        type: ["Psychic"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Insect Plate)",
+        imageUrl: "forms/493Arceus-Bug.png",
+        number: "493",
+        type: ["Bug"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Stone Plate)",
+        imageUrl: "forms/493Arceus-Rock.png",
+        number: "493",
+        type: ["Rock"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Spooky Plate)",
+        imageUrl: "forms/493Arceus-Ghost.png",
+        number: "493",
+        type: ["Ghost"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Draco Plate)",
+        imageUrl: "forms/493Arceus-Dragon.png",
+        number: "493",
+        type: ["Dragon"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Dread Plate)",
+        imageUrl: "forms/493Arceus-Dark.png",
+        number: "493",
+        type: ["Dark"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Iron Plate)",
+        imageUrl: "forms/493Arceus-Steel.png",
+        number: "493",
+        type: ["Steel"],
+        category: "Alpha",
+        region: "Sinnoh",
+        height: "10'06\"",
+        weight: "705.5 lbs."
+    },
+    {
+        name: "Arceus (Pixie Plate)",
+        imageUrl: "forms/493Arceus-Fairy.png",
+        number: "493",
+        type: ["Fairy"],
         category: "Alpha",
         region: "Sinnoh",
         height: "10'06\"",
@@ -8022,6 +8462,46 @@ let nationalDex = [
         weight: "181.9 lbs."
     },
     {
+        name: "Douse Drive Genesect",
+        imageUrl: "forms/649Genesect-Douse.png",
+        number: "649",
+        type: ["Bug", "Steel"],
+        category: "Paleozoic",
+        region: "Unova",
+        height: "4'11\"",
+        weight: "181.9 lbs."
+    },
+    {
+        name: "Shock Drive Genesect",
+        imageUrl: "forms/649Genesect-Shock.png",
+        number: "649",
+        type: ["Bug", "Steel"],
+        category: "Paleozoic",
+        region: "Unova",
+        height: "4'11\"",
+        weight: "181.9 lbs."
+    },
+    {
+        name: "Burn Drive Genesect",
+        imageUrl: "forms/649Genesect-Burn.png",
+        number: "649",
+        type: ["Bug", "Steel"],
+        category: "Paleozoic",
+        region: "Unova",
+        height: "4'11\"",
+        weight: "181.9 lbs."
+    },
+    {
+        name: "Chill Drive Genesect",
+        imageUrl: "forms/649Genesect-Chill.png",
+        number: "649",
+        type: ["Bug", "Steel"],
+        category: "Paleozoic",
+        region: "Unova",
+        height: "4'11\"",
+        weight: "181.9 lbs."
+    },
+    {
         name: "Chespin",
         imageUrl: "images/650Chespin.png",
         number: "650",
@@ -8192,8 +8672,198 @@ let nationalDex = [
         weight: "18.5 lbs."
     },
     {
-        name: "Vivillon",
+        name: "Vivillon (Meadow Pattern)",
         imageUrl: "images/666Vivillon.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Archipelago Pattern)",
+        imageUrl: "forms/666Vivillon-Archipelago.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Continental Pattern)",
+        imageUrl: "forms/666Vivillon-Continental.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Elegant Pattern)",
+        imageUrl: "forms/666Vivillon-Elegant.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Fancy Pattern)",
+        imageUrl: "forms/666Vivillon-Fancy.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Garden Pattern)",
+        imageUrl: "forms/666Vivillon-Garden.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (High Plains Pattern)",
+        imageUrl: "forms/666Vivillon-HighPlains.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Icy Snow Pattern)",
+        imageUrl: "forms/666Vivillon-IcySnow.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Jungle Pattern)",
+        imageUrl: "forms/666Vivillon-Jungle.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Marine Pattern)",
+        imageUrl: "forms/666Vivillon-Marine.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Modern Pattern)",
+        imageUrl: "forms/666Vivillon-Modern.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Monsoon Pattern)",
+        imageUrl: "forms/666Vivillon-Monsoon.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Ocean Pattern)",
+        imageUrl: "forms/666Vivillon-Ocean.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Poké Ball Pattern)",
+        imageUrl: "forms/666Vivillon-PokeBall.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Polar Pattern)",
+        imageUrl: "forms/666Vivillon-Polar.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (River Pattern)",
+        imageUrl: "forms/666Vivillon-River.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Sandstorm Pattern)",
+        imageUrl: "forms/666Vivillon-Sandstorm.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Savanna Pattern)",
+        imageUrl: "forms/666Vivillon-Savanna.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Sun Pattern)",
+        imageUrl: "forms/666Vivillon-Sun.png",
+        number: "666",
+        type: ["Bug", "Flying"],
+        category: "Scale",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "37.5 lbs."
+    },
+    {
+        name: "Vivillon (Tundra Pattern)",
+        imageUrl: "forms/666Vivillon-Tundra.png",
         number: "666",
         type: ["Bug", "Flying"],
         category: "Scale",
@@ -8232,7 +8902,7 @@ let nationalDex = [
         weight: "179.7 lbs."
     },
     {
-        name: "Flabébé",
+        name: "Flabébé (Red Flower)",
         imageUrl: "images/669Flabebe.png",
         number: "669",
         type: ["Fairy"],
@@ -8242,7 +8912,47 @@ let nationalDex = [
         weight: "0.2 lbs."
     },
     {
-        name: "Floette",
+        name: "Flabébé (Yellow Flower)",
+        imageUrl: "forms/669Flabebe-Yellow.png",
+        number: "669",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'04\"",
+        weight: "0.2 lbs."
+    },
+    {
+        name: "Flabébé (Orange Flower)",
+        imageUrl: "forms/669Flabebe-Orange.png",
+        number: "669",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'04\"",
+        weight: "0.2 lbs."
+    },
+    {
+        name: "Flabébé (Blue Flower)",
+        imageUrl: "forms/669Flabebe-Blue.png",
+        number: "669",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'04\"",
+        weight: "0.2 lbs."
+    },
+    {
+        name: "Flabébé (White Flower)",
+        imageUrl: "forms/669Flabebe-White.png",
+        number: "669",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'04\"",
+        weight: "0.2 lbs."
+    },
+    {
+        name: "Floette (Red Flower)",
         imageUrl: "images/670Floette.png",
         number: "670",
         type: ["Fairy"],
@@ -8252,8 +8962,88 @@ let nationalDex = [
         weight: "2.0 lbs."
     },
     {
-        name: "Florges",
+        name: "Floette (Yellow Flower)",
+        imageUrl: "forms/670Floette-Yellow.png",
+        number: "670",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "2.0 lbs."
+    },
+    {
+        name: "Floette (Orange Flower)",
+        imageUrl: "forms/670Floette-Orange.png",
+        number: "670",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "2.0 lbs."
+    },
+    {
+        name: "Floette (Blue Flower)",
+        imageUrl: "forms/670Floette-Blue.png",
+        number: "670",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "2.0 lbs."
+    },
+    {
+        name: "Floette (White Flower)",
+        imageUrl: "forms/670Floette-White.png",
+        number: "670",
+        type: ["Fairy"],
+        category: "Single Bloom",
+        region: "Kalos",
+        height: "0'08\"",
+        weight: "2.0 lbs."
+    },
+    {
+        name: "Florges (Red Flower)",
         imageUrl: "images/671Florges.png",
+        number: "671",
+        type: ["Fairy"],
+        category: "Garden",
+        region: "Kalos",
+        height: "3'07\"",
+        weight: "22.0 lbs."
+    },
+    {
+        name: "Florges (Yellow Flower)",
+        imageUrl: "forms/671Florges-Yellow.png",
+        number: "671",
+        type: ["Fairy"],
+        category: "Garden",
+        region: "Kalos",
+        height: "3'07\"",
+        weight: "22.0 lbs."
+    },
+    {
+        name: "Florges (Orange Flower)",
+        imageUrl: "forms/671Florges-Orange.png",
+        number: "671",
+        type: ["Fairy"],
+        category: "Garden",
+        region: "Kalos",
+        height: "3'07\"",
+        weight: "22.0 lbs."
+    },
+    {
+        name: "Florges (Blue Flower)",
+        imageUrl: "forms/671Florges-Blue.png",
+        number: "671",
+        type: ["Fairy"],
+        category: "Garden",
+        region: "Kalos",
+        height: "3'07\"",
+        weight: "22.0 lbs."
+    },
+    {
+        name: "Florges (White Flower)",
+        imageUrl: "forms/671Florges-White.png",
         number: "671",
         type: ["Fairy"],
         category: "Garden",
@@ -8304,6 +9094,96 @@ let nationalDex = [
     {
         name: "Furfrou",
         imageUrl: "images/676Furfrou.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Heart Trim)",
+        imageUrl: "forms/676Furfrou-Heart.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Star Trim)",
+        imageUrl: "forms/676Furfrou-Star.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Diamond Trim)",
+        imageUrl: "forms/676Furfrou-Diamond.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Debutante Trim)",
+        imageUrl: "forms/676Furfrou-Debutante.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Matron Trim)",
+        imageUrl: "forms/676Furfrou-Matron.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Dandy Trim)",
+        imageUrl: "forms/676Furfrou-Dandy.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (La Reine Trim)",
+        imageUrl: "forms/676Furfrou-LaReine.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Kabuki Trim)",
+        imageUrl: "forms/676Furfrou-Kabuki.png",
+        number: "676",
+        type: ["Normal"],
+        category: "Poodle",
+        region: "Kalos",
+        height: "3'11\"",
+        weight: "61.7 lbs."
+    },
+    {
+        name: "Furfrou (Pharaoh Trim)",
+        imageUrl: "forms/676Furfrou-Pharaoh.png",
         number: "676",
         type: ["Normal"],
         category: "Poodle",
@@ -8682,7 +9562,17 @@ let nationalDex = [
         weight: "156.5 lbs."
     },
     {
-        name: "Pumpkaboo",
+        name: "Pumpkaboo (Small Size)",
+        imageUrl: "forms/710Pumpkaboo-Small.png",
+        number: "710",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos",
+        height: "1'00\"",
+        weight: "7.7 lbs."
+    },
+    {
+        name: "Pumpkaboo (Average Size)",
         imageUrl: "images/710Pumpkaboo.png",
         number: "710",
         type: ["Ghost", "Grass"],
@@ -8692,7 +9582,37 @@ let nationalDex = [
         weight: "11.0 lbs."
     },
     {
-        name: "Gourgeist",
+        name: "Pumpkaboo (Large Size)",
+        imageUrl: "forms/710Pumpkaboo-Large.png",
+        number: "710",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos",
+        height: "1'08\"",
+        weight: "16.5 lbs."
+    },
+    {
+        name: "Pumpkaboo (Super Size)",
+        imageUrl: "forms/710Pumpkaboo-Super.png",
+        number: "710",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos",
+        height: "2'07\"",
+        weight: "33.1 lbs."
+    },
+    {
+        name: "Gourgeist (Small Size)",
+        imageUrl: "forms/711Gourgeist-Small.png",
+        number: "711",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos",
+        height: "2'04\"",
+        weight: "20.9 lbs."
+    },
+    {
+        name: "Gourgeist (Average Size)",
         imageUrl: "images/711Gourgeist.png",
         number: "711",
         type: ["Ghost", "Grass"],
@@ -8700,6 +9620,26 @@ let nationalDex = [
         region: "Kalos",
         height: "2'11\"",
         weight: "27.6 lbs."
+    },
+    {
+        name: "Gourgeist (Large Size)",
+        imageUrl: "forms/711Gourgeist-Large.png",
+        number: "711",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos",
+        height: "3'07\"",
+        weight: "30.9 lbs."
+    },
+    {
+        name: "Gourgeist (Super Size)",
+        imageUrl: "forms/711Gourgeist-Super.png",
+        number: "711",
+        type: ["Ghost", "Grass"],
+        category: "Pumpkin",
+        region: "Kalos",
+        height: "5'07\"",
+        weight: "86.0 lbs."
     },
     {
         name: "Bergmite",
@@ -8752,8 +9692,18 @@ let nationalDex = [
         weight: "187.4 lbs."
     },
     {
-        name: "Xerneas",
+        name: "Xerneas (Active Mode)",
         imageUrl: "images/716Xerneas.png",
+        number: "716",
+        type: ["Fairy"],
+        category: "Life",
+        region: "Kalos",
+        height: "9'10\"",
+        weight: "474.0 lbs."
+    },
+    {
+        name: "Xerneas (Neutral Mode)",
+        imageUrl: "forms/716Xerneas-Neutral.png",
         number: "716",
         type: ["Fairy"],
         category: "Life",
@@ -9442,6 +10392,176 @@ let nationalDex = [
         weight: "221.6 lbs."
     },
     {
+        name: "Silvally (Fire Memory)",
+        imageUrl: "forms/773Silvally-Fire.png",
+        number: "773",
+        type: ["Fire"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Water Memory)",
+        imageUrl: "forms/773Silvally-Water.png",
+        number: "773",
+        type: ["Water"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Electric Memory)",
+        imageUrl: "forms/773Silvally-Electric.png",
+        number: "773",
+        type: ["Electric"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Grass Memory)",
+        imageUrl: "forms/773Silvally-Grass.png",
+        number: "773",
+        type: ["Grass"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Ice Memory)",
+        imageUrl: "forms/773Silvally-Ice.png",
+        number: "773",
+        type: ["Ice"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Fighting Memory)",
+        imageUrl: "forms/773Silvally-Fighting.png",
+        number: "773",
+        type: ["Fighting"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Poison Memory)",
+        imageUrl: "forms/773Silvally-Poison.png",
+        number: "773",
+        type: ["Poison"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Ground Memory)",
+        imageUrl: "forms/773Silvally-Ground.png",
+        number: "773",
+        type: ["Ground"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Flying Memory)",
+        imageUrl: "forms/773Silvally-Flying.png",
+        number: "773",
+        type: ["Flying"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Psychic Memory)",
+        imageUrl: "forms/773Silvally-Psychic.png",
+        number: "773",
+        type: ["Psychic"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Bug Memory)",
+        imageUrl: "forms/773Silvally-Bug.png",
+        number: "773",
+        type: ["Bug"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Rock Memory)",
+        imageUrl: "forms/773Silvally-Rock.png",
+        number: "773",
+        type: ["Rock"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Ghost Memory)",
+        imageUrl: "forms/773Silvally-Ghost.png",
+        number: "773",
+        type: ["Ghost"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Dragon Memory)",
+        imageUrl: "forms/773Silvally-Dragon.png",
+        number: "773",
+        type: ["Dragon"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Dark Memory)",
+        imageUrl: "forms/773Silvally-Dark.png",
+        number: "773",
+        type: ["Dark"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Steel Memory)",
+        imageUrl: "forms/773Silvally-Steel.png",
+        number: "773",
+        type: ["Steel"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
+        name: "Silvally (Fairy Memory)",
+        imageUrl: "forms/773Silvally-Fairy.png",
+        number: "773",
+        type: ["Fairy"],
+        category: "Synthetic",
+        region: "Alola",
+        height: "7'07\"",
+        weight: "221.6 lbs."
+    },
+    {
         name: "Minior",
         imageUrl: "images/774Minior.png",
         number: "774",
@@ -9452,8 +10572,68 @@ let nationalDex = [
         weight: "88.2 lbs."
     },
     {
-        name: "Minior (Core)",
+        name: "Minior (Red Core)",
         imageUrl: "forms/774Minior-Core.png",
+        number: "774",
+        type: ["Rock", "Flying"],
+        category: "Meteor",
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.7 lbs."
+    },
+    {
+        name: "Minior (Orange Core)",
+        imageUrl: "forms/774Minior-Orange.png",
+        number: "774",
+        type: ["Rock", "Flying"],
+        category: "Meteor",
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.7 lbs."
+    },
+    {
+        name: "Minior (Yellow Core)",
+        imageUrl: "forms/774Minior-Yellow.png",
+        number: "774",
+        type: ["Rock", "Flying"],
+        category: "Meteor",
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.7 lbs."
+    },
+    {
+        name: "Minior (Green Core)",
+        imageUrl: "forms/774Minior-Green.png",
+        number: "774",
+        type: ["Rock", "Flying"],
+        category: "Meteor",
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.7 lbs."
+    },
+    {
+        name: "Minior (Blue Core)",
+        imageUrl: "forms/774Minior-Blue.png",
+        number: "774",
+        type: ["Rock", "Flying"],
+        category: "Meteor",
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.7 lbs."
+    },
+    {
+        name: "Minior (Indigo Core)",
+        imageUrl: "forms/774Minior-Indigo.png",
+        number: "774",
+        type: ["Rock", "Flying"],
+        category: "Meteor",
+        region: "Alola",
+        height: "1'00\"",
+        weight: "0.7 lbs."
+    },
+    {
+        name: "Minior (Violet Core)",
+        imageUrl: "forms/774Minior-Violet.png",
         number: "774",
         type: ["Rock", "Flying"],
         category: "Meteor",
@@ -9492,8 +10672,18 @@ let nationalDex = [
         weight: "7.3 lbs."
     },
     {
-        name: "Mimikyu",
+        name: "Mimikyu (Disguised Form)",
         imageUrl: "images/778Mimikyu.png",
+        number: "778",
+        type: ["Ghost", "Fairy"],
+        category: "Disguise",
+        region: "Alola",
+        height: "0'08\"",
+        weight: "1.5 lbs."
+    },
+    {
+        name: "Mimikyu (Busted Form)",
+        imageUrl: "forms/778Mimikyu-Busted.png",
         number: "778",
         type: ["Ghost", "Fairy"],
         category: "Disguise",
@@ -9754,6 +10944,16 @@ let nationalDex = [
     {
         name: "Magearna",
         imageUrl: "images/801Magearna.png",
+        number: "801",
+        type: ["Steel", "Fairy"],
+        category: "Artificial",
+        region: "Alola",
+        height: "3'03\"",
+        weight: "177.5 lbs."
+    },
+    {
+        name: "Original Color Magearna",
+        imageUrl: "forms/801Magearna-Original.png",
         number: "801",
         type: ["Steel", "Fairy"],
         category: "Artificial",
@@ -10312,6 +11512,26 @@ let nationalDex = [
         weight: "39.7 lbs."
     },
     {
+        name: "Cramorant (Gulping Form)",
+        imageUrl: "forms/845Cramorant-Gulping.png",
+        number: "845",
+        type: ["Flying", "Water"],
+        category: "Gulp",
+        region: "Galar",
+        height: "2'07\"",
+        weight: "39.7 lbs."
+    },
+    {
+        name: "Cramorant (Gorging Form)",
+        imageUrl: "forms/845Cramorant-Gorging.png",
+        number: "845",
+        type: ["Flying", "Water"],
+        category: "Gulp",
+        region: "Galar",
+        height: "2'07\"",
+        weight: "39.7 lbs."
+    },
+    {
         name: "Arrokuda",
         imageUrl: "images/846Arrokuda.png",
         number: "846",
@@ -10422,7 +11642,7 @@ let nationalDex = [
         weight: "86.0 lbs."
     },
     {
-        name: "Sinistea",
+        name: "Sinistea (Phony Form)",
         imageUrl: "images/854Sinistea.png",
         number: "854",
         type: ["Ghost"],
@@ -10432,8 +11652,28 @@ let nationalDex = [
         weight: "0.4 lbs."
     },
     {
-        name: "Polteageist",
+        name: "Sinistea (Antique Form)",
+        imageUrl: "forms/854Sinistea-Antique.png",
+        number: "854",
+        type: ["Ghost"],
+        category: "Black Tea",
+        region: "Galar",
+        height: "0'04\"",
+        weight: "0.4 lbs."
+    },
+    {
+        name: "Polteageist (Phony Form)",
         imageUrl: "images/855Polteageist.png",
+        number: "855",
+        type: ["Ghost"],
+        category: "Black Tea",
+        region: "Galar",
+        height: "0'08\"",
+        weight: "0.9 lbs."
+    },
+    {
+        name: "Polteageist (Antique Form)",
+        imageUrl: "forms/855Polteageist-Antique.png",
         number: "855",
         type: ["Ghost"],
         category: "Black Tea",
@@ -10592,8 +11832,88 @@ let nationalDex = [
         weight: "0.7 lbs."
     },
     {
-        name: "Alcremie",
+        name: "Alcremie (Vanilla Cream)",
         imageUrl: "images/869Alcremie.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Ruby Cream)",
+        imageUrl: "forms/869Alcremie-Ruby.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Matcha Cream)",
+        imageUrl: "forms/869Alcremie-Matcha.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Mint Cream)",
+        imageUrl: "forms/869Alcremie-Mint.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Lemon Cream)",
+        imageUrl: "forms/869Alcremie-Lemon.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Salted Cream)",
+        imageUrl: "forms/869Alcremie-Salted.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Ruby Swirl)",
+        imageUrl: "forms/869Alcremie-RubySwirl.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Caramel Swirl)",
+        imageUrl: "forms/869Alcremie-CaramelSwirl.png",
+        number: "869",
+        type: ["Fairy"],
+        category: "Cream",
+        region: "Galar",
+        height: "1'00\"",
+        weight: "1.1 lbs."
+    },
+    {
+        name: "Alcremie (Rainbow Swirl)",
+        imageUrl: "forms/869Alcremie-RainbowSwirl.png",
         number: "869",
         type: ["Fairy"],
         category: "Cream",
@@ -10954,6 +12274,16 @@ let nationalDex = [
     {
         name: "Zarude",
         imageUrl: "images/893Zarude.png",
+        number: "893",
+        type: ["Dark", "Grass"],
+        category: "Rogue Monkey",
+        region: "Galar",
+        height: "5'11\"",
+        weight: "154.3 lbs."
+    },
+    {
+        name: "Dada Zarude",
+        imageUrl: "forms/893Zarude-Dada.png",
         number: "893",
         type: ["Dark", "Grass"],
         category: "Rogue Monkey",

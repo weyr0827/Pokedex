@@ -14810,6 +14810,7 @@ function loading(event){
     event.preventDefault()
     let retrieval = localStorage.getItem("favoriteDex");
     let newestPokedex = JSON.parse(retrieval)
+    console.log(JSON.parse(retrieval))
     if (newestPokedex != null){
         nationalDex.nationalPokedex = newestPokedex
         dexRender(nationalDex.nationalPokedex)
