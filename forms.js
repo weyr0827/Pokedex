@@ -6272,7 +6272,7 @@ let nationalDex = [
         weight: "0.7 lbs."
     },
     {
-        name: "Dialga",
+        name: "Dialga (Altered Forme)",
         imageUrl: "images/483Dialga.png",
         number: "483",
         type: ["Steel", "Dragon"],
@@ -6292,7 +6292,7 @@ let nationalDex = [
         weight: "1873.9 lbs."
     },
     {
-        name: "Palkia",
+        name: "Palkia (Altered Forme)",
         imageUrl: "images/484Palkia.png",
         number: "484",
         type: ["Water", "Dragon"],
@@ -6405,7 +6405,7 @@ let nationalDex = [
         name: "Shaymin (Sky Forme)",
         imageUrl: "forms/492Shaymin-Sky.png",
         number: "492",
-        type: ["Grass"],
+        type: ["Grass", "Flying"],
         category: "Gratitude",
         region: "Sinnoh",
         height: "1'04\"",
@@ -7186,7 +7186,7 @@ let nationalDex = [
         imageUrl: "forms/549Lilligant-Hisui.png",
         number: "549",
         type: ["Grass", "Fighting"],
-        category: "Flowering",
+        category: "Spinning",
         region: "Unova",
         height: "3'11\"",
         weight: "42.3 lbs."
