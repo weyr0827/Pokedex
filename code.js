@@ -15390,12 +15390,14 @@ let nationalDex = {
 ]
 }
 
+let sortOrder = "default";
+
 let dexRender = (pokedex) => {
     let pokeball = document.getElementById("container")
     pokeball.innerHTML=""
 
     pokedex.forEach(pocketMonster => {
-        
+
         let divVariable = document.createElement("div")
         divVariable.className = "pokemon"
         let pokemonName = document.createElement("h3")
@@ -15535,8 +15537,92 @@ favoritePokemon.addEventListener("click", favorite)
         pokeball.append(divVariable)
     })
 }
-dexRender(nationalDex.nationalPokedex)
 
+let returns = 50;
+let section = 0;
+
+let partialDex = {
+    partialPokedex: []
+}
+let dexLoading = function loadMin(){
+    for (let indexSpot = section; indexSpot < nationalDex.nationalPokedex.length; indexSpot++){
+        if (nationalDex.nationalPokedex.indexOf(nationalDex.nationalPokedex[indexSpot]) < (returns + section)){
+            partialDex.partialPokedex.push(nationalDex.nationalPokedex[indexSpot])
+        }
+    }
+}
+dexLoading()
+dexRender(partialDex.partialPokedex)
+
+let partialNames = []
+let nameLoading = function loadMinName(){
+    for (let indexSpot = section; indexSpot < nationalDex.nationalPokedex.length; indexSpot++){
+        if (nationalDex.nationalPokedex.indexOf(nationalDex.nationalPokedex[indexSpot]) < (returns + section)){
+            partialNames.push(nationalDex.nationalPokedex[indexSpot])
+        }
+    }
+}
+let partialNumbers = []
+let numberLoading = function loadMinNumber(){
+    for (let indexSpot = section; indexSpot < nationalDex.nationalPokedex.length; indexSpot++){
+        if (nationalDex.nationalPokedex.indexOf(nationalDex.nationalPokedex[indexSpot]) < (returns + section)){
+            partialNumbers.push(nationalDex.nationalPokedex[indexSpot])
+        }
+    }
+}
+let partialHeights = []
+let heightLoading = function loadMinHeight(){
+    for (let indexSpot = section; indexSpot < nationalDex.nationalPokedex.length; indexSpot++){
+        if (nationalDex.nationalPokedex.indexOf(nationalDex.nationalPokedex[indexSpot]) < (returns + section)){
+            partialHeights.push(nationalDex.nationalPokedex[indexSpot])
+        }
+    }
+}
+let partialWeights = []
+let weightLoading = function loadMinWeight(){
+    for (let indexSpot = section; indexSpot < nationalDex.nationalPokedex.length; indexSpot++){
+        if (nationalDex.nationalPokedex.indexOf(nationalDex.nationalPokedex[indexSpot]) < (returns + section)){
+            partialWeights.push(nationalDex.nationalPokedex[indexSpot])
+        }
+    }
+}
+
+function hideButton(){
+    if ((returns + section) >= nationalDex.nationalPokedex.length){
+        document.getElementById("morePkmn").style.display = 'none';
+    }
+    else {
+        document.getElementById("morePkmn").style.display = 'initial';
+    }
+}
+
+let addMore = document.getElementById("morePkmn")
+addMore.addEventListener("click", morePokemon)
+function morePokemon(event){
+    event.preventDefault()
+    section = (section + 50)
+    if (sortOrder === "default"){
+        dexLoading()
+        dexRender(partialDex.partialPokedex)
+    }
+    else if (sortOrder === "name"){
+        nameLoading()
+        dexRender(partialNames)
+    }
+    else if (sortOrder === "number"){
+        numberLoading()
+        dexRender(partialNumbers)
+    }
+    else if (sortOrder === "height"){
+        heightLoading()
+        dexRender(partialHeights)
+    }
+    else if (sortOrder === "weight"){
+        weightLoading()
+        dexRender(partialWeights)
+    }
+    hideButton();
+}
 
 let sortAbc = document.getElementById("sortAlpha")
 sortAbc.addEventListener("click", sortAlphabet)
@@ -15559,7 +15645,11 @@ nationalDex.nationalPokedex.forEach((pocketMonster) => {
     console.log(`${pocketMonster.name}`);
     
 });
-dexRender(sortedName)
+section = 0;
+sortOrder = "name";
+hideButton()
+nameLoading()
+dexRender(partialNames)
 }
 
 let sort123 = document.getElementById("sortNum")
@@ -15574,7 +15664,11 @@ nationalDex.nationalPokedex.forEach((pocketMonster) => {
     console.log(`${pocketMonster.number}`);
     
 });
-dexRender(sortedNumber)
+section = 0;
+sortOrder = "number";
+hideButton()
+numberLoading()
+dexRender(partialNumbers)
 }
 
 let sortHeight = document.getElementById("sortHeight")
@@ -15589,7 +15683,11 @@ nationalDex.nationalPokedex.forEach((pocketMonster) => {
     console.log(`${pocketMonster.height}`);
     
 });
-dexRender(sortedHeight)
+section = 0;
+sortOrder = "height";
+hideButton()
+heightLoading()
+dexRender(partialHeights)
 }
 
 let sortWeight = document.getElementById("sortWeight")
@@ -15604,7 +15702,11 @@ nationalDex.nationalPokedex.forEach((pocketMonster) => {
     console.log(`${pocketMonster.weight}`);
     
 });
-dexRender(sortedWeight)
+section = 0;
+sortOrder = "weight";
+hideButton()
+weightLoading()
+dexRender(partialWeights)
 }
 
 let search = document.getElementById("searchButton")
