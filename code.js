@@ -4749,7 +4749,7 @@ let nationalDex = {
         favorites: false,
         caught: false,
         metricHeight: 0.5,
-        metricWeight: 71.7,
+        metricWeight: 32.5,
         dexEntry: "Linoone always runs full speed and only in straight lines. If facing an obstacle, it makes a right-angle turn to evade it. This Pokémon is very challenged by gently curving roads.",
         cryUrl: "cries/264.mp3",
         ability: ["Pickup", "Gluttony", "Quick Feet"]
