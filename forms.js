@@ -17,7 +17,7 @@ let nationalDex = {
             metricHeight: 2.4,
             metricWeight: 155.5,
             dexEntry: "In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.",
-            cryUrl: "cries/003.mp3",
+            cryUrl: "cries/formCries/003-Mega.mp3",
             ability: ["Thick Fat"]
         },
         {
@@ -53,7 +53,7 @@ let nationalDex = {
             metricHeight: 1.7,
             metricWeight: 110.5,
             dexEntry: "The overwhelming power that fills its entire body causes it to turn black and creates intense blue flames.",
-            cryUrl: "cries/006.mp3",
+            cryUrl: "cries/formCries/006-MegaX.mp3",
             ability: ["Tough Claws"]
         },
         {
@@ -71,7 +71,7 @@ let nationalDex = {
             metricHeight: 1.7,
             metricWeight: 100.5,
             dexEntry: "Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.",
-            cryUrl: "cries/006.mp3",
+            cryUrl: "cries/formCries/006-MegaY.mp3",
             ability: ["Drought"]
         },
         {
@@ -107,7 +107,7 @@ let nationalDex = {
             metricHeight: 1.6,
             metricWeight: 101.1,
             dexEntry: "The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.",
-            cryUrl: "cries/009.mp3",
+            cryUrl: "cries/formCries/009-Mega.mp3",
             ability: ["Mega Launcher"]
         },
         {
@@ -161,7 +161,7 @@ let nationalDex = {
             metricHeight: 1.4,
             metricWeight: 40.5,
             dexEntry: "Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.",
-            cryUrl: "cries/015.mp3",
+            cryUrl: "cries/formCries/015-Mega.mp3",
             ability: ["Adaptability"]
         },
         {
@@ -179,7 +179,7 @@ let nationalDex = {
             metricHeight: 2.2,
             metricWeight: 50.5,
             dexEntry: "With its muscular strength now greatly increased, it can fly continuously for two weeks without resting.",
-            cryUrl: "cries/018.mp3",
+            cryUrl: "cries/formCries/018-Mega.mp3",
             ability: ["No Guard"]
         },
         {
@@ -485,7 +485,7 @@ let nationalDex = {
             metricHeight: 1.2,
             metricWeight: 48.0,
             dexEntry: "As a result of Mega Evolution, its power has been entirely converted into psychic energy, and it has lost all strength in its muscles.",
-            cryUrl: "cries/065.mp3",
+            cryUrl: "cries/formCries/065-Mega.mp3",
             ability: ["Trace"]
         },
         {
@@ -611,7 +611,7 @@ let nationalDex = {
             metricHeight: 1.2,
             metricWeight: 36.0,
             dexEntry: "Although this Pokémon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet.",
-            cryUrl: "cries/079.mp3",
+            cryUrl: "cries/formCries/079-Galar.mp3",
             ability: ["Gluttony", "Own Tempo", "Regenerator"]
         },
         {
@@ -629,7 +629,7 @@ let nationalDex = {
             metricHeight: 2.0,
             metricWeight: 120.0,
             dexEntry: "All the energy from Mega Evolution poured into the Shellder on its tail, leaving Slowpoke to be swallowed whole.",
-            cryUrl: "cries/080.mp3",
+            cryUrl: "cries/formCries/080-Mega.mp3",
             ability: ["Shell Armor"]
         },
         {
@@ -719,7 +719,7 @@ let nationalDex = {
             metricHeight: 1.4,
             metricWeight: 40.5,
             dexEntry: "Gengar's relationships are warped. It has no interest in opponents unless it perceives them as prey.",
-            cryUrl: "cries/094.mp3",
+            cryUrl: "cries/formCries/094-Mega.mp3",
             ability: ["Shadow Tag"]
         },
         {
@@ -863,7 +863,7 @@ let nationalDex = {
             metricHeight: 2.2,
             metricWeight: 100.0,
             dexEntry: "Mega Kangaskhan's strength derives from the mother's happiness about her child's growth. Watching it grow up keeps her spirits high.",
-            cryUrl: "cries/115.mp3",
+            cryUrl: "cries/formCries/115-Mega.mp3",
             ability: ["Parental Bond"]
         },
         {
@@ -899,7 +899,7 @@ let nationalDex = {
             metricHeight: 1.7,
             metricWeight: 59.0,
             dexEntry: "The influence of Mega Evolution leaves it in a state of constant excitement. It pierces enemies with its two large horns before shredding them.",
-            cryUrl: "cries/127.mp3",
+            cryUrl: "cries/formCries/127-Mega.mp3",
             ability: ["Aerilate"]
         },
         {
@@ -917,7 +917,7 @@ let nationalDex = {
             metricHeight: 6.5,
             metricWeight: 305.0,
             dexEntry: "Mega Evolution also affects its brain, leaving no other function except its destructive instinct to burn everything to cinders.",
-            cryUrl: "cries/130.mp3",
+            cryUrl: "cries/formCries/130-Mega.mp3",
             ability: ["Mold Breaker"]
         },
         {
@@ -971,7 +971,7 @@ let nationalDex = {
             metricHeight: 2.1,
             metricWeight: 79.0,
             dexEntry: "Part of its body has become stone. Some scholars claim that this is Aerodactyl's true appearance.",
-            cryUrl: "cries/142.mp3",
+            cryUrl: "cries/formCries/142-Mega.mp3",
             ability: ["Tough Claws"]
         },
         {
@@ -1061,7 +1061,7 @@ let nationalDex = {
             metricHeight: 2.3,
             metricWeight: 127.0,
             dexEntry: "Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!",
-            cryUrl: "cries/150.mp3",
+            cryUrl: "cries/formCries/150-MegaX.mp3",
             ability: ["Steadfast"]
         },
         {
@@ -1079,7 +1079,7 @@ let nationalDex = {
             metricHeight: 1.5,
             metricWeight: 33.0,
             dexEntry: "Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.",
-            cryUrl: "cries/150.mp3",
+            cryUrl: "cries/formCries/150-MegaY.mp3",
             ability: ["Insomnia"]
         },
         {
@@ -1115,7 +1115,7 @@ let nationalDex = {
             metricHeight: 1.4,
             metricWeight: 61.5,
             dexEntry: "Excess energy from Mega Evolution stimulates its genes, and the wool it had lost grows in again.",
-            cryUrl: "cries/181.mp3",
+            cryUrl: "cries/formCries/181-Mega.mp3",
             ability: ["Mold Breaker"]
         },
         {
@@ -1637,7 +1637,7 @@ let nationalDex = {
             metricHeight: 10.5,
             metricWeight: 740.0,
             dexEntry: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
-            cryUrl: "cries/208.mp3",
+            cryUrl: "cries/formCries/208-Mega.mp3",
             ability: ["Sand Force"]
         },
         {
@@ -1673,7 +1673,7 @@ let nationalDex = {
             metricHeight: 2.0,
             metricWeight: 125.0,
             dexEntry: "The excess energy that bathes this Pokémon keeps it in constant danger of overflow. It can't sustain a battle over long periods of time.",
-            cryUrl: "cries/212.mp3",
+            cryUrl: "cries/formCries/212-Mega.mp3",
             ability: ["Technician"]
         },
         {
@@ -1691,7 +1691,7 @@ let nationalDex = {
             metricHeight: 1.7,
             metricWeight: 62.5,
             dexEntry: "It can grip things with its two horns and lift 500 times its own body weight.",
-            cryUrl: "cries/214.mp3",
+            cryUrl: "cries/formCries/214-Mega.mp3",
             ability: ["Skill Link"]
         },
         {
@@ -1745,7 +1745,7 @@ let nationalDex = {
             metricHeight: 1.9,
             metricWeight: 49.5,
             dexEntry: "Its red claws and the tips of its tail are melting from high internal temperatures that are painful to Houndoom itself.",
-            cryUrl: "cries/229.mp3",
+            cryUrl: "cries/formCries/229-Mega.mp3",
             ability: ["Solar Power"]
         },
         {
@@ -1763,7 +1763,7 @@ let nationalDex = {
             metricHeight: 2.5,
             metricWeight: 255.0,
             dexEntry: "Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.",
-            cryUrl: "cries/248.mp3",
+            cryUrl: "cries/formCries/248-Mega.mp3",
             ability: ["Sand Stream"]
         },
         {
@@ -1781,7 +1781,7 @@ let nationalDex = {
             metricHeight: 1.9,
             metricWeight: 55.2,
             dexEntry: "The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.",
-            cryUrl: "cries/254.mp3",
+            cryUrl: "cries/formCries/254-Mega.mp3",
             ability: ["Lightning Rod"]
         },
         {
@@ -1799,7 +1799,7 @@ let nationalDex = {
             metricHeight: 1.9,
             metricWeight: 52.0,
             dexEntry: "In battle, Blaziken blows out intense flames from its wrists and attacks the foe courageously. The stronger the foes, the more intensely this Pokémon's wrists burn.",
-            cryUrl: "cries/257.mp3",
+            cryUrl: "cries/formCries/257-Mega.mp3",
             ability: ["Speed Boost"]
         },
         {
@@ -1817,7 +1817,7 @@ let nationalDex = {
             metricHeight: 1.9,
             metricWeight: 102.0,
             dexEntry: "Swampert is very strong. It has enough power to easily drag a boulder weighing more than a ton. This Pokémon also has powerful vision that lets it see even in murky water.",
-            cryUrl: "cries/260.mp3",
+            cryUrl: "cries/formCries/260-Mega.mp3",
             ability: ["Swift Swim"]
         },
         {
@@ -1871,7 +1871,7 @@ let nationalDex = {
             metricHeight: 1.6,
             metricWeight: 48.4,
             dexEntry: "Gardevoir has the ability to read the future. If it senses impending danger to its Trainer, this Pokémon is said to unleash its psychokinetic energy at full power.",
-            cryUrl: "cries/282.mp3",
+            cryUrl: "cries/formCries/282-Mega.mp3",
             ability: ["Pixilate"]
         },
         {
@@ -1889,7 +1889,7 @@ let nationalDex = {
             metricHeight: 0.5,
             metricWeight: 161.0,
             dexEntry: "The jewel from its chest, which has grown gigantic due to the effects of Mega Evolution, can turn back any attack.",
-            cryUrl: "cries/302.mp3",
+            cryUrl: "cries/formCries/302-Mega.mp3",
             ability: ["Magic Bounce"]
         },
         {
@@ -1907,7 +1907,7 @@ let nationalDex = {
             metricHeight: 1.0,
             metricWeight: 23.5,
             dexEntry: "It has an extremely vicious disposition. It grips prey in its two sets of jaws and tears them apart with raw power.",
-            cryUrl: "cries/303.mp3",
+            cryUrl: "cries/formCries/303-Mega.mp3",
             ability: ["Huge Power"]
         },
         {
@@ -1925,7 +1925,7 @@ let nationalDex = {
             metricHeight: 2.2,
             metricWeight: 395.0,
             dexEntry: "Aggron claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This Pokémon vigilantly patrols its territory at all times.",
-            cryUrl: "cries/306.mp3",
+            cryUrl: "cries/formCries/306-Mega.mp3",
             ability: ["Filter"]
         },
         {
@@ -1943,7 +1943,7 @@ let nationalDex = {
             metricHeight: 1.3,
             metricWeight: 31.5,
             dexEntry: "It is said that through meditation, Medicham heightens energy inside its body and sharpens its sixth sense. This Pokémon hides its presence by merging itself with fields and mountains.",
-            cryUrl: "cries/308.mp3",
+            cryUrl: "cries/formCries/308-Mega.mp3",
             ability: ["Pure Power"]
         },
         {
@@ -1961,7 +1961,7 @@ let nationalDex = {
             metricHeight: 1.8,
             metricWeight: 44.0,
             dexEntry: "Mega Evolution fills its body with a tremendous amount of electricity, but it's too much for Manectric to fully control.",
-            cryUrl: "cries/310.mp3",
+            cryUrl: "cries/formCries/310-Mega.mp3",
             ability: ["Intimidate"]
         },
         {
@@ -1979,7 +1979,7 @@ let nationalDex = {
             metricHeight: 2.5,
             metricWeight: 130.3,
             dexEntry: "The spines sprouting from its head are transformed fangs. If they're injured or broken off, the spines will regenerate countless times.",
-            cryUrl: "cries/319.mp3",
+            cryUrl: "cries/formCries/319-Mega.mp3",
             ability: ["Strong Jaw"]
         },
         {
@@ -1997,7 +1997,7 @@ let nationalDex = {
             metricHeight: 2.5,
             metricWeight: 320.5,
             dexEntry: "Camerupt has a volcano inside its body. Magma of 18,000 degrees F courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.",
-            cryUrl: "cries/323.mp3",
+            cryUrl: "cries/formCries/323-Mega.mp3",
             ability: ["Sheer Force"]
         },
         {
@@ -2015,7 +2015,7 @@ let nationalDex = {
             metricHeight: 1.5,
             metricWeight: 20.6,
             dexEntry: "Altaria dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this Pokémon makes its listeners experience dreamy wonderment.",
-            cryUrl: "cries/334.mp3",
+            cryUrl: "cries/formCries/334-Mega.mp3",
             ability: ["Pixilate"]
         },
         {
@@ -2087,7 +2087,7 @@ let nationalDex = {
             metricHeight: 1.2,
             metricWeight: 13.0,
             dexEntry: "Extraordinary energy amplifies its cursing power to such an extent that it can't help but curse its own Trainer.",
-            cryUrl: "cries/354.mp3",
+            cryUrl: "cries/formCries/354-Mega.mp3",
             ability: ["Prankster"]
         },
         {
@@ -2105,7 +2105,7 @@ let nationalDex = {
             metricHeight: 1.2,
             metricWeight: 49.0,
             dexEntry: "When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.",
-            cryUrl: "cries/359.mp3",
+            cryUrl: "cries/formCries/359-Mega.mp3",
             ability: ["Magic Bounce"]
         },
         {
@@ -2123,7 +2123,7 @@ let nationalDex = {
             metricHeight: 2.1,
             metricWeight: 350.2,
             dexEntry: "The excess energy from Mega Evolution spilled over from its mouth, breaking its jaw. It spews endless blizzards.",
-            cryUrl: "cries/362.mp3",
+            cryUrl: "cries/formCries/362-Mega.mp3",
             ability: ["Refrigerate"]
         },
         {
@@ -2141,7 +2141,7 @@ let nationalDex = {
             metricHeight: 1.8,
             metricWeight: 112.6,
             dexEntry: "Anyone standing in its path gets sliced right in two, while this Pokémon continues its flight without interruption.",
-            cryUrl: "cries/373.mp3",
+            cryUrl: "cries/formCries/373-Mega.mp3",
             ability: ["Aerilate"]
         },
         {
@@ -2159,7 +2159,7 @@ let nationalDex = {
             metricHeight: 2.5,
             metricWeight: 942.9,
             dexEntry: "This form results from one Metagross, one Metang, and two Beldum linking up.",
-            cryUrl: "cries/376.mp3",
+            cryUrl: "cries/formCries/376-Mega.mp3",
             ability: ["Tough Claws"]
         },
         {
@@ -2177,7 +2177,7 @@ let nationalDex = {
             metricHeight: 1.8,
             metricWeight: 52.0,
             dexEntry: "Latias is highly sensitive to the emotions of people. If it senses any hostility, this Pokémon ruffles the feathers all over its body and cries shrilly to intimidate the foe.",
-            cryUrl: "cries/380.mp3",
+            cryUrl: "cries/formCries/380-Mega.mp3",
             ability: ["Levitate"]
         },
         {
@@ -2195,7 +2195,7 @@ let nationalDex = {
             metricHeight: 2.3,
             metricWeight: 70.0,
             dexEntry: "Latios has the ability to make its foe see an image of what it has seen or imagines in its head. This Pokémon is intelligent and understands human speech.",
-            cryUrl: "cries/381.mp3",
+            cryUrl: "cries/formCries/381-Mega.mp3",
             ability: ["Levitate"]
         },
         {
@@ -2213,7 +2213,7 @@ let nationalDex = {
             metricHeight: 9.8,
             metricWeight: 430.0,
             dexEntry: "Kyogre has the power to create massive rain clouds that cover the entire sky and bring about torrential downpours. This Pokémon saved people who were suffering from droughts.",
-            cryUrl: "cries/382.mp3",
+            cryUrl: "cries/formCries/382-Primal.mp3",
             ability: ["Primordial Sea"]
         },
         {
@@ -2231,7 +2231,7 @@ let nationalDex = {
             metricHeight: 5.0,
             metricWeight: 999.7,
             dexEntry: "Groudon has long been described in mythology as the Pokémon that raised lands and expanded continents. This Pokémon took to sleep after a cataclysmic battle with Kyogre.",
-            cryUrl: "cries/383.mp3",
+            cryUrl: "cries/formCries/383-Primal.mp3",
             ability: ["Desolate Land"]
         },
         {
@@ -2249,7 +2249,7 @@ let nationalDex = {
             metricHeight: 10.8,
             metricWeight: 392.0,
             dexEntry: "Rayquaza lived for hundreds of millions of years in the earth's ozone layer, never descending to the ground. This Pokémon appears to feed on water and particles in the atmosphere.",
-            cryUrl: "cries/384.mp3",
+            cryUrl: "cries/formCries/384-Mega.mp3",
             ability: ["Delta Stream"]
         },
         {
@@ -2447,7 +2447,7 @@ let nationalDex = {
             metricHeight: 1.3,
             metricWeight: 28.3,
             dexEntry: "It swings its ears like whips and strikes its enemies with them. It has an intensely combative disposition.",
-            cryUrl: "cries/428.mp3",
+            cryUrl: "cries/formCries/428-Mega.mp3",
             ability: ["Scrappy"]
         },
         {
@@ -2465,7 +2465,7 @@ let nationalDex = {
             metricHeight: 1.9,
             metricWeight: 95.0,
             dexEntry: "Excess energy melted its arms and wings, transforming them into giant scythes.",
-            cryUrl: "cries/445.mp3",
+            cryUrl: "cries/formCries/445-Mega.mp3",
             ability: ["Sand Force"]
         },
         {
@@ -2483,7 +2483,7 @@ let nationalDex = {
             metricHeight: 1.3,
             metricWeight: 57.5,
             dexEntry: "Black streaks all over its body show where its auras and the energy of Mega Evolution intermingled and raced through it.",
-            cryUrl: "cries/448.mp3",
+            cryUrl: "cries/formCries/448-Mega.mp3",
             ability: ["Adaptability"]
         },
         {
@@ -2501,7 +2501,7 @@ let nationalDex = {
             metricHeight: 2.7,
             metricWeight: 185.0,
             dexEntry: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
-            cryUrl: "cries/460.mp3",
+            cryUrl: "cries/formCries/460-Mega.mp3",
             ability: ["Snow Warning"]
         },
         {
@@ -2519,7 +2519,7 @@ let nationalDex = {
             metricHeight: 1.6,
             metricWeight: 56.4,
             dexEntry: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
-            cryUrl: "cries/475.mp3",
+            cryUrl: "cries/formCries/475-Mega.mp3",
             ability: ["Inner Focus"]
         },
         {
@@ -2681,7 +2681,7 @@ let nationalDex = {
             metricHeight: 0.4,
             metricWeight: 5.2,
             dexEntry: "Upon taking in the scent of a particular rare flower, Shaymin is enveloped in light, and its tiny body transforms. I took a whiff of the flower myself, but alas, my body remained unchanged.",
-            cryUrl: "cries/492.mp3",
+            cryUrl: "cries/formCries/492-Sky.mp3",
             ability: ["Serene Grace"]
         },
         {
@@ -3041,7 +3041,7 @@ let nationalDex = {
             metricHeight: 1.5,
             metricWeight: 32.0,
             dexEntry: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
-            cryUrl: "cries/531.mp3",
+            cryUrl: "cries/formCries/531-Mega.mp3",
             ability: ["Healer"]
         },
         {
@@ -3437,7 +3437,7 @@ let nationalDex = {
             metricHeight: 1.4,
             metricWeight: 63.0,
             dexEntry: "An example of what is known as a “form change,” though I suspect this strange avian guise to be Tornadus's true form. Tornadus has been sighted crossing the ocean while in this form.",
-            cryUrl: "cries/641.mp3",
+            cryUrl: "cries/formCries/641-Therian.mp3",
             ability: ["Regenerator"]
         },
         {
@@ -3455,7 +3455,7 @@ let nationalDex = {
             metricHeight: 3.0,
             metricWeight: 61.0,
             dexEntry: "Quick as a flash, it materializes out of nowhere. It pulverizes foes into nothingness with showers of devastatingly powerful lightning bolts launched from the string of orbs on its tail.",
-            cryUrl: "cries/642.mp3",
+            cryUrl: "cries/formCries/642-Therian.mp3",
             ability: ["Volt Absorb"]
         },
         {
@@ -3473,7 +3473,7 @@ let nationalDex = {
             metricHeight: 1.3,
             metricWeight: 68.0,
             dexEntry: "Landorus soars through the sky in this form, bestowing plentiful harvests upon the land and earning the people's reverence. It can traverse the whole of Hisui in a mere couple of hours.",
-            cryUrl: "cries/645.mp3",
+            cryUrl: "cries/formCries/645-Therian.mp3",
             ability: ["Intimidate"]
         },
         {
@@ -3491,7 +3491,7 @@ let nationalDex = {
             metricHeight: 3.3,
             metricWeight: 325.0,
             dexEntry: "It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.",
-            cryUrl: "cries/646.mp3",
+            cryUrl: "cries/formCries/646-Black.mp3",
             ability: ["Teravolt"]
         },
         {
@@ -3509,7 +3509,7 @@ let nationalDex = {
             metricHeight: 3.6,
             metricWeight: 325.0,
             dexEntry: "The sameness of Reshiram's and Kyurem's genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.",
-            cryUrl: "cries/646.mp3",
+            cryUrl: "cries/formCries/646-White.mp3",
             ability: ["Turboblaze"]
         },
         {
@@ -4499,7 +4499,7 @@ let nationalDex = {
             metricHeight: 0.8,
             metricWeight: 15.0,
             dexEntry: "Supersized Pumpkaboo are very partial to the spirits of people who were of similarly superior proportions.",
-            cryUrl: "cries/710.mp3",
+            cryUrl: "cries/formCries/710-Super.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"]
         },
         {
@@ -4553,7 +4553,7 @@ let nationalDex = {
             metricHeight: 1.7,
             metricWeight: 39.0,
             dexEntry: "Supersized Gourgeist aren't picky. They will forcefully drag anyone off to the afterlife.",
-            cryUrl: "cries/711.mp3",
+            cryUrl: "cries/formCries/711-Super.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"]
         },
         {
@@ -4607,7 +4607,7 @@ let nationalDex = {
             metricHeight: 1.2,
             metricWeight: 33.5,
             dexEntry: "Its sharp fangs make short work of finishing off its enemies, but it's unable to maintain this body indefinitely. After a period of time, it falls apart.",
-            cryUrl: "cries/718.mp3",
+            cryUrl: "cries/formCries/718-TenPercent.mp3",
             ability: ["Aura Break", "Power Construct"]
         },
         {
@@ -4625,7 +4625,7 @@ let nationalDex = {
             metricHeight: 4.5,
             metricWeight: 610.0,
             dexEntry: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
-            cryUrl: "cries/718.mp3",
+            cryUrl: "cries/formCries/718-Complete.mp3",
             ability: ["Power Construct"]
         },
         {
@@ -4643,7 +4643,7 @@ let nationalDex = {
             metricHeight: 1.1,
             metricWeight: 27.8,
             dexEntry: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
-            cryUrl: "cries/719.mp3",
+            cryUrl: "cries/formCries/719-Mega.mp3",
             ability: ["Magic Bounce"]
         },
         {
@@ -4661,7 +4661,7 @@ let nationalDex = {
             metricHeight: 6.5,
             metricWeight: 490.0,
             dexEntry: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
-            cryUrl: "cries/720.mp3",
+            cryUrl: "cries/formCries/720-Unbound.mp3",
             ability: ["Magician"]
         },
         {
@@ -4697,7 +4697,7 @@ let nationalDex = {
             metricHeight: 0.6,
             metricWeight: 3.4,
             dexEntry: "This Oricorio has sipped bright yellow nectar. Its bright, cheerful dance melts the hearts of its enemies.",
-            cryUrl: "cries/741.mp3",
+            cryUrl: "cries/formCries/741-PomPom.mp3",
             ability: ["Dancer"]
         },
         {
@@ -4715,7 +4715,7 @@ let nationalDex = {
             metricHeight: 0.6,
             metricWeight: 3.4,
             dexEntry: "This Oricorio relaxes by swaying gently. This increases its psychic energy, which it then fires at its enemies.",
-            cryUrl: "cries/741.mp3",
+            cryUrl: "cries/formCries/741-Pau.mp3",
             ability: ["Dancer"]
         },
         {
@@ -4733,7 +4733,7 @@ let nationalDex = {
             metricHeight: 0.6,
             metricWeight: 3.4,
             dexEntry: "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
-            cryUrl: "cries/741.mp3",
+            cryUrl: "cries/formCries/741-Sensu.mp3",
             ability: ["Dancer"]
         },
         {
@@ -4751,7 +4751,7 @@ let nationalDex = {
             metricHeight: 1.1,
             metricWeight: 25.0,
             dexEntry: "The more intimidating the opponent it faces, the more this Pokémon's blood boils. It will attack with no regard for its own safety.",
-            cryUrl: "cries/745.mp3",
+            cryUrl: "cries/formCries/745-Midnight.mp3",
             ability: ["Keen Eye", "Vital Spirit", "No Guard"]
         },
         {
@@ -4769,7 +4769,7 @@ let nationalDex = {
             metricHeight: 0.8,
             metricWeight: 25.0,
             dexEntry: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
-            cryUrl: "cries/745.mp3",
+            cryUrl: "cries/formCries/745-Dusk.mp3",
             ability: ["Tough Claws"]
         },
         {
@@ -4787,7 +4787,7 @@ let nationalDex = {
             metricHeight: 8.2,
             metricWeight: 78.6,
             dexEntry: "Weak Wishiwashi school together to concentrate their power. Their united force makes them the demon of the sea, feared near and far.",
-            cryUrl: "cries/746.mp3",
+            cryUrl: "cries/formCries/746-School.mp3",
             ability: ["Schooling"]
         },
         {
@@ -5255,7 +5255,7 @@ let nationalDex = {
             metricHeight: 3.8,
             metricWeight: 460.0,
             dexEntry: "This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.",
-            cryUrl: "cries/800.mp3",
+            cryUrl: "cries/formCries/800-DuskMane.mp3",
             ability: ["Prism Armor"]
         },
         {
@@ -5273,7 +5273,7 @@ let nationalDex = {
             metricHeight: 4.2,
             metricWeight: 350.0,
             dexEntry: "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
-            cryUrl: "cries/800.mp3",
+            cryUrl: "cries/formCries/800-DawnWings.mp3",
             ability: ["Prism Armor"]
         },
         {
@@ -5291,7 +5291,7 @@ let nationalDex = {
             metricHeight: 7.5,
             metricWeight: 230.0,
             dexEntry: "This is its form when it has absorbed overwhelming light energy. It fires laser beams from all over its body.",
-            cryUrl: "cries/800.mp3",
+            cryUrl: "cries/formCries/800-Ultra.mp3",
             ability: ["Neuroforce"]
         },
         {
@@ -5525,7 +5525,7 @@ let nationalDex = {
             metricHeight: 0.8,
             metricWeight: 18.0,
             dexEntry: "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat.",
-            cryUrl: "cries/845.mp3",
+            cryUrl: "cries/formCries/845-Gulping.mp3",
             ability: ["Gulp Missile"]
         },
         {
@@ -5543,7 +5543,7 @@ let nationalDex = {
             metricHeight: 0.8,
             metricWeight: 18.0,
             dexEntry: "This Cramorant has accidentally gotten a Pikachu lodged in its gullet. Cramorant is choking a little, but it isn't really bothered.",
-            cryUrl: "cries/845.mp3",
+            cryUrl: "cries/formCries/845-Gorging.mp3",
             ability: ["Gulp Missile"]
         },
         {
@@ -5561,7 +5561,7 @@ let nationalDex = {
             metricHeight: 1.6,
             metricWeight: 40.0,
             dexEntry: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
-            cryUrl: "cries/849.mp3",
+            cryUrl: "cries/formCries/849-LowKey.mp3",
             ability: ["Punk Rock", "Minus", "Technician"]
         },
         {
@@ -5849,7 +5849,7 @@ let nationalDex = {
             metricHeight: 1.4,
             metricWeight: 89.0,
             dexEntry: "The ice covering this Pokémon's face has shattered, revealing a slightly worried expression that many people are enamored with.",
-            cryUrl: "cries/875.mp3",
+            cryUrl: "cries/formCries/875-Noice.mp3",
             ability: ["Ice Face"]
         },
         {
@@ -5867,7 +5867,7 @@ let nationalDex = {
             metricHeight: 0.9,
             metricWeight: 28.0,
             dexEntry: "These intelligent Pokémon touch horns with each other to share information between them.",
-            cryUrl: "cries/876.mp3",
+            cryUrl: "cries/formCries/876-Female.mp3",
             ability: ["Own Tempo", "Synchronize", "Psychic Surge"]
         },
         {
@@ -5885,7 +5885,7 @@ let nationalDex = {
             metricHeight: 0.3,
             metricWeight: 3.0,
             dexEntry: "Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.",
-            cryUrl: "cries/877.mp3",
+            cryUrl: "cries/formCries/877-Hangry.mp3",
             ability: ["Hunger Switch"]
         },
         {
@@ -5939,7 +5939,7 @@ let nationalDex = {
             metricHeight: 2.8,
             metricWeight: 110.0,
             dexEntry: "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
-            cryUrl: "cries/888.mp3",
+            cryUrl: "cries/formCries/888-Hero.mp3",
             ability: ["Intrepid Sword"]
         },
         {
@@ -5957,7 +5957,7 @@ let nationalDex = {
             metricHeight: 2.9,
             metricWeight: 210.0,
             dexEntry: "In times past, it worked together with a king of the people to save the Galar region. It absorbs metal that it then uses in battle.",
-            cryUrl: "cries/889.mp3",
+            cryUrl: "cries/formCries/889-Hero.mp3",
             ability: ["Dauntless Shield"]
         },
         {
@@ -5975,7 +5975,7 @@ let nationalDex = {
             metricHeight: 100.0,
             metricWeight: 9999,
             dexEntry: "As a result of Rose's meddling, Eternatus absorbed all the energy in the Galar region. It's now in a state of power overload.",
-            cryUrl: "cries/890.mp3",
+            cryUrl: "cries/formCries/890-Eternamax.mp3",
             ability: ["Pressure"]
         },
         {
@@ -6011,7 +6011,7 @@ let nationalDex = {
             metricHeight: 1.9,
             metricWeight: 105.0,
             dexEntry: "It's believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm.",
-            cryUrl: "cries/892.mp3",
+            cryUrl: "cries/formCries/892-RapidStrike.mp3",
             ability: ["Unseen Fist"]
         },
         {
@@ -6029,7 +6029,7 @@ let nationalDex = {
             metricHeight: 26.0,
             metricWeight: 9999,
             dexEntry: "As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch.",
-            cryUrl: "cries/892.mp3",
+            cryUrl: "cries/formCries/892-RapidStrike.mp3",
             ability: ["Unseen Fist"]
         },
         {
@@ -6065,7 +6065,7 @@ let nationalDex = {
             metricHeight: 2.4,
             metricWeight: 809.1,
             dexEntry: "According to lore, this Pokémon showed no mercy to those who got in its way, yet it would heal its opponents' wounds after battle.",
-            cryUrl: "cries/898.mp3",
+            cryUrl: "cries/formCries/898-IceRider.mp3",
             ability: ["Unnerve"]
         },
         {
@@ -6083,7 +6083,7 @@ let nationalDex = {
             metricHeight: 2.4,
             metricWeight: 53.6,
             dexEntry: "It's said that Calyrex and a Pokémon that had bonded with it ran all across the Galar region to bring green to the wastelands.",
-            cryUrl: "cries/898.mp3",
+            cryUrl: "cries/formCries/898-ShadowRider.mp3",
             ability: ["Unnerve"]
         },
         {
