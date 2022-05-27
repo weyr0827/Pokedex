@@ -1,5 +1,1418 @@
 //Pokedex Search Code
 
+let evolutionFamilies = {
+    bulbasaur: [
+        "Bulbasaur", "Ivysaur", "Venusaur"
+    ],
+    charmander: [
+        "Charmander", "Charmeleon", "Charizard"
+    ],
+    squirtle: [
+        "Squirtle", "Wartortle", "Blastoise"
+    ],
+    caterpie: [
+        "Caterpie", "Metapod", "Butterfree"
+    ],
+    weedle: [
+        "Weedle", "Kakuna", "Beedrill"
+    ],
+    pidgey: [
+        "Pidgey", "Pidgeotto", "Pidgeot"
+    ],
+    rattata: [
+        "Rattata", "Raticate"
+    ],
+    spearow: [
+        "Spearow", "Fearow"
+    ],
+    ekans: [
+        "Ekans", "Arbok"
+    ],
+    pichu: [
+        "Pichu", "Pikachu", "Raichu"
+    ],
+    sandshrew: [
+        "Sandshrew", "Sandslash"
+    ],
+    sandshrew: [
+        "Sandshrew", "Sandslash"
+    ],
+    nidoranf: [
+        "Nidoran♀", "Nidorina", "Nidoqueen"
+    ],
+    nidoranm: [
+        "Nidoran♂", "Nidorino", "Nidoking"
+    ],
+    cleffa: [
+        "Cleffa", "Clefairy", "Clefable"
+    ],
+    vulpix: [
+        "Vulpix", "Ninetales"
+    ],
+    igglybuff: [
+        "Igglybuff", "Jigglypuff", "Wigglytuff"
+    ],
+    zubat: [
+        "Zubat", "Golbat", "Crobat"
+    ],
+    oddish: [
+        "Oddish", "Gloom", "Vileplume", "Bellossom"
+    ],
+    paras: [
+        "Paras", "Parasect"
+    ],
+    venonat: [
+        "Venonat", "Venomoth"
+    ],
+    diglett: [
+        "Diglett", "Dugtrio"
+    ],
+    meowth: [
+        "Meowth", "Persian", "Perrserker"
+    ],
+    psyduck: [
+        "Psyduck", "Golduck"
+    ],
+    mankey: [
+        "Mankey", "Primeape"
+    ],
+    growlithe: [
+        "Growlithe", "Arcanine"
+    ],
+    poliwag: [
+        "Poliwag", "Poliwhirl", "Poliwrath", "Politoed"
+    ],
+    abra: [
+        "Abra", "Kadabra", "Alakazam"
+    ],
+    machop: [
+        "Machop", "Machoke", "Machamp"
+    ],
+    bellsprout: [
+        "Bellsprout", "Weepinbell", "Victreebel"
+    ],
+    tentacool: [
+        "Tentacool", "Tentacruel"
+    ],
+    geodude: [
+        "Geodude", "Graveler", "Golem"
+    ],
+    ponyta: [
+        "Ponyta", "Rapidash"
+    ],
+    slowpoke: [
+        "Slowpoke", "Slowbro", "Slowking"
+    ],
+    magnemite: [
+        "Magnemite", "Magneton", "Magnezone"
+    ],
+    farfetchd: [
+        "Farfetch'd", "Sirfetch'd"
+    ],
+    doduo: [
+        "Doduo", "Dodrio"
+    ],
+    seel: [
+        "Seel", "Dewgong"
+    ],
+    grimer: [
+        "Grimer", "Muk"
+    ],
+    shellder: [
+        "Shellder", "Cloyster"
+    ],
+    gastly: [
+        "Gastly", "Haunter", "Gengar"
+    ],
+    onix: [
+        "Onix", "Steelix"
+    ],
+    drowzee: [
+        "Drowzee", "Hypno"
+    ],
+    krabby: [
+        "Krabby", "Kingler"
+    ],
+    voltorb: [
+        "Voltorb", "Electrode"
+    ],
+    exeggcute: [
+        "Exeggcute", "Exeggutor"
+    ],
+    cubone: [
+        "Cubone", "Marowak"
+    ],
+    tyrogue: [
+        "Tyrogue", "Hitmonlee", "Hitmonchan", "Hitmontop"
+    ],
+    lickitung: [
+        "Lickitung", "Lickilicky"
+    ],
+    koffing: [
+        "Koffing", "Weezing"
+    ],
+    rhyhorn: [
+        "Rhyhorn", "Rhydon", "Rhyperior"
+    ],
+    happiny: [
+        "Happiny", "Chansey", "Blissey"
+    ],
+    tangela: [
+        "Tangela", "Tangrowth"
+    ],
+    kangaskhan: [
+        "Kangaskhan"
+    ],
+    horsea: [
+        "Horsea", "Seadra", "Kingdra"
+    ],
+    goldeen: [
+        "Goldeen", "Seaking"
+    ],
+    staryu: [
+        "Staryu", "Starmie"
+    ],
+    mimejr: [
+        "Mime Jr.", "Mr. Mime", "Mr. Rime"
+    ],
+    scyther: [
+        "Scyther", "Scizor", "Kleavor"
+    ],
+    smoochum: [
+        "Smoochum", "Jynx"
+    ],
+    elekid: [
+        "Elekid", "Electabuzz", "Electivire"
+    ],
+    magby: [
+        "Magby", "Magmar", "Magmortar"
+    ],
+    pinsir: [
+        "Pinir"
+    ],
+    tauros: [
+        "Tauros"
+    ],
+    magikarp: [
+        "Magikarp", "Gyarados"
+    ],
+    lapras: [
+        "Lapras"
+    ],
+    ditto: [
+        "Ditto"
+    ],
+    eevee: [
+        "Eevee", "Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbreon", "Leafeon", "Glaceon", "Sylveon"
+    ],
+    porygon: [
+        "Porygon", "Porygon2", "Porygon-Z"
+    ],
+    omanyte: [
+        "Omanyte", "Omastar"
+    ],
+    kabuto: [
+        "Kabuto", "Kabutops"
+    ],
+    aerodactyl: [
+        "Aerodactyl"
+    ],
+    munchlax: [
+        "Munchlax", "Snorlax"
+    ],
+    articuno: [
+        "Articuno"
+    ],
+    zapdos: [
+        "Zapdos"
+    ],
+    moltres: [
+        "Moltres"
+    ],
+    dratini: [
+        "Dratini", "Dragonair", "Dragonite"
+    ],
+    mewtwo: [
+        "Mewtwo"
+    ],
+    mew: [
+        "Mew"
+    ],
+    chikorita: [
+        "Chikorita", "Bayleef", "Meganium"
+    ],
+    cyndaquil: [
+        "Cyndaquil", "Quilava", "Typhlosion"
+    ],
+    totodile: [
+        "Totodile", "Croconaw", "Feraligatr"
+    ],
+    sentret: [
+        "Sentret", "Furret"
+    ],
+    hoothoot: [
+        "Hoothoot", "Noctowl"
+    ],
+    ledyba: [
+        "Ledyba", "Ledian"
+    ],
+    spinarak: [
+        "Spinarak", "Ariados"
+    ],
+    chinchou: [
+        "Chinchou", "Lanturn"
+    ],
+    togepi: [
+        "Togepi", "Togetic", "Togekiss"
+    ],
+    natu: [
+        "Natu", "Xatu"
+    ],
+    mareep: [
+        "Mareep", "Flaaffy", "Ampharos"
+    ],
+    azurill: [
+        "Azurill", "Marill", "Azumarill"
+    ],
+    bonsly: [
+        "Bonsly", "Sudowoodo"
+    ],
+    hoppip: [
+        "Hoppip", "Skiploom", "Jumpluff"
+    ],
+    aipom: [
+        "Aipom", "Ambipom"
+    ],
+    sunkern: [
+        "Sunkern", "Sunflora"
+    ],
+    yanma: [
+        "Yanma", "Yanmega"
+    ],
+    wooper: [
+        "Wooper", "Quagsire"
+    ],
+    murkrow: [
+        "Murkrow", "Honchkrow"
+    ],
+    misdreavus: [
+        "Misdreavus", "Mismagius"
+    ],
+    unown: [
+        "Unown"
+    ],
+    wynaut: [
+        "Wynaut", "Wobbuffet"
+    ],
+    girafarig: [
+        "Girafarig"
+    ],
+    pineco: [
+        "Pineco", "Forretress"
+    ],
+    dunsparce: [
+        "Dunsparce"
+    ],
+    gligar: [
+        "Gligar", "Gliscor"
+    ],
+    snubbull: [
+        "Snubbull", "Granbull"
+    ],
+    qwilfish: [
+        "Qwilfish", "Overqwil"
+    ],
+    shuckle: [
+        "Shuckle"
+    ],
+    heracross: [
+        "Heracross"
+    ],
+    sneasel: [
+        "Sneasel", "Weavile", "Sneasler"
+    ],
+    teddiursa: [
+        "Teddiursa", "Ursaring", "Ursaluna"
+    ],
+    slugma: [
+        "Slugma", "Magcargo"
+    ],
+    swinub: [
+        "Swinub", "Piloswine", "Mamoswine"
+    ],
+    corsola: [
+        "Corsola", "Cursola"
+    ],
+    remoraid: [
+        "Remoraid", "Octillery"
+    ],
+    delibird: [
+        "Delibird"
+    ],
+    mantyke: [
+        "Mantyke", "Mantine"
+    ],
+    skarmory: [
+        "Skarmory"
+    ],
+    houndour: [
+        "Houndour", "Houndoom"
+    ],
+    phanpy: [
+        "Phanpy", "Donphan"
+    ],
+    stantler: [
+        "Stantler", "Wyrdeer"
+    ],
+    smeargle: [
+        "Smeargle"
+    ],
+    miltank: [
+        "Miltank"
+    ],
+    raikou: [
+        "Raikou"
+    ],
+    entei: [
+        "Entei"
+    ],
+    suicune: [
+        "Suicune"
+    ],
+    larvitar: [
+        "Larvitar", "Pupitar", "Tyranitar"
+    ],
+    lugia: [
+        "Lugia"
+    ],
+    hooh: [
+        "Ho-Oh"
+    ],
+    celebi: [
+        "Celebi"
+    ],
+    treecko: [
+        "Treecko", "Grovyle", "Sceptile"
+    ],
+    torchic: [
+        "Torchic", "Combusken", "Blaziken"
+    ],
+    mudkip: [
+        "Mudkip", "Marshtomp", "Swampert"
+    ],
+    poochyena: [
+        "Poochyena", "Mightyena"
+    ],
+    zigzagoon: [
+        "Zigzagoon", "Linoone", "Obstagoon"
+    ],
+    wurmple: [
+        "Wurmple", "Silcoon", "Beautifly", "Cascoon", "Dustox"
+    ],
+    lotad: [
+        "Lotad", "Lombre", "Ludicolo"
+    ],
+    seedot: [
+        "Seedot", "Nuzleaf", "Shiftry"
+    ],
+    taillow: [
+        "Taillow", "Swellow"
+    ],
+    wingull: [
+        "Wingull", "Pelipper"
+    ],
+    ralts: [
+        "Ralts", "Kirlia", "Gardevoir", "Gallade"
+    ],
+    surskit: [
+        "Surskit", "Masquerain"
+    ],
+    shroomish: [
+        "Shroomish", "Breloom"
+    ],
+    slakoth: [
+        "Slakoth", "Vigoroth", "Slaking"
+    ],
+    nincada: [
+        "Nincada", "Ninjask", "Shedinja"
+    ],
+    whismur: [
+        "Whismur", "Loudred", "Exploud"
+    ],
+    makuhita: [
+        "Makuhita", "Hariyama"
+    ],
+    nosepass: [
+        "Nosepass", "Probopass"
+    ],
+    skitty: [
+        "Skitty", "Delcatty"
+    ],
+    sableye: [
+        "Sableye"
+    ],
+    mawile: [
+        "Mawile"
+    ],
+    aron: [
+        "Aron", "Lairon", "Aggron"
+    ],
+    meditite: [
+        "Meditite", "Medicham"
+    ],
+    electrike: [
+        "Electrike", "Manectric"
+    ],
+    plusle: [
+        "Plusle"
+    ],
+    minun: [
+        "Minun"
+    ],
+    volbeat: [
+        "Volbeat"
+    ],
+    illumise: [
+        "Illumise"
+    ],
+    budew: [
+        "Budew", "Roselia", "Roserade"
+    ],
+    gulpin: [
+        "Gulpin", "Swalot"
+    ],
+    carvanha: [
+        "Carvanha", "Sharpedo"
+    ],
+    wailmer: [
+        "Wailmer", "Wailord"
+    ],
+    numel: [
+        "Numel", "Camerupt"
+    ],
+    torkoal: [
+        "Torkoal"
+    ],
+    spoink: [
+        "Spoink", "Grumpig"
+    ],
+    spinda: [
+        "Spinda"
+    ],
+    trapinch: [
+        "Trapinch", "Vibrava", "Flygon"
+    ],
+    cacnea: [
+        "Cacnea", "Cacturne"
+    ],
+    swablu: [
+        "Swablu", "Altaria"
+    ],
+    zangoose: [
+        "Zangoose"
+    ],
+    seviper: [
+        "Seviper"
+    ],
+    lunatone: [
+        "Lunatone"
+    ],
+    solrock: [
+        "Solrock"
+    ],
+    barboach: [
+        "Barboach", "Whiscash"
+    ],
+    corphish: [
+        "Corphish", "Crawdaunt"
+    ],
+    baltoy: [
+        "Baltoy", "Claydol"
+    ],
+    lileep: [
+        "Lileep", "Cradily"
+    ],
+    anorith: [
+        "Anorith", "Armaldo"
+    ],
+    feebas: [
+        "Feebas", "Milotic"
+    ],
+    castform: [
+        "Castform"
+    ],
+    kecleon: [
+        "Kecleon"
+    ],
+    shuppet: [
+        "Shuppet", "Banette"
+    ],
+    duskull: [
+        "Duskull", "Dusclops", "Dusknoir"
+    ],
+    tropius: [
+        "Tropius"
+    ],
+    chingling: [
+        "Chingling", "Chimecho"
+    ],
+    absol: [
+        "Absol"
+    ],
+    snorunt: [
+        "Snorunt", "Glalie", "Froslass"
+    ],
+    spheal: [
+        "Spheal", "Sealeo", "Walrein"
+    ],
+    clamperl: [
+        "Clamperl", "Huntail", "Gorebyss"
+    ],
+    relicanth: [
+        "Relicanth"
+    ],
+    luvdisc: [
+        "Luvdisc"
+    ],
+    bagon: [
+        "Bagon", "Shelgon", "Salamence"
+    ],
+    beldum: [
+        "Beldum", "Metang", "Metagross"
+    ],
+    regirock: [
+        "Regirock"
+    ],
+    regice: [
+        "Regice"
+    ],
+    registeel: [
+        "Registeel"
+    ],
+    latias: [
+        "Latias"
+    ],
+    latios: [
+        "Latios"
+    ],
+    kyogre: [
+        "Kyogre"
+    ],
+    groudon: [
+        "Groudon"
+    ],
+    rayquaza: [
+        "Rayquaza"
+    ],
+    jirachi: [
+        "Jirachi"
+    ],
+    deoxys: [
+        "Deoxys"
+    ],
+    turtwig: [
+        "Turtwig", "Grotle", "Torterra"
+    ],
+    chimchar: [
+        "Chimchar", "Monferno", "Infernape"
+    ],
+    piplup: [
+        "Piplup", "Prinplup", "Empoleon"
+    ],
+    starly: [
+        "Starly", "Staravia", "Staraptor"
+    ],
+    bidoof: [
+        "Bidoof", "Bibarel"
+    ],
+    kricketot: [
+        "Kricketot", "Kricketune"
+    ],
+    shinx: [
+        "Shinx", "Luxio", "Luxray"
+    ],
+    cranidos: [
+        "Cranidos", "Rampardos"
+    ],
+    shieldon: [
+        "Shieldon", "Bastiodon"
+    ],
+    burmy: [
+        "Burmy", "Wormadam", "Mothim"
+    ],
+    combee: [
+        "Combee", "Vespiquen"
+    ],
+    pachirisu: [
+        "Pachirisu"
+    ],
+    buizel: [
+        "Buizel", "Floatzel"
+    ],
+    cherubi: [
+        "Cherubi", "Cherrim"
+    ],
+    shellos: [
+        "Shellos", "Gastrodon"
+    ],
+    drifloon: [
+        "Drifloon", "Drifblim"
+    ],
+    buneary: [
+        "Buneary", "Lopunny"
+    ],
+    glameow: [
+        "Glameow", "Purugly"
+    ],
+    stunky: [
+        "Stunky", "Skuntank"
+    ],
+    bronzor: [
+        "Bronzor", "Bronzong"
+    ],
+    chatot: [
+        "Chatot"
+    ],
+    spiritomb: [
+        "Spiritomb"
+    ],
+    gible: [
+        "Gible", "Gabite", "Garchomp"
+    ],
+    riolu: [
+        "Riolu", "Lucario"
+    ],
+    hippopotas: [
+        "Hippopotas", "Hippowdon"
+    ],
+    skorupi: [
+        "Skorupi", "Drapion"
+    ],
+    croagunk: [
+        "Croagunk", "Toxicroak"
+    ],
+    carnivine: [
+        "Carnivine"
+    ],
+    finneon: [
+        "Finneon", "Lumineon"
+    ],
+    snover: [
+        "Snover", "Abomasnow"
+    ],
+    rotom: [
+        "Rotom"
+    ],
+    uxie: [
+        "Uxie"
+    ],
+    mesprit: [
+        "Mesprit"
+    ],
+    azelf: [
+        "Azelf"
+    ],
+    dialga: [
+        "Dialga"
+    ],
+    palkia: [
+        "Palkia"
+    ],
+    heatran: [
+        "Heatran"
+    ],
+    regigigas: [
+        "Regigigas"
+    ],
+    giratina: [
+        "Giratina"
+    ],
+    cresselia: [
+        "Cresselia"
+    ],
+    phione: [
+        "Phione"
+    ],
+    manaphy: [
+        "Manaphy"
+    ],
+    darkrai: [
+        "Darkrai"
+    ],
+    shaymin: [
+        "Shaymin"
+    ],
+    arceus: [
+        "Arceus"
+    ],
+    victini: [
+        "Victini"
+    ],
+    snivy: [
+        "Snivy", "Servine", "Serperior"
+    ],
+    tepig: [
+        "Tepig", "Pignite", "Emboar"
+    ],
+    oshawott: [
+        "Oshawott", "Dewott", "Samurott"
+    ],
+    patrat: [
+        "Patrat", "Watchog"
+    ],
+    lillipup: [
+        "Lillipup", "Herdier", "Stoutland"
+    ],
+    purrloin: [
+        "Purrloin", "Liepard"
+    ],
+    pansage: [
+        "Pansage", "Simisage"
+    ],
+    pansear: [
+        "Pansear", "Simisear"
+    ],
+    panpour: [
+        "Panpour", "Simipour"
+    ],
+    munna: [
+        "Munna", "Musharna"
+    ],
+    pidove: [
+        "Pidove", "Tranquill", "Unfezant"
+    ],
+    blitzle: [
+        "Blitzle", "Zebstrika"
+    ],
+    roggenrola: [
+        "Roggenrola", "Boldore", "Gigalith"
+    ],
+    woobat: [
+        "Woobat", "Swoobat"
+    ],
+    drilbur: [
+        "Drilbur", "Excadrill"
+    ],
+    audino: [
+        "Audino"
+    ],
+    timburr: [
+        "Timburr", "Gurdurr", "Conkeldurr"
+    ],
+    tympole: [
+        "Tympole", "Palpitoad", "Seismitoad"
+    ],
+    throh: [
+        "Throh"
+    ],
+    sawk: [
+        "Sawk"
+    ],
+    sewaddle: [
+        "Sewaddle", "Swadloon", "Leavanny"
+    ],
+    venipede: [
+        "Venipede", "Whirlipede", "Scolipede"
+    ],
+    cottonee: [
+        "Cottonee", "Whimsicott"
+    ],
+    petilil: [
+        "Petilil", "Lilligant"
+    ],
+    basculin: [
+        "Basculin", "Basculegion"
+    ],
+    sandile: [
+        "Sandile", "Krokorok", "Krookodile"
+    ],
+    darumaka: [
+        "Darumaka", "Darmanitan"
+    ],
+    maractus: [
+        "Maractus"
+    ],
+    dwebble: [
+        "Dwebble", "Crustle"
+    ],
+    scraggy: [
+        "Scraggy", "Scrafty"
+    ],
+    sigilyph: [
+        "Sigilyph"
+    ],
+    yamask: [
+        "Yamask", "Cofagrigus", "Runerigus"
+    ],
+    tirtouga: [
+        "Tirtouga", "Carracosta"
+    ],
+    archen: [
+        "Archen", "Archeops"
+    ],
+    trubbish: [
+        "Trubbish", "Garbodor"
+    ],
+    zorua: [
+        "Zorua", "Zoroark"
+    ],
+    minccino: [
+        "Minccino", "Cinccino"
+    ],
+    gothita: [
+        "Gothita", "Gothorita", "Gothitelle"
+    ],
+    solosis: [
+        "Solosis", "Duosion", "Reuniclus"
+    ],
+    ducklett: [
+        "Ducklett", "Swanna"
+    ],
+    vanillite: [
+        "Vanillite", "Vanillish", "Vanilluxe"
+    ],
+    deerling: [
+        "Deerling", "Sawsbuck"
+    ],
+    emolga: [
+        "Emolga"
+    ],
+    karrablast: [
+        "Karrablast", "Escavalier"
+    ],
+    foongus: [
+        "Foongus", "Amoonguss"
+    ],
+    frillish: [
+        "Frillish", "Jellicent"
+    ],
+    alomomola: [
+        "Alomomola"
+    ],
+    joltik: [
+        "Joltik", "Galvantula"
+    ],
+    ferroseed: [
+        "Ferroseed", "Ferrothorn"
+    ],
+    klink: [
+        "Klink", "Klang", "Klinklang"
+    ],
+    tynamo: [
+        "Tynamo", "Eelektrik", "Eelektross"
+    ],
+    elgyem: [
+        "Elgyem", "Beheeyem"
+    ],
+    litwick: [
+        "Litwick", "Lampent", "Chandelure"
+    ],
+    axew: [
+        "Axew", "Fraxure", "Haxorus"
+    ],
+    cubchoo: [
+        "Cubchoo", "Beartic"
+    ],
+    cryogonal: [
+        "Cryogonal"
+    ],
+    shelmet: [
+        "Shelmet", "Accelgor"
+    ],
+    stunfisk: [
+        "Stunfisk"
+    ],
+    mienfoo: [
+        "Mienfoo", "Mienshao"
+    ],
+    druddigon: [
+        "Druddigon"
+    ],
+    golett: [
+        "Golett", "Golurk"
+    ],
+    pawniard: [
+        "Pawniard", "Bisharp"
+    ],
+    bouffalant: [
+        "Bouffalant"
+    ],
+    rufflet: [
+        "Rufflet", "Braviary"
+    ],
+    vullaby: [
+        "Vullaby", "Mandibuzz"
+    ],
+    heatmor: [
+        "Heatmor"
+    ],
+    durant: [
+        "Durant"
+    ],
+    deino: [
+        "Deino", "Zweilous", "Hydreigon"
+    ],
+    larvesta: [
+        "Larvesta", "Volcarona"
+    ],
+    cobalion: [
+        "Cobalion"
+    ],
+    terrakion: [
+        "Terrakion"
+    ],
+    virizion: [
+        "Virizion"
+    ],
+    tornadus: [
+        "Tornadus"
+    ],
+    thundurus: [
+        "Thundurus"
+    ],
+    reshiram: [
+        "Reshiram"
+    ],
+    zekrom: [
+        "Zekrom"
+    ],
+    landorus: [
+        "Landorus"
+    ],
+    kyurem: [
+        "Kyurem"
+    ],
+    keldeo: [
+        "Keldeo"
+    ],
+    meloetta: [
+        "Meloetta"
+    ],
+    genesect: [
+        "Genesect"
+    ],
+    chespin: [
+        "Chespin", "Quilladin", "Chesnaught"
+    ],
+    fennekin: [
+        "Fennekin", "Braixen", "Delphox"
+    ],
+    froakie: [
+        "Froakie", "Frogadier", "Greninja"
+    ],
+    bunnelby: [
+        "Bunnelby", "Diggersby"
+    ],
+    fletchling: [
+        "Fletchling", "Fletchinder", "Talonflame"
+    ],
+    scatterbug: [
+        "Scatterbug", "Spewpa", "Vivillon"
+    ],
+    litleo: [
+        "Litleo", "Pyroar"
+    ],
+    flabebe: [
+        "Flabébé", "Floette", "Florges"
+    ],
+    skiddo: [
+        "Skiddo", "Gogoat"
+    ],
+    pancham: [
+        "Pancham", "Pangoro"
+    ],
+    furfrou: [
+        "Furfrou"
+    ],
+    espurr: [
+        "Espurr"
+    ],
+    honedge: [
+        "Honedge", "Doublade", "Aegislash"
+    ],
+    spritzee: [
+        "Spritzee", "Aromatisse"
+    ],
+    swirlix: [
+        "Swirlix", "Slurpuff"
+    ],
+    inkay: [
+        "Inkay", "Malamar"
+    ],
+    binacle: [
+        "Binacle", "Barbaracle"
+    ],
+    skrelp: [
+        "Skrelp", "Dragalge"
+    ],
+    clauncher: [
+        "Clauncher", "Clawitzer"
+    ],
+    helioptile: [
+        "Helioptile", "Heliolisk"
+    ],
+    tyrunt: [
+        "Tyrunt", "Tyrantrum"
+    ],
+    amaura: [
+        "Amaura", "Aurorus"
+    ],
+    hawlucha: [
+        "Hawlucha"
+    ],
+    dedenne: [
+        "Dedenne"
+    ],
+    carbink: [
+        "Carbink"
+    ],
+    goomy: [
+        "Goomy", "Sliggoo", "Goodra"
+    ],
+    klefki: [
+        "Klefki"
+    ],
+    phantump: [
+        "Phantump", "Trevenant"
+    ],
+    pumpkaboo: [
+        "Pumpkaboo", "Gourgeist"
+    ],
+    bergmite: [
+        "Bergmite", "Avalugg"
+    ],
+    noibat: [
+        "Noibat", "Noivern"
+    ],
+    xerneas: [
+        "Xerneas"
+    ],
+    yveltal: [
+        "Yveltal"
+    ],
+    zygarde: [
+        "Zygarde"
+    ],
+    diancie: [
+        "Diancie"
+    ],
+    hoopa: [
+        "Hoopa"
+    ],
+    volcanion: [
+        "Volcanion"
+    ],
+    rowlet: [
+        "Rowlet", "Dartrix", "Decidueye"
+    ],
+    litten: [
+        "Litten", "Torracat", "Incineroar"
+    ],
+    popplio: [
+        "Popplio", "Brionne", "Primarina"
+    ],
+    pikipek: [
+        "Pikipek", "Trumbeak", "Toucannon"
+    ],
+    yungoos: [
+        "Yungoos", "Gumshoos"
+    ],
+    grubbin: [
+        "Grubbin", "Charjabug", "Vikavolt"
+    ],
+    crabrawler: [
+        "Crabrawler", "Crabominable"
+    ],
+    oricorio: [
+        "Oricorio"
+    ],
+    cutiefly: [
+        "Cutiefly", "Ribombee"
+    ],
+    rockruff: [
+        "Rockruff", "Lycanroc"
+    ],
+    wishiwashi: [
+        "Wishiwashi"
+    ],
+    mareanie: [
+        "Mareanie", "Toxapex"
+    ],
+    mudbray: [
+        "Mudbray", "Mudsdale"
+    ],
+    dewpider: [
+        "Dewpider", "Araquanid"
+    ],
+    fomantis: [
+        "Fomantis", "Lurantis"
+    ],
+    morelull: [
+        "Morelull", "Shiinotic"
+    ],
+    salandit: [
+        "Salandit", "Salazzle"
+    ],
+    stufful: [
+        "Stufful", "Bewear"
+    ],
+    bounsweet: [
+        "Bounsweet", "Steenee", "Tsareena"
+    ],
+    comfey: [
+        "Comfey"
+    ],
+    oranguru: [
+        "Oranguru"
+    ],
+    passimian: [
+        "Passimian"
+    ],
+    wimpod: [
+        "Wimpod", "Golisopod"
+    ],
+    sandygast: [
+        "Sandygast", "Palossand"
+    ],
+    pyukumuku: [
+        "Pyukumuku"
+    ],
+    typenull: [
+        "Type: Null", "Silvally"
+    ],
+    minior: [
+        "Minior"
+    ],
+    komala: [
+        "Komala"
+    ],
+    turtonator: [
+        "Turtonator"
+    ],
+    togedemaru: [
+        "Togedemaru"
+    ],
+    mimikyu: [
+        "Mimikyu"
+    ],
+    bruxish: [
+        "Bruxish"
+    ],
+    drampa: [
+        "Drampa"
+    ],
+    dhelmise: [
+        "Dhelmise"
+    ],
+    jangmoo: [
+        "Jangmo-o", "Hakamo-o", "Kommo-o"
+    ],
+    tapukoko: [
+        "Tapu Koko"
+    ],
+    tapulele: [
+        "Tapu Lele"
+    ],
+    tapubulu: [
+        "Tapu Bulu"
+    ],
+    tapufini: [
+        "Tapu Fini"
+    ],
+    cosmog: [
+        "Cosmog", "Cosmoem", "Solgaleo", "Lunala"
+    ],
+    nihilego: [
+        "Nihilego"
+    ],
+    buzzwole: [
+        "Buzzwole"
+    ],
+    pheromosa: [
+        "Pheromosa"
+    ],
+    xurkitree: [
+        "Xurkitree"
+    ],
+    celesteela: [
+        "Celesteela"
+    ],
+    kartana: [
+        "Kartana"
+    ],
+    guzzlord: [
+        "Guzzlord"
+    ],
+    necrozma: [
+        "Necrozma"
+    ],
+    magearna: [
+        "Magearna"
+    ],
+    marshadow: [
+        "Marshadow"
+    ],
+    poipole: [
+        "Poipole", "Naganadel"
+    ],
+    stakataka: [
+        "Stakataka"
+    ],
+    blacephalon: [
+        "Blacephalon"
+    ],
+    zeraora: [
+        "Zeraora"
+    ],
+    meltan: [
+        "Meltan", "Melmetal"
+    ],
+    grookey: [
+        "Grookey", "Thwackey", "Rillaboom"
+    ],
+    scorbunny: [
+        "Scorbunny", "Raboot", "Cinderace"
+    ],
+    sobble: [
+        "Sobble", "Drizzile", "Inteleon"
+    ],
+    skwovet: [
+        "Skwovet", "Greedent"
+    ],
+    rookidee: [
+        "Rookidee", "Corvisquire", "Corviknight"
+    ],
+    blipbug: [
+        "Blipbug", "Dottler", "Orbeetle"
+    ],
+    nickit: [
+        "Nickit", "Thievul"
+    ],
+    gossifleur: [
+        "Gossifleur", "Eldegoss"
+    ],
+    wooloo: [
+        "Wooloo", "Dubwool"
+    ],
+    chewtle: [
+        "Chewtle", "Drednaw"
+    ],
+    yamper: [
+        "Yamper", "Boltund"
+    ],
+    rolycoly: [
+        "Rolycoly", "Carkol", "Coalossal"
+    ],
+    applin: [
+        "Applin", "Flapple", "Appletun"
+    ],
+    silicobra: [
+        "Silicobra", "Sandaconda"
+    ],
+    cramorant: [
+        "Cramorant"
+    ],
+    arrokuda: [
+        "Arrokuda", "Barraskewda"
+    ],
+    toxel: [
+        "Toxel", "Toxtricity"
+    ],
+    sizzlipede: [
+        "Sizzlipede", "Centiskorch"
+    ],
+    clobbopus: [
+        "Clobbopus", "Grapploct"
+    ],
+    sinistea: [
+        "Sinistea", "Polteageist"
+    ],
+    hatenna: [
+        "Hatenna", "Hattrem", "Hatterene"
+    ],
+    impidimp: [
+        "Impidimp", "Morgrem", "Grimmsnarl"
+    ],
+    milcery: [
+        "Milcery", "Alcremie"
+    ],
+    falinks: [
+        "Falinks"
+    ],
+    pincurchin: [
+        "Pincurchin"
+    ],
+    snom: [
+        "Snom", "Frosmoth"
+    ],
+    stonjourner: [
+        "Stonjourner"
+    ],
+    eiscue: [
+        "Eiscue"
+    ],
+    indeedee: [
+        "Indeedee"
+    ],
+    morpeko: [
+        "Morpeko"
+    ],
+    cufant: [
+        "Cufant", "Copperajah"
+    ],
+    dracozolt: [
+        "Dracozolt"
+    ],
+    arctozolt: [
+        "Arctozolt"
+    ],
+    dracovish: [
+        "Dracovish"
+    ],
+    arctovish: [
+        "Arctovish"
+    ],
+    duraludon: [
+        "Duraludon"
+    ],
+    dreepy: [
+        "Dreepy", "Drakloak", "Dragapult"
+    ],
+    zacian: [
+        "Zacian"
+    ],
+    zamazenta: [
+        "Zamazenta"
+    ],
+    eternatus: [
+        "Eternatus"
+    ],
+    kubfu: [
+        "Kubfu", "Urshifu"
+    ],
+    zarude: [
+        "Zarude"
+    ],
+    regieleki: [
+        "Regieleki"
+    ],
+    regidrago: [
+        "Regidrago"
+    ],
+    glastrier: [
+        "Glastrier"
+    ],
+    spectrier: [
+        "Spectrier"
+    ],
+    calyrex: [
+        "Calyrex"
+    ],
+    enamorus: [
+        "Enamorus"
+    ]
+}
+
 let nationalDex = {
     nationalPokedex: [
     {
@@ -18,7 +1431,8 @@ let nationalDex = {
         metricWeight: 6.9,
         dexEntry: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
         cryUrl: "cries/001.mp3",
-        ability: ["Overgrow", "Chlorophyll"]
+        ability: ["Overgrow", "Chlorophyll"],
+        evolution: evolutionFamilies.bulbasaur
     },
     {
         name: "Ivysaur",
@@ -36,7 +1450,8 @@ let nationalDex = {
         metricWeight: 13.0,
         dexEntry: "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
         cryUrl: "cries/002.mp3",
-        ability: ["Overgrow", "Chlorophyll"]
+        ability: ["Overgrow", "Chlorophyll"],
+        evolution: evolutionFamilies.bulbasaur
     },
     {
         name: "Venusaur",
@@ -54,7 +1469,8 @@ let nationalDex = {
         metricWeight: 100.0,
         dexEntry: "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
         cryUrl: "cries/003.mp3",
-        ability: ["Overgrow", "Chlorophyll"]
+        ability: ["Overgrow", "Chlorophyll"],
+        evolution: evolutionFamilies.bulbasaur
     },
     {
         name: "Charmander",
@@ -72,7 +1488,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
         cryUrl: "cries/004.mp3",
-        ability: ["Blaze", "Solar Power"]
+        ability: ["Blaze", "Solar Power"],
+        evolution: evolutionFamilies.charmander
     },
     {
         name: "Charmeleon",
@@ -90,7 +1507,8 @@ let nationalDex = {
         metricWeight: 19.0,
         dexEntry: "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
         cryUrl: "cries/005.mp3",
-        ability: ["Blaze", "Solar Power"]
+        ability: ["Blaze", "Solar Power"],
+        evolution: evolutionFamilies.charmander
     },
     {
         name: "Charizard",
@@ -108,7 +1526,8 @@ let nationalDex = {
         metricWeight: 90.5,
         dexEntry: "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
         cryUrl: "cries/006.mp3",
-        ability: ["Blaze", "Solar Power"]
+        ability: ["Blaze", "Solar Power"],
+        evolution: evolutionFamilies.charmander
     },
     {
         name: "Squirtle",
@@ -126,7 +1545,8 @@ let nationalDex = {
         metricWeight: 9.0,
         dexEntry: "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
         cryUrl: "cries/007.mp3",
-        ability: ["Torrent", "Rain Dish"]
+        ability: ["Torrent", "Rain Dish"],
+        evolution: evolutionFamilies.squirtle
     },
     {
         name: "Wartortle",
@@ -144,7 +1564,8 @@ let nationalDex = {
         metricWeight: 22.5,
         dexEntry: "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
         cryUrl: "cries/008.mp3",
-        ability: ["Torrent", "Rain Dish"]
+        ability: ["Torrent", "Rain Dish"],
+        evolution: evolutionFamilies.squirtle
     },
     {
         name: "Blastoise",
@@ -162,7 +1583,8 @@ let nationalDex = {
         metricWeight: 85.5,
         dexEntry: "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.",
         cryUrl: "cries/009.mp3",
-        ability: ["Torrent", "Rain Dish"]
+        ability: ["Torrent", "Rain Dish"],
+        evolution: evolutionFamilies.squirtle
     },
     {
         name: "Caterpie",
@@ -180,7 +1602,8 @@ let nationalDex = {
         metricWeight: 2.9,
         dexEntry: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
         cryUrl: "cries/010.mp3",
-        ability: ["Shield Dust", "Run Away"]
+        ability: ["Shield Dust", "Run Away"],
+        evolution: evolutionFamilies.caterpie
     },
     {
         name: "Metapod",
@@ -198,7 +1621,8 @@ let nationalDex = {
         metricWeight: 9.9,
         dexEntry: "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
         cryUrl: "cries/011.mp3",
-        ability: ["Shed Skin"]
+        ability: ["Shed Skin"],
+        evolution: evolutionFamilies.caterpie
     },
     {
         name: "Butterfree",
@@ -216,7 +1640,8 @@ let nationalDex = {
         metricWeight: 32.0,
         dexEntry: "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
         cryUrl: "cries/012.mp3",
-        ability: ["Compound Eyes", "Tinted Lens"]
+        ability: ["Compound Eyes", "Tinted Lens"],
+        evolution: evolutionFamilies.caterpie
     },
     {
         name: "Weedle",
@@ -234,7 +1659,8 @@ let nationalDex = {
         metricWeight: 3.2,
         dexEntry: "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
         cryUrl: "cries/013.mp3",
-        ability: ["Shield Dust", "Run Away"]
+        ability: ["Shield Dust", "Run Away"],
+        evolution: evolutionFamilies.weedle
     },
     {
         name: "Kakuna",
@@ -252,7 +1678,8 @@ let nationalDex = {
         metricWeight: 10.0,
         dexEntry: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
         cryUrl: "cries/014.mp3",
-        ability: ["Shed Skin"]
+        ability: ["Shed Skin"],
+        evolution: evolutionFamilies.weedle
     },
     {
         name: "Beedrill",
@@ -270,7 +1697,8 @@ let nationalDex = {
         metricWeight: 29.5,
         dexEntry: "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.",
         cryUrl: "cries/015.mp3",
-        ability: ["Swarm", "Sniper"]
+        ability: ["Swarm", "Sniper"],
+        evolution: evolutionFamilies.weedle
     },
     {
         name: "Pidgey",
@@ -288,7 +1716,8 @@ let nationalDex = {
         metricWeight: 1.8,
         dexEntry: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
         cryUrl: "cries/016.mp3",
-        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"]
+        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        evolution: evolutionFamilies.pidgey
     },
     {
         name: "Pidgeotto",
@@ -306,7 +1735,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
         cryUrl: "cries/017.mp3",
-        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"]
+        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        evolution: evolutionFamilies.pidgey
     },
     {
         name: "Pidgeot",
@@ -324,7 +1754,8 @@ let nationalDex = {
         metricWeight: 39.5,
         dexEntry: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
         cryUrl: "cries/018.mp3",
-        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"]
+        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        evolution: evolutionFamilies.pidgey
     },
     {
         name: "Rattata",
@@ -342,7 +1773,8 @@ let nationalDex = {
         metricWeight: 3.5,
         dexEntry: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
         cryUrl: "cries/019.mp3",
-        ability: ["Run Away", "Guts", "Hustle"]
+        ability: ["Run Away", "Guts", "Hustle"],
+        evolution: evolutionFamilies.rattata
     },
     {
         name: "Raticate",
@@ -360,7 +1792,8 @@ let nationalDex = {
         metricWeight: 18.5,
         dexEntry: "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
         cryUrl: "cries/020.mp3",
-        ability: ["Run Away", "Guts", "Hustle"]
+        ability: ["Run Away", "Guts", "Hustle"],
+        evolution: evolutionFamilies.rattata
     },
     {
         name: "Spearow",
@@ -378,7 +1811,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
         cryUrl: "cries/021.mp3",
-        ability: ["Keen Eye", "Sniper"]
+        ability: ["Keen Eye", "Sniper"],
+        evolution: evolutionFamilies.spearow
     },
     {
         name: "Fearow",
@@ -396,7 +1830,8 @@ let nationalDex = {
         metricWeight: 38.0,
         dexEntry: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
         cryUrl: "cries/022.mp3",
-        ability: ["Keen Eye", "Sniper"]
+        ability: ["Keen Eye", "Sniper"],
+        evolution: evolutionFamilies.spearow
     },
     {
         name: "Ekans",
@@ -414,7 +1849,8 @@ let nationalDex = {
         metricWeight: 6.9,
         dexEntry: "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole.",
         cryUrl: "cries/023.mp3",
-        ability: ["Intimidate", "Shed Skin", "Unnerve"]
+        ability: ["Intimidate", "Shed Skin", "Unnerve"],
+        evolution: evolutionFamilies.ekans
     },
     {
         name: "Arbok",
@@ -432,7 +1868,8 @@ let nationalDex = {
         metricWeight: 65.0,
         dexEntry: "It is rumored that the ferocious warning markings on its belly differ from area to area.",
         cryUrl: "cries/024.mp3",
-        ability: ["Intimidate", "Shed Skin", "Unnerve"]
+        ability: ["Intimidate", "Shed Skin", "Unnerve"],
+        evolution: evolutionFamilies.ekans
     },
     {
         name: "Pikachu",
@@ -450,7 +1887,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
         cryUrl: "cries/025.mp3",
-        ability: ["Static", "Lightning Rod"]
+        ability: ["Static", "Lightning Rod"],
+        evolution: evolutionFamilies.pichu
     },
     {
         name: "Raichu",
@@ -468,7 +1906,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Its long tail serves as a ground to protect itself from its own high voltage power.",
         cryUrl: "cries/026.mp3",
-        ability: ["Static", "Lightning Rod"]
+        ability: ["Static", "Lightning Rod"],
+        evolution: evolutionFamilies.pichu
     },
     {
         name: "Sandshrew",
@@ -486,7 +1925,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
         cryUrl: "cries/027.mp3",
-        ability: ["Sand Veil", "Sand Rush"]
+        ability: ["Sand Veil", "Sand Rush"],
+        evolution: evolutionFamilies.sandshrew
     },
     {
         name: "Sandslash",
@@ -504,7 +1944,8 @@ let nationalDex = {
         metricWeight: 29.5,
         dexEntry: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
         cryUrl: "cries/028.mp3",
-        ability: ["Sand Veil", "Sand Rush"]
+        ability: ["Sand Veil", "Sand Rush"],
+        evolution: evolutionFamilies.sandshrew
     },
     {
         name: "Nidoran♀",
@@ -522,7 +1963,8 @@ let nationalDex = {
         metricWeight: 7.0,
         dexEntry: "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
         cryUrl: "cries/029.mp3",
-        ability: ["Poison Point", "Rivalry", "Hustle"]
+        ability: ["Poison Point", "Rivalry", "Hustle"],
+        evolution: evolutionFamilies.nidoranf
     },
     {
         name: "Nidorina",
@@ -540,7 +1982,8 @@ let nationalDex = {
         metricWeight: 20.0,
         dexEntry: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
         cryUrl: "cries/030.mp3",
-        ability: ["Poison Point", "Rivalry", "Hustle"]
+        ability: ["Poison Point", "Rivalry", "Hustle"],
+        evolution: evolutionFamilies.nidoranf
     },
     {
         name: "Nidoqueen",
@@ -558,7 +2001,8 @@ let nationalDex = {
         metricWeight: 60.0,
         dexEntry: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
         cryUrl: "cries/031.mp3",
-        ability: ["Poison Point", "Rivalry", "Sheer Force"]
+        ability: ["Poison Point", "Rivalry", "Sheer Force"],
+        evolution: evolutionFamilies.nidoranf
     },
     {
         name: "Nidoran♂",
@@ -576,7 +2020,8 @@ let nationalDex = {
         metricWeight: 9.0,
         dexEntry: "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
         cryUrl: "cries/032.mp3",
-        ability: ["Poison Point", "Rivalry", "Hustle"]
+        ability: ["Poison Point", "Rivalry", "Hustle"],
+        evolution: evolutionFamilies.nidoranm
     },
     {
         name: "Nidorino",
@@ -594,7 +2039,8 @@ let nationalDex = {
         metricWeight: 19.5,
         dexEntry: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
         cryUrl: "cries/033.mp3",
-        ability: ["Poison Point", "Rivalry", "Hustle"]
+        ability: ["Poison Point", "Rivalry", "Hustle"],
+        evolution: evolutionFamilies.nidoranm
     },
     {
         name: "Nidoking",
@@ -612,7 +2058,8 @@ let nationalDex = {
         metricWeight: 62.0,
         dexEntry: "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
         cryUrl: "cries/034.mp3",
-        ability: ["Poison Point", "Rivalry", "Sheer Force"]
+        ability: ["Poison Point", "Rivalry", "Sheer Force"],
+        evolution: evolutionFamilies.nidoranm
     },
     {
         name: "Clefairy",
@@ -630,7 +2077,8 @@ let nationalDex = {
         metricWeight: 7.5,
         dexEntry: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
         cryUrl: "cries/035.mp3",
-        ability: ["Cute Charm", "Magic Guard", "Friend Guard"]
+        ability: ["Cute Charm", "Magic Guard", "Friend Guard"],
+        evolution: evolutionFamilies.cleffa
     },
     {
         name: "Clefable",
@@ -648,7 +2096,8 @@ let nationalDex = {
         metricWeight: 40.0,
         dexEntry: "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
         cryUrl: "cries/036.mp3",
-        ability: ["Cute Charm", "Magic Guard", "Unaware"]
+        ability: ["Cute Charm", "Magic Guard", "Unaware"],
+        evolution: evolutionFamilies.cleffa
     },
     {
         name: "Vulpix",
@@ -666,7 +2115,8 @@ let nationalDex = {
         metricWeight: 9.9,
         dexEntry: "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
         cryUrl: "cries/037.mp3",
-        ability: ["Flash Fire", "Drought"]
+        ability: ["Flash Fire", "Drought"],
+        evolution: evolutionFamilies.vulpix
     },
     {
         name: "Ninetales",
@@ -684,7 +2134,8 @@ let nationalDex = {
         metricWeight: 19.9,
         dexEntry: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
         cryUrl: "cries/038.mp3",
-        ability: ["Flash Fire", "Drought"]
+        ability: ["Flash Fire", "Drought"],
+        evolution: evolutionFamilies.vulpix
     },
     {
         name: "Jigglypuff",
@@ -702,7 +2153,8 @@ let nationalDex = {
         metricWeight: 5.5,
         dexEntry: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
         cryUrl: "cries/039.mp3",
-        ability: ["Cute Charm", "Competitive", "Friend Guard"]
+        ability: ["Cute Charm", "Competitive", "Friend Guard"],
+        evolution: evolutionFamilies.igglybuff
     },
     {
         name: "Wigglytuff",
@@ -720,7 +2172,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
         cryUrl: "cries/040.mp3",
-        ability: ["Cute Charm", "Competitive", "Frisk"]
+        ability: ["Cute Charm", "Competitive", "Frisk"],
+        evolution: evolutionFamilies.igglybuff
     },
     {
         name: "Zubat",
@@ -738,7 +2191,8 @@ let nationalDex = {
         metricWeight: 7.5,
         dexEntry: "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
         cryUrl: "cries/041.mp3",
-        ability: ["Inner Focus", "Infiltrator"]
+        ability: ["Inner Focus", "Infiltrator"],
+        evolution: evolutionFamilies.zubat
     },
     {
         name: "Golbat",
@@ -756,7 +2210,8 @@ let nationalDex = {
         metricWeight: 55.0,
         dexEntry: "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
         cryUrl: "cries/042.mp3",
-        ability: ["Inner Focus", "Infiltrator"]
+        ability: ["Inner Focus", "Infiltrator"],
+        evolution: evolutionFamilies.zubat
     },
     {
         name: "Oddish",
@@ -774,7 +2229,8 @@ let nationalDex = {
         metricWeight: 5.4,
         dexEntry: "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
         cryUrl: "cries/043.mp3",
-        ability: ["Chlorophyll", "Run Away"]
+        ability: ["Chlorophyll", "Run Away"],
+        evolution: evolutionFamilies.oddish
     },
     {
         name: "Gloom",
@@ -792,7 +2248,8 @@ let nationalDex = {
         metricWeight: 8.6,
         dexEntry: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
         cryUrl: "cries/044.mp3",
-        ability: ["Chlorophyll", "Stench"]
+        ability: ["Chlorophyll", "Stench"],
+        evolution: evolutionFamilies.oddish
     },
     {
         name: "Vileplume",
@@ -810,7 +2267,8 @@ let nationalDex = {
         metricWeight: 18.6,
         dexEntry: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
         cryUrl: "cries/045.mp3",
-        ability: ["Chlorophyll", "Effect Spore"]
+        ability: ["Chlorophyll", "Effect Spore"],
+        evolution: evolutionFamilies.oddish
     },
     {
         name: "Paras",
@@ -828,7 +2286,8 @@ let nationalDex = {
         metricWeight: 5.4,
         dexEntry: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
         cryUrl: "cries/046.mp3",
-        ability: ["Effect Spore", "Dry Skin", "Damp"]
+        ability: ["Effect Spore", "Dry Skin", "Damp"],
+        evolution: evolutionFamilies.paras
     },
     {
         name: "Parasect",
@@ -846,7 +2305,8 @@ let nationalDex = {
         metricWeight: 29.5,
         dexEntry: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
         cryUrl: "cries/047.mp3",
-        ability: ["Effect Spore", "Dry Skin", "Damp"]
+        ability: ["Effect Spore", "Dry Skin", "Damp"],
+        evolution: evolutionFamilies.paras
     },
     {
         name: "Venonat",
@@ -864,7 +2324,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
         cryUrl: "cries/048.mp3",
-        ability: ["Compound Eyes", "Tinted Lens", "Run Away"]
+        ability: ["Compound Eyes", "Tinted Lens", "Run Away"],
+        evolution: evolutionFamilies.venonat
     },
     {
         name: "Venomoth",
@@ -882,7 +2343,8 @@ let nationalDex = {
         metricWeight: 12.5,
         dexEntry: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
         cryUrl: "cries/049.mp3",
-        ability: ["Shield Dust", "Tinted Lens", "Wonder Skin"]
+        ability: ["Shield Dust", "Tinted Lens", "Wonder Skin"],
+        evolution: evolutionFamilies.venonat
     },
     {
         name: "Diglett",
@@ -900,7 +2362,8 @@ let nationalDex = {
         metricWeight: 0.8,
         dexEntry: "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
         cryUrl: "cries/050.mp3",
-        ability: ["Sand Veil", "Arena Trap", "Sand Force"]
+        ability: ["Sand Veil", "Arena Trap", "Sand Force"],
+        evolution: evolutionFamilies.diglett
     },
     {
         name: "Dugtrio",
@@ -918,7 +2381,8 @@ let nationalDex = {
         metricWeight: 33.3,
         dexEntry: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
         cryUrl: "cries/051.mp3",
-        ability: ["Sand Veil", "Arena Trap", "Sand Force"]
+        ability: ["Sand Veil", "Arena Trap", "Sand Force"],
+        evolution: evolutionFamilies.diglett
     },
     {
         name: "Meowth",
@@ -936,7 +2400,8 @@ let nationalDex = {
         metricWeight: 4.2,
         dexEntry: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
         cryUrl: "cries/052.mp3",
-        ability: ["Pickup", "Technician", "Unnerve"]
+        ability: ["Pickup", "Technician", "Unnerve"],
+        evolution: evolutionFamilies.meowth
     },
     {
         name: "Persian",
@@ -954,7 +2419,8 @@ let nationalDex = {
         metricWeight: 32.0,
         dexEntry: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
         cryUrl: "cries/053.mp3",
-        ability: ["Limber", "Technician", "Unnerve"]
+        ability: ["Limber", "Technician", "Unnerve"],
+        evolution: evolutionFamilies.meowth
     },
     {
         name: "Psyduck",
@@ -972,7 +2438,8 @@ let nationalDex = {
         metricWeight: 19.6,
         dexEntry: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
         cryUrl: "cries/054.mp3",
-        ability: ["Damp", "Cloud Nine", "Swift Swim"]
+        ability: ["Damp", "Cloud Nine", "Swift Swim"],
+        evolution: evolutionFamilies.psyduck
     },
     {
         name: "Golduck",
@@ -990,7 +2457,8 @@ let nationalDex = {
         metricWeight: 76.6,
         dexEntry: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
         cryUrl: "cries/055.mp3",
-        ability: ["Damp", "Cloud Nine", "Swift Swim"]
+        ability: ["Damp", "Cloud Nine", "Swift Swim"],
+        evolution: evolutionFamilies.psyduck
     },
     {
         name: "Mankey",
@@ -1008,7 +2476,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
         cryUrl: "cries/056.mp3",
-        ability: ["Vital Spirit", "Anger Point", "Defiant"]
+        ability: ["Vital Spirit", "Anger Point", "Defiant"],
+        evolution: evolutionFamilies.mankey
     },
     {
         name: "Primeape",
@@ -1026,7 +2495,8 @@ let nationalDex = {
         metricWeight: 32.0,
         dexEntry: "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.",
         cryUrl: "cries/057.mp3",
-        ability: ["Vital Spirit", "Anger Point", "Defiant"]
+        ability: ["Vital Spirit", "Anger Point", "Defiant"],
+        evolution: evolutionFamilies.mankey
     },
     {
         name: "Growlithe",
@@ -1044,7 +2514,8 @@ let nationalDex = {
         metricWeight: 19.0,
         dexEntry: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
         cryUrl: "cries/058.mp3",
-        ability: ["Intimidate", "Flash Fire", "Justified"]
+        ability: ["Intimidate", "Flash Fire", "Justified"],
+        evolution: evolutionFamilies.growlithe
     },
     {
         name: "Arcanine",
@@ -1062,7 +2533,8 @@ let nationalDex = {
         metricWeight: 155.0,
         dexEntry: "A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings.",
         cryUrl: "cries/059.mp3",
-        ability: ["Intimidate", "Flash Fire", "Justified"]
+        ability: ["Intimidate", "Flash Fire", "Justified"],
+        evolution: evolutionFamilies.growlithe
     },
     {
         name: "Poliwag",
@@ -1080,7 +2552,8 @@ let nationalDex = {
         metricWeight: 12.4,
         dexEntry: "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
         cryUrl: "cries/060.mp3",
-        ability: ["Water Absorb", "Damp", "Swift Swim"]
+        ability: ["Water Absorb", "Damp", "Swift Swim"],
+        evolution: evolutionFamilies.poliwag
     },
     {
         name: "Poliwhirl",
@@ -1098,7 +2571,8 @@ let nationalDex = {
         metricWeight: 20.0,
         dexEntry: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
         cryUrl: "cries/061.mp3",
-        ability: ["Water Absorb", "Damp", "Swift Swim"]
+        ability: ["Water Absorb", "Damp", "Swift Swim"],
+        evolution: evolutionFamilies.poliwag
     },
     {
         name: "Poliwrath",
@@ -1116,7 +2590,8 @@ let nationalDex = {
         metricWeight: 54.0,
         dexEntry: "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers",
         cryUrl: "cries/062.mp3",
-        ability: ["Water Absorb", "Damp", "Swift Swim"]
+        ability: ["Water Absorb", "Damp", "Swift Swim"],
+        evolution: evolutionFamilies.poliwag
     },
     {
         name: "Abra",
@@ -1134,7 +2609,8 @@ let nationalDex = {
         metricWeight: 19.5,
         dexEntry: "Using its ability to read minds, it will identify impending danger and Teleport to safety.",
         cryUrl: "cries/063.mp3",
-        ability: ["Synchronize", "Inner Focus", "Magic Guard"]
+        ability: ["Synchronize", "Inner Focus", "Magic Guard"],
+        evolution: evolutionFamilies.abra
     },
     {
         name: "Kadabra",
@@ -1152,7 +2628,8 @@ let nationalDex = {
         metricWeight: 56.5,
         dexEntry: "It emits special alpha waves from its body that induce headaches just by being close by.",
         cryUrl: "cries/064.mp3",
-        ability: ["Synchronize", "Inner Focus", "Magic Guard"]
+        ability: ["Synchronize", "Inner Focus", "Magic Guard"],
+        evolution: evolutionFamilies.abra
     },
     {
         name: "Alakazam",
@@ -1170,7 +2647,8 @@ let nationalDex = {
         metricWeight: 48.0,
         dexEntry: "Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000.",
         cryUrl: "cries/065.mp3",
-        ability: ["Synchronize", "Inner Focus", "Magic Guard"]
+        ability: ["Synchronize", "Inner Focus", "Magic Guard"],
+        evolution: evolutionFamilies.abra
     },
     {
         name: "Machop",
@@ -1188,7 +2666,8 @@ let nationalDex = {
         metricWeight: 19.5,
         dexEntry: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
         cryUrl: "cries/066.mp3",
-        ability: ["Guts", "No Guard", "Steadfast"]
+        ability: ["Guts", "No Guard", "Steadfast"],
+        evolution: evolutionFamilies.machop
     },
     {
         name: "Machoke",
@@ -1206,7 +2685,8 @@ let nationalDex = {
         metricWeight: 70.5,
         dexEntry: "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
         cryUrl: "cries/067.mp3",
-        ability: ["Guts", "No Guard", "Steadfast"]
+        ability: ["Guts", "No Guard", "Steadfast"],
+        evolution: evolutionFamilies.machop
     },
     {
         name: "Machamp",
@@ -1224,7 +2704,8 @@ let nationalDex = {
         metricWeight: 130.0,
         dexEntry: "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
         cryUrl: "cries/068.mp3",
-        ability: ["Guts", "No Guard", "Steadfast"]
+        ability: ["Guts", "No Guard", "Steadfast"],
+        evolution: evolutionFamilies.machop
     },
     {
         name: "Bellsprout",
@@ -1242,7 +2723,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
         cryUrl: "cries/069.mp3",
-        ability: ["Chlorophyll", "Gluttony"]
+        ability: ["Chlorophyll", "Gluttony"],
+        evolution: evolutionFamilies.bellsprout
     },
     {
         name: "Weepinbell",
@@ -1260,7 +2742,8 @@ let nationalDex = {
         metricWeight: 6.4,
         dexEntry: "It spits out PoisonPowder to immobilize the enemy and then finishes it with a spray of Acid.",
         cryUrl: "cries/070.mp3",
-        ability: ["Chlorophyll", "Gluttony"]
+        ability: ["Chlorophyll", "Gluttony"],
+        evolution: evolutionFamilies.bellsprout
     },
     {
         name: "Victreebel",
@@ -1278,7 +2761,8 @@ let nationalDex = {
         metricWeight: 15.5,
         dexEntry: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
         cryUrl: "cries/071.mp3",
-        ability: ["Chlorophyll", "Gluttony"]
+        ability: ["Chlorophyll", "Gluttony"],
+        evolution: evolutionFamilies.bellsprout
     },
     {
         name: "Tentacool",
@@ -1296,7 +2780,8 @@ let nationalDex = {
         metricWeight: 45.5,
         dexEntry: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
         cryUrl: "cries/072.mp3",
-        ability: ["Clear Body", "Liquid Ooze", "Rain Dish"]
+        ability: ["Clear Body", "Liquid Ooze", "Rain Dish"],
+        evolution: evolutionFamilies.tentacool
     },
     {
         name: "Tentacruel",
@@ -1314,7 +2799,8 @@ let nationalDex = {
         metricWeight: 55.0,
         dexEntry: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
         cryUrl: "cries/073.mp3",
-        ability: ["Clear Body", "Liquid Ooze", "Rain Dish"]
+        ability: ["Clear Body", "Liquid Ooze", "Rain Dish"],
+        evolution: evolutionFamilies.tentacool
     },
     {
         name: "Geodude",
@@ -1332,7 +2818,8 @@ let nationalDex = {
         metricWeight: 20.0,
         dexEntry: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
         cryUrl: "cries/074.mp3",
-        ability: ["Rock Head", "Sturdy", "Sand Veil"]
+        ability: ["Rock Head", "Sturdy", "Sand Veil"],
+        evolution: evolutionFamilies.geodude
     },
     {
         name: "Graveler",
@@ -1350,7 +2837,8 @@ let nationalDex = {
         metricWeight: 105.0,
         dexEntry: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
         cryUrl: "cries/075.mp3",
-        ability: ["Rock Head", "Sturdy", "Sand Veil"]
+        ability: ["Rock Head", "Sturdy", "Sand Veil"],
+        evolution: evolutionFamilies.geodude
     },
     {
         name: "Golem",
@@ -1368,7 +2856,8 @@ let nationalDex = {
         metricWeight: 300.0,
         dexEntry: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
         cryUrl: "cries/076.mp3",
-        ability: ["Rock Head", "Sturdy", "Sand Veil"]
+        ability: ["Rock Head", "Sturdy", "Sand Veil"],
+        evolution: evolutionFamilies.geodude
     },
     {
         name: "Ponyta",
@@ -1386,7 +2875,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.",
         cryUrl: "cries/077.mp3",
-        ability: ["Run Away", "Flash Fire", "Flame Body"]
+        ability: ["Run Away", "Flash Fire", "Flame Body"],
+        evolution: evolutionFamilies.ponyta
     },
     {
         name: "Rapidash",
@@ -1404,7 +2894,8 @@ let nationalDex = {
         metricWeight: 95.0,
         dexEntry: "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
         cryUrl: "cries/078.mp3",
-        ability: ["Run Away", "Flash Fire", "Flame Body"]
+        ability: ["Run Away", "Flash Fire", "Flame Body"],
+        evolution: evolutionFamilies.ponyta
     },
     {
         name: "Slowpoke",
@@ -1422,7 +2913,8 @@ let nationalDex = {
         metricWeight: 36.0,
         dexEntry: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
         cryUrl: "cries/079.mp3",
-        ability: ["Oblivious", "Own Tempo", "Regenerator"]
+        ability: ["Oblivious", "Own Tempo", "Regenerator"],
+        evolution: evolutionFamilies.slowpoke
     },
     {
         name: "Slowbro",
@@ -1440,7 +2932,8 @@ let nationalDex = {
         metricWeight: 78.5,
         dexEntry: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left over scraps.",
         cryUrl: "cries/080.mp3",
-        ability: ["Oblivious", "Own Tempo", "Regenerator"]
+        ability: ["Oblivious", "Own Tempo", "Regenerator"],
+        evolution: evolutionFamilies.slowpoke
     },
     {
         name: "Magnemite",
@@ -1458,7 +2951,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "Uses anti-gravity to stay suspended. Appears without warning and uses Thunder Wave and similar moves.",
         cryUrl: "cries/081.mp3",
-        ability: ["Magnet Pull", "Sturdy", "Analytic"]
+        ability: ["Magnet Pull", "Sturdy", "Analytic"],
+        evolution: evolutionFamilies.magnemite
     },
     {
         name: "Magneton",
@@ -1476,7 +2970,8 @@ let nationalDex = {
         metricWeight: 60.0,
         dexEntry: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up.",
         cryUrl: "cries/082.mp3",
-        ability: ["Magnet Pull", "Sturdy", "Analytic"]
+        ability: ["Magnet Pull", "Sturdy", "Analytic"],
+        evolution: evolutionFamilies.magnemite
     },
     {
         name: "Farfetch'd",
@@ -1494,7 +2989,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
         cryUrl: "cries/083.mp3",
-        ability: ["Keen Eye", "Inner Focus", "Defiant"]
+        ability: ["Keen Eye", "Inner Focus", "Defiant"],
+        evolution: evolutionFamilies.farfetchd
     },
     {
         name: "Doduo",
@@ -1512,7 +3008,8 @@ let nationalDex = {
         metricWeight: 39.2,
         dexEntry: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
         cryUrl: "cries/084.mp3",
-        ability: ["Run Away", "Early Bird", "Tangled Feet"]
+        ability: ["Run Away", "Early Bird", "Tangled Feet"],
+        evolution: evolutionFamilies.doduo
     },
     {
         name: "Dodrio",
@@ -1530,7 +3027,8 @@ let nationalDex = {
         metricWeight: 85.2,
         dexEntry: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
         cryUrl: "cries/085.mp3",
-        ability: ["Run Away", "Early Bird", "Tangled Feet"]
+        ability: ["Run Away", "Early Bird", "Tangled Feet"],
+        evolution: evolutionFamilies.doduo
     },
     {
         name: "Seel",
@@ -1548,7 +3046,8 @@ let nationalDex = {
         metricWeight: 90.0,
         dexEntry: "The protruding horn on its head is very hard. It is used for bashing through thick ice.",
         cryUrl: "cries/086.mp3",
-        ability: ["Thick Fat", "Hydration", "Ice Body"]
+        ability: ["Thick Fat", "Hydration", "Ice Body"],
+        evolution: evolutionFamilies.seel
     },
     {
         name: "Dewgong",
@@ -1566,7 +3065,8 @@ let nationalDex = {
         metricWeight: 120.0,
         dexEntry: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
         cryUrl: "cries/087.mp3",
-        ability: ["Thick Fat", "Hydration", "Ice Body"]
+        ability: ["Thick Fat", "Hydration", "Ice Body"],
+        evolution: evolutionFamilies.seel
     },
     {
         name: "Grimer",
@@ -1584,7 +3084,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
         cryUrl: "cries/088.mp3",
-        ability: ["Stench", "Sticky Hold", "Poison Touch"]
+        ability: ["Stench", "Sticky Hold", "Poison Touch"],
+        evolution: evolutionFamilies.grimer
     },
     {
         name: "Muk",
@@ -1602,7 +3103,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
         cryUrl: "cries/089.mp3",
-        ability: ["Stench", "Sticky Hold", "Poison Touch"]
+        ability: ["Stench", "Sticky Hold", "Poison Touch"],
+        evolution: evolutionFamilies.grimer
     },
     {
         name: "Shellder",
@@ -1620,7 +3122,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
         cryUrl: "cries/090.mp3",
-        ability: ["Shell Armor", "Skill Link", "Overcoat"]
+        ability: ["Shell Armor", "Skill Link", "Overcoat"],
+        evolution: evolutionFamilies.shellder
     },
     {
         name: "Cloyster",
@@ -1638,7 +3141,8 @@ let nationalDex = {
         metricWeight: 132.5,
         dexEntry: "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
         cryUrl: "cries/091.mp3",
-        ability: ["Shell Armor", "Skill Link", "Overcoat"]
+        ability: ["Shell Armor", "Skill Link", "Overcoat"],
+        evolution: evolutionFamilies.shellder
     },
     {
         name: "Gastly",
@@ -1656,7 +3160,8 @@ let nationalDex = {
         metricWeight: 0.1,
         dexEntry: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
         cryUrl: "cries/092.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.gastly
     },
     {
         name: "Haunter",
@@ -1674,7 +3179,8 @@ let nationalDex = {
         metricWeight: 0.1,
         dexEntry: "Because of its ability to slip through block walls, it is said to be from another dimension.",
         cryUrl: "cries/093.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.gastly
     },
     {
         name: "Gengar",
@@ -1692,7 +3198,8 @@ let nationalDex = {
         metricWeight: 40.5,
         dexEntry: "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",
         cryUrl: "cries/094.mp3",
-        ability: ["Cursed Body"]
+        ability: ["Cursed Body"],
+        evolution: evolutionFamilies.gastly
     },
     {
         name: "Onix",
@@ -1710,7 +3217,8 @@ let nationalDex = {
         metricWeight: 210.0,
         dexEntry: "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",
         cryUrl: "cries/095.mp3",
-        ability: ["Rock Head", "Sturdy", "Weak Armor"]
+        ability: ["Rock Head", "Sturdy", "Weak Armor"],
+        evolution: evolutionFamilies.onix
     },
     {
         name: "Drowzee",
@@ -1728,7 +3236,8 @@ let nationalDex = {
         metricWeight: 32.4,
         dexEntry: "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
         cryUrl: "cries/096.mp3",
-        ability: ["Insomnia", "Forewarn", "Inner Focus"]
+        ability: ["Insomnia", "Forewarn", "Inner Focus"],
+        evolution: evolutionFamilies.drowzee
     },
     {
         name: "Hypno",
@@ -1746,7 +3255,8 @@ let nationalDex = {
         metricWeight: 75.6,
         dexEntry: "When it locks eyes with an enemy, it will use a mix of PSI moves such as Hypnosis and Confusion.",
         cryUrl: "cries/097.mp3",
-        ability: ["Insomnia", "Forewarn", "Inner Focus"]
+        ability: ["Insomnia", "Forewarn", "Inner Focus"],
+        evolution: evolutionFamilies.drowzee
     },
     {
         name: "Krabby",
@@ -1764,7 +3274,8 @@ let nationalDex = {
         metricWeight: 6.5,
         dexEntry: "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
         cryUrl: "cries/098.mp3",
-        ability: ["Hyper Cutter", "Shell Armor", "Sheer Force"]
+        ability: ["Hyper Cutter", "Shell Armor", "Sheer Force"],
+        evolution: evolutionFamilies.krabby
     },
     {
         name: "Kingler",
@@ -1782,7 +3293,8 @@ let nationalDex = {
         metricWeight: 60.0,
         dexEntry: "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.",
         cryUrl: "cries/099.mp3",
-        ability: ["Hyper Cutter", "Shell Armor", "Sheer Force"]
+        ability: ["Hyper Cutter", "Shell Armor", "Sheer Force"],
+        evolution: evolutionFamilies.krabby
     },
     {
         name: "Voltorb",
@@ -1800,7 +3312,8 @@ let nationalDex = {
         metricWeight: 10.4,
         dexEntry: "Usually found in power plants. Easily mistaken for a Poké Ball, they have zapped many people.",
         cryUrl: "cries/100.mp3",
-        ability: ["Soundproof", "Static", "Aftermath"]
+        ability: ["Soundproof", "Static", "Aftermath"],
+        evolution: evolutionFamilies.voltorb
     },
     {
         name: "Electrode",
@@ -1818,7 +3331,8 @@ let nationalDex = {
         metricWeight: 66.6,
         dexEntry: "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
         cryUrl: "cries/101.mp3",
-        ability: ["Soundproof", "Static", "Aftermath"]
+        ability: ["Soundproof", "Static", "Aftermath"],
+        evolution: evolutionFamilies.voltorb
     },
     {
         name: "Exeggcute",
@@ -1836,7 +3350,8 @@ let nationalDex = {
         metricWeight: 2.5,
         dexEntry: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
         cryUrl: "cries/102.mp3",
-        ability: ["Chlorophyll", "Harvest"]
+        ability: ["Chlorophyll", "Harvest"],
+        evolution: evolutionFamilies.exeggcute
     },
     {
         name: "Exeggutor",
@@ -1854,7 +3369,8 @@ let nationalDex = {
         metricWeight: 120.0,
         dexEntry: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
         cryUrl: "cries/103.mp3",
-        ability: ["Chlorophyll", "Harvest"]
+        ability: ["Chlorophyll", "Harvest"],
+        evolution: evolutionFamilies.exeggcute
     },
     {
         name: "Cubone",
@@ -1872,7 +3388,8 @@ let nationalDex = {
         metricWeight: 6.5,
         dexEntry: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
         cryUrl: "cries/104.mp3",
-        ability: ["Rock Head", "Lightning Rod", "Battle Armor"]
+        ability: ["Rock Head", "Lightning Rod", "Battle Armor"],
+        evolution: evolutionFamilies.cubone
     },
     {
         name: "Marowak",
@@ -1890,7 +3407,8 @@ let nationalDex = {
         metricWeight: 45.0,
         dexEntry: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
         cryUrl: "cries/105.mp3",
-        ability: ["Rock Head", "Lightning Rod", "Battle Armor"]
+        ability: ["Rock Head", "Lightning Rod", "Battle Armor"],
+        evolution: evolutionFamilies.cubone
     },
     {
         name: "Hitmonlee",
@@ -1908,7 +3426,8 @@ let nationalDex = {
         metricWeight: 49.8,
         dexEntry: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
         cryUrl: "cries/106.mp3",
-        ability: ["Limber", "Reckless", "Unburden"]
+        ability: ["Limber", "Reckless", "Unburden"],
+        evolution: evolutionFamilies.tyrogue
     },
     {
         name: "Hitmonchan",
@@ -1926,7 +3445,8 @@ let nationalDex = {
         metricWeight: 50.2,
         dexEntry: "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",
         cryUrl: "cries/107.mp3",
-        ability: ["Keen Eye", "Iron Fist", "Inner Focus"]
+        ability: ["Keen Eye", "Iron Fist", "Inner Focus"],
+        evolution: evolutionFamilies.tyrogue
     },
     {
         name: "Lickitung",
@@ -1944,7 +3464,8 @@ let nationalDex = {
         metricWeight: 65.5,
         dexEntry: "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
         cryUrl: "cries/108.mp3",
-        ability: ["Own Tempo", "Oblivious", "Cloud Nine"]
+        ability: ["Own Tempo", "Oblivious", "Cloud Nine"],
+        evolution: evolutionFamilies.lickitung
     },
     {
         name: "Koffing",
@@ -1962,7 +3483,8 @@ let nationalDex = {
         metricWeight: 2.2,
         dexEntry: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
         cryUrl: "cries/109.mp3",
-        ability: ["Levitate", "Neutralizing Gas", "Stench"]
+        ability: ["Levitate", "Neutralizing Gas", "Stench"],
+        evolution: evolutionFamilies.koffing
     },
     {
         name: "Weezing",
@@ -1980,7 +3502,8 @@ let nationalDex = {
         metricWeight: 9.5,
         dexEntry: "Where two kinds of poison gases meet, 2 Koffings can fuse into a Weezing over many years.",
         cryUrl: "cries/110.mp3",
-        ability: ["Levitate", "Neutralizing Gas", "Stench"]
+        ability: ["Levitate", "Neutralizing Gas", "Stench"],
+        evolution: evolutionFamilies.koffing
     },
     {
         name: "Rhyhorn",
@@ -1998,7 +3521,8 @@ let nationalDex = {
         metricWeight: 115.0,
         dexEntry: "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
         cryUrl: "cries/111.mp3",
-        ability: ["Lightning Rod", "Rock Head", "Reckless"]
+        ability: ["Lightning Rod", "Rock Head", "Reckless"],
+        evolution: evolutionFamilies.rhyhorn
     },
     {
         name: "Rhydon",
@@ -2016,7 +3540,8 @@ let nationalDex = {
         metricWeight: 120.0,
         dexEntry: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
         cryUrl: "cries/112.mp3",
-        ability: ["Lightning Rod", "Rock Head", "Reckless"]
+        ability: ["Lightning Rod", "Rock Head", "Reckless"],
+        evolution: evolutionFamilies.rhyhorn
     },
     {
         name: "Chansey",
@@ -2034,7 +3559,8 @@ let nationalDex = {
         metricWeight: 34.6,
         dexEntry: "A rare and elusive Pokémon that is said to bring happiness to those who manage to get it.",
         cryUrl: "cries/113.mp3",
-        ability: ["Natural Cure", "Serene Grace", "Healer"]
+        ability: ["Natural Cure", "Serene Grace", "Healer"],
+        evolution: evolutionFamilies.happiny
     },
     {
         name: "Tangela",
@@ -2052,7 +3578,8 @@ let nationalDex = {
         metricWeight: 35.0,
         dexEntry: "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks.",
         cryUrl: "cries/114.mp3",
-        ability: ["Chlorophyll", "Leaf Guard", "Regenerator"]
+        ability: ["Chlorophyll", "Leaf Guard", "Regenerator"],
+        evolution: evolutionFamilies.tangela
     },
     {
         name: "Kangaskhan",
@@ -2070,7 +3597,8 @@ let nationalDex = {
         metricWeight: 80.0,
         dexEntry: "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
         cryUrl: "cries/115.mp3",
-        ability: ["Early Bird", "Scrappy", "Inner Focus"]
+        ability: ["Early Bird", "Scrappy", "Inner Focus"],
+        evolution: evolutionFamilies.kangaskhan
     },
     {
         name: "Horsea",
@@ -2088,7 +3616,8 @@ let nationalDex = {
         metricWeight: 8.0,
         dexEntry: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
         cryUrl: "cries/116.mp3",
-        ability: ["Swift Swim", "Sniper", "Damp"]
+        ability: ["Swift Swim", "Sniper", "Damp"],
+        evolution: evolutionFamilies.horsea
     },
     {
         name: "Seadra",
@@ -2106,7 +3635,8 @@ let nationalDex = {
         metricWeight: 25.0,
         dexEntry: "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
         cryUrl: "cries/117.mp3",
-        ability: ["Poison Point", "Sniper", "Damp"]
+        ability: ["Poison Point", "Sniper", "Damp"],
+        evolution: evolutionFamilies.horsea
     },
     {
         name: "Goldeen",
@@ -2124,7 +3654,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
         cryUrl: "cries/118.mp3",
-        ability: ["Swift Swim", "Water Veil", "Lightning Rod"]
+        ability: ["Swift Swim", "Water Veil", "Lightning Rod"],
+        evolution: evolutionFamilies.goldeen
     },
     {
         name: "Seaking",
@@ -2142,7 +3673,8 @@ let nationalDex = {
         metricWeight: 39.0,
         dexEntry: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
         cryUrl: "cries/119.mp3",
-        ability: ["Swift Swim", "Water Veil", "Lightning Rod"]
+        ability: ["Swift Swim", "Water Veil", "Lightning Rod"],
+        evolution: evolutionFamilies.goldeen
     },
     {
         name: "Staryu",
@@ -2160,7 +3692,8 @@ let nationalDex = {
         metricWeight: 34.5,
         dexEntry: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
         cryUrl: "cries/120.mp3",
-        ability: ["Illuminate", "Natural Cure", "Analytic"]
+        ability: ["Illuminate", "Natural Cure", "Analytic"],
+        evolution: evolutionFamilies.staryu
     },
     {
         name: "Starmie",
@@ -2178,7 +3711,8 @@ let nationalDex = {
         metricWeight: 80.0,
         dexEntry: "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
         cryUrl: "cries/121.mp3",
-        ability: ["Illuminate", "Natural Cure", "Analytic"]
+        ability: ["Illuminate", "Natural Cure", "Analytic"],
+        evolution: evolutionFamilies.staryu
     },
     {
         name: "Mr. Mime",
@@ -2196,7 +3730,8 @@ let nationalDex = {
         metricWeight: 54.5,
         dexEntry: "If interrupted while it is miming, it will slap around the offender with its broad hands.",
         cryUrl: "cries/122.mp3",
-        ability: ["Soundproof", "Filter", "Technician"]
+        ability: ["Soundproof", "Filter", "Technician"],
+        evolution: evolutionFamilies.mimejr
     },
     {
         name: "Scyther",
@@ -2214,7 +3749,8 @@ let nationalDex = {
         metricWeight: 56.0,
         dexEntry: "With ninja-like agility and speed, it can create the illusion that there is more than one.",
         cryUrl: "cries/123.mp3",
-        ability: ["Swarm", "Technician", "Steadfast"]
+        ability: ["Swarm", "Technician", "Steadfast"],
+        evolution: evolutionFamilies.scyther
     },
     {
         name: "Jynx",
@@ -2232,7 +3768,8 @@ let nationalDex = {
         metricWeight: 40.6,
         dexEntry: "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
         cryUrl: "cries/124.mp3",
-        ability: ["Oblivious", "Forewarn", "Dry Skin"]
+        ability: ["Oblivious", "Forewarn", "Dry Skin"],
+        evolution: evolutionFamilies.smoochum
     },
     {
         name: "Electabuzz",
@@ -2250,7 +3787,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Normally found near power plants, they can wander away and cause major blackouts in cities.",
         cryUrl: "cries/125.mp3",
-        ability: ["Static", "Vital Spirit"]
+        ability: ["Static", "Vital Spirit"],
+        evolution: evolutionFamilies.elekid
     },
     {
         name: "Magmar",
@@ -2268,7 +3806,8 @@ let nationalDex = {
         metricWeight: 44.5,
         dexEntry: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
         cryUrl: "cries/126.mp3",
-        ability: ["Flame Body", "Vital Spirit"]
+        ability: ["Flame Body", "Vital Spirit"],
+        evolution: evolutionFamilies.magby
     },
     {
         name: "Pinsir",
@@ -2286,7 +3825,8 @@ let nationalDex = {
         metricWeight: 55.0,
         dexEntry: "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
         cryUrl: "cries/127.mp3",
-        ability: ["Hyper Cutter", "Mold Breaker", "Moxie"]
+        ability: ["Hyper Cutter", "Mold Breaker", "Moxie"],
+        evolution: evolutionFamilies.pinsir
     },
     {
         name: "Tauros",
@@ -2304,7 +3844,8 @@ let nationalDex = {
         metricWeight: 88.4,
         dexEntry: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
         cryUrl: "cries/128.mp3",
-        ability: ["Intimidate", "Anger Point", "Sheer Force"]
+        ability: ["Intimidate", "Anger Point", "Sheer Force"],
+        evolution: evolutionFamilies.tauros
     },
     {
         name: "Magikarp",
@@ -2322,7 +3863,8 @@ let nationalDex = {
         metricWeight: 10.0,
         dexEntry: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
         cryUrl: "cries/129.mp3",
-        ability: ["Swift Swim", "Rattled"]
+        ability: ["Swift Swim", "Rattled"],
+        evolution: evolutionFamilies.magikarp
     },
     {
         name: "Gyarados",
@@ -2340,7 +3882,8 @@ let nationalDex = {
         metricWeight: 235.0,
         dexEntry: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
         cryUrl: "cries/130.mp3",
-        ability: ["Intimidate", "Moxie"]
+        ability: ["Intimidate", "Moxie"],
+        evolution: evolutionFamilies.magikarp
     },
     {
         name: "Lapras",
@@ -2358,7 +3901,8 @@ let nationalDex = {
         metricWeight: 220.0,
         dexEntry: "A Pokémon that has been overhunted almost to extinction. It can ferry people across the water.",
         cryUrl: "cries/131.mp3",
-        ability: ["Water Absorb", "Shell Armor", "Hydration"]
+        ability: ["Water Absorb", "Shell Armor", "Hydration"],
+        evolution: evolutionFamilies.lapras
     },
     {
         name: "Ditto",
@@ -2376,7 +3920,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
         cryUrl: "cries/132.mp3",
-        ability: ["Limber", "Imposter"]
+        ability: ["Limber", "Imposter"],
+        evolution: evolutionFamilies.ditto
     },
     {
         name: "Eevee",
@@ -2394,7 +3939,8 @@ let nationalDex = {
         metricWeight: 6.5,
         dexEntry: "Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
         cryUrl: "cries/133.mp3",
-        ability: ["Run Away", "Adaptability", "Anticipation"]
+        ability: ["Run Away", "Adaptability", "Anticipation"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Vaporeon",
@@ -2412,7 +3958,8 @@ let nationalDex = {
         metricWeight: 29.0,
         dexEntry: "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
         cryUrl: "cries/134.mp3",
-        ability: ["Water Absorb", "Hydration"]
+        ability: ["Water Absorb", "Hydration"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Jolteon",
@@ -2430,7 +3977,8 @@ let nationalDex = {
         metricWeight: 24.5,
         dexEntry: "It accumulates negative ions in the atmosphere to blast out 10000-volt lightning bolts.",
         cryUrl: "cries/135.mp3",
-        ability: ["Volt Absorb", "Quick Feet"]
+        ability: ["Volt Absorb", "Quick Feet"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Flareon",
@@ -2448,7 +3996,8 @@ let nationalDex = {
         metricWeight: 25.0,
         dexEntry: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
         cryUrl: "cries/136.mp3",
-        ability: ["Flash Fire", "Guts"]
+        ability: ["Flash Fire", "Guts"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Porygon",
@@ -2466,7 +4015,8 @@ let nationalDex = {
         metricWeight: 36.5,
         dexEntry: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
         cryUrl: "cries/137.mp3",
-        ability: ["Trace", "Download", "Analytic"]
+        ability: ["Trace", "Download", "Analytic"],
+        evolution: evolutionFamilies.porygon
     },
     {
         name: "Omanyte",
@@ -2484,7 +4034,8 @@ let nationalDex = {
         metricWeight: 7.5,
         dexEntry: "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
         cryUrl: "cries/138.mp3",
-        ability: ["Swift Swim", "Shell Armor", "Weak Armor"]
+        ability: ["Swift Swim", "Shell Armor", "Weak Armor"],
+        evolution: evolutionFamilies.omanyte
     },
     {
         name: "Omastar",
@@ -2502,7 +4053,8 @@ let nationalDex = {
         metricWeight: 35.0,
         dexEntry: "A prehistoric Pokémon that died out when its heavy shell made it impossible to catch prey.",
         cryUrl: "cries/139.mp3",
-        ability: ["Swift Swim", "Shell Armor", "Weak Armor"]
+        ability: ["Swift Swim", "Shell Armor", "Weak Armor"],
+        evolution: evolutionFamilies.omanyte
     },
     {
         name: "Kabuto",
@@ -2520,7 +4072,8 @@ let nationalDex = {
         metricWeight: 11.5,
         dexEntry: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago.",
         cryUrl: "cries/140.mp3",
-        ability: ["Swift Swim", "Battle Armor", "Weak Armor"]
+        ability: ["Swift Swim", "Battle Armor", "Weak Armor"],
+        evolution: evolutionFamilies.kabuto
     },
     {
         name: "Kabutops",
@@ -2538,7 +4091,8 @@ let nationalDex = {
         metricWeight: 40.5,
         dexEntry: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
         cryUrl: "cries/141.mp3",
-        ability: ["Swift Swim", "Battle Armor", "Weak Armor"]
+        ability: ["Swift Swim", "Battle Armor", "Weak Armor"],
+        evolution: evolutionFamilies.kabuto
     },
     {
         name: "Aerodactyl",
@@ -2556,7 +4110,8 @@ let nationalDex = {
         metricWeight: 59.0,
         dexEntry: "A ferocious, prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
         cryUrl: "cries/142.mp3",
-        ability: ["Rock Head", "Pressure", "Unnerve"]
+        ability: ["Rock Head", "Pressure", "Unnerve"],
+        evolution: evolutionFamilies.aerodactyl
     },
     {
         name: "Snorlax",
@@ -2574,7 +4129,8 @@ let nationalDex = {
         metricWeight: 460.0,
         dexEntry: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
         cryUrl: "cries/143.mp3",
-        ability: ["Immunity", "Thick Fat", "Gluttony"]
+        ability: ["Immunity", "Thick Fat", "Gluttony"],
+        evolution: evolutionFamilies.munchlax
     },
     {
         name: "Articuno",
@@ -2592,7 +4148,8 @@ let nationalDex = {
         metricWeight: 55.4,
         dexEntry: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
         cryUrl: "cries/144.mp3",
-        ability: ["Pressure", "Snow Cloak"]
+        ability: ["Pressure", "Snow Cloak"],
+        evolution: evolutionFamilies.articuno
     },
     {
         name: "Zapdos",
@@ -2610,7 +4167,8 @@ let nationalDex = {
         metricWeight: 52.6,
         dexEntry: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
         cryUrl: "cries/145.mp3",
-        ability: ["Pressure", "Static"]
+        ability: ["Pressure", "Static"],
+        evolution: evolutionFamilies.zapdos
     },
     {
         name: "Moltres",
@@ -2628,7 +4186,8 @@ let nationalDex = {
         metricWeight: 60.0,
         dexEntry: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
         cryUrl: "cries/146.mp3",
-        ability: ["Pressure", "Flame Body"]
+        ability: ["Pressure", "Flame Body"],
+        evolution: evolutionFamilies.moltres
     },
     {
         name: "Dratini",
@@ -2646,7 +4205,8 @@ let nationalDex = {
         metricWeight: 3.3,
         dexEntry: "Long considered a mythical Pokémon until recently when a small colony was found living underwater.",
         cryUrl: "cries/147.mp3",
-        ability: ["Shed Skin", "Marvel Scale"]
+        ability: ["Shed Skin", "Marvel Scale"],
+        evolution: evolutionFamilies.dratini
     },
     {
         name: "Dragonair",
@@ -2664,7 +4224,8 @@ let nationalDex = {
         metricWeight: 16.5,
         dexEntry: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
         cryUrl: "cries/148.mp3",
-        ability: ["Shed Skin", "Marvel Scale"]
+        ability: ["Shed Skin", "Marvel Scale"],
+        evolution: evolutionFamilies.dratini
     },
     {
         name: "Dragonite",
@@ -2682,7 +4243,8 @@ let nationalDex = {
         metricWeight: 210.0,
         dexEntry: "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",
         cryUrl: "cries/149.mp3",
-        ability: ["Inner Focus", "Multiscale"]
+        ability: ["Inner Focus", "Multiscale"],
+        evolution: evolutionFamilies.dratini
     },
     {
         name: "Mewtwo",
@@ -2700,7 +4262,8 @@ let nationalDex = {
         metricWeight: 122.0,
         dexEntry: "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
         cryUrl: "cries/150.mp3",
-        ability: ["Pressure", "Unnerve"]
+        ability: ["Pressure", "Unnerve"],
+        evolution: evolutionFamilies.mewtwo
     },
     {
         name: "Mew",
@@ -2718,7 +4281,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
         cryUrl: "cries/151.mp3",
-        ability: ["Synchronize"]
+        ability: ["Synchronize"],
+        evolution: evolutionFamilies.mew
     },
     {
         name: "Chikorita",
@@ -2736,7 +4300,8 @@ let nationalDex = {
         metricWeight: 6.4,
         dexEntry: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
         cryUrl: "cries/152.mp3",
-        ability: ["Overgrow", "Leaf Guard"]
+        ability: ["Overgrow", "Leaf Guard"],
+        evolution: evolutionFamilies.chikorita
     },
     {
         name: "Bayleef",
@@ -2754,7 +4319,8 @@ let nationalDex = {
         metricWeight: 15.8,
         dexEntry: "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
         cryUrl: "cries/153.mp3",
-        ability: ["Overgrow", "Leaf Guard"]
+        ability: ["Overgrow", "Leaf Guard"],
+        evolution: evolutionFamilies.chikorita
     },
     {
         name: "Meganium",
@@ -2772,7 +4338,8 @@ let nationalDex = {
         metricWeight: 100.5,
         dexEntry: "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
         cryUrl: "cries/154.mp3",
-        ability: ["Overgrow", "Leaf Guard"]
+        ability: ["Overgrow", "Leaf Guard"],
+        evolution: evolutionFamilies.chikorita
     },
     {
         name: "Cyndaquil",
@@ -2790,7 +4357,8 @@ let nationalDex = {
         metricWeight: 7.9,
         dexEntry: "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
         cryUrl: "cries/155.mp3",
-        ability: ["Blaze", "Flash Fire"]
+        ability: ["Blaze", "Flash Fire"],
+        evolution: evolutionFamilies.cyndaquil
     },
     {
         name: "Quilava",
@@ -2808,7 +4376,8 @@ let nationalDex = {
         metricWeight: 19.0,
         dexEntry: "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
         cryUrl: "cries/156.mp3",
-        ability: ["Blaze", "Flash Fire"]
+        ability: ["Blaze", "Flash Fire"],
+        evolution: evolutionFamilies.cyndaquil
     },
     {
         name: "Typhlosion",
@@ -2826,7 +4395,8 @@ let nationalDex = {
         metricWeight: 79.5,
         dexEntry: "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
         cryUrl: "cries/157.mp3",
-        ability: ["Blaze", "Flash Fire"]
+        ability: ["Blaze", "Flash Fire"],
+        evolution: evolutionFamilies.cyndaquil
     },
     {
         name: "Totodile",
@@ -2844,7 +4414,8 @@ let nationalDex = {
         metricWeight: 9.5,
         dexEntry: "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
         cryUrl: "cries/158.mp3",
-        ability: ["Torrent", "Sheer Force"]
+        ability: ["Torrent", "Sheer Force"],
+        evolution: evolutionFamilies.totodile
     },
     {
         name: "Croconaw",
@@ -2862,7 +4433,8 @@ let nationalDex = {
         metricWeight: 25.0,
         dexEntry: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
         cryUrl: "cries/159.mp3",
-        ability: ["Torrent", "Sheer Force"]
+        ability: ["Torrent", "Sheer Force"],
+        evolution: evolutionFamilies.totodile
     },
     {
         name: "Feraligatr",
@@ -2880,7 +4452,8 @@ let nationalDex = {
         metricWeight: 88.8,
         dexEntry: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
         cryUrl: "cries/160.mp3",
-        ability: ["Torrent", "Sheer Force"]
+        ability: ["Torrent", "Sheer Force"],
+        evolution: evolutionFamilies.totodile
     },
     {
         name: "Sentret",
@@ -2898,7 +4471,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings.",
         cryUrl: "cries/161.mp3",
-        ability: ["Run Away", "Keen Eye", "Frisk"]
+        ability: ["Run Away", "Keen Eye", "Frisk"],
+        evolution: evolutionFamilies.sentret
     },
     {
         name: "Furret",
@@ -2916,7 +4490,8 @@ let nationalDex = {
         metricWeight: 32.5,
         dexEntry: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
         cryUrl: "cries/162.mp3",
-        ability: ["Run Away", "Keen Eye", "Frisk"]
+        ability: ["Run Away", "Keen Eye", "Frisk"],
+        evolution: evolutionFamilies.sentret
     },
     {
         name: "Hoothoot",
@@ -2934,7 +4509,8 @@ let nationalDex = {
         metricWeight: 21.2,
         dexEntry: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
         cryUrl: "cries/163.mp3",
-        ability: ["Insomnia", "Keen Eye", "Tinted Lens"]
+        ability: ["Insomnia", "Keen Eye", "Tinted Lens"],
+        evolution: evolutionFamilies.hoothoot
     },
     {
         name: "Noctowl",
@@ -2952,7 +4528,8 @@ let nationalDex = {
         metricWeight: 40.8,
         dexEntry: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
         cryUrl: "cries/164.mp3",
-        ability: ["Insomnia", "Keen Eye", "Tinted Lens"]
+        ability: ["Insomnia", "Keen Eye", "Tinted Lens"],
+        evolution: evolutionFamilies.hoothoot
     },
     {
         name: "Ledyba",
@@ -2970,7 +4547,8 @@ let nationalDex = {
         metricWeight: 10.8,
         dexEntry: "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group.",
         cryUrl: "cries/165.mp3",
-        ability: ["Swarm", "Early Bird", "Rattled"]
+        ability: ["Swarm", "Early Bird", "Rattled"],
+        evolution: evolutionFamilies.ledyba
     },
     {
         name: "Ledian",
@@ -2988,7 +4566,8 @@ let nationalDex = {
         metricWeight: 35.6,
         dexEntry: "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
         cryUrl: "cries/166.mp3",
-        ability: ["Swarm", "Early Bird", "Iron Fist"]
+        ability: ["Swarm", "Early Bird", "Iron Fist"],
+        evolution: evolutionFamilies.ledyba
     },
     {
         name: "Spinarak",
@@ -3006,7 +4585,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
         cryUrl: "cries/167.mp3",
-        ability: ["Swarm", "Insomnia", "Sniper"]
+        ability: ["Swarm", "Insomnia", "Sniper"],
+        evolution: evolutionFamilies.spinarak
     },
     {
         name: "Ariados",
@@ -3024,7 +4604,8 @@ let nationalDex = {
         metricWeight: 33.5,
         dexEntry: "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
         cryUrl: "cries/168.mp3",
-        ability: ["Swarm", "Insomnia", "Sniper"]
+        ability: ["Swarm", "Insomnia", "Sniper"],
+        evolution: evolutionFamilies.spinarak
     },
     {
         name: "Crobat",
@@ -3042,7 +4623,8 @@ let nationalDex = {
         metricWeight: 75.0,
         dexEntry: "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
         cryUrl: "cries/169.mp3",
-        ability: ["Inner Focus", "Infiltrator"]
+        ability: ["Inner Focus", "Infiltrator"],
+        evolution: evolutionFamilies.zubat
     },
     {
         name: "Chinchou",
@@ -3060,7 +4642,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
         cryUrl: "cries/170.mp3",
-        ability: ["Volt Absorb", "Illuminate", "Water Absorb"]
+        ability: ["Volt Absorb", "Illuminate", "Water Absorb"],
+        evolution: evolutionFamilies.chinchou
     },
     {
         name: "Lanturn",
@@ -3078,7 +4661,8 @@ let nationalDex = {
         metricWeight: 22.5,
         dexEntry: "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
         cryUrl: "cries/171.mp3",
-        ability: ["Volt Absorb", "Illuminate", "Water Absorb"]
+        ability: ["Volt Absorb", "Illuminate", "Water Absorb"],
+        evolution: evolutionFamilies.chinchou
     },
     {
         name: "Pichu",
@@ -3096,7 +4680,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
         cryUrl: "cries/172.mp3",
-        ability: ["Static", "Lightning Rod"]
+        ability: ["Static", "Lightning Rod"],
+        evolution: evolutionFamilies.pichu
     },
     {
         name: "Cleffa",
@@ -3114,7 +4699,8 @@ let nationalDex = {
         metricWeight: 3.0,
         dexEntry: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
         cryUrl: "cries/173.mp3",
-        ability: ["Cute Charm", "Magic Guard", "Friend Guard"]
+        ability: ["Cute Charm", "Magic Guard", "Friend Guard"],
+        evolution: evolutionFamilies.cleffa
     },
     {
         name: "Igglybuff",
@@ -3132,7 +4718,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
         cryUrl: "cries/174.mp3",
-        ability: ["Cute Charm", "Competitive", "Friend Guard"]
+        ability: ["Cute Charm", "Competitive", "Friend Guard"],
+        evolution: evolutionFamilies.igglybuff
     },
     {
         name: "Togepi",
@@ -3150,7 +4737,8 @@ let nationalDex = {
         metricWeight: 3.3,
         dexEntry: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
         cryUrl: "cries/175.mp3",
-        ability: ["Hustle", "Serene Grace", "Super Luck"]
+        ability: ["Hustle", "Serene Grace", "Super Luck"],
+        evolution: evolutionFamilies.togepi
     },
     {
         name: "Togetic",
@@ -3168,7 +4756,8 @@ let nationalDex = {
         metricWeight: 3.2,
         dexEntry: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
         cryUrl: "cries/176.mp3",
-        ability: ["Hustle", "Serene Grace", "Super Luck"]
+        ability: ["Hustle", "Serene Grace", "Super Luck"],
+        evolution: evolutionFamilies.togepi
     },
     {
         name: "Natu",
@@ -3186,7 +4775,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something.",
         cryUrl: "cries/177.mp3",
-        ability: ["Synchronize", "Early Bird", "Magic Bounce"]
+        ability: ["Synchronize", "Early Bird", "Magic Bounce"],
+        evolution: evolutionFamilies.natu
     },
     {
         name: "Xatu",
@@ -3204,7 +4794,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
         cryUrl: "cries/178.mp3",
-        ability: ["Synchronize", "Early Bird", "Magic Bounce"]
+        ability: ["Synchronize", "Early Bird", "Magic Bounce"],
+        evolution: evolutionFamilies.natu
     },
     {
         name: "Mareep",
@@ -3222,7 +4813,8 @@ let nationalDex = {
         metricWeight: 7.8,
         dexEntry: "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
         cryUrl: "cries/179.mp3",
-        ability: ["Static", "Plus"]
+        ability: ["Static", "Plus"],
+        evolution: evolutionFamilies.mareep
     },
     {
         name: "Flaaffy",
@@ -3240,7 +4832,8 @@ let nationalDex = {
         metricWeight: 13.3,
         dexEntry: "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
         cryUrl: "cries/180.mp3",
-        ability: ["Static", "Plus"]
+        ability: ["Static", "Plus"],
+        evolution: evolutionFamilies.mareep
     },
     {
         name: "Ampharos",
@@ -3258,7 +4851,8 @@ let nationalDex = {
         metricWeight: 61.5,
         dexEntry: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
         cryUrl: "cries/181.mp3",
-        ability: ["Static", "Plus"]
+        ability: ["Static", "Plus"],
+        evolution: evolutionFamilies.mareep
     },
     {
         name: "Bellossom",
@@ -3276,7 +4870,8 @@ let nationalDex = {
         metricWeight: 5.8,
         dexEntry: "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
         cryUrl: "cries/182.mp3",
-        ability: ["Chlorophyll", "Healer"]
+        ability: ["Chlorophyll", "Healer"],
+        evolution: evolutionFamilies.oddish
     },
     {
         name: "Marill",
@@ -3294,7 +4889,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning.",
         cryUrl: "cries/183.mp3",
-        ability: ["Thick Fat", "Huge Power", "Sap Sipper"]
+        ability: ["Thick Fat", "Huge Power", "Sap Sipper"],
+        evolution: evolutionFamilies.azurill
     },
     {
         name: "Azumarill",
@@ -3312,7 +4908,8 @@ let nationalDex = {
         metricWeight: 28.5,
         dexEntry: "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers.",
         cryUrl: "cries/184.mp3",
-        ability: ["Thick Fat", "Huge Power", "Sap Sipper"]
+        ability: ["Thick Fat", "Huge Power", "Sap Sipper"],
+        evolution: evolutionFamilies.azurill
     },
     {
         name: "Sudowoodo",
@@ -3330,7 +4927,8 @@ let nationalDex = {
         metricWeight: 38.0,
         dexEntry: "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant.",
         cryUrl: "cries/185.mp3",
-        ability: ["Sturdy", "Rock Head", "Rattled"]
+        ability: ["Sturdy", "Rock Head", "Rattled"],
+        evolution: evolutionFamilies.bonsly
     },
     {
         name: "Politoed",
@@ -3348,7 +4946,8 @@ let nationalDex = {
         metricWeight: 33.9,
         dexEntry: "If Poliwag and Poliwhirl hear its echoing cry, they respond by gathering from far and wide.",
         cryUrl: "cries/186.mp3",
-        ability: ["Water Absorb", "Damp", "Drizzle"]
+        ability: ["Water Absorb", "Damp", "Drizzle"],
+        evolution: evolutionFamilies.poliwag
     },
     {
         name: "Hoppip",
@@ -3366,7 +4965,8 @@ let nationalDex = {
         metricWeight: 0.5,
         dexEntry: "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
         cryUrl: "cries/187.mp3",
-        ability: ["Chlorophyll", "Leaf Guard", "Infiltrator"]
+        ability: ["Chlorophyll", "Leaf Guard", "Infiltrator"],
+        evolution: evolutionFamilies.hoppip
     },
     {
         name: "Skiploom",
@@ -3384,7 +4984,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "The bloom on top of its head opens and closes as the temperature fluctuates up and down.",
         cryUrl: "cries/188.mp3",
-        ability: ["Chlorophyll", "Leaf Guard", "Infiltrator"]
+        ability: ["Chlorophyll", "Leaf Guard", "Infiltrator"],
+        evolution: evolutionFamilies.hoppip
     },
     {
         name: "Jumpluff",
@@ -3402,7 +5003,8 @@ let nationalDex = {
         metricWeight: 3.0,
         dexEntry: "Once it catches the wind, it deftly controls its cotton-puff spores to float, even around the world.",
         cryUrl: "cries/189.mp3",
-        ability: ["Chlorophyll", "Leaf Guard", "Infiltrator"]
+        ability: ["Chlorophyll", "Leaf Guard", "Infiltrator"],
+        evolution: evolutionFamilies.hoppip
     },
     {
         name: "Aipom",
@@ -3420,7 +5022,8 @@ let nationalDex = {
         metricWeight: 11.5,
         dexEntry: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
         cryUrl: "cries/190.mp3",
-        ability: ["Run Away", "Pickup", "Skill Link"]
+        ability: ["Run Away", "Pickup", "Skill Link"],
+        evolution: evolutionFamilies.aipom
     },
     {
         name: "Sunkern",
@@ -3438,7 +5041,8 @@ let nationalDex = {
         metricWeight: 1.8,
         dexEntry: "It may drop out of the sky suddenly. If attacked by a Spearow, it will violently shake its leaves.",
         cryUrl: "cries/191.mp3",
-        ability: ["Chlorophyll", "Solar Power", "Early Bird"]
+        ability: ["Chlorophyll", "Solar Power", "Early Bird"],
+        evolution: evolutionFamilies.sunkern
     },
     {
         name: "Sunflora",
@@ -3456,7 +5060,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
         cryUrl: "cries/192.mp3",
-        ability: ["Chlorophyll", "Solar Power", "Early Bird"]
+        ability: ["Chlorophyll", "Solar Power", "Early Bird"],
+        evolution: evolutionFamilies.sunkern
     },
     {
         name: "Yanma",
@@ -3474,7 +5079,8 @@ let nationalDex = {
         metricWeight: 38.0,
         dexEntry: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
         cryUrl: "cries/193.mp3",
-        ability: ["Speed Boost", "Compound Eyes", "Frisk"]
+        ability: ["Speed Boost", "Compound Eyes", "Frisk"],
+        evolution: evolutionFamilies.yanma
     },
     {
         name: "Wooper",
@@ -3492,7 +5098,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
         cryUrl: "cries/194.mp3",
-        ability: ["Damp", "Water Absorb", "Unaware"]
+        ability: ["Damp", "Water Absorb", "Unaware"],
+        evolution: evolutionFamilies.wooper
     },
     {
         name: "Quagsire",
@@ -3510,7 +5117,8 @@ let nationalDex = {
         metricWeight: 75.0,
         dexEntry: "This carefree Pokémon has an easy-going nature. While swimming, it always bumps into boat hulls.",
         cryUrl: "cries/195.mp3",
-        ability: ["Damp", "Water Absorb", "Unaware"]
+        ability: ["Damp", "Water Absorb", "Unaware"],
+        evolution: evolutionFamilies.wooper
     },
     {
         name: "Espeon",
@@ -3528,7 +5136,8 @@ let nationalDex = {
         metricWeight: 26.5,
         dexEntry: "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
         cryUrl: "cries/196.mp3",
-        ability: ["Synchronize", "Magic Bounce"]
+        ability: ["Synchronize", "Magic Bounce"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Umbreon",
@@ -3546,7 +5155,8 @@ let nationalDex = {
         metricWeight: 27.0,
         dexEntry: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
         cryUrl: "cries/197.mp3",
-        ability: ["Synchronize", "Inner Focus"]
+        ability: ["Synchronize", "Inner Focus"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Murkrow",
@@ -3564,7 +5174,8 @@ let nationalDex = {
         metricWeight: 2.1,
         dexEntry: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
         cryUrl: "cries/198.mp3",
-        ability: ["Insomnia", "Super Luck", "Prankster"]
+        ability: ["Insomnia", "Super Luck", "Prankster"],
+        evolution: evolutionFamilies.murkrow
     },
     {
         name: "Slowking",
@@ -3582,7 +5193,8 @@ let nationalDex = {
         metricWeight: 79.5,
         dexEntry: "It has incredible intellect and intuition. Whatever the situation, it remains calm and collected.",
         cryUrl: "cries/199.mp3",
-        ability: ["Oblivious", "Own Tempo", "Regenerator"]
+        ability: ["Oblivious", "Own Tempo", "Regenerator"],
+        evolution: evolutionFamilies.slowpoke
     },
     {
         name: "Misdreavus",
@@ -3600,7 +5212,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
         cryUrl: "cries/200.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.misdreavus
     },
     {
         name: "Unown",
@@ -3618,7 +5231,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
         cryUrl: "cries/201.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.unown
     },
     {
         name: "Wobbuffet",
@@ -3636,7 +5250,8 @@ let nationalDex = {
         metricWeight: 28.5,
         dexEntry: "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike.",
         cryUrl: "cries/202.mp3",
-        ability: ["Shadow Tag", "Telepathy"]
+        ability: ["Shadow Tag", "Telepathy"],
+        evolution: evolutionFamilies.wynaut
     },
     {
         name: "Girafarig",
@@ -3654,7 +5269,8 @@ let nationalDex = {
         metricWeight: 41.5,
         dexEntry: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
         cryUrl: "cries/203.mp3",
-        ability: ["Inner Focus", "Early Bird", "Sap Sipper"]
+        ability: ["Inner Focus", "Early Bird", "Sap Sipper"],
+        evolution: evolutionFamilies.girafarig
     },
     {
         name: "Pineco",
@@ -3672,7 +5288,8 @@ let nationalDex = {
         metricWeight: 7.2,
         dexEntry: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
         cryUrl: "cries/204.mp3",
-        ability: ["Sturdy", "Overcoat"]
+        ability: ["Sturdy", "Overcoat"],
+        evolution: evolutionFamilies.pineco
     },
     {
         name: "Forretress",
@@ -3690,7 +5307,8 @@ let nationalDex = {
         metricWeight: 125.8,
         dexEntry: "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
         cryUrl: "cries/205.mp3",
-        ability: ["Sturdy", "Overcoat"]
+        ability: ["Sturdy", "Overcoat"],
+        evolution: evolutionFamilies.pineco
     },
     {
         name: "Dunsparce",
@@ -3708,7 +5326,8 @@ let nationalDex = {
         metricWeight: 14.0,
         dexEntry: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
         cryUrl: "cries/206.mp3",
-        ability: ["Serene Grace", "Run Away", "Rattled"]
+        ability: ["Serene Grace", "Run Away", "Rattled"],
+        evolution: evolutionFamilies.dunsparce
     },
     {
         name: "Gligar",
@@ -3726,7 +5345,8 @@ let nationalDex = {
         metricWeight: 64.8,
         dexEntry: "It flies straight at its target's face then clamps down on the startled victim to inject poison.",
         cryUrl: "cries/207.mp3",
-        ability: ["Hyper Cutter", "Sand Veil", "Immunity"]
+        ability: ["Hyper Cutter", "Sand Veil", "Immunity"],
+        evolution: evolutionFamilies.gligar
     },
     {
         name: "Steelix",
@@ -3744,7 +5364,8 @@ let nationalDex = {
         metricWeight: 400.0,
         dexEntry: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
         cryUrl: "cries/208.mp3",
-        ability: ["Rock Head", "Sturdy", "Sheer Force"]
+        ability: ["Rock Head", "Sturdy", "Sheer Force"],
+        evolution: evolutionFamilies.onix
     },
     {
         name: "Snubbull",
@@ -3762,7 +5383,8 @@ let nationalDex = {
         metricWeight: 7.8,
         dexEntry: "Although it looks frightening, it is actually kind and affectionate. It is very popular among women.",
         cryUrl: "cries/209.mp3",
-        ability: ["Intimidate", "Run Away", "Rattled"]
+        ability: ["Intimidate", "Run Away", "Rattled"],
+        evolution: evolutionFamilies.snubbull
     },
     {
         name: "Granbull",
@@ -3780,7 +5402,8 @@ let nationalDex = {
         metricWeight: 48.7,
         dexEntry: "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker.",
         cryUrl: "cries/210.mp3",
-        ability: ["Intimidate", "Quick Feet", "Rattled"]
+        ability: ["Intimidate", "Quick Feet", "Rattled"],
+        evolution: evolutionFamilies.snubbull
     },
     {
         name: "Qwilfish",
@@ -3798,7 +5421,8 @@ let nationalDex = {
         metricWeight: 3.9,
         dexEntry: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
         cryUrl: "cries/211.mp3",
-        ability: ["Poison Point", "Swift Swim", "Intimidate"]
+        ability: ["Poison Point", "Swift Swim", "Intimidate"],
+        evolution: evolutionFamilies.qwilfish
     },
     {
         name: "Scizor",
@@ -3816,7 +5440,8 @@ let nationalDex = {
         metricWeight: 118.0,
         dexEntry: "It swings its eye-patterned pincers up to scare its foes. This makes it look like it has three heads.",
         cryUrl: "cries/212.mp3",
-        ability: ["Swarm", "Technician", "Light Metal"]
+        ability: ["Swarm", "Technician", "Light Metal"],
+        evolution: evolutionFamilies.scyther
     },
     {
         name: "Shuckle",
@@ -3834,7 +5459,8 @@ let nationalDex = {
         metricWeight: 20.5,
         dexEntry: "The Berries it stores in its vase-like shell decompose and become a gooey liquid.",
         cryUrl: "cries/213.mp3",
-        ability: ["Sturdy", "Gluttony", "Contrary"]
+        ability: ["Sturdy", "Gluttony", "Contrary"],
+        evolution: evolutionFamilies.shuckle
     },
     {
         name: "Heracross",
@@ -3852,7 +5478,8 @@ let nationalDex = {
         metricWeight: 54.0,
         dexEntry: "This powerful Pokémon thrusts its prized horn under its enemies' bellies then lifts and throws them.",
         cryUrl: "cries/214.mp3",
-        ability: ["Swarm", "Guts", "Moxie"]
+        ability: ["Swarm", "Guts", "Moxie"],
+        evolution: evolutionFamilies.heracross
     },
     {
         name: "Sneasel",
@@ -3870,7 +5497,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
         cryUrl: "cries/215.mp3",
-        ability: ["Inner Focus", "Keen Eye", "Pickpocket"]
+        ability: ["Inner Focus", "Keen Eye", "Pickpocket"],
+        evolution: evolutionFamilies.sneasel
     },
     {
         name: "Teddiursa",
@@ -3888,7 +5516,8 @@ let nationalDex = {
         metricWeight: 8.8,
         dexEntry: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
         cryUrl: "cries/216.mp3",
-        ability: ["Pickup", "Quick Feet", "Honey Gather"]
+        ability: ["Pickup", "Quick Feet", "Honey Gather"],
+        evolution: evolutionFamilies.teddiursa
     },
     {
         name: "Ursaring",
@@ -3906,7 +5535,8 @@ let nationalDex = {
         metricWeight: 125.8,
         dexEntry: "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen Berries.",
         cryUrl: "cries/217.mp3",
-        ability: ["Guts", "Quick Feet", "Unnerve"]
+        ability: ["Guts", "Quick Feet", "Unnerve"],
+        evolution: evolutionFamilies.teddiursa
     },
     {
         name: "Slugma",
@@ -3924,7 +5554,8 @@ let nationalDex = {
         metricWeight: 35.0,
         dexEntry: "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
         cryUrl: "cries/218.mp3",
-        ability: ["Magma Armor", "Flame Body", "Weak Armor"]
+        ability: ["Magma Armor", "Flame Body", "Weak Armor"],
+        evolution: evolutionFamilies.slugma
     },
     {
         name: "Magcargo",
@@ -3942,7 +5573,8 @@ let nationalDex = {
         metricWeight: 55.0,
         dexEntry: "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
         cryUrl: "cries/219.mp3",
-        ability: ["Magma Armor", "Flame Body", "Weak Armor"]
+        ability: ["Magma Armor", "Flame Body", "Weak Armor"],
+        evolution: evolutionFamilies.slugma
     },
     {
         name: "Swinub",
@@ -3960,7 +5592,8 @@ let nationalDex = {
         metricWeight: 6.5,
         dexEntry: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
         cryUrl: "cries/220.mp3",
-        ability: ["Oblivious", "Snow Cloak", "Thick Fat"]
+        ability: ["Oblivious", "Snow Cloak", "Thick Fat"],
+        evolution: evolutionFamilies.swinub
     },
     {
         name: "Piloswine",
@@ -3978,7 +5611,8 @@ let nationalDex = {
         metricWeight: 55.8,
         dexEntry: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
         cryUrl: "cries/221.mp3",
-        ability: ["Oblivious", "Snow Cloak", "Thick Fat"]
+        ability: ["Oblivious", "Snow Cloak", "Thick Fat"],
+        evolution: evolutionFamilies.swinub
     },
     {
         name: "Corsola",
@@ -3996,7 +5630,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "It continuously sheds and grows. The tip of its head is prized as a treasure for its beauty.",
         cryUrl: "cries/222.mp3",
-        ability: ["Hustle", "Natural Cure", "Regenerator"]
+        ability: ["Hustle", "Natural Cure", "Regenerator"],
+        evolution: evolutionFamilies.corsola
     },
     {
         name: "Remoraid",
@@ -4014,7 +5649,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.",
         cryUrl: "cries/223.mp3",
-        ability: ["Hustle", "Sniper", "Moody"]
+        ability: ["Hustle", "Sniper", "Moody"],
+        evolution: evolutionFamilies.remoraid
     },
     {
         name: "Octillery",
@@ -4032,7 +5668,8 @@ let nationalDex = {
         metricWeight: 28.5,
         dexEntry: "It traps enemies with its suction-cupped tentacles then smashes them with its rock-hard head.",
         cryUrl: "cries/224.mp3",
-        ability: ["Suction Cups", "Sniper", "Moody"]
+        ability: ["Suction Cups", "Sniper", "Moody"],
+        evolution: evolutionFamilies.remoraid
     },
     {
         name: "Delibird",
@@ -4050,7 +5687,8 @@ let nationalDex = {
         metricWeight: 16.0,
         dexEntry: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
         cryUrl: "cries/225.mp3",
-        ability: ["Vital Spirit", "Hustle", "Insomnia"]
+        ability: ["Vital Spirit", "Hustle", "Insomnia"],
+        evolution: evolutionFamilies.delibird
     },
     {
         name: "Mantine",
@@ -4068,7 +5706,8 @@ let nationalDex = {
         metricWeight: 220.0,
         dexEntry: "As it majestically swims, it doesn't care if Remoraid attach to it for scavenging its leftovers.",
         cryUrl: "cries/226.mp3",
-        ability: ["Swift Swim", "Water Absorb", "Water Veil"]
+        ability: ["Swift Swim", "Water Absorb", "Water Veil"],
+        evolution: evolutionFamilies.mantyke
     },
     {
         name: "Skarmory",
@@ -4086,7 +5725,8 @@ let nationalDex = {
         metricWeight: 50.5,
         dexEntry: "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
         cryUrl: "cries/227.mp3",
-        ability: ["Keen Eye", "Sturdy", "Weak Armor"]
+        ability: ["Keen Eye", "Sturdy", "Weak Armor"],
+        evolution: evolutionFamilies.skarmory
     },
     {
         name: "Houndour",
@@ -4104,7 +5744,8 @@ let nationalDex = {
         metricWeight: 10.8,
         dexEntry: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
         cryUrl: "cries/228.mp3",
-        ability: ["Early Bird", "Flash Fire", "Unnerve"]
+        ability: ["Early Bird", "Flash Fire", "Unnerve"],
+        evolution: evolutionFamilies.houndour
     },
     {
         name: "Houndoom",
@@ -4122,7 +5763,8 @@ let nationalDex = {
         metricWeight: 35.0,
         dexEntry: "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
         cryUrl: "cries/229.mp3",
-        ability: ["Early Bird", "Flash Fire", "Unnerve"]
+        ability: ["Early Bird", "Flash Fire", "Unnerve"],
+        evolution: evolutionFamilies.houndour
     },
     {
         name: "Kingdra",
@@ -4140,7 +5782,8 @@ let nationalDex = {
         metricWeight: 152.0,
         dexEntry: "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
         cryUrl: "cries/230.mp3",
-        ability: ["Swift Swim", "Sniper", "Damp"]
+        ability: ["Swift Swim", "Sniper", "Damp"],
+        evolution: evolutionFamilies.horsea
     },
     {
         name: "Phanpy",
@@ -4158,7 +5801,8 @@ let nationalDex = {
         metricWeight: 33.5,
         dexEntry: "It swings its long snout around playfully, but because it is so strong, that can be dangerous.",
         cryUrl: "cries/231.mp3",
-        ability: ["Pickup", "Sand Veil"]
+        ability: ["Pickup", "Sand Veil"],
+        evolution: evolutionFamilies.phanpy
     },
     {
         name: "Donphan",
@@ -4176,7 +5820,8 @@ let nationalDex = {
         metricWeight: 120.0,
         dexEntry: "It has sharp, hard tusks and a rugged hide. Its Tackle is strong enough to knock down a house.",
         cryUrl: "cries/232.mp3",
-        ability: ["Sturdy", "Sand Veil"]
+        ability: ["Sturdy", "Sand Veil"],
+        evolution: evolutionFamilies.phanpy
     },
     {
         name: "Porygon2",
@@ -4194,7 +5839,8 @@ let nationalDex = {
         metricWeight: 32.5,
         dexEntry: "This upgraded version of Porygon is designed for space exploration. It can't fly, though.",
         cryUrl: "cries/233.mp3",
-        ability: ["Trace", "Download", "Analytic"]
+        ability: ["Trace", "Download", "Analytic"],
+        evolution: evolutionFamilies.porygon
     },
     {
         name: "Stantler",
@@ -4212,7 +5858,8 @@ let nationalDex = {
         metricWeight: 71.2,
         dexEntry: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
         cryUrl: "cries/234.mp3",
-        ability: ["Intimidate", "Frisk", "Sap Sipper"]
+        ability: ["Intimidate", "Frisk", "Sap Sipper"],
+        evolution: evolutionFamilies.stantler
     },
     {
         name: "Smeargle",
@@ -4230,7 +5877,8 @@ let nationalDex = {
         metricWeight: 58.0,
         dexEntry: "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
         cryUrl: "cries/235.mp3",
-        ability: ["Own Tempo", "Technician", "Moody"]
+        ability: ["Own Tempo", "Technician", "Moody"],
+        evolution: evolutionFamilies.smeargle
     },
     {
         name: "Tyrogue",
@@ -4248,7 +5896,8 @@ let nationalDex = {
         metricWeight: 21.0,
         dexEntry: "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
         cryUrl: "cries/236.mp3",
-        ability: ["Guts", "Steadfast", "Vital Spirit"]
+        ability: ["Guts", "Steadfast", "Vital Spirit"],
+        evolution: evolutionFamilies.tyrogue
     },
     {
         name: "Hitmontop",
@@ -4266,7 +5915,8 @@ let nationalDex = {
         metricWeight: 48.0,
         dexEntry: "If you become enchanted by its smooth, elegant, dance-like kicks, you may get drilled hard.",
         cryUrl: "cries/237.mp3",
-        ability: ["Intimidate", "Technician", "Steadfast"]
+        ability: ["Intimidate", "Technician", "Steadfast"],
+        evolution: evolutionFamilies.tyrogue
     },
     {
         name: "Smoochum",
@@ -4284,7 +5934,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "Its lips are the most sensitive parts on its body. It always uses its lips first to examine things.",
         cryUrl: "cries/238.mp3",
-        ability: ["Oblivious", "Forewarn", "Hydration"]
+        ability: ["Oblivious", "Forewarn", "Hydration"],
+        evolution: evolutionFamilies.smoochum
     },
     {
         name: "Elekid",
@@ -4302,7 +5953,8 @@ let nationalDex = {
         metricWeight: 23.5,
         dexEntry: "It rotates its arms to generate electricity, but it tires easily, so it charges up only a little bit.",
         cryUrl: "cries/239.mp3",
-        ability: ["Static", "Vital Spirit"]
+        ability: ["Static", "Vital Spirit"],
+        evolution: evolutionFamilies.elekid
     },
     {
         name: "Magby",
@@ -4320,7 +5972,8 @@ let nationalDex = {
         metricWeight: 21.4,
         dexEntry: "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
         cryUrl: "cries/240.mp3",
-        ability: ["Flame Body", "Vital Spirit"]
+        ability: ["Flame Body", "Vital Spirit"],
+        evolution: evolutionFamilies.magby
     },
     {
         name: "Miltank",
@@ -4338,7 +5991,8 @@ let nationalDex = {
         metricWeight: 75.5,
         dexEntry: "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
         cryUrl: "cries/241.mp3",
-        ability: ["Thick Fat", "Scrappy", "Sap Sipper"]
+        ability: ["Thick Fat", "Scrappy", "Sap Sipper"],
+        evolution: evolutionFamilies.miltank
     },
     {
         name: "Blissey",
@@ -4356,7 +6010,8 @@ let nationalDex = {
         metricWeight: 46.8,
         dexEntry: "Anyone who takes even one bite of Blissey's egg becomes unfailingly caring and pleasant to everyone.",
         cryUrl: "cries/242.mp3",
-        ability: ["Natural Cure", "Serene Grace", "Healer"]
+        ability: ["Natural Cure", "Serene Grace", "Healer"],
+        evolution: evolutionFamilies.happiny
     },
     {
         name: "Raikou",
@@ -4374,7 +6029,8 @@ let nationalDex = {
         metricWeight: 178.0,
         dexEntry: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
         cryUrl: "cries/243.mp3",
-        ability: ["Pressure", "Inner Focus"]
+        ability: ["Pressure", "Inner Focus"],
+        evolution: evolutionFamilies.raikou
     },
     {
         name: "Entei",
@@ -4392,7 +6048,8 @@ let nationalDex = {
         metricWeight: 198.0,
         dexEntry: "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
         cryUrl: "cries/244.mp3",
-        ability: ["Pressure", "Inner Focus"]
+        ability: ["Pressure", "Inner Focus"],
+        evolution: evolutionFamilies.entei
     },
     {
         name: "Suicune",
@@ -4410,7 +6067,8 @@ let nationalDex = {
         metricWeight: 187.0,
         dexEntry: "Said to be the reincarnation of north winds, it can instantly purify filthy, murky water.",
         cryUrl: "cries/245.mp3",
-        ability: ["Pressure", "Inner Focus"]
+        ability: ["Pressure", "Inner Focus"],
+        evolution: evolutionFamilies.suicune
     },
     {
         name: "Larvitar",
@@ -4428,7 +6086,8 @@ let nationalDex = {
         metricWeight: 72.0,
         dexEntry: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
         cryUrl: "cries/246.mp3",
-        ability: ["Guts", "Sand Veil"]
+        ability: ["Guts", "Sand Veil"],
+        evolution: evolutionFamilies.larvitar
     },
     {
         name: "Pupitar",
@@ -4446,7 +6105,8 @@ let nationalDex = {
         metricWeight: 152.0,
         dexEntry: "Its shell is as hard as sheet rock, and it is also very strong. Its Thrashing can topple a mountain.",
         cryUrl: "cries/247.mp3",
-        ability: ["Shed Skin"]
+        ability: ["Shed Skin"],
+        evolution: evolutionFamilies.larvitar
     },
     {
         name: "Tyranitar",
@@ -4464,7 +6124,8 @@ let nationalDex = {
         metricWeight: 202.0,
         dexEntry: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
         cryUrl: "cries/248.mp3",
-        ability: ["Sand Stream", "Unnerve"]
+        ability: ["Sand Stream", "Unnerve"],
+        evolution: evolutionFamilies.larvitar
     },
     {
         name: "Lugia",
@@ -4482,7 +6143,8 @@ let nationalDex = {
         metricWeight: 216.0,
         dexEntry: "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong.",
         cryUrl: "cries/249.mp3",
-        ability: ["Pressure", "Multiscale"]
+        ability: ["Pressure", "Multiscale"],
+        evolution: evolutionFamilies.lugia
     },
     {
         name: "Ho-Oh",
@@ -4500,7 +6162,8 @@ let nationalDex = {
         metricWeight: 199.0,
         dexEntry: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings.",
         cryUrl: "cries/250.mp3",
-        ability: ["Pressure", "Regenerator"]
+        ability: ["Pressure", "Regenerator"],
+        evolution: evolutionFamilies.hooh
     },
     {
         name: "Celebi",
@@ -4518,7 +6181,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
         cryUrl: "cries/251.mp3",
-        ability: ["Natural Cure"]
+        ability: ["Natural Cure"],
+        evolution: evolutionFamilies.celebi
     },
     {
         name: "Treecko",
@@ -4536,7 +6200,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail.",
         cryUrl: "cries/252.mp3",
-        ability: ["Overgrow", "Unburden"]
+        ability: ["Overgrow", "Unburden"],
+        evolution: evolutionFamilies.treecko
     },
     {
         name: "Grovyle",
@@ -4554,7 +6219,8 @@ let nationalDex = {
         metricWeight: 21.6,
         dexEntry: "The leaves growing out of Grovyle's body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
         cryUrl: "cries/253.mp3",
-        ability: ["Overgrow", "Unburden"]
+        ability: ["Overgrow", "Unburden"],
+        evolution: evolutionFamilies.treecko
     },
     {
         name: "Sceptile",
@@ -4572,7 +6238,8 @@ let nationalDex = {
         metricWeight: 52.2,
         dexEntry: "The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.",
         cryUrl: "cries/254.mp3",
-        ability: ["Overgrow", "Unburden"]
+        ability: ["Overgrow", "Unburden"],
+        evolution: evolutionFamilies.treecko
     },
     {
         name: "Torchic",
@@ -4590,7 +6257,8 @@ let nationalDex = {
         metricWeight: 2.5,
         dexEntry: "Torchic sticks with its Trainer, following behind with unsteady steps. This Pokémon breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black.",
         cryUrl: "cries/255.mp3",
-        ability: ["Blaze", "Speed Boost"]
+        ability: ["Blaze", "Speed Boost"],
+        evolution: evolutionFamilies.torchic
     },
     {
         name: "Combusken",
@@ -4608,7 +6276,8 @@ let nationalDex = {
         metricWeight: 19.5,
         dexEntry: "Combusken toughens up its legs and thighs by running through fields and mountains. This Pokémon's legs possess both speed and power, enabling it to dole out ten kicks in one second.",
         cryUrl: "cries/256.mp3",
-        ability: ["Blaze", "Speed Boost"]
+        ability: ["Blaze", "Speed Boost"],
+        evolution: evolutionFamilies.torchic
     },
     {
         name: "Blaziken",
@@ -4626,7 +6295,8 @@ let nationalDex = {
         metricWeight: 52.0,
         dexEntry: "In battle, Blaziken blows out intense flames from its wrists and attacks the foe courageously. The stronger the foes, the more intensely this Pokémon's wrists burn.",
         cryUrl: "cries/257.mp3",
-        ability: ["Blaze", "Speed Boost"]
+        ability: ["Blaze", "Speed Boost"],
+        evolution: evolutionFamilies.torchic
     },
     {
         name: "Mudkip",
@@ -4644,7 +6314,8 @@ let nationalDex = {
         metricWeight: 7.6,
         dexEntry: "The fin on Mudkip's head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes.",
         cryUrl: "cries/258.mp3",
-        ability: ["Torrent", "Damp"]
+        ability: ["Torrent", "Damp"],
+        evolution: evolutionFamilies.mudkip
     },
     {
         name: "Marshtomp",
@@ -4662,7 +6333,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches when the ocean tide is low.",
         cryUrl: "cries/259.mp3",
-        ability: ["Torrent", "Damp"]
+        ability: ["Torrent", "Damp"],
+        evolution: evolutionFamilies.mudkip
     },
     {
         name: "Swampert",
@@ -4680,7 +6352,8 @@ let nationalDex = {
         metricWeight: 81.9,
         dexEntry: "Swampert is very strong. It has enough power to easily drag a boulder weighing more than a ton. This Pokémon also has powerful vision that lets it see even in murky water.",
         cryUrl: "cries/260.mp3",
-        ability: ["Torrent", "Damp"]
+        ability: ["Torrent", "Damp"],
+        evolution: evolutionFamilies.mudkip
     },
     {
         name: "Poochyena",
@@ -4698,7 +6371,8 @@ let nationalDex = {
         metricWeight: 13.6,
         dexEntry: "At first sight, Poochyena takes a bite at anything that moves. This Pokémon chases after prey until the victim becomes exhausted. However, it may turn tail if the prey strikes back.",
         cryUrl: "cries/261.mp3",
-        ability: ["Run Away", "Quick Feet", "Rattled"]
+        ability: ["Run Away", "Quick Feet", "Rattled"],
+        evolution: evolutionFamilies.poochyena
     },
     {
         name: "Mightyena",
@@ -4716,7 +6390,8 @@ let nationalDex = {
         metricWeight: 37.0,
         dexEntry: "Mightyena gives obvious signals when it is preparing to attack. It starts to growl deeply and then flattens its body. This Pokémon will bite savagely with its sharply pointed fangs.",
         cryUrl: "cries/262.mp3",
-        ability: ["Intimidate", "Quick Feet", "Moxie"]
+        ability: ["Intimidate", "Quick Feet", "Moxie"],
+        evolution: evolutionFamilies.poochyena
     },
     {
         name: "Zigzagoon",
@@ -4734,7 +6409,8 @@ let nationalDex = {
         metricWeight: 17.5,
         dexEntry: "Zigzagoon restlessly wanders everywhere at all times. This Pokémon does so because it is very curious. It becomes interested in anything that it happens to see.",
         cryUrl: "cries/263.mp3",
-        ability: ["Pickup", "Gluttony", "Quick Feet"]
+        ability: ["Pickup", "Gluttony", "Quick Feet"],
+        evolution: evolutionFamilies.zigzagoon
     },
     {
         name: "Linoone",
@@ -4752,7 +6428,8 @@ let nationalDex = {
         metricWeight: 32.5,
         dexEntry: "Linoone always runs full speed and only in straight lines. If facing an obstacle, it makes a right-angle turn to evade it. This Pokémon is very challenged by gently curving roads.",
         cryUrl: "cries/264.mp3",
-        ability: ["Pickup", "Gluttony", "Quick Feet"]
+        ability: ["Pickup", "Gluttony", "Quick Feet"],
+        evolution: evolutionFamilies.zigzagoon
     },
     {
         name: "Wurmple",
@@ -4770,7 +6447,8 @@ let nationalDex = {
         metricWeight: 3.6,
         dexEntry: "Using the spikes on its rear end, Wurmple peels the bark off trees and feeds on the sap that oozes out. This Pokémon's feet are tipped with suction pads that allow it to cling to glass without slipping.",
         cryUrl: "cries/265.mp3",
-        ability: ["Shield Dust", "Run Away"]
+        ability: ["Shield Dust", "Run Away"],
+        evolution: evolutionFamilies.wurmple
     },
     {
         name: "Silcoon",
@@ -4788,7 +6466,8 @@ let nationalDex = {
         metricWeight: 10.0,
         dexEntry: "Silcoon tethers itself to a tree branch using silk to keep from falling. There, this Pokémon hangs quietly while it awaits evolution. It peers out of the silk cocoon through a small hole.",
         cryUrl: "cries/266.mp3",
-        ability: ["Shed Skin"]
+        ability: ["Shed Skin"],
+        evolution: evolutionFamilies.wurmple
     },
     {
         name: "Beautifly",
@@ -4806,7 +6485,8 @@ let nationalDex = {
         metricWeight: 28.4,
         dexEntry: "Beautifly's favorite food is the sweet pollen of flowers. If you want to see this Pokémon, just leave a potted flower by an open window. Beautifly is sure to come looking for pollen.",
         cryUrl: "cries/267.mp3",
-        ability: ["Swarm", "Rivalry"]
+        ability: ["Swarm", "Rivalry"],
+        evolution: evolutionFamilies.wurmple
     },
     {
         name: "Cascoon",
@@ -4824,7 +6504,8 @@ let nationalDex = {
         metricWeight: 11.5,
         dexEntry: "Cascoon makes its protective cocoon by wrapping its body entirely with a fine silk from its mouth. Once the silk goes around its body, it hardens. This Pokémon prepares for its evolution inside the cocoon.",
         cryUrl: "cries/268.mp3",
-        ability: ["Shed Skin"]
+        ability: ["Shed Skin"],
+        evolution: evolutionFamilies.wurmple
     },
     {
         name: "Dustox",
@@ -4842,7 +6523,8 @@ let nationalDex = {
         metricWeight: 31.6,
         dexEntry: "Dustox is instinctively drawn to light. Swarms of this Pokémon are attracted by the bright light of cities, where they wreak havoc by stripping the leaves off roadside trees for food.",
         cryUrl: "cries/269.mp3",
-        ability: ["Shield Dust", "Compound Eyes"]
+        ability: ["Shield Dust", "Compound Eyes"],
+        evolution: evolutionFamilies.wurmple
     },
     {
         name: "Lotad",
@@ -4860,7 +6542,8 @@ let nationalDex = {
         metricWeight: 2.6,
         dexEntry: "Lotad live in ponds and lakes, where they float on the surface. It grows weak if its broad leaf dies. On rare occasions, this Pokémon travels on land in search of clean water.",
         cryUrl: "cries/270.mp3",
-        ability: ["Swift Swim", "Rain Dish", "Own Tempo"]
+        ability: ["Swift Swim", "Rain Dish", "Own Tempo"],
+        evolution: evolutionFamilies.lotad
     },
     {
         name: "Lombre",
@@ -4878,7 +6561,8 @@ let nationalDex = {
         metricWeight: 32.5,
         dexEntry: "Lombre is nocturnal - it will get active after dusk. It is also a mischief-maker. When this Pokémon spots anglers, it tugs on their fishing lines from beneath the surface and enjoys their consternation.",
         cryUrl: "cries/271.mp3",
-        ability: ["Swift Swim", "Rain Dish", "Own Tempo"]
+        ability: ["Swift Swim", "Rain Dish", "Own Tempo"],
+        evolution: evolutionFamilies.lotad
     },
     {
         name: "Ludicolo",
@@ -4896,7 +6580,8 @@ let nationalDex = {
         metricWeight: 55.0,
         dexEntry: "Ludicolo begins dancing as soon as it hears cheerful, festive music. This Pokémon is said to appear when it hears the singing of children on hiking outings.",
         cryUrl: "cries/272.mp3",
-        ability: ["Swift Swim", "Rain Dish", "Own Tempo"]
+        ability: ["Swift Swim", "Rain Dish", "Own Tempo"],
+        evolution: evolutionFamilies.lotad
     },
     {
         name: "Seedot",
@@ -4914,7 +6599,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "Seedot attaches itself to a tree branch using the top of its head. It sucks moisture from the tree while hanging off the branch. The more water it drinks, the glossier this Pokémon's body becomes.",
         cryUrl: "cries/273.mp3",
-        ability: ["Chlorophyll", "Early Bird", "Pickpocket"]
+        ability: ["Chlorophyll", "Early Bird", "Pickpocket"],
+        evolution: evolutionFamilies.seedot
     },
     {
         name: "Nuzleaf",
@@ -4932,7 +6618,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "Nuzleaf live in densely overgrown forests. They occasionally venture out of the forest to scare people. This Pokémon dislikes having its long nose pinched.",
         cryUrl: "cries/274.mp3",
-        ability: ["Chlorophyll", "Early Bird", "Pickpocket"]
+        ability: ["Chlorophyll", "Early Bird", "Pickpocket"],
+        evolution: evolutionFamilies.seedot
     },
     {
         name: "Shiftry",
@@ -4950,7 +6637,8 @@ let nationalDex = {
         metricWeight: 59.6,
         dexEntry: "Shiftry is a mysterious Pokémon that is said to live atop towering trees dating back over a thousand years. It creates terrific windstorms with the fans it holds.",
         cryUrl: "cries/275.mp3",
-        ability: ["Chlorophyll", "Early Bird", "Pickpocket"]
+        ability: ["Chlorophyll", "Early Bird", "Pickpocket"],
+        evolution: evolutionFamilies.seedot
     },
     {
         name: "Taillow",
@@ -4968,7 +6656,8 @@ let nationalDex = {
         metricWeight: 2.3,
         dexEntry: "Taillow courageously stands its ground against foes, however strong they may be. This gutsy Pokémon will remain defiant even after a loss. On the other hand, it cries loudly if it becomes hungry.",
         cryUrl: "cries/276.mp3",
-        ability: ["Guts", "Scrappy"]
+        ability: ["Guts", "Scrappy"],
+        evolution: evolutionFamilies.taillow
     },
     {
         name: "Swellow",
@@ -4986,7 +6675,8 @@ let nationalDex = {
         metricWeight: 19.8,
         dexEntry: "Swellow flies high above our heads, making graceful arcs in the sky. This Pokémon dives at a steep angle as soon as it spots its prey. The hapless prey is tightly grasped by Swellow's clawed feet, preventing escape.",
         cryUrl: "cries/277.mp3",
-        ability: ["Guts", "Scrappy"]
+        ability: ["Guts", "Scrappy"],
+        evolution: evolutionFamilies.taillow
     },
     {
         name: "Wingull",
@@ -5004,7 +6694,8 @@ let nationalDex = {
         metricWeight: 9.5,
         dexEntry: "Wingull has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This Pokémon rides the winds and flies as if it were skating across the sky.",
         cryUrl: "cries/278.mp3",
-        ability: ["Keen Eye", "Hydration", "Rain Dish"]
+        ability: ["Keen Eye", "Hydration", "Rain Dish"],
+        evolution: evolutionFamilies.wingull
     },
     {
         name: "Pelipper",
@@ -5022,7 +6713,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "Pelipper is a flying transporter that carries small Pokémon and Eggs inside its massive bill. This Pokémon builds its nest on steep cliffs facing the sea.",
         cryUrl: "cries/279.mp3",
-        ability: ["Keen Eye", "Drizzle", "Rain Dish"]
+        ability: ["Keen Eye", "Drizzle", "Rain Dish"],
+        evolution: evolutionFamilies.wingull
     },
     {
         name: "Ralts",
@@ -5040,7 +6732,8 @@ let nationalDex = {
         metricWeight: 6.6,
         dexEntry: "Ralts senses the emotions of people using the horns on its head. This Pokémon rarely appears before people. But when it does, it draws closer if it senses that the person has a positive disposition.",
         cryUrl: "cries/280.mp3",
-        ability: ["Synchronize", "Trace", "Telepathy"]
+        ability: ["Synchronize", "Trace", "Telepathy"],
+        evolution: evolutionFamilies.ralts
     },
     {
         name: "Kirlia",
@@ -5058,7 +6751,8 @@ let nationalDex = {
         metricWeight: 20.2,
         dexEntry: "It is said that a Kirlia that is exposed to the positive emotions of its Trainer grows beautiful. This Pokémon controls psychokinetic powers with its highly developed brain.",
         cryUrl: "cries/281.mp3",
-        ability: ["Synchronize", "Trace", "Telepathy"]
+        ability: ["Synchronize", "Trace", "Telepathy"],
+        evolution: evolutionFamilies.ralts
     },
     {
         name: "Gardevoir",
@@ -5076,7 +6770,8 @@ let nationalDex = {
         metricWeight: 48.4,
         dexEntry: "Gardevoir has the ability to read the future. If it senses impending danger to its Trainer, this Pokémon is said to unleash its psychokinetic energy at full power.",
         cryUrl: "cries/282.mp3",
-        ability: ["Synchronize", "Trace", "Telepathy"]
+        ability: ["Synchronize", "Trace", "Telepathy"],
+        evolution: evolutionFamilies.ralts
     },
     {
         name: "Surskit",
@@ -5094,7 +6789,8 @@ let nationalDex = {
         metricWeight: 1.7,
         dexEntry: "From the tips of its feet, Surskit secretes an oil that enables it to walk on water as if it were skating. This Pokémon feeds on microscopic organisms in ponds and lakes.",
         cryUrl: "cries/283.mp3",
-        ability: ["Swift Swim", "Rain Dish"]
+        ability: ["Swift Swim", "Rain Dish"],
+        evolution: evolutionFamilies.surskit
     },
     {
         name: "Masquerain",
@@ -5112,7 +6808,8 @@ let nationalDex = {
         metricWeight: 3.6,
         dexEntry: "Masquerain intimidates enemies with the eyelike patterns on its antennas. This Pokémon flaps its four wings to freely fly in any direction - even sideways and backwards - as if it were a helicopter.",
         cryUrl: "cries/284.mp3",
-        ability: ["Intimidate", "Unnerve"]
+        ability: ["Intimidate", "Unnerve"],
+        evolution: evolutionFamilies.surskit
     },
     {
         name: "Shroomish",
@@ -5130,7 +6827,8 @@ let nationalDex = {
         metricWeight: 4.5,
         dexEntry: "Shroomish live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This Pokémon feeds on compost that is made up of fallen, rotted leaves.",
         cryUrl: "cries/285.mp3",
-        ability: ["Effect Spore", "Poison Heal", "Quick Feet"]
+        ability: ["Effect Spore", "Poison Heal", "Quick Feet"],
+        evolution: evolutionFamilies.shroomish
     },
     {
         name: "Breloom",
@@ -5148,7 +6846,8 @@ let nationalDex = {
         metricWeight: 39.2,
         dexEntry: "Breloom closes in on its foe with light and sprightly footwork, then throws punches with its stretchy arms. This Pokémon's fighting technique puts boxers to shame.",
         cryUrl: "cries/286.mp3",
-        ability: ["Effect Spore", "Poison Heal", "Technician"]
+        ability: ["Effect Spore", "Poison Heal", "Technician"],
+        evolution: evolutionFamilies.shroomish
     },
     {
         name: "Slakoth",
@@ -5166,7 +6865,8 @@ let nationalDex = {
         metricWeight: 24.0,
         dexEntry: "Slakoth lolls around for over twenty hours every day. Because it moves so little, it does not need much food. This Pokémon's sole daily meal consists of just three leaves.",
         cryUrl: "cries/287.mp3",
-        ability: ["Truant"]
+        ability: ["Truant"],
+        evolution: evolutionFamilies.slakoth
     },
     {
         name: "Vigoroth",
@@ -5184,7 +6884,8 @@ let nationalDex = {
         metricWeight: 46.5,
         dexEntry: "Vigoroth is always itching and agitated to go on a wild rampage. It simply can't tolerate sitting still for even a minute. This Pokémon's stress level rises if it can't be moving constantly.",
         cryUrl: "cries/288.mp3",
-        ability: ["Vital Spirit"]
+        ability: ["Vital Spirit"],
+        evolution: evolutionFamilies.slakoth
     },
     {
         name: "Slaking",
@@ -5202,7 +6903,8 @@ let nationalDex = {
         metricWeight: 130.5,
         dexEntry: "Slaking spends all day lying down and lolling about. It eats grass growing within its reach. If it eats all the grass it can reach, this Pokémon reluctantly moves to another spot.",
         cryUrl: "cries/289.mp3",
-        ability: ["Truant"]
+        ability: ["Truant"],
+        evolution: evolutionFamilies.slakoth
     },
     {
         name: "Nincada",
@@ -5220,7 +6922,8 @@ let nationalDex = {
         metricWeight: 5.5,
         dexEntry: "Nincada lives underground for many years in complete darkness. This Pokémon absorbs nutrients from the roots of trees. It stays motionless as it waits for evolution.",
         cryUrl: "cries/290.mp3",
-        ability: ["Compound Eyes", "Run Away"]
+        ability: ["Compound Eyes", "Run Away"],
+        evolution: evolutionFamilies.nincada
     },
     {
         name: "Ninjask",
@@ -5238,7 +6941,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "Ninjask moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this Pokémon was long believed to be invisible.",
         cryUrl: "cries/291.mp3",
-        ability: ["Speed Boost", "Infiltrator"]
+        ability: ["Speed Boost", "Infiltrator"],
+        evolution: evolutionFamilies.nincada
     },
     {
         name: "Shedinja",
@@ -5256,7 +6960,8 @@ let nationalDex = {
         metricWeight: 1.2,
         dexEntry: "Shedinja's hard body doesn't move - not even a twitch. In fact, its body appears to be merely a hollow shell. It is believed that this Pokémon will steal the spirit of anyone peering into its hollow body from its back.",
         cryUrl: "cries/292.mp3",
-        ability: ["Wonder Guard"]
+        ability: ["Wonder Guard"],
+        evolution: evolutionFamilies.nincada
     },
     {
         name: "Whismur",
@@ -5274,7 +6979,8 @@ let nationalDex = {
         metricWeight: 16.3,
         dexEntry: "Normally, Whismur's voice is very quiet - it is barely audible even if one is paying close attention. However, if this Pokémon senses danger, it starts crying at an earsplitting volume.",
         cryUrl: "cries/293.mp3",
-        ability: ["Soundproof", "Rattled"]
+        ability: ["Soundproof", "Rattled"],
+        evolution: evolutionFamilies.whismur
     },
     {
         name: "Loudred",
@@ -5292,7 +6998,8 @@ let nationalDex = {
         metricWeight: 40.5,
         dexEntry: "Loudred's bellowing can completely decimate a wood-frame house. It uses its voice to punish its foes. This Pokémon's round ears serve as loudspeakers.",
         cryUrl: "cries/294.mp3",
-        ability: ["Soundproof", "Scrappy"]
+        ability: ["Soundproof", "Scrappy"],
+        evolution: evolutionFamilies.whismur
     },
     {
         name: "Exploud",
@@ -5310,7 +7017,8 @@ let nationalDex = {
         metricWeight: 84.0,
         dexEntry: "Exploud triggers earthquakes with the tremors it creates by bellowing. If this Pokémon violently inhales from the ports on its body, it's a sign that it is preparing to let loose a huge bellow.",
         cryUrl: "cries/295.mp3",
-        ability: ["Soundproof", "Scrappy"]
+        ability: ["Soundproof", "Scrappy"],
+        evolution: evolutionFamilies.whismur
     },
     {
         name: "Makuhita",
@@ -5328,7 +7036,8 @@ let nationalDex = {
         metricWeight: 86.4,
         dexEntry: "Makuhita is tenacious - it will keep getting up and attacking its foe however many times it is knocked down. Every time it gets back up, this Pokémon stores more energy in its body for evolving.",
         cryUrl: "cries/296.mp3",
-        ability: ["Thick Fat", "Guts", "Sheer Force"]
+        ability: ["Thick Fat", "Guts", "Sheer Force"],
+        evolution: evolutionFamilies.makuhita
     },
     {
         name: "Hariyama",
@@ -5346,7 +7055,8 @@ let nationalDex = {
         metricWeight: 253.8,
         dexEntry: "Hariyama practices its straight-arm slaps in any number of locations. One hit of this Pokémon's powerful, openhanded, straight-arm punches could snap a telephone pole in two.",
         cryUrl: "cries/297.mp3",
-        ability: ["Thick Fat", "Guts", "Sheer Force"]
+        ability: ["Thick Fat", "Guts", "Sheer Force"],
+        evolution: evolutionFamilies.makuhita
     },
     {
         name: "Azurill",
@@ -5364,7 +7074,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "Azurill spins its tail as if it were a lasso, then hurls it far. The momentum of the throw sends its body flying, too. Using this unique action, one of these Pokémon managed to hurl itself a record 33 feet.",
         cryUrl: "cries/298.mp3",
-        ability: ["Thick Fat", "Huge Power", "Sap Sipper"]
+        ability: ["Thick Fat", "Huge Power", "Sap Sipper"],
+        evolution: evolutionFamilies.azurill
     },
     {
         name: "Nosepass",
@@ -5382,7 +7093,8 @@ let nationalDex = {
         metricWeight: 97.0,
         dexEntry: "Nosepass's magnetic nose is always pointed to the north. If two of these Pokémon meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.",
         cryUrl: "cries/299.mp3",
-        ability: ["Sturdy", "Magnet Pull", "Sand Force"]
+        ability: ["Sturdy", "Magnet Pull", "Sand Force"],
+        evolution: evolutionFamilies.nosepass
     },
     {
         name: "Skitty",
@@ -5400,7 +7112,8 @@ let nationalDex = {
         metricWeight: 11.0,
         dexEntry: "Skitty has the habit of becoming fascinated by moving objects and chasing them around. This Pokémon is known to chase after its own tail and become dizzy.",
         cryUrl: "cries/300.mp3",
-        ability: ["Cute Charm", "Normalize", "Wonder Skin"]
+        ability: ["Cute Charm", "Normalize", "Wonder Skin"],
+        evolution: evolutionFamilies.skitty
     },
     {
         name: "Delcatty",
@@ -5418,7 +7131,8 @@ let nationalDex = {
         metricWeight: 32.6,
         dexEntry: "Delcatty prefers to live an unfettered existence in which it can do as it pleases at its own pace. Because this Pokémon eats and sleeps whenever it decides, its daily routines are completely random.",
         cryUrl: "cries/301.mp3",
-        ability: ["Cute Charm", "Normalize", "Wonder Skin"]
+        ability: ["Cute Charm", "Normalize", "Wonder Skin"],
+        evolution: evolutionFamilies.skitty
     },
     {
         name: "Sableye",
@@ -5436,7 +7150,8 @@ let nationalDex = {
         metricWeight: 11.0,
         dexEntry: "Sableye lead quiet lives deep inside caverns. They are feared, however, because these Pokémon are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness.",
         cryUrl: "cries/302.mp3",
-        ability: ["Keen Eye", "Stall", "Prankster"]
+        ability: ["Keen Eye", "Stall", "Prankster"],
+        evolution: evolutionFamilies.sableye
     },
     {
         name: "Mawile",
@@ -5454,7 +7169,8 @@ let nationalDex = {
         metricWeight: 11.5,
         dexEntry: "Mawile's huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, Mawile chomps it with its gaping jaws.",
         cryUrl: "cries/303.mp3",
-        ability: ["Hyper Cutter", "Intimidate", "Sheer Force"]
+        ability: ["Hyper Cutter", "Intimidate", "Sheer Force"],
+        evolution: evolutionFamilies.mawile
     },
     {
         name: "Aron",
@@ -5472,7 +7188,8 @@ let nationalDex = {
         metricWeight: 60.0,
         dexEntry: "This Pokémon has a body of steel. To make its body, Aron feeds on iron ore that it digs from mountains. Occasionally, it causes major trouble by eating bridges and rails.",
         cryUrl: "cries/304.mp3",
-        ability: ["Sturdy", "Rock Head", "Heavy Metal"]
+        ability: ["Sturdy", "Rock Head", "Heavy Metal"],
+        evolution: evolutionFamilies.aron
     },
     {
         name: "Lairon",
@@ -5490,7 +7207,8 @@ let nationalDex = {
         metricWeight: 120.0,
         dexEntry: "Lairon tempers its steel body by drinking highly nutritious mineral springwater until it is bloated. This Pokémon makes its nest close to springs of delicious water.",
         cryUrl: "cries/305.mp3",
-        ability: ["Sturdy", "Rock Head", "Heavy Metal"]
+        ability: ["Sturdy", "Rock Head", "Heavy Metal"],
+        evolution: evolutionFamilies.aron
     },
     {
         name: "Aggron",
@@ -5508,7 +7226,8 @@ let nationalDex = {
         metricWeight: 360.0,
         dexEntry: "Aggron claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This Pokémon vigilantly patrols its territory at all times.",
         cryUrl: "cries/306.mp3",
-        ability: ["Sturdy", "Rock Head", "Heavy Metal"]
+        ability: ["Sturdy", "Rock Head", "Heavy Metal"],
+        evolution: evolutionFamilies.aron
     },
     {
         name: "Meditite",
@@ -5526,7 +7245,8 @@ let nationalDex = {
         metricWeight: 11.2,
         dexEntry: "Meditite undertakes rigorous mental training deep in the mountains. However, whenever it meditates, this Pokémon always loses its concentration and focus. As a result, its training never ends.",
         cryUrl: "cries/307.mp3",
-        ability: ["Pure Power", "Telepathy"]
+        ability: ["Pure Power", "Telepathy"],
+        evolution: evolutionFamilies.meditite
     },
     {
         name: "Medicham",
@@ -5544,7 +7264,8 @@ let nationalDex = {
         metricWeight: 31.5,
         dexEntry: "It is said that through meditation, Medicham heightens energy inside its body and sharpens its sixth sense. This Pokémon hides its presence by merging itself with fields and mountains.",
         cryUrl: "cries/308.mp3",
-        ability: ["Pure Power", "Telepathy"]
+        ability: ["Pure Power", "Telepathy"],
+        evolution: evolutionFamilies.meditite
     },
     {
         name: "Electrike",
@@ -5562,7 +7283,8 @@ let nationalDex = {
         metricWeight: 15.2,
         dexEntry: "Electrike stores electricity in its long body hair. This Pokémon stimulates its leg muscles with electric charges. These jolts of power give its legs explosive acceleration performance.",
         cryUrl: "cries/309.mp3",
-        ability: ["Static", "Lightning Rod", "Minus"]
+        ability: ["Static", "Lightning Rod", "Minus"],
+        evolution: evolutionFamilies.electrike
     },
     {
         name: "Manectric",
@@ -5580,7 +7302,8 @@ let nationalDex = {
         metricWeight: 40.2,
         dexEntry: "Manectric is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this Pokémon creates thunderclouds.",
         cryUrl: "cries/310.mp3",
-        ability: ["Static", "Lightning Rod", "Minus"]
+        ability: ["Static", "Lightning Rod", "Minus"],
+        evolution: evolutionFamilies.electrike
     },
     {
         name: "Plusle",
@@ -5598,7 +7321,8 @@ let nationalDex = {
         metricWeight: 4.2,
         dexEntry: "Plusle always acts as a cheerleader for its partners. Whenever a teammate puts out a good effort in battle, this Pokémon shorts out its body to create the crackling noises of sparks to show its joy.",
         cryUrl: "cries/311.mp3",
-        ability: ["Plus", "Lightning Rod"]
+        ability: ["Plus", "Lightning Rod"],
+        evolution: evolutionFamilies.plusle
     },
     {
         name: "Minun",
@@ -5616,7 +7340,8 @@ let nationalDex = {
         metricWeight: 4.2,
         dexEntry: "Minun is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.",
         cryUrl: "cries/312.mp3",
-        ability: ["Minus", "Volt Absorb"]
+        ability: ["Minus", "Volt Absorb"],
+        evolution: evolutionFamilies.minun
     },
     {
         name: "Volbeat",
@@ -5634,7 +7359,8 @@ let nationalDex = {
         metricWeight: 17.7,
         dexEntry: "With the arrival of night, Volbeat emits light from its tail. It communicates with others by adjusting the intensity and flashing of its light. This Pokémon is attracted by the sweet aroma of Illumise.",
         cryUrl: "cries/313.mp3",
-        ability: ["Illuminate", "Swarm", "Prankster"]
+        ability: ["Illuminate", "Swarm", "Prankster"],
+        evolution: evolutionFamilies.volbeat
     },
     {
         name: "Illumise",
@@ -5652,7 +7378,8 @@ let nationalDex = {
         metricWeight: 17.7,
         dexEntry: "Illumise attracts a swarm of Volbeat using a sweet fragrance. Once the Volbeat have gathered, this Pokémon leads the lit-up swarm in drawing geometric designs on the canvas of the night sky.",
         cryUrl: "cries/314.mp3",
-        ability: ["Oblivious", "Tinted Lens", "Prankster"]
+        ability: ["Oblivious", "Tinted Lens", "Prankster"],
+        evolution: evolutionFamilies.illumise
     },
     {
         name: "Roselia",
@@ -5670,7 +7397,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "Roselia shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this Pokémon brings serenity to living things.",
         cryUrl: "cries/315.mp3",
-        ability: ["Natural Cure", "Poison Point", "Leaf Guard"]
+        ability: ["Natural Cure", "Poison Point", "Leaf Guard"],
+        evolution: evolutionFamilies.budew
     },
     {
         name: "Gulpin",
@@ -5688,7 +7416,8 @@ let nationalDex = {
         metricWeight: 10.3,
         dexEntry: "Virtually all of Gulpin's body is its stomach. As a result, it can swallow something its own size. This Pokémon's stomach contains a special fluid that digests anything.",
         cryUrl: "cries/316.mp3",
-        ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"]
+        ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"],
+        evolution: evolutionFamilies.gulpin
     },
     {
         name: "Swalot",
@@ -5706,7 +7435,8 @@ let nationalDex = {
         metricWeight: 80.0,
         dexEntry: "When Swalot spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this Pokémon gulps it down whole with its cavernous mouth.",
         cryUrl: "cries/317.mp3",
-        ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"]
+        ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"],
+        evolution: evolutionFamilies.gulpin
     },
     {
         name: "Carvanha",
@@ -5724,7 +7454,8 @@ let nationalDex = {
         metricWeight: 20.8,
         dexEntry: "Carvanha's strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this Pokémon.",
         cryUrl: "cries/318.mp3",
-        ability: ["Rough Skin", "Speed Boost"]
+        ability: ["Rough Skin", "Speed Boost"],
+        evolution: evolutionFamilies.carvanha
     },
     {
         name: "Sharpedo",
@@ -5742,7 +7473,8 @@ let nationalDex = {
         metricWeight: 88.8,
         dexEntry: "Nicknamed \"the bully of the sea,\" Sharpedo is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these Pokémon can thoroughly tear apart a supertanker.",
         cryUrl: "cries/319.mp3",
-        ability: ["Rough Skin", "Speed Boost"]
+        ability: ["Rough Skin", "Speed Boost"],
+        evolution: evolutionFamilies.carvanha
     },
     {
         name: "Wailmer",
@@ -5760,7 +7492,8 @@ let nationalDex = {
         metricWeight: 130.0,
         dexEntry: "Wailmer's nostrils are located above its eyes. This playful Pokémon loves to startle people by forcefully snorting out seawater it stores inside its body out of its nostrils.",
         cryUrl: "cries/320.mp3",
-        ability: ["Water Veil", "Oblivious", "Pressure"]
+        ability: ["Water Veil", "Oblivious", "Pressure"],
+        evolution: evolutionFamilies.wailmer
     },
     {
         name: "Wailord",
@@ -5778,7 +7511,8 @@ let nationalDex = {
         metricWeight: 398.0,
         dexEntry: "Wailord is the largest of all identified Pokémon up to now. This giant Pokémon swims languorously in the vast open sea, eating massive amounts of food at once with its enormous mouth.",
         cryUrl: "cries/321.mp3",
-        ability: ["Water Veil", "Oblivious", "Pressure"]
+        ability: ["Water Veil", "Oblivious", "Pressure"],
+        evolution: evolutionFamilies.wailmer
     },
     {
         name: "Numel",
@@ -5796,7 +7530,8 @@ let nationalDex = {
         metricWeight: 24.0,
         dexEntry: "Numel is extremely dull witted - it doesn't notice being hit. However, it can't stand hunger for even a second. This Pokémon's body is a seething cauldron of boiling magma.",
         cryUrl: "cries/322.mp3",
-        ability: ["Oblivious", "Simple", "Own Tempo"]
+        ability: ["Oblivious", "Simple", "Own Tempo"],
+        evolution: evolutionFamilies.numel
     },
     {
         name: "Camerupt",
@@ -5814,7 +7549,8 @@ let nationalDex = {
         metricWeight: 220.0,
         dexEntry: "Camerupt has a volcano inside its body. Magma of 18,000 degrees F courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.",
         cryUrl: "cries/323.mp3",
-        ability: ["Magma Armor", "Solid Rock", "Anger Point"]
+        ability: ["Magma Armor", "Solid Rock", "Anger Point"],
+        evolution: evolutionFamilies.numel
     },
     {
         name: "Torkoal",
@@ -5832,7 +7568,8 @@ let nationalDex = {
         metricWeight: 80.4,
         dexEntry: "Torkoal digs through mountains in search of coal. If it finds some, it fills hollow spaces on its shell with the coal and burns it. If it is attacked, this Pokémon spouts thick black smoke to beat a retreat.",
         cryUrl: "cries/324.mp3",
-        ability: ["White Smoke", "Drought", "Shell Armor"]
+        ability: ["White Smoke", "Drought", "Shell Armor"],
+        evolution: evolutionFamilies.torkoal
     },
     {
         name: "Spoink",
@@ -5850,7 +7587,8 @@ let nationalDex = {
         metricWeight: 30.6,
         dexEntry: "Spoink bounces around on its tail. The shock of its bouncing makes its heart pump. As a result, this Pokémon cannot afford to stop bouncing - if it stops, its heart will stop.",
         cryUrl: "cries/325.mp3",
-        ability: ["Thick Fat", "Own Tempo", "Gluttony"]
+        ability: ["Thick Fat", "Own Tempo", "Gluttony"],
+        evolution: evolutionFamilies.spoink
     },
     {
         name: "Grumpig",
@@ -5868,7 +7606,8 @@ let nationalDex = {
         metricWeight: 71.5,
         dexEntry: "Grumpig uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this Pokémon uses its special power, its snorting breath grows labored.",
         cryUrl: "cries/326.mp3",
-        ability: ["Thick Fat", "Own Tempo", "Gluttony"]
+        ability: ["Thick Fat", "Own Tempo", "Gluttony"],
+        evolution: evolutionFamilies.spoink
     },
     {
         name: "Spinda",
@@ -5886,7 +7625,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "All the Spinda that exist in the world are said to have utterly unique spot patterns. The shaky, tottering steps of this Pokémon give it the appearance of dancing.",
         cryUrl: "cries/327.mp3",
-        ability: ["Own Tempo", "Tangled Feet", "Contrary"]
+        ability: ["Own Tempo", "Tangled Feet", "Contrary"],
+        evolution: evolutionFamilies.spinda
     },
     {
         name: "Trapinch",
@@ -5904,7 +7644,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "Trapinch's nest is a sloped, bowl-like pit dug in sand. This Pokémon patiently waits for prey to tumble down the pit. Its giant jaws have enough strength to crush even boulders.",
         cryUrl: "cries/328.mp3",
-        ability: ["Hyper Cutter", "Arena Trap", "Sheer Force"]
+        ability: ["Hyper Cutter", "Arena Trap", "Sheer Force"],
+        evolution: evolutionFamilies.trapinch
     },
     {
         name: "Vibrava",
@@ -5922,7 +7663,8 @@ let nationalDex = {
         metricWeight: 15.3,
         dexEntry: "To make prey faint, Vibrava generates ultrasonic waves by vigorously making its two wings vibrate. This Pokémon's ultrasonic waves are so powerful, they can bring on headaches in people.",
         cryUrl: "cries/329.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.trapinch
     },
     {
         name: "Flygon",
@@ -5940,7 +7682,8 @@ let nationalDex = {
         metricWeight: 82.0,
         dexEntry: "Flygon is nicknamed \"the elemental spirit of the desert.\" Because its flapping wings whip up a cloud of sand, this Pokémon is always enveloped in a sandstorm while flying.",
         cryUrl: "cries/330.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.trapinch
     },
     {
         name: "Cacnea",
@@ -5958,7 +7701,8 @@ let nationalDex = {
         metricWeight: 51.3,
         dexEntry: "Cacnea lives in arid locations such as deserts. It releases a strong aroma from its flower to attract prey. When prey comes near, this Pokémon shoots sharp thorns from its body to bring the victim down.",
         cryUrl: "cries/331.mp3",
-        ability: ["Sand Veil", "Water Absorb"]
+        ability: ["Sand Veil", "Water Absorb"],
+        evolution: evolutionFamilies.cacnea
     },
     {
         name: "Cacturne",
@@ -5976,7 +7720,8 @@ let nationalDex = {
         metricWeight: 77.4,
         dexEntry: "During the daytime, Cacturne remains unmoving so that it does not lose any moisture to the harsh desert sun. This Pokémon becomes active at night when the temperature drops.",
         cryUrl: "cries/332.mp3",
-        ability: ["Sand Veil", "Water Absorb"]
+        ability: ["Sand Veil", "Water Absorb"],
+        evolution: evolutionFamilies.cacnea
     },
     {
         name: "Swablu",
@@ -5994,7 +7739,8 @@ let nationalDex = {
         metricWeight: 1.2,
         dexEntry: "Swablu has light and fluffy wings that are like cottony clouds. This Pokémon is not frightened of people. It lands on the heads of people and sits there like a cotton-fluff hat.",
         cryUrl: "cries/333.mp3",
-        ability: ["Natural Cure", "Cloud Nine"]
+        ability: ["Natural Cure", "Cloud Nine"],
+        evolution: evolutionFamilies.swablu
     },
     {
         name: "Altaria",
@@ -6012,7 +7758,8 @@ let nationalDex = {
         metricWeight: 20.6,
         dexEntry: "Altaria dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this Pokémon makes its listeners experience dreamy wonderment.",
         cryUrl: "cries/334.mp3",
-        ability: ["Natural Cure", "Cloud Nine"]
+        ability: ["Natural Cure", "Cloud Nine"],
+        evolution: evolutionFamilies.swablu
     },
     {
         name: "Zangoose",
@@ -6030,7 +7777,8 @@ let nationalDex = {
         metricWeight: 40.3,
         dexEntry: "Memories of battling its arch-rival Seviper are etched into every cell of Zangoose's body. This Pokémon adroitly dodges attacks with incredible agility.",
         cryUrl: "cries/335.mp3",
-        ability: ["Immunity", "Toxic Boost"]
+        ability: ["Immunity", "Toxic Boost"],
+        evolution: evolutionFamilies.zangoose
     },
     {
         name: "Seviper",
@@ -6048,7 +7796,8 @@ let nationalDex = {
         metricWeight: 52.5,
         dexEntry: "Seviper shares a generations-long feud with Zangoose. The scars on its body are evidence of vicious battles. This Pokémon attacks using its sword-edged tail.",
         cryUrl: "cries/336.mp3",
-        ability: ["Shed Skin", "Infiltrator"]
+        ability: ["Shed Skin", "Infiltrator"],
+        evolution: evolutionFamilies.seviper
     },
     {
         name: "Lunatone",
@@ -6066,7 +7815,8 @@ let nationalDex = {
         metricWeight: 168.0,
         dexEntry: "Lunatone was discovered at a location where a meteorite fell. As a result, some people theorize that this Pokémon came from space. However, no one has been able to prove this theory so far.",
         cryUrl: "cries/337.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.lunatone
     },
     {
         name: "Solrock",
@@ -6084,7 +7834,8 @@ let nationalDex = {
         metricWeight: 154.0,
         dexEntry: "Solrock is a new species of Pokémon that is said to have fallen from space. It floats in the air and moves silently. In battle, this Pokémon releases intensely bright light.",
         cryUrl: "cries/338.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.solrock
     },
     {
         name: "Barboach",
@@ -6102,7 +7853,8 @@ let nationalDex = {
         metricWeight: 1.9,
         dexEntry: "Barboach's sensitive whiskers serve as a superb radar system. This Pokémon hides in mud, leaving only its two whiskers exposed while it waits for prey to come along.",
         cryUrl: "cries/339.mp3",
-        ability: ["Oblivious", "Anticipation", "Hydration"]
+        ability: ["Oblivious", "Anticipation", "Hydration"],
+        evolution: evolutionFamilies.barboach
     },
     {
         name: "Whiscash",
@@ -6120,7 +7872,8 @@ let nationalDex = {
         metricWeight: 23.6,
         dexEntry: "Whiscash is extremely territorial. Just one of these Pokémon will claim a large pond as its exclusive territory. If a foe approaches it, it thrashes about and triggers a massive earthquake.",
         cryUrl: "cries/340.mp3",
-        ability: ["Oblivious", "Anticipation", "Hydration"]
+        ability: ["Oblivious", "Anticipation", "Hydration"],
+        evolution: evolutionFamilies.barboach
     },
     {
         name: "Corphish",
@@ -6138,7 +7891,8 @@ let nationalDex = {
         metricWeight: 11.5,
         dexEntry: "Corphish were originally foreign Pokémon that were imported as pets. They eventually turned up in the wild. This Pokémon is very hardy and has greatly increased its population.",
         cryUrl: "cries/341.mp3",
-        ability: ["Hyper Cutter", "Shell Armor", "Adaptability"]
+        ability: ["Hyper Cutter", "Shell Armor", "Adaptability"],
+        evolution: evolutionFamilies.corphish
     },
     {
         name: "Crawdaunt",
@@ -6156,7 +7910,8 @@ let nationalDex = {
         metricWeight: 32.8,
         dexEntry: "Crawdaunt has an extremely violent nature that compels it to challenge other living things to battle. Other life-forms refuse to live in ponds inhabited by this Pokémon, making them desolate places.",
         cryUrl: "cries/342.mp3",
-        ability: ["Hyper Cutter", "Shell Armor", "Adaptability"]
+        ability: ["Hyper Cutter", "Shell Armor", "Adaptability"],
+        evolution: evolutionFamilies.corphish
     },
     {
         name: "Baltoy",
@@ -6174,7 +7929,8 @@ let nationalDex = {
         metricWeight: 21.5,
         dexEntry: "Baltoy moves while spinning around on its one foot. Primitive wall paintings depicting this Pokémon living among people were discovered in some ancient ruins.",
         cryUrl: "cries/343.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.baltoy
     },
     {
         name: "Claydol",
@@ -6192,7 +7948,8 @@ let nationalDex = {
         metricWeight: 108.0,
         dexEntry: "Claydol are said to be dolls of mud made by primitive humans and brought to life by exposure to a mysterious ray. This Pokémon moves about while levitating.",
         cryUrl: "cries/344.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.baltoy
     },
     {
         name: "Lileep",
@@ -6210,7 +7967,8 @@ let nationalDex = {
         metricWeight: 23.8,
         dexEntry: "Lileep became extinct approximately a hundred million years ago. This ancient Pokémon attaches itself to a rock on the seafloor and catches approaching prey using tentacles shaped like flower petals.",
         cryUrl: "cries/345.mp3",
-        ability: ["Suction Cups", "Storm Drain"]
+        ability: ["Suction Cups", "Storm Drain"],
+        evolution: evolutionFamilies.lileep
     },
     {
         name: "Cradily",
@@ -6228,7 +7986,8 @@ let nationalDex = {
         metricWeight: 60.4,
         dexEntry: "Cradily roams around the ocean floor in search of food. This Pokémon freely extends its tree trunk-like neck and captures unwary prey using its eight tentacles.",
         cryUrl: "cries/346.mp3",
-        ability: ["Suction Cups", "Storm Drain"]
+        ability: ["Suction Cups", "Storm Drain"],
+        evolution: evolutionFamilies.lileep
     },
     {
         name: "Anorith",
@@ -6246,7 +8005,8 @@ let nationalDex = {
         metricWeight: 12.5,
         dexEntry: "Anorith was regenerated from a prehistoric fossil. This primitive Pokémon once lived in warm seas. It grips its prey firmly between its two large claws.",
         cryUrl: "cries/347.mp3",
-        ability: ["Battle Armor", "Swift Swim"]
+        ability: ["Battle Armor", "Swift Swim"],
+        evolution: evolutionFamilies.anorith
     },
     {
         name: "Armaldo",
@@ -6264,7 +8024,8 @@ let nationalDex = {
         metricWeight: 68.2,
         dexEntry: "Armaldo's tough armor makes all attacks bounce off. This Pokémon's two enormous claws can be freely extended or contracted. They have the power to punch right through a steel slab.",
         cryUrl: "cries/348.mp3",
-        ability: ["Battle Armor", "Swift Swim"]
+        ability: ["Battle Armor", "Swift Swim"],
+        evolution: evolutionFamilies.anorith
     },
     {
         name: "Feebas",
@@ -6282,7 +8043,8 @@ let nationalDex = {
         metricWeight: 7.4,
         dexEntry: "Feebas's fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this Pokémon is largely ignored. It is capable of living in both the sea and in rivers.",
         cryUrl: "cries/349.mp3",
-        ability: ["Swift Swim", "Oblivious", "Adaptability"]
+        ability: ["Swift Swim", "Oblivious", "Adaptability"],
+        evolution: evolutionFamilies.feebas
     },
     {
         name: "Milotic",
@@ -6300,7 +8062,8 @@ let nationalDex = {
         metricWeight: 162.0,
         dexEntry: "Milotic is said to be the most beautiful of all the Pokémon. It has the power to becalm such emotions as anger and hostility to quell bitter feuding.",
         cryUrl: "cries/350.mp3",
-        ability: ["Marvel Scale", "Competitive", "Cute Charm"]
+        ability: ["Marvel Scale", "Competitive", "Cute Charm"],
+        evolution: evolutionFamilies.feebas
     },
     {
         name: "Castform",
@@ -6318,7 +8081,8 @@ let nationalDex = {
         metricWeight: 0.8,
         dexEntry: "Castform's appearance changes with the weather. This Pokémon gained the ability to use the vast power of nature to protect its tiny body.",
         cryUrl: "cries/351.mp3",
-        ability: ["Forecast"]
+        ability: ["Forecast"],
+        evolution: evolutionFamilies.castform
     },
     {
         name: "Kecleon",
@@ -6336,7 +8100,8 @@ let nationalDex = {
         metricWeight: 22.0,
         dexEntry: "Kecleon is capable of changing its body colors at will to blend in with its surroundings. There is one exception - this Pokémon can't change the zigzag pattern on its belly.",
         cryUrl: "cries/352.mp3",
-        ability: ["Color Change", "Protean"]
+        ability: ["Color Change", "Protean"],
+        evolution: evolutionFamilies.kecleon
     },
     {
         name: "Shuppet",
@@ -6354,7 +8119,8 @@ let nationalDex = {
         metricWeight: 2.3,
         dexEntry: "Shuppet is attracted by feelings of jealousy and vindictiveness. If someone develops strong feelings of vengeance, this Pokémon will appear in a swarm and line up beneath the eaves of that person's home.",
         cryUrl: "cries/353.mp3",
-        ability: ["Insomnia", "Frisk", "Cursed Body"]
+        ability: ["Insomnia", "Frisk", "Cursed Body"],
+        evolution: evolutionFamilies.shuppet
     },
     {
         name: "Banette",
@@ -6372,7 +8138,8 @@ let nationalDex = {
         metricWeight: 12.5,
         dexEntry: "Banette generates energy for laying strong curses by sticking pins into its own body. This Pokémon was originally a pitiful plush doll that was thrown away.",
         cryUrl: "cries/354.mp3",
-        ability: ["Insomnia", "Frisk", "Cursed Body"]
+        ability: ["Insomnia", "Frisk", "Cursed Body"],
+        evolution: evolutionFamilies.shuppet
     },
     {
         name: "Duskull",
@@ -6390,7 +8157,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "Duskull can pass through any wall no matter how thick it may be. Once this Pokémon chooses a target, it will doggedly pursue the intended victim until the break of dawn.",
         cryUrl: "cries/355.mp3",
-        ability: ["Levitate", "Frisk"]
+        ability: ["Levitate", "Frisk"],
+        evolution: evolutionFamilies.duskull
     },
     {
         name: "Dusclops",
@@ -6408,7 +8176,8 @@ let nationalDex = {
         metricWeight: 30.6,
         dexEntry: "Dusclops's body is completely hollow - there is nothing at all inside. It is said that its body is like a black hole. This Pokémon will absorb anything into its body, but nothing will ever come back out.",
         cryUrl: "cries/356.mp3",
-        ability: ["Pressure", "Frisk"]
+        ability: ["Pressure", "Frisk"],
+        evolution: evolutionFamilies.duskull
     },
     {
         name: "Tropius",
@@ -6426,7 +8195,8 @@ let nationalDex = {
         metricWeight: 100.0,
         dexEntry: "The bunches of fruit around Tropius's neck are very popular with children. This Pokémon loves fruit, and eats it continuously. Apparently, its love for fruit resulted in its own outgrowth of fruit.",
         cryUrl: "cries/357.mp3",
-        ability: ["Chlorophyll", "Soloar Power", "Harvest"]
+        ability: ["Chlorophyll", "Soloar Power", "Harvest"],
+        evolution: evolutionFamilies.tropius
     },
     {
         name: "Chimecho",
@@ -6444,7 +8214,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "Chimecho makes its cries echo inside its hollow body. When this Pokémon becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying.",
         cryUrl: "cries/358.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.chingling
     },
     {
         name: "Absol",
@@ -6462,7 +8233,8 @@ let nationalDex = {
         metricWeight: 47.0,
         dexEntry: "Every time Absol appears before people, it is followed by a disaster such as an earthquake or a tidal wave. As a result, it came to be known as the disaster Pokémon.",
         cryUrl: "cries/359.mp3",
-        ability: ["Pressure", "Super Luck", "Justified"]
+        ability: ["Pressure", "Super Luck", "Justified"],
+        evolution: evolutionFamilies.absol
     },
     {
         name: "Wynaut",
@@ -6480,7 +8252,8 @@ let nationalDex = {
         metricWeight: 14.0,
         dexEntry: "Wynaut can always be seen with a big, happy smile on its face. Look at its tail to determine if it is angry. When angered, this Pokémon will be slapping the ground with its tail.",
         cryUrl: "cries/360.mp3",
-        ability: ["Shadow Tag", "Telepathy"]
+        ability: ["Shadow Tag", "Telepathy"],
+        evolution: evolutionFamilies.wynaut
     },
     {
         name: "Snorunt",
@@ -6498,7 +8271,8 @@ let nationalDex = {
         metricWeight: 16.8,
         dexEntry: "Snorunt live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this Pokémon steals away to live quietly among stalactites and stalagmites deep in caverns.",
         cryUrl: "cries/361.mp3",
-        ability: ["Inner Focus", "Ice Body", "Moody"]
+        ability: ["Inner Focus", "Ice Body", "Moody"],
+        evolution: evolutionFamilies.snorunt
     },
     {
         name: "Glalie",
@@ -6516,7 +8290,8 @@ let nationalDex = {
         metricWeight: 256.5,
         dexEntry: "Glalie has a body made of rock, which it hardens with an armor of ice. This Pokémon has the ability to freeze moisture in the atmosphere into any shape it desires.",
         cryUrl: "cries/362.mp3",
-        ability: ["Inner Focus", "Ice Body", "Moody"]
+        ability: ["Inner Focus", "Ice Body", "Moody"],
+        evolution: evolutionFamilies.snorunt
     },
     {
         name: "Spheal",
@@ -6534,7 +8309,8 @@ let nationalDex = {
         metricWeight: 39.5,
         dexEntry: "Spheal is much faster rolling than walking to get around. When groups of this Pokémon eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy.",
         cryUrl: "cries/363.mp3",
-        ability: ["Thick Fat", "Ice Body", "Oblivious"]
+        ability: ["Thick Fat", "Ice Body", "Oblivious"],
+        evolution: evolutionFamilies.spheal
     },
     {
         name: "Sealeo",
@@ -6552,7 +8328,8 @@ let nationalDex = {
         metricWeight: 87.6,
         dexEntry: "Sealeo has the habit of always juggling on the tip of its nose anything it sees for the first time. This Pokémon occasionally entertains itself by balancing and rolling a Spheal on its nose.",
         cryUrl: "cries/364.mp3",
-        ability: ["Thick Fat", "Ice Body", "Oblivious"]
+        ability: ["Thick Fat", "Ice Body", "Oblivious"],
+        evolution: evolutionFamilies.spheal
     },
     {
         name: "Walrein",
@@ -6570,7 +8347,8 @@ let nationalDex = {
         metricWeight: 150.6,
         dexEntry: "Walrein's two massively developed tusks can totally shatter blocks of ice weighing ten tons with one blow. This Pokémon's thick coat of blubber insulates it from subzero temperatures.",
         cryUrl: "cries/365.mp3",
-        ability: ["Thick Fat", "Ice Body", "Oblivious"]
+        ability: ["Thick Fat", "Ice Body", "Oblivious"],
+        evolution: evolutionFamilies.spheal
     },
     {
         name: "Clamperl",
@@ -6588,7 +8366,8 @@ let nationalDex = {
         metricWeight: 52.5,
         dexEntry: "Clamperl's sturdy shell is not only good for protection - it is also used for clamping and catching prey. A fully grown Clamperl's shell will be scored with nicks and scratches all over.",
         cryUrl: "cries/366.mp3",
-        ability: ["Shell Armor", "Rattled"]
+        ability: ["Shell Armor", "Rattled"],
+        evolution: evolutionFamilies.clamperl
     },
     {
         name: "Huntail",
@@ -6606,7 +8385,8 @@ let nationalDex = {
         metricWeight: 27.0,
         dexEntry: "Huntail's presence went unnoticed by people for a long time because it lives at extreme depths in the sea. This Pokémon's eyes can see clearly even in the murky dark depths of the ocean.",
         cryUrl: "cries/367.mp3",
-        ability: ["Swift Swim", "Water Veil"]
+        ability: ["Swift Swim", "Water Veil"],
+        evolution: evolutionFamilies.clamperl
     },
     {
         name: "Gorebyss",
@@ -6624,7 +8404,8 @@ let nationalDex = {
         metricWeight: 22.6,
         dexEntry: "Gorebyss lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this Pokémon's body is unharmed by ordinary attacks.",
         cryUrl: "cries/368.mp3",
-        ability: ["Swift Swim", "Hydration"]
+        ability: ["Swift Swim", "Hydration"],
+        evolution: evolutionFamilies.clamperl
     },
     {
         name: "Relicanth",
@@ -6642,7 +8423,8 @@ let nationalDex = {
         metricWeight: 23.4,
         dexEntry: "Relicanth is a Pokémon species that existed for a hundred million years without ever changing its form. This ancient Pokémon feeds on microscopic organisms with its toothless mouth.",
         cryUrl: "cries/369.mp3",
-        ability: ["Swift Swim", "Rock Head", "Sturdy"]
+        ability: ["Swift Swim", "Rock Head", "Sturdy"],
+        evolution: evolutionFamilies.relicanth
     },
     {
         name: "Luvdisc",
@@ -6660,7 +8442,8 @@ let nationalDex = {
         metricWeight: 8.7,
         dexEntry: "Luvdisc live in shallow seas in the tropics. This heart-shaped Pokémon earned its name by swimming after loving couples it spotted in the ocean's waves.",
         cryUrl: "cries/370.mp3",
-        ability: ["Swift Swim", "Hydration"]
+        ability: ["Swift Swim", "Hydration"],
+        evolution: evolutionFamilies.luvdisc
     },
     {
         name: "Bagon",
@@ -6678,7 +8461,8 @@ let nationalDex = {
         metricWeight: 42.1,
         dexEntry: "Bagon has a dream of one day soaring in the sky. In doomed efforts to fly, this Pokémon hurls itself off cliffs. As a result of its dives, its head has grown tough and as hard as tempered steel.",
         cryUrl: "cries/371.mp3",
-        ability: ["Rock Head", "Sheer Force"]
+        ability: ["Rock Head", "Sheer Force"],
+        evolution: evolutionFamilies.bagon
     },
     {
         name: "Shelgon",
@@ -6696,7 +8480,8 @@ let nationalDex = {
         metricWeight: 110.5,
         dexEntry: "Inside Shelgon's armor-like shell, cells are in the midst of transformation to create an entirely new body. This Pokémon's shell is extremely heavy, making its movements sluggish.",
         cryUrl: "cries/372.mp3",
-        ability: ["Rock Head", "Overcoat"]
+        ability: ["Rock Head", "Overcoat"],
+        evolution: evolutionFamilies.bagon
     },
     {
         name: "Salamence",
@@ -6714,7 +8499,8 @@ let nationalDex = {
         metricWeight: 102.6,
         dexEntry: "Salamence came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this Pokémon's cells, causing it to sprout its magnificent wings.",
         cryUrl: "cries/373.mp3",
-        ability: ["Intimidate", "Moxie"]
+        ability: ["Intimidate", "Moxie"],
+        evolution: evolutionFamilies.bagon
     },
     {
         name: "Beldum",
@@ -6732,7 +8518,8 @@ let nationalDex = {
         metricWeight: 95.2,
         dexEntry: "Instead of blood, a powerful magnetic force courses throughout Beldum's body. This Pokémon communicates with others by sending controlled pulses of magnetism.",
         cryUrl: "cries/374.mp3",
-        ability: ["Clear Body", "Light Metal"]
+        ability: ["Clear Body", "Light Metal"],
+        evolution: evolutionFamilies.beldum
     },
     {
         name: "Metang",
@@ -6750,7 +8537,8 @@ let nationalDex = {
         metricWeight: 202.5,
         dexEntry: "When two Beldum fuse together, Metang is formed. The brains of the Beldum are joined by a magnetic nervous system. By linking its brains magnetically, this Pokémon generates strong psychokinetic power.",
         cryUrl: "cries/375.mp3",
-        ability: ["Clear Body", "Light Metal"]
+        ability: ["Clear Body", "Light Metal"],
+        evolution: evolutionFamilies.beldum
     },
     {
         name: "Metagross",
@@ -6768,7 +8556,8 @@ let nationalDex = {
         metricWeight: 550.0,
         dexEntry: "Metagross has four brains in total. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This Pokémon can float in the air by tucking in its four legs.",
         cryUrl: "cries/376.mp3",
-        ability: ["Clear Body", "Light Metal"]
+        ability: ["Clear Body", "Light Metal"],
+        evolution: evolutionFamilies.beldum
     },
     {
         name: "Regirock",
@@ -6786,7 +8575,8 @@ let nationalDex = {
         metricWeight: 230.0,
         dexEntry: "Regirock was sealed away by people long ago. If this Pokémon's body is damaged in battle, it is said to seek out suitable rocks on its own to repair itself.",
         cryUrl: "cries/377.mp3",
-        ability: ["Clear Body", "Sturdy"]
+        ability: ["Clear Body", "Sturdy"],
+        evolution: evolutionFamilies.regirock
     },
     {
         name: "Regice",
@@ -6804,7 +8594,8 @@ let nationalDex = {
         metricWeight: 175.0,
         dexEntry: "Regice's body was made during an ice age. The deep-frozen body can't be melted, even by fire. This Pokémon controls frigid air of minus 328 degrees F.",
         cryUrl: "cries/378.mp3",
-        ability: ["Clear Body", "Ice Body"]
+        ability: ["Clear Body", "Ice Body"],
+        evolution: evolutionFamilies.regice
     },
     {
         name: "Registeel",
@@ -6822,7 +8613,8 @@ let nationalDex = {
         metricWeight: 205.0,
         dexEntry: "Registeel has a body that is harder than any kind of metal. Its body is apparently hollow. No one has any idea what this Pokémon eats.",
         cryUrl: "cries/379.mp3",
-        ability: ["Clear Body", "Light Metal"]
+        ability: ["Clear Body", "Light Metal"],
+        evolution: evolutionFamilies.registeel
     },
     {
         name: "Latias",
@@ -6840,7 +8632,8 @@ let nationalDex = {
         metricWeight: 40.0,
         dexEntry: "Latias is highly sensitive to the emotions of people. If it senses any hostility, this Pokémon ruffles the feathers all over its body and cries shrilly to intimidate the foe.",
         cryUrl: "cries/380.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.latias
     },
     {
         name: "Latios",
@@ -6858,7 +8651,8 @@ let nationalDex = {
         metricWeight: 60.0,
         dexEntry: "Latios has the ability to make its foe see an image of what it has seen or imagines in its head. This Pokémon is intelligent and understands human speech.",
         cryUrl: "cries/381.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.latios
     },
     {
         name: "Kyogre",
@@ -6876,7 +8670,8 @@ let nationalDex = {
         metricWeight: 352.0,
         dexEntry: "Kyogre has the power to create massive rain clouds that cover the entire sky and bring about torrential downpours. This Pokémon saved people who were suffering from droughts.",
         cryUrl: "cries/382.mp3",
-        ability: ["Drizzle"]
+        ability: ["Drizzle"],
+        evolution: evolutionFamilies.kyogre
     },
     {
         name: "Groudon",
@@ -6894,7 +8689,8 @@ let nationalDex = {
         metricWeight: 950.0,
         dexEntry: "Groudon has long been described in mythology as the Pokémon that raised lands and expanded continents. This Pokémon took to sleep after a cataclysmic battle with Kyogre.",
         cryUrl: "cries/383.mp3",
-        ability: ["Drought"]
+        ability: ["Drought"],
+        evolution: evolutionFamilies.groudon
     },
     {
         name: "Rayquaza",
@@ -6912,7 +8708,8 @@ let nationalDex = {
         metricWeight: 206.5,
         dexEntry: "Rayquaza lived for hundreds of millions of years in the earth's ozone layer, never descending to the ground. This Pokémon appears to feed on water and particles in the atmosphere.",
         cryUrl: "cries/384.mp3",
-        ability: ["Air Lock"]
+        ability: ["Air Lock"],
+        evolution: evolutionFamilies.rayquaza
     },
     {
         name: "Jirachi",
@@ -6930,7 +8727,8 @@ let nationalDex = {
         metricWeight: 1.1,
         dexEntry: "A legend states that Jirachi will make true any wish that is written on the notes attached to head when it awakens. If this Pokémon senses danger, it will fight without awakening.",
         cryUrl: "cries/385.mp3",
-        ability: ["Serene Grace"]
+        ability: ["Serene Grace"],
+        evolution: evolutionFamilies.jirachi
     },
     {
         name: "Deoxys",
@@ -6948,7 +8746,8 @@ let nationalDex = {
         metricWeight: 60.8,
         dexEntry: "The DNA of a space virus underwent a sudden mutation upon exposure to a laser beam and resulted in Deoxys. The crystalline organ on this Pokémon's chest appears to be its brain.",
         cryUrl: "cries/386.mp3",
-        ability: ["Pressure"]
+        ability: ["Pressure"],
+        evolution: evolutionFamilies.deoxys
     },
     {
         name: "Turtwig",
@@ -6966,7 +8765,8 @@ let nationalDex = {
         metricWeight: 10.2,
         dexEntry: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
         cryUrl: "cries/387.mp3",
-        ability: ["Overgrow", "Shell Armor"]
+        ability: ["Overgrow", "Shell Armor"],
+        evolution: evolutionFamilies.turtwig
     },
     {
         name: "Grotle",
@@ -6984,7 +8784,8 @@ let nationalDex = {
         metricWeight: 97.0,
         dexEntry: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
         cryUrl: "cries/388.mp3",
-        ability: ["Overgrow", "Shell Armor"]
+        ability: ["Overgrow", "Shell Armor"],
+        evolution: evolutionFamilies.turtwig
     },
     {
         name: "Torterra",
@@ -7002,7 +8803,8 @@ let nationalDex = {
         metricWeight: 310.0,
         dexEntry: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
         cryUrl: "cries/389.mp3",
-        ability: ["Overgrow", "Shell Armor"]
+        ability: ["Overgrow", "Shell Armor"],
+        evolution: evolutionFamilies.turtwig
     },
     {
         name: "Chimchar",
@@ -7020,7 +8822,8 @@ let nationalDex = {
         metricWeight: 6.2,
         dexEntry: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
         cryUrl: "cries/390.mp3",
-        ability: ["Blaze", "Iron Fist"]
+        ability: ["Blaze", "Iron Fist"],
+        evolution: evolutionFamilies.chimchar
     },
     {
         name: "Monferno",
@@ -7038,7 +8841,8 @@ let nationalDex = {
         metricWeight: 22.0,
         dexEntry: "To intimidate attackers, it stretches the fire on its tail to make itself appear bigger.",
         cryUrl: "cries/391.mp3",
-        ability: ["Blaze", "Iron Fist"]
+        ability: ["Blaze", "Iron Fist"],
+        evolution: evolutionFamilies.chimchar
     },
     {
         name: "Infernape",
@@ -7056,7 +8860,8 @@ let nationalDex = {
         metricWeight: 55.0,
         dexEntry: "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
         cryUrl: "cries/392.mp3",
-        ability: ["Blaze", "Iron Fist"]
+        ability: ["Blaze", "Iron Fist"],
+        evolution: evolutionFamilies.chimchar
     },
     {
         name: "Piplup",
@@ -7074,7 +8879,8 @@ let nationalDex = {
         metricWeight: 5.2,
         dexEntry: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
         cryUrl: "cries/393.mp3",
-        ability: ["Torrent", "Defiant"]
+        ability: ["Torrent", "Defiant"],
+        evolution: evolutionFamilies.piplup
     },
     {
         name: "Prinplup",
@@ -7092,7 +8898,8 @@ let nationalDex = {
         metricWeight: 23.0,
         dexEntry: "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
         cryUrl: "cries/394.mp3",
-        ability: ["Torrent", "Defiant"]
+        ability: ["Torrent", "Defiant"],
+        evolution: evolutionFamilies.piplup
     },
     {
         name: "Empoleon",
@@ -7110,7 +8917,8 @@ let nationalDex = {
         metricWeight: 84.5,
         dexEntry: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
         cryUrl: "cries/395.mp3",
-        ability: ["Torrent", "Defiant"]
+        ability: ["Torrent", "Defiant"],
+        evolution: evolutionFamilies.piplup
     },
     {
         name: "Starly",
@@ -7128,7 +8936,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "They flock in great numbers. Though small, they flap their wings with great power.",
         cryUrl: "cries/396.mp3",
-        ability: ["Keen Eye", "Reckless"]
+        ability: ["Keen Eye", "Reckless"],
+        evolution: evolutionFamilies.starly
     },
     {
         name: "Staravia",
@@ -7146,7 +8955,8 @@ let nationalDex = {
         metricWeight: 15.5,
         dexEntry: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
         cryUrl: "cries/397.mp3",
-        ability: ["Intimidate", "Reckless"]
+        ability: ["Intimidate", "Reckless"],
+        evolution: evolutionFamilies.starly
     },
     {
         name: "Staraptor",
@@ -7164,7 +8974,8 @@ let nationalDex = {
         metricWeight: 24.9,
         dexEntry: "It has a savage nature. It will courageously challenge foes that are much larger.",
         cryUrl: "cries/398.mp3",
-        ability: ["Intimidate", "Reckless"]
+        ability: ["Intimidate", "Reckless"],
+        evolution: evolutionFamilies.starly
     },
     {
         name: "Bidoof",
@@ -7182,7 +8993,8 @@ let nationalDex = {
         metricWeight: 20.0,
         dexEntry: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
         cryUrl: "cries/399.mp3",
-        ability: ["Simple", "Unaware", "Moody"]
+        ability: ["Simple", "Unaware", "Moody"],
+        evolution: evolutionFamilies.bidoof
     },
     {
         name: "Bibarel",
@@ -7200,7 +9012,8 @@ let nationalDex = {
         metricWeight: 31.5,
         dexEntry: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
         cryUrl: "cries/400.mp3",
-        ability: ["Simple", "Unaware", "Moody"]
+        ability: ["Simple", "Unaware", "Moody"],
+        evolution: evolutionFamilies.bidoof
     },
     {
         name: "Kricketot",
@@ -7218,7 +9031,8 @@ let nationalDex = {
         metricWeight: 2.2,
         dexEntry: "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
         cryUrl: "cries/401.mp3",
-        ability: ["Shed Skin", "Run Away"]
+        ability: ["Shed Skin", "Run Away"],
+        evolution: evolutionFamilies.kricketot
     },
     {
         name: "Kricketune",
@@ -7236,7 +9050,8 @@ let nationalDex = {
         metricWeight: 25.5,
         dexEntry: "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
         cryUrl: "cries/402.mp3",
-        ability: ["Swarm", "Technician"]
+        ability: ["Swarm", "Technician"],
+        evolution: evolutionFamilies.kricketot
     },
     {
         name: "Shinx",
@@ -7254,7 +9069,8 @@ let nationalDex = {
         metricWeight: 9.5,
         dexEntry: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
         cryUrl: "cries/403.mp3",
-        ability: ["Rivalry", "Intimidate", "Guts"]
+        ability: ["Rivalry", "Intimidate", "Guts"],
+        evolution: evolutionFamilies.shinx
     },
     {
         name: "Luxio",
@@ -7272,7 +9088,8 @@ let nationalDex = {
         metricWeight: 30.5,
         dexEntry: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
         cryUrl: "cries/404.mp3",
-        ability: ["Rivalry", "Intimidate", "Guts"]
+        ability: ["Rivalry", "Intimidate", "Guts"],
+        evolution: evolutionFamilies.shinx
     },
     {
         name: "Luxray",
@@ -7290,7 +9107,8 @@ let nationalDex = {
         metricWeight: 42.0,
         dexEntry: "It has eyes which can see through anything. It spots and captures prey hiding behind objects.",
         cryUrl: "cries/405.mp3",
-        ability: ["Rivalry", "Intimidate", "Guts"]
+        ability: ["Rivalry", "Intimidate", "Guts"],
+        evolution: evolutionFamilies.shinx
     },
     {
         name: "Budew",
@@ -7308,7 +9126,8 @@ let nationalDex = {
         metricWeight: 1.2,
         dexEntry: "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
         cryUrl: "cries/406.mp3",
-        ability: ["Natural Cure", "Poison Point", "Leaf Guard"]
+        ability: ["Natural Cure", "Poison Point", "Leaf Guard"],
+        evolution: evolutionFamilies.budew
     },
     {
         name: "Roserade",
@@ -7326,7 +9145,8 @@ let nationalDex = {
         metricWeight: 14.5,
         dexEntry: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
         cryUrl: "cries/407.mp3",
-        ability: ["Natural Cure", "Poison Point", "Technician"]
+        ability: ["Natural Cure", "Poison Point", "Technician"],
+        evolution: evolutionFamilies.budew
     },
     {
         name: "Cranidos",
@@ -7344,7 +9164,8 @@ let nationalDex = {
         metricWeight: 31.5,
         dexEntry: "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
         cryUrl: "cries/408.mp3",
-        ability: ["Mold Breaker", "Sheer Force"]
+        ability: ["Mold Breaker", "Sheer Force"],
+        evolution: evolutionFamilies.cranidos
     },
     {
         name: "Rampardos",
@@ -7362,7 +9183,8 @@ let nationalDex = {
         metricWeight: 102.5,
         dexEntry: "Its powerful headbutt has enough power to shatter even the most durable things upon impact.",
         cryUrl: "cries/409.mp3",
-        ability: ["Mold Breaker", "Sheer Force"]
+        ability: ["Mold Breaker", "Sheer Force"],
+        evolution: evolutionFamilies.cranidos
     },
     {
         name: "Shieldon",
@@ -7380,7 +9202,8 @@ let nationalDex = {
         metricWeight: 57.0,
         dexEntry: "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
         cryUrl: "cries/410.mp3",
-        ability: ["Sturdy", "Soundproof"]
+        ability: ["Sturdy", "Soundproof"],
+        evolution: evolutionFamilies.shieldon
     },
     {
         name: "Bastiodon",
@@ -7398,7 +9221,8 @@ let nationalDex = {
         metricWeight: 149.5,
         dexEntry: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
         cryUrl: "cries/411.mp3",
-        ability: ["Sturdy", "Soundproof"]
+        ability: ["Sturdy", "Soundproof"],
+        evolution: evolutionFamilies.shieldon
     },
     {
         name: "Burmy",
@@ -7416,7 +9240,8 @@ let nationalDex = {
         metricWeight: 3.4,
         dexEntry: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
         cryUrl: "cries/412.mp3",
-        ability: ["Shed Skin", "Overcoat"]
+        ability: ["Shed Skin", "Overcoat"],
+        evolution: evolutionFamilies.burmy
     },
     {
         name: "Wormadam",
@@ -7434,7 +9259,8 @@ let nationalDex = {
         metricWeight: 6.5,
         dexEntry: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
         cryUrl: "cries/413.mp3",
-        ability: ["Anticipation", "Overcoat"]
+        ability: ["Anticipation", "Overcoat"],
+        evolution: evolutionFamilies.burmy
     },
     {
         name: "Mothim",
@@ -7452,7 +9278,8 @@ let nationalDex = {
         metricWeight: 23.3,
         dexEntry: "It loves the honey of flowers and steals honey collected by Combee.",
         cryUrl: "cries/414.mp3",
-        ability: ["Swarm", "Tinted Lens"]
+        ability: ["Swarm", "Tinted Lens"],
+        evolution: evolutionFamilies.burmy
     },
     {
         name: "Combee",
@@ -7470,7 +9297,8 @@ let nationalDex = {
         metricWeight: 5.5,
         dexEntry: "A Pokémon formed by three others. It busily carries sweet floral honey to Vespiquen.",
         cryUrl: "cries/415.mp3",
-        ability: ["Honey Gather", "Hustle"]
+        ability: ["Honey Gather", "Hustle"],
+        evolution: evolutionFamilies.combee
     },
     {
         name: "Vespiquen",
@@ -7488,7 +9316,8 @@ let nationalDex = {
         metricWeight: 38.5,
         dexEntry: "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
         cryUrl: "cries/416.mp3",
-        ability: ["Pressure", "Unnerve"]
+        ability: ["Pressure", "Unnerve"],
+        evolution: evolutionFamilies.combee
     },
     {
         name: "Pachirisu",
@@ -7506,7 +9335,8 @@ let nationalDex = {
         metricWeight: 3.9,
         dexEntry: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
         cryUrl: "cries/417.mp3",
-        ability: ["Run Away", "Pickup", "Volt Absorb"]
+        ability: ["Run Away", "Pickup", "Volt Absorb"],
+        evolution: evolutionFamilies.pachirisu
     },
     {
         name: "Buizel",
@@ -7524,7 +9354,8 @@ let nationalDex = {
         metricWeight: 29.5,
         dexEntry: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
         cryUrl: "cries/418.mp3",
-        ability: ["Swift Swim", "Water Veil"]
+        ability: ["Swift Swim", "Water Veil"],
+        evolution: evolutionFamilies.buizel
     },
     {
         name: "Floatzel",
@@ -7542,7 +9373,8 @@ let nationalDex = {
         metricWeight: 33.5,
         dexEntry: "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
         cryUrl: "cries/419.mp3",
-        ability: ["Swift Swim", "Water Veil"]
+        ability: ["Swift Swim", "Water Veil"],
+        evolution: evolutionFamilies.buizel
     },
     {
         name: "Cherubi",
@@ -7560,7 +9392,8 @@ let nationalDex = {
         metricWeight: 3.3,
         dexEntry: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
         cryUrl: "cries/420.mp3",
-        ability: ["Chlorophyll"]
+        ability: ["Chlorophyll"],
+        evolution: evolutionFamilies.cherubi
     },
     {
         name: "Cherrim",
@@ -7578,7 +9411,8 @@ let nationalDex = {
         metricWeight: 9.3,
         dexEntry: "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
         cryUrl: "cries/421.mp3",
-        ability: ["Flower Gift"]
+        ability: ["Flower Gift"],
+        evolution: evolutionFamilies.cherubi
     },
     {
         name: "Shellos",
@@ -7596,7 +9430,8 @@ let nationalDex = {
         metricWeight: 6.3,
         dexEntry: "Its color and shapes differ from region to region. In the Sinnoh region, two types are confirmed.",
         cryUrl: "cries/422.mp3",
-        ability: ["Sticky Hold", "Storm Drain", "Sand Force"]
+        ability: ["Sticky Hold", "Storm Drain", "Sand Force"],
+        evolution: evolutionFamilies.shellos
     },
     {
         name: "Gastrodon",
@@ -7614,7 +9449,8 @@ let nationalDex = {
         metricWeight: 29.9,
         dexEntry: "It has a pliable body without any bones. If any part of its body is torn off, it grows right back.",
         cryUrl: "cries/423.mp3",
-        ability: ["Sticky Hold", "Storm Drain", "Sand Force"]
+        ability: ["Sticky Hold", "Storm Drain", "Sand Force"],
+        evolution: evolutionFamilies.shellos
     },
     {
         name: "Ambipom",
@@ -7632,7 +9468,8 @@ let nationalDex = {
         metricWeight: 20.3,
         dexEntry: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
         cryUrl: "cries/424.mp3",
-        ability: ["Technician", "Pickup", "Skill Link"]
+        ability: ["Technician", "Pickup", "Skill Link"],
+        evolution: evolutionFamilies.aipom
     },
     {
         name: "Drifloon",
@@ -7650,7 +9487,8 @@ let nationalDex = {
         metricWeight: 1.2,
         dexEntry: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
         cryUrl: "cries/425.mp3",
-        ability: ["Aftermath", "Unburden", "Flare Boost"]
+        ability: ["Aftermath", "Unburden", "Flare Boost"],
+        evolution: evolutionFamilies.drifloon
     },
     {
         name: "Drifblim",
@@ -7668,7 +9506,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
         cryUrl: "cries/426.mp3",
-        ability: ["Aftermath", "Unburden", "Flare Boost"]
+        ability: ["Aftermath", "Unburden", "Flare Boost"],
+        evolution: evolutionFamilies.drifloon
     },
     {
         name: "Buneary",
@@ -7686,7 +9525,8 @@ let nationalDex = {
         metricWeight: 5.5,
         dexEntry: "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
         cryUrl: "cries/427.mp3",
-        ability: ["Run Away", "Klutz", "Limber"]
+        ability: ["Run Away", "Klutz", "Limber"],
+        evolution: evolutionFamilies.buneary
     },
     {
         name: "Lopunny",
@@ -7704,7 +9544,8 @@ let nationalDex = {
         metricWeight: 33.3,
         dexEntry: "An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.",
         cryUrl: "cries/428.mp3",
-        ability: ["Cute Charm", "Klutz", "Limber"]
+        ability: ["Cute Charm", "Klutz", "Limber"],
+        evolution: evolutionFamilies.buneary
     },
     {
         name: "Mismagius",
@@ -7722,7 +9563,8 @@ let nationalDex = {
         metricWeight: 4.4,
         dexEntry: "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
         cryUrl: "cries/429.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.misdreavus
     },
     {
         name: "Honchkrow",
@@ -7740,7 +9582,8 @@ let nationalDex = {
         metricWeight: 27.3,
         dexEntry: "Becoming active at night, it is known to swarm with numerous Murkrow in tow.",
         cryUrl: "cries/430.mp3",
-        ability: ["Insomnia", "Super Luck", "Prankster"]
+        ability: ["Insomnia", "Super Luck", "Prankster"],
+        evolution: evolutionFamilies.murkrow
     },
     {
         name: "Glameow",
@@ -7758,7 +9601,8 @@ let nationalDex = {
         metricWeight: 3.9,
         dexEntry: "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
         cryUrl: "cries/431.mp3",
-        ability: ["Limber", "Own Tempo", "Keen Eye"]
+        ability: ["Limber", "Own Tempo", "Keen Eye"],
+        evolution: evolutionFamilies.glameow
     },
     {
         name: "Purugly",
@@ -7776,7 +9620,8 @@ let nationalDex = {
         metricWeight: 43.8,
         dexEntry: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
         cryUrl: "cries/432.mp3",
-        ability: ["Thick Fat", "Own Tempo", "Defiant"]
+        ability: ["Thick Fat", "Own Tempo", "Defiant"],
+        evolution: evolutionFamilies.glameow
     },
     {
         name: "Chingling",
@@ -7794,7 +9639,8 @@ let nationalDex = {
         metricWeight: 0.6,
         dexEntry: "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
         cryUrl: "cries/433.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.chingling
     },
     {
         name: "Stunky",
@@ -7812,7 +9658,8 @@ let nationalDex = {
         metricWeight: 19.2,
         dexEntry: "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
         cryUrl: "cries/434.mp3",
-        ability: ["Stench", "Aftermath", "Keen Eye"]
+        ability: ["Stench", "Aftermath", "Keen Eye"],
+        evolution: evolutionFamilies.stunky
     },
     {
         name: "Skuntank",
@@ -7830,7 +9677,8 @@ let nationalDex = {
         metricWeight: 38.0,
         dexEntry: "It sprays a vile-smelling fluid from the tip of its tail to attack. Its range is over 160 feet.",
         cryUrl: "cries/435.mp3",
-        ability: ["Stench", "Aftermath", "Keen Eye"]
+        ability: ["Stench", "Aftermath", "Keen Eye"],
+        evolution: evolutionFamilies.stunky
     },
     {
         name: "Bronzor",
@@ -7848,7 +9696,8 @@ let nationalDex = {
         metricWeight: 60.5,
         dexEntry: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
         cryUrl: "cries/436.mp3",
-        ability: ["Levitate", "Heatproof", "Heavy Metal"]
+        ability: ["Levitate", "Heatproof", "Heavy Metal"],
+        evolution: evolutionFamilies.bronzor
     },
     {
         name: "Bronzong",
@@ -7866,7 +9715,8 @@ let nationalDex = {
         metricWeight: 187.0,
         dexEntry: "One caused a news sensation when it was dug up at a construction site after a 2000-year sleep.",
         cryUrl: "cries/437.mp3",
-        ability: ["Levitate", "Heatproof", "Heavy Metal"]
+        ability: ["Levitate", "Heatproof", "Heavy Metal"],
+        evolution: evolutionFamilies.bronzor
     },
     {
         name: "Bonsly",
@@ -7884,7 +9734,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.",
         cryUrl: "cries/438.mp3",
-        ability: ["Sturdy", "Rock Head", "Rattled"]
+        ability: ["Sturdy", "Rock Head", "Rattled"],
+        evolution: evolutionFamilies.bonsly
     },
     {
         name: "Mime Jr.",
@@ -7902,7 +9753,8 @@ let nationalDex = {
         metricWeight: 13.0,
         dexEntry: "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
         cryUrl: "cries/439.mp3",
-        ability: ["Soundproof", "Filter", "Technician"]
+        ability: ["Soundproof", "Filter", "Technician"],
+        evolution: evolutionFamilies.mimejr
     },
     {
         name: "Happiny",
@@ -7920,7 +9772,8 @@ let nationalDex = {
         metricWeight: 24.4,
         dexEntry: "It loves round white things. It carries an egg-shaped rock in imitation of Chansey.",
         cryUrl: "cries/440.mp3",
-        ability: ["Natural Cure", "Serene Grace", "Friend Guard"]
+        ability: ["Natural Cure", "Serene Grace", "Friend Guard"],
+        evolution: evolutionFamilies.happiny
     },
     {
         name: "Chatot",
@@ -7938,7 +9791,8 @@ let nationalDex = {
         metricWeight: 1.9,
         dexEntry: "It can learn and speak human words. If they gather, they all learn the same saying.",
         cryUrl: "cries/441.mp3",
-        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"]
+        ability: ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        evolution: evolutionFamilies.chatot
     },
     {
         name: "Spiritomb",
@@ -7956,7 +9810,8 @@ let nationalDex = {
         metricWeight: 108.0,
         dexEntry: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an Odd Keystone.",
         cryUrl: "cries/442.mp3",
-        ability: ["Pressure", "Infiltrator"]
+        ability: ["Pressure", "Infiltrator"],
+        evolution: evolutionFamilies.spiritomb
     },
     {
         name: "Gible",
@@ -7974,7 +9829,8 @@ let nationalDex = {
         metricWeight: 20.5,
         dexEntry: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
         cryUrl: "cries/443.mp3",
-        ability: ["Sand Veil", "Rough Skin"]
+        ability: ["Sand Veil", "Rough Skin"],
+        evolution: evolutionFamilies.gible
     },
     {
         name: "Gabite",
@@ -7992,7 +9848,8 @@ let nationalDex = {
         metricWeight: 56.0,
         dexEntry: "There is a long-held belief that medicine made from its scales will heal even incurable illnesses.",
         cryUrl: "cries/444.mp3",
-        ability: ["Sand Veil", "Rough Skin"]
+        ability: ["Sand Veil", "Rough Skin"],
+        evolution: evolutionFamilies.gible
     },
     {
         name: "Garchomp",
@@ -8010,7 +9867,8 @@ let nationalDex = {
         metricWeight: 95.0,
         dexEntry: "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
         cryUrl: "cries/445.mp3",
-        ability: ["Sand Veil", "Rough Skin"]
+        ability: ["Sand Veil", "Rough Skin"],
+        evolution: evolutionFamilies.gible
     },
     {
         name: "Munchlax",
@@ -8028,7 +9886,8 @@ let nationalDex = {
         metricWeight: 105.0,
         dexEntry: "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
         cryUrl: "cries/446.mp3",
-        ability: ["Pickup", "Thick Fat", "Gluttony"]
+        ability: ["Pickup", "Thick Fat", "Gluttony"],
+        evolution: evolutionFamilies.munchlax
     },
     {
         name: "Riolu",
@@ -8046,7 +9905,8 @@ let nationalDex = {
         metricWeight: 20.2,
         dexEntry: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
         cryUrl: "cries/447.mp3",
-        ability: ["Steadfast", "Inner Focus", "Prankster"]
+        ability: ["Steadfast", "Inner Focus", "Prankster"],
+        evolution: evolutionFamilies.riolu
     },
     {
         name: "Lucario",
@@ -8064,7 +9924,8 @@ let nationalDex = {
         metricWeight: 54.0,
         dexEntry: "It has the ability to sense the Auras of all things. It understands human speech.",
         cryUrl: "cries/448.mp3",
-        ability: ["Steadfast", "Inner Focus", "Justified"]
+        ability: ["Steadfast", "Inner Focus", "Justified"],
+        evolution: evolutionFamilies.riolu
     },
     {
         name: "Hippopotas",
@@ -8082,7 +9943,8 @@ let nationalDex = {
         metricWeight: 49.5,
         dexEntry: "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
         cryUrl: "cries/449.mp3",
-        ability: ["Sand Stream", "Sand Force"]
+        ability: ["Sand Stream", "Sand Force"],
+        evolution: evolutionFamilies.hippopotas
     },
     {
         name: "Hippowdon",
@@ -8100,7 +9962,8 @@ let nationalDex = {
         metricWeight: 300.0,
         dexEntry: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
         cryUrl: "cries/450.mp3",
-        ability: ["Sand Stream", "Sand Force"]
+        ability: ["Sand Stream", "Sand Force"],
+        evolution: evolutionFamilies.hippopotas
     },
     {
         name: "Skorupi",
@@ -8118,7 +9981,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
         cryUrl: "cries/451.mp3",
-        ability: ["Battle Armor", "Sniper", "Keen Eye"]
+        ability: ["Battle Armor", "Sniper", "Keen Eye"],
+        evolution: evolutionFamilies.skorupi
     },
     {
         name: "Drapion",
@@ -8136,7 +10000,8 @@ let nationalDex = {
         metricWeight: 61.5,
         dexEntry: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
         cryUrl: "cries/452.mp3",
-        ability: ["Battle Armor", "Sniper", "Keen Eye"]
+        ability: ["Battle Armor", "Sniper", "Keen Eye"],
+        evolution: evolutionFamilies.skorupi
     },
     {
         name: "Croagunk",
@@ -8154,7 +10019,8 @@ let nationalDex = {
         metricWeight: 23.0,
         dexEntry: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
         cryUrl: "cries/453.mp3",
-        ability: ["Anticipation", "Dry Skin", "Poison Touch"]
+        ability: ["Anticipation", "Dry Skin", "Poison Touch"],
+        evolution: evolutionFamilies.croagunk
     },
     {
         name: "Toxicroak",
@@ -8172,7 +10038,8 @@ let nationalDex = {
         metricWeight: 44.4,
         dexEntry: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
         cryUrl: "cries/454.mp3",
-        ability: ["Anticipation", "Dry Skin", "Poison Touch"]
+        ability: ["Anticipation", "Dry Skin", "Poison Touch"],
+        evolution: evolutionFamilies.croagunk
     },
     {
         name: "Carnivine",
@@ -8190,7 +10057,8 @@ let nationalDex = {
         metricWeight: 27.0,
         dexEntry: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
         cryUrl: "cries/455.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.carnivine
     },
     {
         name: "Finneon",
@@ -8208,7 +10076,8 @@ let nationalDex = {
         metricWeight: 7.0,
         dexEntry: "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
         cryUrl: "cries/456.mp3",
-        ability: ["Swift Swim", "Storm Drain", "Water Veil"]
+        ability: ["Swift Swim", "Storm Drain", "Water Veil"],
+        evolution: evolutionFamilies.finneon
     },
     {
         name: "Lumineon",
@@ -8226,7 +10095,8 @@ let nationalDex = {
         metricWeight: 24.0,
         dexEntry: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
         cryUrl: "cries/457.mp3",
-        ability: ["Swift Swim", "Storm Drain", "Water Veil"]
+        ability: ["Swift Swim", "Storm Drain", "Water Veil"],
+        evolution: evolutionFamilies.finneon
     },
     {
         name: "Mantyke",
@@ -8244,7 +10114,8 @@ let nationalDex = {
         metricWeight: 65.0,
         dexEntry: "A friendly Pokémon that captures the subtle flows of seawater using its two antennae.",
         cryUrl: "cries/458.mp3",
-        ability: ["Swift Swim", "Water Absorb", "Water Veil"]
+        ability: ["Swift Swim", "Water Absorb", "Water Veil"],
+        evolution: evolutionFamilies.mantyke
     },
     {
         name: "Snover",
@@ -8262,7 +10133,8 @@ let nationalDex = {
         metricWeight: 50.5,
         dexEntry: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
         cryUrl: "cries/459.mp3",
-        ability: ["Snow Warning", "Soundproof"]
+        ability: ["Snow Warning", "Soundproof"],
+        evolution: evolutionFamilies.snover
     },
     {
         name: "Abomasnow",
@@ -8280,7 +10152,8 @@ let nationalDex = {
         metricWeight: 135.5,
         dexEntry: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
         cryUrl: "cries/460.mp3",
-        ability: ["Snow Warning", "Soundproof"]
+        ability: ["Snow Warning", "Soundproof"],
+        evolution: evolutionFamilies.snover
     },
     {
         name: "Weavile",
@@ -8298,7 +10171,8 @@ let nationalDex = {
         metricWeight: 34.0,
         dexEntry: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
         cryUrl: "cries/461.mp3",
-        ability: ["Pressure", "Pickpocket"]
+        ability: ["Pressure", "Pickpocket"],
+        evolution: evolutionFamilies.sneasel
     },
     {
         name: "Magnezone",
@@ -8316,7 +10190,8 @@ let nationalDex = {
         metricWeight: 180.0,
         dexEntry: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
         cryUrl: "cries/462.mp3",
-        ability: ["Magnet Pull", "Sturdy", "Analytic"]
+        ability: ["Magnet Pull", "Sturdy", "Analytic"],
+        evolution: evolutionFamilies.magnemite
     },
     {
         name: "Lickilicky",
@@ -8334,7 +10209,8 @@ let nationalDex = {
         metricWeight: 140.0,
         dexEntry: "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
         cryUrl: "cries/463.mp3",
-        ability: ["Own Tempo", "Oblivious", "Cloud Nine"]
+        ability: ["Own Tempo", "Oblivious", "Cloud Nine"],
+        evolution: evolutionFamilies.lickitung
     },
     {
         name: "Rhyperior",
@@ -8352,7 +10228,8 @@ let nationalDex = {
         metricWeight: 282.8,
         dexEntry: "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
         cryUrl: "cries/464.mp3",
-        ability: ["Lightning Rod", "Solid Rock", "Reckless"]
+        ability: ["Lightning Rod", "Solid Rock", "Reckless"],
+        evolution: evolutionFamilies.rhyhorn
     },
     {
         name: "Tangrowth",
@@ -8370,7 +10247,8 @@ let nationalDex = {
         metricWeight: 128.6,
         dexEntry: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
         cryUrl: "cries/465.mp3",
-        ability: ["Chlorophyll", "Leaf Guard", "Regenerator"]
+        ability: ["Chlorophyll", "Leaf Guard", "Regenerator"],
+        evolution: evolutionFamilies.tangela
     },
     {
         name: "Electivire",
@@ -8388,7 +10266,8 @@ let nationalDex = {
         metricWeight: 138.6,
         dexEntry: "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
         cryUrl: "cries/466.mp3",
-        ability: ["Motor Drive", "Vital Spirit"]
+        ability: ["Motor Drive", "Vital Spirit"],
+        evolution: evolutionFamilies.elekid
     },
     {
         name: "Magmortar",
@@ -8406,7 +10285,8 @@ let nationalDex = {
         metricWeight: 68.0,
         dexEntry: "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
         cryUrl: "cries/467.mp3",
-        ability: ["Flame Body", "Vital Spirit"]
+        ability: ["Flame Body", "Vital Spirit"],
+        evolution: evolutionFamilies.magby
     },
     {
         name: "Togekiss",
@@ -8424,7 +10304,8 @@ let nationalDex = {
         metricWeight: 38.0,
         dexEntry: "It will never appear where there is strife. Its sightings have become rare recently.",
         cryUrl: "cries/468.mp3",
-        ability: ["Hustle", "Serene Grace", "Super Luck"]
+        ability: ["Hustle", "Serene Grace", "Super Luck"],
+        evolution: evolutionFamilies.togepi
     },
     {
         name: "Yanmega",
@@ -8442,7 +10323,8 @@ let nationalDex = {
         metricWeight: 51.5,
         dexEntry: "By churning its wings, it creates shock waves that inflict critical internal injuries on foes.",
         cryUrl: "cries/469.mp3",
-        ability: ["Speed Boost", "Tinted Eyes", "Frisk"]
+        ability: ["Speed Boost", "Tinted Eyes", "Frisk"],
+        evolution: evolutionFamilies.yanma
     },
     {
         name: "Leafeon",
@@ -8460,7 +10342,8 @@ let nationalDex = {
         metricWeight: 25.5,
         dexEntry: "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
         cryUrl: "cries/470.mp3",
-        ability: ["Leaf Guard", "Chlorophyll"]
+        ability: ["Leaf Guard", "Chlorophyll"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Glaceon",
@@ -8478,7 +10361,8 @@ let nationalDex = {
         metricWeight: 25.9,
         dexEntry: "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
         cryUrl: "cries/471.mp3",
-        ability: ["Snow Cloak", "Ice Body"]
+        ability: ["Snow Cloak", "Ice Body"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Gliscor",
@@ -8496,7 +10380,8 @@ let nationalDex = {
         metricWeight: 42.5,
         dexEntry: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
         cryUrl: "cries/472.mp3",
-        ability: ["Hyper Cutter", "Sand Veil", "Poison Heal"]
+        ability: ["Hyper Cutter", "Sand Veil", "Poison Heal"],
+        evolution: evolutionFamilies.gligar
     },
     {
         name: "Mamoswine",
@@ -8514,7 +10399,8 @@ let nationalDex = {
         metricWeight: 291.0,
         dexEntry: "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
         cryUrl: "cries/473.mp3",
-        ability: ["Oblivious", "Snow Cloak", "Thick Fat"]
+        ability: ["Oblivious", "Snow Cloak", "Thick Fat"],
+        evolution: evolutionFamilies.swinub
     },
     {
         name: "Porygon-Z",
@@ -8532,7 +10418,8 @@ let nationalDex = {
         metricWeight: 34.0,
         dexEntry: "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
         cryUrl: "cries/474.mp3",
-        ability: ["Adaptability", "Download", "Analytic"]
+        ability: ["Adaptability", "Download", "Analytic"],
+        evolution: evolutionFamilies.porygon
     },
     {
         name: "Gallade",
@@ -8550,7 +10437,8 @@ let nationalDex = {
         metricWeight: 52.0,
         dexEntry: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
         cryUrl: "cries/475.mp3",
-        ability: ["Steadfast", "Justified"]
+        ability: ["Steadfast", "Justified"],
+        evolution: evolutionFamilies.ralts
     },
     {
         name: "Probopass",
@@ -8568,7 +10456,8 @@ let nationalDex = {
         metricWeight: 340.0,
         dexEntry: "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
         cryUrl: "cries/476.mp3",
-        ability: ["Sturdy", "Magnet Pull", "Sand Force"]
+        ability: ["Sturdy", "Magnet Pull", "Sand Force"],
+        evolution: evolutionFamilies.nosepass
     },
     {
         name: "Dusknoir",
@@ -8586,7 +10475,8 @@ let nationalDex = {
         metricWeight: 106.6,
         dexEntry: "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
         cryUrl: "cries/477.mp3",
-        ability: ["Pressure", "Frisk"]
+        ability: ["Pressure", "Frisk"],
+        evolution: evolutionFamilies.duskull
     },
     {
         name: "Froslass",
@@ -8604,7 +10494,8 @@ let nationalDex = {
         metricWeight: 26.6,
         dexEntry: "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
         cryUrl: "cries/478.mp3",
-        ability: ["Snow Cloak", "Cursed Body"]
+        ability: ["Snow Cloak", "Cursed Body"],
+        evolution: evolutionFamilies.snorunt
     },
     {
         name: "Rotom",
@@ -8622,7 +10513,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
         cryUrl: "cries/479.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.rotom
     },
     {
         name: "Uxie",
@@ -8640,7 +10532,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "Known as \"The Being of Knowledge.\" It is said that it can wipe out the memory of those who see its eyes.",
         cryUrl: "cries/480.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.uxie
     },
     {
         name: "Mesprit",
@@ -8658,7 +10551,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
         cryUrl: "cries/481.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.mesprit
     },
     {
         name: "Azelf",
@@ -8676,7 +10570,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance.",
         cryUrl: "cries/482.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.azelf
     },
     {
         name: "Dialga",
@@ -8694,7 +10589,8 @@ let nationalDex = {
         metricWeight: 683.0,
         dexEntry: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
         cryUrl: "cries/483.mp3",
-        ability: ["Pressure", "Telepathy"]
+        ability: ["Pressure", "Telepathy"],
+        evolution: evolutionFamilies.dialga
     },
     {
         name: "Palkia",
@@ -8712,7 +10608,8 @@ let nationalDex = {
         metricWeight: 336.0,
         dexEntry: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
         cryUrl: "cries/484.mp3",
-        ability: ["Pressure", "Telepathy"]
+        ability: ["Pressure", "Telepathy"],
+        evolution: evolutionFamilies.palkia
     },
     {
         name: "Heatran",
@@ -8730,7 +10627,8 @@ let nationalDex = {
         metricWeight: 430.0,
         dexEntry: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
         cryUrl: "cries/485.mp3",
-        ability: ["Flash Fire", "Flame Body"]
+        ability: ["Flash Fire", "Flame Body"],
+        evolution: evolutionFamilies.heatran
     },
     {
         name: "Regigigas",
@@ -8748,7 +10646,8 @@ let nationalDex = {
         metricWeight: 420.0,
         dexEntry: "There is an enduring legend that states this Pokémon towed continents with ropes.",
         cryUrl: "cries/486.mp3",
-        ability: ["Slow Start"]
+        ability: ["Slow Start"],
+        evolution: evolutionFamilies.regigigas
     },
     {
         name: "Giratina",
@@ -8766,7 +10665,8 @@ let nationalDex = {
         metricWeight: 750.0,
         dexEntry: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
         cryUrl: "cries/487.mp3",
-        ability: ["Pressure", "Telepathy"]
+        ability: ["Pressure", "Telepathy"],
+        evolution: evolutionFamilies.giratina
     },
     {
         name: "Cresselia",
@@ -8784,7 +10684,8 @@ let nationalDex = {
         metricWeight: 85.6,
         dexEntry: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
         cryUrl: "cries/488.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.cresselia
     },
     {
         name: "Phione",
@@ -8802,7 +10703,8 @@ let nationalDex = {
         metricWeight: 3.1,
         dexEntry: "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
         cryUrl: "cries/489.mp3",
-        ability: ["Hydration"]
+        ability: ["Hydration"],
+        evolution: evolutionFamilies.phione
     },
     {
         name: "Manaphy",
@@ -8820,7 +10722,8 @@ let nationalDex = {
         metricWeight: 1.4,
         dexEntry: "Born on a cold seafloor, it will swim great distances to return to its birthplace.",
         cryUrl: "cries/490.mp3",
-        ability: ["Hydration"]
+        ability: ["Hydration"],
+        evolution: evolutionFamilies.manaphy
     },
     {
         name: "Darkrai",
@@ -8838,7 +10741,8 @@ let nationalDex = {
         metricWeight: 50.5,
         dexEntry: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
         cryUrl: "cries/491.mp3",
-        ability: ["Bad Dreams"]
+        ability: ["Bad Dreams"],
+        evolution: evolutionFamilies.darkrai
     },
     {
         name: "Shaymin",
@@ -8856,7 +10760,8 @@ let nationalDex = {
         metricWeight: 2.1,
         dexEntry: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
         cryUrl: "cries/492.mp3",
-        ability: ["Natural Cure"]
+        ability: ["Natural Cure"],
+        evolution: evolutionFamilies.shaymin
     },
     {
         name: "Arceus",
@@ -8874,7 +10779,8 @@ let nationalDex = {
         metricWeight: 320.0,
         dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
         cryUrl: "cries/493.mp3",
-        ability: ["Multitype"]
+        ability: ["Multitype"],
+        evolution: evolutionFamilies.arceus
     },
     {
         name: "Victini",
@@ -8892,7 +10798,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
         cryUrl: "cries/494.mp3",
-        ability: ["Victory Star"]
+        ability: ["Victory Star"],
+        evolution: evolutionFamilies.victini
     },
     {
         name: "Snivy",
@@ -8910,7 +10817,8 @@ let nationalDex = {
         metricWeight: 8.1,
         dexEntry: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
         cryUrl: "cries/495.mp3",
-        ability: ["Overgrow", "Contrary"]
+        ability: ["Overgrow", "Contrary"],
+        evolution: evolutionFamilies.snivy
     },
     {
         name: "Servine",
@@ -8928,7 +10836,8 @@ let nationalDex = {
         metricWeight: 16.0,
         dexEntry: "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
         cryUrl: "cries/496.mp3",
-        ability: ["Overgrow", "Contrary"]
+        ability: ["Overgrow", "Contrary"],
+        evolution: evolutionFamilies.snivy
     },
     {
         name: "Serperior",
@@ -8946,7 +10855,8 @@ let nationalDex = {
         metricWeight: 63.0,
         dexEntry: "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
         cryUrl: "cries/497.mp3",
-        ability: ["Overgrow", "Contrary"]
+        ability: ["Overgrow", "Contrary"],
+        evolution: evolutionFamilies.snivy
     },
     {
         name: "Tepig",
@@ -8964,7 +10874,8 @@ let nationalDex = {
         metricWeight: 9.9,
         dexEntry: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
         cryUrl: "cries/498.mp3",
-        ability: ["Blaze", "Thick Fat"]
+        ability: ["Blaze", "Thick Fat"],
+        evolution: evolutionFamilies.tepig
     },
     {
         name: "Pignite",
@@ -8982,7 +10893,8 @@ let nationalDex = {
         metricWeight: 55.5,
         dexEntry: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
         cryUrl: "cries/499.mp3",
-        ability: ["Blaze", "Thick Fat"]
+        ability: ["Blaze", "Thick Fat"],
+        evolution: evolutionFamilies.tepig
     },
     {
         name: "Emboar",
@@ -9000,7 +10912,8 @@ let nationalDex = {
         metricWeight: 150.0,
         dexEntry: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
         cryUrl: "cries/500.mp3",
-        ability: ["Blaze", "Reckless"]
+        ability: ["Blaze", "Reckless"],
+        evolution: evolutionFamilies.tepig
     },
     {
         name: "Oshawott",
@@ -9018,7 +10931,8 @@ let nationalDex = {
         metricWeight: 5.9,
         dexEntry: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
         cryUrl: "cries/501.mp3",
-        ability: ["Torrent", "Shell Armor"]
+        ability: ["Torrent", "Shell Armor"],
+        evolution: evolutionFamilies.oshawott
     },
     {
         name: "Dewott",
@@ -9036,7 +10950,8 @@ let nationalDex = {
         metricWeight: 24.5,
         dexEntry: "Strict training is how it learns its flowing double-scalchop technique.",
         cryUrl: "cries/502.mp3",
-        ability: ["Torrent", "Shell Armor"]
+        ability: ["Torrent", "Shell Armor"],
+        evolution: evolutionFamilies.oshawott
     },
     {
         name: "Samurott",
@@ -9054,7 +10969,8 @@ let nationalDex = {
         metricWeight: 94.6,
         dexEntry: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
         cryUrl: "cries/503.mp3",
-        ability: ["Torrent", "Shell Armor"]
+        ability: ["Torrent", "Shell Armor"],
+        evolution: evolutionFamilies.oshawott
     },
     {
         name: "Patrat",
@@ -9072,7 +10988,8 @@ let nationalDex = {
         metricWeight: 11.6,
         dexEntry: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
         cryUrl: "cries/504.mp3",
-        ability: ["Run Away", "Keen Eye", "Analytic"]
+        ability: ["Run Away", "Keen Eye", "Analytic"],
+        evolution: evolutionFamilies.patrat
     },
     {
         name: "Watchog",
@@ -9090,7 +11007,8 @@ let nationalDex = {
         metricWeight: 27.0,
         dexEntry: "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
         cryUrl: "cries/505.mp3",
-        ability: ["Illuminate", "Keen Eye", "Analytic"]
+        ability: ["Illuminate", "Keen Eye", "Analytic"],
+        evolution: evolutionFamilies.patrat
     },
     {
         name: "Lillipup",
@@ -9108,7 +11026,8 @@ let nationalDex = {
         metricWeight: 4.1,
         dexEntry: "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
         cryUrl: "cries/506.mp3",
-        ability: ["Vital Spirit", "Pickup", "Run Away"]
+        ability: ["Vital Spirit", "Pickup", "Run Away"],
+        evolution: evolutionFamilies.lillipup
     },
     {
         name: "Herdier",
@@ -9126,7 +11045,8 @@ let nationalDex = {
         metricWeight: 14.7,
         dexEntry: "It has black, cape-like fur that is very hard and decreases the amount of damage it receives.",
         cryUrl: "cries/507.mp3",
-        ability: ["Intimidate", "Sand Rush", "Scrappy"]
+        ability: ["Intimidate", "Sand Rush", "Scrappy"],
+        evolution: evolutionFamilies.lillipup
     },
     {
         name: "Stoutland",
@@ -9144,7 +11064,8 @@ let nationalDex = {
         metricWeight: 61.0,
         dexEntry: "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
         cryUrl: "cries/508.mp3",
-        ability: ["Intimidate", "Sand Rush", "Scrappy"]
+        ability: ["Intimidate", "Sand Rush", "Scrappy"],
+        evolution: evolutionFamilies.lillipup
     },
     {
         name: "Purrloin",
@@ -9162,7 +11083,8 @@ let nationalDex = {
         metricWeight: 10.1,
         dexEntry: "They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.",
         cryUrl: "cries/509.mp3",
-        ability: ["Limber", "Unburden", "Prankster"]
+        ability: ["Limber", "Unburden", "Prankster"],
+        evolution: evolutionFamilies.purrloin
     },
     {
         name: "Liepard",
@@ -9180,7 +11102,8 @@ let nationalDex = {
         metricWeight: 37.5,
         dexEntry: "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.",
         cryUrl: "cries/510.mp3",
-        ability: ["Limber", "Unburden", "Prankster"]
+        ability: ["Limber", "Unburden", "Prankster"],
+        evolution: evolutionFamilies.purrloin
     },
     {
         name: "Pansage",
@@ -9198,7 +11121,8 @@ let nationalDex = {
         metricWeight: 10.5,
         dexEntry: "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
         cryUrl: "cries/511.mp3",
-        ability: ["Gluttony", "Overgrow"]
+        ability: ["Gluttony", "Overgrow"],
+        evolution: evolutionFamilies.pansage
     },
     {
         name: "Simisage",
@@ -9216,7 +11140,8 @@ let nationalDex = {
         metricWeight: 30.5,
         dexEntry: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
         cryUrl: "cries/512.mp3",
-        ability: ["Gluttony", "Overgrow"]
+        ability: ["Gluttony", "Overgrow"],
+        evolution: evolutionFamilies.pansage
     },
     {
         name: "Pansear",
@@ -9234,7 +11159,8 @@ let nationalDex = {
         metricWeight: 11.0,
         dexEntry: "When it is angered, the temperature of its head tuft reaches 600°F. It uses its tuft to roast berries.",
         cryUrl: "cries/513.mp3",
-        ability: ["Gluttony", "Blaze"]
+        ability: ["Gluttony", "Blaze"],
+        evolution: evolutionFamilies.pansear
     },
     {
         name: "Simisear",
@@ -9252,7 +11178,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "It loves sweets because they become energy for the fire burning inside its body.",
         cryUrl: "cries/514.mp3",
-        ability: ["Gluttony", "Blaze"]
+        ability: ["Gluttony", "Blaze"],
+        evolution: evolutionFamilies.pansear
     },
     {
         name: "Panpour",
@@ -9270,7 +11197,8 @@ let nationalDex = {
         metricWeight: 13.5,
         dexEntry: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
         cryUrl: "cries/515.mp3",
-        ability: ["Gluttony", "Torrent"]
+        ability: ["Gluttony", "Torrent"],
+        evolution: evolutionFamilies.panpour
     },
     {
         name: "Simipour",
@@ -9288,7 +11216,8 @@ let nationalDex = {
         metricWeight: 29.0,
         dexEntry: "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
         cryUrl: "cries/516.mp3",
-        ability: ["Gluttony", "Torrent"]
+        ability: ["Gluttony", "Torrent"],
+        evolution: evolutionFamilies.panpour
     },
     {
         name: "Munna",
@@ -9306,7 +11235,8 @@ let nationalDex = {
         metricWeight: 23.3,
         dexEntry: "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
         cryUrl: "cries/517.mp3",
-        ability: ["Forewarn", "Synchronize", "Telepathy"]
+        ability: ["Forewarn", "Synchronize", "Telepathy"],
+        evolution: evolutionFamilies.munna
     },
     {
         name: "Musharna",
@@ -9324,7 +11254,8 @@ let nationalDex = {
         metricWeight: 60.5,
         dexEntry: "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
         cryUrl: "cries/518.mp3",
-        ability: ["Forewarn", "Synchronize", "Telepathy"]
+        ability: ["Forewarn", "Synchronize", "Telepathy"],
+        evolution: evolutionFamilies.munna
     },
     {
         name: "Pidove",
@@ -9342,7 +11273,8 @@ let nationalDex = {
         metricWeight: 2.1,
         dexEntry: "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
         cryUrl: "cries/519.mp3",
-        ability: ["Big Pecks", "Super Luck", "Rivalry"]
+        ability: ["Big Pecks", "Super Luck", "Rivalry"],
+        evolution: evolutionFamilies.pidove
     },
     {
         name: "Tranquill",
@@ -9360,7 +11292,8 @@ let nationalDex = {
         metricWeight: 15.0,
         dexEntry: "It can return to its Trainer's location regardless of the distance separating them.",
         cryUrl: "cries/520.mp3",
-        ability: ["Big Pecks", "Super Luck", "Rivalry"]
+        ability: ["Big Pecks", "Super Luck", "Rivalry"],
+        evolution: evolutionFamilies.pidove
     },
     {
         name: "Unfezant",
@@ -9378,7 +11311,8 @@ let nationalDex = {
         metricWeight: 29.0,
         dexEntry: "Males swing their head plumage to threaten opponents. The females' flying abilities surpass those of the males.",
         cryUrl: "cries/521.mp3",
-        ability: ["Big Pecks", "Super Luck", "Rivalry"]
+        ability: ["Big Pecks", "Super Luck", "Rivalry"],
+        evolution: evolutionFamilies.pidove
     },
     {
         name: "Blitzle",
@@ -9396,7 +11330,8 @@ let nationalDex = {
         metricWeight: 29.8,
         dexEntry: "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
         cryUrl: "cries/522.mp3",
-        ability: ["Lightning Rod", "Motor Drive", "Sap Sipper"]
+        ability: ["Lightning Rod", "Motor Drive", "Sap Sipper"],
+        evolution: evolutionFamilies.blitzle
     },
     {
         name: "Zebstrika",
@@ -9414,7 +11349,8 @@ let nationalDex = {
         metricWeight: 79.5,
         dexEntry: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
         cryUrl: "cries/523.mp3",
-        ability: ["Lightning Rod", "Motor Drive", "Sap Sipper"]
+        ability: ["Lightning Rod", "Motor Drive", "Sap Sipper"],
+        evolution: evolutionFamilies.blitzle
     },
     {
         name: "Roggenrola",
@@ -9432,7 +11368,8 @@ let nationalDex = {
         metricWeight: 18.0,
         dexEntry: "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
         cryUrl: "cries/524.mp3",
-        ability: ["Sturdy", "Weak Armor", "Sand Force"]
+        ability: ["Sturdy", "Weak Armor", "Sand Force"],
+        evolution: evolutionFamilies.roggenrola
     },
     {
         name: "Boldore",
@@ -9450,7 +11387,8 @@ let nationalDex = {
         metricWeight: 102.0,
         dexEntry: "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
         cryUrl: "cries/525.mp3",
-        ability: ["Sturdy", "Weak Armor", "Sand Force"]
+        ability: ["Sturdy", "Weak Armor", "Sand Force"],
+        evolution: evolutionFamilies.roggenrola
     },
     {
         name: "Gigalith",
@@ -9468,7 +11406,8 @@ let nationalDex = {
         metricWeight: 260.0,
         dexEntry: "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
         cryUrl: "cries/526.mp3",
-        ability: ["Sturdy", "Sand Stream", "Sand Force"]
+        ability: ["Sturdy", "Sand Stream", "Sand Force"],
+        evolution: evolutionFamilies.roggenrola
     },
     {
         name: "Woobat",
@@ -9486,7 +11425,8 @@ let nationalDex = {
         metricWeight: 2.1,
         dexEntry: "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
         cryUrl: "cries/527.mp3",
-        ability: ["Unaware", "Klutz", "Simple"]
+        ability: ["Unaware", "Klutz", "Simple"],
+        evolution: evolutionFamilies.woobat
     },
     {
         name: "Swoobat",
@@ -9504,7 +11444,8 @@ let nationalDex = {
         metricWeight: 10.5,
         dexEntry: "It emits sound waves of various frequencies from its nose including some powerful enough to destroy rocks.",
         cryUrl: "cries/528.mp3",
-        ability: ["Unaware", "Klutz", "Simple"]
+        ability: ["Unaware", "Klutz", "Simple"],
+        evolution: evolutionFamilies.woobat
     },
     {
         name: "Drilbur",
@@ -9522,7 +11463,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
         cryUrl: "cries/529.mp3",
-        ability: ["Sand Rush", "Sand Force", "Mold Breaker"]
+        ability: ["Sand Rush", "Sand Force", "Mold Breaker"],
+        evolution: evolutionFamilies.drilbur
     },
     {
         name: "Excadrill",
@@ -9540,7 +11482,8 @@ let nationalDex = {
         metricWeight: 40.4,
         dexEntry: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
         cryUrl: "cries/530.mp3",
-        ability: ["Sand Rush", "Sand Force", "Mold Breaker"]
+        ability: ["Sand Rush", "Sand Force", "Mold Breaker"],
+        evolution: evolutionFamilies.drilbur
     },
     {
         name: "Audino",
@@ -9558,7 +11501,8 @@ let nationalDex = {
         metricWeight: 31.0,
         dexEntry: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
         cryUrl: "cries/531.mp3",
-        ability: ["Healer", "Regenerator", "Klutz"]
+        ability: ["Healer", "Regenerator", "Klutz"],
+        evolution: evolutionFamilies.audino
     },
     {
         name: "Timburr",
@@ -9576,7 +11520,8 @@ let nationalDex = {
         metricWeight: 12.5,
         dexEntry: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
         cryUrl: "cries/532.mp3",
-        ability: ["Guts", "Sheer Force", "Iron Fist"]
+        ability: ["Guts", "Sheer Force", "Iron Fist"],
+        evolution: evolutionFamilies.timburr
     },
     {
         name: "Gurdurr",
@@ -9594,7 +11539,8 @@ let nationalDex = {
         metricWeight: 40.0,
         dexEntry: "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
         cryUrl: "cries/533.mp3",
-        ability: ["Guts", "Sheer Force", "Iron Fist"]
+        ability: ["Guts", "Sheer Force", "Iron Fist"],
+        evolution: evolutionFamilies.timburr
     },
     {
         name: "Conkeldurr",
@@ -9612,7 +11558,8 @@ let nationalDex = {
         metricWeight: 87.0,
         dexEntry: "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
         cryUrl: "cries/534.mp3",
-        ability: ["Guts", "Sheer Force", "Iron Fist"]
+        ability: ["Guts", "Sheer Force", "Iron Fist"],
+        evolution: evolutionFamilies.timburr
     },
     {
         name: "Tympole",
@@ -9630,7 +11577,8 @@ let nationalDex = {
         metricWeight: 4.5,
         dexEntry: "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
         cryUrl: "cries/535.mp3",
-        ability: ["Swift Swim", "Hydration", "Water Absorb"]
+        ability: ["Swift Swim", "Hydration", "Water Absorb"],
+        evolution: evolutionFamilies.tympole
     },
     {
         name: "Palpitoad",
@@ -9648,7 +11596,8 @@ let nationalDex = {
         metricWeight: 17.0,
         dexEntry: "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
         cryUrl: "cries/536.mp3",
-        ability: ["Swift Swim", "Hydration", "Water Absorb"]
+        ability: ["Swift Swim", "Hydration", "Water Absorb"],
+        evolution: evolutionFamilies.tympole
     },
     {
         name: "Seismitoad",
@@ -9666,7 +11615,8 @@ let nationalDex = {
         metricWeight: 62.0,
         dexEntry: "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
         cryUrl: "cries/537.mp3",
-        ability: ["Swift Swim", "Poison Touch", "Water Absorb"]
+        ability: ["Swift Swim", "Poison Touch", "Water Absorb"],
+        evolution: evolutionFamilies.tympole
     },
     {
         name: "Throh",
@@ -9684,7 +11634,8 @@ let nationalDex = {
         metricWeight: 55.5,
         dexEntry: "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
         cryUrl: "cries/538.mp3",
-        ability: ["Guts", "Inner Focus", "Mold Breaker"]
+        ability: ["Guts", "Inner Focus", "Mold Breaker"],
+        evolution: evolutionFamilies.throh
     },
     {
         name: "Sawk",
@@ -9702,7 +11653,8 @@ let nationalDex = {
         metricWeight: 51.0,
         dexEntry: "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
         cryUrl: "cries/539.mp3",
-        ability: ["Sturdy", "Inner Focus", "Mold Breaker"]
+        ability: ["Sturdy", "Inner Focus", "Mold Breaker"],
+        evolution: evolutionFamilies.sawk
     },
     {
         name: "Sewaddle",
@@ -9720,7 +11672,8 @@ let nationalDex = {
         metricWeight: 2.5,
         dexEntry: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
         cryUrl: "cries/540.mp3",
-        ability: ["Swarm", "Chlorophyll", "Overcoat"]
+        ability: ["Swarm", "Chlorophyll", "Overcoat"],
+        evolution: evolutionFamilies.sewaddle
     },
     {
         name: "Swadloon",
@@ -9738,7 +11691,8 @@ let nationalDex = {
         metricWeight: 7.3,
         dexEntry: "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
         cryUrl: "cries/541.mp3",
-        ability: ["Leaf Guard", "Chlorophyll", "Overcoat"]
+        ability: ["Leaf Guard", "Chlorophyll", "Overcoat"],
+        evolution: evolutionFamilies.sewaddle
     },
     {
         name: "Leavanny",
@@ -9756,7 +11710,8 @@ let nationalDex = {
         metricWeight: 20.5,
         dexEntry: "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
         cryUrl: "cries/542.mp3",
-        ability: ["Swarm", "Chlorophyll", "Overcoat"]
+        ability: ["Swarm", "Chlorophyll", "Overcoat"],
+        evolution: evolutionFamilies.sewaddle
     },
     {
         name: "Venipede",
@@ -9774,7 +11729,8 @@ let nationalDex = {
         metricWeight: 5.3,
         dexEntry: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
         cryUrl: "cries/543.mp3",
-        ability: ["Poison Point", "Swarm", "Speed Boost"]
+        ability: ["Poison Point", "Swarm", "Speed Boost"],
+        evolution: evolutionFamilies.venipede
     },
     {
         name: "Whirlipede",
@@ -9792,7 +11748,8 @@ let nationalDex = {
         metricWeight: 58.5,
         dexEntry: "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
         cryUrl: "cries/544.mp3",
-        ability: ["Poison Point", "Swarm", "Speed Boost"]
+        ability: ["Poison Point", "Swarm", "Speed Boost"],
+        evolution: evolutionFamilies.venipede
     },
     {
         name: "Scolipede",
@@ -9810,7 +11767,8 @@ let nationalDex = {
         metricWeight: 200.5,
         dexEntry: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
         cryUrl: "cries/545.mp3",
-        ability: ["Poison Point", "Swarm", "Speed Boost"]
+        ability: ["Poison Point", "Swarm", "Speed Boost"],
+        evolution: evolutionFamilies.venipede
     },
     {
         name: "Cottonee",
@@ -9828,7 +11786,8 @@ let nationalDex = {
         metricWeight: 0.6,
         dexEntry: "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
         cryUrl: "cries/546.mp3",
-        ability: ["Prankster", "Infiltrator", "Chlorophyll"]
+        ability: ["Prankster", "Infiltrator", "Chlorophyll"],
+        evolution: evolutionFamilies.cottonee
     },
     {
         name: "Whimsicott",
@@ -9846,7 +11805,8 @@ let nationalDex = {
         metricWeight: 6.6,
         dexEntry: "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
         cryUrl: "cries/547.mp3",
-        ability: ["Prankster", "Infiltrator", "Chlorophyll"]
+        ability: ["Prankster", "Infiltrator", "Chlorophyll"],
+        evolution: evolutionFamilies.cottonee
     },
     {
         name: "Petilil",
@@ -9864,7 +11824,8 @@ let nationalDex = {
         metricWeight: 6.6,
         dexEntry: "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
         cryUrl: "cries/548.mp3",
-        ability: ["Chlorophyll", "Own Tempo", "Leaf Guard"]
+        ability: ["Chlorophyll", "Own Tempo", "Leaf Guard"],
+        evolution: evolutionFamilies.petilil
     },
     {
         name: "Lilligant",
@@ -9882,7 +11843,8 @@ let nationalDex = {
         metricWeight: 16.3,
         dexEntry: "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
         cryUrl: "cries/549.mp3",
-        ability: ["Chlorophyll", "Own Tempo", "Leaf Guard"]
+        ability: ["Chlorophyll", "Own Tempo", "Leaf Guard"],
+        evolution: evolutionFamilies.petilil
     },
     {
         name: "Basculin",
@@ -9900,7 +11862,8 @@ let nationalDex = {
         metricWeight: 18.0,
         dexEntry: "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
         cryUrl: "cries/550.mp3",
-        ability: ["Reckless", "Adaptability", "Mold Breaker"]
+        ability: ["Reckless", "Adaptability", "Mold Breaker"],
+        evolution: evolutionFamilies.basculin
     },
     {
         name: "Sandile",
@@ -9918,7 +11881,8 @@ let nationalDex = {
         metricWeight: 15.2,
         dexEntry: "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
         cryUrl: "cries/551.mp3",
-        ability: ["Intimidate", "Moxie", "Anger Point"]
+        ability: ["Intimidate", "Moxie", "Anger Point"],
+        evolution: evolutionFamilies.sandile
     },
     {
         name: "Krokorok",
@@ -9936,7 +11900,8 @@ let nationalDex = {
         metricWeight: 33.4,
         dexEntry: "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
         cryUrl: "cries/552.mp3",
-        ability: ["Intimidate", "Moxie", "Anger Point"]
+        ability: ["Intimidate", "Moxie", "Anger Point"],
+        evolution: evolutionFamilies.sandile
     },
     {
         name: "Krookodile",
@@ -9954,7 +11919,8 @@ let nationalDex = {
         metricWeight: 96.3,
         dexEntry: "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
         cryUrl: "cries/553.mp3",
-        ability: ["Intimidate", "Moxie", "Anger Point"]
+        ability: ["Intimidate", "Moxie", "Anger Point"],
+        evolution: evolutionFamilies.sandile
     },
     {
         name: "Darumaka",
@@ -9972,7 +11938,8 @@ let nationalDex = {
         metricWeight: 37.5,
         dexEntry: "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
         cryUrl: "cries/554.mp3",
-        ability: ["Hustle", "Inner Focus"]
+        ability: ["Hustle", "Inner Focus"],
+        evolution: evolutionFamilies.darumaka
     },
     {
         name: "Darmanitan",
@@ -9990,7 +11957,8 @@ let nationalDex = {
         metricWeight: 92.9,
         dexEntry: "Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.",
         cryUrl: "cries/555.mp3",
-        ability: ["Sheer Force", "Zen Mode"]
+        ability: ["Sheer Force", "Zen Mode"],
+        evolution: evolutionFamilies.darumaka
     },
     {
         name: "Maractus",
@@ -10008,7 +11976,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
         cryUrl: "cries/556.mp3",
-        ability: ["Water Absorb", "Chlorophyll", "Storm Drain"]
+        ability: ["Water Absorb", "Chlorophyll", "Storm Drain"],
+        evolution: evolutionFamilies.maractus
     },
     {
         name: "Dwebble",
@@ -10026,7 +11995,8 @@ let nationalDex = {
         metricWeight: 14.5,
         dexEntry: "This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
         cryUrl: "cries/557.mp3",
-        ability: ["Sturdy", "Shell Armor", "Weak Armor"]
+        ability: ["Sturdy", "Shell Armor", "Weak Armor"],
+        evolution: evolutionFamilies.dwebble
     },
     {
         name: "Crustle",
@@ -10044,7 +12014,8 @@ let nationalDex = {
         metricWeight: 200.0,
         dexEntry: "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
         cryUrl: "cries/558.mp3",
-        ability: ["Sturdy", "Shell Armor", "Weak Armor"]
+        ability: ["Sturdy", "Shell Armor", "Weak Armor"],
+        evolution: evolutionFamilies.dwebble
     },
     {
         name: "Scraggy",
@@ -10062,7 +12033,8 @@ let nationalDex = {
         metricWeight: 11.8,
         dexEntry: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
         cryUrl: "cries/559.mp3",
-        ability: ["Shed Skin", "Moxie", "Intimidate"]
+        ability: ["Shed Skin", "Moxie", "Intimidate"],
+        evolution: evolutionFamilies.scraggy
     },
     {
         name: "Scrafty",
@@ -10080,7 +12052,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "Groups of them beat up anything that enter their territory. Each can spit acidic liquid from its mouth.",
         cryUrl: "cries/560.mp3",
-        ability: ["Shed Skin", "Moxie", "Intimidate"]
+        ability: ["Shed Skin", "Moxie", "Intimidate"],
+        evolution: evolutionFamilies.scraggy
     },
     {
         name: "Sigilyph",
@@ -10098,7 +12071,8 @@ let nationalDex = {
         metricWeight: 14.0,
         dexEntry: "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
         cryUrl: "cries/561.mp3",
-        ability: ["Wonder Skin", "Magic Guard", "Tinted Lens"]
+        ability: ["Wonder Skin", "Magic Guard", "Tinted Lens"],
+        evolution: evolutionFamilies.sigilyph
     },
     {
         name: "Yamask",
@@ -10116,7 +12090,8 @@ let nationalDex = {
         metricWeight: 1.5,
         dexEntry: "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
         cryUrl: "cries/562.mp3",
-        ability: ["Mummy"]
+        ability: ["Mummy"],
+        evolution: evolutionFamilies.yamask
     },
     {
         name: "Cofagrigus",
@@ -10134,7 +12109,8 @@ let nationalDex = {
         metricWeight: 76.5,
         dexEntry: "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
         cryUrl: "cries/563.mp3",
-        ability: ["Mummy"]
+        ability: ["Mummy"],
+        evolution: evolutionFamilies.yamask
     },
     {
         name: "Tirtouga",
@@ -10152,7 +12128,8 @@ let nationalDex = {
         metricWeight: 16.5,
         dexEntry: "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
         cryUrl: "cries/564.mp3",
-        ability: ["Solid Rock", "Sturdy", "Swift Swim"]
+        ability: ["Solid Rock", "Sturdy", "Swift Swim"],
+        evolution: evolutionFamilies.tirtouga
     },
     {
         name: "Carracosta",
@@ -10170,7 +12147,8 @@ let nationalDex = {
         metricWeight: 81.0,
         dexEntry: "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
         cryUrl: "cries/565.mp3",
-        ability: ["Solid Rock", "Sturdy", "Swift Swim"]
+        ability: ["Solid Rock", "Sturdy", "Swift Swim"],
+        evolution: evolutionFamilies.tirtouga
     },
     {
         name: "Archen",
@@ -10188,7 +12166,8 @@ let nationalDex = {
         metricWeight: 9.5,
         dexEntry: "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
         cryUrl: "cries/566.mp3",
-        ability: ["Defeatist"]
+        ability: ["Defeatist"],
+        evolution: evolutionFamilies.archen
     },
     {
         name: "Archeops",
@@ -10206,7 +12185,8 @@ let nationalDex = {
         metricWeight: 32.0,
         dexEntry: "They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight.",
         cryUrl: "cries/567.mp3",
-        ability: ["Defeatist"]
+        ability: ["Defeatist"],
+        evolution: evolutionFamilies.archen
     },
     {
         name: "Trubbish",
@@ -10224,7 +12204,8 @@ let nationalDex = {
         metricWeight: 31.0,
         dexEntry: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
         cryUrl: "cries/568.mp3",
-        ability: ["Stench", "Sticky Hold", "Aftermath"]
+        ability: ["Stench", "Sticky Hold", "Aftermath"],
+        evolution: evolutionFamilies.trubbish
     },
     {
         name: "Garbodor",
@@ -10242,7 +12223,8 @@ let nationalDex = {
         metricWeight: 107.3,
         dexEntry: "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
         cryUrl: "cries/569.mp3",
-        ability: ["Stench", "Weak Armor", "Aftermath"]
+        ability: ["Stench", "Weak Armor", "Aftermath"],
+        evolution: evolutionFamilies.trubbish
     },
     {
         name: "Zorua",
@@ -10260,7 +12242,8 @@ let nationalDex = {
         metricWeight: 12.5,
         dexEntry: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
         cryUrl: "cries/570.mp3",
-        ability: ["Illusion"]
+        ability: ["Illusion"],
+        evolution: evolutionFamilies.zorua
     },
     {
         name: "Zoroark",
@@ -10278,7 +12261,8 @@ let nationalDex = {
         metricWeight: 81.1,
         dexEntry: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
         cryUrl: "cries/571.mp3",
-        ability: ["Illusion"]
+        ability: ["Illusion"],
+        evolution: evolutionFamilies.zorua
     },
     {
         name: "Minccino",
@@ -10296,7 +12280,8 @@ let nationalDex = {
         metricWeight: 5.8,
         dexEntry: "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
         cryUrl: "cries/572.mp3",
-        ability: ["Cute Charm", "Technician", "Skill Link"]
+        ability: ["Cute Charm", "Technician", "Skill Link"],
+        evolution: evolutionFamilies.minccino
     },
     {
         name: "Cinccino",
@@ -10314,7 +12299,8 @@ let nationalDex = {
         metricWeight: 7.5,
         dexEntry: "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
         cryUrl: "cries/573.mp3",
-        ability: ["Cute Charm", "Technician", "Skill Link"]
+        ability: ["Cute Charm", "Technician", "Skill Link"],
+        evolution: evolutionFamilies.minccino
     },
     {
         name: "Gothita",
@@ -10332,7 +12318,8 @@ let nationalDex = {
         metricWeight: 5.8,
         dexEntry: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
         cryUrl: "cries/574.mp3",
-        ability: ["Frisk", "Competetive", "Shadow Tag"]
+        ability: ["Frisk", "Competetive", "Shadow Tag"],
+        evolution: evolutionFamilies.gothita
     },
     {
         name: "Gothorita",
@@ -10350,7 +12337,8 @@ let nationalDex = {
         metricWeight: 18.0,
         dexEntry: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
         cryUrl: "cries/575.mp3",
-        ability: ["Frisk", "Competetive", "Shadow Tag"]
+        ability: ["Frisk", "Competetive", "Shadow Tag"],
+        evolution: evolutionFamilies.gothita
     },
     {
         name: "Gothitelle",
@@ -10368,7 +12356,8 @@ let nationalDex = {
         metricWeight: 44.0,
         dexEntry: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
         cryUrl: "cries/576.mp3",
-        ability: ["Frisk", "Competetive", "Shadow Tag"]
+        ability: ["Frisk", "Competetive", "Shadow Tag"],
+        evolution: evolutionFamilies.gothita
     },
     {
         name: "Solosis",
@@ -10386,7 +12375,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
         cryUrl: "cries/577.mp3",
-        ability: ["Overcoat", "Magic Guard", "Regenerator"]
+        ability: ["Overcoat", "Magic Guard", "Regenerator"],
+        evolution: evolutionFamilies.solosis
     },
     {
         name: "Duosion",
@@ -10404,7 +12394,8 @@ let nationalDex = {
         metricWeight: 8.0,
         dexEntry: "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
         cryUrl: "cries/578.mp3",
-        ability: ["Overcoat", "Magic Guard", "Regenerator"]
+        ability: ["Overcoat", "Magic Guard", "Regenerator"],
+        evolution: evolutionFamilies.solosis
     },
     {
         name: "Reuniclus",
@@ -10422,7 +12413,8 @@ let nationalDex = {
         metricWeight: 20.1,
         dexEntry: "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
         cryUrl: "cries/579.mp3",
-        ability: ["Overcoat", "Magic Guard", "Regenerator"]
+        ability: ["Overcoat", "Magic Guard", "Regenerator"],
+        evolution: evolutionFamilies.solosis
     },
     {
         name: "Ducklett",
@@ -10440,7 +12432,8 @@ let nationalDex = {
         metricWeight: 5.5,
         dexEntry: "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food--peat moss.",
         cryUrl: "cries/580.mp3",
-        ability: ["Keen Eye", "Big Pecks", "Hydration"]
+        ability: ["Keen Eye", "Big Pecks", "Hydration"],
+        evolution: evolutionFamilies.ducklett
     },
     {
         name: "Swanna",
@@ -10458,7 +12451,8 @@ let nationalDex = {
         metricWeight: 24.2,
         dexEntry: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
         cryUrl: "cries/581.mp3",
-        ability: ["Keen Eye", "Big Pecks", "Hydration"]
+        ability: ["Keen Eye", "Big Pecks", "Hydration"],
+        evolution: evolutionFamilies.ducklett
     },
     {
         name: "Vanillite",
@@ -10476,7 +12470,8 @@ let nationalDex = {
         metricWeight: 5.7,
         dexEntry: "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
         cryUrl: "cries/582.mp3",
-        ability: ["Ice Body", "Snow Cloak", "Weak Armor"]
+        ability: ["Ice Body", "Snow Cloak", "Weak Armor"],
+        evolution: evolutionFamilies.vanillite
     },
     {
         name: "Vanillish",
@@ -10494,7 +12489,8 @@ let nationalDex = {
         metricWeight: 41.0,
         dexEntry: "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
         cryUrl: "cries/583.mp3",
-        ability: ["Ice Body", "Snow Cloak", "Weak Armor"]
+        ability: ["Ice Body", "Snow Cloak", "Weak Armor"],
+        evolution: evolutionFamilies.vanillite
     },
     {
         name: "Vanilluxe",
@@ -10512,7 +12508,8 @@ let nationalDex = {
         metricWeight: 57.5,
         dexEntry: "Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards.",
         cryUrl: "cries/584.mp3",
-        ability: ["Ice Body", "Snow Warning", "Weak Armor"]
+        ability: ["Ice Body", "Snow Warning", "Weak Armor"],
+        evolution: evolutionFamilies.vanillite
     },
     {
         name: "Deerling",
@@ -10530,7 +12527,8 @@ let nationalDex = {
         metricWeight: 19.5,
         dexEntry: "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
         cryUrl: "cries/585.mp3",
-        ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
+        ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
+        evolution: evolutionFamilies.deerling
     },
     {
         name: "Sawsbuck",
@@ -10548,7 +12546,8 @@ let nationalDex = {
         metricWeight: 92.5,
         dexEntry: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
         cryUrl: "cries/586.mp3",
-        ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
+        ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
+        evolution: evolutionFamilies.deerling
     },
     {
         name: "Emolga",
@@ -10566,7 +12565,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "The energy made in its cheeks' electric pouches is stored inside its membranes and released while it is gliding.",
         cryUrl: "cries/587.mp3",
-        ability: ["Static", "Motor Drive"]
+        ability: ["Static", "Motor Drive"],
+        evolution: evolutionFamilies.emolga
     },
     {
         name: "Karrablast",
@@ -10584,7 +12584,8 @@ let nationalDex = {
         metricWeight: 5.9,
         dexEntry: "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
         cryUrl: "cries/588.mp3",
-        ability: ["Swarm", "Shed Skin", "No Guard"]
+        ability: ["Swarm", "Shed Skin", "No Guard"],
+        evolution: evolutionFamilies.karrablast
     },
     {
         name: "Escavalier",
@@ -10602,7 +12603,8 @@ let nationalDex = {
         metricWeight: 33.0,
         dexEntry: "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
         cryUrl: "cries/589.mp3",
-        ability: ["Swarm", "Shell Armor", "Overcoat"]
+        ability: ["Swarm", "Shell Armor", "Overcoat"],
+        evolution: evolutionFamilies.karrablast
     },
     {
         name: "Foongus",
@@ -10620,7 +12622,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown.",
         cryUrl: "cries/590.mp3",
-        ability: ["Effect Spore", "Regenerator"]
+        ability: ["Effect Spore", "Regenerator"],
+        evolution: evolutionFamilies.foongus
     },
     {
         name: "Amoonguss",
@@ -10638,7 +12641,8 @@ let nationalDex = {
         metricWeight: 10.5,
         dexEntry: "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
         cryUrl: "cries/591.mp3",
-        ability: ["Effect Spore", "Regenerator"]
+        ability: ["Effect Spore", "Regenerator"],
+        evolution: evolutionFamilies.foongus
     },
     {
         name: "Frillish",
@@ -10656,7 +12660,8 @@ let nationalDex = {
         metricWeight: 33.0,
         dexEntry: "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
         cryUrl: "cries/592.mp3",
-        ability: ["Water Absorb", "Cursed Body", "Damp"]
+        ability: ["Water Absorb", "Cursed Body", "Damp"],
+        evolution: evolutionFamilies.frillish
     },
     {
         name: "Jellicent",
@@ -10674,7 +12679,8 @@ let nationalDex = {
         metricWeight: 135.0,
         dexEntry: "The fate of the ships and crew that wander into Jellicent's habitat: all sunken, all lost, all vanished.",
         cryUrl: "cries/593.mp3",
-        ability: ["Water Absorb", "Cursed Body", "Damp"]
+        ability: ["Water Absorb", "Cursed Body", "Damp"],
+        evolution: evolutionFamilies.frillish
     },
     {
         name: "Alomomola",
@@ -10692,7 +12698,8 @@ let nationalDex = {
         metricWeight: 31.6,
         dexEntry: "The special membrane enveloping Alomomola has the ability to heal wounds.",
         cryUrl: "cries/594.mp3",
-        ability: ["Healer", "Hydration", "Regenerator"]
+        ability: ["Healer", "Hydration", "Regenerator"],
+        evolution: evolutionFamilies.alomomola
     },
     {
         name: "Joltik",
@@ -10710,7 +12717,8 @@ let nationalDex = {
         metricWeight: 0.6,
         dexEntry: "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.",
         cryUrl: "cries/595.mp3",
-        ability: ["Compound Eyes", "Unnerve", "Swarm"]
+        ability: ["Compound Eyes", "Unnerve", "Swarm"],
+        evolution: evolutionFamilies.joltik
     },
     {
         name: "Galvantula",
@@ -10728,7 +12736,8 @@ let nationalDex = {
         metricWeight: 14.3,
         dexEntry: "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
         cryUrl: "cries/596.mp3",
-        ability: ["Compound Eyes", "Unnerve", "Swarm"]
+        ability: ["Compound Eyes", "Unnerve", "Swarm"],
+        evolution: evolutionFamilies.joltik
     },
     {
         name: "Ferroseed",
@@ -10746,7 +12755,8 @@ let nationalDex = {
         metricWeight: 18.8,
         dexEntry: "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
         cryUrl: "cries/597.mp3",
-        ability: ["Iron Barbs"]
+        ability: ["Iron Barbs"],
+        evolution: evolutionFamilies.ferroseed
     },
     {
         name: "Ferrothorn",
@@ -10764,7 +12774,8 @@ let nationalDex = {
         metricWeight: 110.0,
         dexEntry: "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
         cryUrl: "cries/598.mp3",
-        ability: ["Iron Barbs", "Anticipation"]
+        ability: ["Iron Barbs", "Anticipation"],
+        evolution: evolutionFamilies.ferroseed
     },
     {
         name: "Klink",
@@ -10782,7 +12793,8 @@ let nationalDex = {
         metricWeight: 21.0,
         dexEntry: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
         cryUrl: "cries/599.mp3",
-        ability: ["Plus", "Minus", "Clear Body"]
+        ability: ["Plus", "Minus", "Clear Body"],
+        evolution: evolutionFamilies.klink
     },
     {
         name: "Klang",
@@ -10800,7 +12812,8 @@ let nationalDex = {
         metricWeight: 51.0,
         dexEntry: "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
         cryUrl: "cries/600.mp3",
-        ability: ["Plus", "Minus", "Clear Body"]
+        ability: ["Plus", "Minus", "Clear Body"],
+        evolution: evolutionFamilies.klink
     },
     {
         name: "Klinklang",
@@ -10818,7 +12831,8 @@ let nationalDex = {
         metricWeight: 81.0,
         dexEntry: "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
         cryUrl: "cries/601.mp3",
-        ability: ["Plus", "Minus", "Clear Body"]
+        ability: ["Plus", "Minus", "Clear Body"],
+        evolution: evolutionFamilies.klink
     },
     {
         name: "Tynamo",
@@ -10836,7 +12850,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
         cryUrl: "cries/602.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.tynamo
     },
     {
         name: "Eelektrik",
@@ -10854,7 +12869,8 @@ let nationalDex = {
         metricWeight: 22.0,
         dexEntry: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
         cryUrl: "cries/603.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.tynamo
     },
     {
         name: "Eelektross",
@@ -10872,7 +12888,8 @@ let nationalDex = {
         metricWeight: 80.5,
         dexEntry: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
         cryUrl: "cries/604.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.tynamo
     },
     {
         name: "Elgyem",
@@ -10890,7 +12907,8 @@ let nationalDex = {
         metricWeight: 9.0,
         dexEntry: "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
         cryUrl: "cries/605.mp3",
-        ability: ["Telepathy", "Synchronize", "Analytic"]
+        ability: ["Telepathy", "Synchronize", "Analytic"],
+        evolution: evolutionFamilies.elgyem
     },
     {
         name: "Beheeyem",
@@ -10908,7 +12926,8 @@ let nationalDex = {
         metricWeight: 34.5,
         dexEntry: "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
         cryUrl: "cries/606.mp3",
-        ability: ["Telepathy", "Synchronize", "Analytic"]
+        ability: ["Telepathy", "Synchronize", "Analytic"],
+        evolution: evolutionFamilies.elgyem
     },
     {
         name: "Litwick",
@@ -10926,7 +12945,8 @@ let nationalDex = {
         metricWeight: 3.1,
         dexEntry: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
         cryUrl: "cries/607.mp3",
-        ability: ["Flash Fire", "Flame Body", "Infiltrator"]
+        ability: ["Flash Fire", "Flame Body", "Infiltrator"],
+        evolution: evolutionFamilies.litwick
     },
     {
         name: "Lampent",
@@ -10944,7 +12964,8 @@ let nationalDex = {
         metricWeight: 13.0,
         dexEntry: "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
         cryUrl: "cries/608.mp3",
-        ability: ["Flash Fire", "Flame Body", "Infiltrator"]
+        ability: ["Flash Fire", "Flame Body", "Infiltrator"],
+        evolution: evolutionFamilies.litwick
     },
     {
         name: "Chandelure",
@@ -10962,7 +12983,8 @@ let nationalDex = {
         metricWeight: 34.3,
         dexEntry: "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
         cryUrl: "cries/609.mp3",
-        ability: ["Flash Fire", "Flame Body", "Infiltrator"]
+        ability: ["Flash Fire", "Flame Body", "Infiltrator"],
+        evolution: evolutionFamilies.litwick
     },
     {
         name: "Axew",
@@ -10980,7 +13002,8 @@ let nationalDex = {
         metricWeight: 18.0,
         dexEntry: "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
         cryUrl: "cries/610.mp3",
-        ability: ["Rivalry", "Mold Breaker", "Unnerve"]
+        ability: ["Rivalry", "Mold Breaker", "Unnerve"],
+        evolution: evolutionFamilies.axew
     },
     {
         name: "Fraxure",
@@ -10998,7 +13021,8 @@ let nationalDex = {
         metricWeight: 36.0,
         dexEntry: "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
         cryUrl: "cries/611.mp3",
-        ability: ["Rivalry", "Mold Breaker", "Unnerve"]
+        ability: ["Rivalry", "Mold Breaker", "Unnerve"],
+        evolution: evolutionFamilies.axew
     },
     {
         name: "Haxorus",
@@ -11016,7 +13040,8 @@ let nationalDex = {
         metricWeight: 105.5,
         dexEntry: "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
         cryUrl: "cries/612.mp3",
-        ability: ["Rivalry", "Mold Breaker", "Unnerve"]
+        ability: ["Rivalry", "Mold Breaker", "Unnerve"],
+        evolution: evolutionFamilies.axew
     },
     {
         name: "Cubchoo",
@@ -11034,7 +13059,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
         cryUrl: "cries/613.mp3",
-        ability: ["Snow Cloak", "Slush Rush", "Rattled"]
+        ability: ["Snow Cloak", "Slush Rush", "Rattled"],
+        evolution: evolutionFamilies.cubchoo
     },
     {
         name: "Beartic",
@@ -11052,7 +13078,8 @@ let nationalDex = {
         metricWeight: 260.0,
         dexEntry: "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
         cryUrl: "cries/614.mp3",
-        ability: ["Snow Cloak", "Slush Rush", "Swift Swim"]
+        ability: ["Snow Cloak", "Slush Rush", "Swift Swim"],
+        evolution: evolutionFamilies.cubchoo
     },
     {
         name: "Cryogonal",
@@ -11070,7 +13097,8 @@ let nationalDex = {
         metricWeight: 148.0,
         dexEntry: "When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice.",
         cryUrl: "cries/615.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.cryogonal
     },
     {
         name: "Shelmet",
@@ -11088,7 +13116,8 @@ let nationalDex = {
         metricWeight: 7.7,
         dexEntry: "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
         cryUrl: "cries/616.mp3",
-        ability: ["Hydration", "Shell Armor", "Overcoat"]
+        ability: ["Hydration", "Shell Armor", "Overcoat"],
+        evolution: evolutionFamilies.shelmet
     },
     {
         name: "Accelgor",
@@ -11106,7 +13135,8 @@ let nationalDex = {
         metricWeight: 25.3,
         dexEntry: "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
         cryUrl: "cries/617.mp3",
-        ability: ["Hydration", "Sticky Hold", "Unburden"]
+        ability: ["Hydration", "Sticky Hold", "Unburden"],
+        evolution: evolutionFamilies.shelmet
     },
     {
         name: "Stunfisk",
@@ -11124,7 +13154,8 @@ let nationalDex = {
         metricWeight: 11.0,
         dexEntry: "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
         cryUrl: "cries/618.mp3",
-        ability: ["Static", "Limber", "Sand Veil"]
+        ability: ["Static", "Limber", "Sand Veil"],
+        evolution: evolutionFamilies.stunfisk
     },
     {
         name: "Mienfoo",
@@ -11142,7 +13173,8 @@ let nationalDex = {
         metricWeight: 20.0,
         dexEntry: "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
         cryUrl: "cries/619.mp3",
-        ability: ["Inner Focus", "Regenerator", "Reckless"]
+        ability: ["Inner Focus", "Regenerator", "Reckless"],
+        evolution: evolutionFamilies.mienfoo
     },
     {
         name: "Mienshao",
@@ -11160,7 +13192,8 @@ let nationalDex = {
         metricWeight: 35.5,
         dexEntry: "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
         cryUrl: "cries/620.mp3",
-        ability: ["Inner Focus", "Regenerator", "Reckless"]
+        ability: ["Inner Focus", "Regenerator", "Reckless"],
+        evolution: evolutionFamilies.mienfoo
     },
     {
         name: "Druddigon",
@@ -11178,7 +13211,8 @@ let nationalDex = {
         metricWeight: 139.0,
         dexEntry: "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
         cryUrl: "cries/621.mp3",
-        ability: ["Rough Skin", "Sheer Force", "Mold Breaker"]
+        ability: ["Rough Skin", "Sheer Force", "Mold Breaker"],
+        evolution: evolutionFamilies.druddigon
     },
     {
         name: "Golett",
@@ -11196,7 +13230,8 @@ let nationalDex = {
         metricWeight: 92.0,
         dexEntry: "The energy that burns inside it enables it to move, but no one has yet been able to identify this energy.",
         cryUrl: "cries/622.mp3",
-        ability: ["Iron Fist", "Klutz", "No Guard"]
+        ability: ["Iron Fist", "Klutz", "No Guard"],
+        evolution: evolutionFamilies.golett
     },
     {
         name: "Golurk",
@@ -11214,7 +13249,8 @@ let nationalDex = {
         metricWeight: 330.0,
         dexEntry: "It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
         cryUrl: "cries/623.mp3",
-        ability: ["Iron Fist", "Klutz", "No Guard"]
+        ability: ["Iron Fist", "Klutz", "No Guard"],
+        evolution: evolutionFamilies.golett
     },
     {
         name: "Pawniard",
@@ -11232,7 +13268,8 @@ let nationalDex = {
         metricWeight: 10.2,
         dexEntry: "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
         cryUrl: "cries/624.mp3",
-        ability: ["Defiant", "Inner Focus", "Pressure"]
+        ability: ["Defiant", "Inner Focus", "Pressure"],
+        evolution: evolutionFamilies.pawniard
     },
     {
         name: "Bisharp",
@@ -11250,7 +13287,8 @@ let nationalDex = {
         metricWeight: 70.0,
         dexEntry: "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
         cryUrl: "cries/625.mp3",
-        ability: ["Defiant", "Inner Focus", "Pressure"]
+        ability: ["Defiant", "Inner Focus", "Pressure"],
+        evolution: evolutionFamilies.pawniard
     },
     {
         name: "Bouffalant",
@@ -11268,7 +13306,8 @@ let nationalDex = {
         metricWeight: 94.5,
         dexEntry: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
         cryUrl: "cries/626.mp3",
-        ability: ["Reckless", "Sap Sipper", "Soundproof"]
+        ability: ["Reckless", "Sap Sipper", "Soundproof"],
+        evolution: evolutionFamilies.bouffalant
     },
     {
         name: "Rufflet",
@@ -11286,7 +13325,8 @@ let nationalDex = {
         metricWeight: 10.5,
         dexEntry: "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
         cryUrl: "cries/627.mp3",
-        ability: ["Keen Eye", "Sheer Force", "Hustle"]
+        ability: ["Keen Eye", "Sheer Force", "Hustle"],
+        evolution: evolutionFamilies.rufflet
     },
     {
         name: "Braviary",
@@ -11304,7 +13344,8 @@ let nationalDex = {
         metricWeight: 41.0,
         dexEntry: "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
         cryUrl: "cries/628.mp3",
-        ability: ["Keen Eye", "Sheer Force", "Defiant"]
+        ability: ["Keen Eye", "Sheer Force", "Defiant"],
+        evolution: evolutionFamilies.rufflet
     },
     {
         name: "Vullaby",
@@ -11322,7 +13363,8 @@ let nationalDex = {
         metricWeight: 9.0,
         dexEntry: "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing.",
         cryUrl: "cries/629.mp3",
-        ability: ["Big Pecks", "Overcoat", "Weak Armor"]
+        ability: ["Big Pecks", "Overcoat", "Weak Armor"],
+        evolution: evolutionFamilies.vullaby
     },
     {
         name: "Mandibuzz",
@@ -11340,7 +13382,8 @@ let nationalDex = {
         metricWeight: 39.5,
         dexEntry: "It makes a nest out of the bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
         cryUrl: "cries/630.mp3",
-        ability: ["Big Pecks", "Overcoat", "Weak Armor"]
+        ability: ["Big Pecks", "Overcoat", "Weak Armor"],
+        evolution: evolutionFamilies.vullaby
     },
     {
         name: "Heatmor",
@@ -11358,7 +13401,8 @@ let nationalDex = {
         metricWeight: 58.0,
         dexEntry: "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey.",
         cryUrl: "cries/631.mp3",
-        ability: ["Gluttony", "Flash Fire", "White Smoke"]
+        ability: ["Gluttony", "Flash Fire", "White Smoke"],
+        evolution: evolutionFamilies.heatmor
     },
     {
         name: "Durant",
@@ -11376,7 +13420,8 @@ let nationalDex = {
         metricWeight: 33.0,
         dexEntry: "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
         cryUrl: "cries/632.mp3",
-        ability: ["Swarm", "Hustle", "Truant"]
+        ability: ["Swarm", "Hustle", "Truant"],
+        evolution: evolutionFamilies.heatmor
     },
     {
         name: "Deino",
@@ -11394,7 +13439,8 @@ let nationalDex = {
         metricWeight: 17.3,
         dexEntry: "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
         cryUrl: "cries/633.mp3",
-        ability: ["Hustle"]
+        ability: ["Hustle"],
+        evolution: evolutionFamilies.deino
     },
     {
         name: "Zweilous",
@@ -11412,7 +13458,8 @@ let nationalDex = {
         metricWeight: 50.0,
         dexEntry: "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
         cryUrl: "cries/634.mp3",
-        ability: ["Hustle"]
+        ability: ["Hustle"],
+        evolution: evolutionFamilies.deino
     },
     {
         name: "Hydreigon",
@@ -11430,7 +13477,8 @@ let nationalDex = {
         metricWeight: 160.0,
         dexEntry: "This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
         cryUrl: "cries/635.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.deino
     },
     {
         name: "Larvesta",
@@ -11448,7 +13496,8 @@ let nationalDex = {
         metricWeight: 28.8,
         dexEntry: "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
         cryUrl: "cries/636.mp3",
-        ability: ["Flame Body", "Swarm"]
+        ability: ["Flame Body", "Swarm"],
+        evolution: evolutionFamilies.larvesta
     },
     {
         name: "Volcarona",
@@ -11466,7 +13515,8 @@ let nationalDex = {
         metricWeight: 46.0,
         dexEntry: "When volcanic ash darkened the atmosphere, it is said that Volcarona's fire provided a replacement for the sun.",
         cryUrl: "cries/637.mp3",
-        ability: ["Flame Body", "Swarm"]
+        ability: ["Flame Body", "Swarm"],
+        evolution: evolutionFamilies.larvesta
     },
     {
         name: "Cobalion",
@@ -11484,7 +13534,8 @@ let nationalDex = {
         metricWeight: 250.0,
         dexEntry: "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
         cryUrl: "cries/638.mp3",
-        ability: ["Justified"]
+        ability: ["Justified"],
+        evolution: evolutionFamilies.cobalion
     },
     {
         name: "Terrakion",
@@ -11502,7 +13553,8 @@ let nationalDex = {
         metricWeight: 260.0,
         dexEntry: "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
         cryUrl: "cries/639.mp3",
-        ability: ["Justified"]
+        ability: ["Justified"],
+        evolution: evolutionFamilies.terrakion
     },
     {
         name: "Virizion",
@@ -11520,7 +13572,8 @@ let nationalDex = {
         metricWeight: 200.0,
         dexEntry: "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
         cryUrl: "cries/640.mp3",
-        ability: ["Justified"]
+        ability: ["Justified"],
+        evolution: evolutionFamilies.virizion
     },
     {
         name: "Tornadus",
@@ -11538,7 +13591,8 @@ let nationalDex = {
         metricWeight: 63.0,
         dexEntry: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
         cryUrl: "cries/641.mp3",
-        ability: ["Prankster", "Defiant"]
+        ability: ["Prankster", "Defiant"],
+        evolution: evolutionFamilies.tornadus
     },
     {
         name: "Thundurus",
@@ -11556,7 +13610,8 @@ let nationalDex = {
         metricWeight: 61.0,
         dexEntry: "Countless charred remains mar the landscape of places through which Thundurus has passed.",
         cryUrl: "cries/642.mp3",
-        ability: ["Prankster", "Defiant"]
+        ability: ["Prankster", "Defiant"],
+        evolution: evolutionFamilies.thundurus
     },
     {
         name: "Reshiram",
@@ -11574,7 +13629,8 @@ let nationalDex = {
         metricWeight: 330.0,
         dexEntry: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
         cryUrl: "cries/643.mp3",
-        ability: ["Turboblaze"]
+        ability: ["Turboblaze"],
+        evolution: evolutionFamilies.reshiram
     },
     {
         name: "Zekrom",
@@ -11592,7 +13648,8 @@ let nationalDex = {
         metricWeight: 345.0,
         dexEntry: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
         cryUrl: "cries/644.mp3",
-        ability: ["Teravolt"]
+        ability: ["Teravolt"],
+        evolution: evolutionFamilies.zekrom
     },
     {
         name: "Landorus",
@@ -11610,7 +13667,8 @@ let nationalDex = {
         metricWeight: 68.0,
         dexEntry: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
         cryUrl: "cries/645.mp3",
-        ability: ["Sand Force", "Sheer Force"]
+        ability: ["Sand Force", "Sheer Force"],
+        evolution: evolutionFamilies.landorus
     },
     {
         name: "Kyurem",
@@ -11628,7 +13686,8 @@ let nationalDex = {
         metricWeight: 325.0,
         dexEntry: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
         cryUrl: "cries/646.mp3",
-        ability: ["Pressure"]
+        ability: ["Pressure"],
+        evolution: evolutionFamilies.kyurem
     },
     {
         name: "Keldeo",
@@ -11646,7 +13705,8 @@ let nationalDex = {
         metricWeight: 48.5,
         dexEntry: "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
         cryUrl: "cries/647.mp3",
-        ability: ["Justified"]
+        ability: ["Justified"],
+        evolution: evolutionFamilies.keldeo
     },
     {
         name: "Meloetta",
@@ -11664,7 +13724,8 @@ let nationalDex = {
         metricWeight: 6.5,
         dexEntry: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
         cryUrl: "cries/648.mp3",
-        ability: ["Serene Grace"]
+        ability: ["Serene Grace"],
+        evolution: evolutionFamilies.meloetta
     },
     {
         name: "Genesect",
@@ -11682,7 +13743,8 @@ let nationalDex = {
         metricWeight: 82.5,
         dexEntry: "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.",
         cryUrl: "cries/649.mp3",
-        ability: ["Download"]
+        ability: ["Download"],
+        evolution: evolutionFamilies.genesect
     },
     {
         name: "Chespin",
@@ -11700,7 +13762,8 @@ let nationalDex = {
         metricWeight: 9.0,
         dexEntry: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
         cryUrl: "cries/650.mp3",
-        ability: ["Overgrow", "Bulletproof"]
+        ability: ["Overgrow", "Bulletproof"],
+        evolution: evolutionFamilies.chespin
     },
     {
         name: "Quilladin",
@@ -11718,7 +13781,8 @@ let nationalDex = {
         metricWeight: 29.0,
         dexEntry: "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
         cryUrl: "cries/651.mp3",
-        ability: ["Overgrow", "Bulletproof"]
+        ability: ["Overgrow", "Bulletproof"],
+        evolution: evolutionFamilies.chespin
     },
     {
         name: "Chesnaught",
@@ -11736,7 +13800,8 @@ let nationalDex = {
         metricWeight: 90.0,
         dexEntry: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
         cryUrl: "cries/652.mp3",
-        ability: ["Overgrow", "Bulletproof"]
+        ability: ["Overgrow", "Bulletproof"],
+        evolution: evolutionFamilies.chespin
     },
     {
         name: "Fennekin",
@@ -11754,7 +13819,8 @@ let nationalDex = {
         metricWeight: 9.4,
         dexEntry: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
         cryUrl: "cries/653.mp3",
-        ability: ["Blaze", "Magician"]
+        ability: ["Blaze", "Magician"],
+        evolution: evolutionFamilies.fennekin
     },
     {
         name: "Braixen",
@@ -11772,7 +13838,8 @@ let nationalDex = {
         metricWeight: 14.5,
         dexEntry: "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
         cryUrl: "cries/654.mp3",
-        ability: ["Blaze", "Magician"]
+        ability: ["Blaze", "Magician"],
+        evolution: evolutionFamilies.fennekin
     },
     {
         name: "Delphox",
@@ -11790,7 +13857,8 @@ let nationalDex = {
         metricWeight: 39.0,
         dexEntry: "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
         cryUrl: "cries/655.mp3",
-        ability: ["Blaze", "Magician"]
+        ability: ["Blaze", "Magician"],
+        evolution: evolutionFamilies.fennekin
     },
     {
         name: "Froakie",
@@ -11808,7 +13876,8 @@ let nationalDex = {
         metricWeight: 7.0,
         dexEntry: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
         cryUrl: "cries/656.mp3",
-        ability: ["Torrent", "Protean"]
+        ability: ["Torrent", "Protean"],
+        evolution: evolutionFamilies.froakie
     },
     {
         name: "Frogadier",
@@ -11826,7 +13895,8 @@ let nationalDex = {
         metricWeight: 10.9,
         dexEntry: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
         cryUrl: "cries/657.mp3",
-        ability: ["Torrent", "Protean"]
+        ability: ["Torrent", "Protean"],
+        evolution: evolutionFamilies.froakie
     },
     {
         name: "Greninja",
@@ -11844,7 +13914,8 @@ let nationalDex = {
         metricWeight: 40.0,
         dexEntry: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
         cryUrl: "cries/658.mp3",
-        ability: ["Torrent", "Protean"]
+        ability: ["Torrent", "Protean"],
+        evolution: evolutionFamilies.froakie
     },
     {
         name: "Bunnelby",
@@ -11862,7 +13933,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "They use their large ears to dig burrows. They will dig the whole night through.",
         cryUrl: "cries/659.mp3",
-        ability: ["Pickup", "Cheek Pouch", "Huge Power"]
+        ability: ["Pickup", "Cheek Pouch", "Huge Power"],
+        evolution: evolutionFamilies.bunnelby
     },
     {
         name: "Diggersby",
@@ -11880,7 +13952,8 @@ let nationalDex = {
         metricWeight: 42.4,
         dexEntry: "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
         cryUrl: "cries/660.mp3",
-        ability: ["Pickup", "Cheek Pouch", "Huge Power"]
+        ability: ["Pickup", "Cheek Pouch", "Huge Power"],
+        evolution: evolutionFamilies.bunnelby
     },
     {
         name: "Fletchling",
@@ -11898,7 +13971,8 @@ let nationalDex = {
         metricWeight: 1.7,
         dexEntry: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
         cryUrl: "cries/661.mp3",
-        ability: ["Big Pecks", "Gale Wings"]
+        ability: ["Big Pecks", "Gale Wings"],
+        evolution: evolutionFamilies.fletchling
     },
     {
         name: "Fletchinder",
@@ -11916,7 +13990,8 @@ let nationalDex = {
         metricWeight: 16.0,
         dexEntry: "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
         cryUrl: "cries/662.mp3",
-        ability: ["Flame Body", "Gale Wings"]
+        ability: ["Flame Body", "Gale Wings"],
+        evolution: evolutionFamilies.fletchling
     },
     {
         name: "Talonflame",
@@ -11934,7 +14009,8 @@ let nationalDex = {
         metricWeight: 24.5,
         dexEntry: "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
         cryUrl: "cries/663.mp3",
-        ability: ["Flame Body", "Gale Wings"]
+        ability: ["Flame Body", "Gale Wings"],
+        evolution: evolutionFamilies.fletchling
     },
     {
         name: "Scatterbug",
@@ -11952,7 +14028,8 @@ let nationalDex = {
         metricWeight: 2.5,
         dexEntry: "When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.",
         cryUrl: "cries/664.mp3",
-        ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
+        ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
+        evolution: evolutionFamilies.scatterbug
     },
     {
         name: "Spewpa",
@@ -11970,7 +14047,8 @@ let nationalDex = {
         metricWeight: 8.4,
         dexEntry: "It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.",
         cryUrl: "cries/665.mp3",
-        ability: ["Shed Skin", "Friend Guard"]
+        ability: ["Shed Skin", "Friend Guard"],
+        evolution: evolutionFamilies.scatterbug
     },
     {
         name: "Vivillon",
@@ -11988,7 +14066,8 @@ let nationalDex = {
         metricWeight: 17.0,
         dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
         cryUrl: "cries/666.mp3",
-        ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
+        ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
+        evolution: evolutionFamilies.scatterbug
     },
     {
         name: "Litleo",
@@ -12006,7 +14085,8 @@ let nationalDex = {
         metricWeight: 13.5,
         dexEntry: "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
         cryUrl: "cries/667.mp3",
-        ability: ["Rivalry", "Unnerve", "Moxie"]
+        ability: ["Rivalry", "Unnerve", "Moxie"],
+        evolution: evolutionFamilies.litleo
     },
     {
         name: "Pyroar",
@@ -12024,7 +14104,8 @@ let nationalDex = {
         metricWeight: 81.5,
         dexEntry: "The male with the largest mane of fire is the leader of the pride.",
         cryUrl: "cries/668.mp3",
-        ability: ["Rivalry", "Unnerve", "Moxie"]
+        ability: ["Rivalry", "Unnerve", "Moxie"],
+        evolution: evolutionFamilies.litleo
     },
     {
         name: "Flabébé",
@@ -12042,7 +14123,8 @@ let nationalDex = {
         metricWeight: 0.1,
         dexEntry: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
         cryUrl: "cries/669.mp3",
-        ability: ["Flower Veil", "Symbiosis"]
+        ability: ["Flower Veil", "Symbiosis"],
+        evolution: evolutionFamilies.flabebe
     },
     {
         name: "Floette",
@@ -12060,7 +14142,8 @@ let nationalDex = {
         metricWeight: 0.9,
         dexEntry: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
         cryUrl: "cries/670.mp3",
-        ability: ["Flower Veil", "Symbiosis"]
+        ability: ["Flower Veil", "Symbiosis"],
+        evolution: evolutionFamilies.flabebe
     },
     {
         name: "Florges",
@@ -12078,7 +14161,8 @@ let nationalDex = {
         metricWeight: 10.0,
         dexEntry: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
         cryUrl: "cries/671.mp3",
-        ability: ["Flower Veil", "Symbiosis"]
+        ability: ["Flower Veil", "Symbiosis"],
+        evolution: evolutionFamilies.flabebe
     },
     {
         name: "Skiddo",
@@ -12096,7 +14180,8 @@ let nationalDex = {
         metricWeight: 31.0,
         dexEntry: "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
         cryUrl: "cries/672.mp3",
-        ability: ["Sap Sipper", "Grass Pelt"]
+        ability: ["Sap Sipper", "Grass Pelt"],
+        evolution: evolutionFamilies.skiddo
     },
     {
         name: "Gogoat",
@@ -12114,7 +14199,8 @@ let nationalDex = {
         metricWeight: 91.0,
         dexEntry: "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
         cryUrl: "cries/673.mp3",
-        ability: ["Sap Sipper", "Grass Pelt"]
+        ability: ["Sap Sipper", "Grass Pelt"],
+        evolution: evolutionFamilies.skiddo
     },
     {
         name: "Pancham",
@@ -12132,7 +14218,8 @@ let nationalDex = {
         metricWeight: 8.0,
         dexEntry: "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
         cryUrl: "cries/674.mp3",
-        ability: ["Iron Fist", "Mold Breaker", "Scrappy"]
+        ability: ["Iron Fist", "Mold Breaker", "Scrappy"],
+        evolution: evolutionFamilies.pancham
     },
     {
         name: "Pangoro",
@@ -12150,7 +14237,8 @@ let nationalDex = {
         metricWeight: 136.0,
         dexEntry: "Although it possesses a violent temperament, it won't put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
         cryUrl: "cries/675.mp3",
-        ability: ["Iron Fist", "Mold Breaker", "Scrappy"]
+        ability: ["Iron Fist", "Mold Breaker", "Scrappy"],
+        evolution: evolutionFamilies.pancham
     },
     {
         name: "Furfrou",
@@ -12168,7 +14256,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
         cryUrl: "cries/676.mp3",
-        ability: ["Fur Coat"]
+        ability: ["Fur Coat"],
+        evolution: evolutionFamilies.furfrou
     },
     {
         name: "Espurr",
@@ -12186,7 +14275,8 @@ let nationalDex = {
         metricWeight: 3.5,
         dexEntry: "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
         cryUrl: "cries/677.mp3",
-        ability: ["Keen Eye", "Infiltrator", "Own Tempo"]
+        ability: ["Keen Eye", "Infiltrator", "Own Tempo"],
+        evolution: evolutionFamilies.espurr
     },
     {
         name: "Meowstic",
@@ -12204,7 +14294,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
         cryUrl: "cries/678.mp3",
-        ability: ["Keen Eye", "Infiltrator", "Prankster"]
+        ability: ["Keen Eye", "Infiltrator", "Prankster"],
+        evolution: evolutionFamilies.espurr
     },
     {
         name: "Honedge",
@@ -12222,7 +14313,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
         cryUrl: "cries/679.mp3",
-        ability: ["No Guard"]
+        ability: ["No Guard"],
+        evolution: evolutionFamilies.honedge
     },
     {
         name: "Doublade",
@@ -12240,7 +14332,8 @@ let nationalDex = {
         metricWeight: 4.5,
         dexEntry: "When Honedge evolves, it divides into two swords, which cooperate via telepathy to coordinate attacks and slash their enemies to ribbons.",
         cryUrl: "cries/680.mp3",
-        ability: ["No Guard"]
+        ability: ["No Guard"],
+        evolution: evolutionFamilies.honedge
     },
     {
         name: "Aegislash",
@@ -12258,7 +14351,8 @@ let nationalDex = {
         metricWeight: 53.0,
         dexEntry: "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
         cryUrl: "cries/681.mp3",
-        ability: ["Stance Change"]
+        ability: ["Stance Change"],
+        evolution: evolutionFamilies.honedge
     },
     {
         name: "Spritzee",
@@ -12276,7 +14370,8 @@ let nationalDex = {
         metricWeight: 0.5,
         dexEntry: "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
         cryUrl: "cries/682.mp3",
-        ability: ["Healer", "Aroma Veil"]
+        ability: ["Healer", "Aroma Veil"],
+        evolution: evolutionFamilies.spritzee
     },
     {
         name: "Aromatisse",
@@ -12294,7 +14389,8 @@ let nationalDex = {
         metricWeight: 15.5,
         dexEntry: "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
         cryUrl: "cries/683.mp3",
-        ability: ["Healer", "Aroma Veil"]
+        ability: ["Healer", "Aroma Veil"],
+        evolution: evolutionFamilies.spritzee
     },
     {
         name: "Swirlix",
@@ -12312,7 +14408,8 @@ let nationalDex = {
         metricWeight: 3.5,
         dexEntry: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
         cryUrl: "cries/684.mp3",
-        ability: ["Sweet Veil", "Unburden"]
+        ability: ["Sweet Veil", "Unburden"],
+        evolution: evolutionFamilies.swirlix
     },
     {
         name: "Slurpuff",
@@ -12330,7 +14427,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
         cryUrl: "cries/685.mp3",
-        ability: ["Sweet Veil", "Unburden"]
+        ability: ["Sweet Veil", "Unburden"],
+        evolution: evolutionFamilies.swirlix
     },
     {
         name: "Inkay",
@@ -12348,7 +14446,8 @@ let nationalDex = {
         metricWeight: 3.5,
         dexEntry: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
         cryUrl: "cries/686.mp3",
-        ability: ["Contrary", "Suction Cups", "Infiltrator"]
+        ability: ["Contrary", "Suction Cups", "Infiltrator"],
+        evolution: evolutionFamilies.inkay
     },
     {
         name: "Malamar",
@@ -12366,7 +14465,8 @@ let nationalDex = {
         metricWeight: 47.0,
         dexEntry: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
         cryUrl: "cries/687.mp3",
-        ability: ["Contrary", "Suction Cups", "Infiltrator"]
+        ability: ["Contrary", "Suction Cups", "Infiltrator"],
+        evolution: evolutionFamilies.inkay
     },
     {
         name: "Binacle",
@@ -12384,7 +14484,8 @@ let nationalDex = {
         metricWeight: 31.0,
         dexEntry: "Two Binacle live together on one rock. When they fight, one of them will move to a different rock.",
         cryUrl: "cries/688.mp3",
-        ability: ["Tough Claws", "Sniper", "Pickpocket"]
+        ability: ["Tough Claws", "Sniper", "Pickpocket"],
+        evolution: evolutionFamilies.binacle
     },
     {
         name: "Barbaracle",
@@ -12402,7 +14503,8 @@ let nationalDex = {
         metricWeight: 96.0,
         dexEntry: "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
         cryUrl: "cries/689.mp3",
-        ability: ["Tough Claws", "Sniper", "Pickpocket"]
+        ability: ["Tough Claws", "Sniper", "Pickpocket"],
+        evolution: evolutionFamilies.binacle
     },
     {
         name: "Skrelp",
@@ -12420,7 +14522,8 @@ let nationalDex = {
         metricWeight: 7.3,
         dexEntry: "Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.",
         cryUrl: "cries/690.mp3",
-        ability: ["Poison Point", "Poison Touch", "Adaptability"]
+        ability: ["Poison Point", "Poison Touch", "Adaptability"],
+        evolution: evolutionFamilies.skrelp
     },
     {
         name: "Dragalge",
@@ -12438,7 +14541,8 @@ let nationalDex = {
         metricWeight: 81.5,
         dexEntry: "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
         cryUrl: "cries/691.mp3",
-        ability: ["Poison Point", "Poison Touch", "Adaptability"]
+        ability: ["Poison Point", "Poison Touch", "Adaptability"],
+        evolution: evolutionFamilies.skrelp
     },
     {
         name: "Clauncher",
@@ -12456,7 +14560,8 @@ let nationalDex = {
         metricWeight: 8.3,
         dexEntry: "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
         cryUrl: "cries/692.mp3",
-        ability: ["Mega Launcher"]
+        ability: ["Mega Launcher"],
+        evolution: evolutionFamilies.clauncher
     },
     {
         name: "Clawitzer",
@@ -12474,7 +14579,8 @@ let nationalDex = {
         metricWeight: 35.3,
         dexEntry: "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
         cryUrl: "cries/693.mp3",
-        ability: ["Mega Launcher"]
+        ability: ["Mega Launcher"],
+        evolution: evolutionFamilies.clauncher
     },
     {
         name: "Helioptile",
@@ -12492,7 +14598,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
         cryUrl: "cries/694.mp3",
-        ability: ["Dry Skin", "Sand Veil", "Solar Power"]
+        ability: ["Dry Skin", "Sand Veil", "Solar Power"],
+        evolution: evolutionFamilies.helioptile
     },
     {
         name: "Heliolisk",
@@ -12510,7 +14617,8 @@ let nationalDex = {
         metricWeight: 21.0,
         dexEntry: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
         cryUrl: "cries/695.mp3",
-        ability: ["Dry Skin", "Sand Veil", "Solar Power"]
+        ability: ["Dry Skin", "Sand Veil", "Solar Power"],
+        evolution: evolutionFamilies.helioptile
     },
     {
         name: "Tyrunt",
@@ -12528,7 +14636,8 @@ let nationalDex = {
         metricWeight: 26.0,
         dexEntry: "This Pokémon was restored from a fossil. If something happens that it doesn't like, it throws a tantrum and runs wild.",
         cryUrl: "cries/696.mp3",
-        ability: ["Strong Jaw", "Sturdy"]
+        ability: ["Strong Jaw", "Sturdy"],
+        evolution: evolutionFamilies.tyrunt
     },
     {
         name: "Tyrantrum",
@@ -12546,7 +14655,8 @@ let nationalDex = {
         metricWeight: 270.0,
         dexEntry: "Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited.",
         cryUrl: "cries/697.mp3",
-        ability: ["Strong Jaw", "Rock Head"]
+        ability: ["Strong Jaw", "Rock Head"],
+        evolution: evolutionFamilies.tyrunt
     },
     {
         name: "Amaura",
@@ -12564,7 +14674,8 @@ let nationalDex = {
         metricWeight: 25.2,
         dexEntry: "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
         cryUrl: "cries/698.mp3",
-        ability: ["Refrigerate", "Snow Warning"]
+        ability: ["Refrigerate", "Snow Warning"],
+        evolution: evolutionFamilies.amaura
     },
     {
         name: "Aurorus",
@@ -12582,7 +14693,8 @@ let nationalDex = {
         metricWeight: 225.0,
         dexEntry: "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
         cryUrl: "cries/699.mp3",
-        ability: ["Refrigerate", "Snow Warning"]
+        ability: ["Refrigerate", "Snow Warning"],
+        evolution: evolutionFamilies.amaura
     },
     {
         name: "Sylveon",
@@ -12600,7 +14712,8 @@ let nationalDex = {
         metricWeight: 23.5,
         dexEntry: "It sends a soothing aura from its ribbonlike feelers to calm fights.",
         cryUrl: "cries/700.mp3",
-        ability: ["Cute Charm", "Pixilate"]
+        ability: ["Cute Charm", "Pixilate"],
+        evolution: evolutionFamilies.eevee
     },
     {
         name: "Hawlucha",
@@ -12618,7 +14731,8 @@ let nationalDex = {
         metricWeight: 21.5,
         dexEntry: "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
         cryUrl: "cries/701.mp3",
-        ability: ["Limber", "Unburden", "Mold Breaker"]
+        ability: ["Limber", "Unburden", "Mold Breaker"],
+        evolution: evolutionFamilies.hawlucha
     },
     {
         name: "Dedenne",
@@ -12636,7 +14750,8 @@ let nationalDex = {
         metricWeight: 2.2,
         dexEntry: "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
         cryUrl: "cries/702.mp3",
-        ability: ["Cheek Pouch", "Pickup", "Plus"]
+        ability: ["Cheek Pouch", "Pickup", "Plus"],
+        evolution: evolutionFamilies.dedenne
     },
     {
         name: "Carbink",
@@ -12654,7 +14769,8 @@ let nationalDex = {
         metricWeight: 5.7,
         dexEntry: "Born from temperatures and pressures deep underground, it fires beams from the stone in its head.",
         cryUrl: "cries/703.mp3",
-        ability: ["Clear Body", "Sturdy"]
+        ability: ["Clear Body", "Sturdy"],
+        evolution: evolutionFamilies.carbink
     },
     {
         name: "Goomy",
@@ -12672,7 +14788,8 @@ let nationalDex = {
         metricWeight: 2.8,
         dexEntry: "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn't dry out.",
         cryUrl: "cries/704.mp3",
-        ability: ["Sap Sipper", "Hydration", "Gooey"]
+        ability: ["Sap Sipper", "Hydration", "Gooey"],
+        evolution: evolutionFamilies.goomy
     },
     {
         name: "Sliggoo",
@@ -12690,7 +14807,8 @@ let nationalDex = {
         metricWeight: 17.5,
         dexEntry: "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can't see anything.",
         cryUrl: "cries/705.mp3",
-        ability: ["Sap Sipper", "Hydration", "Gooey"]
+        ability: ["Sap Sipper", "Hydration", "Gooey"],
+        evolution: evolutionFamilies.goomy
     },
     {
         name: "Goodra",
@@ -12708,7 +14826,8 @@ let nationalDex = {
         metricWeight: 150.5,
         dexEntry: "This very friendly Dragon-type Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
         cryUrl: "cries/706.mp3",
-        ability: ["Sap Sipper", "Hydration", "Gooey"]
+        ability: ["Sap Sipper", "Hydration", "Gooey"],
+        evolution: evolutionFamilies.goomy
     },
     {
         name: "Klefki",
@@ -12726,7 +14845,8 @@ let nationalDex = {
         metricWeight: 3.0,
         dexEntry: "These key collectors threaten any attackers by fiercely jingling their keys at them.",
         cryUrl: "cries/707.mp3",
-        ability: ["Prankster", "Magician"]
+        ability: ["Prankster", "Magician"],
+        evolution: evolutionFamilies.klefki
     },
     {
         name: "Phantump",
@@ -12744,7 +14864,8 @@ let nationalDex = {
         metricWeight: 7.0,
         dexEntry: "These Pokémon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.",
         cryUrl: "cries/708.mp3",
-        ability: ["Natural Cure", "Frisk", "Harvest"]
+        ability: ["Natural Cure", "Frisk", "Harvest"],
+        evolution: evolutionFamilies.phantump
     },
     {
         name: "Trevenant",
@@ -12762,7 +14883,8 @@ let nationalDex = {
         metricWeight: 71.0,
         dexEntry: "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
         cryUrl: "cries/709.mp3",
-        ability: ["Natural Cure", "Frisk", "Harvest"]
+        ability: ["Natural Cure", "Frisk", "Harvest"],
+        evolution: evolutionFamilies.phantump
     },
     {
         name: "Pumpkaboo",
@@ -12780,7 +14902,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
         cryUrl: "cries/710.mp3",
-        ability: ["Pickup", "Frisk", "Insomnia"]
+        ability: ["Pickup", "Frisk", "Insomnia"],
+        evolution: evolutionFamilies.pumpkaboo
     },
     {
         name: "Gourgeist",
@@ -12798,7 +14921,8 @@ let nationalDex = {
         metricWeight: 12.5,
         dexEntry: "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
         cryUrl: "cries/711.mp3",
-        ability: ["Pickup", "Frisk", "Insomnia"]
+        ability: ["Pickup", "Frisk", "Insomnia"],
+        evolution: evolutionFamilies.pumpkaboo
     },
     {
         name: "Bergmite",
@@ -12816,7 +14940,8 @@ let nationalDex = {
         metricWeight: 99.5,
         dexEntry: "It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.",
         cryUrl: "cries/712.mp3",
-        ability: ["Own Tempo", "Ice Body", "Sturdy"]
+        ability: ["Own Tempo", "Ice Body", "Sturdy"],
+        evolution: evolutionFamilies.bergmite
     },
     {
         name: "Avalugg",
@@ -12834,7 +14959,8 @@ let nationalDex = {
         metricWeight: 505.0,
         dexEntry: "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
         cryUrl: "cries/713.mp3",
-        ability: ["Own Tempo", "Ice Body", "Sturdy"]
+        ability: ["Own Tempo", "Ice Body", "Sturdy"],
+        evolution: evolutionFamilies.bergmite
     },
     {
         name: "Noibat",
@@ -12852,7 +14978,8 @@ let nationalDex = {
         metricWeight: 8.0,
         dexEntry: "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
         cryUrl: "cries/714.mp3",
-        ability: ["Frisk", "Infiltrator", "Telepathy"]
+        ability: ["Frisk", "Infiltrator", "Telepathy"],
+        evolution: evolutionFamilies.noibat
     },
     {
         name: "Noivern",
@@ -12870,7 +14997,8 @@ let nationalDex = {
         metricWeight: 85.0,
         dexEntry: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
         cryUrl: "cries/715.mp3",
-        ability: ["Frisk", "Infiltrator", "Telepathy"]
+        ability: ["Frisk", "Infiltrator", "Telepathy"],
+        evolution: evolutionFamilies.noibat
     },
     {
         name: "Xerneas",
@@ -12888,7 +15016,8 @@ let nationalDex = {
         metricWeight: 215.0,
         dexEntry: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
         cryUrl: "cries/716.mp3",
-        ability: ["Fairy Aura"]
+        ability: ["Fairy Aura"],
+        evolution: evolutionFamilies.xerneas
     },
     {
         name: "Yveltal",
@@ -12906,7 +15035,8 @@ let nationalDex = {
         metricWeight: 203.0,
         dexEntry: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
         cryUrl: "cries/717.mp3",
-        ability: ["Dark Aura"]
+        ability: ["Dark Aura"],
+        evolution: evolutionFamilies.yveltal
     },
     {
         name: "Zygarde",
@@ -12924,7 +15054,8 @@ let nationalDex = {
         metricWeight: 305.0,
         dexEntry: "When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power.",
         cryUrl: "cries/718.mp3",
-        ability: ["Aura Break", "Power Construct"]
+        ability: ["Aura Break", "Power Construct"],
+        evolution: evolutionFamilies.zygarde
     },
     {
         name: "Diancie",
@@ -12942,7 +15073,8 @@ let nationalDex = {
         metricWeight: 8.8,
         dexEntry: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
         cryUrl: "cries/719.mp3",
-        ability: ["Clear Body"]
+        ability: ["Clear Body"],
+        evolution: evolutionFamilies.diancie
     },
     {
         name: "Hoopa",
@@ -12960,7 +15092,8 @@ let nationalDex = {
         metricWeight: 9.0,
         dexEntry: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
         cryUrl: "cries/720.mp3",
-        ability: ["Magician"]
+        ability: ["Magician"],
+        evolution: evolutionFamilies.hoopa
     },
     {
         name: "Volcanion",
@@ -12978,7 +15111,8 @@ let nationalDex = {
         metricWeight: 195.0,
         dexEntry: "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
         cryUrl: "cries/721.mp3",
-        ability: ["Water Absorb"]
+        ability: ["Water Absorb"],
+        evolution: evolutionFamilies.volcanion
     },
     {
         name: "Rowlet",
@@ -12996,7 +15130,8 @@ let nationalDex = {
         metricWeight: 1.5,
         dexEntry: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
         cryUrl: "cries/722.mp3",
-        ability: ["Overgrow", "Long Reach"]
+        ability: ["Overgrow", "Long Reach"],
+        evolution: evolutionFamilies.rowlet
     },
     {
         name: "Dartrix",
@@ -13014,7 +15149,8 @@ let nationalDex = {
         metricWeight: 16.0,
         dexEntry: "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
         cryUrl: "cries/723.mp3",
-        ability: ["Overgrow", "Long Reach"]
+        ability: ["Overgrow", "Long Reach"],
+        evolution: evolutionFamilies.rowlet
     },
     {
         name: "Decidueye",
@@ -13032,7 +15168,8 @@ let nationalDex = {
         metricWeight: 36.6,
         dexEntry: "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards.",
         cryUrl: "cries/724.mp3",
-        ability: ["Overgrow", "Long Reach"]
+        ability: ["Overgrow", "Long Reach"],
+        evolution: evolutionFamilies.rowlet
     },
     {
         name: "Litten",
@@ -13050,7 +15187,8 @@ let nationalDex = {
         metricWeight: 4.3,
         dexEntry: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
         cryUrl: "cries/725.mp3",
-        ability: ["Blaze", "Intimidate"]
+        ability: ["Blaze", "Intimidate"],
+        evolution: evolutionFamilies.litten
     },
     {
         name: "Torracat",
@@ -13068,7 +15206,8 @@ let nationalDex = {
         metricWeight: 25.0,
         dexEntry: "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
         cryUrl: "cries/726.mp3",
-        ability: ["Blaze", "Intimidate"]
+        ability: ["Blaze", "Intimidate"],
+        evolution: evolutionFamilies.litten
     },
     {
         name: "Incineroar",
@@ -13086,7 +15225,8 @@ let nationalDex = {
         metricWeight: 83.0,
         dexEntry: "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance.",
         cryUrl: "cries/727.mp3",
-        ability: ["Blaze", "Intimidate"]
+        ability: ["Blaze", "Intimidate"],
+        evolution: evolutionFamilies.litten
     },
     {
         name: "Popplio",
@@ -13104,7 +15244,8 @@ let nationalDex = {
         metricWeight: 7.5,
         dexEntry: "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It's famous for being a hard worker.",
         cryUrl: "cries/728.mp3",
-        ability: ["Torrent", "Liquid Voice"]
+        ability: ["Torrent", "Liquid Voice"],
+        evolution: evolutionFamilies.popplio
     },
     {
         name: "Brionne",
@@ -13122,7 +15263,8 @@ let nationalDex = {
         metricWeight: 17.5,
         dexEntry: "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards its enemies.",
         cryUrl: "cries/729.mp3",
-        ability: ["Torrent", "Liquid Voice"]
+        ability: ["Torrent", "Liquid Voice"],
+        evolution: evolutionFamilies.popplio
     },
     {
         name: "Primarina",
@@ -13140,7 +15282,8 @@ let nationalDex = {
         metricWeight: 44.0,
         dexEntry: "It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.",
         cryUrl: "cries/730.mp3",
-        ability: ["Torrent", "Liquid Voice"]
+        ability: ["Torrent", "Liquid Voice"],
+        evolution: evolutionFamilies.popplio
     },
     {
         name: "Pikipek",
@@ -13158,7 +15301,8 @@ let nationalDex = {
         metricWeight: 1.2,
         dexEntry: "It can peck at a rate of 16 times a second to drill holes in trees. It uses the holes for food storage and for nesting.",
         cryUrl: "cries/731.mp3",
-        ability: ["Keen Eye", "Skill Link", "Pickup"]
+        ability: ["Keen Eye", "Skill Link", "Pickup"],
+        evolution: evolutionFamilies.pikipek
     },
     {
         name: "Trumbeak",
@@ -13176,7 +15320,8 @@ let nationalDex = {
         metricWeight: 14.8,
         dexEntry: "It eats berries and stores their seeds in its beak. When it encounters enemies or prey, it fires off all the seeds in a burst.",
         cryUrl: "cries/732.mp3",
-        ability: ["Keen Eye", "Skill Link", "Pickup"]
+        ability: ["Keen Eye", "Skill Link", "Pickup"],
+        evolution: evolutionFamilies.pikipek
     },
     {
         name: "Toucannon",
@@ -13194,7 +15339,8 @@ let nationalDex = {
         metricWeight: 26.0,
         dexEntry: "When it battles, its beak heats up. The temperature can easily exceed 212 degrees Fahrenheit, causing severe burns when it hits.",
         cryUrl: "cries/733.mp3",
-        ability: ["Keen Eye", "Skill Link", "Sheer Force"]
+        ability: ["Keen Eye", "Skill Link", "Sheer Force"],
+        evolution: evolutionFamilies.pikipek
     },
     {
         name: "Yungoos",
@@ -13212,7 +15358,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
         cryUrl: "cries/734.mp3",
-        ability: ["Stakeout", "Strong Jaw", "Adaptability"]
+        ability: ["Stakeout", "Strong Jaw", "Adaptability"],
+        evolution: evolutionFamilies.yungoos
     },
     {
         name: "Gumshoos",
@@ -13230,7 +15377,8 @@ let nationalDex = {
         metricWeight: 14.2,
         dexEntry: "When it finds a trace of its prey, it patiently stakes out the location...but it's always snoozing by nightfall.",
         cryUrl: "cries/735.mp3",
-        ability: ["Stakeout", "Strong Jaw", "Adaptability"]
+        ability: ["Stakeout", "Strong Jaw", "Adaptability"],
+        evolution: evolutionFamilies.yungoos
     },
     {
         name: "Grubbin",
@@ -13248,7 +15396,8 @@ let nationalDex = {
         metricWeight: 4.4,
         dexEntry: "Its strong jaw enables it to scrape trees and slurp out the sap. It normally lives underground.",
         cryUrl: "cries/736.mp3",
-        ability: ["Swarm"]
+        ability: ["Swarm"],
+        evolution: evolutionFamilies.grubbin
     },
     {
         name: "Charjabug",
@@ -13266,7 +15415,8 @@ let nationalDex = {
         metricWeight: 10.5,
         dexEntry: "Its body is capable of storing electricity. On camping trips, people are grateful to have one around.",
         cryUrl: "cries/737.mp3",
-        ability: ["Battery"]
+        ability: ["Battery"],
+        evolution: evolutionFamilies.grubbin
     },
     {
         name: "Vikavolt",
@@ -13284,7 +15434,8 @@ let nationalDex = {
         metricWeight: 45.0,
         dexEntry: "It zips around, on sharp lookout for an opening. It concentrates electrical energy within its large jaws and uses it to zap its enemies.",
         cryUrl: "cries/738.mp3",
-        ability: ["Levitate"]
+        ability: ["Levitate"],
+        evolution: evolutionFamilies.grubbin
     },
     {
         name: "Crabrawler",
@@ -13302,7 +15453,8 @@ let nationalDex = {
         metricWeight: 7.0,
         dexEntry: "While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints.",
         cryUrl: "cries/739.mp3",
-        ability: ["Hyper Cutter", "Iron Fist", "Anger Point"]
+        ability: ["Hyper Cutter", "Iron Fist", "Anger Point"],
+        evolution: evolutionFamilies.crabrawler
     },
     {
         name: "Crabominable",
@@ -13320,7 +15472,8 @@ let nationalDex = {
         metricWeight: 180.0,
         dexEntry: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
         cryUrl: "cries/740.mp3",
-        ability: ["Hyper Cutter", "Iron Fist", "Anger Point"]
+        ability: ["Hyper Cutter", "Iron Fist", "Anger Point"],
+        evolution: evolutionFamilies.crabrawler
     },
     {
         name: "Oricorio",
@@ -13338,7 +15491,8 @@ let nationalDex = {
         metricWeight: 3.4,
         dexEntry: "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
         cryUrl: "cries/741.mp3",
-        ability: ["Dancer"]
+        ability: ["Dancer"],
+        evolution: evolutionFamilies.oricorio
     },
     {
         name: "Cutiefly",
@@ -13356,7 +15510,8 @@ let nationalDex = {
         metricWeight: 0.2,
         dexEntry: "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
         cryUrl: "cries/742.mp3",
-        ability: ["Honey Gather", "Shield Dust", "Sweet Veil"]
+        ability: ["Honey Gather", "Shield Dust", "Sweet Veil"],
+        evolution: evolutionFamilies.cutiefly
     },
     {
         name: "Ribombee",
@@ -13374,7 +15529,8 @@ let nationalDex = {
         metricWeight: 0.5,
         dexEntry: "It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle.",
         cryUrl: "cries/743.mp3",
-        ability: ["Honey Gather", "Shield Dust", "Sweet Veil"]
+        ability: ["Honey Gather", "Shield Dust", "Sweet Veil"],
+        evolution: evolutionFamilies.cutiefly
     },
     {
         name: "Rockruff",
@@ -13392,7 +15548,8 @@ let nationalDex = {
         metricWeight: 9.2,
         dexEntry: "It's considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
         cryUrl: "cries/744.mp3",
-        ability: ["Keen Eye", "Vital Spirit", "Steadfast"]
+        ability: ["Keen Eye", "Vital Spirit", "Steadfast"],
+        evolution: evolutionFamilies.rockruff
     },
     {
         name: "Lycanroc",
@@ -13410,7 +15567,8 @@ let nationalDex = {
         metricWeight: 25.0,
         dexEntry: "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
         cryUrl: "cries/745.mp3",
-        ability: ["Keen Eye", "Sand Rush", "Steadfast"]
+        ability: ["Keen Eye", "Sand Rush", "Steadfast"],
+        evolution: evolutionFamilies.rockruff
     },
     {
         name: "Wishiwashi",
@@ -13428,7 +15586,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "When it's in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.",
         cryUrl: "cries/746.mp3",
-        ability: ["Schooling"]
+        ability: ["Schooling"],
+        evolution: evolutionFamilies.wishiwashi
     },
     {
         name: "Mareanie",
@@ -13446,7 +15605,8 @@ let nationalDex = {
         metricWeight: 8.0,
         dexEntry: "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.",
         cryUrl: "cries/747.mp3",
-        ability: ["Merciless", "Limber", "Regenerator"]
+        ability: ["Merciless", "Limber", "Regenerator"],
+        evolution: evolutionFamilies.mareanie
     },
     {
         name: "Toxapex",
@@ -13464,7 +15624,8 @@ let nationalDex = {
         metricWeight: 14.5,
         dexEntry: "Toxapex crawls along the ocean floor on its 12 legs. It leaves a trail of Corsola bits scattered in its wake.",
         cryUrl: "cries/748.mp3",
-        ability: ["Merciless", "Limber", "Regenerator"]
+        ability: ["Merciless", "Limber", "Regenerator"],
+        evolution: evolutionFamilies.mareanie
     },
     {
         name: "Mudbray",
@@ -13482,7 +15643,8 @@ let nationalDex = {
         metricWeight: 110.0,
         dexEntry: "The mud stuck to Mudbray's hooves enhances its grip and its powerful running gait.",
         cryUrl: "cries/749.mp3",
-        ability: ["Own Tempo", "Stamina", "Inner Focus"]
+        ability: ["Own Tempo", "Stamina", "Inner Focus"],
+        evolution: evolutionFamilies.mudbray
     },
     {
         name: "Mudsdale",
@@ -13500,7 +15662,8 @@ let nationalDex = {
         metricWeight: 920.0,
         dexEntry: "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
         cryUrl: "cries/750.mp3",
-        ability: ["Own Tempo", "Stamina", "Inner Focus"]
+        ability: ["Own Tempo", "Stamina", "Inner Focus"],
+        evolution: evolutionFamilies.mudbray
     },
     {
         name: "Dewpider",
@@ -13518,7 +15681,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
         cryUrl: "cries/751.mp3",
-        ability: ["Water Bubble", "Water Absorb"]
+        ability: ["Water Bubble", "Water Absorb"],
+        evolution: evolutionFamilies.dewpider
     },
     {
         name: "Araquanid",
@@ -13536,7 +15700,8 @@ let nationalDex = {
         metricWeight: 82.0,
         dexEntry: "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
         cryUrl: "cries/752.mp3",
-        ability: ["Water Bubble", "Water Absorb"]
+        ability: ["Water Bubble", "Water Absorb"],
+        evolution: evolutionFamilies.dewpider
     },
     {
         name: "Fomantis",
@@ -13554,7 +15719,8 @@ let nationalDex = {
         metricWeight: 1.5,
         dexEntry: "During the day, it sleeps and soaks up light. When night falls, it walks around looking for a safer place to sleep.",
         cryUrl: "cries/753.mp3",
-        ability: ["Leaf Guard", "Contrary"]
+        ability: ["Leaf Guard", "Contrary"],
+        evolution: evolutionFamilies.fomantis
     },
     {
         name: "Lurantis",
@@ -13572,7 +15738,8 @@ let nationalDex = {
         metricWeight: 18.5,
         dexEntry: "It requires a lot of effort to maintain Lurantis's vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
         cryUrl: "cries/754.mp3",
-        ability: ["Leaf Guard", "Contrary"]
+        ability: ["Leaf Guard", "Contrary"],
+        evolution: evolutionFamilies.fomantis
     },
     {
         name: "Morelull",
@@ -13590,7 +15757,8 @@ let nationalDex = {
         metricWeight: 1.5,
         dexEntry: "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
         cryUrl: "cries/755.mp3",
-        ability: ["Illuminate", "Effect Spore", "Rain Dish"]
+        ability: ["Illuminate", "Effect Spore", "Rain Dish"],
+        evolution: evolutionFamilies.morelull
     },
     {
         name: "Shiinotic",
@@ -13608,7 +15776,8 @@ let nationalDex = {
         metricWeight: 11.5,
         dexEntry: "Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.",
         cryUrl: "cries/756.mp3",
-        ability: ["Illuminate", "Effect Spore", "Rain Dish"]
+        ability: ["Illuminate", "Effect Spore", "Rain Dish"],
+        evolution: evolutionFamilies.morelull
     },
     {
         name: "Salandit",
@@ -13626,7 +15795,8 @@ let nationalDex = {
         metricWeight: 4.8,
         dexEntry: "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
         cryUrl: "cries/757.mp3",
-        ability: ["Corrosion", "Oblivious"]
+        ability: ["Corrosion", "Oblivious"],
+        evolution: evolutionFamilies.salandit
     },
     {
         name: "Salazzle",
@@ -13644,7 +15814,8 @@ let nationalDex = {
         metricWeight: 22.2,
         dexEntry: "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
         cryUrl: "cries/758.mp3",
-        ability: ["Corrosion", "Oblivious"]
+        ability: ["Corrosion", "Oblivious"],
+        evolution: evolutionFamilies.salandit
     },
     {
         name: "Stufful",
@@ -13662,7 +15833,8 @@ let nationalDex = {
         metricWeight: 6.8,
         dexEntry: "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.",
         cryUrl: "cries/759.mp3",
-        ability: ["Fluffy", "Klutz", "Cute Charm"]
+        ability: ["Fluffy", "Klutz", "Cute Charm"],
+        evolution: evolutionFamilies.stufful
     },
     {
         name: "Bewear",
@@ -13680,7 +15852,8 @@ let nationalDex = {
         metricWeight: 135.0,
         dexEntry: "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
         cryUrl: "cries/760.mp3",
-        ability: ["Fluffy", "Klutz", "Unnerve"]
+        ability: ["Fluffy", "Klutz", "Unnerve"],
+        evolution: evolutionFamilies.stufful
     },
     {
         name: "Bounsweet",
@@ -13698,7 +15871,8 @@ let nationalDex = {
         metricWeight: 3.2,
         dexEntry: "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness.",
         cryUrl: "cries/761.mp3",
-        ability: ["Leaf Guard", "Oblivious", "Sweet Veil"]
+        ability: ["Leaf Guard", "Oblivious", "Sweet Veil"],
+        evolution: evolutionFamilies.bounsweet
     },
     {
         name: "Steenee",
@@ -13716,7 +15890,8 @@ let nationalDex = {
         metricWeight: 8.2,
         dexEntry: "The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine.",
         cryUrl: "cries/762.mp3",
-        ability: ["Leaf Guard", "Oblivious", "Sweet Veil"]
+        ability: ["Leaf Guard", "Oblivious", "Sweet Veil"],
+        evolution: evolutionFamilies.bounsweet
     },
     {
         name: "Tsareena",
@@ -13734,7 +15909,8 @@ let nationalDex = {
         metricWeight: 21.4,
         dexEntry: "Its long, striking legs aren't just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
         cryUrl: "cries/763.mp3",
-        ability: ["Leaf Guard", "Queenly Majesty", "Sweet Veil"]
+        ability: ["Leaf Guard", "Queenly Majesty", "Sweet Veil"],
+        evolution: evolutionFamilies.bounsweet
     },
     {
         name: "Comfey",
@@ -13752,7 +15928,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.",
         cryUrl: "cries/764.mp3",
-        ability: ["Flower Veil", "Triage", "Natural Cure"]
+        ability: ["Flower Veil", "Triage", "Natural Cure"],
+        evolution: evolutionFamilies.comfey
     },
     {
         name: "Oranguru",
@@ -13770,7 +15947,8 @@ let nationalDex = {
         metricWeight: 76.0,
         dexEntry: "Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it's best suited to veteran Trainers.",
         cryUrl: "cries/765.mp3",
-        ability: ["Inner Focus", "Telepathy", "Symbiosis"]
+        ability: ["Inner Focus", "Telepathy", "Symbiosis"],
+        evolution: evolutionFamilies.oranguru
     },
     {
         name: "Passimian",
@@ -13788,7 +15966,8 @@ let nationalDex = {
         metricWeight: 82.8,
         dexEntry: "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
         cryUrl: "cries/766.mp3",
-        ability: ["Receiver", "Defiant"]
+        ability: ["Receiver", "Defiant"],
+        evolution: evolutionFamilies.passimian
     },
     {
         name: "Wimpod",
@@ -13806,7 +15985,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
         cryUrl: "cries/767.mp3",
-        ability: ["Wimp Out"]
+        ability: ["Wimp Out"],
+        evolution: evolutionFamilies.wimpod
     },
     {
         name: "Golisopod",
@@ -13824,7 +16004,8 @@ let nationalDex = {
         metricWeight: 108.0,
         dexEntry: "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",
         cryUrl: "cries/768.mp3",
-        ability: ["Emergency Exit"]
+        ability: ["Emergency Exit"],
+        evolution: evolutionFamilies.wimpod
     },
     {
         name: "Sandygast",
@@ -13842,7 +16023,8 @@ let nationalDex = {
         metricWeight: 70.0,
         dexEntry: "Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.",
         cryUrl: "cries/760.mp3",
-        ability: ["Water Compaction", "Sand Veil"]
+        ability: ["Water Compaction", "Sand Veil"],
+        evolution: evolutionFamilies.sandygast
     },
     {
         name: "Palossand",
@@ -13860,7 +16042,8 @@ let nationalDex = {
         metricWeight: 250.0,
         dexEntry: "Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger.",
         cryUrl: "cries/770.mp3",
-        ability: ["Water Compaction", "Sand Veil"]
+        ability: ["Water Compaction", "Sand Veil"],
+        evolution: evolutionFamilies.sandygast
     },
     {
         name: "Pyukumuku",
@@ -13878,7 +16061,8 @@ let nationalDex = {
         metricWeight: 1.2,
         dexEntry: "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
         cryUrl: "cries/771.mp3",
-        ability: ["Innards Out", "Unaware"]
+        ability: ["Innards Out", "Unaware"],
+        evolution: evolutionFamilies.pyukumuku
     },
     {
         name: "Type: Null",
@@ -13896,7 +16080,8 @@ let nationalDex = {
         metricWeight: 120.5,
         dexEntry: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
         cryUrl: "cries/772.mp3",
-        ability: ["Battle Armor"]
+        ability: ["Battle Armor"],
+        evolution: evolutionFamilies.typenull
     },
     {
         name: "Silvally",
@@ -13914,7 +16099,8 @@ let nationalDex = {
         metricWeight: 100.5,
         dexEntry: "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
         cryUrl: "cries/773.mp3",
-        ability: ["RKS System"]
+        ability: ["RKS System"],
+        evolution: evolutionFamilies.typenull
     },
     {
         name: "Minior",
@@ -13932,7 +16118,8 @@ let nationalDex = {
         metricWeight: 40.0,
         dexEntry: "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
         cryUrl: "cries/774.mp3",
-        ability: ["Shields Down"]
+        ability: ["Shields Down"],
+        evolution: evolutionFamilies.minior
     },
     {
         name: "Komala",
@@ -13950,7 +16137,8 @@ let nationalDex = {
         metricWeight: 19.9,
         dexEntry: "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
         cryUrl: "cries/775.mp3",
-        ability: ["Comatose"]
+        ability: ["Comatose"],
+        evolution: evolutionFamilies.komala
     },
     {
         name: "Turtonator",
@@ -13968,7 +16156,8 @@ let nationalDex = {
         metricWeight: 212.0,
         dexEntry: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
         cryUrl: "cries/776.mp3",
-        ability: ["Shell Armor"]
+        ability: ["Shell Armor"],
+        evolution: evolutionFamilies.turtonator
     },
     {
         name: "Togedemaru",
@@ -13986,7 +16175,8 @@ let nationalDex = {
         metricWeight: 3.3,
         dexEntry: "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
         cryUrl: "cries/777.mp3",
-        ability: ["Iron Barbs", "Lightning Rod", "Sturdy"]
+        ability: ["Iron Barbs", "Lightning Rod", "Sturdy"],
+        evolution: evolutionFamilies.togedemaru
     },
     {
         name: "Mimikyu",
@@ -14004,7 +16194,8 @@ let nationalDex = {
         metricWeight: 0.7,
         dexEntry: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
         cryUrl: "cries/778.mp3",
-        ability: ["Disguise"]
+        ability: ["Disguise"],
+        evolution: evolutionFamilies.mimikyu
     },
     {
         name: "Bruxish",
@@ -14022,7 +16213,8 @@ let nationalDex = {
         metricWeight: 19.0,
         dexEntry: "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
         cryUrl: "cries/779.mp3",
-        ability: ["Dazzling", "Strong Jaw", "Wonder Skin"]
+        ability: ["Dazzling", "Strong Jaw", "Wonder Skin"],
+        evolution: evolutionFamilies.bruxish
     },
     {
         name: "Drampa",
@@ -14040,7 +16232,8 @@ let nationalDex = {
         metricWeight: 185.0,
         dexEntry: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
         cryUrl: "cries/780.mp3",
-        ability: ["Berserk", "Sap Sipper", "Cloud Nine"]
+        ability: ["Berserk", "Sap Sipper", "Cloud Nine"],
+        evolution: evolutionFamilies.drampa
     },
     {
         name: "Dhelmise",
@@ -14058,7 +16251,8 @@ let nationalDex = {
         metricWeight: 210.0,
         dexEntry: "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
         cryUrl: "cries/781.mp3",
-        ability: ["Steelworker"]
+        ability: ["Steelworker"],
+        evolution: evolutionFamilies.dhelmise
     },
     {
         name: "Jangmo-o",
@@ -14076,7 +16270,8 @@ let nationalDex = {
         metricWeight: 29.7,
         dexEntry: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
         cryUrl: "cries/782.mp3",
-        ability: ["Bulletproof", "Soundproof", "Overcoat"]
+        ability: ["Bulletproof", "Soundproof", "Overcoat"],
+        evolution: evolutionFamilies.jangmoo
     },
     {
         name: "Hakamo-o",
@@ -14094,7 +16289,8 @@ let nationalDex = {
         metricWeight: 47.0,
         dexEntry: "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
         cryUrl: "cries/783.mp3",
-        ability: ["Bulletproof", "Soundproof", "Overcoat"]
+        ability: ["Bulletproof", "Soundproof", "Overcoat"],
+        evolution: evolutionFamilies.jangmoo
     },
     {
         name: "Kommo-o",
@@ -14112,7 +16308,8 @@ let nationalDex = {
         metricWeight: 78.2,
         dexEntry: "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.",
         cryUrl: "cries/784.mp3",
-        ability: ["Bulletproof", "Soundproof", "Overcoat"]
+        ability: ["Bulletproof", "Soundproof", "Overcoat"],
+        evolution: evolutionFamilies.jangmoo
     },
     {
         name: "Tapu Koko",
@@ -14130,7 +16327,8 @@ let nationalDex = {
         metricWeight: 20.5,
         dexEntry: "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
         cryUrl: "cries/785.mp3",
-        ability: ["Electric Surge", "Telepathy"]
+        ability: ["Electric Surge", "Telepathy"],
+        evolution: evolutionFamilies.tapukoko
     },
     {
         name: "Tapu Lele",
@@ -14148,7 +16346,8 @@ let nationalDex = {
         metricWeight: 18.6,
         dexEntry: "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
         cryUrl: "cries/786.mp3",
-        ability: ["Psychic Surge", "Telepathy"]
+        ability: ["Psychic Surge", "Telepathy"],
+        evolution: evolutionFamilies.tapulele
     },
     {
         name: "Tapu Bulu",
@@ -14166,7 +16365,8 @@ let nationalDex = {
         metricWeight: 45.5,
         dexEntry: "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
         cryUrl: "cries/787.mp3",
-        ability: ["Grassy Surge", "Telepathy"]
+        ability: ["Grassy Surge", "Telepathy"],
+        evolution: evolutionFamilies.tapubulu
     },
     {
         name: "Tapu Fini",
@@ -14184,7 +16384,8 @@ let nationalDex = {
         metricWeight: 21.2,
         dexEntry: "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
         cryUrl: "cries/788.mp3",
-        ability: ["Misty Surge", "Telepathy"]
+        ability: ["Misty Surge", "Telepathy"],
+        evolution: evolutionFamilies.tapufini
     },
     {
         name: "Cosmog",
@@ -14202,7 +16403,8 @@ let nationalDex = {
         metricWeight: 0.1,
         dexEntry: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
         cryUrl: "cries/789.mp3",
-        ability: ["Unaware"]
+        ability: ["Unaware"],
+        evolution: evolutionFamilies.cosmog
     },
     {
         name: "Cosmoem",
@@ -14220,7 +16422,8 @@ let nationalDex = {
         metricWeight: 999.9,
         dexEntry: "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.",
         cryUrl: "cries/790.mp3",
-        ability: ["Sturdy"]
+        ability: ["Sturdy"],
+        evolution: evolutionFamilies.cosmog
     },
     {
         name: "Solgaleo",
@@ -14238,7 +16441,8 @@ let nationalDex = {
         metricWeight: 230.0,
         dexEntry: "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
         cryUrl: "cries/791.mp3",
-        ability: ["Full Metal Body"]
+        ability: ["Full Metal Body"],
+        evolution: evolutionFamilies.cosmog
     },
     {
         name: "Lunala",
@@ -14256,7 +16460,8 @@ let nationalDex = {
         metricWeight: 120.0,
         dexEntry: "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
         cryUrl: "cries/792.mp3",
-        ability: ["Shadow Shield"]
+        ability: ["Shadow Shield"],
+        evolution: evolutionFamilies.cosmog
     },
     {
         name: "Nihilego",
@@ -14274,7 +16479,8 @@ let nationalDex = {
         metricWeight: 55.5,
         dexEntry: "One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.",
         cryUrl: "cries/793.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.nihilego
     },
     {
         name: "Buzzwole",
@@ -14292,7 +16498,8 @@ let nationalDex = {
         metricWeight: 333.6,
         dexEntry: "This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.",
         cryUrl: "cries/794.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.buzzwole
     },
     {
         name: "Pheromosa",
@@ -14310,7 +16517,8 @@ let nationalDex = {
         metricWeight: 25.0,
         dexEntry: "One of the dangerous Ultra Beasts, it has been spotted running across the land at terrific speeds.",
         cryUrl: "cries/795.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.pheromosa
     },
     {
         name: "Xurkitree",
@@ -14328,7 +16536,8 @@ let nationalDex = {
         metricWeight: 100.0,
         dexEntry: "One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.",
         cryUrl: "cries/796.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.xurkitree
     },
     {
         name: "Celesteela",
@@ -14346,7 +16555,8 @@ let nationalDex = {
         metricWeight: 999.9,
         dexEntry: "It appeared from the Ultra Wormhole. Witnesses observed it flying across the sky at high speed.",
         cryUrl: "cries/797.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.celesteela
     },
     {
         name: "Kartana",
@@ -14364,7 +16574,8 @@ let nationalDex = {
         metricWeight: 0.1,
         dexEntry: "This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.",
         cryUrl: "cries/798.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.kartana
     },
     {
         name: "Guzzlord",
@@ -14382,7 +16593,8 @@ let nationalDex = {
         metricWeight: 888.0,
         dexEntry: "It has gobbled mountains and swallowed whole buildings, according to reports. It's one of the Ultra Beasts.",
         cryUrl: "cries/799.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.guzzlord
     },
     {
         name: "Necrozma",
@@ -14400,7 +16612,8 @@ let nationalDex = {
         metricWeight: 230.0,
         dexEntry: "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
         cryUrl: "cries/800.mp3",
-        ability: ["Prism Armor"]
+        ability: ["Prism Armor"],
+        evolution: evolutionFamilies.necrozma
     },
     {
         name: "Magearna",
@@ -14418,7 +16631,8 @@ let nationalDex = {
         metricWeight: 80.5,
         dexEntry: "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.",
         cryUrl: "cries/801.mp3",
-        ability: ["Soul-Heart"]
+        ability: ["Soul-Heart"],
+        evolution: evolutionFamilies.magearna
     },
     {
         name: "Marshadow",
@@ -14436,7 +16650,8 @@ let nationalDex = {
         metricWeight: 22.2,
         dexEntry: "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
         cryUrl: "cries/802.mp3",
-        ability: ["Technician"]
+        ability: ["Technician"],
+        evolution: evolutionFamilies.marshadow
     },
     {
         name: "Poipole",
@@ -14454,7 +16669,8 @@ let nationalDex = {
         metricWeight: 1.8,
         dexEntry: "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
         cryUrl: "cries/803.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.poipole
     },
     {
         name: "Naganadel",
@@ -14472,7 +16688,8 @@ let nationalDex = {
         metricWeight: 150.0,
         dexEntry: "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
         cryUrl: "cries/804.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.poipole
     },
     {
         name: "Stakataka",
@@ -14490,7 +16707,8 @@ let nationalDex = {
         metricWeight: 820.0,
         dexEntry: "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
         cryUrl: "cries/805.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.stakataka
     },
     {
         name: "Blacephalon",
@@ -14508,7 +16726,8 @@ let nationalDex = {
         metricWeight: 13.0,
         dexEntry: "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.",
         cryUrl: "cries/806.mp3",
-        ability: ["Beast Boost"]
+        ability: ["Beast Boost"],
+        evolution: evolutionFamilies.blacephalon
     },
     {
         name: "Zeraora",
@@ -14526,7 +16745,8 @@ let nationalDex = {
         metricWeight: 44.5,
         dexEntry: "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.",
         cryUrl: "cries/807.mp3",
-        ability: ["Volt Absorb"]
+        ability: ["Volt Absorb"],
+        evolution: evolutionFamilies.zeraora
     },
     {
         name: "Meltan",
@@ -14544,7 +16764,8 @@ let nationalDex = {
         metricWeight: 8.0,
         dexEntry: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
         cryUrl: "cries/808.mp3",
-        ability: ["Magnet Pull"]
+        ability: ["Magnet Pull"],
+        evolution: evolutionFamilies.meltan
     },
     {
         name: "Melmetal",
@@ -14562,7 +16783,8 @@ let nationalDex = {
         metricWeight: 800.0,
         dexEntry: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
         cryUrl: "cries/809.mp3",
-        ability: ["Iron Fist"]
+        ability: ["Iron Fist"],
+        evolution: evolutionFamilies.meltan
     },
     {
         name: "Grookey",
@@ -14580,7 +16802,8 @@ let nationalDex = {
         metricWeight: 5.0,
         dexEntry: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
         cryUrl: "cries/810.mp3",
-        ability: ["Overgrow", "Grassy Surge"]
+        ability: ["Overgrow", "Grassy Surge"],
+        evolution: evolutionFamilies.grookey
     },
     {
         name: "Thwackey",
@@ -14598,7 +16821,8 @@ let nationalDex = {
         metricWeight: 14.0,
         dexEntry: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
         cryUrl: "cries/811.mp3",
-        ability: ["Overgrow", "Grassy Surge"]
+        ability: ["Overgrow", "Grassy Surge"],
+        evolution: evolutionFamilies.grookey
     },
     {
         name: "Rillaboom",
@@ -14616,7 +16840,8 @@ let nationalDex = {
         metricWeight: 90.0,
         dexEntry: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
         cryUrl: "cries/812.mp3",
-        ability: ["Overgrow", "Grassy Surge"]
+        ability: ["Overgrow", "Grassy Surge"],
+        evolution: evolutionFamilies.grookey
     },
     {
         name: "Scorbunny",
@@ -14634,7 +16859,8 @@ let nationalDex = {
         metricWeight: 4.5,
         dexEntry: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
         cryUrl: "cries/813.mp3",
-        ability: ["Blaze", "Libero"]
+        ability: ["Blaze", "Libero"],
+        evolution: evolutionFamilies.scorbunny
     },
     {
         name: "Raboot",
@@ -14652,7 +16878,8 @@ let nationalDex = {
         metricWeight: 9.0,
         dexEntry: "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves.",
         cryUrl: "cries/814.mp3",
-        ability: ["Blaze", "Libero"]
+        ability: ["Blaze", "Libero"],
+        evolution: evolutionFamilies.scorbunny
     },
     {
         name: "Cinderace",
@@ -14670,7 +16897,8 @@ let nationalDex = {
         metricWeight: 33.0,
         dexEntry: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
         cryUrl: "cries/815.mp3",
-        ability: ["Blaze", "Libero"]
+        ability: ["Blaze", "Libero"],
+        evolution: evolutionFamilies.scorbunny
     },
     {
         name: "Sobble",
@@ -14688,7 +16916,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping.",
         cryUrl: "cries/816.mp3",
-        ability: ["Torrent", "Sniper"]
+        ability: ["Torrent", "Sniper"],
+        evolution: evolutionFamilies.sobble
     },
     {
         name: "Drizzile",
@@ -14706,7 +16935,8 @@ let nationalDex = {
         metricWeight: 11.5,
         dexEntry: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
         cryUrl: "cries/817.mp3",
-        ability: ["Torrent", "Sniper"]
+        ability: ["Torrent", "Sniper"],
+        evolution: evolutionFamilies.sobble
     },
     {
         name: "Inteleon",
@@ -14724,7 +16954,8 @@ let nationalDex = {
         metricWeight: 45.2,
         dexEntry: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
         cryUrl: "cries/818.mp3",
-        ability: ["Torrent", "Sniper"]
+        ability: ["Torrent", "Sniper"],
+        evolution: evolutionFamilies.sobble
     },
     {
         name: "Skwovet",
@@ -14742,7 +16973,8 @@ let nationalDex = {
         metricWeight: 2.5,
         dexEntry: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries.",
         cryUrl: "cries/819.mp3",
-        ability: ["Cheek Pouch", "Gluttony"]
+        ability: ["Cheek Pouch", "Gluttony"],
+        evolution: evolutionFamilies.skwovet
     },
     {
         name: "Greedent",
@@ -14760,7 +16992,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss.",
         cryUrl: "cries/820.mp3",
-        ability: ["Cheek Pouch", "Gluttony"]
+        ability: ["Cheek Pouch", "Gluttony"],
+        evolution: evolutionFamilies.skwovet
     },
     {
         name: "Rookidee",
@@ -14778,7 +17011,8 @@ let nationalDex = {
         metricWeight: 1.8,
         dexEntry: "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit.",
         cryUrl: "cries/821.mp3",
-        ability: ["Keen Eye", "Unnerve", "Big Pecks"]
+        ability: ["Keen Eye", "Unnerve", "Big Pecks"],
+        evolution: evolutionFamilies.rookidee
     },
     {
         name: "Corvisquire",
@@ -14796,7 +17030,8 @@ let nationalDex = {
         metricWeight: 16.0,
         dexEntry: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies.",
         cryUrl: "cries/822.mp3",
-        ability: ["Keen Eye", "Unnerve", "Big Pecks"]
+        ability: ["Keen Eye", "Unnerve", "Big Pecks"],
+        evolution: evolutionFamilies.rookidee
     },
     {
         name: "Corviknight",
@@ -14814,7 +17049,8 @@ let nationalDex = {
         metricWeight: 75.0,
         dexEntry: "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe.",
         cryUrl: "cries/823.mp3",
-        ability: ["Pressure", "Unnerve", "Mirror Armor"]
+        ability: ["Pressure", "Unnerve", "Mirror Armor"],
+        evolution: evolutionFamilies.rookidee
     },
     {
         name: "Blipbug",
@@ -14832,7 +17068,8 @@ let nationalDex = {
         metricWeight: 8.0,
         dexEntry: "A constant collector of information, this Pokémon is very smart. Very strong is what it isn't.",
         cryUrl: "cries/824.mp3",
-        ability: ["Swarm", "Compound Eyes", "Telepathy"]
+        ability: ["Swarm", "Compound Eyes", "Telepathy"],
+        evolution: evolutionFamilies.blipbug
     },
     {
         name: "Dottler",
@@ -14850,7 +17087,8 @@ let nationalDex = {
         metricWeight: 19.5,
         dexEntry: "It barely moves, but it's still alive. Hiding in its shell without food or water seems to have awakened its psychic powers.",
         cryUrl: "cries/825.mp3",
-        ability: ["Swarm", "Compound Eyes", "Telepathy"]
+        ability: ["Swarm", "Compound Eyes", "Telepathy"],
+        evolution: evolutionFamilies.blipbug
     },
     {
         name: "Orbeetle",
@@ -14868,7 +17106,8 @@ let nationalDex = {
         metricWeight: 40.8,
         dexEntry: "It's famous for its high level of intelligence, and the large size of its brain is proof that it also possesses immense psychic power.",
         cryUrl: "cries/826.mp3",
-        ability: ["Swarm", "Frisk", "Telepathy"]
+        ability: ["Swarm", "Frisk", "Telepathy"],
+        evolution: evolutionFamilies.blipbug
     },
     {
         name: "Nickit",
@@ -14886,7 +17125,8 @@ let nationalDex = {
         metricWeight: 8.9,
         dexEntry: "Aided by the soft pads on its feet, it silently raids the food stores of other Pokémon. It survives off its ill-gotten gains.",
         cryUrl: "cries/827.mp3",
-        ability: ["Run Away", "Unburden", "Stakeout"]
+        ability: ["Run Away", "Unburden", "Stakeout"],
+        evolution: evolutionFamilies.nickit
     },
     {
         name: "Thievul",
@@ -14904,7 +17144,8 @@ let nationalDex = {
         metricWeight: 19.9,
         dexEntry: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
         cryUrl: "cries/828.mp3",
-        ability: ["Run Away", "Unburden", "Stakeout"]
+        ability: ["Run Away", "Unburden", "Stakeout"],
+        evolution: evolutionFamilies.nickit
     },
     {
         name: "Gossifleur",
@@ -14922,7 +17163,8 @@ let nationalDex = {
         metricWeight: 2.2,
         dexEntry: "It anchors itself in the ground with its single leg, then basks in the sun. After absorbing enough sunlight, its petals spread as it blooms brilliantly.",
         cryUrl: "cries/829.mp3",
-        ability: ["Cotton Down", "Regenerator", "Effect Spore"]
+        ability: ["Cotton Down", "Regenerator", "Effect Spore"],
+        evolution: evolutionFamilies.gossifleur
     },
     {
         name: "Eldegoss",
@@ -14940,7 +17182,8 @@ let nationalDex = {
         metricWeight: 2.5,
         dexEntry: "The seeds attached to its cotton fluff are full of nutrients. It spreads them on the wind so that plants and other Pokémon can benefit from them.",
         cryUrl: "cries/830.mp3",
-        ability: ["Cotton Down", "Regenerator", "Effect Spore"]
+        ability: ["Cotton Down", "Regenerator", "Effect Spore"],
+        evolution: evolutionFamilies.gossifleur
     },
     {
         name: "Wooloo",
@@ -14958,7 +17201,8 @@ let nationalDex = {
         metricWeight: 6.0,
         dexEntry: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
         cryUrl: "cries/831.mp3",
-        ability: ["Fluffy", "Run Away", "Bulletproof"]
+        ability: ["Fluffy", "Run Away", "Bulletproof"],
+        evolution: evolutionFamilies.wooloo
     },
     {
         name: "Dubwool",
@@ -14976,7 +17220,8 @@ let nationalDex = {
         metricWeight: 43.0,
         dexEntry: "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You'll start to bounce the moment you set foot on it.",
         cryUrl: "cries/832.mp3",
-        ability: ["Fluffy", "Steadfast", "Bulletproof"]
+        ability: ["Fluffy", "Steadfast", "Bulletproof"],
+        evolution: evolutionFamilies.wooloo
     },
     {
         name: "Chewtle",
@@ -14994,7 +17239,8 @@ let nationalDex = {
         metricWeight: 8.5,
         dexEntry: "Apparently the itch of its teething impels it to snap its jaws at anything in front of it.",
         cryUrl: "cries/833.mp3",
-        ability: ["Strong Jaw", "Shell Armor", "Swift Swim"]
+        ability: ["Strong Jaw", "Shell Armor", "Swift Swim"],
+        evolution: evolutionFamilies.chewtle
     },
     {
         name: "Drednaw",
@@ -15012,7 +17258,8 @@ let nationalDex = {
         metricWeight: 115.5,
         dexEntry: "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey.",
         cryUrl: "cries/834.mp3",
-        ability: ["Strong Jaw", "Shell Armor", "Swift Swim"]
+        ability: ["Strong Jaw", "Shell Armor", "Swift Swim"],
+        evolution: evolutionFamilies.chewtle
     },
     {
         name: "Yamper",
@@ -15030,7 +17277,8 @@ let nationalDex = {
         metricWeight: 13.5,
         dexEntry: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail.",
         cryUrl: "cries/835.mp3",
-        ability: ["Ball Fetch", "Rattled"]
+        ability: ["Ball Fetch", "Rattled"],
+        evolution: evolutionFamilies.yamper
     },
     {
         name: "Boltund",
@@ -15048,7 +17296,8 @@ let nationalDex = {
         metricWeight: 34.0,
         dexEntry: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
         cryUrl: "cries/836.mp3",
-        ability: ["Strong Jaw", "Competitive"]
+        ability: ["Strong Jaw", "Competitive"],
+        evolution: evolutionFamilies.yamper
     },
     {
         name: "Rolycoly",
@@ -15066,7 +17315,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
         cryUrl: "cries/837.mp3",
-        ability: ["Steam Engine", "Heatproof", "Flash Fire"]
+        ability: ["Steam Engine", "Heatproof", "Flash Fire"],
+        evolution: evolutionFamilies.rolycoly
     },
     {
         name: "Carkol",
@@ -15084,7 +17334,8 @@ let nationalDex = {
         metricWeight: 78.0,
         dexEntry: "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region.",
         cryUrl: "cries/838.mp3",
-        ability: ["Steam Engine", "Flame Body", "Flash Fire"]
+        ability: ["Steam Engine", "Flame Body", "Flash Fire"],
+        evolution: evolutionFamilies.rolycoly
     },
     {
         name: "Coalossal",
@@ -15102,7 +17353,8 @@ let nationalDex = {
         metricWeight: 310.5,
         dexEntry: "It's usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit.",
         cryUrl: "cries/839.mp3",
-        ability: ["Steam Engine", "Flame Body", "Flash Fire"]
+        ability: ["Steam Engine", "Flame Body", "Flash Fire"],
+        evolution: evolutionFamilies.rolycoly
     },
     {
         name: "Applin",
@@ -15120,7 +17372,8 @@ let nationalDex = {
         metricWeight: 0.5,
         dexEntry: "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more.",
         cryUrl: "cries/840.mp3",
-        ability: ["Ripen", "Gluttony", "Bulletproof"]
+        ability: ["Ripen", "Gluttony", "Bulletproof"],
+        evolution: evolutionFamilies.applin
     },
     {
         name: "Flapple",
@@ -15138,7 +17391,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
         cryUrl: "cries/841.mp3",
-        ability: ["Ripen", "Gluttony", "Hustle"]
+        ability: ["Ripen", "Gluttony", "Hustle"],
+        evolution: evolutionFamilies.applin
     },
     {
         name: "Appletun",
@@ -15156,7 +17410,8 @@ let nationalDex = {
         metricWeight: 13.0,
         dexEntry: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on.",
         cryUrl: "cries/842.mp3",
-        ability: ["Ripen", "Gluttony", "Thick Fat"]
+        ability: ["Ripen", "Gluttony", "Thick Fat"],
+        evolution: evolutionFamilies.applin
     },
     {
         name: "Silicobra",
@@ -15174,7 +17429,8 @@ let nationalDex = {
         metricWeight: 7.6,
         dexEntry: "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand.",
         cryUrl: "cries/843.mp3",
-        ability: ["Sand Spit", "Shed Skin", "Sand Veil"]
+        ability: ["Sand Spit", "Shed Skin", "Sand Veil"],
+        evolution: evolutionFamilies.silicobra
     },
     {
         name: "Sandaconda",
@@ -15192,7 +17448,8 @@ let nationalDex = {
         metricWeight: 65.5,
         dexEntry: "When it contracts its body, over 220 pounds of sand sprays from its nose. If it ever runs out of sand, it becomes disheartened.",
         cryUrl: "cries/844.mp3",
-        ability: ["Sand Spit", "Shed Skin", "Sand Veil"]
+        ability: ["Sand Spit", "Shed Skin", "Sand Veil"],
+        evolution: evolutionFamilies.silicobra
     },
     {
         name: "Cramorant",
@@ -15210,7 +17467,8 @@ let nationalDex = {
         metricWeight: 18.0,
         dexEntry: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.",
         cryUrl: "cries/845.mp3",
-        ability: ["Gulp Missile"]
+        ability: ["Gulp Missile"],
+        evolution: evolutionFamilies.cramorant
     },
     {
         name: "Arrokuda",
@@ -15228,7 +17486,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw.",
         cryUrl: "cries/846.mp3",
-        ability: ["Swift Swim", "Propeller Tail"]
+        ability: ["Swift Swim", "Propeller Tail"],
+        evolution: evolutionFamilies.arrokuda
     },
     {
         name: "Barraskewda",
@@ -15246,7 +17505,8 @@ let nationalDex = {
         metricWeight: 30.0,
         dexEntry: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too.",
         cryUrl: "cries/847.mp3",
-        ability: ["Swift Swim", "Propeller Tail"]
+        ability: ["Swift Swim", "Propeller Tail"],
+        evolution: evolutionFamilies.arrokuda
     },
     {
         name: "Toxel",
@@ -15264,7 +17524,8 @@ let nationalDex = {
         metricWeight: 11.0,
         dexEntry: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows.",
         cryUrl: "cries/848.mp3",
-        ability: ["Rattled", "Static", "Klutz"]
+        ability: ["Rattled", "Static", "Klutz"],
+        evolution: evolutionFamilies.toxel
     },
     {
         name: "Toxtricity",
@@ -15282,7 +17543,8 @@ let nationalDex = {
         metricWeight: 40.0,
         dexEntry: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
         cryUrl: "cries/849.mp3",
-        ability: ["Punk Rock", "Plus", "Technician"]
+        ability: ["Punk Rock", "Plus", "Technician"],
+        evolution: evolutionFamilies.toxel
     },
     {
         name: "Sizzlipede",
@@ -15300,7 +17562,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
         cryUrl: "cries/850.mp3",
-        ability: ["Flash Fire", "White Smoke", "Flame Body"]
+        ability: ["Flash Fire", "White Smoke", "Flame Body"],
+        evolution: evolutionFamilies.sizzlipede
     },
     {
         name: "Centiskorch",
@@ -15318,7 +17581,8 @@ let nationalDex = {
         metricWeight: 120.0,
         dexEntry: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
         cryUrl: "cries/851.mp3",
-        ability: ["Flash Fire", "White Smoke", "Flame Body"]
+        ability: ["Flash Fire", "White Smoke", "Flame Body"],
+        evolution: evolutionFamilies.sizzlipede
     },
     {
         name: "Clobbopus",
@@ -15336,7 +17600,8 @@ let nationalDex = {
         metricWeight: 4.0,
         dexEntry: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
         cryUrl: "cries/852.mp3",
-        ability: ["Limber", "Technician"]
+        ability: ["Limber", "Technician"],
+        evolution: evolutionFamilies.clobbopus
     },
     {
         name: "Grapploct",
@@ -15354,7 +17619,8 @@ let nationalDex = {
         metricWeight: 39.0,
         dexEntry: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
         cryUrl: "cries/853.mp3",
-        ability: ["Limber", "Technician"]
+        ability: ["Limber", "Technician"],
+        evolution: evolutionFamilies.clobbopus
     },
     {
         name: "Sinistea",
@@ -15372,7 +17638,8 @@ let nationalDex = {
         metricWeight: 0.2,
         dexEntry: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea.",
         cryUrl: "cries/854.mp3",
-        ability: ["Weak Armor", "Cursed Body"]
+        ability: ["Weak Armor", "Cursed Body"],
+        evolution: evolutionFamilies.sinistea
     },
     {
         name: "Polteageist",
@@ -15390,7 +17657,8 @@ let nationalDex = {
         metricWeight: 0.4,
         dexEntry: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
         cryUrl: "cries/855.mp3",
-        ability: ["Weak Armor", "Cursed Body"]
+        ability: ["Weak Armor", "Cursed Body"],
+        evolution: evolutionFamilies.sinistea
     },
     {
         name: "Hatenna",
@@ -15408,7 +17676,8 @@ let nationalDex = {
         metricWeight: 3.4,
         dexEntry: "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you.",
         cryUrl: "cries/856.mp3",
-        ability: ["Healer", "Anticipation", "Magic Bounce"]
+        ability: ["Healer", "Anticipation", "Magic Bounce"],
+        evolution: evolutionFamilies.hatenna
     },
     {
         name: "Hattrem",
@@ -15426,7 +17695,8 @@ let nationalDex = {
         metricWeight: 4.8,
         dexEntry: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently.",
         cryUrl: "cries/857.mp3",
-        ability: ["Healer", "Anticipation", "Magic Bounce"]
+        ability: ["Healer", "Anticipation", "Magic Bounce"],
+        evolution: evolutionFamilies.hatenna
     },
     {
         name: "Hatterene",
@@ -15444,7 +17714,8 @@ let nationalDex = {
         metricWeight: 5.1,
         dexEntry: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others.",
         cryUrl: "cries/858.mp3",
-        ability: ["Healer", "Anticipation", "Magic Bounce"]
+        ability: ["Healer", "Anticipation", "Magic Bounce"],
+        evolution: evolutionFamilies.hatenna
     },
     {
         name: "Impidimp",
@@ -15462,7 +17733,8 @@ let nationalDex = {
         metricWeight: 5.5,
         dexEntry: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
         cryUrl: "cries/859.mp3",
-        ability: ["Prankster", "Frisk", "Pickpocket"]
+        ability: ["Prankster", "Frisk", "Pickpocket"],
+        evolution: evolutionFamilies.impidimp
     },
     {
         name: "Morgrem",
@@ -15480,7 +17752,8 @@ let nationalDex = {
         metricWeight: 12.5,
         dexEntry: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair.",
         cryUrl: "cries/860.mp3",
-        ability: ["Prankster", "Frisk", "Pickpocket"]
+        ability: ["Prankster", "Frisk", "Pickpocket"],
+        evolution: evolutionFamilies.impidimp
     },
     {
         name: "Grimmsnarl",
@@ -15498,7 +17771,8 @@ let nationalDex = {
         metricWeight: 61.0,
         dexEntry: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
         cryUrl: "cries/861.mp3",
-        ability: ["Prankster", "Frisk", "Pickpocket"]
+        ability: ["Prankster", "Frisk", "Pickpocket"],
+        evolution: evolutionFamilies.impidimp
     },
     {
         name: "Obstagoon",
@@ -15516,7 +17790,8 @@ let nationalDex = {
         metricWeight: 46.0,
         dexEntry: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct.",
         cryUrl: "cries/862.mp3",
-        ability: ["Reckless", "Guts", "Defiant"]
+        ability: ["Reckless", "Guts", "Defiant"],
+        evolution: evolutionFamilies.zigzagoon
     },
     {
         name: "Perrserker",
@@ -15534,7 +17809,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
         cryUrl: "cries/863.mp3",
-        ability: ["Battle Armor", "Tough Claws", "Steely Spirit"]
+        ability: ["Battle Armor", "Tough Claws", "Steely Spirit"],
+        evolution: evolutionFamilies.meowth
     },
     {
         name: "Cursola",
@@ -15552,7 +17828,8 @@ let nationalDex = {
         metricWeight: 0.4,
         dexEntry: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit.",
         cryUrl: "cries/864.mp3",
-        ability: ["Weak Armor", "Perish Body"]
+        ability: ["Weak Armor", "Perish Body"],
+        evolution: evolutionFamilies.corsola
     },
     {
         name: "Sirfetch'd",
@@ -15570,7 +17847,8 @@ let nationalDex = {
         metricWeight: 117.0,
         dexEntry: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat.",
         cryUrl: "cries/865.mp3",
-        ability: ["Steadfast", "Scrappy"]
+        ability: ["Steadfast", "Scrappy"],
+        evolution: evolutionFamilies.farfetchd
     },
     {
         name: "Mr. Rime",
@@ -15588,7 +17866,8 @@ let nationalDex = {
         metricWeight: 58.2,
         dexEntry: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
         cryUrl: "cries/866.mp3",
-        ability: ["Tangled Feet", "Screen Cleaner", "Ice Body"]
+        ability: ["Tangled Feet", "Screen Cleaner", "Ice Body"],
+        evolution: evolutionFamilies.mimejr
     },
     {
         name: "Runerigus",
@@ -15606,7 +17885,8 @@ let nationalDex = {
         metricWeight: 66.6,
         dexEntry: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
         cryUrl: "cries/867.mp3",
-        ability: ["Wandering Spirit"]
+        ability: ["Wandering Spirit"],
+        evolution: evolutionFamilies.yamask
     },
     {
         name: "Milcery",
@@ -15624,7 +17904,8 @@ let nationalDex = {
         metricWeight: 0.3,
         dexEntry: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream.",
         cryUrl: "cries/868.mp3",
-        ability: ["Sweet Veil", "Aroma Veil"]
+        ability: ["Sweet Veil", "Aroma Veil"],
+        evolution: evolutionFamilies.milcery
     },
     {
         name: "Alcremie",
@@ -15642,7 +17923,8 @@ let nationalDex = {
         metricWeight: 0.5,
         dexEntry: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
         cryUrl: "cries/869.mp3",
-        ability: ["Sweet Veil", "Aroma Veil"]
+        ability: ["Sweet Veil", "Aroma Veil"],
+        evolution: evolutionFamilies.milcery
     },
     {
         name: "Falinks",
@@ -15660,7 +17942,8 @@ let nationalDex = {
         metricWeight: 62.0,
         dexEntry: "Five of them are troopers, and one is the brass. The brass's orders are absolute.",
         cryUrl: "cries/870.mp3",
-        ability: ["Battle Armor", "Defiant"]
+        ability: ["Battle Armor", "Defiant"],
+        evolution: evolutionFamilies.falinks
     },
     {
         name: "Pincurchin",
@@ -15678,7 +17961,8 @@ let nationalDex = {
         metricWeight: 1.0,
         dexEntry: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
         cryUrl: "cries/871.mp3",
-        ability: ["Lightning Rod", "Electric Surge"]
+        ability: ["Lightning Rod", "Electric Surge"],
+        evolution: evolutionFamilies.pincurchin
     },
     {
         name: "Snom",
@@ -15696,7 +17980,8 @@ let nationalDex = {
         metricWeight: 3.8,
         dexEntry: "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
         cryUrl: "cries/872.mp3",
-        ability: ["Shield Dust", "Ice Scales"]
+        ability: ["Shield Dust", "Ice Scales"],
+        evolution: evolutionFamilies.snom
     },
     {
         name: "Frosmoth",
@@ -15714,7 +17999,8 @@ let nationalDex = {
         metricWeight: 42.0,
         dexEntry: "Icy scales fall from its wings like snow as it flies over fields and mountains. The temperature of its wings is less than -290 degrees Fahrenheit.",
         cryUrl: "cries/873.mp3",
-        ability: ["Shield Dust", "Ice Scales"]
+        ability: ["Shield Dust", "Ice Scales"],
+        evolution: evolutionFamilies.snom
     },
     {
         name: "Stonjourner",
@@ -15732,7 +18018,8 @@ let nationalDex = {
         metricWeight: 520.0,
         dexEntry: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
         cryUrl: "cries/874.mp3",
-        ability: ["Power Spot"]
+        ability: ["Power Spot"],
+        evolution: evolutionFamilies.stonjourner
     },
     {
         name: "Eiscue",
@@ -15750,7 +18037,8 @@ let nationalDex = {
         metricWeight: 89.0,
         dexEntry: "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold.",
         cryUrl: "cries/875.mp3",
-        ability: ["Ice Face"]
+        ability: ["Ice Face"],
+        evolution: evolutionFamilies.eiscue
     },
     {
         name: "Indeedee",
@@ -15768,7 +18056,8 @@ let nationalDex = {
         metricWeight: 28.0,
         dexEntry: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.",
         cryUrl: "cries/876.mp3",
-        ability: ["Inner Focus", "Synchronize", "Psychic Surge"]
+        ability: ["Inner Focus", "Synchronize", "Psychic Surge"],
+        evolution: evolutionFamilies.indeedee
     },
     {
         name: "Morpeko",
@@ -15786,7 +18075,8 @@ let nationalDex = {
         metricWeight: 3.0,
         dexEntry: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.",
         cryUrl: "cries/877.mp3",
-        ability: ["Hunger Switch"]
+        ability: ["Hunger Switch"],
+        evolution: evolutionFamilies.morpeko
     },
     {
         name: "Cufant",
@@ -15804,7 +18094,8 @@ let nationalDex = {
         metricWeight: 100.0,
         dexEntry: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all.",
         cryUrl: "cries/878.mp3",
-        ability: ["Sheer Force", "Heavy Metal"]
+        ability: ["Sheer Force", "Heavy Metal"],
+        evolution: evolutionFamilies.cufant
     },
     {
         name: "Copperajah",
@@ -15822,7 +18113,8 @@ let nationalDex = {
         metricWeight: 650.0,
         dexEntry: "They came over from another region long ago and worked together with humans. Their green skin is resistant to water.",
         cryUrl: "cries/879.mp3",
-        ability: ["Sheer Force", "Heavy Metal"]
+        ability: ["Sheer Force", "Heavy Metal"],
+        evolution: evolutionFamilies.cufant
     },
     {
         name: "Dracozolt",
@@ -15840,7 +18132,8 @@ let nationalDex = {
         metricWeight: 190.0,
         dexEntry: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
         cryUrl: "cries/880.mp3",
-        ability: ["Volt Absorb", "Hustle", "Sand Rush"]
+        ability: ["Volt Absorb", "Hustle", "Sand Rush"],
+        evolution: evolutionFamilies.dracozolt
     },
     {
         name: "Arctozolt",
@@ -15858,7 +18151,8 @@ let nationalDex = {
         metricWeight: 150.0,
         dexEntry: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
         cryUrl: "cries/881.mp3",
-        ability: ["Volt Absorb", "Static", "Slush Rush"]
+        ability: ["Volt Absorb", "Static", "Slush Rush"],
+        evolution: evolutionFamilies.arctozolt
     },
     {
         name: "Dracovish",
@@ -15876,7 +18170,8 @@ let nationalDex = {
         metricWeight: 215.0,
         dexEntry: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
         cryUrl: "cries/882.mp3",
-        ability: ["Water Absorb", "Strong Jaw", "Sand Rush"]
+        ability: ["Water Absorb", "Strong Jaw", "Sand Rush"],
+        evolution: evolutionFamilies.dracovish
     },
     {
         name: "Arctovish",
@@ -15894,7 +18189,8 @@ let nationalDex = {
         metricWeight: 175.0,
         dexEntry: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head.",
         cryUrl: "cries/883.mp3",
-        ability: ["Water Absorb", "Ice Body", "Slush Rush"]
+        ability: ["Water Absorb", "Ice Body", "Slush Rush"],
+        evolution: evolutionFamilies.arctovish
     },
     {
         name: "Duraludon",
@@ -15912,7 +18208,8 @@ let nationalDex = {
         metricWeight: 40.0,
         dexEntry: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
         cryUrl: "cries/884.mp3",
-        ability: ["Light Metal", "Heavy Metal", "Stalwart"]
+        ability: ["Light Metal", "Heavy Metal", "Stalwart"],
+        evolution: evolutionFamilies.duraludon
     },
     {
         name: "Dreepy",
@@ -15930,7 +18227,8 @@ let nationalDex = {
         metricWeight: 2.0,
         dexEntry: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
         cryUrl: "cries/885.mp3",
-        ability: ["Clear Body", "Infiltrator", "Cursed Body"]
+        ability: ["Clear Body", "Infiltrator", "Cursed Body"],
+        evolution: evolutionFamilies.dreepy
     },
     {
         name: "Drakloak",
@@ -15948,7 +18246,8 @@ let nationalDex = {
         metricWeight: 11.0,
         dexEntry: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
         cryUrl: "cries/886.mp3",
-        ability: ["Clear Body", "Infiltrator", "Cursed Body"]
+        ability: ["Clear Body", "Infiltrator", "Cursed Body"],
+        evolution: evolutionFamilies.dreepy
     },
     {
         name: "Dragapult",
@@ -15966,7 +18265,8 @@ let nationalDex = {
         metricWeight: 50.0,
         dexEntry: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
         cryUrl: "cries/887.mp3",
-        ability: ["Clear Body", "Infiltrator", "Cursed Body"]
+        ability: ["Clear Body", "Infiltrator", "Cursed Body"],
+        evolution: evolutionFamilies.dreepy
     },
     {
         name: "Zacian",
@@ -15984,7 +18284,8 @@ let nationalDex = {
         metricWeight: 355.0,
         dexEntry: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
         cryUrl: "cries/888.mp3",
-        ability: ["Intrepid Sword"]
+        ability: ["Intrepid Sword"],
+        evolution: evolutionFamilies.zacian
     },
     {
         name: "Zamazenta",
@@ -16002,7 +18303,8 @@ let nationalDex = {
         metricWeight: 785.0,
         dexEntry: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
         cryUrl: "cries/889.mp3",
-        ability: ["Dauntless Shield"]
+        ability: ["Dauntless Shield"],
+        evolution: evolutionFamilies.zamazenta
     },
     {
         name: "Eternatus",
@@ -16020,7 +18322,8 @@ let nationalDex = {
         metricWeight: 950.0,
         dexEntry: "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
         cryUrl: "cries/890.mp3",
-        ability: ["Pressure"]
+        ability: ["Pressure"],
+        evolution: evolutionFamilies.eternatus
     },
     {
         name: "Kubfu",
@@ -16038,7 +18341,8 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.",
         cryUrl: "cries/891.mp3",
-        ability: ["Inner Focus"]
+        ability: ["Inner Focus"],
+        evolution: evolutionFamilies.kubfu
     },
     {
         name: "Urshifu",
@@ -16056,7 +18360,8 @@ let nationalDex = {
         metricWeight: 105.0,
         dexEntry: "This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.",
         cryUrl: "cries/892.mp3",
-        ability: ["Unseen Fist"]
+        ability: ["Unseen Fist"],
+        evolution: evolutionFamilies.kubfu
     },
     {
         name: "Zarude",
@@ -16074,7 +18379,8 @@ let nationalDex = {
         metricWeight: 70.0,
         dexEntry: "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
         cryUrl: "cries/893.mp3",
-        ability: ["Leaf Guard"]
+        ability: ["Leaf Guard"],
+        evolution: evolutionFamilies.zarude
     },
     {
         name: "Regieleki",
@@ -16092,7 +18398,8 @@ let nationalDex = {
         metricWeight: 145.0,
         dexEntry: "This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.",
         cryUrl: "cries/894.mp3",
-        ability: ["Transistor"]
+        ability: ["Transistor"],
+        evolution: evolutionFamilies.regieleki
     },
     {
         name: "Regidrago",
@@ -16110,7 +18417,8 @@ let nationalDex = {
         metricWeight: 200.0,
         dexEntry: "An academic theory proposes that Regidrago's arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
         cryUrl: "cries/895.mp3",
-        ability: ["Dragon's Maw"]
+        ability: ["Dragon's Maw"],
+        evolution: evolutionFamilies.regidrago
     },
     {
         name: "Glastrier",
@@ -16128,7 +18436,8 @@ let nationalDex = {
         metricWeight: 800.0,
         dexEntry: "Glastrier emits intense cold from its hooves. It's also a belligerent Pokémon—anything it wants, it takes by force.",
         cryUrl: "cries/896.mp3",
-        ability: ["Chilling Neigh"]
+        ability: ["Chilling Neigh"],
+        evolution: evolutionFamilies.glastrier
     },
     {
         name: "Spectrier",
@@ -16146,7 +18455,8 @@ let nationalDex = {
         metricWeight: 44.5,
         dexEntry: "It probes its surroundings with all its senses save one—it doesn't use its sense of sight. Spectrier's kicks are said to separate soul from body.",
         cryUrl: "cries/897.mp3",
-        ability: ["Grim Neigh"]
+        ability: ["Grim Neigh"],
+        evolution: evolutionFamilies.spectrier
     },
     {
         name: "Calyrex",
@@ -16164,7 +18474,8 @@ let nationalDex = {
         metricWeight: 7.7,
         dexEntry: "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
         cryUrl: "cries/898.mp3",
-        ability: ["Unnerve"]
+        ability: ["Unnerve"],
+        evolution: evolutionFamilies.calyrex
     },
     {
         name: "Wyrdeer",
@@ -16182,7 +18493,8 @@ let nationalDex = {
         metricWeight: 95.1,
         dexEntry: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
         cryUrl: "cries/899.mp3",
-        ability: ["Intimidate", "Frisk", "Sap Sipper"]
+        ability: ["Intimidate", "Frisk", "Sap Sipper"],
+        evolution: evolutionFamilies.stantler
     },
     {
         name: "Kleavor",
@@ -16200,7 +18512,8 @@ let nationalDex = {
         metricWeight: 89.0,
         dexEntry: "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
         cryUrl: "cries/900.mp3",
-        ability: ["Swarm", "Sheer Force", "Steadfast"]
+        ability: ["Swarm", "Sheer Force", "Steadfast"],
+        evolution: evolutionFamilies.scyther
     },
     {
         name: "Ursaluna",
@@ -16218,7 +18531,8 @@ let nationalDex = {
         metricWeight: 290.0,
         dexEntry: "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
         cryUrl: "cries/901.mp3",
-        ability: ["Guts", "Bulletproof", "Unnerve"]
+        ability: ["Guts", "Bulletproof", "Unnerve"],
+        evolution: evolutionFamilies.teddiursa
     },
     {
         name: "Basculegion",
@@ -16236,7 +18550,8 @@ let nationalDex = {
         metricWeight: 110.0,
         dexEntry: "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
         cryUrl: "cries/902.mp3",
-        ability: ["Rattled", "Adaptability", "Mold Breaker"]
+        ability: ["Rattled", "Adaptability", "Mold Breaker"],
+        evolution: evolutionFamilies.basculin
     },
     {
         name: "Sneasler",
@@ -16254,7 +18569,8 @@ let nationalDex = {
         metricWeight: 43.0,
         dexEntry: "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
         cryUrl: "cries/903.mp3",
-        ability: ["Pressure", "Poison Touch"]
+        ability: ["Pressure", "Poison Touch"],
+        evolution: evolutionFamilies.sneasel
     },
     {
         name: "Overqwil",
@@ -16272,7 +18588,8 @@ let nationalDex = {
         metricWeight: 60.5,
         dexEntry: "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself.",
         cryUrl: "cries/904.mp3",
-        ability: ["Poison Point", "Swift Swim", "Intimidate"]
+        ability: ["Poison Point", "Swift Swim", "Intimidate"],
+        evolution: evolutionFamilies.qwilfish
     },
     {
         name: "Enamorus",
@@ -16290,7 +18607,8 @@ let nationalDex = {
         metricWeight: 48.0,
         dexEntry: "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
         cryUrl: "cries/905.mp3",
-        ability: ["Healer", "Contrary"]
+        ability: ["Healer", "Contrary"],
+        evolution: evolutionFamilies.enamorus
     }
 ]
 }
@@ -16361,6 +18679,8 @@ let dexRender = (pokedex) => {
         pokemonAbility.append("Ability: " , abilityFormat)
         let showDexEntry = document.createElement("button")
         showDexEntry.append("Pokédex Entry")
+        let showEvolution = document.createElement("button")
+        showEvolution.append("Evolution")
         let playCry = document.createElement("button")
         playCry.append("Cry")
         let favoritePokemon = document.createElement("button")
@@ -16419,6 +18739,14 @@ favoritePokemon.addEventListener("click", favorite)
             alert(nationalDex.nationalPokedex[indexEntry].name + ": " + nationalDex.nationalPokedex[indexEntry].dexEntry)
     }
 
+    showEvolution.addEventListener("click", showFamily)
+    function showFamily(event){
+        event.preventDefault()
+        let evolutionLine = (pocketMonster.evolution).toString()
+        let evolutionChart = evolutionLine.replace(/,/g, ", ")
+        alert(evolutionChart)
+    }
+
     playCry.addEventListener("click", playAudio)
     function playAudio(event){
         event.preventDefault()
@@ -16443,6 +18771,7 @@ favoritePokemon.addEventListener("click", favorite)
         divVariable.append(caughtPokemon)
         divVariable.append(pokemonCaught)
         divVariable.append(showDexEntry)
+        divVariable.append(showEvolution)
         divVariable.append(playCry)
         pokeball.append(divVariable)
     })
