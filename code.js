@@ -19978,7 +19978,12 @@ function isSearching() {
 function errors() {
     if ((nameId.toLowerCase() === "sprigatito") || 
     (nameId.toLowerCase() === "fuecoco") || 
-    (nameId.toLowerCase() === "quaxly")) {
+    (nameId.toLowerCase() === "quaxly") || 
+    (nameId.toLowerCase() === "pawmi") || 
+    (nameId.toLowerCase() === "lechonk") || 
+    (nameId.toLowerCase() === "smoliv") || 
+    (nameId.toLowerCase() === "koraidon") || 
+    (nameId.toLowerCase() === "miraidon")) {
         alert("Error: Gen 9 is not supported yet.")
     }
     else if (genId === "9") {
