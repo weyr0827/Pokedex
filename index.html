@@ -26,7 +26,27 @@
       <label for="number_input">Number</label>
       <input id="number_input" type="text" placeholder="number"/>
       <label for="type_input">Type</label>
-      <input id="type_input" type="text" placeholder="type"/>
+      <select name="type" id="type_input">
+        <option value=""></option>
+        <option value="normal">Normal</option>
+        <option value="fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="electric">Electric</option>
+        <option value="grass">Grass</option>
+        <option value="ice">Ice</option>
+        <option value="fighting">Fighting</option>
+        <option value="poison">Poison</option>
+        <option value="ground">Ground</option>
+        <option value="flying">Flying</option>
+        <option value="psychic">Psychic</option>
+        <option value="bug">Bug</option>
+        <option value="rock">Rock</option>
+        <option value="ghost">Ghost</option>
+        <option value="dragon">Dragon</option>
+        <option value="dark">Dark</option>
+        <option value="steel">Steel</option>
+        <option value="fairy">Fairy</option>
+      </select>
       </br>
       <label for="category_input">Category</label>
       <input id="category_input" type="text" placeholder="category"/>
@@ -42,9 +62,17 @@
       <label for="weight_input">Weight</label>
       <input id="weight_input" type="weight" placeholder="weight"/>
       <label for="favorites_input">Favorites</label>
-      <input id="favorites_input" type="favorites" placeholder="True or False"/>
+      <select name="favorites" id="favorites_input">
+        <option value=""></option>
+        <option value="true">Favorites</option>
+        <option value="false">Not Favorites</option>
+      </select>
       <label for="caught_input">Caught</label>
-      <input id="caught_input" type="caught" placeholder="True or False"/>
+      <select name="caught" id="caught_input">
+        <option value=""></option>
+        <option value="true">Caught</option>
+        <option value="false">Not Caught</option>
+      </select>
       <button id=searchButton>Search</button>
       </br>
       <button id="sortAlpha">Sort Alphabetically</button>
