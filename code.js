@@ -2649,7 +2649,7 @@ let nationalDex = {
         caught: false,
         metricHeight: 1.3,
         metricWeight: 54.0,
-        dexEntry: "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers",
+        dexEntry: "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.",
         cryUrl: "cries/062.mp3",
         ability: ["Water Absorb", "Damp", "Swift Swim"],
         evolution: evolutionFamilies.poliwag,

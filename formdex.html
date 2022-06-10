@@ -19,7 +19,14 @@
 
   <body style="text-align: center;">
     <h1>National Pokédex (Forms)</h1>
-    <a href="index.html">Return to Defaults</a>
+    <label for="game_select">Change Dex</label>
+    <select name="game" id="game_select" onchange="location = this.value;">
+      <option value="formdex.html">Alternate Forms</option>
+      <option value="index.html">National Dex</option>
+      <option value="red.html">Red</option>
+      <option value="blue.html">Blue</option>
+      <option value="yellow.html">Yellow</option>
+    </select>
     <div>
       <label for="name_input">Name</label>
       <input id="name_input" type="text" placeholder="name"/>
