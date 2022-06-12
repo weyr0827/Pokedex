@@ -34,9 +34,6 @@ let evolutionFamilies = {
     sandshrew: [
         "Sandshrew", "Sandslash"
     ],
-    sandshrew: [
-        "Sandshrew", "Sandslash"
-    ],
     nidoranf: [
         "Nidoran♀", "Nidorina", "Nidoqueen"
     ],
