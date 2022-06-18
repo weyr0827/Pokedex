@@ -9,7 +9,7 @@
     />
     
     <!-- Title Page-->
-    <title>Kanto Pokedex</title>
+    <title>Hoenn Pokedex</title>
 
     <!-- CSS-->
     <link href="style.css" rel="stylesheet" media="all" />
@@ -18,13 +18,14 @@
   </head>
 
   <body style="text-align: center;">
-    <h1 style="background-color: #1111ff; border: 5px solid darkblue; color: white; border-radius: 25px;">Pokémon Blue Version</h1>
+    <h1 style="background-color: #00a000; border: 5px solid darkblue; color: white; border-radius: 25px;">Pokémon Emerald Version</h1>
     <label for="game_select">Change Dex</label>
     <select name="game" id="game_select" onchange="location = this.value;">
-      <option value="blue.html">Blue</option>
+      <option value="emerald.html">Emerald</option>
       <option value="index.html">National Dex</option>
       <option value="formdex.html">Alternate Forms</option>
       <option value="red.html">Red</option>
+      <option value="blue.html">Blue</option>
       <option value="yellow.html">Yellow</option>
       <option value="gold.html">Gold</option>
       <option value="silver.html">Silver</option>
@@ -33,7 +34,6 @@
       <option value="sapphire.html">Sapphire</option>
       <option value="firered.html">FireRed</option>
       <option value="leafgreen.html">LeafGreen</option>
-      <option value="emerald.html">Emerald</option>
     </select>
     <div>
       <label for="name_input">Name</label>
@@ -58,6 +58,8 @@
         <option value="rock">Rock</option>
         <option value="ghost">Ghost</option>
         <option value="dragon">Dragon</option>
+        <option value="dark">Dark</option>
+        <option value="steel">Steel</option>
       </select>
       </br>
       <label for="category_input">Category</label>
@@ -97,6 +99,6 @@
     </div>
     <div id=container></div>
     <button id="morePkmn">More Pokémon</button>
-    <script src="blue.js"></script>
+    <script src="emerald.js"></script>
   </body>
 </html>
