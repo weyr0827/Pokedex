@@ -185,7 +185,7 @@ let evolutionFamilies = {
         "Magby", "Magmar", "Magmortar"
     ],
     pinsir: [
-        "Pinir"
+        "Pinsir"
     ],
     tauros: [
         "Tauros"
