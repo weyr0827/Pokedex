@@ -1022,7 +1022,7 @@ let evolutionFamilies = {
         "Furfrou"
     ],
     espurr: [
-        "Espurr"
+        "Espurr", "Meowstic"
     ],
     honedge: [
         "Honedge", "Doublade", "Aegislash"
