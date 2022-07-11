@@ -1374,7 +1374,7 @@ let nationalDex = {
         {
             name: "Purugly",
             imageUrl: "images/432Purugly.png",
-            number: "432",
+            number: "077",
             type: ["Normal"],
             category: "Tiger Cat",
             region: "Sinnoh",
