@@ -19979,6 +19979,8 @@ function errors() {
     (nameId.toLowerCase() === "pawmi") || 
     (nameId.toLowerCase() === "lechonk") || 
     (nameId.toLowerCase() === "smoliv") || 
+    (nameId.toLowerCase() === "fidough") || 
+    (nameId.toLowerCase() === "cetitan") || 
     (nameId.toLowerCase() === "koraidon") || 
     (nameId.toLowerCase() === "miraidon")) {
         alert("Error: Gen 9 is not supported yet.")
@@ -19997,6 +19999,9 @@ function errors() {
     }
     else if (numberId === "000") {
         alert("Error: MissingNo.")
+    }
+    else if (regionId.toLowerCase() === "paldea") {
+        alert("Error: Gen 9 is not supported yet.")
     }
     else if (regionId.toLowerCase() === "hyrule") {
         alert("Error: It's dangerous to go alone.  Take this.")
