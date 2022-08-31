@@ -19981,6 +19981,8 @@ function errors() {
     (nameId.toLowerCase() === "smoliv") || 
     (nameId.toLowerCase() === "fidough") || 
     (nameId.toLowerCase() === "cetitan") || 
+    (nameId.toLowerCase() === "cyclizar") || 
+    (nameId.toLowerCase() === "grafaiai") || 
     (nameId.toLowerCase() === "koraidon") || 
     (nameId.toLowerCase() === "miraidon")) {
         alert("Error: Gen 9 is not supported yet.")
