@@ -12888,7 +12888,7 @@ let nationalDex = {
         metricWeight: 5.8,
         dexEntry: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
         cryUrl: "cries/574.mp3",
-        ability: ["Frisk", "Competetive", "Shadow Tag"],
+        ability: ["Frisk", "Competitive", "Shadow Tag"],
         evolution: evolutionFamilies.gothita,
         japaneseName: "Gothimu"
     },
@@ -12908,7 +12908,7 @@ let nationalDex = {
         metricWeight: 18.0,
         dexEntry: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
         cryUrl: "cries/575.mp3",
-        ability: ["Frisk", "Competetive", "Shadow Tag"],
+        ability: ["Frisk", "Competitive", "Shadow Tag"],
         evolution: evolutionFamilies.gothita,
         japaneseName: "Gothimiru"
     },
@@ -12928,7 +12928,7 @@ let nationalDex = {
         metricWeight: 44.0,
         dexEntry: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
         cryUrl: "cries/576.mp3",
-        ability: ["Frisk", "Competetive", "Shadow Tag"],
+        ability: ["Frisk", "Competitive", "Shadow Tag"],
         evolution: evolutionFamilies.gothita,
         japaneseName: "Gothiruselle"
     },
