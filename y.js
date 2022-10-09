@@ -5426,7 +5426,7 @@ let nationalDex = {
             imageUrl: "images/594Alomomola.png",
             number: "Co149",
             type: ["Water"],
-            category: "Floating",
+            category: "Caring",
             region: "Unova",
             generation: "5",
             height: "3'11\"",
