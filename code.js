@@ -12137,7 +12137,7 @@ let nationalDex = {
         imageUrl: "images/537Seismitoad.png",
         number: "537",
         type: ["Water", "Ground"],
-        category: "Tadpole",
+        category: "Vibration",
         region: "Unova",
         generation: "5",
         height: "4'11\"",
@@ -19566,6 +19566,9 @@ let dexRender = (pokedex) => {
             else if (pocketMonster.generation === "8"){
                 return "VIII"
             }
+            else if (pocketMonster.generation === "9"){
+                return "IX"
+            }
         }
         let romanNumeral = romanGen()
         
@@ -19983,6 +19986,10 @@ function errors() {
     (nameId.toLowerCase() === "cetitan") || 
     (nameId.toLowerCase() === "cyclizar") || 
     (nameId.toLowerCase() === "grafaiai") || 
+    (nameId.toLowerCase() === "armarouge") || 
+    (nameId.toLowerCase() === "ceruledge") || 
+    (nameId.toLowerCase() === "klawf") || 
+    (nameId.toLowerCase() === "wiglett") || 
     (nameId.toLowerCase() === "koraidon") || 
     (nameId.toLowerCase() === "miraidon")) {
         alert("Error: Gen 9 is not supported yet.")

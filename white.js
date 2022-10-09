@@ -782,7 +782,7 @@ let nationalDex = {
             imageUrl: "images/537Seismitoad.png",
             number: "043",
             type: ["Water", "Ground"],
-            category: "Tadpole",
+            category: "Vibration",
             region: "Unova",
             generation: "5",
             height: "4'11\"",
