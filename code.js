@@ -8548,7 +8548,7 @@ let nationalDex = {
         metricWeight: 100.0,
         dexEntry: "The bunches of fruit around Tropius's neck are very popular with children. This Pokémon loves fruit, and eats it continuously. Apparently, its love for fruit resulted in its own outgrowth of fruit.",
         cryUrl: "cries/357.mp3",
-        ability: ["Chlorophyll", "Soloar Power", "Harvest"],
+        ability: ["Chlorophyll", "Solar Power", "Harvest"],
         evolution: evolutionFamilies.tropius,
         japaneseName: "Tropius"
     },
