@@ -5248,7 +5248,7 @@ let nationalDex = {
             category: "Prism",
             region: "Alola",
             generation: "7",
-            height: "12'07\"",
+            height: "12'06\"",
             weight: "1014.1 lbs.",
             favorites: false,
             caught: false,
