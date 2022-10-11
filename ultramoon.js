@@ -1200,7 +1200,7 @@ let nationalDex = {
             region: "Kanto",
             generation: "1",
             height: "5'03\"",
-            weight: "71.4 lbs.",
+            weight: "166.7 lbs.",
             favorites: false,
             caught: false,
             metricHeight: 1.6,
