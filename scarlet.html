@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    
+    <!-- Title Page-->
+    <title>Paldea Pokedex</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">  
+  </head>
+
+  <body style="text-align: center;">
+    <h1 style="background-color: #f34134; border: 5px solid darkblue; color: white; border-radius: 25px;">Pokémon Scarlet</h1>
+    <label for="game_select">Change Dex</label>
+    <select name="game" id="game_select" onchange="location = this.value;">
+      <option value="scarlet.html">Scarlet</option>
+      <option value="index.html">National Dex</option>
+      <option value="formdex.html">Alternate Forms</option>
+      <option value="home.html">HOME</option>
+      <option value="red.html">Red</option>
+      <option value="blue.html">Blue</option>
+      <option value="yellow.html">Yellow</option>
+      <option value="gold.html">Gold</option>
+      <option value="silver.html">Silver</option>
+      <option value="crystal.html">Crystal</option>
+      <option value="ruby.html">Ruby</option>
+      <option value="sapphire.html">Sapphire</option>
+      <option value="firered.html">FireRed</option>
+      <option value="leafgreen.html">LeafGreen</option>
+      <option value="emerald.html">Emerald</option>
+      <option value="diamond.html">Diamond</option>
+      <option value="pearl.html">Pearl</option>
+      <option value="platinum.html">Platinum</option>
+      <option value="heartgold.html">HeartGold</option>
+      <option value="soulsilver.html">SoulSilver</option>
+      <option value="black.html">Black</option>
+      <option value="white.html">White</option>
+      <option value="black2.html">Black 2</option>
+      <option value="white2.html">White 2</option>
+      <option value="x.html">X</option>
+      <option value="y.html">Y</option>
+      <option value="omegaruby.html">Omega Ruby</option>
+      <option value="alphasapphire.html">Alpha Sapphire</option>
+      <option value="sun.html">Sun</option>
+      <option value="moon.html">Moon</option>
+      <option value="ultrasun.html">Ultra Sun</option>
+      <option value="ultramoon.html">Ultra Moon</option>
+      <option value="letsgopikachu.html">Let's Go, Pikachu!</option>
+      <option value="letsgoeevee.html">Let's Go, Eevee!</option>
+      <option value="sword.html">Sword</option>
+      <option value="shield.html">Shield</option>
+      <option value="isleofarmor.html">Isle of Armor</option>
+      <option value="crowntundra.html">Crown Tundra</option>
+      <option value="brilliantdiamond.html">Brilliant Diamond</option>
+      <option value="shiningpearl.html">Shining Pearl</option>
+      <option value="legendsarceus.html">Legends: Arceus</option>
+      <option value="violet.html">Violet</option>
+    </select>
+    <div>
+      <label for="name_input">Name</label>
+      <input id="name_input" type="text" placeholder="name"/>
+      <label for="number_input">Number</label>
+      <input id="number_input" type="text" placeholder="number"/>
+      <label for="type_input">Type</label>
+      <select name="type" id="type_input">
+        <option value=""></option>
+        <option value="normal">Normal</option>
+        <option value="fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="electric">Electric</option>
+        <option value="grass">Grass</option>
+        <option value="ice">Ice</option>
+        <option value="fighting">Fighting</option>
+        <option value="poison">Poison</option>
+        <option value="ground">Ground</option>
+        <option value="flying">Flying</option>
+        <option value="psychic">Psychic</option>
+        <option value="bug">Bug</option>
+        <option value="rock">Rock</option>
+        <option value="ghost">Ghost</option>
+        <option value="dragon">Dragon</option>
+        <option value="dark">Dark</option>
+        <option value="steel">Steel</option>
+        <option value="fairy">Fairy</option>
+      </select>
+      </br>
+      <label for="category_input">Category</label>
+      <input id="category_input" type="text" placeholder="category"/>
+      <label for="region_input">Region</label>
+      <input id="region_input" type="text" placeholder="region"/>
+      <label for="gen_input">Generation</label>
+      <input id="gen_input" type="text" placeholder="Gen #"/>
+      </br>
+      <label for="height_input">Height</label>
+      <input id="height_input" type="height" placeholder="height"/>
+      <label for="weight_input">Weight</label>
+      <input id="weight_input" type="weight" placeholder="weight"/>
+      <label for="favorites_input">Favorites</label>
+      <select name="favorites" id="favorites_input">
+        <option value=""></option>
+        <option value="true">Favorites</option>
+        <option value="false">Not Favorites</option>
+      </select>
+      <label for="caught_input">Caught</label>
+      <select name="caught" id="caught_input">
+        <option value=""></option>
+        <option value="true">Caught</option>
+        <option value="false">Not Caught</option>
+      </select>
+      <button id=searchButton>Search</button>
+      </br>
+      <button id="sortAlpha">Sort Alphabetically</button>
+      <button id="sortNum">Sort Numerically</button>
+      <button id="sortHeight">Sort by Height</button>
+      <button id="sortWeight">Sort by Weight</button>
+      </br>
+      <button id="saveFaves">Save Data</button>
+      <button id="loadFaves">Load Data</button>
+      <button id="percentCaught">Pokédex Completion</button>
+
+    </div>
+    <div id=container></div>
+    <button id="morePkmn">More Pokémon</button>
+    <script src="scarlet.js"></script>
+  </body>
+</html>

@@ -901,7 +901,7 @@ let nationalDex = {
             metricWeight: 95.1,
             dexEntry: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
             cryUrl: "cries/899.mp3",
-            japaneseName: "Aiashishi"
+            japaneseName: "Ayashishi"
         },
         {
             name: "Munchlax",
@@ -1531,7 +1531,7 @@ let nationalDex = {
             metricWeight: 60.5,
             dexEntry: "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself.",
             cryUrl: "cries/904.mp3",
-            japaneseName: "Harīman"
+            japaneseName: "Haryman"
         },
         {
             name: "Happiny",
@@ -3655,7 +3655,7 @@ let nationalDex = {
             metricWeight: 43.0,
             dexEntry: "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
             cryUrl: "cries/903.mp3",
-            japaneseName: "Oonyūra"
+            japaneseName: "Ohnyula"
         },
         {
             name: "Weavile",
@@ -4213,7 +4213,7 @@ let nationalDex = {
             metricWeight: 48.0,
             dexEntry: "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
             cryUrl: "cries/905.mp3",
-            japaneseName: "Rabutorosu"
+            japaneseName: "Lovetolos"
         },
         {
             name: "Dialga",
@@ -4412,6 +4412,9 @@ let dexRender = (pokedex) => {
             }
             else if (pocketMonster.generation === "8"){
                 return "VIII"
+            }
+            else if (pocketMonster.generation === "9"){
+                return "IX"
             }
         }
         let romanNumeral = romanGen()

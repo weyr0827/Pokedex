@@ -3693,6 +3693,9 @@ let dexRender = (pokedex) => {
             else if (pocketMonster.generation === "8"){
                 return "VIII"
             }
+            else if (pocketMonster.generation === "9"){
+                return "IX"
+            }
         }
         let romanNumeral = romanGen()
         

@@ -71,7 +71,7 @@ let evolutionFamilies = {
         "Psyduck", "Golduck"
     ],
     mankey: [
-        "Mankey", "Primeape"
+        "Mankey", "Primeape", "Annihilape"
     ],
     growlithe: [
         "Growlithe", "Arcanine"
@@ -287,7 +287,7 @@ let evolutionFamilies = {
         "Yanma", "Yanmega"
     ],
     wooper: [
-        "Wooper", "Quagsire"
+        "Wooper", "Quagsire", "Clodsire"
     ],
     murkrow: [
         "Murkrow", "Honchkrow"
@@ -302,13 +302,13 @@ let evolutionFamilies = {
         "Wynaut", "Wobbuffet"
     ],
     girafarig: [
-        "Girafarig"
+        "Girafarig", "Farigiraf"
     ],
     pineco: [
         "Pineco", "Forretress"
     ],
     dunsparce: [
-        "Dunsparce"
+        "Dunsparce", "Dudunsparce"
     ],
     gligar: [
         "Gligar", "Gliscor"
@@ -929,7 +929,7 @@ let evolutionFamilies = {
         "Golett", "Golurk"
     ],
     pawniard: [
-        "Pawniard", "Bisharp"
+        "Pawniard", "Bisharp", "Kingambit"
     ],
     bouffalant: [
         "Bouffalant"
@@ -1407,6 +1407,189 @@ let evolutionFamilies = {
     ],
     enamorus: [
         "Enamorus"
+    ],
+    sprigatito: [
+        "Sprigatito", "Floragato", "Meowscarada"
+    ],
+    fuecoco: [
+        "Fuecoco", "Crocalor", "Skeledirge"
+    ],
+    quaxly: [
+        "Quaxly", "Quaxwell", "Quaquaval"
+    ],
+    lechonk: [
+        "Lechonk", "Oinkologne"
+    ],
+    tarountula: [
+        "Tarountula", "Spidops"
+    ],
+    nymble: [
+        "Nymble", "Lokix"
+    ],
+    rellor: [
+        "Rellor", "Rabsca"
+    ],
+    greavard: [
+        "Greavard", "Houndstone"
+    ],
+    flittle: [
+        "Flittle", "Espathra"
+    ],
+    wiglett: [
+        "Wiglett", "Wugtrio"
+    ],
+    dondozo: [
+        "Dondozo"
+    ],
+    veluza: [
+        "Veluza"
+    ],
+    finizen: [
+        "Finizen", "Palafin"
+    ],
+    smoliv: [
+        "Smoliv", "Dolliv", "Arboliva"
+    ],
+    capsakid: [
+        "Capsakid", "Scovillain"
+    ],
+    tadbulb: [
+        "Tadbulb", "Bellibolt"
+    ],
+    varoom: [
+        "Varoom", "Revavroom"
+    ],
+    orthworm: [
+        "Orthworm"
+    ],
+    tandemaus: [
+        "Tandemaus", "Maushold"
+    ],
+    cetoddle: [
+        "Cetoddle", "Cetitan"
+    ],
+    frigibax: [
+        "Frigibax", "Arctibax", "Baxcalibur"
+    ],
+    tatsugiri: [
+        "Tatsugiri"
+    ],
+    cyclizar: [
+        "Cyclizar"
+    ],
+    pawmi: [
+        "Pawmi", "Pawmo", "Pawmot"
+    ],
+    wattrel: [
+        "Wattrel", "Kilowattrel"
+    ],
+    bombirdier: [
+        "Bombirdier"
+    ],
+    squawkabilly: [
+        "Squawkabilly"
+    ],
+    flamigo: [
+        "Flamigo"
+    ],
+    klawf: [
+        "Klawf"
+    ],
+    nacli: [
+        "Nacli", "Naclstack", "Garganacl"
+    ],
+    glimmet: [
+        "Glimmet", "Glimmora"
+    ],
+    shroodle: [
+        "Shroodle", "Grafaiai"
+    ],
+    fidough: [
+        "Fidough", "Dashsbun"
+    ],
+    maschiff: [
+        "Maschiff", "Mabosstiff"
+    ],
+    bramblin: [
+        "Bramblin", "Brambleghast"
+    ],
+    gimmighoul: [
+        "Gimmighoul", "Gholdengo"
+    ],
+    greattusk: [
+        "Great Tusk"
+    ],
+    brutebonnet: [
+        "Brute Bonnet"
+    ],
+    ancientsuicune: [
+        "???"
+    ],
+    sandyshocks: [
+        "Sandy Shocks"
+    ],
+    screamtail: [
+        "Scream Tail"
+    ],
+    fluttermane: [
+        "Flutter Mane"
+    ],
+    slitherwing: [
+        "Slither Wing"
+    ],
+    roaringmoon: [
+        "Roaring Moon"
+    ],
+    irontreads: [
+        "Iron Treads"
+    ],
+    futurevirizion: [
+        "???"
+    ],
+    ironmoth: [
+        "Iron Moth"
+    ],
+    ironhands: [
+        "Iron Hands"
+    ],
+    ironjugulis: [
+        "Iron Jugulis"
+    ],
+    ironthorns: [
+        "Iron Thorns"
+    ],
+    ironbundle: [
+        "Iron Bundle"
+    ],
+    ironvaliant: [
+        "Iron Valiant"
+    ],
+    tinglu: [
+        "Ting-Lu"
+    ],
+    chienpao: [
+        "Chien-Pao"
+    ],
+    wochien: [
+        "Wo-Chien"
+    ],
+    chiyu: [
+        "Chi-Yu"
+    ],
+    koraidon: [
+        "Koraidon"
+    ],
+    miraidon: [
+        "Miraidon"
+    ],
+    tinkatink: [
+        "Tinkatink", "Tinkatuff", "Tinkaton"
+    ],
+    charcadet: [
+        "Charcadet", "Armarouge", "Ceruledge"
+    ],
+    toedscool: [
+        "Toedscool", "Toedscruel"
     ]
 }
 
@@ -1415,7 +1598,7 @@ let nationalDex = {
     {
         name: "Bulbasaur",
         imageUrl: "images/001Bulbasaur.png",
-        number: "001",
+        number: "0001",
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
@@ -1435,7 +1618,7 @@ let nationalDex = {
     {
         name: "Ivysaur",
         imageUrl: "images/002Ivysaur.png",
-        number: "002",
+        number: "0002",
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
@@ -1455,7 +1638,7 @@ let nationalDex = {
     {
         name: "Venusaur",
         imageUrl: "images/003Venusaur.png",
-        number: "003",
+        number: "0003",
         type: ["Grass", "Poison"],
         category: "Seed",
         region: "Kanto",
@@ -1475,7 +1658,7 @@ let nationalDex = {
     {
         name: "Charmander",
         imageUrl: "images/004Charmander.png",
-        number: "004",
+        number: "0004",
         type: ["Fire"],
         category: "Lizard",
         region: "Kanto",
@@ -1495,7 +1678,7 @@ let nationalDex = {
     {
         name: "Charmeleon",
         imageUrl: "images/005Charmeleon.png",
-        number: "005",
+        number: "0005",
         type: ["Fire"],
         category: "Flame",
         region: "Kanto",
@@ -1515,7 +1698,7 @@ let nationalDex = {
     {
         name: "Charizard",
         imageUrl: "images/006Charizard.png",
-        number: "006",
+        number: "0006",
         type: ["Fire", "Flying"],
         category: "Flame",
         region: "Kanto",
@@ -1535,7 +1718,7 @@ let nationalDex = {
     {
         name: "Squirtle",
         imageUrl: "images/007Squirtle.png",
-        number: "007",
+        number: "0007",
         type: ["Water"],
         category: "Tiny Turtle",
         region: "Kanto",
@@ -1555,7 +1738,7 @@ let nationalDex = {
     {
         name: "Wartortle",
         imageUrl: "images/008Wartortle.png",
-        number: "008",
+        number: "0008",
         type: ["Water"],
         category: "Turtle",
         region: "Kanto",
@@ -1575,7 +1758,7 @@ let nationalDex = {
     {
         name: "Blastoise",
         imageUrl: "images/009Blastoise.png",
-        number: "009",
+        number: "0009",
         type: ["Water"],
         category: "Shellfish",
         region: "Kanto",
@@ -1595,7 +1778,7 @@ let nationalDex = {
     {
         name: "Caterpie",
         imageUrl: "images/010Caterpie.png",
-        number: "010",
+        number: "0010",
         type: ["Bug"],
         category: "Worm",
         region: "Kanto",
@@ -1615,7 +1798,7 @@ let nationalDex = {
     {
         name: "Metapod",
         imageUrl: "images/011Metapod.png",
-        number: "011",
+        number: "0011",
         type: ["Bug"],
         category: "Cocoon",
         region: "Kanto",
@@ -1635,7 +1818,7 @@ let nationalDex = {
     {
         name: "Butterfree",
         imageUrl: "images/012Butterfree.png",
-        number: "012",
+        number: "0012",
         type: ["Bug", "Flying"],
         category: "Butterfly",
         region: "Kanto",
@@ -1655,7 +1838,7 @@ let nationalDex = {
     {
         name: "Weedle",
         imageUrl: "images/013Weedle.png",
-        number: "013",
+        number: "0013",
         type: ["Bug", "Poison"],
         category: "Hairy Bug",
         region: "Kanto",
@@ -1675,7 +1858,7 @@ let nationalDex = {
     {
         name: "Kakuna",
         imageUrl: "images/014Kakuna.png",
-        number: "014",
+        number: "0014",
         type: ["Bug", "Poison"],
         category: "Cocoon",
         region: "Kanto",
@@ -1695,7 +1878,7 @@ let nationalDex = {
     {
         name: "Beedrill",
         imageUrl: "images/015Beedrill.png",
-        number: "015",
+        number: "0015",
         type: ["Bug", "Poison"],
         category: "Poison Bee",
         region: "Kanto",
@@ -1715,7 +1898,7 @@ let nationalDex = {
     {
         name: "Pidgey",
         imageUrl: "images/016Pidgey.png",
-        number: "016",
+        number: "0016",
         type: ["Normal", "Flying"],
         category: "Tiny Bird",
         region: "Kanto",
@@ -1735,7 +1918,7 @@ let nationalDex = {
     {
         name: "Pidgeotto",
         imageUrl: "images/017Pidgeotto.png",
-        number: "017",
+        number: "0017",
         type: ["Normal", "Flying"],
         category: "Bird",
         region: "Kanto",
@@ -1755,7 +1938,7 @@ let nationalDex = {
     {
         name: "Pidgeot",
         imageUrl: "images/018Pidgeot.png",
-        number: "018",
+        number: "0018",
         type: ["Normal", "Flying"],
         category: "Bird",
         region: "Kanto",
@@ -1775,7 +1958,7 @@ let nationalDex = {
     {
         name: "Rattata",
         imageUrl: "images/019Rattata.png",
-        number: "019",
+        number: "0019",
         type: ["Normal"],
         category: "Mouse",
         region: "Kanto",
@@ -1795,7 +1978,7 @@ let nationalDex = {
     {
         name: "Raticate",
         imageUrl: "images/020Raticate.png",
-        number: "020",
+        number: "0020",
         type: ["Normal"],
         category: "Mouse",
         region: "Kanto",
@@ -1815,7 +1998,7 @@ let nationalDex = {
     {
         name: "Spearow",
         imageUrl: "images/021Spearow.png",
-        number: "021",
+        number: "0021",
         type: ["Normal", "Flying"],
         category: "Tiny Bird",
         region: "Kanto",
@@ -1835,7 +2018,7 @@ let nationalDex = {
     {
         name: "Fearow",
         imageUrl: "images/022Fearow.png",
-        number: "022",
+        number: "0022",
         type: ["Normal", "Flying"],
         category: "Beak",
         region: "Kanto",
@@ -1855,7 +2038,7 @@ let nationalDex = {
     {
         name: "Ekans",
         imageUrl: "images/023Ekans.png",
-        number: "023",
+        number: "0023",
         type: ["Poison"],
         category: "Snake",
         region: "Kanto",
@@ -1875,7 +2058,7 @@ let nationalDex = {
     {
         name: "Arbok",
         imageUrl: "images/024Arbok.png",
-        number: "024",
+        number: "0024",
         type: ["Poison"],
         category: "Cobra",
         region: "Kanto",
@@ -1895,7 +2078,7 @@ let nationalDex = {
     {
         name: "Pikachu",
         imageUrl: "images/025Pikachu.png",
-        number: "025",
+        number: "0025",
         type: ["Electric"],
         category: "Mouse",
         region: "Kanto",
@@ -1915,7 +2098,7 @@ let nationalDex = {
     {
         name: "Raichu",
         imageUrl: "images/026Raichu.png",
-        number: "026",
+        number: "0026",
         type: ["Electric"],
         category: "Mouse",
         region: "Kanto",
@@ -1935,7 +2118,7 @@ let nationalDex = {
     {
         name: "Sandshrew",
         imageUrl: "images/027Sandshrew.png",
-        number: "027",
+        number: "0027",
         type: ["Ground"],
         category: "Mouse",
         region: "Kanto",
@@ -1955,7 +2138,7 @@ let nationalDex = {
     {
         name: "Sandslash",
         imageUrl: "images/028Sandslash.png",
-        number: "028",
+        number: "0028",
         type: ["Ground"],
         category: "Mouse",
         region: "Kanto",
@@ -1975,7 +2158,7 @@ let nationalDex = {
     {
         name: "Nidoran♀",
         imageUrl: "images/029NidoranF.png",
-        number: "029",
+        number: "0029",
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
@@ -1995,7 +2178,7 @@ let nationalDex = {
     {
         name: "Nidorina",
         imageUrl: "images/030Nidorina.png",
-        number: "030",
+        number: "0030",
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
@@ -2015,7 +2198,7 @@ let nationalDex = {
     {
         name: "Nidoqueen",
         imageUrl: "images/031Nidoqueen.png",
-        number: "031",
+        number: "0031",
         type: ["Poison", "Ground"],
         category: "Drill",
         region: "Kanto",
@@ -2035,7 +2218,7 @@ let nationalDex = {
     {
         name: "Nidoran♂",
         imageUrl: "images/032NidoranM.png",
-        number: "032",
+        number: "0032",
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
@@ -2055,7 +2238,7 @@ let nationalDex = {
     {
         name: "Nidorino",
         imageUrl: "images/033Nidorino.png",
-        number: "033",
+        number: "0033",
         type: ["Poison"],
         category: "Poison Pin",
         region: "Kanto",
@@ -2075,7 +2258,7 @@ let nationalDex = {
     {
         name: "Nidoking",
         imageUrl: "images/034Nidoking.png",
-        number: "034",
+        number: "0034",
         type: ["Poison", "Ground"],
         category: "Drill",
         region: "Kanto",
@@ -2095,7 +2278,7 @@ let nationalDex = {
     {
         name: "Clefairy",
         imageUrl: "images/035Clefairy.png",
-        number: "035",
+        number: "0035",
         type: ["Fairy"],
         category: "Fairy",
         region: "Kanto",
@@ -2115,7 +2298,7 @@ let nationalDex = {
     {
         name: "Clefable",
         imageUrl: "images/036Clefable.png",
-        number: "036",
+        number: "0036",
         type: ["Fairy"],
         category: "Fairy",
         region: "Kanto",
@@ -2135,7 +2318,7 @@ let nationalDex = {
     {
         name: "Vulpix",
         imageUrl: "images/037Vulpix.png",
-        number: "037",
+        number: "0037",
         type: ["Fire"],
         category: "Fox",
         region: "Kanto",
@@ -2155,7 +2338,7 @@ let nationalDex = {
     {
         name: "Ninetales",
         imageUrl: "images/038Ninetales.png",
-        number: "038",
+        number: "0038",
         type: ["Fire"],
         category: "Fox",
         region: "Kanto",
@@ -2175,7 +2358,7 @@ let nationalDex = {
     {
         name: "Jigglypuff",
         imageUrl: "images/039Jigglypuff.png",
-        number: "039",
+        number: "0039",
         type: ["Normal", "Fairy"],
         category: "Balloon",
         region: "Kanto",
@@ -2195,7 +2378,7 @@ let nationalDex = {
     {
         name: "Wigglytuff",
         imageUrl: "images/040Wigglytuff.png",
-        number: "040",
+        number: "0040",
         type: ["Normal", "Fairy"],
         category: "Balloon",
         region: "Kanto",
@@ -2215,7 +2398,7 @@ let nationalDex = {
     {
         name: "Zubat",
         imageUrl: "images/041Zubat.png",
-        number: "041",
+        number: "0041",
         type: ["Poison", "Flying"],
         category: "Bat",
         region: "Kanto",
@@ -2235,7 +2418,7 @@ let nationalDex = {
     {
         name: "Golbat",
         imageUrl: "images/042Golbat.png",
-        number: "042",
+        number: "0042",
         type: ["Poison", "Flying"],
         category: "Bat",
         region: "Kanto",
@@ -2255,7 +2438,7 @@ let nationalDex = {
     {
         name: "Oddish",
         imageUrl: "images/043Oddish.png",
-        number: "043",
+        number: "0043",
         type: ["Grass", "Poison"],
         category: "Weed",
         region: "Kanto",
@@ -2275,7 +2458,7 @@ let nationalDex = {
     {
         name: "Gloom",
         imageUrl: "images/044Gloom.png",
-        number: "044",
+        number: "0044",
         type: ["Grass", "Poison"],
         category: "Weed",
         region: "Kanto",
@@ -2295,7 +2478,7 @@ let nationalDex = {
     {
         name: "Vileplume",
         imageUrl: "images/045Vileplume.png",
-        number: "045",
+        number: "0045",
         type: ["Grass", "Poison"],
         category: "Flower",
         region: "Kanto",
@@ -2315,7 +2498,7 @@ let nationalDex = {
     {
         name: "Paras",
         imageUrl: "images/046Paras.png",
-        number: "046",
+        number: "0046",
         type: ["Bug", "Grass"],
         category: "Mushroom",
         region: "Kanto",
@@ -2335,7 +2518,7 @@ let nationalDex = {
     {
         name: "Parasect",
         imageUrl: "images/047Parasect.png",
-        number: "047",
+        number: "0047",
         type: ["Bug", "Grass"],
         category: "Mushroom",
         region: "Kanto",
@@ -2355,7 +2538,7 @@ let nationalDex = {
     {
         name: "Venonat",
         imageUrl: "images/048Venonat.png",
-        number: "048",
+        number: "0048",
         type: ["Bug", "Poison"],
         category: "Insect",
         region: "Kanto",
@@ -2375,7 +2558,7 @@ let nationalDex = {
     {
         name: "Venomoth",
         imageUrl: "images/049Venomoth.png",
-        number: "049",
+        number: "0049",
         type: ["Bug", "Poison"],
         category: "Poison Moth",
         region: "Kanto",
@@ -2395,7 +2578,7 @@ let nationalDex = {
     {
         name: "Diglett",
         imageUrl: "images/050Diglett.png",
-        number: "050",
+        number: "0050",
         type: ["Ground"],
         category: "Mole",
         region: "Kanto",
@@ -2415,7 +2598,7 @@ let nationalDex = {
     {
         name: "Dugtrio",
         imageUrl: "images/051Dugtrio.png",
-        number: "051",
+        number: "0051",
         type: ["Ground"],
         category: "Mole",
         region: "Kanto",
@@ -2435,7 +2618,7 @@ let nationalDex = {
     {
         name: "Meowth",
         imageUrl: "images/052Meowth.png",
-        number: "052",
+        number: "0052",
         type: ["Normal"],
         category: "Scratch Cat",
         region: "Kanto",
@@ -2455,7 +2638,7 @@ let nationalDex = {
     {
         name: "Persian",
         imageUrl: "images/053Persian.png",
-        number: "053",
+        number: "0053",
         type: ["Normal"],
         category: "Classy Cat",
         region: "Kanto",
@@ -2475,7 +2658,7 @@ let nationalDex = {
     {
         name: "Psyduck",
         imageUrl: "images/054Psyduck.png",
-        number: "054",
+        number: "0054",
         type: ["Water"],
         category: "Duck",
         region: "Kanto",
@@ -2495,7 +2678,7 @@ let nationalDex = {
     {
         name: "Golduck",
         imageUrl: "images/055Golduck.png",
-        number: "055",
+        number: "0055",
         type: ["Water"],
         category: "Duck",
         region: "Kanto",
@@ -2515,7 +2698,7 @@ let nationalDex = {
     {
         name: "Mankey",
         imageUrl: "images/056Mankey.png",
-        number: "056",
+        number: "0056",
         type: ["Fighting"],
         category: "Pig Monkey",
         region: "Kanto",
@@ -2535,7 +2718,7 @@ let nationalDex = {
     {
         name: "Primeape",
         imageUrl: "images/057Primeape.png",
-        number: "057",
+        number: "0057",
         type: ["Fighting"],
         category: "Pig Monkey",
         region: "Kanto",
@@ -2555,7 +2738,7 @@ let nationalDex = {
     {
         name: "Growlithe",
         imageUrl: "images/058Growlithe.png",
-        number: "058",
+        number: "0058",
         type: ["Fire"],
         category: "Puppy",
         region: "Kanto",
@@ -2575,7 +2758,7 @@ let nationalDex = {
     {
         name: "Arcanine",
         imageUrl: "images/059Arcanine.png",
-        number: "059",
+        number: "0059",
         type: ["Fire"],
         category: "Legendary",
         region: "Kanto",
@@ -2595,7 +2778,7 @@ let nationalDex = {
     {
         name: "Poliwag",
         imageUrl: "images/060Poliwag.png",
-        number: "060",
+        number: "0060",
         type: ["Water"],
         category: "Tadpole",
         region: "Kanto",
@@ -2615,7 +2798,7 @@ let nationalDex = {
     {
         name: "Poliwhirl",
         imageUrl: "images/061Poliwhirl.png",
-        number: "061",
+        number: "0061",
         type: ["Water"],
         category: "Tadpole",
         region: "Kanto",
@@ -2635,7 +2818,7 @@ let nationalDex = {
     {
         name: "Poliwrath",
         imageUrl: "images/062Poliwrath.png",
-        number: "062",
+        number: "0062",
         type: ["Water", "Fighting"],
         category: "Tadpole",
         region: "Kanto",
@@ -2655,7 +2838,7 @@ let nationalDex = {
     {
         name: "Abra",
         imageUrl: "images/063Abra.png",
-        number: "063",
+        number: "0063",
         type: ["Psychic"],
         category: "Psi",
         region: "Kanto",
@@ -2675,7 +2858,7 @@ let nationalDex = {
     {
         name: "Kadabra",
         imageUrl: "images/064Kadabra.png",
-        number: "064",
+        number: "0064",
         type: ["Psychic"],
         category: "Psi",
         region: "Kanto",
@@ -2695,7 +2878,7 @@ let nationalDex = {
     {
         name: "Alakazam",
         imageUrl: "images/065Alakazam.png",
-        number: "065",
+        number: "0065",
         type: ["Psychic"],
         category: "Psi",
         region: "Kanto",
@@ -2715,7 +2898,7 @@ let nationalDex = {
     {
         name: "Machop",
         imageUrl: "images/066Machop.png",
-        number: "066",
+        number: "0066",
         type: ["Fighting"],
         category: "Superpower",
         region: "Kanto",
@@ -2735,7 +2918,7 @@ let nationalDex = {
     {
         name: "Machoke",
         imageUrl: "images/067Machoke.png",
-        number: "067",
+        number: "0067",
         type: ["Fighting"],
         category: "Superpower",
         region: "Kanto",
@@ -2755,7 +2938,7 @@ let nationalDex = {
     {
         name: "Machamp",
         imageUrl: "images/068Machamp.png",
-        number: "068",
+        number: "0068",
         type: ["Fighting"],
         category: "Superpower",
         region: "Kanto",
@@ -2775,7 +2958,7 @@ let nationalDex = {
     {
         name: "Bellsprout",
         imageUrl: "images/069Bellsprout.png",
-        number: "069",
+        number: "0069",
         type: ["Grass", "Poison"],
         category: "Flower",
         region: "Kanto",
@@ -2795,7 +2978,7 @@ let nationalDex = {
     {
         name: "Weepinbell",
         imageUrl: "images/070Weepinbell.png",
-        number: "070",
+        number: "0070",
         type: ["Grass", "Poison"],
         category: "Flycatcher",
         region: "Kanto",
@@ -2815,7 +2998,7 @@ let nationalDex = {
     {
         name: "Victreebel",
         imageUrl: "images/071Victreebel.png",
-        number: "071",
+        number: "0071",
         type: ["Grass", "Poison"],
         category: "Flycatcher",
         region: "Kanto",
@@ -2835,7 +3018,7 @@ let nationalDex = {
     {
         name: "Tentacool",
         imageUrl: "images/072Tentacool.png",
-        number: "072",
+        number: "0072",
         type: ["Water", "Poison"],
         category: "Jellyfish",
         region: "Kanto",
@@ -2855,7 +3038,7 @@ let nationalDex = {
     {
         name: "Tentacruel",
         imageUrl: "images/073Tentacruel.png",
-        number: "073",
+        number: "0073",
         type: ["Water", "Poison"],
         category: "Jellyfish",
         region: "Kanto",
@@ -2875,7 +3058,7 @@ let nationalDex = {
     {
         name: "Geodude",
         imageUrl: "images/074Geodude.png",
-        number: "074",
+        number: "0074",
         type: ["Rock", "Ground"],
         category: "Rock",
         region: "Kanto",
@@ -2895,7 +3078,7 @@ let nationalDex = {
     {
         name: "Graveler",
         imageUrl: "images/075Graveler.png",
-        number: "075",
+        number: "0075",
         type: ["Rock", "Ground"],
         category: "Rock",
         region: "Kanto",
@@ -2915,7 +3098,7 @@ let nationalDex = {
     {
         name: "Golem",
         imageUrl: "images/076Golem.png",
-        number: "076",
+        number: "0076",
         type: ["Rock", "Ground"],
         category: "Megaton",
         region: "Kanto",
@@ -2935,7 +3118,7 @@ let nationalDex = {
     {
         name: "Ponyta",
         imageUrl: "images/077Ponyta.png",
-        number: "077",
+        number: "0077",
         type: ["Fire"],
         category: "Fire Horse",
         region: "Kanto",
@@ -2955,7 +3138,7 @@ let nationalDex = {
     {
         name: "Rapidash",
         imageUrl: "images/078Rapidash.png",
-        number: "078",
+        number: "0078",
         type: ["Fire"],
         category: "Fire Horse",
         region: "Kanto",
@@ -2975,7 +3158,7 @@ let nationalDex = {
     {
         name: "Slowpoke",
         imageUrl: "images/079Slowpoke.png",
-        number: "079",
+        number: "0079",
         type: ["Water", "Psychic"],
         category: "Dopey",
         region: "Kanto",
@@ -2995,7 +3178,7 @@ let nationalDex = {
     {
         name: "Slowbro",
         imageUrl: "images/080Slowbro.png",
-        number: "080",
+        number: "0080",
         type: ["Water", "Psychic"],
         category: "Hermit Crab",
         region: "Kanto",
@@ -3015,7 +3198,7 @@ let nationalDex = {
     {
         name: "Magnemite",
         imageUrl: "images/081Magnemite.png",
-        number: "081",
+        number: "0081",
         type: ["Electric", "Steel"],
         category: "Magnet",
         region: "Kanto",
@@ -3035,7 +3218,7 @@ let nationalDex = {
     {
         name: "Magneton",
         imageUrl: "images/082Magneton.png",
-        number: "082",
+        number: "0082",
         type: ["Electric", "Steel"],
         category: "Magnet",
         region: "Kanto",
@@ -3055,7 +3238,7 @@ let nationalDex = {
     {
         name: "Farfetch'd",
         imageUrl: "images/083Farfetch'd.png",
-        number: "083",
+        number: "0083",
         type: ["Normal", "Flying"],
         category: "Wild Duck",
         region: "Kanto",
@@ -3075,7 +3258,7 @@ let nationalDex = {
     {
         name: "Doduo",
         imageUrl: "images/084Doduo.png",
-        number: "084",
+        number: "0084",
         type: ["Normal", "Flying"],
         category: "Twin Bird",
         region: "Kanto",
@@ -3095,7 +3278,7 @@ let nationalDex = {
     {
         name: "Dodrio",
         imageUrl: "images/085Dodrio.png",
-        number: "085",
+        number: "0085",
         type: ["Normal", "Flying"],
         category: "Triple Bird",
         region: "Kanto",
@@ -3115,7 +3298,7 @@ let nationalDex = {
     {
         name: "Seel",
         imageUrl: "images/086Seel.png",
-        number: "086",
+        number: "0086",
         type: ["Water"],
         category: "Sea Lion",
         region: "Kanto",
@@ -3135,7 +3318,7 @@ let nationalDex = {
     {
         name: "Dewgong",
         imageUrl: "images/087Dewgong.png",
-        number: "087",
+        number: "0087",
         type: ["Water", "Ice"],
         category: "Sea Lion",
         region: "Kanto",
@@ -3155,7 +3338,7 @@ let nationalDex = {
     {
         name: "Grimer",
         imageUrl: "images/088Grimer.png",
-        number: "088",
+        number: "0088",
         type: ["Poison"],
         category: "Sludge",
         region: "Kanto",
@@ -3175,7 +3358,7 @@ let nationalDex = {
     {
         name: "Muk",
         imageUrl: "images/089Muk.png",
-        number: "089",
+        number: "0089",
         type: ["Poison"],
         category: "Sludge",
         region: "Kanto",
@@ -3195,7 +3378,7 @@ let nationalDex = {
     {
         name: "Shellder",
         imageUrl: "images/090Shellder.png",
-        number: "090",
+        number: "0090",
         type: ["Water"],
         category: "Bivalve",
         region: "Kanto",
@@ -3215,7 +3398,7 @@ let nationalDex = {
     {
         name: "Cloyster",
         imageUrl: "images/091Cloyster.png",
-        number: "091",
+        number: "0091",
         type: ["Water", "Ice"],
         category: "Bivalve",
         region: "Kanto",
@@ -3235,7 +3418,7 @@ let nationalDex = {
     {
         name: "Gastly",
         imageUrl: "images/092Gastly.png",
-        number: "092",
+        number: "0092",
         type: ["Ghost", "Poison"],
         category: "Gas",
         region: "Kanto",
@@ -3255,7 +3438,7 @@ let nationalDex = {
     {
         name: "Haunter",
         imageUrl: "images/093Haunter.png",
-        number: "093",
+        number: "0093",
         type: ["Ghost", "Poison"],
         category: "Gas",
         region: "Kanto",
@@ -3275,7 +3458,7 @@ let nationalDex = {
     {
         name: "Gengar",
         imageUrl: "images/094Gengar.png",
-        number: "094",
+        number: "0094",
         type: ["Ghost", "Poison"],
         category: "Shadow",
         region: "Kanto",
@@ -3295,7 +3478,7 @@ let nationalDex = {
     {
         name: "Onix",
         imageUrl: "images/095Onix.png",
-        number: "095",
+        number: "0095",
         type: ["Rock", "Ground"],
         category: "Rock Snake",
         region: "Kanto",
@@ -3315,7 +3498,7 @@ let nationalDex = {
     {
         name: "Drowzee",
         imageUrl: "images/096Drowzee.png",
-        number: "096",
+        number: "0096",
         type: ["Psychic"],
         category: "Hypnosis",
         region: "Kanto",
@@ -3335,7 +3518,7 @@ let nationalDex = {
     {
         name: "Hypno",
         imageUrl: "images/097Hypno.png",
-        number: "097",
+        number: "0097",
         type: ["Psychic"],
         category: "Hypnosis",
         region: "Kanto",
@@ -3355,7 +3538,7 @@ let nationalDex = {
     {
         name: "Krabby",
         imageUrl: "images/098Krabby.png",
-        number: "098",
+        number: "0098",
         type: ["Water"],
         category: "River Crab",
         region: "Kanto",
@@ -3375,7 +3558,7 @@ let nationalDex = {
     {
         name: "Kingler",
         imageUrl: "images/099Kingler.png",
-        number: "099",
+        number: "0099",
         type: ["Water"],
         category: "Pincer",
         region: "Kanto",
@@ -3395,7 +3578,7 @@ let nationalDex = {
     {
         name: "Voltorb",
         imageUrl: "images/100Voltorb.png",
-        number: "100",
+        number: "0100",
         type: ["Electric"],
         category: "Ball",
         region: "Kanto",
@@ -3415,7 +3598,7 @@ let nationalDex = {
     {
         name: "Electrode",
         imageUrl: "images/101Electrode.png",
-        number: "101",
+        number: "0101",
         type: ["Electric"],
         category: "Ball",
         region: "Kanto",
@@ -3435,7 +3618,7 @@ let nationalDex = {
     {
         name: "Exeggcute",
         imageUrl: "images/102Exeggcute.png",
-        number: "102",
+        number: "0102",
         type: ["Grass", "Psychic"],
         category: "Egg",
         region: "Kanto",
@@ -3455,7 +3638,7 @@ let nationalDex = {
     {
         name: "Exeggutor",
         imageUrl: "images/103Exeggutor.png",
-        number: "103",
+        number: "0103",
         type: ["Grass", "Psychic"],
         category: "Coconut",
         region: "Kanto",
@@ -3475,7 +3658,7 @@ let nationalDex = {
     {
         name: "Cubone",
         imageUrl: "images/104Cubone.png",
-        number: "104",
+        number: "0104",
         type: ["Ground"],
         category: "Lonely",
         region: "Kanto",
@@ -3495,7 +3678,7 @@ let nationalDex = {
     {
         name: "Marowak",
         imageUrl: "images/105Marowak.png",
-        number: "105",
+        number: "0105",
         type: ["Ground"],
         category: "Bone Keeper",
         region: "Kanto",
@@ -3515,7 +3698,7 @@ let nationalDex = {
     {
         name: "Hitmonlee",
         imageUrl: "images/106Hitmonlee.png",
-        number: "106",
+        number: "0106",
         type: ["Fighting"],
         category: "Kicking",
         region: "Kanto",
@@ -3535,7 +3718,7 @@ let nationalDex = {
     {
         name: "Hitmonchan",
         imageUrl: "images/107Hitmonchan.png",
-        number: "107",
+        number: "0107",
         type: ["Fighting"],
         category: "Punching",
         region: "Kanto",
@@ -3555,7 +3738,7 @@ let nationalDex = {
     {
         name: "Lickitung",
         imageUrl: "images/108Lickitung.png",
-        number: "108",
+        number: "0108",
         type: ["Normal"],
         category: "Licking",
         region: "Kanto",
@@ -3575,7 +3758,7 @@ let nationalDex = {
     {
         name: "Koffing",
         imageUrl: "images/109Koffing.png",
-        number: "109",
+        number: "0109",
         type: ["Poison"],
         category: "Poison Gas",
         region: "Kanto",
@@ -3595,7 +3778,7 @@ let nationalDex = {
     {
         name: "Weezing",
         imageUrl: "images/110Weezing.png",
-        number: "110",
+        number: "0110",
         type: ["Poison"],
         category: "Poison Gas",
         region: "Kanto",
@@ -3615,7 +3798,7 @@ let nationalDex = {
     {
         name: "Rhyhorn",
         imageUrl: "images/111Rhyhorn.png",
-        number: "111",
+        number: "0111",
         type: ["Ground", "Rock"],
         category: "Spikes",
         region: "Kanto",
@@ -3635,7 +3818,7 @@ let nationalDex = {
     {
         name: "Rhydon",
         imageUrl: "images/112Rhydon.png",
-        number: "112",
+        number: "0112",
         type: ["Ground", "Rock"],
         category: "Drill",
         region: "Kanto",
@@ -3655,7 +3838,7 @@ let nationalDex = {
     {
         name: "Chansey",
         imageUrl: "images/113Chansey.png",
-        number: "113",
+        number: "0113",
         type: ["Normal"],
         category: "Egg",
         region: "Kanto",
@@ -3675,7 +3858,7 @@ let nationalDex = {
     {
         name: "Tangela",
         imageUrl: "images/114Tangela.png",
-        number: "114",
+        number: "0114",
         type: ["Grass"],
         category: "Vine",
         region: "Kanto",
@@ -3695,7 +3878,7 @@ let nationalDex = {
     {
         name: "Kangaskhan",
         imageUrl: "images/115Kangaskhan.png",
-        number: "115",
+        number: "0115",
         type: ["Normal"],
         category: "Parent",
         region: "Kanto",
@@ -3715,7 +3898,7 @@ let nationalDex = {
     {
         name: "Horsea",
         imageUrl: "images/116Horsea.png",
-        number: "116",
+        number: "0116",
         type: ["Water"],
         category: "Dragon",
         region: "Kanto",
@@ -3735,7 +3918,7 @@ let nationalDex = {
     {
         name: "Seadra",
         imageUrl: "images/117Seadra.png",
-        number: "117",
+        number: "0117",
         type: ["Water"],
         category: "Dragon",
         region: "Kanto",
@@ -3755,7 +3938,7 @@ let nationalDex = {
     {
         name: "Goldeen",
         imageUrl: "images/118Goldeen.png",
-        number: "118",
+        number: "0118",
         type: ["Water"],
         category: "Goldfish",
         region: "Kanto",
@@ -3775,7 +3958,7 @@ let nationalDex = {
     {
         name: "Seaking",
         imageUrl: "images/119Seaking.png",
-        number: "119",
+        number: "0119",
         type: ["Water"],
         category: "Goldfish",
         region: "Kanto",
@@ -3795,7 +3978,7 @@ let nationalDex = {
     {
         name: "Staryu",
         imageUrl: "images/120Staryu.png",
-        number: "120",
+        number: "0120",
         type: ["Water"],
         category: "Star Shape",
         region: "Kanto",
@@ -3815,7 +3998,7 @@ let nationalDex = {
     {
         name: "Starmie",
         imageUrl: "images/121Starmie.png",
-        number: "121",
+        number: "0121",
         type: ["Water", "Psychic"],
         category: "Mysterious",
         region: "Kanto",
@@ -3835,7 +4018,7 @@ let nationalDex = {
     {
         name: "Mr. Mime",
         imageUrl: "images/122Mr._Mime.png",
-        number: "122",
+        number: "0122",
         type: ["Psychic", "Fairy"],
         category: "Barrier",
         region: "Kanto",
@@ -3855,7 +4038,7 @@ let nationalDex = {
     {
         name: "Scyther",
         imageUrl: "images/123Scyther.png",
-        number: "123",
+        number: "0123",
         type: ["Bug", "Flying"],
         category: "Mantis",
         region: "Kanto",
@@ -3875,7 +4058,7 @@ let nationalDex = {
     {
         name: "Jynx",
         imageUrl: "images/124Jynx.png",
-        number: "124",
+        number: "0124",
         type: ["Ice", "Psychic"],
         category: "Human Shape",
         region: "Kanto",
@@ -3895,7 +4078,7 @@ let nationalDex = {
     {
         name: "Electabuzz",
         imageUrl: "images/125Electabuzz.png",
-        number: "125",
+        number: "0125",
         type: ["Electric"],
         category: "Electric",
         region: "Kanto",
@@ -3915,7 +4098,7 @@ let nationalDex = {
     {
         name: "Magmar",
         imageUrl: "images/126Magmar.png",
-        number: "126",
+        number: "0126",
         type: ["Fire"],
         category: "Spitfire",
         region: "Kanto",
@@ -3935,7 +4118,7 @@ let nationalDex = {
     {
         name: "Pinsir",
         imageUrl: "images/127Pinsir.png",
-        number: "127",
+        number: "0127",
         type: ["Bug"],
         category: "Stag Beetle",
         region: "Kanto",
@@ -3955,7 +4138,7 @@ let nationalDex = {
     {
         name: "Tauros",
         imageUrl: "images/128Tauros.png",
-        number: "128",
+        number: "0128",
         type: ["Normal"],
         category: "Wild Bull",
         region: "Kanto",
@@ -3975,7 +4158,7 @@ let nationalDex = {
     {
         name: "Magikarp",
         imageUrl: "images/129Magikarp.png",
-        number: "129",
+        number: "0129",
         type: ["Water"],
         category: "Fish",
         region: "Kanto",
@@ -3995,7 +4178,7 @@ let nationalDex = {
     {
         name: "Gyarados",
         imageUrl: "images/130Gyarados.png",
-        number: "130",
+        number: "0130",
         type: ["Water", "Flying"],
         category: "Atrocious",
         region: "Kanto",
@@ -4015,7 +4198,7 @@ let nationalDex = {
     {
         name: "Lapras",
         imageUrl: "images/131Lapras.png",
-        number: "131",
+        number: "0131",
         type: ["Water", "Ice"],
         category: "Transport",
         region: "Kanto",
@@ -4035,7 +4218,7 @@ let nationalDex = {
     {
         name: "Ditto",
         imageUrl: "images/132Ditto.png",
-        number: "132",
+        number: "0132",
         type: ["Normal"],
         category: "Transform",
         region: "Kanto",
@@ -4055,7 +4238,7 @@ let nationalDex = {
     {
         name: "Eevee",
         imageUrl: "images/133Eevee.png",
-        number: "133",
+        number: "0133",
         type: ["Normal"],
         category: "Evolution",
         region: "Kanto",
@@ -4075,7 +4258,7 @@ let nationalDex = {
     {
         name: "Vaporeon",
         imageUrl: "images/134Vaporeon.png",
-        number: "134",
+        number: "0134",
         type: ["Water"],
         category: "Bubble Jet",
         region: "Kanto",
@@ -4095,7 +4278,7 @@ let nationalDex = {
     {
         name: "Jolteon",
         imageUrl: "images/135Jolteon.png",
-        number: "135",
+        number: "0135",
         type: ["Electric"],
         category: "Lightning",
         region: "Kanto",
@@ -4115,7 +4298,7 @@ let nationalDex = {
     {
         name: "Flareon",
         imageUrl: "images/136Flareon.png",
-        number: "136",
+        number: "0136",
         type: ["Fire"],
         category: "Flame",
         region: "Kanto",
@@ -4135,7 +4318,7 @@ let nationalDex = {
     {
         name: "Porygon",
         imageUrl: "images/137Porygon.png",
-        number: "137",
+        number: "0137",
         type: ["Normal"],
         category: "Virtual",
         region: "Kanto",
@@ -4155,7 +4338,7 @@ let nationalDex = {
     {
         name: "Omanyte",
         imageUrl: "images/138Omanyte.png",
-        number: "138",
+        number: "0138",
         type: ["Rock", "Water"],
         category: "Spiral",
         region: "Kanto",
@@ -4175,7 +4358,7 @@ let nationalDex = {
     {
         name: "Omastar",
         imageUrl: "images/139Omastar.png",
-        number: "139",
+        number: "0139",
         type: ["Rock", "Water"],
         category: "Spiral",
         region: "Kanto",
@@ -4195,7 +4378,7 @@ let nationalDex = {
     {
         name: "Kabuto",
         imageUrl: "images/140Kabuto.png",
-        number: "140",
+        number: "0140",
         type: ["Rock", "Water"],
         category: "Shellfish",
         region: "Kanto",
@@ -4215,7 +4398,7 @@ let nationalDex = {
     {
         name: "Kabutops",
         imageUrl: "images/141Kabutops.png",
-        number: "141",
+        number: "0141",
         type: ["Rock", "Water"],
         category: "Shellfish",
         region: "Kanto",
@@ -4235,7 +4418,7 @@ let nationalDex = {
     {
         name: "Aerodactyl",
         imageUrl: "images/142Aerodactyl.png",
-        number: "142",
+        number: "0142",
         type: ["Rock", "Flying"],
         category: "Fossil",
         region: "Kanto",
@@ -4255,7 +4438,7 @@ let nationalDex = {
     {
         name: "Snorlax",
         imageUrl: "images/143Snorlax.png",
-        number: "143",
+        number: "0143",
         type: ["Normal"],
         category: "Sleeping",
         region: "Kanto",
@@ -4275,7 +4458,7 @@ let nationalDex = {
     {
         name: "Articuno",
         imageUrl: "images/144Articuno.png",
-        number: "144",
+        number: "0144",
         type: ["Ice", "Flying"],
         category: "Freeze",
         region: "Kanto",
@@ -4295,7 +4478,7 @@ let nationalDex = {
     {
         name: "Zapdos",
         imageUrl: "images/145Zapdos.png",
-        number: "145",
+        number: "0145",
         type: ["Electric", "Flying"],
         category: "Electric",
         region: "Kanto",
@@ -4315,7 +4498,7 @@ let nationalDex = {
     {
         name: "Moltres",
         imageUrl: "images/146Moltres.png",
-        number: "146",
+        number: "0146",
         type: ["Fire", "Flying"],
         category: "Flame",
         region: "Kanto",
@@ -4335,7 +4518,7 @@ let nationalDex = {
     {
         name: "Dratini",
         imageUrl: "images/147Dratini.png",
-        number: "147",
+        number: "0147",
         type: ["Dragon"],
         category: "Dragon",
         region: "Kanto",
@@ -4355,7 +4538,7 @@ let nationalDex = {
     {
         name: "Dragonair",
         imageUrl: "images/148Dragonair.png",
-        number: "148",
+        number: "0148",
         type: ["Dragon"],
         category: "Dragon",
         region: "Kanto",
@@ -4375,7 +4558,7 @@ let nationalDex = {
     {
         name: "Dragonite",
         imageUrl: "images/149Dragonite.png",
-        number: "149",
+        number: "0149",
         type: ["Dragon", "Flying"],
         category: "Dragon",
         region: "Kanto",
@@ -4395,7 +4578,7 @@ let nationalDex = {
     {
         name: "Mewtwo",
         imageUrl: "images/150Mewtwo.png",
-        number: "150",
+        number: "0150",
         type: ["Psychic"],
         category: "Genetic",
         region: "Kanto",
@@ -4415,7 +4598,7 @@ let nationalDex = {
     {
         name: "Mew",
         imageUrl: "images/151Mew.png",
-        number: "151",
+        number: "0151",
         type: ["Psychic"],
         category: "New Species",
         region: "Kanto",
@@ -4435,7 +4618,7 @@ let nationalDex = {
     {
         name: "Chikorita",
         imageUrl: "images/152Chikorita.png",
-        number: "152",
+        number: "0152",
         type: ["Grass"],
         category: "Leaf",
         region: "Johto",
@@ -4455,7 +4638,7 @@ let nationalDex = {
     {
         name: "Bayleef",
         imageUrl: "images/153Bayleef.png",
-        number: "153",
+        number: "0153",
         type: ["Grass"],
         category: "Leaf",
         region: "Johto",
@@ -4475,7 +4658,7 @@ let nationalDex = {
     {
         name: "Meganium",
         imageUrl: "images/154Meganium.png",
-        number: "154",
+        number: "0154",
         type: ["Grass"],
         category: "Herb",
         region: "Johto",
@@ -4495,7 +4678,7 @@ let nationalDex = {
     {
         name: "Cyndaquil",
         imageUrl: "images/155Cyndaquil.png",
-        number: "155",
+        number: "0155",
         type: ["Fire"],
         category: "Fire Mouse",
         region: "Johto",
@@ -4515,7 +4698,7 @@ let nationalDex = {
     {
         name: "Quilava",
         imageUrl: "images/156Quilava.png",
-        number: "156",
+        number: "0156",
         type: ["Fire"],
         category: "Volcano",
         region: "Johto",
@@ -4535,7 +4718,7 @@ let nationalDex = {
     {
         name: "Typhlosion",
         imageUrl: "images/157Typhlosion.png",
-        number: "157",
+        number: "0157",
         type: ["Fire"],
         category: "Volcano",
         region: "Johto",
@@ -4555,7 +4738,7 @@ let nationalDex = {
     {
         name: "Totodile",
         imageUrl: "images/158Totodile.png",
-        number: "158",
+        number: "0158",
         type: ["Water"],
         category: "Big Jaw",
         region: "Johto",
@@ -4575,7 +4758,7 @@ let nationalDex = {
     {
         name: "Croconaw",
         imageUrl: "images/159Croconaw.png",
-        number: "159",
+        number: "0159",
         type: ["Water"],
         category: "Big Jaw",
         region: "Johto",
@@ -4595,7 +4778,7 @@ let nationalDex = {
     {
         name: "Feraligatr",
         imageUrl: "images/160Feraligatr.png",
-        number: "160",
+        number: "0160",
         type: ["Water"],
         category: "Big Jaw",
         region: "Johto",
@@ -4615,7 +4798,7 @@ let nationalDex = {
     {
         name: "Sentret",
         imageUrl: "images/161Sentret.png",
-        number: "161",
+        number: "0161",
         type: ["Normal"],
         category: "Scout",
         region: "Johto",
@@ -4635,7 +4818,7 @@ let nationalDex = {
     {
         name: "Furret",
         imageUrl: "images/162Furret.png",
-        number: "162",
+        number: "0162",
         type: ["Normal"],
         category: "Long Body",
         region: "Johto",
@@ -4655,7 +4838,7 @@ let nationalDex = {
     {
         name: "Hoothoot",
         imageUrl: "images/163Hoothoot.png",
-        number: "163",
+        number: "0163",
         type: ["Normal", "Flying"],
         category: "Owl",
         region: "Johto",
@@ -4675,7 +4858,7 @@ let nationalDex = {
     {
         name: "Noctowl",
         imageUrl: "images/164Noctowl.png",
-        number: "164",
+        number: "0164",
         type: ["Normal", "Flying"],
         category: "Owl",
         region: "Johto",
@@ -4695,7 +4878,7 @@ let nationalDex = {
     {
         name: "Ledyba",
         imageUrl: "images/165Ledyba.png",
-        number: "165",
+        number: "0165",
         type: ["Bug", "Flying"],
         category: "Five Star",
         region: "Johto",
@@ -4715,7 +4898,7 @@ let nationalDex = {
     {
         name: "Ledian",
         imageUrl: "images/166Ledian.png",
-        number: "166",
+        number: "0166",
         type: ["Bug", "Flying"],
         category: "Five Star",
         region: "Johto",
@@ -4735,7 +4918,7 @@ let nationalDex = {
     {
         name: "Spinarak",
         imageUrl: "images/167Spinarak.png",
-        number: "167",
+        number: "0167",
         type: ["Bug", "Poison"],
         category: "String Spit",
         region: "Johto",
@@ -4755,7 +4938,7 @@ let nationalDex = {
     {
         name: "Ariados",
         imageUrl: "images/168Ariados.png",
-        number: "168",
+        number: "0168",
         type: ["Bug", "Poison"],
         category: "Long Leg",
         region: "Johto",
@@ -4775,7 +4958,7 @@ let nationalDex = {
     {
         name: "Crobat",
         imageUrl: "images/169Crobat.png",
-        number: "169",
+        number: "0169",
         type: ["Poison", "Flying"],
         category: "Bat",
         region: "Johto",
@@ -4795,7 +4978,7 @@ let nationalDex = {
     {
         name: "Chinchou",
         imageUrl: "images/170Chinchou.png",
-        number: "170",
+        number: "0170",
         type: ["Water", "Electric"],
         category: "Angler",
         region: "Johto",
@@ -4815,7 +4998,7 @@ let nationalDex = {
     {
         name: "Lanturn",
         imageUrl: "images/171Lanturn.png",
-        number: "171",
+        number: "0171",
         type: ["Water", "Electric"],
         category: "Light",
         region: "Johto",
@@ -4835,7 +5018,7 @@ let nationalDex = {
     {
         name: "Pichu",
         imageUrl: "images/172Pichu.png",
-        number: "172",
+        number: "0172",
         type: ["Electric"],
         category: "Tiny Mouse",
         region: "Johto",
@@ -4855,7 +5038,7 @@ let nationalDex = {
     {
         name: "Cleffa",
         imageUrl: "images/173Cleffa.png",
-        number: "173",
+        number: "0173",
         type: ["Fairy"],
         category: "Star Shape",
         region: "Johto",
@@ -4875,7 +5058,7 @@ let nationalDex = {
     {
         name: "Igglybuff",
         imageUrl: "images/174Igglybuff.png",
-        number: "174",
+        number: "0174",
         type: ["Normal", "Fairy"],
         category: "Balloon",
         region: "Johto",
@@ -4895,7 +5078,7 @@ let nationalDex = {
     {
         name: "Togepi",
         imageUrl: "images/175Togepi.png",
-        number: "175",
+        number: "0175",
         type: ["Fairy"],
         category: "Spike Ball",
         region: "Johto",
@@ -4915,7 +5098,7 @@ let nationalDex = {
     {
         name: "Togetic",
         imageUrl: "images/176Togetic.png",
-        number: "176",
+        number: "0176",
         type: ["Fairy", "Flying"],
         category: "Happiness",
         region: "Johto",
@@ -4935,7 +5118,7 @@ let nationalDex = {
     {
         name: "Natu",
         imageUrl: "images/177Natu.png",
-        number: "177",
+        number: "0177",
         type: ["Psychic", "Flying"],
         category: "Tiny Bird",
         region: "Johto",
@@ -4955,7 +5138,7 @@ let nationalDex = {
     {
         name: "Xatu",
         imageUrl: "images/178Xatu.png",
-        number: "178",
+        number: "0178",
         type: ["Psychic", "Flying"],
         category: "Mystic",
         region: "Johto",
@@ -4975,7 +5158,7 @@ let nationalDex = {
     {
         name: "Mareep",
         imageUrl: "images/179Mareep.png",
-        number: "179",
+        number: "0179",
         type: ["Electric"],
         category: "Wool",
         region: "Johto",
@@ -4995,7 +5178,7 @@ let nationalDex = {
     {
         name: "Flaaffy",
         imageUrl: "images/180Flaaffy.png",
-        number: "180",
+        number: "0180",
         type: ["Electric"],
         category: "Wool",
         region: "Johto",
@@ -5015,7 +5198,7 @@ let nationalDex = {
     {
         name: "Ampharos",
         imageUrl: "images/181Ampharos.png",
-        number: "181",
+        number: "0181",
         type: ["Electric"],
         category: "Light",
         region: "Johto",
@@ -5035,7 +5218,7 @@ let nationalDex = {
     {
         name: "Bellossom",
         imageUrl: "images/182Bellossom.png",
-        number: "182",
+        number: "0182",
         type: ["Grass"],
         category: "Flower",
         region: "Johto",
@@ -5055,7 +5238,7 @@ let nationalDex = {
     {
         name: "Marill",
         imageUrl: "images/183Marill.png",
-        number: "183",
+        number: "0183",
         type: ["Water", "Fairy"],
         category: "Aqua Mouse",
         region: "Johto",
@@ -5075,7 +5258,7 @@ let nationalDex = {
     {
         name: "Azumarill",
         imageUrl: "images/184Azumarill.png",
-        number: "184",
+        number: "0184",
         type: ["Water", "Fairy"],
         category: "Aqua Rabbit",
         region: "Johto",
@@ -5095,7 +5278,7 @@ let nationalDex = {
     {
         name: "Sudowoodo",
         imageUrl: "images/185Sudowoodo.png",
-        number: "185",
+        number: "0185",
         type: ["Rock"],
         category: "Imitation",
         region: "Johto",
@@ -5115,7 +5298,7 @@ let nationalDex = {
     {
         name: "Politoed",
         imageUrl: "images/186Politoed.png",
-        number: "186",
+        number: "0186",
         type: ["Water"],
         category: "Frog",
         region: "Johto",
@@ -5135,7 +5318,7 @@ let nationalDex = {
     {
         name: "Hoppip",
         imageUrl: "images/187Hoppip.png",
-        number: "187",
+        number: "0187",
         type: ["Grass", "Flying"],
         category: "Cottonweed",
         region: "Johto",
@@ -5155,7 +5338,7 @@ let nationalDex = {
     {
         name: "Skiploom",
         imageUrl: "images/188Skiploom.png",
-        number: "188",
+        number: "0188",
         type: ["Grass", "Flying"],
         category: "Cottonweed",
         region: "Johto",
@@ -5175,7 +5358,7 @@ let nationalDex = {
     {
         name: "Jumpluff",
         imageUrl: "images/189Jumpluff.png",
-        number: "189",
+        number: "0189",
         type: ["Grass", "Flying"],
         category: "Cottonweed",
         region: "Johto",
@@ -5195,7 +5378,7 @@ let nationalDex = {
     {
         name: "Aipom",
         imageUrl: "images/190Aipom.png",
-        number: "190",
+        number: "0190",
         type: ["Normal"],
         category: "Long Tail",
         region: "Johto",
@@ -5215,7 +5398,7 @@ let nationalDex = {
     {
         name: "Sunkern",
         imageUrl: "images/191Sunkern.png",
-        number: "191",
+        number: "0191",
         type: ["Grass"],
         category: "Seed",
         region: "Johto",
@@ -5235,7 +5418,7 @@ let nationalDex = {
     {
         name: "Sunflora",
         imageUrl: "images/192Sunflora.png",
-        number: "192",
+        number: "0192",
         type: ["Grass"],
         category: "Sun",
         region: "Johto",
@@ -5255,7 +5438,7 @@ let nationalDex = {
     {
         name: "Yanma",
         imageUrl: "images/193Yanma.png",
-        number: "193",
+        number: "0193",
         type: ["Bug", "Flying"],
         category: "Clear Wing",
         region: "Johto",
@@ -5275,7 +5458,7 @@ let nationalDex = {
     {
         name: "Wooper",
         imageUrl: "images/194Wooper.png",
-        number: "194",
+        number: "0194",
         type: ["Water", "Ground"],
         category: "Water Fish",
         region: "Johto",
@@ -5295,7 +5478,7 @@ let nationalDex = {
     {
         name: "Quagsire",
         imageUrl: "images/195Quagsire.png",
-        number: "195",
+        number: "0195",
         type: ["Water", "Ground"],
         category: "Water Fish",
         region: "Johto",
@@ -5315,7 +5498,7 @@ let nationalDex = {
     {
         name: "Espeon",
         imageUrl: "images/196Espeon.png",
-        number: "196",
+        number: "0196",
         type: ["Psychic"],
         category: "Sun",
         region: "Johto",
@@ -5335,7 +5518,7 @@ let nationalDex = {
     {
         name: "Umbreon",
         imageUrl: "images/197Umbreon.png",
-        number: "197",
+        number: "0197",
         type: ["Dark"],
         category: "Moonlight",
         region: "Johto",
@@ -5355,7 +5538,7 @@ let nationalDex = {
     {
         name: "Murkrow",
         imageUrl: "images/198Murkrow.png",
-        number: "198",
+        number: "0198",
         type: ["Dark", "Flying"],
         category: "Darkness",
         region: "Johto",
@@ -5375,7 +5558,7 @@ let nationalDex = {
     {
         name: "Slowking",
         imageUrl: "images/199Slowking.png",
-        number: "199",
+        number: "0199",
         type: ["Water", "Psychic"],
         category: "Royal",
         region: "Johto",
@@ -5395,7 +5578,7 @@ let nationalDex = {
     {
         name: "Misdreavus",
         imageUrl: "images/200Misdreavus.png",
-        number: "200",
+        number: "0200",
         type: ["Ghost"],
         category: "Screech",
         region: "Johto",
@@ -5415,7 +5598,7 @@ let nationalDex = {
     {
         name: "Unown",
         imageUrl: "images/201Unown.png",
-        number: "201",
+        number: "0201",
         type: ["Psychic"],
         category: "Symbol",
         region: "Johto",
@@ -5435,7 +5618,7 @@ let nationalDex = {
     {
         name: "Wobbuffet",
         imageUrl: "images/202Wobbuffet.png",
-        number: "202",
+        number: "0202",
         type: ["Psychic"],
         category: "Patient",
         region: "Johto",
@@ -5455,7 +5638,7 @@ let nationalDex = {
     {
         name: "Girafarig",
         imageUrl: "images/203Girafarig.png",
-        number: "203",
+        number: "0203",
         type: ["Normal", "Psychic"],
         category: "Long Neck",
         region: "Johto",
@@ -5475,7 +5658,7 @@ let nationalDex = {
     {
         name: "Pineco",
         imageUrl: "images/204Pineco.png",
-        number: "204",
+        number: "0204",
         type: ["Bug"],
         category: "Bagworm",
         region: "Johto",
@@ -5495,7 +5678,7 @@ let nationalDex = {
     {
         name: "Forretress",
         imageUrl: "images/205Forretress.png",
-        number: "205",
+        number: "0205",
         type: ["Bug", "Steel"],
         category: "Bagworm",
         region: "Johto",
@@ -5515,7 +5698,7 @@ let nationalDex = {
     {
         name: "Dunsparce",
         imageUrl: "images/206Dunsparce.png",
-        number: "206",
+        number: "0206",
         type: ["Normal"],
         category: "Land Snake",
         region: "Johto",
@@ -5535,7 +5718,7 @@ let nationalDex = {
     {
         name: "Gligar",
         imageUrl: "images/207Gligar.png",
-        number: "207",
+        number: "0207",
         type: ["Ground", "Flying"],
         category: "Fly Scorpion",
         region: "Johto",
@@ -5555,7 +5738,7 @@ let nationalDex = {
     {
         name: "Steelix",
         imageUrl: "images/208Steelix.png",
-        number: "208",
+        number: "0208",
         type: ["Steel", "Ground"],
         category: "Iron Snake",
         region: "Johto",
@@ -5575,7 +5758,7 @@ let nationalDex = {
     {
         name: "Snubbull",
         imageUrl: "images/209Snubbull.png",
-        number: "209",
+        number: "0209",
         type: ["Fairy"],
         category: "Fairy",
         region: "Johto",
@@ -5595,7 +5778,7 @@ let nationalDex = {
     {
         name: "Granbull",
         imageUrl: "images/210Granbull.png",
-        number: "210",
+        number: "0210",
         type: ["Fairy"],
         category: "Fairy",
         region: "Johto",
@@ -5615,7 +5798,7 @@ let nationalDex = {
     {
         name: "Qwilfish",
         imageUrl: "images/211Qwilfish.png",
-        number: "211",
+        number: "0211",
         type: ["Water", "Poison"],
         category: "Balloon",
         region: "Johto",
@@ -5635,7 +5818,7 @@ let nationalDex = {
     {
         name: "Scizor",
         imageUrl: "images/212Scizor.png",
-        number: "212",
+        number: "0212",
         type: ["Bug", "Steel"],
         category: "Pincer",
         region: "Johto",
@@ -5655,7 +5838,7 @@ let nationalDex = {
     {
         name: "Shuckle",
         imageUrl: "images/213Shuckle.png",
-        number: "213",
+        number: "0213",
         type: ["Bug", "Rock"],
         category: "Mold",
         region: "Johto",
@@ -5675,7 +5858,7 @@ let nationalDex = {
     {
         name: "Heracross",
         imageUrl: "images/214Heracross.png",
-        number: "214",
+        number: "0214",
         type: ["Bug", "Fighting"],
         category: "Single Horn",
         region: "Johto",
@@ -5695,7 +5878,7 @@ let nationalDex = {
     {
         name: "Sneasel",
         imageUrl: "images/215Sneasel.png",
-        number: "215",
+        number: "0215",
         type: ["Dark", "Ice"],
         category: "Sharp Claw",
         region: "Johto",
@@ -5715,7 +5898,7 @@ let nationalDex = {
     {
         name: "Teddiursa",
         imageUrl: "images/216Teddiursa.png",
-        number: "216",
+        number: "0216",
         type: ["Normal"],
         category: "Little Bear",
         region: "Johto",
@@ -5735,7 +5918,7 @@ let nationalDex = {
     {
         name: "Ursaring",
         imageUrl: "images/217Ursaring.png",
-        number: "217",
+        number: "0217",
         type: ["Normal"],
         category: "Hibernator",
         region: "Johto",
@@ -5755,7 +5938,7 @@ let nationalDex = {
     {
         name: "Slugma",
         imageUrl: "images/218Slugma.png",
-        number: "218",
+        number: "0218",
         type: ["Fire"],
         category: "Lava",
         region: "Johto",
@@ -5775,7 +5958,7 @@ let nationalDex = {
     {
         name: "Magcargo",
         imageUrl: "images/219Magcargo.png",
-        number: "219",
+        number: "0219",
         type: ["Fire", "Rock"],
         category: "Lava",
         region: "Johto",
@@ -5795,7 +5978,7 @@ let nationalDex = {
     {
         name: "Swinub",
         imageUrl: "images/220Swinub.png",
-        number: "220",
+        number: "0220",
         type: ["Ice", "Ground"],
         category: "Pig",
         region: "Johto",
@@ -5815,7 +5998,7 @@ let nationalDex = {
     {
         name: "Piloswine",
         imageUrl: "images/221Piloswine.png",
-        number: "221",
+        number: "0221",
         type: ["Ice", "Ground"],
         category: "Swine",
         region: "Johto",
@@ -5835,7 +6018,7 @@ let nationalDex = {
     {
         name: "Corsola",
         imageUrl: "images/222Corsola.png",
-        number: "222",
+        number: "0222",
         type: ["Water", "Rock"],
         category: "Coral",
         region: "Johto",
@@ -5855,7 +6038,7 @@ let nationalDex = {
     {
         name: "Remoraid",
         imageUrl: "images/223Remoraid.png",
-        number: "223",
+        number: "0223",
         type: ["Water"],
         category: "Jet",
         region: "Johto",
@@ -5875,7 +6058,7 @@ let nationalDex = {
     {
         name: "Octillery",
         imageUrl: "images/224Octillery.png",
-        number: "224",
+        number: "0224",
         type: ["Water"],
         category: "Jet",
         region: "Johto",
@@ -5895,7 +6078,7 @@ let nationalDex = {
     {
         name: "Delibird",
         imageUrl: "images/225Delibird.png",
-        number: "225",
+        number: "0225",
         type: ["Ice", "Flying"],
         category: "Delivery",
         region: "Johto",
@@ -5915,7 +6098,7 @@ let nationalDex = {
     {
         name: "Mantine",
         imageUrl: "images/226Mantine.png",
-        number: "226",
+        number: "0226",
         type: ["Water", "Flying"],
         category: "Kite",
         region: "Johto",
@@ -5935,7 +6118,7 @@ let nationalDex = {
     {
         name: "Skarmory",
         imageUrl: "images/227Skarmory.png",
-        number: "227",
+        number: "0227",
         type: ["Steel", "Flying"],
         category: "Armor Bird",
         region: "Johto",
@@ -5955,7 +6138,7 @@ let nationalDex = {
     {
         name: "Houndour",
         imageUrl: "images/228Houndour.png",
-        number: "228",
+        number: "0228",
         type: ["Dark", "Fire"],
         category: "Dark",
         region: "Johto",
@@ -5975,7 +6158,7 @@ let nationalDex = {
     {
         name: "Houndoom",
         imageUrl: "images/229Houndoom.png",
-        number: "229",
+        number: "0229",
         type: ["Dark", "Fire"],
         category: "Dark",
         region: "Johto",
@@ -5995,7 +6178,7 @@ let nationalDex = {
     {
         name: "Kingdra",
         imageUrl: "images/230Kingdra.png",
-        number: "230",
+        number: "0230",
         type: ["Water", "Dragon"],
         category: "Dragon",
         region: "Johto",
@@ -6015,7 +6198,7 @@ let nationalDex = {
     {
         name: "Phanpy",
         imageUrl: "images/231Phanpy.png",
-        number: "231",
+        number: "0231",
         type: ["Ground"],
         category: "Long Nose",
         region: "Johto",
@@ -6035,7 +6218,7 @@ let nationalDex = {
     {
         name: "Donphan",
         imageUrl: "images/232Donphan.png",
-        number: "232",
+        number: "0232",
         type: ["Ground"],
         category: "Armor",
         region: "Johto",
@@ -6055,7 +6238,7 @@ let nationalDex = {
     {
         name: "Porygon2",
         imageUrl: "images/233Porygon2.png",
-        number: "233",
+        number: "0233",
         type: ["Normal"],
         category: "Virtual",
         region: "Johto",
@@ -6075,7 +6258,7 @@ let nationalDex = {
     {
         name: "Stantler",
         imageUrl: "images/234Stantler.png",
-        number: "234",
+        number: "0234",
         type: ["Normal"],
         category: "Big Horn",
         region: "Johto",
@@ -6095,7 +6278,7 @@ let nationalDex = {
     {
         name: "Smeargle",
         imageUrl: "images/235Smeargle.png",
-        number: "235",
+        number: "0235",
         type: ["Normal"],
         category: "Painter",
         region: "Johto",
@@ -6115,7 +6298,7 @@ let nationalDex = {
     {
         name: "Tyrogue",
         imageUrl: "images/236Tyrogue.png",
-        number: "236",
+        number: "0236",
         type: ["Fighting"],
         category: "Scuffle",
         region: "Johto",
@@ -6135,7 +6318,7 @@ let nationalDex = {
     {
         name: "Hitmontop",
         imageUrl: "images/237Hitmontop.png",
-        number: "237",
+        number: "0237",
         type: ["Fighting"],
         category: "Handstand",
         region: "Johto",
@@ -6155,7 +6338,7 @@ let nationalDex = {
     {
         name: "Smoochum",
         imageUrl: "images/238Smoochum.png",
-        number: "238",
+        number: "0238",
         type: ["Ice", "Psychic"],
         category: "Kiss",
         region: "Johto",
@@ -6175,7 +6358,7 @@ let nationalDex = {
     {
         name: "Elekid",
         imageUrl: "images/239Elekid.png",
-        number: "239",
+        number: "0239",
         type: ["Electric"],
         category: "Electric",
         region: "Johto",
@@ -6195,7 +6378,7 @@ let nationalDex = {
     {
         name: "Magby",
         imageUrl: "images/240Magby.png",
-        number: "240",
+        number: "0240",
         type: ["Fire"],
         category: "Live Coal",
         region: "Johto",
@@ -6215,7 +6398,7 @@ let nationalDex = {
     {
         name: "Miltank",
         imageUrl: "images/241Miltank.png",
-        number: "241",
+        number: "0241",
         type: ["Normal"],
         category: "Milk Cow",
         region: "Johto",
@@ -6235,7 +6418,7 @@ let nationalDex = {
     {
         name: "Blissey",
         imageUrl: "images/242Blissey.png",
-        number: "242",
+        number: "0242",
         type: ["Normal"],
         category: "Happiness",
         region: "Johto",
@@ -6255,7 +6438,7 @@ let nationalDex = {
     {
         name: "Raikou",
         imageUrl: "images/243Raikou.png",
-        number: "243",
+        number: "0243",
         type: ["Electric"],
         category: "Thunder",
         region: "Johto",
@@ -6275,7 +6458,7 @@ let nationalDex = {
     {
         name: "Entei",
         imageUrl: "images/244Entei.png",
-        number: "244",
+        number: "0244",
         type: ["Fire"],
         category: "Volcano",
         region: "Johto",
@@ -6295,7 +6478,7 @@ let nationalDex = {
     {
         name: "Suicune",
         imageUrl: "images/245Suicune.png",
-        number: "245",
+        number: "0245",
         type: ["Water"],
         category: "Aurora",
         region: "Johto",
@@ -6315,7 +6498,7 @@ let nationalDex = {
     {
         name: "Larvitar",
         imageUrl: "images/246Larvitar.png",
-        number: "246",
+        number: "0246",
         type: ["Rock", "Ground"],
         category: "Rock Skin",
         region: "Johto",
@@ -6335,7 +6518,7 @@ let nationalDex = {
     {
         name: "Pupitar",
         imageUrl: "images/247Pupitar.png",
-        number: "247",
+        number: "0247",
         type: ["Rock", "Ground"],
         category: "Hard Shell",
         region: "Johto",
@@ -6355,7 +6538,7 @@ let nationalDex = {
     {
         name: "Tyranitar",
         imageUrl: "images/248Tyranitar.png",
-        number: "248",
+        number: "0248",
         type: ["Rock", "Dark"],
         category: "Armor",
         region: "Johto",
@@ -6375,7 +6558,7 @@ let nationalDex = {
     {
         name: "Lugia",
         imageUrl: "images/249Lugia.png",
-        number: "249",
+        number: "0249",
         type: ["Psychic", "Flying"],
         category: "Diving",
         region: "Johto",
@@ -6395,7 +6578,7 @@ let nationalDex = {
     {
         name: "Ho-Oh",
         imageUrl: "images/250Ho-Oh.png",
-        number: "250",
+        number: "0250",
         type: ["Fire", "Flying"],
         category: "Rainbow",
         region: "Johto",
@@ -6415,7 +6598,7 @@ let nationalDex = {
     {
         name: "Celebi",
         imageUrl: "images/251Celebi.png",
-        number: "251",
+        number: "0251",
         type: ["Psychic", "Grass"],
         category: "Time Travel",
         region: "Johto",
@@ -6435,7 +6618,7 @@ let nationalDex = {
     {
         name: "Treecko",
         imageUrl: "images/252Treecko.png",
-        number: "252",
+        number: "0252",
         type: ["Grass"],
         category: "Wood Gecko",
         region: "Hoenn",
@@ -6455,7 +6638,7 @@ let nationalDex = {
     {
         name: "Grovyle",
         imageUrl: "images/253Grovyle.png",
-        number: "253",
+        number: "0253",
         type: ["Grass"],
         category: "Wood Gecko",
         region: "Hoenn",
@@ -6475,7 +6658,7 @@ let nationalDex = {
     {
         name: "Sceptile",
         imageUrl: "images/254Sceptile.png",
-        number: "254",
+        number: "0254",
         type: ["Grass"],
         category: "Forest",
         region: "Hoenn",
@@ -6495,7 +6678,7 @@ let nationalDex = {
     {
         name: "Torchic",
         imageUrl: "images/255Torchic.png",
-        number: "255",
+        number: "0255",
         type: ["Fire"],
         category: "Chick",
         region: "Hoenn",
@@ -6515,7 +6698,7 @@ let nationalDex = {
     {
         name: "Combusken",
         imageUrl: "images/256Combusken.png",
-        number: "256",
+        number: "0256",
         type: ["Fire", "Fighting"],
         category: "Young Fowl",
         region: "Hoenn",
@@ -6535,7 +6718,7 @@ let nationalDex = {
     {
         name: "Blaziken",
         imageUrl: "images/257Blaziken.png",
-        number: "257",
+        number: "0257",
         type: ["Fire", "Fighting"],
         category: "Blaze",
         region: "Hoenn",
@@ -6555,7 +6738,7 @@ let nationalDex = {
     {
         name: "Mudkip",
         imageUrl: "images/258Mudkip.png",
-        number: "258",
+        number: "0258",
         type: ["Water"],
         category: "Mud Fish",
         region: "Hoenn",
@@ -6575,7 +6758,7 @@ let nationalDex = {
     {
         name: "Marshtomp",
         imageUrl: "images/259Marshtomp.png",
-        number: "259",
+        number: "0259",
         type: ["Water", "Ground"],
         category: "Mud Fish",
         region: "Hoenn",
@@ -6595,7 +6778,7 @@ let nationalDex = {
     {
         name: "Swampert",
         imageUrl: "images/260Swampert.png",
-        number: "260",
+        number: "0260",
         type: ["Water", "Ground"],
         category: "Mud Fish",
         region: "Hoenn",
@@ -6615,7 +6798,7 @@ let nationalDex = {
     {
         name: "Poochyena",
         imageUrl: "images/261Poochyena.png",
-        number: "261",
+        number: "0261",
         type: ["Dark"],
         category: "Bite",
         region: "Hoenn",
@@ -6635,7 +6818,7 @@ let nationalDex = {
     {
         name: "Mightyena",
         imageUrl: "images/262Mightyena.png",
-        number: "262",
+        number: "0262",
         type: ["Dark"],
         category: "Bite",
         region: "Hoenn",
@@ -6655,7 +6838,7 @@ let nationalDex = {
     {
         name: "Zigzagoon",
         imageUrl: "images/263Zigzagoon.png",
-        number: "263",
+        number: "0263",
         type: ["Normal"],
         category: "Tiny Raccoon",
         region: "Hoenn",
@@ -6675,7 +6858,7 @@ let nationalDex = {
     {
         name: "Linoone",
         imageUrl: "images/264Linoone.png",
-        number: "264",
+        number: "0264",
         type: ["Normal"],
         category: "Rushing",
         region: "Hoenn",
@@ -6695,7 +6878,7 @@ let nationalDex = {
     {
         name: "Wurmple",
         imageUrl: "images/265Wurmple.png",
-        number: "265",
+        number: "0265",
         type: ["Bug"],
         category: "Worm",
         region: "Hoenn",
@@ -6715,7 +6898,7 @@ let nationalDex = {
     {
         name: "Silcoon",
         imageUrl: "images/266Silcoon.png",
-        number: "266",
+        number: "0266",
         type: ["Bug"],
         category: "Cocoon",
         region: "Hoenn",
@@ -6735,7 +6918,7 @@ let nationalDex = {
     {
         name: "Beautifly",
         imageUrl: "images/267Beautifly.png",
-        number: "267",
+        number: "0267",
         type: ["Bug", "Flying"],
         category: "Butterfly",
         region: "Hoenn",
@@ -6755,7 +6938,7 @@ let nationalDex = {
     {
         name: "Cascoon",
         imageUrl: "images/268Cascoon.png",
-        number: "268",
+        number: "0268",
         type: ["Bug"],
         category: "Cocoon",
         region: "Hoenn",
@@ -6775,7 +6958,7 @@ let nationalDex = {
     {
         name: "Dustox",
         imageUrl: "images/269Dustox.png",
-        number: "269",
+        number: "0269",
         type: ["Bug", "Poison"],
         category: "Poison Moth",
         region: "Hoenn",
@@ -6795,7 +6978,7 @@ let nationalDex = {
     {
         name: "Lotad",
         imageUrl: "images/270Lotad.png",
-        number: "270",
+        number: "0270",
         type: ["Water", "Grass"],
         category: "Water Weed",
         region: "Hoenn",
@@ -6815,7 +6998,7 @@ let nationalDex = {
     {
         name: "Lombre",
         imageUrl: "images/271Lombre.png",
-        number: "271",
+        number: "0271",
         type: ["Water", "Grass"],
         category: "Jolly",
         region: "Hoenn",
@@ -6835,7 +7018,7 @@ let nationalDex = {
     {
         name: "Ludicolo",
         imageUrl: "images/272Ludicolo.png",
-        number: "272",
+        number: "0272",
         type: ["Water", "Grass"],
         category: "Carefree",
         region: "Hoenn",
@@ -6855,7 +7038,7 @@ let nationalDex = {
     {
         name: "Seedot",
         imageUrl: "images/273Seedot.png",
-        number: "273",
+        number: "0273",
         type: ["Grass"],
         category: "Acorn",
         region: "Hoenn",
@@ -6875,7 +7058,7 @@ let nationalDex = {
     {
         name: "Nuzleaf",
         imageUrl: "images/274Nuzleaf.png",
-        number: "274",
+        number: "0274",
         type: ["Grass", "Dark"],
         category: "Wily",
         region: "Hoenn",
@@ -6895,7 +7078,7 @@ let nationalDex = {
     {
         name: "Shiftry",
         imageUrl: "images/275Shiftry.png",
-        number: "275",
+        number: "0275",
         type: ["Grass", "Dark"],
         category: "Wicked",
         region: "Hoenn",
@@ -6915,7 +7098,7 @@ let nationalDex = {
     {
         name: "Taillow",
         imageUrl: "images/276Taillow.png",
-        number: "276",
+        number: "0276",
         type: ["Normal", "Flying"],
         category: "Tiny Swallow",
         region: "Hoenn",
@@ -6935,7 +7118,7 @@ let nationalDex = {
     {
         name: "Swellow",
         imageUrl: "images/277Swellow.png",
-        number: "277",
+        number: "0277",
         type: ["Normal", "Flying"],
         category: "Swallow",
         region: "Hoenn",
@@ -6955,7 +7138,7 @@ let nationalDex = {
     {
         name: "Wingull",
         imageUrl: "images/278Wingull.png",
-        number: "278",
+        number: "0278",
         type: ["Water", "Flying"],
         category: "Seagull",
         region: "Hoenn",
@@ -6975,7 +7158,7 @@ let nationalDex = {
     {
         name: "Pelipper",
         imageUrl: "images/279Pelipper.png",
-        number: "279",
+        number: "0279",
         type: ["Water", "Flying"],
         category: "Water Bird",
         region: "Hoenn",
@@ -6995,7 +7178,7 @@ let nationalDex = {
     {
         name: "Ralts",
         imageUrl: "images/280Ralts.png",
-        number: "280",
+        number: "0280",
         type: ["Psychic", "Fairy"],
         category: "Feeling",
         region: "Hoenn",
@@ -7015,7 +7198,7 @@ let nationalDex = {
     {
         name: "Kirlia",
         imageUrl: "images/281Kirlia.png",
-        number: "281",
+        number: "0281",
         type: ["Psychic", "Fairy"],
         category: "Emotion",
         region: "Hoenn",
@@ -7035,7 +7218,7 @@ let nationalDex = {
     {
         name: "Gardevoir",
         imageUrl: "images/282Gardevoir.png",
-        number: "282",
+        number: "0282",
         type: ["Psychic", "Fairy"],
         category: "Embrace",
         region: "Hoenn",
@@ -7055,7 +7238,7 @@ let nationalDex = {
     {
         name: "Surskit",
         imageUrl: "images/283Surskit.png",
-        number: "283",
+        number: "0283",
         type: ["Bug", "Water"],
         category: "Pond Skater",
         region: "Hoenn",
@@ -7075,7 +7258,7 @@ let nationalDex = {
     {
         name: "Masquerain",
         imageUrl: "images/284Masquerain.png",
-        number: "284",
+        number: "0284",
         type: ["Bug", "Flying"],
         category: "Eyeball",
         region: "Hoenn",
@@ -7095,7 +7278,7 @@ let nationalDex = {
     {
         name: "Shroomish",
         imageUrl: "images/285Shroomish.png",
-        number: "285",
+        number: "0285",
         type: ["Grass"],
         category: "Mushroom",
         region: "Hoenn",
@@ -7115,7 +7298,7 @@ let nationalDex = {
     {
         name: "Breloom",
         imageUrl: "images/286Breloom.png",
-        number: "286",
+        number: "0286",
         type: ["Grass", "Fighting"],
         category: "Mushroom",
         region: "Hoenn",
@@ -7135,7 +7318,7 @@ let nationalDex = {
     {
         name: "Slakoth",
         imageUrl: "images/287Slakoth.png",
-        number: "287",
+        number: "0287",
         type: ["Normal"],
         category: "Slacker",
         region: "Hoenn",
@@ -7155,7 +7338,7 @@ let nationalDex = {
     {
         name: "Vigoroth",
         imageUrl: "images/288Vigoroth.png",
-        number: "288",
+        number: "0288",
         type: ["Normal"],
         category: "Wild Monkey",
         region: "Hoenn",
@@ -7175,7 +7358,7 @@ let nationalDex = {
     {
         name: "Slaking",
         imageUrl: "images/289Slaking.png",
-        number: "289",
+        number: "0289",
         type: ["Normal"],
         category: "Lazy",
         region: "Hoenn",
@@ -7195,7 +7378,7 @@ let nationalDex = {
     {
         name: "Nincada",
         imageUrl: "images/290Nincada.png",
-        number: "290",
+        number: "0290",
         type: ["Bug", "Ground"],
         category: "Trainee",
         region: "Hoenn",
@@ -7215,7 +7398,7 @@ let nationalDex = {
     {
         name: "Ninjask",
         imageUrl: "images/291Ninjask.png",
-        number: "291",
+        number: "0291",
         type: ["Bug", "Flying"],
         category: "Ninja",
         region: "Hoenn",
@@ -7235,7 +7418,7 @@ let nationalDex = {
     {
         name: "Shedinja",
         imageUrl: "images/292Shedinja.png",
-        number: "292",
+        number: "0292",
         type: ["Bug", "Ghost"],
         category: "Shed",
         region: "Hoenn",
@@ -7255,7 +7438,7 @@ let nationalDex = {
     {
         name: "Whismur",
         imageUrl: "images/293Whismur.png",
-        number: "293",
+        number: "0293",
         type: ["Normal"],
         category: "Whisper",
         region: "Hoenn",
@@ -7275,7 +7458,7 @@ let nationalDex = {
     {
         name: "Loudred",
         imageUrl: "images/294Loudred.png",
-        number: "294",
+        number: "0294",
         type: ["Normal"],
         category: "Big Voice",
         region: "Hoenn",
@@ -7295,7 +7478,7 @@ let nationalDex = {
     {
         name: "Exploud",
         imageUrl: "images/295Exploud.png",
-        number: "295",
+        number: "0295",
         type: ["Normal"],
         category: "Loud Noise",
         region: "Hoenn",
@@ -7315,7 +7498,7 @@ let nationalDex = {
     {
         name: "Makuhita",
         imageUrl: "images/296Makuhita.png",
-        number: "296",
+        number: "0296",
         type: ["Fighting"],
         category: "Guts",
         region: "Hoenn",
@@ -7335,7 +7518,7 @@ let nationalDex = {
     {
         name: "Hariyama",
         imageUrl: "images/297Hariyama.png",
-        number: "297",
+        number: "0297",
         type: ["Fighting"],
         category: "Arm Thrust",
         region: "Hoenn",
@@ -7355,7 +7538,7 @@ let nationalDex = {
     {
         name: "Azurill",
         imageUrl: "images/298Azurill.png",
-        number: "298",
+        number: "0298",
         type: ["Normal", "Fairy"],
         category: "Polka Dot",
         region: "Hoenn",
@@ -7375,7 +7558,7 @@ let nationalDex = {
     {
         name: "Nosepass",
         imageUrl: "images/299Nosepass.png",
-        number: "299",
+        number: "0299",
         type: ["Rock"],
         category: "Compass",
         region: "Hoenn",
@@ -7395,7 +7578,7 @@ let nationalDex = {
     {
         name: "Skitty",
         imageUrl: "images/300Skitty.png",
-        number: "300",
+        number: "0300",
         type: ["Normal"],
         category: "Kitten",
         region: "Hoenn",
@@ -7415,7 +7598,7 @@ let nationalDex = {
     {
         name: "Delcatty",
         imageUrl: "images/301Delcatty.png",
-        number: "301",
+        number: "0301",
         type: ["Normal"],
         category: "Prim",
         region: "Hoenn",
@@ -7435,7 +7618,7 @@ let nationalDex = {
     {
         name: "Sableye",
         imageUrl: "images/302Sableye.png",
-        number: "302",
+        number: "0302",
         type: ["Dark", "Ghost"],
         category: "Darkness",
         region: "Hoenn",
@@ -7455,7 +7638,7 @@ let nationalDex = {
     {
         name: "Mawile",
         imageUrl: "images/303Mawile.png",
-        number: "303",
+        number: "0303",
         type: ["Steel", "Fairy"],
         category: "Deceiver",
         region: "Hoenn",
@@ -7475,7 +7658,7 @@ let nationalDex = {
     {
         name: "Aron",
         imageUrl: "images/304Aron.png",
-        number: "304",
+        number: "0304",
         type: ["Steel", "Rock"],
         category: "Iron Armor",
         region: "Hoenn",
@@ -7495,7 +7678,7 @@ let nationalDex = {
     {
         name: "Lairon",
         imageUrl: "images/305Lairon.png",
-        number: "305",
+        number: "0305",
         type: ["Steel", "Rock"],
         category: "Iron Armor",
         region: "Hoenn",
@@ -7515,7 +7698,7 @@ let nationalDex = {
     {
         name: "Aggron",
         imageUrl: "images/306Aggron.png",
-        number: "306",
+        number: "0306",
         type: ["Steel", "Rock"],
         category: "Iron Armor",
         region: "Hoenn",
@@ -7535,7 +7718,7 @@ let nationalDex = {
     {
         name: "Meditite",
         imageUrl: "images/307Meditite.png",
-        number: "307",
+        number: "0307",
         type: ["Fighting", "Psychic"],
         category: "Meditate",
         region: "Hoenn",
@@ -7555,7 +7738,7 @@ let nationalDex = {
     {
         name: "Medicham",
         imageUrl: "images/308Medicham.png",
-        number: "308",
+        number: "0308",
         type: ["Fighting", "Psychic"],
         category: "Meditate",
         region: "Hoenn",
@@ -7575,7 +7758,7 @@ let nationalDex = {
     {
         name: "Electrike",
         imageUrl: "images/309Electrike.png",
-        number: "309",
+        number: "0309",
         type: ["Electric"],
         category: "Lightning",
         region: "Hoenn",
@@ -7595,7 +7778,7 @@ let nationalDex = {
     {
         name: "Manectric",
         imageUrl: "images/310Manectric.png",
-        number: "310",
+        number: "0310",
         type: ["Electric"],
         category: "Discharge",
         region: "Hoenn",
@@ -7615,7 +7798,7 @@ let nationalDex = {
     {
         name: "Plusle",
         imageUrl: "images/311Plusle.png",
-        number: "311",
+        number: "0311",
         type: ["Electric"],
         category: "Cheering",
         region: "Hoenn",
@@ -7635,7 +7818,7 @@ let nationalDex = {
     {
         name: "Minun",
         imageUrl: "images/312Minun.png",
-        number: "312",
+        number: "0312",
         type: ["Electric"],
         category: "Cheering",
         region: "Hoenn",
@@ -7655,7 +7838,7 @@ let nationalDex = {
     {
         name: "Volbeat",
         imageUrl: "images/313Volbeat.png",
-        number: "313",
+        number: "0313",
         type: ["Bug"],
         category: "Firefly",
         region: "Hoenn",
@@ -7675,7 +7858,7 @@ let nationalDex = {
     {
         name: "Illumise",
         imageUrl: "images/314Illumise.png",
-        number: "314",
+        number: "0314",
         type: ["Bug"],
         category: "Firefly",
         region: "Hoenn",
@@ -7695,7 +7878,7 @@ let nationalDex = {
     {
         name: "Roselia",
         imageUrl: "images/315Roselia.png",
-        number: "315",
+        number: "0315",
         type: ["Grass", "Poison"],
         category: "Thorn",
         region: "Hoenn",
@@ -7715,7 +7898,7 @@ let nationalDex = {
     {
         name: "Gulpin",
         imageUrl: "images/316Gulpin.png",
-        number: "316",
+        number: "0316",
         type: ["Poison"],
         category: "Stomach",
         region: "Hoenn",
@@ -7735,7 +7918,7 @@ let nationalDex = {
     {
         name: "Swalot",
         imageUrl: "images/317Swalot.png",
-        number: "317",
+        number: "0317",
         type: ["Poison"],
         category: "Poison Bag",
         region: "Hoenn",
@@ -7755,7 +7938,7 @@ let nationalDex = {
     {
         name: "Carvanha",
         imageUrl: "images/318Carvanha.png",
-        number: "318",
+        number: "0318",
         type: ["Water", "Dark"],
         category: "Savage",
         region: "Hoenn",
@@ -7775,7 +7958,7 @@ let nationalDex = {
     {
         name: "Sharpedo",
         imageUrl: "images/319Sharpedo.png",
-        number: "319",
+        number: "0319",
         type: ["Water", "Dark"],
         category: "Brutal",
         region: "Hoenn",
@@ -7795,7 +7978,7 @@ let nationalDex = {
     {
         name: "Wailmer",
         imageUrl: "images/320Wailmer.png",
-        number: "320",
+        number: "0320",
         type: ["Water"],
         category: "Ball Whale",
         region: "Hoenn",
@@ -7815,7 +7998,7 @@ let nationalDex = {
     {
         name: "Wailord",
         imageUrl: "images/321Wailord.png",
-        number: "321",
+        number: "0321",
         type: ["Water"],
         category: "Float Whale",
         region: "Hoenn",
@@ -7835,7 +8018,7 @@ let nationalDex = {
     {
         name: "Numel",
         imageUrl: "images/322Numel.png",
-        number: "322",
+        number: "0322",
         type: ["Fire", "Ground"],
         category: "Numb",
         region: "Hoenn",
@@ -7855,7 +8038,7 @@ let nationalDex = {
     {
         name: "Camerupt",
         imageUrl: "images/323Camerupt.png",
-        number: "323",
+        number: "0323",
         type: ["Fire", "Ground"],
         category: "Eruption",
         region: "Hoenn",
@@ -7875,7 +8058,7 @@ let nationalDex = {
     {
         name: "Torkoal",
         imageUrl: "images/324Torkoal.png",
-        number: "324",
+        number: "0324",
         type: ["Fire"],
         category: "Coal",
         region: "Hoenn",
@@ -7895,7 +8078,7 @@ let nationalDex = {
     {
         name: "Spoink",
         imageUrl: "images/325Spoink.png",
-        number: "325",
+        number: "0325",
         type: ["Psychic"],
         category: "Bounce",
         region: "Hoenn",
@@ -7915,7 +8098,7 @@ let nationalDex = {
     {
         name: "Grumpig",
         imageUrl: "images/326Grumpig.png",
-        number: "326",
+        number: "0326",
         type: ["Psychic"],
         category: "Manipulate",
         region: "Hoenn",
@@ -7935,7 +8118,7 @@ let nationalDex = {
     {
         name: "Spinda",
         imageUrl: "images/327Spinda.png",
-        number: "327",
+        number: "0327",
         type: ["Normal"],
         category: "Spot Panda",
         region: "Hoenn",
@@ -7955,7 +8138,7 @@ let nationalDex = {
     {
         name: "Trapinch",
         imageUrl: "images/328Trapinch.png",
-        number: "328",
+        number: "0328",
         type: ["Ground"],
         category: "Ant Pit",
         region: "Hoenn",
@@ -7975,7 +8158,7 @@ let nationalDex = {
     {
         name: "Vibrava",
         imageUrl: "images/329Vibrava.png",
-        number: "329",
+        number: "0329",
         type: ["Ground", "Dragon"],
         category: "Vibration",
         region: "Hoenn",
@@ -7995,7 +8178,7 @@ let nationalDex = {
     {
         name: "Flygon",
         imageUrl: "images/330Flygon.png",
-        number: "330",
+        number: "0330",
         type: ["Ground", "Dragon"],
         category: "Mystic",
         region: "Hoenn",
@@ -8015,7 +8198,7 @@ let nationalDex = {
     {
         name: "Cacnea",
         imageUrl: "images/331Cacnea.png",
-        number: "331",
+        number: "0331",
         type: ["Grass"],
         category: "Cactus",
         region: "Hoenn",
@@ -8035,7 +8218,7 @@ let nationalDex = {
     {
         name: "Cacturne",
         imageUrl: "images/332Cacturne.png",
-        number: "332",
+        number: "0332",
         type: ["Grass", "Dark"],
         category: "Scarecrow",
         region: "Hoenn",
@@ -8055,7 +8238,7 @@ let nationalDex = {
     {
         name: "Swablu",
         imageUrl: "images/333Swablu.png",
-        number: "333",
+        number: "0333",
         type: ["Normal", "Flying"],
         category: "Cotton Bird",
         region: "Hoenn",
@@ -8075,7 +8258,7 @@ let nationalDex = {
     {
         name: "Altaria",
         imageUrl: "images/334Altaria.png",
-        number: "334",
+        number: "0334",
         type: ["Dragon", "Flying"],
         category: "Humming",
         region: "Hoenn",
@@ -8095,7 +8278,7 @@ let nationalDex = {
     {
         name: "Zangoose",
         imageUrl: "images/335Zangoose.png",
-        number: "335",
+        number: "0335",
         type: ["Normal"],
         category: "Cat Ferret",
         region: "Hoenn",
@@ -8115,7 +8298,7 @@ let nationalDex = {
     {
         name: "Seviper",
         imageUrl: "images/336Seviper.png",
-        number: "336",
+        number: "0336",
         type: ["Poison"],
         category: "Fang Snake",
         region: "Hoenn",
@@ -8135,7 +8318,7 @@ let nationalDex = {
     {
         name: "Lunatone",
         imageUrl: "images/337Lunatone.png",
-        number: "337",
+        number: "0337",
         type: ["Rock", "Psychic"],
         category: "Meteorite",
         region: "Hoenn",
@@ -8155,7 +8338,7 @@ let nationalDex = {
     {
         name: "Solrock",
         imageUrl: "images/338Solrock.png",
-        number: "338",
+        number: "0338",
         type: ["Rock", "Psychic"],
         category: "Meteorite",
         region: "Hoenn",
@@ -8175,7 +8358,7 @@ let nationalDex = {
     {
         name: "Barboach",
         imageUrl: "images/339Barboach.png",
-        number: "339",
+        number: "0339",
         type: ["Water", "Ground"],
         category: "Whiskers",
         region: "Hoenn",
@@ -8195,7 +8378,7 @@ let nationalDex = {
     {
         name: "Whiscash",
         imageUrl: "images/340Whiscash.png",
-        number: "340",
+        number: "0340",
         type: ["Water", "Ground"],
         category: "Whiskers",
         region: "Hoenn",
@@ -8215,7 +8398,7 @@ let nationalDex = {
     {
         name: "Corphish",
         imageUrl: "images/341Corphish.png",
-        number: "341",
+        number: "0341",
         type: ["Water"],
         category: "Ruffian",
         region: "Hoenn",
@@ -8235,7 +8418,7 @@ let nationalDex = {
     {
         name: "Crawdaunt",
         imageUrl: "images/342Crawdaunt.png",
-        number: "342",
+        number: "0342",
         type: ["Water", "Dark"],
         category: "Rogue",
         region: "Hoenn",
@@ -8255,7 +8438,7 @@ let nationalDex = {
     {
         name: "Baltoy",
         imageUrl: "images/343Baltoy.png",
-        number: "343",
+        number: "0343",
         type: ["Ground", "Psychic"],
         category: "Clay Doll",
         region: "Hoenn",
@@ -8275,7 +8458,7 @@ let nationalDex = {
     {
         name: "Claydol",
         imageUrl: "images/344Claydol.png",
-        number: "344",
+        number: "0344",
         type: ["Ground", "Psychic"],
         category: "Clay Doll",
         region: "Hoenn",
@@ -8295,7 +8478,7 @@ let nationalDex = {
     {
         name: "Lileep",
         imageUrl: "images/345Lileep.png",
-        number: "345",
+        number: "0345",
         type: ["Rock", "Grass"],
         category: "Sea Lily",
         region: "Hoenn",
@@ -8315,7 +8498,7 @@ let nationalDex = {
     {
         name: "Cradily",
         imageUrl: "images/346Cradily.png",
-        number: "346",
+        number: "0346",
         type: ["Rock", "Grass"],
         category: "Barnacle",
         region: "Hoenn",
@@ -8335,7 +8518,7 @@ let nationalDex = {
     {
         name: "Anorith",
         imageUrl: "images/347Anorith.png",
-        number: "347",
+        number: "0347",
         type: ["Rock", "Bug"],
         category: "Old Shrimp",
         region: "Hoenn",
@@ -8355,7 +8538,7 @@ let nationalDex = {
     {
         name: "Armaldo",
         imageUrl: "images/348Armaldo.png",
-        number: "348",
+        number: "0348",
         type: ["Rock", "Bug"],
         category: "Plate",
         region: "Hoenn",
@@ -8375,7 +8558,7 @@ let nationalDex = {
     {
         name: "Feebas",
         imageUrl: "images/349Feebas.png",
-        number: "349",
+        number: "0349",
         type: ["Water"],
         category: "Fish",
         region: "Hoenn",
@@ -8395,7 +8578,7 @@ let nationalDex = {
     {
         name: "Milotic",
         imageUrl: "images/350Milotic.png",
-        number: "350",
+        number: "0350",
         type: ["Water"],
         category: "Tender",
         region: "Hoenn",
@@ -8415,7 +8598,7 @@ let nationalDex = {
     {
         name: "Castform",
         imageUrl: "images/351Castform.png",
-        number: "351",
+        number: "0351",
         type: ["Normal"],
         category: "Weather",
         region: "Hoenn",
@@ -8435,7 +8618,7 @@ let nationalDex = {
     {
         name: "Kecleon",
         imageUrl: "images/352Kecleon.png",
-        number: "352",
+        number: "0352",
         type: ["Normal"],
         category: "Color Swap",
         region: "Hoenn",
@@ -8455,7 +8638,7 @@ let nationalDex = {
     {
         name: "Shuppet",
         imageUrl: "images/353Shuppet.png",
-        number: "353",
+        number: "0353",
         type: ["Ghost"],
         category: "Puppet",
         region: "Hoenn",
@@ -8475,7 +8658,7 @@ let nationalDex = {
     {
         name: "Banette",
         imageUrl: "images/354Banette.png",
-        number: "354",
+        number: "0354",
         type: ["Ghost"],
         category: "Marionette",
         region: "Hoenn",
@@ -8495,7 +8678,7 @@ let nationalDex = {
     {
         name: "Duskull",
         imageUrl: "images/355Duskull.png",
-        number: "355",
+        number: "0355",
         type: ["Ghost"],
         category: "Requiem",
         region: "Hoenn",
@@ -8515,7 +8698,7 @@ let nationalDex = {
     {
         name: "Dusclops",
         imageUrl: "images/356Dusclops.png",
-        number: "356",
+        number: "0356",
         type: ["Ghost"],
         category: "Beckon",
         region: "Hoenn",
@@ -8535,7 +8718,7 @@ let nationalDex = {
     {
         name: "Tropius",
         imageUrl: "images/357Tropius.png",
-        number: "357",
+        number: "0357",
         type: ["Grass", "Flying"],
         category: "Fruit",
         region: "Hoenn",
@@ -8555,7 +8738,7 @@ let nationalDex = {
     {
         name: "Chimecho",
         imageUrl: "images/358Chimecho.png",
-        number: "358",
+        number: "0358",
         type: ["Psychic"],
         category: "Wind Chime",
         region: "Hoenn",
@@ -8575,7 +8758,7 @@ let nationalDex = {
     {
         name: "Absol",
         imageUrl: "images/359Absol.png",
-        number: "359",
+        number: "0359",
         type: ["Dark"],
         category: "Disaster",
         region: "Hoenn",
@@ -8595,7 +8778,7 @@ let nationalDex = {
     {
         name: "Wynaut",
         imageUrl: "images/360Wynaut.png",
-        number: "360",
+        number: "0360",
         type: ["Psychic"],
         category: "Bright",
         region: "Hoenn",
@@ -8615,7 +8798,7 @@ let nationalDex = {
     {
         name: "Snorunt",
         imageUrl: "images/361Snorunt.png",
-        number: "361",
+        number: "0361",
         type: ["Ice"],
         category: "Snow Hat",
         region: "Hoenn",
@@ -8635,7 +8818,7 @@ let nationalDex = {
     {
         name: "Glalie",
         imageUrl: "images/362Glalie.png",
-        number: "362",
+        number: "0362",
         type: ["Ice"],
         category: "Face",
         region: "Hoenn",
@@ -8655,7 +8838,7 @@ let nationalDex = {
     {
         name: "Spheal",
         imageUrl: "images/363Spheal.png",
-        number: "363",
+        number: "0363",
         type: ["Ice", "Water"],
         category: "Clap",
         region: "Hoenn",
@@ -8675,7 +8858,7 @@ let nationalDex = {
     {
         name: "Sealeo",
         imageUrl: "images/364Sealeo.png",
-        number: "364",
+        number: "0364",
         type: ["Ice", "Water"],
         category: "Ball Roll",
         region: "Hoenn",
@@ -8695,7 +8878,7 @@ let nationalDex = {
     {
         name: "Walrein",
         imageUrl: "images/365Walrein.png",
-        number: "365",
+        number: "0365",
         type: ["Ice", "Water"],
         category: "Ice Break",
         region: "Hoenn",
@@ -8715,7 +8898,7 @@ let nationalDex = {
     {
         name: "Clamperl",
         imageUrl: "images/366Clamperl.png",
-        number: "366",
+        number: "0366",
         type: ["Water"],
         category: "Bivalve",
         region: "Hoenn",
@@ -8735,7 +8918,7 @@ let nationalDex = {
     {
         name: "Huntail",
         imageUrl: "images/367Huntail.png",
-        number: "367",
+        number: "0367",
         type: ["Water"],
         category: "Deep Sea",
         region: "Hoenn",
@@ -8755,7 +8938,7 @@ let nationalDex = {
     {
         name: "Gorebyss",
         imageUrl: "images/368Gorebyss.png",
-        number: "368",
+        number: "0368",
         type: ["Water"],
         category: "South Sea",
         region: "Hoenn",
@@ -8775,7 +8958,7 @@ let nationalDex = {
     {
         name: "Relicanth",
         imageUrl: "images/369Relicanth.png",
-        number: "369",
+        number: "0369",
         type: ["Water", "Rock"],
         category: "Longevity",
         region: "Hoenn",
@@ -8795,7 +8978,7 @@ let nationalDex = {
     {
         name: "Luvdisc",
         imageUrl: "images/370Luvdisc.png",
-        number: "370",
+        number: "0370",
         type: ["Water"],
         category: "Rendezvous",
         region: "Hoenn",
@@ -8815,7 +8998,7 @@ let nationalDex = {
     {
         name: "Bagon",
         imageUrl: "images/371Bagon.png",
-        number: "371",
+        number: "0371",
         type: ["Dragon"],
         category: "Rock Head",
         region: "Hoenn",
@@ -8835,7 +9018,7 @@ let nationalDex = {
     {
         name: "Shelgon",
         imageUrl: "images/372Shelgon.png",
-        number: "372",
+        number: "0372",
         type: ["Dragon"],
         category: "Endurance",
         region: "Hoenn",
@@ -8855,7 +9038,7 @@ let nationalDex = {
     {
         name: "Salamence",
         imageUrl: "images/373Salamence.png",
-        number: "373",
+        number: "0373",
         type: ["Dragon", "Flying"],
         category: "Dragon",
         region: "Hoenn",
@@ -8875,7 +9058,7 @@ let nationalDex = {
     {
         name: "Beldum",
         imageUrl: "images/374Beldum.png",
-        number: "374",
+        number: "0374",
         type: ["Steel", "Psychic"],
         category: "Iron Ball",
         region: "Hoenn",
@@ -8895,7 +9078,7 @@ let nationalDex = {
     {
         name: "Metang",
         imageUrl: "images/375Metang.png",
-        number: "375",
+        number: "0375",
         type: ["Steel", "Psychic"],
         category: "Iron Claw",
         region: "Hoenn",
@@ -8915,7 +9098,7 @@ let nationalDex = {
     {
         name: "Metagross",
         imageUrl: "images/376Metagross.png",
-        number: "376",
+        number: "0376",
         type: ["Steel", "Psychic"],
         category: "Iron Leg",
         region: "Hoenn",
@@ -8935,7 +9118,7 @@ let nationalDex = {
     {
         name: "Regirock",
         imageUrl: "images/377Regirock.png",
-        number: "377",
+        number: "0377",
         type: ["Rock"],
         category: "Rock Peak",
         region: "Hoenn",
@@ -8955,7 +9138,7 @@ let nationalDex = {
     {
         name: "Regice",
         imageUrl: "images/378Regice.png",
-        number: "378",
+        number: "0378",
         type: ["Ice"],
         category: "Iceberg",
         region: "Hoenn",
@@ -8975,7 +9158,7 @@ let nationalDex = {
     {
         name: "Registeel",
         imageUrl: "images/379Registeel.png",
-        number: "379",
+        number: "0379",
         type: ["Steel"],
         category: "Iron",
         region: "Hoenn",
@@ -8995,7 +9178,7 @@ let nationalDex = {
     {
         name: "Latias",
         imageUrl: "images/380Latias.png",
-        number: "380",
+        number: "0380",
         type: ["Dragon", "Psychic"],
         category: "Eon",
         region: "Hoenn",
@@ -9015,7 +9198,7 @@ let nationalDex = {
     {
         name: "Latios",
         imageUrl: "images/381Latios.png",
-        number: "381",
+        number: "0381",
         type: ["Dragon", "Psychic"],
         category: "Eon",
         region: "Hoenn",
@@ -9035,7 +9218,7 @@ let nationalDex = {
     {
         name: "Kyogre",
         imageUrl: "images/382Kyogre.png",
-        number: "382",
+        number: "0382",
         type: ["Water"],
         category: "Sea Basin",
         region: "Hoenn",
@@ -9055,7 +9238,7 @@ let nationalDex = {
     {
         name: "Groudon",
         imageUrl: "images/383Groudon.png",
-        number: "383",
+        number: "0383",
         type: ["Ground"],
         category: "Continent",
         region: "Hoenn",
@@ -9075,7 +9258,7 @@ let nationalDex = {
     {
         name: "Rayquaza",
         imageUrl: "images/384Rayquaza.png",
-        number: "384",
+        number: "0384",
         type: ["Dragon", "Flying"],
         category: "Sky High",
         region: "Hoenn",
@@ -9095,7 +9278,7 @@ let nationalDex = {
     {
         name: "Jirachi",
         imageUrl: "images/385Jirachi.png",
-        number: "385",
+        number: "0385",
         type: ["Steel", "Psychic"],
         category: "Wish",
         region: "Hoenn",
@@ -9115,7 +9298,7 @@ let nationalDex = {
     {
         name: "Deoxys",
         imageUrl: "images/386Deoxys.png",
-        number: "386",
+        number: "0386",
         type: ["Psychic"],
         category: "DNA",
         region: "Hoenn",
@@ -9135,7 +9318,7 @@ let nationalDex = {
     {
         name: "Turtwig",
         imageUrl: "images/387Turtwig.png",
-        number: "387",
+        number: "0387",
         type: ["Grass"],
         category: "Tiny Leaf",
         region: "Sinnoh",
@@ -9155,7 +9338,7 @@ let nationalDex = {
     {
         name: "Grotle",
         imageUrl: "images/388Grotle.png",
-        number: "388",
+        number: "0388",
         type: ["Grass"],
         category: "Grove",
         region: "Sinnoh",
@@ -9175,7 +9358,7 @@ let nationalDex = {
     {
         name: "Torterra",
         imageUrl: "images/389Torterra.png",
-        number: "389",
+        number: "0389",
         type: ["Grass", "Ground"],
         category: "Continent",
         region: "Sinnoh",
@@ -9195,7 +9378,7 @@ let nationalDex = {
     {
         name: "Chimchar",
         imageUrl: "images/390Chimchar.png",
-        number: "390",
+        number: "0390",
         type: ["Fire"],
         category: "Chimp",
         region: "Sinnoh",
@@ -9215,7 +9398,7 @@ let nationalDex = {
     {
         name: "Monferno",
         imageUrl: "images/391Monferno.png",
-        number: "391",
+        number: "0391",
         type: ["Fire", "Fighting"],
         category: "Playful",
         region: "Sinnoh",
@@ -9235,7 +9418,7 @@ let nationalDex = {
     {
         name: "Infernape",
         imageUrl: "images/392Infernape.png",
-        number: "392",
+        number: "0392",
         type: ["Fire", "Fighting"],
         category: "Flame",
         region: "Sinnoh",
@@ -9255,7 +9438,7 @@ let nationalDex = {
     {
         name: "Piplup",
         imageUrl: "images/393Piplup.png",
-        number: "393",
+        number: "0393",
         type: ["Water"],
         category: "Penguin",
         region: "Sinnoh",
@@ -9275,7 +9458,7 @@ let nationalDex = {
     {
         name: "Prinplup",
         imageUrl: "images/394Prinplup.png",
-        number: "394",
+        number: "0394",
         type: ["Water"],
         category: "Penguin",
         region: "Sinnoh",
@@ -9295,7 +9478,7 @@ let nationalDex = {
     {
         name: "Empoleon",
         imageUrl: "images/395Empoleon.png",
-        number: "395",
+        number: "0395",
         type: ["Water", "Steel"],
         category: "Emperor",
         region: "Sinnoh",
@@ -9315,7 +9498,7 @@ let nationalDex = {
     {
         name: "Starly",
         imageUrl: "images/396Starly.png",
-        number: "396",
+        number: "0396",
         type: ["Normal", "Flying"],
         category: "Starling",
         region: "Sinnoh",
@@ -9335,7 +9518,7 @@ let nationalDex = {
     {
         name: "Staravia",
         imageUrl: "images/397Staravia.png",
-        number: "397",
+        number: "0397",
         type: ["Normal", "Flying"],
         category: "Starling",
         region: "Sinnoh",
@@ -9355,7 +9538,7 @@ let nationalDex = {
     {
         name: "Staraptor",
         imageUrl: "images/398Staraptor.png",
-        number: "398",
+        number: "0398",
         type: ["Normal", "Flying"],
         category: "Predator",
         region: "Sinnoh",
@@ -9375,7 +9558,7 @@ let nationalDex = {
     {
         name: "Bidoof",
         imageUrl: "images/399Bidoof.png",
-        number: "399",
+        number: "0399",
         type: ["Normal"],
         category: "Plump Mouse",
         region: "Sinnoh",
@@ -9395,7 +9578,7 @@ let nationalDex = {
     {
         name: "Bibarel",
         imageUrl: "images/400Bibarel.png",
-        number: "400",
+        number: "0400",
         type: ["Normal", "Water"],
         category: "Beaver",
         region: "Sinnoh",
@@ -9415,7 +9598,7 @@ let nationalDex = {
     {
         name: "Kricketot",
         imageUrl: "images/401Kricketot.png",
-        number: "401",
+        number: "0401",
         type: ["Bug"],
         category: "Cricket",
         region: "Sinnoh",
@@ -9435,7 +9618,7 @@ let nationalDex = {
     {
         name: "Kricketune",
         imageUrl: "images/402Kricketune.png",
-        number: "402",
+        number: "0402",
         type: ["Bug"],
         category: "Cricket",
         region: "Sinnoh",
@@ -9455,7 +9638,7 @@ let nationalDex = {
     {
         name: "Shinx",
         imageUrl: "images/403Shinx.png",
-        number: "403",
+        number: "0403",
         type: ["Electric"],
         category: "Flash",
         region: "Sinnoh",
@@ -9475,7 +9658,7 @@ let nationalDex = {
     {
         name: "Luxio",
         imageUrl: "images/404Luxio.png",
-        number: "404",
+        number: "0404",
         type: ["Electric"],
         category: "Spark",
         region: "Sinnoh",
@@ -9495,7 +9678,7 @@ let nationalDex = {
     {
         name: "Luxray",
         imageUrl: "images/405Luxray.png",
-        number: "405",
+        number: "0405",
         type: ["Electric"],
         category: "Gleam Eyes",
         region: "Sinnoh",
@@ -9515,7 +9698,7 @@ let nationalDex = {
     {
         name: "Budew",
         imageUrl: "images/406Budew.png",
-        number: "406",
+        number: "0406",
         type: ["Grass", "Poison"],
         category: "Bud",
         region: "Sinnoh",
@@ -9535,7 +9718,7 @@ let nationalDex = {
     {
         name: "Roserade",
         imageUrl: "images/407Roserade.png",
-        number: "407",
+        number: "0407",
         type: ["Grass", "Poison"],
         category: "Bouquet",
         region: "Sinnoh",
@@ -9555,7 +9738,7 @@ let nationalDex = {
     {
         name: "Cranidos",
         imageUrl: "images/408Cranidos.png",
-        number: "408",
+        number: "0408",
         type: ["Rock"],
         category: "Head Butt",
         region: "Sinnoh",
@@ -9575,7 +9758,7 @@ let nationalDex = {
     {
         name: "Rampardos",
         imageUrl: "images/409Rampardos.png",
-        number: "409",
+        number: "0409",
         type: ["Rock"],
         category: "Head Butt",
         region: "Sinnoh",
@@ -9595,7 +9778,7 @@ let nationalDex = {
     {
         name: "Shieldon",
         imageUrl: "images/410Shieldon.png",
-        number: "410",
+        number: "0410",
         type: ["Rock", "Steel"],
         category: "Shield",
         region: "Sinnoh",
@@ -9615,7 +9798,7 @@ let nationalDex = {
     {
         name: "Bastiodon",
         imageUrl: "images/411Bastiodon.png",
-        number: "411",
+        number: "0411",
         type: ["Rock", "Steel"],
         category: "Shield",
         region: "Sinnoh",
@@ -9635,7 +9818,7 @@ let nationalDex = {
     {
         name: "Burmy",
         imageUrl: "images/412Burmy.png",
-        number: "412",
+        number: "0412",
         type: ["Bug"],
         category: "Bagworm",
         region: "Sinnoh",
@@ -9655,7 +9838,7 @@ let nationalDex = {
     {
         name: "Wormadam",
         imageUrl: "images/413Wormadam.png",
-        number: "413",
+        number: "0413",
         type: ["Bug", "Grass"],
         category: "Bagworm",
         region: "Sinnoh",
@@ -9675,7 +9858,7 @@ let nationalDex = {
     {
         name: "Mothim",
         imageUrl: "images/414Mothim.png",
-        number: "414",
+        number: "0414",
         type: ["Bug", "Flying"],
         category: "Moth",
         region: "Sinnoh",
@@ -9695,7 +9878,7 @@ let nationalDex = {
     {
         name: "Combee",
         imageUrl: "images/415Combee.png",
-        number: "415",
+        number: "0415",
         type: ["Bug", "Flying"],
         category: "Tiny Bee",
         region: "Sinnoh",
@@ -9715,7 +9898,7 @@ let nationalDex = {
     {
         name: "Vespiquen",
         imageUrl: "images/416Vespiquen.png",
-        number: "416",
+        number: "0416",
         type: ["Bug", "Flying"],
         category: "Beehive",
         region: "Sinnoh",
@@ -9735,7 +9918,7 @@ let nationalDex = {
     {
         name: "Pachirisu",
         imageUrl: "images/417Pachirisu.png",
-        number: "417",
+        number: "0417",
         type: ["Electric"],
         category: "EleSquirrel",
         region: "Sinnoh",
@@ -9755,7 +9938,7 @@ let nationalDex = {
     {
         name: "Buizel",
         imageUrl: "images/418Buizel.png",
-        number: "418",
+        number: "0418",
         type: ["Water"],
         category: "Sea Weasel",
         region: "Sinnoh",
@@ -9775,7 +9958,7 @@ let nationalDex = {
     {
         name: "Floatzel",
         imageUrl: "images/419Floatzel.png",
-        number: "419",
+        number: "0419",
         type: ["Water"],
         category: "Sea Weasel",
         region: "Sinnoh",
@@ -9795,7 +9978,7 @@ let nationalDex = {
     {
         name: "Cherubi",
         imageUrl: "images/420Cherubi.png",
-        number: "420",
+        number: "0420",
         type: ["Grass"],
         category: "Cherry",
         region: "Sinnoh",
@@ -9815,7 +9998,7 @@ let nationalDex = {
     {
         name: "Cherrim",
         imageUrl: "images/421Cherrim.png",
-        number: "421",
+        number: "0421",
         type: ["Grass"],
         category: "Blossom",
         region: "Sinnoh",
@@ -9835,7 +10018,7 @@ let nationalDex = {
     {
         name: "Shellos",
         imageUrl: "images/422Shellos.png",
-        number: "422",
+        number: "0422",
         type: ["Water"],
         category: "Sea Slug",
         region: "Sinnoh",
@@ -9855,7 +10038,7 @@ let nationalDex = {
     {
         name: "Gastrodon",
         imageUrl: "images/423Gastrodon.png",
-        number: "423",
+        number: "0423",
         type: ["Water", "Ground"],
         category: "Sea Slug",
         region: "Sinnoh",
@@ -9875,7 +10058,7 @@ let nationalDex = {
     {
         name: "Ambipom",
         imageUrl: "images/424Ambipom.png",
-        number: "424",
+        number: "0424",
         type: ["Normal"],
         category: "Long Tail",
         region: "Sinnoh",
@@ -9895,7 +10078,7 @@ let nationalDex = {
     {
         name: "Drifloon",
         imageUrl: "images/425Drifloon.png",
-        number: "425",
+        number: "0425",
         type: ["Ghost", "Flying"],
         category: "Balloon",
         region: "Sinnoh",
@@ -9915,7 +10098,7 @@ let nationalDex = {
     {
         name: "Drifblim",
         imageUrl: "images/426Drifblim.png",
-        number: "426",
+        number: "0426",
         type: ["Ghost", "Flying"],
         category: "Blimp",
         region: "Sinnoh",
@@ -9935,7 +10118,7 @@ let nationalDex = {
     {
         name: "Buneary",
         imageUrl: "images/427Buneary.png",
-        number: "427",
+        number: "0427",
         type: ["Normal"],
         category: "Rabbit",
         region: "Sinnoh",
@@ -9955,7 +10138,7 @@ let nationalDex = {
     {
         name: "Lopunny",
         imageUrl: "images/428Lopunny.png",
-        number: "428",
+        number: "0428",
         type: ["Normal"],
         category: "Rabbit",
         region: "Sinnoh",
@@ -9975,7 +10158,7 @@ let nationalDex = {
     {
         name: "Mismagius",
         imageUrl: "images/429Mismagius.png",
-        number: "429",
+        number: "0429",
         type: ["Ghost"],
         category: "Magical",
         region: "Sinnoh",
@@ -9995,7 +10178,7 @@ let nationalDex = {
     {
         name: "Honchkrow",
         imageUrl: "images/430Honchkrow.png",
-        number: "430",
+        number: "0430",
         type: ["Dark", "Flying"],
         category: "Big Boss",
         region: "Sinnoh",
@@ -10015,7 +10198,7 @@ let nationalDex = {
     {
         name: "Glameow",
         imageUrl: "images/431Glameow.png",
-        number: "431",
+        number: "0431",
         type: ["Normal"],
         category: "Catty",
         region: "Sinnoh",
@@ -10035,7 +10218,7 @@ let nationalDex = {
     {
         name: "Purugly",
         imageUrl: "images/432Purugly.png",
-        number: "432",
+        number: "0432",
         type: ["Normal"],
         category: "Tiger Cat",
         region: "Sinnoh",
@@ -10055,7 +10238,7 @@ let nationalDex = {
     {
         name: "Chingling",
         imageUrl: "images/433Chingling.png",
-        number: "433",
+        number: "0433",
         type: ["Psychic"],
         category: "Bell",
         region: "Sinnoh",
@@ -10075,7 +10258,7 @@ let nationalDex = {
     {
         name: "Stunky",
         imageUrl: "images/434Stunky.png",
-        number: "434",
+        number: "0434",
         type: ["Poison", "Dark"],
         category: "Skunk",
         region: "Sinnoh",
@@ -10095,7 +10278,7 @@ let nationalDex = {
     {
         name: "Skuntank",
         imageUrl: "images/435Skuntank.png",
-        number: "435",
+        number: "0435",
         type: ["Poison", "Dark"],
         category: "Skunk",
         region: "Sinnoh",
@@ -10115,7 +10298,7 @@ let nationalDex = {
     {
         name: "Bronzor",
         imageUrl: "images/436Bronzor.png",
-        number: "436",
+        number: "0436",
         type: ["Steel", "Psychic"],
         category: "Bronze",
         region: "Sinnoh",
@@ -10135,7 +10318,7 @@ let nationalDex = {
     {
         name: "Bronzong",
         imageUrl: "images/437Bronzong.png",
-        number: "437",
+        number: "0437",
         type: ["Steel", "Psychic"],
         category: "Bronze Bell",
         region: "Sinnoh",
@@ -10155,7 +10338,7 @@ let nationalDex = {
     {
         name: "Bonsly",
         imageUrl: "images/438Bonsly.png",
-        number: "438",
+        number: "0438",
         type: ["Rock"],
         category: "Bonsai",
         region: "Sinnoh",
@@ -10175,7 +10358,7 @@ let nationalDex = {
     {
         name: "Mime Jr.",
         imageUrl: "images/439Mime_Jr.png",
-        number: "439",
+        number: "0439",
         type: ["Psychic", "Fairy"],
         category: "Mime",
         region: "Sinnoh",
@@ -10195,7 +10378,7 @@ let nationalDex = {
     {
         name: "Happiny",
         imageUrl: "images/440Happiny.png",
-        number: "440",
+        number: "0440",
         type: ["Normal"],
         category: "Playhouse",
         region: "Sinnoh",
@@ -10215,7 +10398,7 @@ let nationalDex = {
     {
         name: "Chatot",
         imageUrl: "images/441Chatot.png",
-        number: "441",
+        number: "0441",
         type: ["Normal", "Flying"],
         category: "Music Note",
         region: "Sinnoh",
@@ -10235,7 +10418,7 @@ let nationalDex = {
     {
         name: "Spiritomb",
         imageUrl: "images/442Spiritomb.png",
-        number: "442",
+        number: "0442",
         type: ["Ghost", "Dark"],
         category: "Forbidden",
         region: "Sinnoh",
@@ -10255,7 +10438,7 @@ let nationalDex = {
     {
         name: "Gible",
         imageUrl: "images/443Gible.png",
-        number: "443",
+        number: "0443",
         type: ["Dragon", "Ground"],
         category: "Land Shark",
         region: "Sinnoh",
@@ -10275,7 +10458,7 @@ let nationalDex = {
     {
         name: "Gabite",
         imageUrl: "images/444Gabite.png",
-        number: "444",
+        number: "0444",
         type: ["Dragon", "Ground"],
         category: "Cave",
         region: "Sinnoh",
@@ -10295,7 +10478,7 @@ let nationalDex = {
     {
         name: "Garchomp",
         imageUrl: "images/445Garchomp.png",
-        number: "445",
+        number: "0445",
         type: ["Dragon", "Ground"],
         category: "Mach",
         region: "Sinnoh",
@@ -10315,7 +10498,7 @@ let nationalDex = {
     {
         name: "Munchlax",
         imageUrl: "images/446Munchlax.png",
-        number: "446",
+        number: "0446",
         type: ["Normal"],
         category: "Big Eater",
         region: "Sinnoh",
@@ -10335,7 +10518,7 @@ let nationalDex = {
     {
         name: "Riolu",
         imageUrl: "images/447Riolu.png",
-        number: "447",
+        number: "0447",
         type: ["Fighting"],
         category: "Emanation",
         region: "Sinnoh",
@@ -10355,7 +10538,7 @@ let nationalDex = {
     {
         name: "Lucario",
         imageUrl: "images/448Lucario.png",
-        number: "448",
+        number: "0448",
         type: ["Fighting", "Steel"],
         category: "Aura",
         region: "Sinnoh",
@@ -10375,7 +10558,7 @@ let nationalDex = {
     {
         name: "Hippopotas",
         imageUrl: "images/449Hippopotas.png",
-        number: "449",
+        number: "0449",
         type: ["Ground"],
         category: "Hippo",
         region: "Sinnoh",
@@ -10395,7 +10578,7 @@ let nationalDex = {
     {
         name: "Hippowdon",
         imageUrl: "images/450Hippowdon.png",
-        number: "450",
+        number: "0450",
         type: ["Ground"],
         category: "Heavyweight",
         region: "Sinnoh",
@@ -10415,7 +10598,7 @@ let nationalDex = {
     {
         name: "Skorupi",
         imageUrl: "images/451Skorupi.png",
-        number: "451",
+        number: "0451",
         type: ["Poison", "Bug"],
         category: "Scorpion",
         region: "Sinnoh",
@@ -10435,7 +10618,7 @@ let nationalDex = {
     {
         name: "Drapion",
         imageUrl: "images/452Drapion.png",
-        number: "452",
+        number: "0452",
         type: ["Poison", "Dark"],
         category: "Ogre Scorpion",
         region: "Sinnoh",
@@ -10455,7 +10638,7 @@ let nationalDex = {
     {
         name: "Croagunk",
         imageUrl: "images/453Croagunk.png",
-        number: "453",
+        number: "0453",
         type: ["Poison", "Fighting"],
         category: "Toxic Mouth",
         region: "Sinnoh",
@@ -10475,7 +10658,7 @@ let nationalDex = {
     {
         name: "Toxicroak",
         imageUrl: "images/454Toxicroak.png",
-        number: "454",
+        number: "0454",
         type: ["Poison", "Fighting"],
         category: "Toxic Mouth",
         region: "Sinnoh",
@@ -10495,7 +10678,7 @@ let nationalDex = {
     {
         name: "Carnivine",
         imageUrl: "images/455Carnivine.png",
-        number: "455",
+        number: "0455",
         type: ["Grass"],
         category: "Bug Catcher",
         region: "Sinnoh",
@@ -10515,7 +10698,7 @@ let nationalDex = {
     {
         name: "Finneon",
         imageUrl: "images/456Finneon.png",
-        number: "456",
+        number: "0456",
         type: ["Water"],
         category: "Wing Fish",
         region: "Sinnoh",
@@ -10535,7 +10718,7 @@ let nationalDex = {
     {
         name: "Lumineon",
         imageUrl: "images/457Lumineon.png",
-        number: "457",
+        number: "0457",
         type: ["Water"],
         category: "Neon",
         region: "Sinnoh",
@@ -10555,7 +10738,7 @@ let nationalDex = {
     {
         name: "Mantyke",
         imageUrl: "images/458Mantyke.png",
-        number: "458",
+        number: "0458",
         type: ["Water", "Flying"],
         category: "Kite",
         region: "Sinnoh",
@@ -10575,7 +10758,7 @@ let nationalDex = {
     {
         name: "Snover",
         imageUrl: "images/459Snover.png",
-        number: "459",
+        number: "0459",
         type: ["Grass", "Ice"],
         category: "Frost Tree",
         region: "Sinnoh",
@@ -10595,7 +10778,7 @@ let nationalDex = {
     {
         name: "Abomasnow",
         imageUrl: "images/460Abomasnow.png",
-        number: "460",
+        number: "0460",
         type: ["Grass", "Ice"],
         category: "Frost Tree",
         region: "Sinnoh",
@@ -10615,7 +10798,7 @@ let nationalDex = {
     {
         name: "Weavile",
         imageUrl: "images/461Weavile.png",
-        number: "461",
+        number: "0461",
         type: ["Dark", "Ice"],
         category: "Sharp Claw",
         region: "Sinnoh",
@@ -10635,7 +10818,7 @@ let nationalDex = {
     {
         name: "Magnezone",
         imageUrl: "images/462Magnezone.png",
-        number: "462",
+        number: "0462",
         type: ["Electric", "Steel"],
         category: "Magnet Area",
         region: "Sinnoh",
@@ -10655,7 +10838,7 @@ let nationalDex = {
     {
         name: "Lickilicky",
         imageUrl: "images/463Lickilicky.png",
-        number: "463",
+        number: "0463",
         type: ["Normal"],
         category: "Licking",
         region: "Sinnoh",
@@ -10675,7 +10858,7 @@ let nationalDex = {
     {
         name: "Rhyperior",
         imageUrl: "images/464Rhyperior.png",
-        number: "464",
+        number: "0464",
         type: ["Ground", "Rock"],
         category: "Drill",
         region: "Sinnoh",
@@ -10695,7 +10878,7 @@ let nationalDex = {
     {
         name: "Tangrowth",
         imageUrl: "images/465Tangrowth.png",
-        number: "465",
+        number: "0465",
         type: ["Grass"],
         category: "Vine",
         region: "Sinnoh",
@@ -10715,7 +10898,7 @@ let nationalDex = {
     {
         name: "Electivire",
         imageUrl: "images/466Electivire.png",
-        number: "466",
+        number: "0466",
         type: ["Electric"],
         category: "Thunderbolt",
         region: "Sinnoh",
@@ -10735,7 +10918,7 @@ let nationalDex = {
     {
         name: "Magmortar",
         imageUrl: "images/467Magmortar.png",
-        number: "467",
+        number: "0467",
         type: ["Fire"],
         category: "Blast",
         region: "Sinnoh",
@@ -10755,7 +10938,7 @@ let nationalDex = {
     {
         name: "Togekiss",
         imageUrl: "images/468Togekiss.png",
-        number: "468",
+        number: "0468",
         type: ["Fairy", "Flying"],
         category: "Jubilee",
         region: "Sinnoh",
@@ -10775,7 +10958,7 @@ let nationalDex = {
     {
         name: "Yanmega",
         imageUrl: "images/469Yanmega.png",
-        number: "469",
+        number: "0469",
         type: ["Bug", "Flying"],
         category: "Ogre Darner",
         region: "Sinnoh",
@@ -10795,7 +10978,7 @@ let nationalDex = {
     {
         name: "Leafeon",
         imageUrl: "images/470Leafeon.png",
-        number: "470",
+        number: "0470",
         type: ["Grass"],
         category: "Verdant",
         region: "Sinnoh",
@@ -10815,7 +10998,7 @@ let nationalDex = {
     {
         name: "Glaceon",
         imageUrl: "images/471Glaceon.png",
-        number: "471",
+        number: "0471",
         type: ["Ice"],
         category: "Fresh Snow",
         region: "Sinnoh",
@@ -10835,7 +11018,7 @@ let nationalDex = {
     {
         name: "Gliscor",
         imageUrl: "images/472Gliscor.png",
-        number: "472",
+        number: "0472",
         type: ["Ground", "Flying"],
         category: "Fang Scorpion",
         region: "Sinnoh",
@@ -10855,7 +11038,7 @@ let nationalDex = {
     {
         name: "Mamoswine",
         imageUrl: "images/473Mamoswine.png",
-        number: "473",
+        number: "0473",
         type: ["Ice", "Ground"],
         category: "Twin Tusk",
         region: "Sinnoh",
@@ -10875,7 +11058,7 @@ let nationalDex = {
     {
         name: "Porygon-Z",
         imageUrl: "images/474Porygon-Z.png",
-        number: "474",
+        number: "0474",
         type: ["Normal"],
         category: "Virtual",
         region: "Sinnoh",
@@ -10895,7 +11078,7 @@ let nationalDex = {
     {
         name: "Gallade",
         imageUrl: "images/475Gallade.png",
-        number: "475",
+        number: "0475",
         type: ["Psychic", "Fighting"],
         category: "Blade",
         region: "Sinnoh",
@@ -10908,14 +11091,14 @@ let nationalDex = {
         metricWeight: 52.0,
         dexEntry: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
         cryUrl: "cries/475.mp3",
-        ability: ["Steadfast", "Justified"],
+        ability: ["Steadfast", "Sharpness", "Justified"],
         evolution: evolutionFamilies.ralts,
         japaneseName: "Erureido"
     },
     {
         name: "Probopass",
         imageUrl: "images/476Probopass.png",
-        number: "476",
+        number: "0476",
         type: ["Rock", "Steel"],
         category: "Compass",
         region: "Sinnoh",
@@ -10935,7 +11118,7 @@ let nationalDex = {
     {
         name: "Dusknoir",
         imageUrl: "images/477Dusknoir.png",
-        number: "477",
+        number: "0477",
         type: ["Ghost"],
         category: "Gripper",
         region: "Sinnoh",
@@ -10955,7 +11138,7 @@ let nationalDex = {
     {
         name: "Froslass",
         imageUrl: "images/478Froslass.png",
-        number: "478",
+        number: "0478",
         type: ["Ice", "Ghost"],
         category: "Snow Land",
         region: "Sinnoh",
@@ -10975,7 +11158,7 @@ let nationalDex = {
     {
         name: "Rotom",
         imageUrl: "images/479Rotom.png",
-        number: "479",
+        number: "0479",
         type: ["Electric", "Ghost"],
         category: "Plasma",
         region: "Sinnoh",
@@ -10995,7 +11178,7 @@ let nationalDex = {
     {
         name: "Uxie",
         imageUrl: "images/480Uxie.png",
-        number: "480",
+        number: "0480",
         type: ["Psychic"],
         category: "Knowledge",
         region: "Sinnoh",
@@ -11015,7 +11198,7 @@ let nationalDex = {
     {
         name: "Mesprit",
         imageUrl: "images/481Mesprit.png",
-        number: "481",
+        number: "0481",
         type: ["Psychic"],
         category: "Emotion",
         region: "Sinnoh",
@@ -11035,7 +11218,7 @@ let nationalDex = {
     {
         name: "Azelf",
         imageUrl: "images/482Azelf.png",
-        number: "482",
+        number: "0482",
         type: ["Psychic"],
         category: "Willpower",
         region: "Sinnoh",
@@ -11055,7 +11238,7 @@ let nationalDex = {
     {
         name: "Dialga",
         imageUrl: "images/483Dialga.png",
-        number: "483",
+        number: "0483",
         type: ["Steel", "Dragon"],
         category: "Temporal",
         region: "Sinnoh",
@@ -11075,7 +11258,7 @@ let nationalDex = {
     {
         name: "Palkia",
         imageUrl: "images/484Palkia.png",
-        number: "484",
+        number: "0484",
         type: ["Water", "Dragon"],
         category: "Spatial",
         region: "Sinnoh",
@@ -11095,7 +11278,7 @@ let nationalDex = {
     {
         name: "Heatran",
         imageUrl: "images/485Heatran.png",
-        number: "485",
+        number: "0485",
         type: ["Fire", "Steel"],
         category: "Lava Dome",
         region: "Sinnoh",
@@ -11115,7 +11298,7 @@ let nationalDex = {
     {
         name: "Regigigas",
         imageUrl: "images/486Regigigas.png",
-        number: "486",
+        number: "0486",
         type: ["Normal"],
         category: "Colossal",
         region: "Sinnoh",
@@ -11135,7 +11318,7 @@ let nationalDex = {
     {
         name: "Giratina",
         imageUrl: "images/487Giratina.png",
-        number: "487",
+        number: "0487",
         type: ["Ghost", "Dragon"],
         category: "Renegade",
         region: "Sinnoh",
@@ -11155,7 +11338,7 @@ let nationalDex = {
     {
         name: "Cresselia",
         imageUrl: "images/488Cresselia.png",
-        number: "488",
+        number: "0488",
         type: ["Psychic"],
         category: "Lunar",
         region: "Sinnoh",
@@ -11175,7 +11358,7 @@ let nationalDex = {
     {
         name: "Phione",
         imageUrl: "images/489Phione.png",
-        number: "489",
+        number: "0489",
         type: ["Water"],
         category: "Sea Drifter",
         region: "Sinnoh",
@@ -11195,7 +11378,7 @@ let nationalDex = {
     {
         name: "Manaphy",
         imageUrl: "images/490Manaphy.png",
-        number: "490",
+        number: "0490",
         type: ["Water"],
         category: "Seafaring",
         region: "Sinnoh",
@@ -11215,7 +11398,7 @@ let nationalDex = {
     {
         name: "Darkrai",
         imageUrl: "images/491Darkrai.png",
-        number: "491",
+        number: "0491",
         type: ["Dark"],
         category: "Pitch-Black",
         region: "Sinnoh",
@@ -11235,7 +11418,7 @@ let nationalDex = {
     {
         name: "Shaymin",
         imageUrl: "images/492Shaymin.png",
-        number: "492",
+        number: "0492",
         type: ["Grass"],
         category: "Gratitude",
         region: "Sinnoh",
@@ -11255,7 +11438,7 @@ let nationalDex = {
     {
         name: "Arceus",
         imageUrl: "images/493Arceus.png",
-        number: "493",
+        number: "0493",
         type: ["Normal"],
         category: "Alpha",
         region: "Sinnoh",
@@ -11275,7 +11458,7 @@ let nationalDex = {
     {
         name: "Victini",
         imageUrl: "images/494Victini.png",
-        number: "494",
+        number: "0494",
         type: ["Psychic", "Fire"],
         category: "Victory",
         region: "Unova",
@@ -11295,7 +11478,7 @@ let nationalDex = {
     {
         name: "Snivy",
         imageUrl: "images/495Snivy.png",
-        number: "495",
+        number: "0495",
         type: ["Grass"],
         category: "Grass Snake",
         region: "Unova",
@@ -11315,7 +11498,7 @@ let nationalDex = {
     {
         name: "Servine",
         imageUrl: "images/496Servine.png",
-        number: "496",
+        number: "0496",
         type: ["Grass"],
         category: "Grass Snake",
         region: "Unova",
@@ -11335,7 +11518,7 @@ let nationalDex = {
     {
         name: "Serperior",
         imageUrl: "images/497Serperior.png",
-        number: "497",
+        number: "0497",
         type: ["Grass"],
         category: "Regal",
         region: "Unova",
@@ -11355,7 +11538,7 @@ let nationalDex = {
     {
         name: "Tepig",
         imageUrl: "images/498Tepig.png",
-        number: "498",
+        number: "0498",
         type: ["Fire"],
         category: "Fire Pig",
         region: "Unova",
@@ -11375,7 +11558,7 @@ let nationalDex = {
     {
         name: "Pignite",
         imageUrl: "images/499Pignite.png",
-        number: "499",
+        number: "0499",
         type: ["Fire", "Fighting"],
         category: "Fire Pig",
         region: "Unova",
@@ -11395,7 +11578,7 @@ let nationalDex = {
     {
         name: "Emboar",
         imageUrl: "images/500Emboar.png",
-        number: "500",
+        number: "0500",
         type: ["Fire", "Fighting"],
         category: "Mega Fire Pig",
         region: "Unova",
@@ -11415,7 +11598,7 @@ let nationalDex = {
     {
         name: "Oshawott",
         imageUrl: "images/501Oshawott.png",
-        number: "501",
+        number: "0501",
         type: ["Water"],
         category: "Sea Otter",
         region: "Unova",
@@ -11435,7 +11618,7 @@ let nationalDex = {
     {
         name: "Dewott",
         imageUrl: "images/502Dewott.png",
-        number: "502",
+        number: "0502",
         type: ["Water"],
         category: "Discipline",
         region: "Unova",
@@ -11455,7 +11638,7 @@ let nationalDex = {
     {
         name: "Samurott",
         imageUrl: "images/503Samurott.png",
-        number: "503",
+        number: "0503",
         type: ["Water"],
         category: "Formidable",
         region: "Unova",
@@ -11475,7 +11658,7 @@ let nationalDex = {
     {
         name: "Patrat",
         imageUrl: "images/504Patrat.png",
-        number: "504",
+        number: "0504",
         type: ["Normal"],
         category: "Scout",
         region: "Unova",
@@ -11495,7 +11678,7 @@ let nationalDex = {
     {
         name: "Watchog",
         imageUrl: "images/505Watchog.png",
-        number: "505",
+        number: "0505",
         type: ["Normal"],
         category: "Lookout",
         region: "Unova",
@@ -11515,7 +11698,7 @@ let nationalDex = {
     {
         name: "Lillipup",
         imageUrl: "images/506Lillipup.png",
-        number: "506",
+        number: "0506",
         type: ["Normal"],
         category: "Puppy",
         region: "Unova",
@@ -11535,7 +11718,7 @@ let nationalDex = {
     {
         name: "Herdier",
         imageUrl: "images/507Herdier.png",
-        number: "507",
+        number: "0507",
         type: ["Normal"],
         category: "Loyal Dog",
         region: "Unova",
@@ -11555,7 +11738,7 @@ let nationalDex = {
     {
         name: "Stoutland",
         imageUrl: "images/508Stoutland.png",
-        number: "508",
+        number: "0508",
         type: ["Normal"],
         category: "Big-Hearted",
         region: "Unova",
@@ -11575,7 +11758,7 @@ let nationalDex = {
     {
         name: "Purrloin",
         imageUrl: "images/509Purrloin.png",
-        number: "509",
+        number: "0509",
         type: ["Dark"],
         category: "Devious",
         region: "Unova",
@@ -11595,7 +11778,7 @@ let nationalDex = {
     {
         name: "Liepard",
         imageUrl: "images/510Liepard.png",
-        number: "510",
+        number: "0510",
         type: ["Dark"],
         category: "Cruel",
         region: "Unova",
@@ -11615,7 +11798,7 @@ let nationalDex = {
     {
         name: "Pansage",
         imageUrl: "images/511Pansage.png",
-        number: "511",
+        number: "0511",
         type: ["Grass"],
         category: "Grass Monkey",
         region: "Unova",
@@ -11635,7 +11818,7 @@ let nationalDex = {
     {
         name: "Simisage",
         imageUrl: "images/512Simisage.png",
-        number: "512",
+        number: "0512",
         type: ["Grass"],
         category: "Thorn Monkey",
         region: "Unova",
@@ -11655,7 +11838,7 @@ let nationalDex = {
     {
         name: "Pansear",
         imageUrl: "images/513Pansear.png",
-        number: "513",
+        number: "0513",
         type: ["Fire"],
         category: "High Temp",
         region: "Unova",
@@ -11675,7 +11858,7 @@ let nationalDex = {
     {
         name: "Simisear",
         imageUrl: "images/514Simisear.png",
-        number: "514",
+        number: "0514",
         type: ["Fire"],
         category: "Ember",
         region: "Unova",
@@ -11695,7 +11878,7 @@ let nationalDex = {
     {
         name: "Panpour",
         imageUrl: "images/515Panpour.png",
-        number: "515",
+        number: "0515",
         type: ["Water"],
         category: "Spray",
         region: "Unova",
@@ -11715,7 +11898,7 @@ let nationalDex = {
     {
         name: "Simipour",
         imageUrl: "images/516Simipour.png",
-        number: "516",
+        number: "0516",
         type: ["Water"],
         category: "Geyser",
         region: "Unova",
@@ -11735,7 +11918,7 @@ let nationalDex = {
     {
         name: "Munna",
         imageUrl: "images/517Munna.png",
-        number: "517",
+        number: "0517",
         type: ["Psychic"],
         category: "Dream Eater",
         region: "Unova",
@@ -11755,7 +11938,7 @@ let nationalDex = {
     {
         name: "Musharna",
         imageUrl: "images/518Musharna.png",
-        number: "518",
+        number: "0518",
         type: ["Psychic"],
         category: "Drowsing",
         region: "Unova",
@@ -11775,7 +11958,7 @@ let nationalDex = {
     {
         name: "Pidove",
         imageUrl: "images/519Pidove.png",
-        number: "519",
+        number: "0519",
         type: ["Normal", "Flying"],
         category: "Tiny Pigeon",
         region: "Unova",
@@ -11795,7 +11978,7 @@ let nationalDex = {
     {
         name: "Tranquill",
         imageUrl: "images/520Tranquill.png",
-        number: "520",
+        number: "0520",
         type: ["Normal", "Flying"],
         category: "Wild Pigeon",
         region: "Unova",
@@ -11815,7 +11998,7 @@ let nationalDex = {
     {
         name: "Unfezant",
         imageUrl: "images/521Unfezant.png",
-        number: "521",
+        number: "0521",
         type: ["Normal", "Flying"],
         category: "Proud",
         region: "Unova",
@@ -11835,7 +12018,7 @@ let nationalDex = {
     {
         name: "Blitzle",
         imageUrl: "images/522Blitzle.png",
-        number: "522",
+        number: "0522",
         type: ["Electric"],
         category: "Electrified",
         region: "Unova",
@@ -11855,7 +12038,7 @@ let nationalDex = {
     {
         name: "Zebstrika",
         imageUrl: "images/523Zebstrika.png",
-        number: "523",
+        number: "0523",
         type: ["Electric"],
         category: "Thunderbolt",
         region: "Unova",
@@ -11875,7 +12058,7 @@ let nationalDex = {
     {
         name: "Roggenrola",
         imageUrl: "images/524Roggenrola.png",
-        number: "524",
+        number: "0524",
         type: ["Rock"],
         category: "Mantle",
         region: "Unova",
@@ -11895,7 +12078,7 @@ let nationalDex = {
     {
         name: "Boldore",
         imageUrl: "images/525Boldore.png",
-        number: "525",
+        number: "0525",
         type: ["Rock"],
         category: "Ore",
         region: "Unova",
@@ -11915,7 +12098,7 @@ let nationalDex = {
     {
         name: "Gigalith",
         imageUrl: "images/526Gigalith.png",
-        number: "526",
+        number: "0526",
         type: ["Rock"],
         category: "Compressed",
         region: "Unova",
@@ -11935,7 +12118,7 @@ let nationalDex = {
     {
         name: "Woobat",
         imageUrl: "images/527Woobat.png",
-        number: "527",
+        number: "0527",
         type: ["Psychic", "Flying"],
         category: "Bat",
         region: "Unova",
@@ -11955,7 +12138,7 @@ let nationalDex = {
     {
         name: "Swoobat",
         imageUrl: "images/528Swoobat.png",
-        number: "528",
+        number: "0528",
         type: ["Psychic", "Flying"],
         category: "Courting",
         region: "Unova",
@@ -11975,7 +12158,7 @@ let nationalDex = {
     {
         name: "Drilbur",
         imageUrl: "images/529Drilbur.png",
-        number: "529",
+        number: "0529",
         type: ["Ground"],
         category: "Mole",
         region: "Unova",
@@ -11995,7 +12178,7 @@ let nationalDex = {
     {
         name: "Excadrill",
         imageUrl: "images/530Excadrill.png",
-        number: "530",
+        number: "0530",
         type: ["Ground", "Steel"],
         category: "Subterrene",
         region: "Unova",
@@ -12015,7 +12198,7 @@ let nationalDex = {
     {
         name: "Audino",
         imageUrl: "images/531Audino.png",
-        number: "531",
+        number: "0531",
         type: ["Normal"],
         category: "Hearing",
         region: "Unova",
@@ -12035,7 +12218,7 @@ let nationalDex = {
     {
         name: "Timburr",
         imageUrl: "images/532Timburr.png",
-        number: "532",
+        number: "0532",
         type: ["Fighting"],
         category: "Muscular",
         region: "Unova",
@@ -12055,7 +12238,7 @@ let nationalDex = {
     {
         name: "Gurdurr",
         imageUrl: "images/533Gurdurr.png",
-        number: "533",
+        number: "0533",
         type: ["Fighting"],
         category: "Muscular",
         region: "Unova",
@@ -12075,7 +12258,7 @@ let nationalDex = {
     {
         name: "Conkeldurr",
         imageUrl: "images/534Conkeldurr.png",
-        number: "534",
+        number: "0534",
         type: ["Fighting"],
         category: "Muscular",
         region: "Unova",
@@ -12095,7 +12278,7 @@ let nationalDex = {
     {
         name: "Tympole",
         imageUrl: "images/535Tympole.png",
-        number: "535",
+        number: "0535",
         type: ["Water"],
         category: "Tadpole",
         region: "Unova",
@@ -12115,7 +12298,7 @@ let nationalDex = {
     {
         name: "Palpitoad",
         imageUrl: "images/536Palpitoad.png",
-        number: "536",
+        number: "0536",
         type: ["Water", "Ground"],
         category: "Vibration",
         region: "Unova",
@@ -12135,7 +12318,7 @@ let nationalDex = {
     {
         name: "Seismitoad",
         imageUrl: "images/537Seismitoad.png",
-        number: "537",
+        number: "0537",
         type: ["Water", "Ground"],
         category: "Vibration",
         region: "Unova",
@@ -12155,7 +12338,7 @@ let nationalDex = {
     {
         name: "Throh",
         imageUrl: "images/538Throh.png",
-        number: "538",
+        number: "0538",
         type: ["Fighting"],
         category: "Judo",
         region: "Unova",
@@ -12175,7 +12358,7 @@ let nationalDex = {
     {
         name: "Sawk",
         imageUrl: "images/539Sawk.png",
-        number: "539",
+        number: "0539",
         type: ["Fighting"],
         category: "Karate",
         region: "Unova",
@@ -12195,7 +12378,7 @@ let nationalDex = {
     {
         name: "Sewaddle",
         imageUrl: "images/540Sewaddle.png",
-        number: "540",
+        number: "0540",
         type: ["Bug", "Grass"],
         category: "Sewing",
         region: "Unova",
@@ -12215,7 +12398,7 @@ let nationalDex = {
     {
         name: "Swadloon",
         imageUrl: "images/541Swadloon.png",
-        number: "541",
+        number: "0541",
         type: ["Bug", "Grass"],
         category: "Leaf-Wrapped",
         region: "Unova",
@@ -12235,7 +12418,7 @@ let nationalDex = {
     {
         name: "Leavanny",
         imageUrl: "images/542Leavanny.png",
-        number: "542",
+        number: "0542",
         type: ["Bug", "Grass"],
         category: "Nurturing",
         region: "Unova",
@@ -12255,7 +12438,7 @@ let nationalDex = {
     {
         name: "Venipede",
         imageUrl: "images/543Venipede.png",
-        number: "543",
+        number: "0543",
         type: ["Bug", "Poison"],
         category: "Centipede",
         region: "Unova",
@@ -12275,7 +12458,7 @@ let nationalDex = {
     {
         name: "Whirlipede",
         imageUrl: "images/544Whirlipede.png",
-        number: "544",
+        number: "0544",
         type: ["Bug", "Poison"],
         category: "Curlipede",
         region: "Unova",
@@ -12295,7 +12478,7 @@ let nationalDex = {
     {
         name: "Scolipede",
         imageUrl: "images/545Scolipede.png",
-        number: "545",
+        number: "0545",
         type: ["Bug", "Poison"],
         category: "Megapede",
         region: "Unova",
@@ -12315,7 +12498,7 @@ let nationalDex = {
     {
         name: "Cottonee",
         imageUrl: "images/546Cottonee.png",
-        number: "546",
+        number: "0546",
         type: ["Grass", "Fairy"],
         category: "Cotton Puff",
         region: "Unova",
@@ -12335,7 +12518,7 @@ let nationalDex = {
     {
         name: "Whimsicott",
         imageUrl: "images/547Whimsicott.png",
-        number: "547",
+        number: "0547",
         type: ["Grass", "Fairy"],
         category: "Windveiled",
         region: "Unova",
@@ -12355,7 +12538,7 @@ let nationalDex = {
     {
         name: "Petilil",
         imageUrl: "images/548Petilil.png",
-        number: "548",
+        number: "0548",
         type: ["Grass"],
         category: "Bulb",
         region: "Unova",
@@ -12375,7 +12558,7 @@ let nationalDex = {
     {
         name: "Lilligant",
         imageUrl: "images/549Lilligant.png",
-        number: "549",
+        number: "0549",
         type: ["Grass"],
         category: "Flowering",
         region: "Unova",
@@ -12395,7 +12578,7 @@ let nationalDex = {
     {
         name: "Basculin",
         imageUrl: "images/550Basculin.png",
-        number: "550",
+        number: "0550",
         type: ["Water"],
         category: "Hostile",
         region: "Unova",
@@ -12415,7 +12598,7 @@ let nationalDex = {
     {
         name: "Sandile",
         imageUrl: "images/551Sandile.png",
-        number: "551",
+        number: "0551",
         type: ["Ground", "Dark"],
         category: "Desert Croc",
         region: "Unova",
@@ -12435,7 +12618,7 @@ let nationalDex = {
     {
         name: "Krokorok",
         imageUrl: "images/552Krokorok.png",
-        number: "552",
+        number: "0552",
         type: ["Ground", "Dark"],
         category: "Desert Croc",
         region: "Unova",
@@ -12455,7 +12638,7 @@ let nationalDex = {
     {
         name: "Krookodile",
         imageUrl: "images/553Krookodile.png",
-        number: "553",
+        number: "0553",
         type: ["Ground", "Dark"],
         category: "Intimidation",
         region: "Unova",
@@ -12475,7 +12658,7 @@ let nationalDex = {
     {
         name: "Darumaka",
         imageUrl: "images/554Darumaka.png",
-        number: "554",
+        number: "0554",
         type: ["Fire"],
         category: "Zen Charm",
         region: "Unova",
@@ -12495,7 +12678,7 @@ let nationalDex = {
     {
         name: "Darmanitan",
         imageUrl: "images/555Darmanitan.png",
-        number: "555",
+        number: "0555",
         type: ["Fire"],
         category: "Blazing",
         region: "Unova",
@@ -12515,7 +12698,7 @@ let nationalDex = {
     {
         name: "Maractus",
         imageUrl: "images/556Maractus.png",
-        number: "556",
+        number: "0556",
         type: ["Grass"],
         category: "Cactus",
         region: "Unova",
@@ -12535,7 +12718,7 @@ let nationalDex = {
     {
         name: "Dwebble",
         imageUrl: "images/557Dwebble.png",
-        number: "557",
+        number: "0557",
         type: ["Bug", "Rock"],
         category: "Rock Inn",
         region: "Unova",
@@ -12555,7 +12738,7 @@ let nationalDex = {
     {
         name: "Crustle",
         imageUrl: "images/558Crustle.png",
-        number: "558",
+        number: "0558",
         type: ["Bug", "Rock"],
         category: "Stone Home",
         region: "Unova",
@@ -12575,7 +12758,7 @@ let nationalDex = {
     {
         name: "Scraggy",
         imageUrl: "images/559Scraggy.png",
-        number: "559",
+        number: "0559",
         type: ["Dark", "Fighting"],
         category: "Shedding",
         region: "Unova",
@@ -12595,7 +12778,7 @@ let nationalDex = {
     {
         name: "Scrafty",
         imageUrl: "images/560Scrafty.png",
-        number: "560",
+        number: "0560",
         type: ["Dark", "Fighting"],
         category: "Hoodlum",
         region: "Unova",
@@ -12615,7 +12798,7 @@ let nationalDex = {
     {
         name: "Sigilyph",
         imageUrl: "images/561Sigilyph.png",
-        number: "561",
+        number: "0561",
         type: ["Psychic", "Flying"],
         category: "Avianoid",
         region: "Unova",
@@ -12635,7 +12818,7 @@ let nationalDex = {
     {
         name: "Yamask",
         imageUrl: "images/562Yamask.png",
-        number: "562",
+        number: "0562",
         type: ["Ghost"],
         category: "Spirit",
         region: "Unova",
@@ -12655,7 +12838,7 @@ let nationalDex = {
     {
         name: "Cofagrigus",
         imageUrl: "images/563Cofagrigus.png",
-        number: "563",
+        number: "0563",
         type: ["Ghost"],
         category: "Coffin",
         region: "Unova",
@@ -12675,7 +12858,7 @@ let nationalDex = {
     {
         name: "Tirtouga",
         imageUrl: "images/564Tirtouga.png",
-        number: "564",
+        number: "0564",
         type: ["Water", "Rock"],
         category: "Prototurtle",
         region: "Unova",
@@ -12695,7 +12878,7 @@ let nationalDex = {
     {
         name: "Carracosta",
         imageUrl: "images/565Carracosta.png",
-        number: "565",
+        number: "0565",
         type: ["Water", "Rock"],
         category: "Prototurtle",
         region: "Unova",
@@ -12715,7 +12898,7 @@ let nationalDex = {
     {
         name: "Archen",
         imageUrl: "images/566Archen.png",
-        number: "566",
+        number: "0566",
         type: ["Rock", "Flying"],
         category: "First Bird",
         region: "Unova",
@@ -12735,7 +12918,7 @@ let nationalDex = {
     {
         name: "Archeops",
         imageUrl: "images/567Archeops.png",
-        number: "567",
+        number: "0567",
         type: ["Rock", "Flying"],
         category: "First Bird",
         region: "Unova",
@@ -12755,7 +12938,7 @@ let nationalDex = {
     {
         name: "Trubbish",
         imageUrl: "images/568Trubbish.png",
-        number: "568",
+        number: "0568",
         type: ["Poison"],
         category: "Trash Bag",
         region: "Unova",
@@ -12775,7 +12958,7 @@ let nationalDex = {
     {
         name: "Garbodor",
         imageUrl: "images/569Garbodor.png",
-        number: "569",
+        number: "0569",
         type: ["Poison"],
         category: "Trash Heap",
         region: "Unova",
@@ -12795,7 +12978,7 @@ let nationalDex = {
     {
         name: "Zorua",
         imageUrl: "images/570Zorua.png",
-        number: "570",
+        number: "0570",
         type: ["Dark"],
         category: "Tricky Fox",
         region: "Unova",
@@ -12815,7 +12998,7 @@ let nationalDex = {
     {
         name: "Zoroark",
         imageUrl: "images/571Zoroark.png",
-        number: "571",
+        number: "0571",
         type: ["Dark"],
         category: "Illusion Fox",
         region: "Unova",
@@ -12835,7 +13018,7 @@ let nationalDex = {
     {
         name: "Minccino",
         imageUrl: "images/572Minccino.png",
-        number: "572",
+        number: "0572",
         type: ["Normal"],
         category: "Chinchilla",
         region: "Unova",
@@ -12855,7 +13038,7 @@ let nationalDex = {
     {
         name: "Cinccino",
         imageUrl: "images/573Cinccino.png",
-        number: "573",
+        number: "0573",
         type: ["Normal"],
         category: "Scarf",
         region: "Unova",
@@ -12875,7 +13058,7 @@ let nationalDex = {
     {
         name: "Gothita",
         imageUrl: "images/574Gothita.png",
-        number: "574",
+        number: "0574",
         type: ["Psychic"],
         category: "Fixation",
         region: "Unova",
@@ -12895,7 +13078,7 @@ let nationalDex = {
     {
         name: "Gothorita",
         imageUrl: "images/575Gothorita.png",
-        number: "575",
+        number: "0575",
         type: ["Psychic"],
         category: "Manipulate",
         region: "Unova",
@@ -12915,7 +13098,7 @@ let nationalDex = {
     {
         name: "Gothitelle",
         imageUrl: "images/576Gothitelle.png",
-        number: "576",
+        number: "0576",
         type: ["Psychic"],
         category: "Astral Body",
         region: "Unova",
@@ -12935,7 +13118,7 @@ let nationalDex = {
     {
         name: "Solosis",
         imageUrl: "images/577Solosis.png",
-        number: "577",
+        number: "0577",
         type: ["Psychic"],
         category: "Cell",
         region: "Unova",
@@ -12955,7 +13138,7 @@ let nationalDex = {
     {
         name: "Duosion",
         imageUrl: "images/578Duosion.png",
-        number: "578",
+        number: "0578",
         type: ["Psychic"],
         category: "Mitosis",
         region: "Unova",
@@ -12975,7 +13158,7 @@ let nationalDex = {
     {
         name: "Reuniclus",
         imageUrl: "images/579Reuniclus.png",
-        number: "579",
+        number: "0579",
         type: ["Psychic"],
         category: "Multiplying",
         region: "Unova",
@@ -12995,7 +13178,7 @@ let nationalDex = {
     {
         name: "Ducklett",
         imageUrl: "images/580Ducklett.png",
-        number: "580",
+        number: "0580",
         type: ["Water", "Flying"],
         category: "Water Bird",
         region: "Unova",
@@ -13015,7 +13198,7 @@ let nationalDex = {
     {
         name: "Swanna",
         imageUrl: "images/581Swanna.png",
-        number: "581",
+        number: "0581",
         type: ["Water", "Flying"],
         category: "White Bird",
         region: "Unova",
@@ -13035,7 +13218,7 @@ let nationalDex = {
     {
         name: "Vanillite",
         imageUrl: "images/582Vanillite.png",
-        number: "582",
+        number: "0582",
         type: ["Ice"],
         category: "Fresh Snow",
         region: "Unova",
@@ -13055,7 +13238,7 @@ let nationalDex = {
     {
         name: "Vanillish",
         imageUrl: "images/583Vanillish.png",
-        number: "583",
+        number: "0583",
         type: ["Ice"],
         category: "Icy Snow",
         region: "Unova",
@@ -13075,7 +13258,7 @@ let nationalDex = {
     {
         name: "Vanilluxe",
         imageUrl: "images/584Vanilluxe.png",
-        number: "584",
+        number: "0584",
         type: ["Ice"],
         category: "Snowstorm",
         region: "Unova",
@@ -13095,7 +13278,7 @@ let nationalDex = {
     {
         name: "Deerling",
         imageUrl: "images/585Deerling.png",
-        number: "585",
+        number: "0585",
         type: ["Normal", "Grass"],
         category: "Season",
         region: "Unova",
@@ -13115,7 +13298,7 @@ let nationalDex = {
     {
         name: "Sawsbuck",
         imageUrl: "images/586Sawsbuck.png",
-        number: "586",
+        number: "0586",
         type: ["Normal", "Grass"],
         category: "Season",
         region: "Unova",
@@ -13135,7 +13318,7 @@ let nationalDex = {
     {
         name: "Emolga",
         imageUrl: "images/587Emolga.png",
-        number: "587",
+        number: "0587",
         type: ["Electric", "Flying"],
         category: "Sky Squirrel",
         region: "Unova",
@@ -13155,7 +13338,7 @@ let nationalDex = {
     {
         name: "Karrablast",
         imageUrl: "images/588Karrablast.png",
-        number: "588",
+        number: "0588",
         type: ["Bug"],
         category: "Clamping",
         region: "Unova",
@@ -13175,7 +13358,7 @@ let nationalDex = {
     {
         name: "Escavalier",
         imageUrl: "images/589Escavalier.png",
-        number: "589",
+        number: "0589",
         type: ["Bug", "Steel"],
         category: "Cavalry",
         region: "Unova",
@@ -13195,7 +13378,7 @@ let nationalDex = {
     {
         name: "Foongus",
         imageUrl: "images/590Foongus.png",
-        number: "590",
+        number: "0590",
         type: ["Grass", "Poison"],
         category: "Mushroom",
         region: "Unova",
@@ -13215,7 +13398,7 @@ let nationalDex = {
     {
         name: "Amoonguss",
         imageUrl: "images/591Amoonguss.png",
-        number: "591",
+        number: "0591",
         type: ["Grass", "Poison"],
         category: "Mushroom",
         region: "Unova",
@@ -13235,7 +13418,7 @@ let nationalDex = {
     {
         name: "Frillish",
         imageUrl: "images/592Frillish.png",
-        number: "592",
+        number: "0592",
         type: ["Water", "Ghost"],
         category: "Floating",
         region: "Unova",
@@ -13255,7 +13438,7 @@ let nationalDex = {
     {
         name: "Jellicent",
         imageUrl: "images/593Jellicent.png",
-        number: "593",
+        number: "0593",
         type: ["Water", "Ghost"],
         category: "Floating",
         region: "Unova",
@@ -13275,7 +13458,7 @@ let nationalDex = {
     {
         name: "Alomomola",
         imageUrl: "images/594Alomomola.png",
-        number: "594",
+        number: "0594",
         type: ["Water"],
         category: "Caring",
         region: "Unova",
@@ -13295,7 +13478,7 @@ let nationalDex = {
     {
         name: "Joltik",
         imageUrl: "images/595Joltik.png",
-        number: "595",
+        number: "0595",
         type: ["Bug", "Electric"],
         category: "Attaching",
         region: "Unova",
@@ -13315,7 +13498,7 @@ let nationalDex = {
     {
         name: "Galvantula",
         imageUrl: "images/596Galvantula.png",
-        number: "596",
+        number: "0596",
         type: ["Bug", "Electric"],
         category: "EleSpider",
         region: "Unova",
@@ -13335,7 +13518,7 @@ let nationalDex = {
     {
         name: "Ferroseed",
         imageUrl: "images/597Ferroseed.png",
-        number: "597",
+        number: "0597",
         type: ["Grass", "Steel"],
         category: "Thorn Seed",
         region: "Unova",
@@ -13355,7 +13538,7 @@ let nationalDex = {
     {
         name: "Ferrothorn",
         imageUrl: "images/598Ferrothorn.png",
-        number: "598",
+        number: "0598",
         type: ["Grass", "Steel"],
         category: "Thorn Pod",
         region: "Unova",
@@ -13375,7 +13558,7 @@ let nationalDex = {
     {
         name: "Klink",
         imageUrl: "images/599Klink.png",
-        number: "599",
+        number: "0599",
         type: ["Steel"],
         category: "Gear",
         region: "Unova",
@@ -13395,7 +13578,7 @@ let nationalDex = {
     {
         name: "Klang",
         imageUrl: "images/600Klang.png",
-        number: "600",
+        number: "0600",
         type: ["Steel"],
         category: "Gear",
         region: "Unova",
@@ -13415,7 +13598,7 @@ let nationalDex = {
     {
         name: "Klinklang",
         imageUrl: "images/601Klinklang.png",
-        number: "601",
+        number: "0601",
         type: ["Steel"],
         category: "Gear",
         region: "Unova",
@@ -13435,7 +13618,7 @@ let nationalDex = {
     {
         name: "Tynamo",
         imageUrl: "images/602Tynamo.png",
-        number: "602",
+        number: "0602",
         type: ["Electric"],
         category: "EleFish",
         region: "Unova",
@@ -13455,7 +13638,7 @@ let nationalDex = {
     {
         name: "Eelektrik",
         imageUrl: "images/603Eelektrik.png",
-        number: "603",
+        number: "0603",
         type: ["Electric"],
         category: "EleFish",
         region: "Unova",
@@ -13475,7 +13658,7 @@ let nationalDex = {
     {
         name: "Eelektross",
         imageUrl: "images/604Eelektross.png",
-        number: "604",
+        number: "0604",
         type: ["Electric"],
         category: "EleFish",
         region: "Unova",
@@ -13495,7 +13678,7 @@ let nationalDex = {
     {
         name: "Elgyem",
         imageUrl: "images/605Elgyem.png",
-        number: "605",
+        number: "0605",
         type: ["Psychic"],
         category: "Cerebral",
         region: "Unova",
@@ -13515,7 +13698,7 @@ let nationalDex = {
     {
         name: "Beheeyem",
         imageUrl: "images/606Beheeyem.png",
-        number: "606",
+        number: "0606",
         type: ["Psychic"],
         category: "Cerebral",
         region: "Unova",
@@ -13535,7 +13718,7 @@ let nationalDex = {
     {
         name: "Litwick",
         imageUrl: "images/607Litwick.png",
-        number: "607",
+        number: "0607",
         type: ["Ghost", "Fire"],
         category: "Candle",
         region: "Unova",
@@ -13555,7 +13738,7 @@ let nationalDex = {
     {
         name: "Lampent",
         imageUrl: "images/608Lampent.png",
-        number: "608",
+        number: "0608",
         type: ["Ghost", "Fire"],
         category: "Lamp",
         region: "Unova",
@@ -13575,7 +13758,7 @@ let nationalDex = {
     {
         name: "Chandelure",
         imageUrl: "images/609Chandelure.png",
-        number: "609",
+        number: "0609",
         type: ["Ghost", "Fire"],
         category: "Luring",
         region: "Unova",
@@ -13595,7 +13778,7 @@ let nationalDex = {
     {
         name: "Axew",
         imageUrl: "images/610Axew.png",
-        number: "610",
+        number: "0610",
         type: ["Dragon"],
         category: "Tusk",
         region: "Unova",
@@ -13615,7 +13798,7 @@ let nationalDex = {
     {
         name: "Fraxure",
         imageUrl: "images/611Fraxure.png",
-        number: "611",
+        number: "0611",
         type: ["Dragon"],
         category: "Axe Jaw",
         region: "Unova",
@@ -13635,7 +13818,7 @@ let nationalDex = {
     {
         name: "Haxorus",
         imageUrl: "images/612Haxorus.png",
-        number: "612",
+        number: "0612",
         type: ["Dragon"],
         category: "Axe Jaw",
         region: "Unova",
@@ -13655,7 +13838,7 @@ let nationalDex = {
     {
         name: "Cubchoo",
         imageUrl: "images/613Cubchoo.png",
-        number: "613",
+        number: "0613",
         type: ["Ice"],
         category: "Chill",
         region: "Unova",
@@ -13675,7 +13858,7 @@ let nationalDex = {
     {
         name: "Beartic",
         imageUrl: "images/614Beartic.png",
-        number: "614",
+        number: "0614",
         type: ["Ice"],
         category: "Freezing",
         region: "Unova",
@@ -13695,7 +13878,7 @@ let nationalDex = {
     {
         name: "Cryogonal",
         imageUrl: "images/615Cryogonal.png",
-        number: "615",
+        number: "0615",
         type: ["Ice"],
         category: "Crystallizing",
         region: "Unova",
@@ -13715,7 +13898,7 @@ let nationalDex = {
     {
         name: "Shelmet",
         imageUrl: "images/616Shelmet.png",
-        number: "616",
+        number: "0616",
         type: ["Bug"],
         category: "Snail",
         region: "Unova",
@@ -13735,7 +13918,7 @@ let nationalDex = {
     {
         name: "Accelgor",
         imageUrl: "images/617Accelgor.png",
-        number: "617",
+        number: "0617",
         type: ["Bug"],
         category: "Shell Out",
         region: "Unova",
@@ -13755,7 +13938,7 @@ let nationalDex = {
     {
         name: "Stunfisk",
         imageUrl: "images/618Stunfisk.png",
-        number: "618",
+        number: "0618",
         type: ["Ground", "Electric"],
         category: "Trap",
         region: "Unova",
@@ -13775,7 +13958,7 @@ let nationalDex = {
     {
         name: "Mienfoo",
         imageUrl: "images/619Mienfoo.png",
-        number: "619",
+        number: "0619",
         type: ["Fighting"],
         category: "Martial Arts",
         region: "Unova",
@@ -13795,7 +13978,7 @@ let nationalDex = {
     {
         name: "Mienshao",
         imageUrl: "images/620Mienshao.png",
-        number: "620",
+        number: "0620",
         type: ["Fighting"],
         category: "Martial Arts",
         region: "Unova",
@@ -13815,7 +13998,7 @@ let nationalDex = {
     {
         name: "Druddigon",
         imageUrl: "images/621Druddigon.png",
-        number: "621",
+        number: "0621",
         type: ["Dragon"],
         category: "Cave",
         region: "Unova",
@@ -13835,7 +14018,7 @@ let nationalDex = {
     {
         name: "Golett",
         imageUrl: "images/622Golett.png",
-        number: "622",
+        number: "0622",
         type: ["Ground", "Ghost"],
         category: "Automaton",
         region: "Unova",
@@ -13855,7 +14038,7 @@ let nationalDex = {
     {
         name: "Golurk",
         imageUrl: "images/623Golurk.png",
-        number: "623",
+        number: "0623",
         type: ["Ground", "Ghost"],
         category: "Automaton",
         region: "Unova",
@@ -13875,7 +14058,7 @@ let nationalDex = {
     {
         name: "Pawniard",
         imageUrl: "images/624Pawniard.png",
-        number: "624",
+        number: "0624",
         type: ["Dark", "Steel"],
         category: "Sharp Blade",
         region: "Unova",
@@ -13895,7 +14078,7 @@ let nationalDex = {
     {
         name: "Bisharp",
         imageUrl: "images/625Bisharp.png",
-        number: "625",
+        number: "0625",
         type: ["Dark", "Steel"],
         category: "Sword Blade",
         region: "Unova",
@@ -13915,7 +14098,7 @@ let nationalDex = {
     {
         name: "Bouffalant",
         imageUrl: "images/626Bouffalant.png",
-        number: "626",
+        number: "0626",
         type: ["Normal"],
         category: "Bash Buffalo",
         region: "Unova",
@@ -13935,7 +14118,7 @@ let nationalDex = {
     {
         name: "Rufflet",
         imageUrl: "images/627Rufflet.png",
-        number: "627",
+        number: "0627",
         type: ["Normal", "Flying"],
         category: "Eaglet",
         region: "Unova",
@@ -13955,7 +14138,7 @@ let nationalDex = {
     {
         name: "Braviary",
         imageUrl: "images/628Braviary.png",
-        number: "628",
+        number: "0628",
         type: ["Normal", "Flying"],
         category: "Valiant",
         region: "Unova",
@@ -13975,7 +14158,7 @@ let nationalDex = {
     {
         name: "Vullaby",
         imageUrl: "images/629Vullaby.png",
-        number: "629",
+        number: "0629",
         type: ["Dark", "Flying"],
         category: "Diapered",
         region: "Unova",
@@ -13995,7 +14178,7 @@ let nationalDex = {
     {
         name: "Mandibuzz",
         imageUrl: "images/630Mandibuzz.png",
-        number: "630",
+        number: "0630",
         type: ["Dark", "Flying"],
         category: "Bone Vulture",
         region: "Unova",
@@ -14015,7 +14198,7 @@ let nationalDex = {
     {
         name: "Heatmor",
         imageUrl: "images/631Heatmor.png",
-        number: "631",
+        number: "0631",
         type: ["Fire"],
         category: "Anteater",
         region: "Unova",
@@ -14035,7 +14218,7 @@ let nationalDex = {
     {
         name: "Durant",
         imageUrl: "images/632Durant.png",
-        number: "632",
+        number: "0632",
         type: ["Bug", "Steel"],
         category: "Iron Ant",
         region: "Unova",
@@ -14055,7 +14238,7 @@ let nationalDex = {
     {
         name: "Deino",
         imageUrl: "images/633Deino.png",
-        number: "633",
+        number: "0633",
         type: ["Dark", "Dragon"],
         category: "Irate",
         region: "Unova",
@@ -14075,7 +14258,7 @@ let nationalDex = {
     {
         name: "Zweilous",
         imageUrl: "images/634Zweilous.png",
-        number: "634",
+        number: "0634",
         type: ["Dark", "Dragon"],
         category: "Hostile",
         region: "Unova",
@@ -14095,7 +14278,7 @@ let nationalDex = {
     {
         name: "Hydreigon",
         imageUrl: "images/635Hydreigon.png",
-        number: "635",
+        number: "0635",
         type: ["Dark", "Dragon"],
         category: "Brutal",
         region: "Unova",
@@ -14115,7 +14298,7 @@ let nationalDex = {
     {
         name: "Larvesta",
         imageUrl: "images/636Larvesta.png",
-        number: "636",
+        number: "0636",
         type: ["Bug", "Fire"],
         category: "Torch",
         region: "Unova",
@@ -14135,7 +14318,7 @@ let nationalDex = {
     {
         name: "Volcarona",
         imageUrl: "images/637Volcarona.png",
-        number: "637",
+        number: "0637",
         type: ["Bug", "Fire"],
         category: "Sun",
         region: "Unova",
@@ -14155,7 +14338,7 @@ let nationalDex = {
     {
         name: "Cobalion",
         imageUrl: "images/638Cobalion.png",
-        number: "638",
+        number: "0638",
         type: ["Steel", "Fighting"],
         category: "Iron Will",
         region: "Unova",
@@ -14175,7 +14358,7 @@ let nationalDex = {
     {
         name: "Terrakion",
         imageUrl: "images/639Terrakion.png",
-        number: "639",
+        number: "0639",
         type: ["Rock", "Fighting"],
         category: "Cavern",
         region: "Unova",
@@ -14195,7 +14378,7 @@ let nationalDex = {
     {
         name: "Virizion",
         imageUrl: "images/640Virizion.png",
-        number: "640",
+        number: "0640",
         type: ["Grass", "Fighting"],
         category: "Grassland",
         region: "Unova",
@@ -14215,7 +14398,7 @@ let nationalDex = {
     {
         name: "Tornadus",
         imageUrl: "images/641Tornadus.png",
-        number: "641",
+        number: "0641",
         type: ["Flying"],
         category: "Cyclone",
         region: "Unova",
@@ -14235,7 +14418,7 @@ let nationalDex = {
     {
         name: "Thundurus",
         imageUrl: "images/642Thundurus.png",
-        number: "642",
+        number: "0642",
         type: ["Electric", "Flying"],
         category: "Bolt Strike",
         region: "Unova",
@@ -14255,7 +14438,7 @@ let nationalDex = {
     {
         name: "Reshiram",
         imageUrl: "images/643Reshiram.png",
-        number: "643",
+        number: "0643",
         type: ["Dragon", "Fire"],
         category: "Vast White",
         region: "Unova",
@@ -14275,7 +14458,7 @@ let nationalDex = {
     {
         name: "Zekrom",
         imageUrl: "images/644Zekrom.png",
-        number: "644",
+        number: "0644",
         type: ["Dragon", "Electric"],
         category: "Deep Black",
         region: "Unova",
@@ -14295,7 +14478,7 @@ let nationalDex = {
     {
         name: "Landorus",
         imageUrl: "images/645Landorus.png",
-        number: "645",
+        number: "0645",
         type: ["Ground", "Flying"],
         category: "Abundance",
         region: "Unova",
@@ -14315,7 +14498,7 @@ let nationalDex = {
     {
         name: "Kyurem",
         imageUrl: "images/646Kyurem.png",
-        number: "646",
+        number: "0646",
         type: ["Dragon", "Ice"],
         category: "Boundary",
         region: "Unova",
@@ -14335,7 +14518,7 @@ let nationalDex = {
     {
         name: "Keldeo",
         imageUrl: "images/647Keldeo.png",
-        number: "647",
+        number: "0647",
         type: ["Water", "Fighting"],
         category: "Colt",
         region: "Unova",
@@ -14355,7 +14538,7 @@ let nationalDex = {
     {
         name: "Meloetta",
         imageUrl: "images/648Meloetta.png",
-        number: "648",
+        number: "0648",
         type: ["Normal", "Psychic"],
         category: "Melody",
         region: "Unova",
@@ -14375,7 +14558,7 @@ let nationalDex = {
     {
         name: "Genesect",
         imageUrl: "images/649Genesect.png",
-        number: "649",
+        number: "0649",
         type: ["Bug", "Steel"],
         category: "Paleozoic",
         region: "Unova",
@@ -14395,7 +14578,7 @@ let nationalDex = {
     {
         name: "Chespin",
         imageUrl: "images/650Chespin.png",
-        number: "650",
+        number: "0650",
         type: ["Grass"],
         category: "Spiny Nut",
         region: "Kalos",
@@ -14415,7 +14598,7 @@ let nationalDex = {
     {
         name: "Quilladin",
         imageUrl: "images/651Quilladin.png",
-        number: "651",
+        number: "0651",
         type: ["Grass"],
         category: "Spiny Armor",
         region: "Kalos",
@@ -14435,7 +14618,7 @@ let nationalDex = {
     {
         name: "Chesnaught",
         imageUrl: "images/652Chesnaught.png",
-        number: "652",
+        number: "0652",
         type: ["Grass", "Fighting"],
         category: "Spiny Armor",
         region: "Kalos",
@@ -14455,7 +14638,7 @@ let nationalDex = {
     {
         name: "Fennekin",
         imageUrl: "images/653Fennekin.png",
-        number: "653",
+        number: "0653",
         type: ["Fire"],
         category: "Fox",
         region: "Kalos",
@@ -14475,7 +14658,7 @@ let nationalDex = {
     {
         name: "Braixen",
         imageUrl: "images/654Braixen.png",
-        number: "654",
+        number: "0654",
         type: ["Fire"],
         category: "Fox",
         region: "Kalos",
@@ -14495,7 +14678,7 @@ let nationalDex = {
     {
         name: "Delphox",
         imageUrl: "images/655Delphox.png",
-        number: "655",
+        number: "0655",
         type: ["Fire", "Psychic"],
         category: "Fox",
         region: "Kalos",
@@ -14515,7 +14698,7 @@ let nationalDex = {
     {
         name: "Froakie",
         imageUrl: "images/656Froakie.png",
-        number: "656",
+        number: "0656",
         type: ["Water"],
         category: "Bubble Frog",
         region: "Kalos",
@@ -14535,7 +14718,7 @@ let nationalDex = {
     {
         name: "Frogadier",
         imageUrl: "images/657Frogadier.png",
-        number: "657",
+        number: "0657",
         type: ["Water"],
         category: "Bubble Frog",
         region: "Kalos",
@@ -14555,7 +14738,7 @@ let nationalDex = {
     {
         name: "Greninja",
         imageUrl: "images/658Greninja.png",
-        number: "658",
+        number: "0658",
         type: ["Water", "Dark"],
         category: "Ninja",
         region: "Kalos",
@@ -14575,7 +14758,7 @@ let nationalDex = {
     {
         name: "Bunnelby",
         imageUrl: "images/659Bunnelby.png",
-        number: "659",
+        number: "0659",
         type: ["Normal"],
         category: "Digging",
         region: "Kalos",
@@ -14595,7 +14778,7 @@ let nationalDex = {
     {
         name: "Diggersby",
         imageUrl: "images/660Diggersby.png",
-        number: "660",
+        number: "0660",
         type: ["Normal", "Ground"],
         category: "Digging",
         region: "Kalos",
@@ -14615,7 +14798,7 @@ let nationalDex = {
     {
         name: "Fletchling",
         imageUrl: "images/661Fletchling.png",
-        number: "661",
+        number: "0661",
         type: ["Normal", "Flying"],
         category: "Tiny Robin",
         region: "Kalos",
@@ -14635,7 +14818,7 @@ let nationalDex = {
     {
         name: "Fletchinder",
         imageUrl: "images/662Fletchinder.png",
-        number: "662",
+        number: "0662",
         type: ["Fire", "Flying"],
         category: "Ember",
         region: "Kalos",
@@ -14655,7 +14838,7 @@ let nationalDex = {
     {
         name: "Talonflame",
         imageUrl: "images/663Talonflame.png",
-        number: "663",
+        number: "0663",
         type: ["Fire", "Flying"],
         category: "Scorching",
         region: "Kalos",
@@ -14675,7 +14858,7 @@ let nationalDex = {
     {
         name: "Scatterbug",
         imageUrl: "images/664Scatterbug.png",
-        number: "664",
+        number: "0664",
         type: ["Bug"],
         category: "Scatterdust",
         region: "Kalos",
@@ -14695,7 +14878,7 @@ let nationalDex = {
     {
         name: "Spewpa",
         imageUrl: "images/665Spewpa.png",
-        number: "665",
+        number: "0665",
         type: ["Bug"],
         category: "Scatterdust",
         region: "Kalos",
@@ -14715,7 +14898,7 @@ let nationalDex = {
     {
         name: "Vivillon",
         imageUrl: "images/666Vivillon.png",
-        number: "666",
+        number: "0666",
         type: ["Bug", "Flying"],
         category: "Scale",
         region: "Kalos",
@@ -14735,7 +14918,7 @@ let nationalDex = {
     {
         name: "Litleo",
         imageUrl: "images/667Litleo.png",
-        number: "667",
+        number: "0667",
         type: ["Fire", "Normal"],
         category: "Lion Cub",
         region: "Kalos",
@@ -14755,7 +14938,7 @@ let nationalDex = {
     {
         name: "Pyroar",
         imageUrl: "images/668Pyroar.png",
-        number: "668",
+        number: "0668",
         type: ["Fire", "Normal"],
         category: "Royal",
         region: "Kalos",
@@ -14775,7 +14958,7 @@ let nationalDex = {
     {
         name: "Flabébé",
         imageUrl: "images/669Flabebe.png",
-        number: "669",
+        number: "0669",
         type: ["Fairy"],
         category: "Single Bloom",
         region: "Kalos",
@@ -14795,7 +14978,7 @@ let nationalDex = {
     {
         name: "Floette",
         imageUrl: "images/670Floette.png",
-        number: "670",
+        number: "0670",
         type: ["Fairy"],
         category: "Single Bloom",
         region: "Kalos",
@@ -14815,7 +14998,7 @@ let nationalDex = {
     {
         name: "Florges",
         imageUrl: "images/671Florges.png",
-        number: "671",
+        number: "0671",
         type: ["Fairy"],
         category: "Garden",
         region: "Kalos",
@@ -14835,7 +15018,7 @@ let nationalDex = {
     {
         name: "Skiddo",
         imageUrl: "images/672Skiddo.png",
-        number: "672",
+        number: "0672",
         type: ["Grass"],
         category: "Mount",
         region: "Kalos",
@@ -14855,7 +15038,7 @@ let nationalDex = {
     {
         name: "Gogoat",
         imageUrl: "images/673Gogoat.png",
-        number: "673",
+        number: "0673",
         type: ["Grass"],
         category: "Mount",
         region: "Kalos",
@@ -14875,7 +15058,7 @@ let nationalDex = {
     {
         name: "Pancham",
         imageUrl: "images/674Pancham.png",
-        number: "674",
+        number: "0674",
         type: ["Fighting"],
         category: "Playful",
         region: "Kalos",
@@ -14895,7 +15078,7 @@ let nationalDex = {
     {
         name: "Pangoro",
         imageUrl: "images/675Pangoro.png",
-        number: "675",
+        number: "0675",
         type: ["Fighting", "Dark"],
         category: "Daunting",
         region: "Kalos",
@@ -14915,7 +15098,7 @@ let nationalDex = {
     {
         name: "Furfrou",
         imageUrl: "images/676Furfrou.png",
-        number: "676",
+        number: "0676",
         type: ["Normal"],
         category: "Poodle",
         region: "Kalos",
@@ -14935,7 +15118,7 @@ let nationalDex = {
     {
         name: "Espurr",
         imageUrl: "images/677Espurr.png",
-        number: "677",
+        number: "0677",
         type: ["Psychic"],
         category: "Restraint",
         region: "Kalos",
@@ -14955,7 +15138,7 @@ let nationalDex = {
     {
         name: "Meowstic",
         imageUrl: "images/678Meowstic.png",
-        number: "678",
+        number: "0678",
         type: ["Psychic"],
         category: "Constraint",
         region: "Kalos",
@@ -14975,7 +15158,7 @@ let nationalDex = {
     {
         name: "Honedge",
         imageUrl: "images/679Honedge.png",
-        number: "679",
+        number: "0679",
         type: ["Steel", "Ghost"],
         category: "Sword",
         region: "Kalos",
@@ -14995,7 +15178,7 @@ let nationalDex = {
     {
         name: "Doublade",
         imageUrl: "images/680Doublade.png",
-        number: "680",
+        number: "0680",
         type: ["Steel", "Ghost"],
         category: "Sword",
         region: "Kalos",
@@ -15015,7 +15198,7 @@ let nationalDex = {
     {
         name: "Aegislash",
         imageUrl: "images/681Aegislash.png",
-        number: "681",
+        number: "0681",
         type: ["Steel", "Ghost"],
         category: "Royal Sword",
         region: "Kalos",
@@ -15035,7 +15218,7 @@ let nationalDex = {
     {
         name: "Spritzee",
         imageUrl: "images/682Spritzee.png",
-        number: "682",
+        number: "0682",
         type: ["Fairy"],
         category: "Perfume",
         region: "Kalos",
@@ -15055,7 +15238,7 @@ let nationalDex = {
     {
         name: "Aromatisse",
         imageUrl: "images/683Aromatisse.png",
-        number: "683",
+        number: "0683",
         type: ["Fairy"],
         category: "Fragrance",
         region: "Kalos",
@@ -15075,7 +15258,7 @@ let nationalDex = {
     {
         name: "Swirlix",
         imageUrl: "images/684Swirlix.png",
-        number: "684",
+        number: "0684",
         type: ["Fairy"],
         category: "Cotton Candy",
         region: "Kalos",
@@ -15095,7 +15278,7 @@ let nationalDex = {
     {
         name: "Slurpuff",
         imageUrl: "images/685Slurpuff.png",
-        number: "685",
+        number: "0685",
         type: ["Fairy"],
         category: "Meringue",
         region: "Kalos",
@@ -15115,7 +15298,7 @@ let nationalDex = {
     {
         name: "Inkay",
         imageUrl: "images/686Inkay.png",
-        number: "686",
+        number: "0686",
         type: ["Dark", "Psychic"],
         category: "Revolving",
         region: "Kalos",
@@ -15135,7 +15318,7 @@ let nationalDex = {
     {
         name: "Malamar",
         imageUrl: "images/687Malamar.png",
-        number: "687",
+        number: "0687",
         type: ["Dark", "Psychic"],
         category: "Overturning",
         region: "Kalos",
@@ -15155,7 +15338,7 @@ let nationalDex = {
     {
         name: "Binacle",
         imageUrl: "images/688Binacle.png",
-        number: "688",
+        number: "0688",
         type: ["Rock", "Water"],
         category: "Two-Handed",
         region: "Kalos",
@@ -15175,7 +15358,7 @@ let nationalDex = {
     {
         name: "Barbaracle",
         imageUrl: "images/689Barbaracle.png",
-        number: "689",
+        number: "0689",
         type: ["Rock", "Water"],
         category: "Collective",
         region: "Kalos",
@@ -15195,7 +15378,7 @@ let nationalDex = {
     {
         name: "Skrelp",
         imageUrl: "images/690Skrelp.png",
-        number: "690",
+        number: "0690",
         type: ["Poison", "Water"],
         category: "Mock Kelp",
         region: "Kalos",
@@ -15215,7 +15398,7 @@ let nationalDex = {
     {
         name: "Dragalge",
         imageUrl: "images/691Dragalge.png",
-        number: "691",
+        number: "0691",
         type: ["Poison", "Dragon"],
         category: "Mock Kelp",
         region: "Kalos",
@@ -15235,7 +15418,7 @@ let nationalDex = {
     {
         name: "Clauncher",
         imageUrl: "images/692Clauncher.png",
-        number: "692",
+        number: "0692",
         type: ["Water"],
         category: "Water Gun",
         region: "Kalos",
@@ -15255,7 +15438,7 @@ let nationalDex = {
     {
         name: "Clawitzer",
         imageUrl: "images/693Clawitzer.png",
-        number: "693",
+        number: "0693",
         type: ["Water"],
         category: "Howitzer",
         region: "Kalos",
@@ -15275,7 +15458,7 @@ let nationalDex = {
     {
         name: "Helioptile",
         imageUrl: "images/694Helioptile.png",
-        number: "694",
+        number: "0694",
         type: ["Electric", "Normal"],
         category: "Generator",
         region: "Kalos",
@@ -15295,7 +15478,7 @@ let nationalDex = {
     {
         name: "Heliolisk",
         imageUrl: "images/695Heliolisk.png",
-        number: "695",
+        number: "0695",
         type: ["Electric", "Normal"],
         category: "Generator",
         region: "Kalos",
@@ -15315,7 +15498,7 @@ let nationalDex = {
     {
         name: "Tyrunt",
         imageUrl: "images/696Tyrunt.png",
-        number: "696",
+        number: "0696",
         type: ["Rock", "Dragon"],
         category: "Royal Heir",
         region: "Kalos",
@@ -15335,7 +15518,7 @@ let nationalDex = {
     {
         name: "Tyrantrum",
         imageUrl: "images/697Tyrantrum.png",
-        number: "697",
+        number: "0697",
         type: ["Rock", "Dragon"],
         category: "Despot",
         region: "Kalos",
@@ -15355,7 +15538,7 @@ let nationalDex = {
     {
         name: "Amaura",
         imageUrl: "images/698Amaura.png",
-        number: "698",
+        number: "0698",
         type: ["Rock", "Ice"],
         category: "Tundra",
         region: "Kalos",
@@ -15375,7 +15558,7 @@ let nationalDex = {
     {
         name: "Aurorus",
         imageUrl: "images/699Aurorus.png",
-        number: "699",
+        number: "0699",
         type: ["Rock", "Ice"],
         category: "Tundra",
         region: "Kalos",
@@ -15395,7 +15578,7 @@ let nationalDex = {
     {
         name: "Sylveon",
         imageUrl: "images/700Sylveon.png",
-        number: "700",
+        number: "0700",
         type: ["Fairy"],
         category: "Intertwining",
         region: "Kalos",
@@ -15415,7 +15598,7 @@ let nationalDex = {
     {
         name: "Hawlucha",
         imageUrl: "images/701Hawlucha.png",
-        number: "701",
+        number: "0701",
         type: ["Fighting", "Flying"],
         category: "Wrestling",
         region: "Kalos",
@@ -15435,7 +15618,7 @@ let nationalDex = {
     {
         name: "Dedenne",
         imageUrl: "images/702Dedenne.png",
-        number: "702",
+        number: "0702",
         type: ["Electric", "Fairy"],
         category: "Antenna",
         region: "Kalos",
@@ -15455,7 +15638,7 @@ let nationalDex = {
     {
         name: "Carbink",
         imageUrl: "images/703Carbink.png",
-        number: "703",
+        number: "0703",
         type: ["Rock", "Fairy"],
         category: "Jewel",
         region: "Kalos",
@@ -15475,7 +15658,7 @@ let nationalDex = {
     {
         name: "Goomy",
         imageUrl: "images/704Goomy.png",
-        number: "704",
+        number: "0704",
         type: ["Dragon"],
         category: "Soft Tissue",
         region: "Kalos",
@@ -15495,7 +15678,7 @@ let nationalDex = {
     {
         name: "Sliggoo",
         imageUrl: "images/705Sliggoo.png",
-        number: "705",
+        number: "0705",
         type: ["Dragon"],
         category: "Soft Tissue",
         region: "Kalos",
@@ -15515,7 +15698,7 @@ let nationalDex = {
     {
         name: "Goodra",
         imageUrl: "images/706Goodra.png",
-        number: "706",
+        number: "0706",
         type: ["Dragon"],
         category: "Dragon",
         region: "Kalos",
@@ -15535,7 +15718,7 @@ let nationalDex = {
     {
         name: "Klefki",
         imageUrl: "images/707Klefki.png",
-        number: "707",
+        number: "0707",
         type: ["Steel", "Fairy"],
         category: "Key Ring",
         region: "Kalos",
@@ -15555,7 +15738,7 @@ let nationalDex = {
     {
         name: "Phantump",
         imageUrl: "images/708Phantump.png",
-        number: "708",
+        number: "0708",
         type: ["Ghost", "Grass"],
         category: "Stump",
         region: "Kalos",
@@ -15575,7 +15758,7 @@ let nationalDex = {
     {
         name: "Trevenant",
         imageUrl: "images/709Trevenant.png",
-        number: "709",
+        number: "0709",
         type: ["Ghost", "Grass"],
         category: "Elder Tree",
         region: "Kalos",
@@ -15595,7 +15778,7 @@ let nationalDex = {
     {
         name: "Pumpkaboo",
         imageUrl: "images/710Pumpkaboo.png",
-        number: "710",
+        number: "0710",
         type: ["Ghost", "Grass"],
         category: "Pumpkin",
         region: "Kalos",
@@ -15615,7 +15798,7 @@ let nationalDex = {
     {
         name: "Gourgeist",
         imageUrl: "images/711Gourgeist.png",
-        number: "711",
+        number: "0711",
         type: ["Ghost", "Grass"],
         category: "Pumpkin",
         region: "Kalos",
@@ -15635,7 +15818,7 @@ let nationalDex = {
     {
         name: "Bergmite",
         imageUrl: "images/712Bergmite.png",
-        number: "712",
+        number: "0712",
         type: ["Ice"],
         category: "Ice Chunk",
         region: "Kalos",
@@ -15655,7 +15838,7 @@ let nationalDex = {
     {
         name: "Avalugg",
         imageUrl: "images/713Avalugg.png",
-        number: "713",
+        number: "0713",
         type: ["Ice"],
         category: "Iceberg",
         region: "Kalos",
@@ -15675,7 +15858,7 @@ let nationalDex = {
     {
         name: "Noibat",
         imageUrl: "images/714Noibat.png",
-        number: "714",
+        number: "0714",
         type: ["Flying", "Dragon"],
         category: "Sound Wave",
         region: "Kalos",
@@ -15695,7 +15878,7 @@ let nationalDex = {
     {
         name: "Noivern",
         imageUrl: "images/715Noivern.png",
-        number: "715",
+        number: "0715",
         type: ["Flying", "Dragon"],
         category: "Sound Wave",
         region: "Kalos",
@@ -15715,7 +15898,7 @@ let nationalDex = {
     {
         name: "Xerneas",
         imageUrl: "images/716Xerneas.png",
-        number: "716",
+        number: "0716",
         type: ["Fairy"],
         category: "Life",
         region: "Kalos",
@@ -15735,7 +15918,7 @@ let nationalDex = {
     {
         name: "Yveltal",
         imageUrl: "images/717Yveltal.png",
-        number: "717",
+        number: "0717",
         type: ["Dark", "Flying"],
         category: "Destruction",
         region: "Kalos",
@@ -15755,7 +15938,7 @@ let nationalDex = {
     {
         name: "Zygarde",
         imageUrl: "images/718Zygarde.png",
-        number: "718",
+        number: "0718",
         type: ["Dragon", "Ground"],
         category: "Order",
         region: "Kalos",
@@ -15775,7 +15958,7 @@ let nationalDex = {
     {
         name: "Diancie",
         imageUrl: "images/719Diancie.png",
-        number: "719",
+        number: "0719",
         type: ["Rock", "Fairy"],
         category: "Jewel",
         region: "Kalos",
@@ -15795,7 +15978,7 @@ let nationalDex = {
     {
         name: "Hoopa",
         imageUrl: "images/720Hoopa.png",
-        number: "720",
+        number: "0720",
         type: ["Psychic", "Ghost"],
         category: "Mischief",
         region: "Kalos",
@@ -15815,7 +15998,7 @@ let nationalDex = {
     {
         name: "Volcanion",
         imageUrl: "images/721Volcanion.png",
-        number: "721",
+        number: "0721",
         type: ["Fire", "Water"],
         category: "Steam",
         region: "Kalos",
@@ -15835,7 +16018,7 @@ let nationalDex = {
     {
         name: "Rowlet",
         imageUrl: "images/722Rowlet.png",
-        number: "722",
+        number: "0722",
         type: ["Grass", "Flying"],
         category: "Grass Quill",
         region: "Alola",
@@ -15855,7 +16038,7 @@ let nationalDex = {
     {
         name: "Dartrix",
         imageUrl: "images/723Dartrix.png",
-        number: "723",
+        number: "0723",
         type: ["Grass", "Flying"],
         category: "Blade Quill",
         region: "Alola",
@@ -15875,7 +16058,7 @@ let nationalDex = {
     {
         name: "Decidueye",
         imageUrl: "images/724Decidueye.png",
-        number: "724",
+        number: "0724",
         type: ["Grass", "Ghost"],
         category: "Arrow Quill",
         region: "Alola",
@@ -15895,7 +16078,7 @@ let nationalDex = {
     {
         name: "Litten",
         imageUrl: "images/725Litten.png",
-        number: "725",
+        number: "0725",
         type: ["Fire"],
         category: "Fire Cat",
         region: "Alola",
@@ -15915,7 +16098,7 @@ let nationalDex = {
     {
         name: "Torracat",
         imageUrl: "images/726Torracat.png",
-        number: "726",
+        number: "0726",
         type: ["Fire"],
         category: "Fire Cat",
         region: "Alola",
@@ -15935,7 +16118,7 @@ let nationalDex = {
     {
         name: "Incineroar",
         imageUrl: "images/727Incineroar.png",
-        number: "727",
+        number: "0727",
         type: ["Fire", "Dark"],
         category: "Heel",
         region: "Alola",
@@ -15955,7 +16138,7 @@ let nationalDex = {
     {
         name: "Popplio",
         imageUrl: "images/728Popplio.png",
-        number: "728",
+        number: "0728",
         type: ["Water"],
         category: "Sea Lion",
         region: "Alola",
@@ -15975,7 +16158,7 @@ let nationalDex = {
     {
         name: "Brionne",
         imageUrl: "images/729Brionne.png",
-        number: "729",
+        number: "0729",
         type: ["Water"],
         category: "Pop Star",
         region: "Alola",
@@ -15995,7 +16178,7 @@ let nationalDex = {
     {
         name: "Primarina",
         imageUrl: "images/730Primarina.png",
-        number: "730",
+        number: "0730",
         type: ["Water", "Fairy"],
         category: "Soloist",
         region: "Alola",
@@ -16015,7 +16198,7 @@ let nationalDex = {
     {
         name: "Pikipek",
         imageUrl: "images/731Pikipek.png",
-        number: "731",
+        number: "0731",
         type: ["Normal", "Flying"],
         category: "Woodpecker",
         region: "Alola",
@@ -16035,7 +16218,7 @@ let nationalDex = {
     {
         name: "Trumbeak",
         imageUrl: "images/732Trumbeak.png",
-        number: "732",
+        number: "0732",
         type: ["Normal", "Flying"],
         category: "Bugle Beak",
         region: "Alola",
@@ -16055,7 +16238,7 @@ let nationalDex = {
     {
         name: "Toucannon",
         imageUrl: "images/733Toucannon.png",
-        number: "733",
+        number: "0733",
         type: ["Normal", "Flying"],
         category: "Cannon",
         region: "Alola",
@@ -16075,7 +16258,7 @@ let nationalDex = {
     {
         name: "Yungoos",
         imageUrl: "images/734Yungoos.png",
-        number: "734",
+        number: "0734",
         type: ["Normal"],
         category: "Loitering",
         region: "Alola",
@@ -16095,7 +16278,7 @@ let nationalDex = {
     {
         name: "Gumshoos",
         imageUrl: "images/735Gumshoos.png",
-        number: "735",
+        number: "0735",
         type: ["Normal"],
         category: "Stakeout",
         region: "Alola",
@@ -16115,7 +16298,7 @@ let nationalDex = {
     {
         name: "Grubbin",
         imageUrl: "images/736Grubbin.png",
-        number: "736",
+        number: "0736",
         type: ["Bug"],
         category: "Larva",
         region: "Alola",
@@ -16135,7 +16318,7 @@ let nationalDex = {
     {
         name: "Charjabug",
         imageUrl: "images/737Charjabug.png",
-        number: "737",
+        number: "0737",
         type: ["Bug", "Electric"],
         category: "Battery",
         region: "Alola",
@@ -16155,7 +16338,7 @@ let nationalDex = {
     {
         name: "Vikavolt",
         imageUrl: "images/738Vikavolt.png",
-        number: "738",
+        number: "0738",
         type: ["Bug", "Electric"],
         category: "Stag Beetle",
         region: "Alola",
@@ -16175,7 +16358,7 @@ let nationalDex = {
     {
         name: "Crabrawler",
         imageUrl: "images/739Crabrawler.png",
-        number: "739",
+        number: "0739",
         type: ["Fighting"],
         category: "Boxing",
         region: "Alola",
@@ -16195,7 +16378,7 @@ let nationalDex = {
     {
         name: "Crabominable",
         imageUrl: "images/740Crabominable.png",
-        number: "740",
+        number: "0740",
         type: ["Fighting", "Ice"],
         category: "Woolly Crab",
         region: "Alola",
@@ -16215,7 +16398,7 @@ let nationalDex = {
     {
         name: "Oricorio",
         imageUrl: "images/741Oricorio.png",
-        number: "741",
+        number: "0741",
         type: ["Fire", "Flying"],
         category: "Dancing",
         region: "Alola",
@@ -16235,7 +16418,7 @@ let nationalDex = {
     {
         name: "Cutiefly",
         imageUrl: "images/742Cutiefly.png",
-        number: "742",
+        number: "0742",
         type: ["Bug", "Fairy"],
         category: "Bee Fly",
         region: "Alola",
@@ -16255,7 +16438,7 @@ let nationalDex = {
     {
         name: "Ribombee",
         imageUrl: "images/743Ribombee.png",
-        number: "743",
+        number: "0743",
         type: ["Bug", "Fairy"],
         category: "Bee Fly",
         region: "Alola",
@@ -16275,7 +16458,7 @@ let nationalDex = {
     {
         name: "Rockruff",
         imageUrl: "images/744Rockruff.png",
-        number: "744",
+        number: "0744",
         type: ["Rock"],
         category: "Puppy",
         region: "Alola",
@@ -16295,7 +16478,7 @@ let nationalDex = {
     {
         name: "Lycanroc",
         imageUrl: "images/745Lycanroc.png",
-        number: "745",
+        number: "0745",
         type: ["Rock"],
         category: "Wolf",
         region: "Alola",
@@ -16315,7 +16498,7 @@ let nationalDex = {
     {
         name: "Wishiwashi",
         imageUrl: "images/746Wishiwashi.png",
-        number: "746",
+        number: "0746",
         type: ["Water"],
         category: "Small Fry",
         region: "Alola",
@@ -16335,7 +16518,7 @@ let nationalDex = {
     {
         name: "Mareanie",
         imageUrl: "images/747Mareanie.png",
-        number: "747",
+        number: "0747",
         type: ["Poison", "Water"],
         category: "Brutal Star",
         region: "Alola",
@@ -16355,7 +16538,7 @@ let nationalDex = {
     {
         name: "Toxapex",
         imageUrl: "images/748Toxapex.png",
-        number: "748",
+        number: "0748",
         type: ["Poison", "Water"],
         category: "Brutal Star",
         region: "Alola",
@@ -16375,7 +16558,7 @@ let nationalDex = {
     {
         name: "Mudbray",
         imageUrl: "images/749Mudbray.png",
-        number: "749",
+        number: "0749",
         type: ["Ground"],
         category: "Donkey",
         region: "Alola",
@@ -16395,7 +16578,7 @@ let nationalDex = {
     {
         name: "Mudsdale",
         imageUrl: "images/750Mudsdale.png",
-        number: "750",
+        number: "0750",
         type: ["Ground"],
         category: "Draft Horse",
         region: "Alola",
@@ -16415,7 +16598,7 @@ let nationalDex = {
     {
         name: "Dewpider",
         imageUrl: "images/751Dewpider.png",
-        number: "751",
+        number: "0751",
         type: ["Water", "Bug"],
         category: "Water Bubble",
         region: "Alola",
@@ -16435,7 +16618,7 @@ let nationalDex = {
     {
         name: "Araquanid",
         imageUrl: "images/752Araquanid.png",
-        number: "752",
+        number: "0752",
         type: ["Water", "Bug"],
         category: "Water Bubble",
         region: "Alola",
@@ -16455,7 +16638,7 @@ let nationalDex = {
     {
         name: "Fomantis",
         imageUrl: "images/753Fomantis.png",
-        number: "753",
+        number: "0753",
         type: ["Grass"],
         category: "Sickle Grass",
         region: "Alola",
@@ -16475,7 +16658,7 @@ let nationalDex = {
     {
         name: "Lurantis",
         imageUrl: "images/754Lurantis.png",
-        number: "754",
+        number: "0754",
         type: ["Grass"],
         category: "Bloom Sickle",
         region: "Alola",
@@ -16495,7 +16678,7 @@ let nationalDex = {
     {
         name: "Morelull",
         imageUrl: "images/755Morelull.png",
-        number: "755",
+        number: "0755",
         type: ["Grass", "Fairy"],
         category: "Illuminating",
         region: "Alola",
@@ -16515,7 +16698,7 @@ let nationalDex = {
     {
         name: "Shiinotic",
         imageUrl: "images/756Shiinotic.png",
-        number: "756",
+        number: "0756",
         type: ["Grass", "Fairy"],
         category: "Illuminating",
         region: "Alola",
@@ -16535,7 +16718,7 @@ let nationalDex = {
     {
         name: "Salandit",
         imageUrl: "images/757Salandit.png",
-        number: "757",
+        number: "0757",
         type: ["Poison", "Fire"],
         category: "Toxic Lizard",
         region: "Alola",
@@ -16555,7 +16738,7 @@ let nationalDex = {
     {
         name: "Salazzle",
         imageUrl: "images/758Salazzle.png",
-        number: "758",
+        number: "0758",
         type: ["Poison", "FIre"],
         category: "Toxic Lizard",
         region: "Alola",
@@ -16575,7 +16758,7 @@ let nationalDex = {
     {
         name: "Stufful",
         imageUrl: "images/759Stufful.png",
-        number: "759",
+        number: "0759",
         type: ["Normal", "Fighting"],
         category: "Flailing",
         region: "Alola",
@@ -16595,7 +16778,7 @@ let nationalDex = {
     {
         name: "Bewear",
         imageUrl: "images/760Bewear.png",
-        number: "760",
+        number: "0760",
         type: ["Normal", "Fighting"],
         category: "Strong Arm",
         region: "Alola",
@@ -16615,7 +16798,7 @@ let nationalDex = {
     {
         name: "Bounsweet",
         imageUrl: "images/761Bounsweet.png",
-        number: "761",
+        number: "0761",
         type: ["Grass"],
         category: "Fruit",
         region: "Alola",
@@ -16635,7 +16818,7 @@ let nationalDex = {
     {
         name: "Steenee",
         imageUrl: "images/762Steenee.png",
-        number: "762",
+        number: "0762",
         type: ["Grass"],
         category: "Fruit",
         region: "Alola",
@@ -16655,7 +16838,7 @@ let nationalDex = {
     {
         name: "Tsareena",
         imageUrl: "images/763Tsareena.png",
-        number: "763",
+        number: "0763",
         type: ["Grass"],
         category: "Fruit",
         region: "Alola",
@@ -16675,7 +16858,7 @@ let nationalDex = {
     {
         name: "Comfey",
         imageUrl: "images/764Comfey.png",
-        number: "764",
+        number: "0764",
         type: ["Fairy"],
         category: "Posy Picker",
         region: "Alola",
@@ -16695,7 +16878,7 @@ let nationalDex = {
     {
         name: "Oranguru",
         imageUrl: "images/765Oranguru.png",
-        number: "765",
+        number: "0765",
         type: ["Normal", "Psychic"],
         category: "Sage",
         region: "Alola",
@@ -16715,7 +16898,7 @@ let nationalDex = {
     {
         name: "Passimian",
         imageUrl: "images/766Passimian.png",
-        number: "766",
+        number: "0766",
         type: ["Fighting"],
         category: "Teamwork",
         region: "Alola",
@@ -16735,7 +16918,7 @@ let nationalDex = {
     {
         name: "Wimpod",
         imageUrl: "images/767Wimpod.png",
-        number: "767",
+        number: "0767",
         type: ["Bug", "Water"],
         category: "Turn Tail",
         region: "Alola",
@@ -16755,7 +16938,7 @@ let nationalDex = {
     {
         name: "Golisopod",
         imageUrl: "images/768Golisopod.png",
-        number: "768",
+        number: "0768",
         type: ["Bug", "Water"],
         category: "Hard Scale",
         region: "Alola",
@@ -16775,7 +16958,7 @@ let nationalDex = {
     {
         name: "Sandygast",
         imageUrl: "images/769Sandygast.png",
-        number: "769",
+        number: "0769",
         type: ["Ghost", "Ground"],
         category: "Sand Heap",
         region: "Alola",
@@ -16795,7 +16978,7 @@ let nationalDex = {
     {
         name: "Palossand",
         imageUrl: "images/770Palossand.png",
-        number: "770",
+        number: "0770",
         type: ["Ghost", "Ground"],
         category: "Sand Castle",
         region: "Alola",
@@ -16815,7 +16998,7 @@ let nationalDex = {
     {
         name: "Pyukumuku",
         imageUrl: "images/771Pyukumuku.png",
-        number: "771",
+        number: "0771",
         type: ["Water"],
         category: "Sea Cucumber",
         region: "Alola",
@@ -16835,7 +17018,7 @@ let nationalDex = {
     {
         name: "Type: Null",
         imageUrl: "images/772Type_Null.png",
-        number: "772",
+        number: "0772",
         type: ["Normal"],
         category: "Synthetic",
         region: "Alola",
@@ -16855,7 +17038,7 @@ let nationalDex = {
     {
         name: "Silvally",
         imageUrl: "images/773Silvally.png",
-        number: "773",
+        number: "0773",
         type: ["Normal"],
         category: "Synthetic",
         region: "Alola",
@@ -16875,7 +17058,7 @@ let nationalDex = {
     {
         name: "Minior",
         imageUrl: "images/774Minior.png",
-        number: "774",
+        number: "0774",
         type: ["Rock", "Flying"],
         category: "Meteor",
         region: "Alola",
@@ -16895,7 +17078,7 @@ let nationalDex = {
     {
         name: "Komala",
         imageUrl: "images/775Komala.png",
-        number: "775",
+        number: "0775",
         type: ["Normal"],
         category: "Drowsing",
         region: "Alola",
@@ -16915,7 +17098,7 @@ let nationalDex = {
     {
         name: "Turtonator",
         imageUrl: "images/776Turtonator.png",
-        number: "776",
+        number: "0776",
         type: ["Fire", "Dragon"],
         category: "Blast Turtle",
         region: "Alola",
@@ -16935,7 +17118,7 @@ let nationalDex = {
     {
         name: "Togedemaru",
         imageUrl: "images/777Togedemaru.png",
-        number: "777",
+        number: "0777",
         type: ["Electric", "Steel"],
         category: "Roly-Poly",
         region: "Alola",
@@ -16955,7 +17138,7 @@ let nationalDex = {
     {
         name: "Mimikyu",
         imageUrl: "images/778Mimikyu.png",
-        number: "778",
+        number: "0778",
         type: ["Ghost", "Fairy"],
         category: "Disguise",
         region: "Alola",
@@ -16975,7 +17158,7 @@ let nationalDex = {
     {
         name: "Bruxish",
         imageUrl: "images/779Bruxish.png",
-        number: "779",
+        number: "0779",
         type: ["Water", "Psychic"],
         category: "Gnash Teeth",
         region: "Alola",
@@ -16995,7 +17178,7 @@ let nationalDex = {
     {
         name: "Drampa",
         imageUrl: "images/780Drampa.png",
-        number: "780",
+        number: "0780",
         type: ["Normal", "Dragon"],
         category: "Placid",
         region: "Alola",
@@ -17015,7 +17198,7 @@ let nationalDex = {
     {
         name: "Dhelmise",
         imageUrl: "images/781Dhelmise.png",
-        number: "781",
+        number: "0781",
         type: ["Ghost", "Grass"],
         category: "Sea Creeper",
         region: "Alola",
@@ -17035,7 +17218,7 @@ let nationalDex = {
     {
         name: "Jangmo-o",
         imageUrl: "images/782Jangmo-o.png",
-        number: "782",
+        number: "0782",
         type: ["Dragon"],
         category: "Scaly",
         region: "Alola",
@@ -17055,7 +17238,7 @@ let nationalDex = {
     {
         name: "Hakamo-o",
         imageUrl: "images/783Hakamo-o.png",
-        number: "783",
+        number: "0783",
         type: ["Dragon", "Fighting"],
         category: "Scaly",
         region: "Alola",
@@ -17075,7 +17258,7 @@ let nationalDex = {
     {
         name: "Kommo-o",
         imageUrl: "images/784Kommo-o.png",
-        number: "784",
+        number: "0784",
         type: ["Dragon", "Fighting"],
         category: "Scaly",
         region: "Alola",
@@ -17095,7 +17278,7 @@ let nationalDex = {
     {
         name: "Tapu Koko",
         imageUrl: "images/785Tapu_Koko.png",
-        number: "785",
+        number: "0785",
         type: ["Electric", "Fairy"],
         category: "Land Spirit",
         region: "Alola",
@@ -17115,7 +17298,7 @@ let nationalDex = {
     {
         name: "Tapu Lele",
         imageUrl: "images/786Tapu_Lele.png",
-        number: "786",
+        number: "0786",
         type: ["Psychic", "Fairy"],
         category: "Land Spirit",
         region: "Alola",
@@ -17135,7 +17318,7 @@ let nationalDex = {
     {
         name: "Tapu Bulu",
         imageUrl: "images/787Tapu_Bulu.png",
-        number: "787",
+        number: "0787",
         type: ["Grass", "Fairy"],
         category: "Land Spirit",
         region: "Alola",
@@ -17155,7 +17338,7 @@ let nationalDex = {
     {
         name: "Tapu Fini",
         imageUrl: "images/788Tapu_Fini.png",
-        number: "788",
+        number: "0788",
         type: ["Water", "Fairy"],
         category: "Land Spirit",
         region: "Alola",
@@ -17175,7 +17358,7 @@ let nationalDex = {
     {
         name: "Cosmog",
         imageUrl: "images/789Cosmog.png",
-        number: "789",
+        number: "0789",
         type: ["Psychic"],
         category: "Nebula",
         region: "Alola",
@@ -17195,7 +17378,7 @@ let nationalDex = {
     {
         name: "Cosmoem",
         imageUrl: "images/790Cosmoem.png",
-        number: "790",
+        number: "0790",
         type: ["Psychic"],
         category: "Protostar",
         region: "Alola",
@@ -17215,7 +17398,7 @@ let nationalDex = {
     {
         name: "Solgaleo",
         imageUrl: "images/791Solgaleo.png",
-        number: "791",
+        number: "0791",
         type: ["Psychic", "Steel"],
         category: "Sunne",
         region: "Alola",
@@ -17235,7 +17418,7 @@ let nationalDex = {
     {
         name: "Lunala",
         imageUrl: "images/792Lunala.png",
-        number: "792",
+        number: "0792",
         type: ["Psychic", "Ghost"],
         category: "Moone",
         region: "Alola",
@@ -17255,7 +17438,7 @@ let nationalDex = {
     {
         name: "Nihilego",
         imageUrl: "images/793Nihilego.png",
-        number: "793",
+        number: "0793",
         type: ["Rock", "Poison"],
         category: "Parasite",
         region: "Alola",
@@ -17275,7 +17458,7 @@ let nationalDex = {
     {
         name: "Buzzwole",
         imageUrl: "images/794Buzzwole.png",
-        number: "794",
+        number: "0794",
         type: ["Bug", "Fighting"],
         category: "Swollen",
         region: "Alola",
@@ -17295,7 +17478,7 @@ let nationalDex = {
     {
         name: "Pheromosa",
         imageUrl: "images/795Pheromosa.png",
-        number: "795",
+        number: "0795",
         type: ["Bug", "Fighting"],
         category: "Lissome",
         region: "Alola",
@@ -17315,7 +17498,7 @@ let nationalDex = {
     {
         name: "Xurkitree",
         imageUrl: "images/796Xurkitree.png",
-        number: "796",
+        number: "0796",
         type: ["Electric"],
         category: "Glowing",
         region: "Alola",
@@ -17335,7 +17518,7 @@ let nationalDex = {
     {
         name: "Celesteela",
         imageUrl: "images/797Celesteela.png",
-        number: "797",
+        number: "0797",
         type: ["Steel", "Flying"],
         category: "Launch",
         region: "Alola",
@@ -17355,7 +17538,7 @@ let nationalDex = {
     {
         name: "Kartana",
         imageUrl: "images/798Kartana.png",
-        number: "798",
+        number: "0798",
         type: ["Grass", "Steel"],
         category: "Drawn Sword",
         region: "Alola",
@@ -17375,7 +17558,7 @@ let nationalDex = {
     {
         name: "Guzzlord",
         imageUrl: "images/799Guzzlord.png",
-        number: "799",
+        number: "0799",
         type: ["Dark", "Dragon"],
         category: "Junkivore",
         region: "Alola",
@@ -17395,7 +17578,7 @@ let nationalDex = {
     {
         name: "Necrozma",
         imageUrl: "images/800Necrozma.png",
-        number: "800",
+        number: "0800",
         type: ["Psychic"],
         category: "Prism",
         region: "Alola",
@@ -17415,7 +17598,7 @@ let nationalDex = {
     {
         name: "Magearna",
         imageUrl: "images/801Magearna.png",
-        number: "801",
+        number: "0801",
         type: ["Steel", "Fairy"],
         category: "Artificial",
         region: "Alola",
@@ -17435,7 +17618,7 @@ let nationalDex = {
     {
         name: "Marshadow",
         imageUrl: "images/802Marshadow.png",
-        number: "802",
+        number: "0802",
         type: ["Fighting", "Ghost"],
         category: "Gloomdweller",
         region: "Alola",
@@ -17455,7 +17638,7 @@ let nationalDex = {
     {
         name: "Poipole",
         imageUrl: "images/803Poipole.png",
-        number: "803",
+        number: "0803",
         type: ["Poison"],
         category: "Poison Pin",
         region: "Alola",
@@ -17475,7 +17658,7 @@ let nationalDex = {
     {
         name: "Naganadel",
         imageUrl: "images/804Naganadel.png",
-        number: "804",
+        number: "0804",
         type: ["Poison", "Dragon"],
         category: "Poison Pin",
         region: "Alola",
@@ -17495,7 +17678,7 @@ let nationalDex = {
     {
         name: "Stakataka",
         imageUrl: "images/805Stakataka.png",
-        number: "805",
+        number: "0805",
         type: ["Rock", "Steel"],
         category: "Rampart",
         region: "Alola",
@@ -17515,7 +17698,7 @@ let nationalDex = {
     {
         name: "Blacephalon",
         imageUrl: "images/806Blacephalon.png",
-        number: "806",
+        number: "0806",
         type: ["Fire", "Ghost"],
         category: "Fireworks",
         region: "Alola",
@@ -17535,7 +17718,7 @@ let nationalDex = {
     {
         name: "Zeraora",
         imageUrl: "images/807Zeraora.png",
-        number: "807",
+        number: "0807",
         type: ["Electric"],
         category: "Thunderclap",
         region: "Alola",
@@ -17555,7 +17738,7 @@ let nationalDex = {
     {
         name: "Meltan",
         imageUrl: "images/808Meltan.png",
-        number: "808",
+        number: "0808",
         type: ["Steel"],
         category: "Hex Nut",
         region: "Unknown",
@@ -17575,7 +17758,7 @@ let nationalDex = {
     {
         name: "Melmetal",
         imageUrl: "images/809Melmetal.png",
-        number: "809",
+        number: "0809",
         type: ["Steel"],
         category: "Hex Nut",
         region: "Unknown",
@@ -17595,7 +17778,7 @@ let nationalDex = {
     {
         name: "Grookey",
         imageUrl: "images/810Grookey.png",
-        number: "810",
+        number: "0810",
         type: ["Grass"],
         category: "Chimp",
         region: "Galar",
@@ -17615,7 +17798,7 @@ let nationalDex = {
     {
         name: "Thwackey",
         imageUrl: "images/811Thwackey.png",
-        number: "811",
+        number: "0811",
         type: ["Grass"],
         category: "Beat",
         region: "Galar",
@@ -17635,7 +17818,7 @@ let nationalDex = {
     {
         name: "Rillaboom",
         imageUrl: "images/812Rillaboom.png",
-        number: "812",
+        number: "0812",
         type: ["Grass"],
         category: "Drummer",
         region: "Galar",
@@ -17655,7 +17838,7 @@ let nationalDex = {
     {
         name: "Scorbunny",
         imageUrl: "images/813Scorbunny.png",
-        number: "813",
+        number: "0813",
         type: ["Fire"],
         category: "Rabbit",
         region: "Galar",
@@ -17675,7 +17858,7 @@ let nationalDex = {
     {
         name: "Raboot",
         imageUrl: "images/814Raboot.png",
-        number: "814",
+        number: "0814",
         type: ["Fire"],
         category: "Rabbit",
         region: "Galar",
@@ -17695,7 +17878,7 @@ let nationalDex = {
     {
         name: "Cinderace",
         imageUrl: "images/815Cinderace.png",
-        number: "815",
+        number: "0815",
         type: ["Fire"],
         category: "Striker",
         region: "Galar",
@@ -17715,7 +17898,7 @@ let nationalDex = {
     {
         name: "Sobble",
         imageUrl: "images/816Sobble.png",
-        number: "816",
+        number: "0816",
         type: ["Water"],
         category: "Water Lizard",
         region: "Galar",
@@ -17735,7 +17918,7 @@ let nationalDex = {
     {
         name: "Drizzile",
         imageUrl: "images/817Drizzile.png",
-        number: "817",
+        number: "0817",
         type: ["Water"],
         category: "Water Lizard",
         region: "Galar",
@@ -17755,7 +17938,7 @@ let nationalDex = {
     {
         name: "Inteleon",
         imageUrl: "images/818Inteleon.png",
-        number: "818",
+        number: "0818",
         type: ["Water"],
         category: "Secret Agent",
         region: "Galar",
@@ -17775,7 +17958,7 @@ let nationalDex = {
     {
         name: "Skwovet",
         imageUrl: "images/819Skwovet.png",
-        number: "819",
+        number: "0819",
         type: ["Normal"],
         category: "Cheeky",
         region: "Galar",
@@ -17795,7 +17978,7 @@ let nationalDex = {
     {
         name: "Greedent",
         imageUrl: "images/820Greedent.png",
-        number: "820",
+        number: "0820",
         type: ["Normal"],
         category: "Greedy",
         region: "Galar",
@@ -17815,7 +17998,7 @@ let nationalDex = {
     {
         name: "Rookidee",
         imageUrl: "images/821Rookidee.png",
-        number: "821",
+        number: "0821",
         type: ["Flying"],
         category: "Tiny Bird",
         region: "Galar",
@@ -17835,7 +18018,7 @@ let nationalDex = {
     {
         name: "Corvisquire",
         imageUrl: "images/822Corvisquire.png",
-        number: "822",
+        number: "0822",
         type: ["Flying"],
         category: "Raven",
         region: "Galar",
@@ -17855,7 +18038,7 @@ let nationalDex = {
     {
         name: "Corviknight",
         imageUrl: "images/823Corviknight.png",
-        number: "823",
+        number: "0823",
         type: ["Flying", "Steel"],
         category: "Raven",
         region: "Galar",
@@ -17875,7 +18058,7 @@ let nationalDex = {
     {
         name: "Blipbug",
         imageUrl: "images/824Blipbug.png",
-        number: "824",
+        number: "0824",
         type: ["Bug"],
         category: "Larva",
         region: "Galar",
@@ -17895,7 +18078,7 @@ let nationalDex = {
     {
         name: "Dottler",
         imageUrl: "images/825Dottler.png",
-        number: "825",
+        number: "0825",
         type: ["Bug", "Psychic"],
         category: "Radome",
         region: "Galar",
@@ -17915,7 +18098,7 @@ let nationalDex = {
     {
         name: "Orbeetle",
         imageUrl: "images/826Orbeetle.png",
-        number: "826",
+        number: "0826",
         type: ["Bug", "Psychic"],
         category: "Seven Spot",
         region: "Galar",
@@ -17935,7 +18118,7 @@ let nationalDex = {
     {
         name: "Nickit",
         imageUrl: "images/827Nickit.png",
-        number: "827",
+        number: "0827",
         type: ["Dark"],
         category: "Fox",
         region: "Galar",
@@ -17955,7 +18138,7 @@ let nationalDex = {
     {
         name: "Thievul",
         imageUrl: "images/828Thievul.png",
-        number: "828",
+        number: "0828",
         type: ["Dark"],
         category: "Fox",
         region: "Galar",
@@ -17975,7 +18158,7 @@ let nationalDex = {
     {
         name: "Gossifleur",
         imageUrl: "images/829Gossifleur.png",
-        number: "829",
+        number: "0829",
         type: ["Grass"],
         category: "Flowering",
         region: "Galar",
@@ -17995,7 +18178,7 @@ let nationalDex = {
     {
         name: "Eldegoss",
         imageUrl: "images/830Eldegoss.png",
-        number: "830",
+        number: "0830",
         type: ["Grass"],
         category: "Cotton Bloom",
         region: "Galar",
@@ -18015,7 +18198,7 @@ let nationalDex = {
     {
         name: "Wooloo",
         imageUrl: "images/831Wooloo.png",
-        number: "831",
+        number: "0831",
         type: ["Normal"],
         category: "Sheep",
         region: "Galar",
@@ -18035,7 +18218,7 @@ let nationalDex = {
     {
         name: "Dubwool",
         imageUrl: "images/832Dubwool.png",
-        number: "832",
+        number: "0832",
         type: ["Normal"],
         category: "Sheep",
         region: "Galar",
@@ -18055,7 +18238,7 @@ let nationalDex = {
     {
         name: "Chewtle",
         imageUrl: "images/833Chewtle.png",
-        number: "833",
+        number: "0833",
         type: ["Water"],
         category: "Snapping",
         region: "Galar",
@@ -18075,7 +18258,7 @@ let nationalDex = {
     {
         name: "Drednaw",
         imageUrl: "images/834Drednaw.png",
-        number: "834",
+        number: "0834",
         type: ["Water", "Rock"],
         category: "Bite",
         region: "Galar",
@@ -18095,7 +18278,7 @@ let nationalDex = {
     {
         name: "Yamper",
         imageUrl: "images/835Yamper.png",
-        number: "835",
+        number: "0835",
         type: ["Electric"],
         category: "Puppy",
         region: "Galar",
@@ -18115,7 +18298,7 @@ let nationalDex = {
     {
         name: "Boltund",
         imageUrl: "images/836Boltund.png",
-        number: "836",
+        number: "0836",
         type: ["Electric"],
         category: "Dog",
         region: "Galar",
@@ -18135,7 +18318,7 @@ let nationalDex = {
     {
         name: "Rolycoly",
         imageUrl: "images/837Rolycoly.png",
-        number: "837",
+        number: "0837",
         type: ["Rock"],
         category: "Coal",
         region: "Galar",
@@ -18155,7 +18338,7 @@ let nationalDex = {
     {
         name: "Carkol",
         imageUrl: "images/838Carkol.png",
-        number: "838",
+        number: "0838",
         type: ["Rock", "Fire"],
         category: "Coal",
         region: "Galar",
@@ -18175,7 +18358,7 @@ let nationalDex = {
     {
         name: "Coalossal",
         imageUrl: "images/839Coalossal.png",
-        number: "839",
+        number: "0839",
         type: ["Rock", "Fire"],
         category: "Coal",
         region: "Galar",
@@ -18195,7 +18378,7 @@ let nationalDex = {
     {
         name: "Applin",
         imageUrl: "images/840Applin.png",
-        number: "840",
+        number: "0840",
         type: ["Grass", "Dragon"],
         category: "Apple Core",
         region: "Galar",
@@ -18215,7 +18398,7 @@ let nationalDex = {
     {
         name: "Flapple",
         imageUrl: "images/841Flapple.png",
-        number: "841",
+        number: "0841",
         type: ["Grass", "Dragon"],
         category: "Apple Wing",
         region: "Galar",
@@ -18235,7 +18418,7 @@ let nationalDex = {
     {
         name: "Appletun",
         imageUrl: "images/842Appletun.png",
-        number: "842",
+        number: "0842",
         type: ["Grass", "Dragon"],
         category: "Apple Nectar",
         region: "Galar",
@@ -18255,7 +18438,7 @@ let nationalDex = {
     {
         name: "Silicobra",
         imageUrl: "images/843Silicobra.png",
-        number: "843",
+        number: "0843",
         type: ["Ground"],
         category: "Sand Snake",
         region: "Galar",
@@ -18275,7 +18458,7 @@ let nationalDex = {
     {
         name: "Sandaconda",
         imageUrl: "images/844Sandaconda.png",
-        number: "844",
+        number: "0844",
         type: ["Ground"],
         category: "Sand Snake",
         region: "Galar",
@@ -18295,7 +18478,7 @@ let nationalDex = {
     {
         name: "Cramorant",
         imageUrl: "images/845Cramorant.png",
-        number: "845",
+        number: "0845",
         type: ["Flying", "Water"],
         category: "Gulp",
         region: "Galar",
@@ -18315,7 +18498,7 @@ let nationalDex = {
     {
         name: "Arrokuda",
         imageUrl: "images/846Arrokuda.png",
-        number: "846",
+        number: "0846",
         type: ["Water"],
         category: "Rush",
         region: "Galar",
@@ -18335,7 +18518,7 @@ let nationalDex = {
     {
         name: "Barraskewda",
         imageUrl: "images/847Barraskewda.png",
-        number: "847",
+        number: "0847",
         type: ["Water"],
         category: "Skewer",
         region: "Galar",
@@ -18355,7 +18538,7 @@ let nationalDex = {
     {
         name: "Toxel",
         imageUrl: "images/848Toxel.png",
-        number: "848",
+        number: "0848",
         type: ["Electric", "Poison"],
         category: "Baby",
         region: "Galar",
@@ -18375,7 +18558,7 @@ let nationalDex = {
     {
         name: "Toxtricity",
         imageUrl: "images/849Toxtricity.png",
-        number: "849",
+        number: "0849",
         type: ["Electric", "Poison"],
         category: "Punk",
         region: "Galar",
@@ -18395,7 +18578,7 @@ let nationalDex = {
     {
         name: "Sizzlipede",
         imageUrl: "images/850Sizzlipede.png",
-        number: "850",
+        number: "0850",
         type: ["Fire", "Bug"],
         category: "Radiator",
         region: "Galar",
@@ -18415,7 +18598,7 @@ let nationalDex = {
     {
         name: "Centiskorch",
         imageUrl: "images/851Centiskorch.png",
-        number: "851",
+        number: "0851",
         type: ["Fire", "Bug"],
         category: "Radiator",
         region: "Galar",
@@ -18435,7 +18618,7 @@ let nationalDex = {
     {
         name: "Clobbopus",
         imageUrl: "images/852Clobbopus.png",
-        number: "852",
+        number: "0852",
         type: ["Fighting"],
         category: "Tantrum",
         region: "Galar",
@@ -18455,7 +18638,7 @@ let nationalDex = {
     {
         name: "Grapploct",
         imageUrl: "images/853Grapploct.png",
-        number: "853",
+        number: "0853",
         type: ["Fighting"],
         category: "Jujitsu",
         region: "Galar",
@@ -18475,7 +18658,7 @@ let nationalDex = {
     {
         name: "Sinistea",
         imageUrl: "images/854Sinistea.png",
-        number: "854",
+        number: "0854",
         type: ["Ghost"],
         category: "Black Tea",
         region: "Galar",
@@ -18495,7 +18678,7 @@ let nationalDex = {
     {
         name: "Polteageist",
         imageUrl: "images/855Polteageist.png",
-        number: "855",
+        number: "0855",
         type: ["Ghost"],
         category: "Black Tea",
         region: "Galar",
@@ -18515,7 +18698,7 @@ let nationalDex = {
     {
         name: "Hatenna",
         imageUrl: "images/856Hatenna.png",
-        number: "856",
+        number: "0856",
         type: ["Psychic"],
         category: "Calm",
         region: "Galar",
@@ -18535,7 +18718,7 @@ let nationalDex = {
     {
         name: "Hattrem",
         imageUrl: "images/857Hattrem.png",
-        number: "857",
+        number: "0857",
         type: ["Psychic"],
         category: "Serene",
         region: "Galar",
@@ -18555,7 +18738,7 @@ let nationalDex = {
     {
         name: "Hatterene",
         imageUrl: "images/858Hatterene.png",
-        number: "858",
+        number: "0858",
         type: ["Psychic", "Fairy"],
         category: "Silent",
         region: "Galar",
@@ -18575,7 +18758,7 @@ let nationalDex = {
     {
         name: "Impidimp",
         imageUrl: "images/859Impidimp.png",
-        number: "859",
+        number: "0859",
         type: ["Dark", "Fairy"],
         category: "Wily",
         region: "Galar",
@@ -18595,7 +18778,7 @@ let nationalDex = {
     {
         name: "Morgrem",
         imageUrl: "images/860Morgrem.png",
-        number: "860",
+        number: "0860",
         type: ["Dark", "Fairy"],
         category: "Devious",
         region: "Galar",
@@ -18615,7 +18798,7 @@ let nationalDex = {
     {
         name: "Grimmsnarl",
         imageUrl: "images/861Grimmsnarl.png",
-        number: "861",
+        number: "0861",
         type: ["Dark", "Fairy"],
         category: "Bulk Up",
         region: "Galar",
@@ -18635,7 +18818,7 @@ let nationalDex = {
     {
         name: "Obstagoon",
         imageUrl: "images/862Obstagoon.png",
-        number: "862",
+        number: "0862",
         type: ["Dark", "Normal"],
         category: "Blocking",
         region: "Galar",
@@ -18655,7 +18838,7 @@ let nationalDex = {
     {
         name: "Perrserker",
         imageUrl: "images/863Perrserker.png",
-        number: "863",
+        number: "0863",
         type: ["Steel"],
         category: "Viking",
         region: "Galar",
@@ -18675,7 +18858,7 @@ let nationalDex = {
     {
         name: "Cursola",
         imageUrl: "images/864Cursola.png",
-        number: "864",
+        number: "0864",
         type: ["Ghost"],
         category: "Coral",
         region: "Galar",
@@ -18695,7 +18878,7 @@ let nationalDex = {
     {
         name: "Sirfetch'd",
         imageUrl: "images/865Sirfetch'd.png",
-        number: "865",
+        number: "0865",
         type: ["Fighting"],
         category: "Wild Duck",
         region: "Galar",
@@ -18715,7 +18898,7 @@ let nationalDex = {
     {
         name: "Mr. Rime",
         imageUrl: "images/866Mr._Rime.png",
-        number: "866",
+        number: "0866",
         type: ["Ice, Psychic"],
         category: "Comedian",
         region: "Galar",
@@ -18735,7 +18918,7 @@ let nationalDex = {
     {
         name: "Runerigus",
         imageUrl: "images/867Runerigus.png",
-        number: "867",
+        number: "0867",
         type: ["Ground", "Ghost"],
         category: "Grudge",
         region: "Galar",
@@ -18755,7 +18938,7 @@ let nationalDex = {
     {
         name: "Milcery",
         imageUrl: "images/868Milcery.png",
-        number: "868",
+        number: "0868",
         type: ["Fairy"],
         category: "Cream",
         region: "Galar",
@@ -18775,7 +18958,7 @@ let nationalDex = {
     {
         name: "Alcremie",
         imageUrl: "images/869Alcremie.png",
-        number: "869",
+        number: "0869",
         type: ["Fairy"],
         category: "Cream",
         region: "Galar",
@@ -18795,7 +18978,7 @@ let nationalDex = {
     {
         name: "Falinks",
         imageUrl: "images/870Falinks.png",
-        number: "870",
+        number: "0870",
         type: ["Fighting"],
         category: "Formation",
         region: "Galar",
@@ -18815,7 +18998,7 @@ let nationalDex = {
     {
         name: "Pincurchin",
         imageUrl: "images/871Pincurchin.png",
-        number: "871",
+        number: "0871",
         type: ["Electric"],
         category: "Sea Urchin",
         region: "Galar",
@@ -18835,7 +19018,7 @@ let nationalDex = {
     {
         name: "Snom",
         imageUrl: "images/872Snom.png",
-        number: "872",
+        number: "0872",
         type: ["Ice", "Bug"],
         category: "Worm",
         region: "Galar",
@@ -18855,7 +19038,7 @@ let nationalDex = {
     {
         name: "Frosmoth",
         imageUrl: "images/873Frosmoth.png",
-        number: "873",
+        number: "0873",
         type: ["Ice", "Bug"],
         category: "Frost Moth",
         region: "Galar",
@@ -18875,7 +19058,7 @@ let nationalDex = {
     {
         name: "Stonjourner",
         imageUrl: "images/874Stonjourner.png",
-        number: "874",
+        number: "0874",
         type: ["Rock"],
         category: "Big Rock",
         region: "Galar",
@@ -18895,7 +19078,7 @@ let nationalDex = {
     {
         name: "Eiscue",
         imageUrl: "images/875Eiscue.png",
-        number: "875",
+        number: "0875",
         type: ["Ice"],
         category: "Penguin",
         region: "Galar",
@@ -18915,7 +19098,7 @@ let nationalDex = {
     {
         name: "Indeedee",
         imageUrl: "images/876Indeedee.png",
-        number: "876",
+        number: "0876",
         type: ["Psychic", "Normal"],
         category: "Emotion",
         region: "Galar",
@@ -18935,7 +19118,7 @@ let nationalDex = {
     {
         name: "Morpeko",
         imageUrl: "images/877Morpeko.png",
-        number: "877",
+        number: "0877",
         type: ["Electric", "Dark"],
         category: "Two-Sided",
         region: "Galar",
@@ -18955,7 +19138,7 @@ let nationalDex = {
     {
         name: "Cufant",
         imageUrl: "images/878Cufant.png",
-        number: "878",
+        number: "0878",
         type: ["Steel"],
         category: "Copperderm",
         region: "Galar",
@@ -18975,7 +19158,7 @@ let nationalDex = {
     {
         name: "Copperajah",
         imageUrl: "images/879Copperajah.png",
-        number: "879",
+        number: "0879",
         type: ["Steel"],
         category: "Copperderm",
         region: "Galar",
@@ -18995,7 +19178,7 @@ let nationalDex = {
     {
         name: "Dracozolt",
         imageUrl: "images/880Dracozolt.png",
-        number: "880",
+        number: "0880",
         type: ["Electric", "Dragon"],
         category: "Fossil",
         region: "Galar",
@@ -19015,7 +19198,7 @@ let nationalDex = {
     {
         name: "Arctozolt",
         imageUrl: "images/881Arctozolt.png",
-        number: "881",
+        number: "0881",
         type: ["Electric", "Ice"],
         category: "Fossil",
         region: "Galar",
@@ -19035,7 +19218,7 @@ let nationalDex = {
     {
         name: "Dracovish",
         imageUrl: "images/882Dracovish.png",
-        number: "882",
+        number: "0882",
         type: ["Water", "Dragon"],
         category: "Fossil",
         region: "Galar",
@@ -19055,7 +19238,7 @@ let nationalDex = {
     {
         name: "Arctovish",
         imageUrl: "images/883Arctovish.png",
-        number: "883",
+        number: "0883",
         type: ["Water", "Ice"],
         category: "Fossil",
         region: "Galar",
@@ -19075,7 +19258,7 @@ let nationalDex = {
     {
         name: "Duraludon",
         imageUrl: "images/884Duraludon.png",
-        number: "884",
+        number: "0884",
         type: ["Steel", "Dragon"],
         category: "Alloy",
         region: "Galar",
@@ -19095,7 +19278,7 @@ let nationalDex = {
     {
         name: "Dreepy",
         imageUrl: "images/885Dreepy.png",
-        number: "885",
+        number: "0885",
         type: ["Dragon", "Ghost"],
         category: "Lingering",
         region: "Galar",
@@ -19115,7 +19298,7 @@ let nationalDex = {
     {
         name: "Drakloak",
         imageUrl: "images/886Drakloak.png",
-        number: "886",
+        number: "0886",
         type: ["Dragon", "Ghost"],
         category: "Caretaker",
         region: "Galar",
@@ -19135,7 +19318,7 @@ let nationalDex = {
     {
         name: "Dragapult",
         imageUrl: "images/887Dragapult.png",
-        number: "887",
+        number: "0887",
         type: ["Dragon", "Ghost"],
         category: "Stealth",
         region: "Galar",
@@ -19155,7 +19338,7 @@ let nationalDex = {
     {
         name: "Zacian",
         imageUrl: "images/888Zacian.png",
-        number: "888",
+        number: "0888",
         type: ["Fairy", "Steel"],
         category: "Warrior",
         region: "Galar",
@@ -19175,7 +19358,7 @@ let nationalDex = {
     {
         name: "Zamazenta",
         imageUrl: "images/889Zamazenta.png",
-        number: "889",
+        number: "0889",
         type: ["Fighting", "Steel"],
         category: "Warrior",
         region: "Galar",
@@ -19195,7 +19378,7 @@ let nationalDex = {
     {
         name: "Eternatus",
         imageUrl: "images/890Eternatus.png",
-        number: "890",
+        number: "0890",
         type: ["Poison", "Dragon"],
         category: "Gigantic",
         region: "Galar",
@@ -19215,7 +19398,7 @@ let nationalDex = {
     {
         name: "Kubfu",
         imageUrl: "images/891Kubfu.png",
-        number: "891",
+        number: "0891",
         type: ["Fighting"],
         category: "Wushu",
         region: "Galar",
@@ -19228,14 +19411,14 @@ let nationalDex = {
         metricWeight: 12.0,
         dexEntry: "Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.",
         cryUrl: "cries/891.mp3",
-        ability: ["Inner Focus"],
+        ability: ["Inner Focus", "No Guard"],
         evolution: evolutionFamilies.kubfu,
         japaneseName: "Dakuma"
     },
     {
         name: "Urshifu",
         imageUrl: "images/892Urshifu.png",
-        number: "892",
+        number: "0892",
         type: ["Fighting", "Dark"],
         category: "Wushu",
         region: "Galar",
@@ -19255,7 +19438,7 @@ let nationalDex = {
     {
         name: "Zarude",
         imageUrl: "images/893Zarude.png",
-        number: "893",
+        number: "0893",
         type: ["Dark", "Grass"],
         category: "Rogue Monkey",
         region: "Galar",
@@ -19275,7 +19458,7 @@ let nationalDex = {
     {
         name: "Regieleki",
         imageUrl: "images/894Regieleki.png",
-        number: "894",
+        number: "0894",
         type: ["Electric"],
         category: "Electron",
         region: "Galar",
@@ -19295,7 +19478,7 @@ let nationalDex = {
     {
         name: "Regidrago",
         imageUrl: "images/895Regidrago.png",
-        number: "895",
+        number: "0895",
         type: ["Dragon"],
         category: "Dragon Orb",
         region: "Galar",
@@ -19315,7 +19498,7 @@ let nationalDex = {
     {
         name: "Glastrier",
         imageUrl: "images/896Glastrier.png",
-        number: "896",
+        number: "0896",
         type: ["Ice"],
         category: "Wild Horse",
         region: "Galar",
@@ -19335,7 +19518,7 @@ let nationalDex = {
     {
         name: "Spectrier",
         imageUrl: "images/897Spectrier.png",
-        number: "897",
+        number: "0897",
         type: ["Ghost"],
         category: "Swift Horse",
         region: "Galar",
@@ -19355,7 +19538,7 @@ let nationalDex = {
     {
         name: "Calyrex",
         imageUrl: "images/898Calyrex.png",
-        number: "898",
+        number: "0898",
         type: ["Psychic", "Grass"],
         category: "King",
         region: "Galar",
@@ -19375,7 +19558,7 @@ let nationalDex = {
     {
         name: "Wyrdeer",
         imageUrl: "images/899Wyrdeer.png",
-        number: "899",
+        number: "0899",
         type: ["Normal", "Psychic"],
         category: "Big Horn",
         region: "Hisui",
@@ -19390,12 +19573,12 @@ let nationalDex = {
         cryUrl: "cries/899.mp3",
         ability: ["Intimidate", "Frisk", "Sap Sipper"],
         evolution: evolutionFamilies.stantler,
-        japaneseName: "Aiashishi"
+        japaneseName: "Ayashishi"
     },
     {
         name: "Kleavor",
         imageUrl: "images/900Kleavor.png",
-        number: "900",
+        number: "0900",
         type: ["Bug", "Rock"],
         category: "Axe",
         region: "Hisui",
@@ -19408,14 +19591,14 @@ let nationalDex = {
         metricWeight: 89.0,
         dexEntry: "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
         cryUrl: "cries/900.mp3",
-        ability: ["Swarm", "Sheer Force", "Steadfast"],
+        ability: ["Swarm", "Sheer Force", "Sharpness"],
         evolution: evolutionFamilies.scyther,
         japaneseName: "Basagiri"
     },
     {
         name: "Ursaluna",
         imageUrl: "images/901Ursaluna.png",
-        number: "901",
+        number: "0901",
         type: ["Ground", "Normal"],
         category: "Peat",
         region: "Hisui",
@@ -19435,7 +19618,7 @@ let nationalDex = {
     {
         name: "Basculegion",
         imageUrl: "images/902Basculegion.png",
-        number: "902",
+        number: "0902",
         type: ["Water", "Ghost"],
         category: "Big Fish",
         region: "Hisui",
@@ -19448,14 +19631,14 @@ let nationalDex = {
         metricWeight: 110.0,
         dexEntry: "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
         cryUrl: "cries/902.mp3",
-        ability: ["Rattled", "Adaptability", "Mold Breaker"],
+        ability: ["Swift Swim", "Adaptability", "Mold Breaker"],
         evolution: evolutionFamilies.basculin,
         japaneseName: "Idaitou"
     },
     {
         name: "Sneasler",
         imageUrl: "images/903Sneasler.png",
-        number: "903",
+        number: "0903",
         type: ["Fighting", "Poison"],
         category: "Free Climb",
         region: "Hisui",
@@ -19468,14 +19651,14 @@ let nationalDex = {
         metricWeight: 43.0,
         dexEntry: "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
         cryUrl: "cries/903.mp3",
-        ability: ["Pressure", "Poison Touch"],
+        ability: ["Pressure", "Unburden", "Poison Touch"],
         evolution: evolutionFamilies.sneasel,
-        japaneseName: "Oonyūra"
+        japaneseName: "Ohnyula"
     },
     {
         name: "Overqwil",
         imageUrl: "images/904Overqwil.png",
-        number: "904",
+        number: "0904",
         type: ["Dark", "Poison"],
         category: "Pin Cluster",
         region: "Hisui",
@@ -19490,12 +19673,12 @@ let nationalDex = {
         cryUrl: "cries/904.mp3",
         ability: ["Poison Point", "Swift Swim", "Intimidate"],
         evolution: evolutionFamilies.qwilfish,
-        japaneseName: "Harīman"
+        japaneseName: "Haryman"
     },
     {
         name: "Enamorus",
         imageUrl: "images/905Enamorus.png",
-        number: "905",
+        number: "0905",
         type: ["Fairy", "Flying"],
         category: "Love-Hate",
         region: "Hisui",
@@ -19508,9 +19691,2109 @@ let nationalDex = {
         metricWeight: 48.0,
         dexEntry: "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
         cryUrl: "cries/905.mp3",
-        ability: ["Healer", "Contrary"],
+        ability: ["Cute Charm", "Contrary"],
         evolution: evolutionFamilies.enamorus,
-        japaneseName: "Rabutorosu"
+        japaneseName: "Lovetolos"
+    },
+    {
+        name: "Sprigatito",
+        imageUrl: "images/906Sprigatito.png",
+        number: "0906",
+        type: ["Grass"],
+        category: "Grass Cat",
+        region: "Paldea",
+        generation: "9",
+        height: "1'04\"",
+        weight: "9.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.4,
+        metricWeight: 4.1,
+        dexEntry: "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+        cryUrl: "cries/906.mp3",
+        ability: ["Overgrow", "Protean"],
+        evolution: evolutionFamilies.sprigatito,
+        japaneseName: "Nyahoja"
+    },
+    {
+        name: "Floragato",
+        imageUrl: "images/907Floragato.png",
+        number: "0907",
+        type: ["Grass"],
+        category: "Grass Cat",
+        region: "Paldea",
+        generation: "9",
+        height: "2'11\"",
+        weight: "26.9 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.9,
+        metricWeight: 12.2,
+        dexEntry: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+        cryUrl: "cries/907.mp3",
+        ability: ["Overgrow", "Protean"],
+        evolution: evolutionFamilies.sprigatito,
+        japaneseName: "Nyarote"
+    },
+    {
+        name: "Meowscarada",
+        imageUrl: "images/908Meowscarada.png",
+        number: "0908",
+        type: ["Grass", "Dark"],
+        category: "Magician",
+        region: "Paldea",
+        generation: "9",
+        height: "4'11\"",
+        weight: "68.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.5,
+        metricWeight: 31.2,
+        dexEntry: "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+        cryUrl: "cries/908.mp3",
+        ability: ["Overgrow", "Protean"],
+        evolution: evolutionFamilies.sprigatito,
+        japaneseName: "Masquernya"
+    },
+    {
+        name: "Fuecoco",
+        imageUrl: "images/909Fuecoco.png",
+        number: "0909",
+        type: ["Fire"],
+        category: "Fire Croc",
+        region: "Paldea",
+        generation: "9",
+        height: "1'04\"",
+        weight: "21.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.4,
+        metricWeight: 9.8,
+        dexEntry: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+        cryUrl: "cries/909.mp3",
+        ability: ["Blaze", "Unaware"],
+        evolution: evolutionFamilies.fuecoco,
+        japaneseName: "Hogator"
+    },
+    {
+        name: "Crocalor",
+        imageUrl: "images/910Crocalor.png",
+        number: "0910",
+        type: ["Fire"],
+        category: "Fire Croc",
+        region: "Paldea",
+        generation: "9",
+        height: "3'03\"",
+        weight: "67.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.0,
+        metricWeight: 30.7,
+        dexEntry: "The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.",
+        cryUrl: "cries/910.mp3",
+        ability: ["Blaze", "Unaware"],
+        evolution: evolutionFamilies.fuecoco,
+        japaneseName: "Achigator"
+    },
+    {
+        name: "Skeledirge",
+        imageUrl: "images/911Skeledirge.png",
+        number: "0911",
+        type: ["Fire", "Ghost"],
+        category: "Singer",
+        region: "Paldea",
+        generation: "9",
+        height: "5'03\"",
+        weight: "719.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.6,
+        metricWeight: 326.5,
+        dexEntry: "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.",
+        cryUrl: "cries/911.mp3",
+        ability: ["Blaze", "Unaware"],
+        evolution: evolutionFamilies.fuecoco,
+        japaneseName: "Loudbone"
+    },
+    {
+        name: "Quaxly",
+        imageUrl: "images/912Quaxly.png",
+        number: "0912",
+        type: ["Water"],
+        category: "Duckling",
+        region: "Paldea",
+        generation: "9",
+        height: "1'08\"",
+        weight: "13.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.5,
+        metricWeight: 6.1,
+        dexEntry: "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+        cryUrl: "cries/912.mp3",
+        ability: ["Torrent", "Moxie"],
+        evolution: evolutionFamilies.quaxly,
+        japaneseName: "Kuwassu"
+    },
+    {
+        name: "Quaxwell",
+        imageUrl: "images/913Quaxwell.png",
+        number: "0913",
+        type: ["Water"],
+        category: "Practicing",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "47.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 21.5,
+        dexEntry: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+        cryUrl: "cries/913.mp3",
+        ability: ["Torrent", "Moxie"],
+        evolution: evolutionFamilies.quaxly,
+        japaneseName: "Welkamo"
+    },
+    {
+        name: "Quaquaval",
+        imageUrl: "images/914Quaquaval.png",
+        number: "0914",
+        type: ["Water", "Fighting"],
+        category: "Dancer",
+        region: "Paldea",
+        generation: "9",
+        height: "5'11\"",
+        weight: "136.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.8,
+        metricWeight: 61.9,
+        dexEntry: "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+        cryUrl: "cries/914.mp3",
+        ability: ["Torrent", "Moxie"],
+        evolution: evolutionFamilies.quaxly,
+        japaneseName: "Wanival"
+    },
+    {
+        name: "Lechonk",
+        imageUrl: "images/915Lechonk.png",
+        number: "0915",
+        type: ["Normal"],
+        category: "Hog",
+        region: "Paldea",
+        generation: "9",
+        height: "1'08\"",
+        weight: "22.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.5,
+        metricWeight: 10.2,
+        dexEntry: "It searches for food all day. It possesses a keen sense of smell but doesn’t use it for anything other than foraging.",
+        cryUrl: "cries/915.mp3",
+        ability: ["Aroma Veil", "Gluttony", "Thick Fat"],
+        evolution: evolutionFamilies.lechonk,
+        japaneseName: "Gourton"
+    },
+    {
+        name: "Oinkologne",
+        imageUrl: "images/916Oinkologne.png",
+        number: "0916",
+        type: ["Normal"],
+        category: "Hog",
+        region: "Paldea",
+        generation: "9",
+        height: "3'03\"",
+        weight: "264.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.0,
+        metricWeight: 120.0,
+        dexEntry: "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
+        cryUrl: "cries/916.mp3",
+        ability: ["Aroma Veil", "Gluttony", "Thick Fat"],
+        evolution: evolutionFamilies.lechonk,
+        japaneseName: "Perfuton"
+    },
+    {
+        name: "Dudunsparce",
+        imageUrl: "images/917Dudunsparce.png",
+        number: "0917",
+        type: ["Normal"],
+        category: "Land Snake",
+        region: "Paldea",
+        generation: "9",
+        height: "11'10\"",
+        weight: "86.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 3.6,
+        metricWeight: 39.2,
+        dexEntry: "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
+        cryUrl: "cries/917.mp3",
+        ability: ["Serene Grace", "Run Away", "Rattled"],
+        evolution: evolutionFamilies.dunsparce,
+        japaneseName: "Nokokocchi"
+    },
+    {
+        name: "Tarountula",
+        imageUrl: "images/918Tarountula.png",
+        number: "0918",
+        type: ["Bug"],
+        category: "String Ball",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "8.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 4.0,
+        dexEntry: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+        cryUrl: "cries/918.mp3",
+        ability: ["Insomnia", "Stakeout"],
+        evolution: evolutionFamilies.tarountula,
+        japaneseName: "Tamanchura"
+    },
+    {
+        name: "Spidops",
+        imageUrl: "images/919Spidops.png",
+        number: "0919",
+        type: ["Bug"],
+        category: "Trap",
+        region: "Paldea",
+        generation: "9",
+        height: "3'03\"",
+        weight: "36.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.0,
+        metricWeight: 16.5,
+        dexEntry: "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
+        cryUrl: "cries/919.mp3",
+        ability: ["Insomnia", "Stakeout"],
+        evolution: evolutionFamilies.tarountula,
+        japaneseName: "Wanaidā"
+    },
+    {
+        name: "Nymble",
+        imageUrl: "images/920Nymble.png",
+        number: "0920",
+        type: ["Bug"],
+        category: "Grasshopper",
+        region: "Paldea",
+        generation: "9",
+        height: "0'08\"",
+        weight: "2.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.2,
+        metricWeight: 1.0,
+        dexEntry: "It has its third set of legs folded up. When it’s in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+        cryUrl: "cries/920.mp3",
+        ability: ["Swarm", "Tinted Lens"],
+        evolution: evolutionFamilies.nymble,
+        japaneseName: "Mamebatta"
+    },
+    {
+        name: "Lokix",
+        imageUrl: "images/921Lokix.png",
+        number: "0921",
+        type: ["Bug", "Dark"],
+        category: "Grasshopper",
+        region: "Paldea",
+        generation: "9",
+        height: "3'03\"",
+        weight: "38.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.0,
+        metricWeight: 17.5,
+        dexEntry: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+        cryUrl: "cries/921.mp3",
+        ability: ["Swarm", "Tinted Lens"],
+        evolution: evolutionFamilies.nymble,
+        japaneseName: "Exleg"
+    },
+    {
+        name: "Rellor",
+        imageUrl: "images/922Rellor.png",
+        number: "0922",
+        type: ["Bug"],
+        category: "Rolling",
+        region: "Paldea",
+        generation: "9",
+        height: "0'08\"",
+        weight: "2.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.2,
+        metricWeight: 1.0,
+        dexEntry: "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+        cryUrl: "cries/922.mp3",
+        ability: ["Compound Eyes", "Shed Skin"],
+        evolution: evolutionFamilies.rellor,
+        japaneseName: "Shigaroko"
+    },
+    {
+        name: "Rabsca",
+        imageUrl: "images/923Rabsca.png",
+        number: "0923",
+        type: ["Bug", "Psychic"],
+        category: "Rolling",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "7.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 3.5,
+        dexEntry: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+        cryUrl: "cries/923.mp3",
+        ability: ["Synchronize", "Telepathy"],
+        evolution: evolutionFamilies.rellor,
+        japaneseName: "Berakasu"
+    },
+    {
+        name: "Greavard",
+        imageUrl: "images/924Greavard.png",
+        number: "0924",
+        type: ["Ghost"],
+        category: "Ghost Dog",
+        region: "Paldea",
+        generation: "9",
+        height: "2'00\"",
+        weight: "77.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.6,
+        metricWeight: 35.0,
+        dexEntry: "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
+        cryUrl: "cries/924.mp3",
+        ability: ["Pickup", "Fluffy"],
+        evolution: evolutionFamilies.greavard,
+        japaneseName: "Bochi"
+    },
+    {
+        name: "Houndstone",
+        imageUrl: "images/925Houndstone.png",
+        number: "0925",
+        type: ["Ghost"],
+        category: "Ghost Dog",
+        region: "Paldea",
+        generation: "9",
+        height: "6'07\"",
+        weight: "33.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.0,
+        metricWeight: 15.0,
+        dexEntry: "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
+        cryUrl: "cries/925.mp3",
+        ability: ["Sand Rush", "Fluffy"],
+        evolution: evolutionFamilies.greavard,
+        japaneseName: "Hakadoggu"
+    },
+    {
+        name: "Flittle",
+        imageUrl: "images/926Flittle.png",
+        number: "0926",
+        type: ["Psychic"],
+        category: "Frill",
+        region: "Paldea",
+        generation: "9",
+        height: "0'08\"",
+        weight: "3.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.2,
+        metricWeight: 1.5,
+        dexEntry: "Flittle’s toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon’s belly.",
+        cryUrl: "cries/926.mp3",
+        ability: ["Anticipation", "Frisk", "Speed Boost"],
+        evolution: evolutionFamilies.flittle,
+        japaneseName: "Hirahina"
+    },
+    {
+        name: "Espathra",
+        imageUrl: "images/927Espathra.png",
+        number: "0927",
+        type: ["Psychic"],
+        category: "Ostrich",
+        region: "Paldea",
+        generation: "9",
+        height: "6'03\"",
+        weight: "198.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.9,
+        metricWeight: 90.0,
+        dexEntry: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+        cryUrl: "cries/927.mp3",
+        ability: ["Opportunist", "Frisk", "Speed Boost"],
+        evolution: evolutionFamilies.flittle,
+        japaneseName: "Kuesupatora"
+    },
+    {
+        name: "Farigiraf",
+        imageUrl: "images/928Farigiraf.png",
+        number: "0928",
+        type: ["Normal", "Psychic"],
+        category: "Long Neck",
+        region: "Paldea",
+        generation: "9",
+        height: "10'06\"",
+        weight: "352.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 3.2,
+        metricWeight: 160.0,
+        dexEntry: "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.",
+        cryUrl: "cries/928.mp3",
+        ability: ["Cud Chew", "Armor Tail", "Sap Sipper"],
+        evolution: evolutionFamilies.girafarig,
+        japaneseName: "Rikikirin"
+    },
+    {
+        name: "Wiglett",
+        imageUrl: "images/929Wiglett.png",
+        number: "0929",
+        type: ["Water"],
+        category: "Garden Eel",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "4.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 1.8,
+        dexEntry: "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+        cryUrl: "cries/929.mp3",
+        ability: ["Gooey", "Rattled", "Sand Veil"],
+        evolution: evolutionFamilies.wiglett,
+        japaneseName: "Umidigda"
+    },
+    {
+        name: "Wugtrio",
+        imageUrl: "images/930Wugtrio.png",
+        number: "0930",
+        type: ["Water"],
+        category: "Garden Eel",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "11.9 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 5.4,
+        dexEntry: "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
+        cryUrl: "cries/930.mp3",
+        ability: ["Gooey", "Rattled", "Sand Veil"],
+        evolution: evolutionFamilies.wiglett,
+        japaneseName: "Umitrio"
+    },
+    {
+        name: "Dondozo",
+        imageUrl: "images/931Dondozo.png",
+        number: "0931",
+        type: ["Water"],
+        category: "Big Catfish",
+        region: "Paldea",
+        generation: "9",
+        height: "39'04\"",
+        weight: "485.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 12.0,
+        metricWeight: 220.0,
+        dexEntry: "This Pokémon is a glutton, but it’s bad at getting food. It teams up with a Tatsugiri to catch prey.",
+        cryUrl: "cries/931.mp3",
+        ability: ["Unaware", "Oblivious", "Water Veil"],
+        evolution: evolutionFamilies.dondozo,
+        japaneseName: "Heyrusher"
+    },
+    {
+        name: "Veluza",
+        imageUrl: "images/932Veluza.png",
+        number: "0932",
+        type: ["Water", "Psychic"],
+        category: "Jettison",
+        region: "Paldea",
+        generation: "9",
+        height: "8'02\"",
+        weight: "198.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.5,
+        metricWeight: 90.0,
+        dexEntry: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
+        cryUrl: "cries/932.mp3",
+        ability: ["Mold Breaker", "Sharpness"],
+        evolution: evolutionFamilies.veluza,
+        japaneseName: "Migarūsa"
+    },
+    {
+        name: "Finizen",
+        imageUrl: "images/933Finizen.png",
+        number: "0933",
+        type: ["Water"],
+        category: "Dolphin",
+        region: "Paldea",
+        generation: "9",
+        height: "4'03\"",
+        weight: "132.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.3,
+        metricWeight: 60.2,
+        dexEntry: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+        cryUrl: "cries/933.mp3",
+        ability: ["Water Veil"],
+        evolution: evolutionFamilies.finizen,
+        japaneseName: "Namiiruka"
+    },
+    {
+        name: "Palafin",
+        imageUrl: "images/934Palafin.png",
+        number: "0934",
+        type: ["Water"],
+        category: "Hero",
+        region: "Paldea",
+        generation: "9",
+        height: "5'11\"",
+        weight: "214.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.8,
+        metricWeight: 97.4,
+        dexEntry: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+        cryUrl: "cries/934.mp3",
+        ability: ["Zero to Hero"],
+        evolution: evolutionFamilies.finizen,
+        japaneseName: "Irukaman"
+    },
+    {
+        name: "Smoliv",
+        imageUrl: "images/935Smoliv.png",
+        number: "0935",
+        type: ["Grass", "Normal"],
+        category: "Olive",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "14.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 6.5,
+        dexEntry: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+        cryUrl: "cries/935.mp3",
+        ability: ["Early Bird", "Harvest"],
+        evolution: evolutionFamilies.smoliv,
+        japaneseName: "Minību"
+    },
+    {
+        name: "Dolliv",
+        imageUrl: "images/936Dolliv.png",
+        number: "0936",
+        type: ["Grass", "Normal"],
+        category: "Olive",
+        region: "Paldea",
+        generation: "9",
+        height: "2'00\"",
+        weight: "26.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.6,
+        metricWeight: 11.9,
+        dexEntry: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+        cryUrl: "cries/936.mp3",
+        ability: ["Early Bird", "Harvest"],
+        evolution: evolutionFamilies.smoliv,
+        japaneseName: "Orīnyo"
+    },
+    {
+        name: "Arboliva",
+        imageUrl: "images/937Arboliva.png",
+        number: "0937",
+        type: ["Grass", "Normal"],
+        category: "Olive",
+        region: "Paldea",
+        generation: "9",
+        height: "4'07\"",
+        weight: "106.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.4,
+        metricWeight: 48.2,
+        dexEntry: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
+        cryUrl: "cries/937.mp3",
+        ability: ["Early Bird", "Harvest"],
+        evolution: evolutionFamilies.smoliv,
+        japaneseName: "Orīva"
+    },
+    {
+        name: "Capsakid",
+        imageUrl: "images/938Capsakid.png",
+        number: "0938",
+        type: ["Grass"],
+        category: "Spicy Pepper",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "6.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 3.0,
+        dexEntry: "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
+        cryUrl: "cries/938.mp3",
+        ability: ["Chlorophyll", "Insomnia", "Klutz"],
+        evolution: evolutionFamilies.capsakid,
+        japaneseName: "Kapusaiji"
+    },
+    {
+        name: "Scovillain",
+        imageUrl: "images/939Scovillain.png",
+        number: "0939",
+        type: ["Grass", "Fire"],
+        category: "Spicy Pepper",
+        region: "Paldea",
+        generation: "9",
+        height: "2'11\"",
+        weight: "33.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.9,
+        metricWeight: 15.0,
+        dexEntry: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+        cryUrl: "cries/939.mp3",
+        ability: ["Chlorophyll", "Insomnia", "Moody"],
+        evolution: evolutionFamilies.capsakid,
+        japaneseName: "Sukoviran"
+    },
+    {
+        name: "Tadbulb",
+        imageUrl: "images/940Tadbulb.png",
+        number: "0940",
+        type: ["Electric"],
+        category: "EleTadpole",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "0.9 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 0.4,
+        dexEntry: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+        cryUrl: "cries/940.mp3",
+        ability: ["Own Tempo", "Static", "Damp"],
+        evolution: evolutionFamilies.tadbulb,
+        japaneseName: "Zupika"
+    },
+    {
+        name: "Bellibolt",
+        imageUrl: "images/941Bellibolt.png",
+        number: "0941",
+        type: ["Electric"],
+        category: "EleFrog",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "249.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 113.0,
+        dexEntry: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+        cryUrl: "cries/941.mp3",
+        ability: ["Electromorphosis", "Static", "Damp"],
+        evolution: evolutionFamilies.tadbulb,
+        japaneseName: "Harabarī"
+    },
+    {
+        name: "Varoom",
+        imageUrl: "images/942Varoom.png",
+        number: "0942",
+        type: ["Steel", "Poison"],
+        category: "Single-Cyl",
+        region: "Paldea",
+        generation: "9",
+        height: "3'03\"",
+        weight: "77.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.0,
+        metricWeight: 35.0,
+        dexEntry: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+        cryUrl: "cries/942.mp3",
+        ability: ["Overcoat", "Slow Start"],
+        evolution: evolutionFamilies.varoom,
+        japaneseName: "Buroron"
+    },
+    {
+        name: "Revavroom",
+        imageUrl: "images/943Revavroom.png",
+        number: "0943",
+        type: ["Steel", "Poison"],
+        category: "Multi-Cyl",
+        region: "Paldea",
+        generation: "9",
+        height: "5'11\"",
+        weight: "264.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.8,
+        metricWeight: 120.0,
+        dexEntry: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+        cryUrl: "cries/943.mp3",
+        ability: ["Overcoat", "Filter"],
+        evolution: evolutionFamilies.revavroom,
+        japaneseName: "Burororōmu"
+    },
+    {
+        name: "Orthworm",
+        imageUrl: "images/944Orthworm.png",
+        number: "0944",
+        type: ["Steel"],
+        category: "Earthworm",
+        region: "Paldea",
+        generation: "9",
+        height: "8'02\"",
+        weight: "683.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.5,
+        metricWeight: 310.0,
+        dexEntry: "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
+        cryUrl: "cries/944.mp3",
+        ability: ["Earth Eater", "Sand Veil"],
+        evolution: evolutionFamilies.orthworm,
+        japaneseName: "Mimizuzu"
+    },
+    {
+        name: "Tandemaus",
+        imageUrl: "images/945Tandemaus.png",
+        number: "0945",
+        type: ["Normal"],
+        category: "Couple",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "4.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 1.8,
+        dexEntry: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+        cryUrl: "cries/945.mp3",
+        ability: ["Run Away", "Pickup", "Own Tempo"],
+        evolution: evolutionFamilies.tandemaus,
+        japaneseName: "Wakkanezumi"
+    },
+    {
+        name: "Maushold",
+        imageUrl: "images/946Maushold.png",
+        number: "0946",
+        type: ["Normal"],
+        category: "Family",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "6.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 2.8,
+        dexEntry: "The two little ones just appeared on day. The group might be a family of related Pokémon, but nobody knows for sure.",
+        cryUrl: "cries/946.mp3",
+        ability: ["Friend Guard", "Cheek Pouch", "Technician"],
+        evolution: evolutionFamilies.tandemaus,
+        japaneseName: "Ikkanezumi"
+    },
+    {
+        name: "Cetoddle",
+        imageUrl: "images/947Cetoddle.png",
+        number: "0947",
+        type: ["Ice"],
+        category: "Terra Whale",
+        region: "Paldea",
+        generation: "9",
+        height: "4'11\"",
+        weight: "99.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 45.0,
+        dexEntry: "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+        cryUrl: "cries/947.mp3",
+        ability: ["Thick Fat", "Snow Cloak", "Sheer Force"],
+        evolution: evolutionFamilies.cetoddle,
+        japaneseName: "Arukujira"
+    },
+    {
+        name: "Cetitan",
+        imageUrl: "images/948Cetitan.png",
+        number: "0948",
+        type: ["Ice"],
+        category: "Terra Whale",
+        region: "Paldea",
+        generation: "9",
+        height: "14'09\"",
+        weight: "1543.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 4.5,
+        metricWeight: 700.0,
+        dexEntry: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
+        cryUrl: "cries/948.mp3",
+        ability: ["Thick Fat", "Slush Rush", "Sheer Force"],
+        evolution: evolutionFamilies.cetoddle,
+        japaneseName: "Harukujira"
+    },
+    {
+        name: "Frigibax",
+        imageUrl: "images/949Frigibax.png",
+        number: "0949",
+        type: ["Dragon", "Ice"],
+        category: "Ice Fin",
+        region: "Paldea",
+        generation: "9",
+        height: "1'08\"",
+        weight: "37.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.5,
+        metricWeight: 17.0,
+        dexEntry: "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+        cryUrl: "cries/949.mp3",
+        ability: ["Thermal Exchange", "Ice Body"],
+        evolution: evolutionFamilies.frigibax,
+        japaneseName: "Sebie"
+    },
+    {
+        name: "Arctibax",
+        imageUrl: "images/950Arctibax.png",
+        number: "0950",
+        type: ["Dragon", "Ice"],
+        category: "Ice Fin",
+        region: "Paldea",
+        generation: "9",
+        height: "2'07\"",
+        weight: "36.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.8,
+        metricWeight: 30.0,
+        dexEntry: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+        cryUrl: "cries/950.mp3",
+        ability: ["Thermal Exchange", "Ice Body"],
+        evolution: evolutionFamilies.frigibax,
+        japaneseName: "Segōru"
+    },
+    {
+        name: "Baxcalibur",
+        imageUrl: "images/951Baxcalibur.png",
+        number: "0951",
+        type: ["Dragon", "Ice"],
+        category: "Ice Dragon",
+        region: "Paldea",
+        generation: "9",
+        height: "6'11\"",
+        weight: "463.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.1,
+        metricWeight: 210.0,
+        dexEntry: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+        cryUrl: "cries/951.mp3",
+        ability: ["Thermal Exchange", "Ice Body"],
+        evolution: evolutionFamilies.frigibax,
+        japaneseName: "Seglaive"
+    },
+    {
+        name: "Tatsugiri",
+        imageUrl: "images/952Tatsugiri.png",
+        number: "0952",
+        type: ["Dragon", "Water"],
+        category: "Mimicry",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "17.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 8.0,
+        dexEntry: "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+        cryUrl: "cries/952.mp3",
+        ability: ["Commander", "Storm Drain"],
+        evolution: evolutionFamilies.tatsugiri,
+        japaneseName: "Syaritatsu"
+    },
+    {
+        name: "Cyclizar",
+        imageUrl: "images/953Cyclizar.png",
+        number: "0953",
+        type: ["Dragon", "Normal"],
+        category: "Mount",
+        region: "Paldea",
+        generation: "9",
+        height: "5'03\"",
+        weight: "138.9 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.6,
+        metricWeight: 63.0,
+        dexEntry: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+        cryUrl: "cries/953.mp3",
+        ability: ["Shed Skin", "Regenerator"],
+        evolution: evolutionFamilies.cyclizar,
+        japaneseName: "Mototokage"
+    },
+    {
+        name: "Pawmi",
+        imageUrl: "images/954Pawmi.png",
+        number: "0954",
+        type: ["Electric"],
+        category: "Mouse",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "5.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 2.5,
+        dexEntry: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+        cryUrl: "cries/954.mp3",
+        ability: ["Static", "Natural Cure", "Iron Fist"],
+        evolution: evolutionFamilies.pawmi,
+        japaneseName: "Pamo"
+    },
+    {
+        name: "Pawmo",
+        imageUrl: "images/955Pawmo.png",
+        number: "0955",
+        type: ["Electric", "Fighting"],
+        category: "Mouse",
+        region: "Paldea",
+        generation: "9",
+        height: "1'04\"",
+        weight: "14.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.4,
+        metricWeight: 6.5,
+        dexEntry: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+        cryUrl: "cries/955.mp3",
+        ability: ["Volt Absorb", "Natural Cure", "Iron Fist"],
+        evolution: evolutionFamilies.pawmi,
+        japaneseName: "Pamot"
+    },
+    {
+        name: "Pawmot",
+        imageUrl: "images/956Pawmot.png",
+        number: "0956",
+        type: ["Electric", "Fighting"],
+        category: "Hands-On",
+        region: "Paldea",
+        generation: "9",
+        height: "2'11\"",
+        weight: "90.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.9,
+        metricWeight: 41.0,
+        dexEntry: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+        cryUrl: "cries/956.mp3",
+        ability: ["Volt Absorb", "Natural Cure", "Iron Fist"],
+        evolution: evolutionFamilies.pawmi,
+        japaneseName: "Parmot"
+    },
+    {
+        name: "Wattrel",
+        imageUrl: "images/957Wattrel.png",
+        number: "0957",
+        type: ["Electric", "Flying"],
+        category: "Storm Petrel",
+        region: "Paldea",
+        generation: "9",
+        height: "1'04\"",
+        weight: "7.9 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.4,
+        metricWeight: 3.6,
+        dexEntry: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
+        cryUrl: "cries/957.mp3",
+        ability: ["Wind Power", "Volt Absorb", "Competitive"],
+        evolution: evolutionFamilies.wattrel,
+        japaneseName: "Kaiden"
+    },
+    {
+        name: "Kilowattrel",
+        imageUrl: "images/958Kilowattrel.png",
+        number: "0958",
+        type: ["Electric", "Flying"],
+        category: "Frigatebird",
+        region: "Paldea",
+        generation: "9",
+        height: "4'07\"",
+        weight: "85.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.4,
+        metricWeight: 38.6,
+        dexEntry: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+        cryUrl: "cries/958.mp3",
+        ability: ["Wind Power", "Volt Absorb", "Competitive"],
+        evolution: evolutionFamilies.wattrel,
+        japaneseName: "Taikaiden"
+    },
+    {
+        name: "Bombirdier",
+        imageUrl: "images/959Bombirdier.png",
+        number: "0959",
+        type: ["Flying", "Dark"],
+        category: "Item Drop",
+        region: "Paldea",
+        generation: "9",
+        height: "4'11\"",
+        weight: "94.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.5,
+        metricWeight: 42.9,
+        dexEntry: "It gathers things up in an apron made from shed feathers added to the Pokémon’s chest feathers, then drops those things from high places for fun.",
+        cryUrl: "cries/959.mp3",
+        ability: ["Big Pecks", "Keen Eye", "Rocky Payload"],
+        evolution: evolutionFamilies.bombirdier,
+        japaneseName: "Otoshidori"
+    },
+    {
+        name: "Squawkabilly",
+        imageUrl: "images/960Squawkabilly.png",
+        number: "0960",
+        type: ["Normal", "Flying"],
+        category: "Parrot",
+        region: "Paldea",
+        generation: "9",
+        height: "2'00\"",
+        weight: "5.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.6,
+        metricWeight: 2.4,
+        dexEntry: "These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.",
+        cryUrl: "cries/960.mp3",
+        ability: ["Intimidate", "Hustle", "Guts"],
+        evolution: evolutionFamilies.squawkabilly,
+        japaneseName: "Ikirinko"
+    },
+    {
+        name: "Flamigo",
+        imageUrl: "images/961Flamigo.png",
+        number: "0961",
+        type: ["Flying", "Fighting"],
+        category: "Synchronize",
+        region: "Paldea",
+        generation: "9",
+        height: "5'03\"",
+        weight: "81.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.6,
+        metricWeight: 37.0,
+        dexEntry: "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+        cryUrl: "cries/961.mp3",
+        ability: ["Scrappy", "Tangled Feet", "Costar"],
+        evolution: evolutionFamilies.flamigo,
+        japaneseName: "Karamingo"
+    },
+    {
+        name: "Klawf",
+        imageUrl: "images/962Klawf.png",
+        number: "0962",
+        type: ["Rock"],
+        category: "Ambush",
+        region: "Paldea",
+        generation: "9",
+        height: "4'03\"",
+        weight: "174.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.3,
+        metricWeight: 79.0,
+        dexEntry: "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can’t remain in this position for long because its blood rushes to its head.",
+        cryUrl: "cries/962.mp3",
+        ability: ["Anger Shell", "Shell Armor", "Regenerator"],
+        evolution: evolutionFamilies.klawf,
+        japaneseName: "Gakegani"
+    },
+    {
+        name: "Nacli",
+        imageUrl: "images/963Nacli.png",
+        number: "0963",
+        type: ["Rock"],
+        category: "Rock Salt",
+        region: "Paldea",
+        generation: "9",
+        height: "1'04\"",
+        weight: "35.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.4,
+        metricWeight: 16.0,
+        dexEntry: "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
+        cryUrl: "cries/963.mp3",
+        ability: ["Purifying Salt", "Sturdy", "Clear Body"],
+        evolution: evolutionFamilies.nacli,
+        japaneseName: "Kojio"
+    },
+    {
+        name: "Naclstack",
+        imageUrl: "images/964Naclstack.png",
+        number: "0964",
+        type: ["Rock"],
+        category: "Rock Salt",
+        region: "Paldea",
+        generation: "9",
+        height: "2'00\"",
+        weight: "231.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.6,
+        metricWeight: 105.0,
+        dexEntry: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body.",
+        cryUrl: "cries/964.mp3",
+        ability: ["Purifying Salt", "Sturdy", "Clear Body"],
+        evolution: evolutionFamilies.nacli,
+        japaneseName: "Jiodzumu"
+    },
+    {
+        name: "Garganacl",
+        imageUrl: "images/965Garganacl.png",
+        number: "0965",
+        type: ["Rock"],
+        category: "Rock Salt",
+        region: "Paldea",
+        generation: "9",
+        height: "7'07\"",
+        weight: "529.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.3,
+        metricWeight: 240.0,
+        dexEntry: "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
+        cryUrl: "cries/965.mp3",
+        ability: ["Purifying Salt", "Sturdy", "Clear Body"],
+        evolution: evolutionFamilies.nacli,
+        japaneseName: "Kyojiōn"
+    },
+    {
+        name: "Glimmet",
+        imageUrl: "images/966Glimmet.png",
+        number: "0966",
+        type: ["Rock", "Poison"],
+        category: "Ore",
+        region: "Paldea",
+        generation: "9",
+        height: "2'04\"",
+        weight: "17.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.7,
+        metricWeight: 8.0,
+        dexEntry: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+        cryUrl: "cries/966.mp3",
+        ability: ["Toxic Debris", "Corrosion"],
+        evolution: evolutionFamilies.glimmet,
+        japaneseName: "Kirāme"
+    },
+    {
+        name: "Glimmora",
+        imageUrl: "images/967Glimmora.png",
+        number: "0967",
+        type: ["Rock", "Poison"],
+        category: "Ore",
+        region: "Paldea",
+        generation: "9",
+        height: "4'11\"",
+        weight: "99.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.5,
+        metricWeight: 45.0,
+        dexEntry: "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+        cryUrl: "cries/967.mp3",
+        ability: ["Toxic Debris", "Corrosion"],
+        evolution: evolutionFamilies.glimmet,
+        japaneseName: "Kirafuoru"
+    },
+    {
+        name: "Shroodle",
+        imageUrl: "images/968Shroodle.png",
+        number: "0968",
+        type: ["Poison", "Normal"],
+        category: "Toxic Mouse",
+        region: "Paldea",
+        generation: "9",
+        height: "0'08\"",
+        weight: "1.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.2,
+        metricWeight: 0.7,
+        dexEntry: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+        cryUrl: "cries/968.mp3",
+        ability: ["Unburden", "Pickpocket", "Prankster"],
+        evolution: evolutionFamilies.shroodle,
+        japaneseName: "Shirushurū"
+    },
+    {
+        name: "Grafaiai",
+        imageUrl: "images/969Grafaiai.png",
+        number: "0969",
+        type: ["Poison", "Normal"],
+        category: "Toxic Monkey",
+        region: "Paldea",
+        generation: "9",
+        height: "2'04\"",
+        weight: "60.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.7,
+        metricWeight: 27.2,
+        dexEntry: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+        cryUrl: "cries/969.mp3",
+        ability: ["Unburden", "Poison Touch", "Prankster"],
+        evolution: evolutionFamilies.shroodle,
+        japaneseName: "Taginguru"
+    },
+    {
+        name: "Fidough",
+        imageUrl: "images/970Fidough.png",
+        number: "0970",
+        type: ["Fairy"],
+        category: "Puppy",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "24.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 10.9,
+        dexEntry: "This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity.",
+        cryUrl: "cries/970.mp3",
+        ability: ["Own Tempo", "Klutz"],
+        evolution: evolutionFamilies.fidough,
+        japaneseName: "Pupimocchi"
+    },
+    {
+        name: "Dachsbun",
+        imageUrl: "images/971Dachsbun.png",
+        number: "0971",
+        type: ["Fairy"],
+        category: "Dog",
+        region: "Paldea",
+        generation: "9",
+        height: "1'08\"",
+        weight: "32.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.5,
+        metricWeight: 14.9,
+        dexEntry: "The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+        cryUrl: "cries/971.mp3",
+        ability: ["Well-Baked Body"],
+        evolution: evolutionFamilies.fidough,
+        japaneseName: "Bowtzel"
+    },
+    {
+        name: "Maschiff",
+        imageUrl: "images/972Maschiff.png",
+        number: "0972",
+        type: ["Dark"],
+        category: "Rascal",
+        region: "Paldea",
+        generation: "9",
+        height: "1'08\"",
+        weight: "35.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.5,
+        metricWeight: 16.0,
+        dexEntry: "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff’s face.",
+        cryUrl: "cries/972.mp3",
+        ability: ["Intimidate", "Run Away", "Stakeout"],
+        evolution: evolutionFamilies.maschiff,
+        japaneseName: "Orachifu"
+    },
+    {
+        name: "Mabosstiff",
+        imageUrl: "images/973Mabosstiff.png",
+        number: "0973",
+        type: ["Dark"],
+        category: "Boss",
+        region: "Paldea",
+        generation: "9",
+        height: "3'07\"",
+        weight: "134.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.1,
+        metricWeight: 61.0,
+        dexEntry: "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+        cryUrl: "cries/973.mp3",
+        ability: ["Intimidate", "Guard Dog", "Stakeout"],
+        evolution: evolutionFamilies.maschiff,
+        japaneseName: "Mafitifu"
+    },
+    {
+        name: "Bramblin",
+        imageUrl: "images/974Bramblin.png",
+        number: "0974",
+        type: ["Grass", "Ghost"],
+        category: "Tumbleweed",
+        region: "Paldea",
+        generation: "9",
+        height: "2'00\"",
+        weight: "1.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.6,
+        metricWeight: 0.6,
+        dexEntry: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+        cryUrl: "cries/974.mp3",
+        ability: ["Wind Rider", "Infiltrator"],
+        evolution: evolutionFamilies.bramblin,
+        japaneseName: "Anokusa"
+    },
+    {
+        name: "Brambleghast",
+        imageUrl: "images/975Brambleghast.png",
+        number: "0975",
+        type: ["Grass", "Ghost"],
+        category: "Tumbleweed",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "13.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 6.0,
+        dexEntry: "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+        cryUrl: "cries/975.mp3",
+        ability: ["Wind Rider", "Infiltrator"],
+        evolution: evolutionFamilies.bramblin,
+        japaneseName: "Anohoragusa"
+    },
+    {
+        name: "Gimmighoul",
+        imageUrl: "images/976Gimmighoul.png",
+        number: "0976",
+        type: ["Ghost"],
+        category: "Coin Chest",
+        region: "Paldea",
+        generation: "9",
+        height: "1'00\"",
+        weight: "11.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 5.0,
+        dexEntry: "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+        cryUrl: "cries/976.mp3",
+        ability: ["Rattled"],
+        evolution: evolutionFamilies.gimmighoul,
+        japaneseName: "Collecurei"
+    },
+    {
+        name: "Gholdengo",
+        imageUrl: "images/977Gholdengo.png",
+        number: "0977",
+        type: ["Steel", "Ghost"],
+        category: "Coin Entity",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "66.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 30.0,
+        dexEntry: "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+        cryUrl: "cries/977.mp3",
+        ability: ["Good as Gold"],
+        evolution: evolutionFamilies.gimmighoul,
+        japaneseName: "Surfugo"
+    },
+    {
+        name: "Great Tusk",
+        imageUrl: "images/978Great_Tusk.png",
+        number: "0978",
+        type: ["Ground", "Fighting"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "7'03\"",
+        weight: "705.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.2,
+        metricWeight: 320.0,
+        dexEntry: "Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.",
+        cryUrl: "cries/978.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.greattusk,
+        japaneseName: "Idainakiba"
+    },
+    {
+        name: "Brute Bonnet",
+        imageUrl: "images/979Brute_Bonnet.png",
+        number: "0979",
+        type: ["Grass", "Dark"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "46.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 21.0,
+        dexEntry: "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
+        cryUrl: "cries/979.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.brutebonnet,
+        japaneseName: "Araburutake"
+    },
+    {
+        name: "???",
+        imageUrl: "images/980.png",
+        number: "0980",
+        type: ["???"],
+        category: "???",
+        region: "Paldea",
+        generation: "9",
+        height: "?'??\"",
+        weight: "??? lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: null,
+        metricWeight: null,
+        dexEntry: "Scarlet Dex Entry",
+        cryUrl: "cries/980.mp3",
+        ability: ["???"],
+        evolution: evolutionFamilies.ancientsuicune,
+        japaneseName: "???"
+    },
+    {
+        name: "Sandy Shocks",
+        imageUrl: "images/981Sandy_Shocks.png",
+        number: "0981",
+        type: ["Electric", "Ground"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "7'07\"",
+        weight: "130.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.3,
+        metricWeight: 60.0,
+        dexEntry: "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon’s traits match up with a creature shown in an expedition journal.",
+        cryUrl: "cries/981.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.sandyshocks,
+        japaneseName: "Sunanokegawa"
+    },
+    {
+        name: "Scream Tail",
+        imageUrl: "images/982Scream_Tail.png",
+        number: "0982",
+        type: ["Fairy", "Psychic"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "17.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 8.0,
+        dexEntry: "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
+        cryUrl: "cries/982.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.screamtail,
+        japaneseName: "Sakebushippo"
+    },
+    {
+        name: "Flutter Mane",
+        imageUrl: "images/983Flutter_Mane.png",
+        number: "0983",
+        type: ["Ghost", "Fairy"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "4'07\"",
+        weight: "8.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.4,
+        metricWeight: 4.0,
+        dexEntry: "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.",
+        cryUrl: "cries/983.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.fluttermane,
+        japaneseName: "Habatakukami"
+    },
+    {
+        name: "Slither Wing",
+        imageUrl: "images/984Slither_Wing.png",
+        number: "0984",
+        type: ["Bug", "Fighting"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "10'06\"",
+        weight: "202.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 3.2,
+        metricWeight: 92.0,
+        dexEntry: "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
+        cryUrl: "cries/984.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.slitherwing,
+        japaneseName: "Chiyohauhane"
+    },
+    {
+        name: "Roaring Moon",
+        imageUrl: "images/985Roaring_Moon.png",
+        number: "0985",
+        type: ["Dragon", "Dark"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "6'07\"",
+        weight: "837.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.0,
+        metricWeight: 380.0,
+        dexEntry: "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+        cryUrl: "cries/985.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.roaringmoon,
+        japaneseName: "Todorokutsuki"
+    },
+    {
+        name: "Iron Treads",
+        imageUrl: "images/986Iron_Treads.png",
+        number: "0986",
+        type: ["Ground", "Steel"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "2'11\"",
+        weight: "529.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.9,
+        metricWeight: 240.0,
+        dexEntry: "This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.",
+        cryUrl: "cries/986.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.irontreads,
+        japaneseName: "Tetsunowadachi"
+    },
+    {
+        name: "???",
+        imageUrl: "images/987.png",
+        number: "0987",
+        type: ["???"],
+        category: "???",
+        region: "Paldea",
+        generation: "9",
+        height: "?'??\"",
+        weight: "??? lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: null,
+        metricWeight: null,
+        dexEntry: "Scarlet Dex Entry",
+        cryUrl: "cries/987.mp3",
+        ability: ["???"],
+        evolution: evolutionFamilies.futurevirizion,
+        japaneseName: "???"
+    },
+    {
+        name: "Iron Moth",
+        imageUrl: "images/988Iron_Moth.png",
+        number: "0988",
+        type: ["Fire", "Poison"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "79.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 36.0,
+        dexEntry: "This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.",
+        cryUrl: "cries/988.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironmoth,
+        japaneseName: "Tetsunodokuga"
+    },
+    {
+        name: "Iron Hands",
+        imageUrl: "images/989Iron_Hands.png",
+        number: "0989",
+        type: ["Fighting", "Electric"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "5'11\"",
+        weight: "839.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.8,
+        metricWeight: 380.7,
+        dexEntry: "It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.",
+        cryUrl: "cries/989.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironhands,
+        japaneseName: "Tetsunokaina"
+    },
+    {
+        name: "Iron Jugulis",
+        imageUrl: "images/990Iron_Jugulis.png",
+        number: "0990",
+        type: ["Dark", "Flying"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "4'03\"",
+        weight: "244.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.3,
+        metricWeight: 111.0,
+        dexEntry: "It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot.",
+        cryUrl: "cries/990.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironjugulis,
+        japaneseName: "Tetsunokoube"
+    },
+    {
+        name: "Iron Thorns",
+        imageUrl: "images/991Iron_Thorns.png",
+        number: "0991",
+        type: ["Rock", "Electric"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "5'03\"",
+        weight: "668.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.6,
+        metricWeight: 303.0,
+        dexEntry: "It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.",
+        cryUrl: "cries/991.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironthorns,
+        japaneseName: "Tetsunoibara"
+    },
+    {
+        name: "Iron Bundle",
+        imageUrl: "images/992Iron_Bundle.png",
+        number: "0992",
+        type: ["Ice", "Water"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "2'00\"",
+        weight: "24.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.6,
+        metricWeight: 11.0,
+        dexEntry: "Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.",
+        cryUrl: "cries/992.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironbundle,
+        japaneseName: "Tetsunotsutsumi"
+    },
+    {
+        name: "Iron Valiant",
+        imageUrl: "images/993Iron_Valiant.png",
+        number: "0993",
+        type: ["Fairy", "Fighting"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "4'07\"",
+        weight: "77.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.4,
+        metricWeight: 35.0,
+        dexEntry: "It has some similarities to a mad scientist’s invention covered in a paranormal magazine.",
+        cryUrl: "cries/993.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironvaliant,
+        japaneseName: "Tetsunobujin"
+    },
+    {
+        name: "Ting-Lu",
+        imageUrl: "images/994Ting-Lu.png",
+        number: "0994",
+        type: ["Dark", "Ground"],
+        category: "Ruinous",
+        region: "Paldea",
+        generation: "9",
+        height: "8'10\"",
+        weight: "1542.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.7,
+        metricWeight: 699.7,
+        dexEntry: "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
+        cryUrl: "cries/994.mp3",
+        ability: ["Vessel of Ruin"],
+        evolution: evolutionFamilies.tinglu,
+        japaneseName: "Dinlu"
+    },
+    {
+        name: "Chien-Pao",
+        imageUrl: "images/995Chien-Pao.png",
+        number: "0995",
+        type: ["Dark", "Ice"],
+        category: "Ruinous",
+        region: "Paldea",
+        generation: "9",
+        height: "6'03\"",
+        weight: "335.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.9,
+        metricWeight: 152.2,
+        dexEntry: "This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.",
+        cryUrl: "cries/995.mp3",
+        ability: ["Sword of Ruin"],
+        evolution: evolutionFamilies.chienpao,
+        japaneseName: "Paojian"
+    },
+    {
+        name: "Wo-Chien",
+        imageUrl: "images/996Wo-Chien.png",
+        number: "0996",
+        type: ["Dark", "Grass"],
+        category: "Ruinous",
+        region: "Paldea",
+        generation: "9",
+        height: "4'11\"",
+        weight: "163.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.5,
+        metricWeight: 74.2,
+        dexEntry: "The grudge of a person punished for writing the king’s evil deeds upon wooden tablets has clad itself in dead leaves to become a Pokémon.",
+        cryUrl: "cries/996.mp3",
+        ability: ["Tablet of Ruin"],
+        evolution: evolutionFamilies.wochien,
+        japaneseName: "Chieonjen"
+    },
+    {
+        name: "Chi-Yu",
+        imageUrl: "images/997Chi-Yu.png",
+        number: "0997",
+        type: ["Dark", "Fire"],
+        category: "Ruinous",
+        region: "Paldea",
+        generation: "9",
+        height: "1'04\"",
+        weight: "10.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.4,
+        metricWeight: 4.9,
+        dexEntry: "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
+        cryUrl: "cries/997.mp3",
+        ability: ["Beads of Ruin"],
+        evolution: evolutionFamilies.chiyu,
+        japaneseName: "Īyui"
+    },
+    {
+        name: "Koraidon",
+        imageUrl: "images/998Koraidon.png",
+        number: "0998",
+        type: ["Fighting", "Dragon"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "8'02\"",
+        weight: "668.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.5,
+        metricWeight: 303.0,
+        dexEntry: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+        cryUrl: "cries/998.mp3",
+        ability: ["Orichalcum Pulse"],
+        evolution: evolutionFamilies.koraidon,
+        japaneseName: "Koraidon"
+    },
+    {
+        name: "Miraidon",
+        imageUrl: "images/999Miraidon.png",
+        number: "0999",
+        type: ["Electric", "Dragon"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "11'06\"",
+        weight: "529.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 3.5,
+        metricWeight: 240.0,
+        dexEntry: "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+        cryUrl: "cries/999.mp3",
+        ability: ["Hadron Engine"],
+        evolution: evolutionFamilies.miraidon,
+        japaneseName: "Miraidon"
+    },
+    {
+        name: "Tinkatink",
+        imageUrl: "images/1000Tinkatink.png",
+        number: "1000",
+        type: ["Fairy", "Steel"],
+        category: "Metalsmith",
+        region: "Paldea",
+        generation: "9",
+        height: "1'04\"",
+        weight: "19.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.4,
+        metricWeight: 8.9,
+        dexEntry: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+        cryUrl: "cries/1000.mp3",
+        ability: ["Mold Breaker", "Own Tempo", "Pickpocket"],
+        evolution: evolutionFamilies.tinkatink,
+        japaneseName: "Kanuchan"
+    },
+    {
+        name: "Tinkatuff",
+        imageUrl: "images/1001Tinkatuff.png",
+        number: "1001",
+        type: ["Fairy", "Steel"],
+        category: "Hammer",
+        region: "Paldea",
+        generation: "9",
+        height: "2'04\"",
+        weight: "130.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.7,
+        metricWeight: 59.1,
+        dexEntry: "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
+        cryUrl: "cries/1001.mp3",
+        ability: ["Mold Breaker", "Own Tempo", "Pickpocket"],
+        evolution: evolutionFamilies.tinkatink,
+        japaneseName: "Nakanuchan"
+    },
+    {
+        name: "Tinkaton",
+        imageUrl: "images/1002Tinkaton.png",
+        number: "1002",
+        type: ["Fairy", "Steel"],
+        category: "Hammer",
+        region: "Paldea",
+        generation: "9",
+        height: "2'04\"",
+        weight: "248.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.7,
+        metricWeight: 112.8,
+        dexEntry: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+        cryUrl: "cries/1002.mp3",
+        ability: ["Mold Breaker", "Own Tempo", "Pickpocket"],
+        evolution: evolutionFamilies.tinkatink,
+        japaneseName: "Dekanuchan"
+    },
+    {
+        name: "Charcadet",
+        imageUrl: "images/1003Charcadet.png",
+        number: "1003",
+        type: ["Fire"],
+        category: "Fire Child",
+        region: "Paldea",
+        generation: "9",
+        height: "2'00\"",
+        weight: "23.1 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.6,
+        metricWeight: 10.5,
+        dexEntry: "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+        cryUrl: "cries/1003.mp3",
+        ability: ["Flash Fire", "Flame Body"],
+        evolution: evolutionFamilies.charcadet,
+        japaneseName: "Carbou"
+    },
+    {
+        name: "Armarouge",
+        imageUrl: "images/1004Armarouge.png",
+        number: "1004",
+        type: ["Fire", "Psychic"],
+        category: "Fire Warrior",
+        region: "Paldea",
+        generation: "9",
+        height: "4'11\"",
+        weight: "187.4 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.5,
+        metricWeight: 85.0,
+        dexEntry: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+        cryUrl: "cries/1004.mp3",
+        ability: ["Flash Fire", "Weak Armor"],
+        evolution: evolutionFamilies.charcadet,
+        japaneseName: "Gurenarma"
+    },
+    {
+        name: "Ceruledge",
+        imageUrl: "images/1005Ceruledge.png",
+        number: "1005",
+        type: ["Fire", "Ghost"],
+        category: "Fire Blades",
+        region: "Paldea",
+        generation: "9",
+        height: "5'03\"",
+        weight: "136.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.6,
+        metricWeight: 62.0,
+        dexEntry: "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+        cryUrl: "cries/1005.mp3",
+        ability: ["Flash Fire", "Weak Armor"],
+        evolution: evolutionFamilies.charcadet,
+        japaneseName: "Soublades"
+    },
+    {
+        name: "Toedscool",
+        imageUrl: "images/1006Toedscool.png",
+        number: "1006",
+        type: ["Ground", "Grass"],
+        category: "Woodear",
+        region: "Paldea",
+        generation: "9",
+        height: "2'11\"",
+        weight: "72.8 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.9,
+        metricWeight: 33.0,
+        dexEntry: "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+        cryUrl: "cries/1006.mp3",
+        ability: ["Mycelium Might"],
+        evolution: evolutionFamilies.toedscool,
+        japaneseName: "Nonokurage"
+    },
+    {
+        name: "Toedscruel",
+        imageUrl: "images/1007Toedscruel.png",
+        number: "1007",
+        type: ["Ground", "Grass"],
+        category: "Woodear",
+        region: "Paldea",
+        generation: "9",
+        height: "6'03\"",
+        weight: "127.9 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.9,
+        metricWeight: 58.0,
+        dexEntry: "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+        cryUrl: "cries/1007.mp3",
+        ability: ["Mycelium Might"],
+        evolution: evolutionFamilies.toedscool,
+        japaneseName: "Rikukurage"
+    },
+    {
+        name: "Kingambit",
+        imageUrl: "images/1008Kingambit.png",
+        number: "1008",
+        type: ["Dark", "Steel"],
+        category: "Big Blade",
+        region: "Paldea",
+        generation: "9",
+        height: "6'07\"",
+        weight: "264.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.0,
+        metricWeight: 120.0,
+        dexEntry: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+        cryUrl: "cries/1008.mp3",
+        ability: ["Defiant", "Supreme Overlord", "Pressure"],
+        evolution: evolutionFamilies.pawniard,
+        japaneseName: "Dodogezan"
+    },
+    {
+        name: "Clodsire",
+        imageUrl: "images/1009Clodsire.png",
+        number: "1009",
+        type: ["Poison", "Ground"],
+        category: "Spiny Fish",
+        region: "Paldea",
+        generation: "9",
+        height: "5'11\"",
+        weight: "491.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.8,
+        metricWeight: 223.0,
+        dexEntry: "When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It’s a risky move that puts everything on the line.",
+        cryUrl: "cries/1009.mp3",
+        ability: ["Poison Point", "Water Absorb", "Unaware"],
+        evolution: evolutionFamilies.wooper,
+        japaneseName: "Dooh"
+    },
+    {
+        name: "Annihilape",
+        imageUrl: "images/1010Annihilape.png",
+        number: "1010",
+        type: ["Fighting", "Ghost"],
+        category: "Rage Monkey",
+        region: "Paldea",
+        generation: "9",
+        height: "3'11\"",
+        weight: "123.5 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.2,
+        metricWeight: 56.0,
+        dexEntry: "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.",
+        cryUrl: "cries/1010.mp3",
+        ability: ["Vital Spirit", "Inner Focus", "Defiant"],
+        evolution: evolutionFamilies.mankey,
+        japaneseName: "Konoyozaru"
     }
 ]
 }
@@ -19530,6 +21813,7 @@ let dexRender = (pokedex) => {
         let pokemonImage = document.createElement("img")
         pokemonImage.src = pocketMonster.imageUrl
         pokemonImage.style = "height:200px"
+        pokemonImage.style = "width:200px"
         let pokemonNumber = document.createElement("p")
         pokemonNumber.append("#", pocketMonster.number)
         let pokemonType = document.createElement("p")
@@ -19976,42 +22260,8 @@ function isSearching() {
 }
 
 function errors() {
-    if ((nameId.toLowerCase() === "sprigatito") || 
-    (nameId.toLowerCase() === "fuecoco") || 
-    (nameId.toLowerCase() === "quaxly") || 
-    (nameId.toLowerCase() === "pawmi") || 
-    (nameId.toLowerCase() === "lechonk") || 
-    (nameId.toLowerCase() === "smoliv") || 
-    (nameId.toLowerCase() === "fidough") || 
-    (nameId.toLowerCase() === "cetitan") || 
-    (nameId.toLowerCase() === "cyclizar") || 
-    (nameId.toLowerCase() === "grafaiai") || 
-    (nameId.toLowerCase() === "armarouge") || 
-    (nameId.toLowerCase() === "ceruledge") || 
-    (nameId.toLowerCase() === "klawf") || 
-    (nameId.toLowerCase() === "wiglett") || 
-    (nameId.toLowerCase() === "farigiraf") || 
-    (nameId.toLowerCase() === "koraidon") || 
-    (nameId.toLowerCase() === "miraidon")) {
-        alert("Error: Gen 9 is not supported yet.")
-    }
-    else if (genId === "9") {
-        alert("Error: Gen 9 is not supported yet.")
-    }
-    else if ((numberId > 905) && (numberId % 1 === 0)) {
-        alert("Error: Requested number is currently too high.")
-    }
-    else if ((numberId < 0) && (numberId % 1 === 0)) {
-        alert("Error: Requested number is too low.")
-    }
-    else if (numberId % 1 != 0) {
-        alert("Error: Requested number is a decimal.")
-    }
-    else if (numberId === "000") {
+    if (numberId === "000") {
         alert("Error: MissingNo.")
-    }
-    else if (regionId.toLowerCase() === "paldea") {
-        alert("Error: Gen 9 is not supported yet.")
     }
     else if (regionId.toLowerCase() === "hyrule") {
         alert("Error: It's dangerous to go alone.  Take this.")
