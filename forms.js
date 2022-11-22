@@ -6376,7 +6376,7 @@ let nationalDex = {
         },
         {
             name: "Koraidon",
-            imageUrl: "forms/998Koraidon-Sprinting.png",
+            imageUrl: "forms/998Koraidon-Limited.png",
             number: "0998",
             type: ["Fighting", "Dragon"],
             category: "Paradox",
@@ -6394,7 +6394,7 @@ let nationalDex = {
         },
         {
             name: "Miraidon",
-            imageUrl: "forms/999Miraidon-Drive.png",
+            imageUrl: "forms/999Miraidon-LowPower.png",
             number: "0999",
             type: ["Electric", "Dragon"],
             category: "Paradox",
