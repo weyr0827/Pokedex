@@ -1522,9 +1522,9 @@ let evolutionFamilies = {
     brutebonnet: [
         "Brute Bonnet"
     ],
-    ancientsuicune: [
-        "???"
-    ],
+    // ancientsuicune: [
+    //     "???"
+    // ],
     sandyshocks: [
         "Sandy Shocks"
     ],
@@ -1543,9 +1543,9 @@ let evolutionFamilies = {
     irontreads: [
         "Iron Treads"
     ],
-    futurevirizion: [
-        "???"
-    ],
+    // futurevirizion: [
+    //     "???"
+    // ],
     ironmoth: [
         "Iron Moth"
     ],
@@ -21175,26 +21175,26 @@ let nationalDex = {
         evolution: evolutionFamilies.brutebonnet,
         japaneseName: "Araburutake"
     },
-    {
-        name: "???",
-        imageUrl: "images/980.png",
-        number: "0980",
-        type: ["???"],
-        category: "???",
-        region: "Paldea",
-        generation: "9",
-        height: "?'??\"",
-        weight: "??? lbs.",
-        favorites: false,
-        caught: false,
-        metricHeight: null,
-        metricWeight: null,
-        dexEntry: "Scarlet Dex Entry",
-        cryUrl: "cries/980.mp3",
-        ability: ["???"],
-        evolution: evolutionFamilies.ancientsuicune,
-        japaneseName: "???"
-    },
+    // {
+    //     name: "???",
+    //     imageUrl: "images/980.png",
+    //     number: "0980",
+    //     type: ["???"],
+    //     category: "???",
+    //     region: "Paldea",
+    //     generation: "9",
+    //     height: "?'??\"",
+    //     weight: "??? lbs.",
+    //     favorites: false,
+    //     caught: false,
+    //     metricHeight: null,
+    //     metricWeight: null,
+    //     dexEntry: "Scarlet Dex Entry",
+    //     cryUrl: "cries/980.mp3",
+    //     ability: ["???"],
+    //     evolution: evolutionFamilies.ancientsuicune,
+    //     japaneseName: "???"
+    // },
     {
         name: "Sandy Shocks",
         imageUrl: "images/981Sandy_Shocks.png",
@@ -21315,26 +21315,26 @@ let nationalDex = {
         evolution: evolutionFamilies.irontreads,
         japaneseName: "Tetsunowadachi"
     },
-    {
-        name: "???",
-        imageUrl: "images/987.png",
-        number: "0987",
-        type: ["???"],
-        category: "???",
-        region: "Paldea",
-        generation: "9",
-        height: "?'??\"",
-        weight: "??? lbs.",
-        favorites: false,
-        caught: false,
-        metricHeight: null,
-        metricWeight: null,
-        dexEntry: "Scarlet Dex Entry",
-        cryUrl: "cries/987.mp3",
-        ability: ["???"],
-        evolution: evolutionFamilies.futurevirizion,
-        japaneseName: "???"
-    },
+    // {
+    //     name: "???",
+    //     imageUrl: "images/987.png",
+    //     number: "0987",
+    //     type: ["???"],
+    //     category: "???",
+    //     region: "Paldea",
+    //     generation: "9",
+    //     height: "?'??\"",
+    //     weight: "??? lbs.",
+    //     favorites: false,
+    //     caught: false,
+    //     metricHeight: null,
+    //     metricWeight: null,
+    //     dexEntry: "Scarlet Dex Entry",
+    //     cryUrl: "cries/987.mp3",
+    //     ability: ["???"],
+    //     evolution: evolutionFamilies.futurevirizion,
+    //     japaneseName: "???"
+    // },
     {
         name: "Iron Moth",
         imageUrl: "images/988Iron_Moth.png",
