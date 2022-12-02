@@ -6361,7 +6361,7 @@ let nationalDex = {
             imageUrl: "forms/976Gimmighoul-Roaming.png",
             number: "0976",
             type: ["Ghost"],
-            category: "Coin Chest",
+            category: "Coin Hunter",
             region: "Paldea",
             generation: "9",
             height: "0'04\"",
