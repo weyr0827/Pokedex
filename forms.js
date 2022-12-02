@@ -6373,42 +6373,6 @@ let nationalDex = {
             dexEntry: "This Pokémon was born from passion that seeped into a coin. It wanders, apparently seeking to return to the treasure chest it once inhabited.",
             cryUrl: "cries/976.mp3",
             ability: ["Run Away"]
-        },
-        {
-            name: "Koraidon",
-            imageUrl: "forms/998Koraidon-Limited.png",
-            number: "0998",
-            type: ["Fighting", "Dragon"],
-            category: "Paradox",
-            region: "Paldea",
-            generation: "9",
-            height: "11'06\"",
-            weight: "668.0 lbs.",
-            favorites: false,
-            caught: false,
-            metricHeight: 3.5,
-            metricWeight: 303.0,
-            dexEntry: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
-            cryUrl: "cries/998.mp3",
-            ability: ["Orichalcum Pulse"]
-        },
-        {
-            name: "Miraidon",
-            imageUrl: "forms/999Miraidon-LowPower.png",
-            number: "0999",
-            type: ["Electric", "Dragon"],
-            category: "Paradox",
-            region: "Paldea",
-            generation: "9",
-            height: "9'02\"",
-            weight: "529.1 lbs.",
-            favorites: false,
-            caught: false,
-            metricHeight: 2.8,
-            metricWeight: 240.0,
-            dexEntry: "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
-            cryUrl: "cries/999.mp3",
-            ability: ["Hadron Engine"]
         }
     ]
 }
