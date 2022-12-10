@@ -1513,7 +1513,7 @@ let nationalDex = {
             metricWeight: 6.5,
             dexEntry: "This Pokémon converts nutrients into oil, which it stores in the fruit on its head. It can easily go a whole week without eating or drinking.",
             cryUrl: "cries/928.mp3",
-            japaneseName: "Minību"
+            japaneseName: "Minive"
         },
         {
             name: "Dolliv",

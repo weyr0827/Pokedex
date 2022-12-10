@@ -20148,7 +20148,7 @@ let nationalDex = {
         cryUrl: "cries/928.mp3",
         ability: ["Early Bird", "Harvest"],
         evolution: evolutionFamilies.smoliv,
-        japaneseName: "Minību"
+        japaneseName: "Minive"
     },
     {
         name: "Dolliv",
@@ -21608,7 +21608,7 @@ let nationalDex = {
         cryUrl: "cries/1001.mp3",
         ability: ["Tablet of Ruin"],
         evolution: evolutionFamilies.wochien,
-        japaneseName: "Chieonjen"
+        japaneseName: "Chionjen"
     },
     {
         name: "Chien-Pao",

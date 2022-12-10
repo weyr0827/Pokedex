@@ -1513,7 +1513,7 @@ let nationalDex = {
             metricWeight: 6.5,
             dexEntry: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
             cryUrl: "cries/928.mp3",
-            japaneseName: "Minību"
+            japaneseName: "Minive"
         },
         {
             name: "Dolliv",
