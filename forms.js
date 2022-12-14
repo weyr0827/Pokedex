@@ -520,7 +520,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.4,
             metricWeight: 20.3,
-            dexEntry: "Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic.Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic.",
+            dexEntry: "Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic.",
             cryUrl: "cries/074.mp3",
             ability: ["Magnet Pull", "Sturdy", "Galvanize"]
         },
