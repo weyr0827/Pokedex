@@ -5716,7 +5716,7 @@ let nationalDex = {
             category: "Silent",
             region: "Galar",
             generation: "8",
-            height: "85'04\"",
+            height: "85'04\"+",
             weight: "??? lbs.",
             favorites: false,
             caught: false,
