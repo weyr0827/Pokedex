@@ -1585,6 +1585,27 @@ let evolutionFamilies = {
     ],
     miraidon: [
         "Miraidon"
+    ],
+    walkingwake: [
+        "Walking Wake"
+    ],
+    ironleaves: [
+        "Iron Leaves"
+    ],
+    okidogi: [
+        "Okidogi"
+    ],
+    munkidori: [
+        "Munkidori"
+    ],
+    fezandipiti: [
+        "Fezandipiti"
+    ],
+    ogerpon: [
+        "Ogerpon"
+    ],
+    terapagos: [
+        "Terapagos"
     ]
 }
 
@@ -21749,7 +21770,47 @@ let nationalDex = {
         ability: ["Hadron Engine"],
         evolution: evolutionFamilies.miraidon,
         japaneseName: "Miraidon"
-    }
+    },
+    {
+        name: "Walking Wake",
+        imageUrl: "images/1009Walking_Wake.png",
+        number: "1009",
+        type: ["Water", "Dragon"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "11'06\"",
+        weight: "617.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 3.5,
+        metricWeight: 280.0,
+        dexEntry: "N/A",
+        cryUrl: "cries/1009.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.walkingwake,
+        japaneseName: "Uneruminamo"
+    },
+    {
+        name: "Iron Leaves",
+        imageUrl: "images/1010Iron_Leaves.png",
+        number: "1010",
+        type: ["Grass", "Psychic"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "9",
+        height: "4'11\"",
+        weight: "275.6 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.5,
+        metricWeight: 125.0,
+        dexEntry: "N/A",
+        cryUrl: "cries/1010.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironleaves,
+        japaneseName: "Tetsunoisaha"
+    },
 ]
 }
 
