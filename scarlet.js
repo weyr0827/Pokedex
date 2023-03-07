@@ -217,7 +217,7 @@ let nationalDex = {
             metricWeight: 4.0,
             dexEntry: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
             cryUrl: "cries/917.mp3",
-            japaneseName: "Tamanchura"
+            japaneseName: "Tamantula"
         },
         {
             name: "Spidops",
@@ -235,7 +235,7 @@ let nationalDex = {
             metricWeight: 16.5,
             dexEntry: "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
             cryUrl: "cries/918.mp3",
-            japaneseName: "Wanaidā"
+            japaneseName: "Wanaider"
         },
         {
             name: "Nymble",
@@ -1531,7 +1531,7 @@ let nationalDex = {
             metricWeight: 11.9,
             dexEntry: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
             cryUrl: "cries/929.mp3",
-            japaneseName: "Orīnyo"
+            japaneseName: "Olinyo"
         },
         {
             name: "Arboliva",
@@ -1549,7 +1549,7 @@ let nationalDex = {
             metricWeight: 48.2,
             dexEntry: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
             cryUrl: "cries/930.mp3",
-            japaneseName: "Orīva"
+            japaneseName: "Oliva"
         },
         {
             name: "Bonsly",
@@ -2341,7 +2341,7 @@ let nationalDex = {
             metricWeight: 105.0,
             dexEntry: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body.",
             cryUrl: "cries/933.mp3",
-            japaneseName: "Jiodzumu"
+            japaneseName: "Jiodumu"
         },
         {
             name: "Garganacl",
@@ -2359,7 +2359,7 @@ let nationalDex = {
             metricWeight: 240.0,
             dexEntry: "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
             cryUrl: "cries/934.mp3",
-            japaneseName: "Kyojiōn"
+            japaneseName: "Kyojiohn"
         },
         {
             name: "Wingull",
@@ -3079,7 +3079,7 @@ let nationalDex = {
             metricWeight: 113.0,
             dexEntry: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
             cryUrl: "cries/939.mp3",
-            japaneseName: "Harabarī"
+            japaneseName: "Harabarie"
         },
         {
             name: "Goomy",
@@ -3547,7 +3547,7 @@ let nationalDex = {
             metricWeight: 61.0,
             dexEntry: "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
             cryUrl: "cries/943.mp3",
-            japaneseName: "Mafitifu"
+            japaneseName: "Mafitiff"
         },
         {
             name: "Toxel",
@@ -3637,7 +3637,7 @@ let nationalDex = {
             metricWeight: 0.7,
             dexEntry: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
             cryUrl: "cries/944.mp3",
-            japaneseName: "Shirushurū"
+            japaneseName: "Shirushrew"
         },
         {
             name: "Grafaiai",
@@ -3655,7 +3655,7 @@ let nationalDex = {
             metricWeight: 27.2,
             dexEntry: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
             cryUrl: "cries/945.mp3",
-            japaneseName: "Taginguru"
+            japaneseName: "Taggingru"
         },
         {
             name: "Stantler",
@@ -4501,7 +4501,7 @@ let nationalDex = {
             metricWeight: 3.0,
             dexEntry: "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
             cryUrl: "cries/951.mp3",
-            japaneseName: "Kapusaiji"
+            japaneseName: "Capsaiji"
         },
         {
             name: "Scovillain",
@@ -4519,7 +4519,7 @@ let nationalDex = {
             metricWeight: 15.0,
             dexEntry: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
             cryUrl: "cries/952.mp3",
-            japaneseName: "Sukoviran"
+            japaneseName: "Scovillain"
         },
         {
             name: "Cacnea",
@@ -4591,7 +4591,7 @@ let nationalDex = {
             metricWeight: 3.5,
             dexEntry: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
             cryUrl: "cries/954.mp3",
-            japaneseName: "Berakasu"
+            japaneseName: "Beracas"
         },
         {
             name: "Venonat",
@@ -4753,7 +4753,7 @@ let nationalDex = {
             metricWeight: 90.0,
             dexEntry: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
             cryUrl: "cries/956.mp3",
-            japaneseName: "Kuesupatora"
+            japaneseName: "Cuespatra"
         },
         {
             name: "Hippopotas",
@@ -5293,7 +5293,7 @@ let nationalDex = {
             metricWeight: 120.0,
             dexEntry: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
             cryUrl: "cries/966.mp3",
-            japaneseName: "Burororōmu"
+            japaneseName: "Burororoom"
         },
         {
             name: "Cyclizar",
@@ -5545,7 +5545,7 @@ let nationalDex = {
             metricWeight: 8.0,
             dexEntry: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
             cryUrl: "cries/969.mp3",
-            japaneseName: "Kirāme"
+            japaneseName: "Kirame"
         },
         {
             name: "Glimmora",
@@ -5563,7 +5563,7 @@ let nationalDex = {
             metricWeight: 45.0,
             dexEntry: "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
             cryUrl: "cries/970.mp3",
-            japaneseName: "Kirafuroru"
+            japaneseName: "Kiraflor"
         },
         {
             name: "Rotom",
@@ -5617,7 +5617,7 @@ let nationalDex = {
             metricWeight: 15.0,
             dexEntry: "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
             cryUrl: "cries/972.mp3",
-            japaneseName: "Hakadoggu"
+            japaneseName: "Hakadog"
         },
         {
             name: "Oranguru",
@@ -6517,7 +6517,7 @@ let nationalDex = {
             metricWeight: 700.0,
             dexEntry: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
             cryUrl: "cries/975.mp3",
-            japaneseName: "Harukujira"
+            japaneseName: "Hulkujira"
         },
         {
             name: "Bergmite",
@@ -6715,7 +6715,7 @@ let nationalDex = {
             metricWeight: 90.0,
             dexEntry: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
             cryUrl: "cries/976.mp3",
-            japaneseName: "Migarūsa"
+            japaneseName: "Migalusa"
         },
         {
             name: "Dondozo",
@@ -6841,7 +6841,7 @@ let nationalDex = {
             metricWeight: 92.0,
             dexEntry: "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
             cryUrl: "cries/988.mp3",
-            japaneseName: "Chiyohauhane"
+            japaneseName: "Chiwohauhane"
         },
         {
             name: "Sandy Shocks",
@@ -7003,7 +7003,7 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
             cryUrl: "cries/997.mp3",
-            japaneseName: "Segōru"
+            japaneseName: "Segohru"
         },
         {
             name: "Baxcalibur",
@@ -7129,7 +7129,7 @@ let nationalDex = {
             metricWeight: 4.9,
             dexEntry: "It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.",
             cryUrl: "cries/1004.mp3",
-            japaneseName: "Īyui"
+            japaneseName: "Yiyui"
         },
         {
             name: "Roaring Moon",

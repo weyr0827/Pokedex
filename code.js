@@ -19949,7 +19949,7 @@ let nationalDex = {
         cryUrl: "cries/917.mp3",
         ability: ["Insomnia", "Stakeout"],
         evolution: evolutionFamilies.tarountula,
-        japaneseName: "Tamanchura"
+        japaneseName: "Tamantula"
     },
     {
         name: "Spidops",
@@ -19969,7 +19969,7 @@ let nationalDex = {
         cryUrl: "cries/918.mp3",
         ability: ["Insomnia", "Stakeout"],
         evolution: evolutionFamilies.tarountula,
-        japaneseName: "Wanaidā"
+        japaneseName: "Wanaider"
     },
     {
         name: "Nymble",
@@ -20189,7 +20189,7 @@ let nationalDex = {
         cryUrl: "cries/929.mp3",
         ability: ["Early Bird", "Harvest"],
         evolution: evolutionFamilies.smoliv,
-        japaneseName: "Orīnyo"
+        japaneseName: "Olinyo"
     },
     {
         name: "Arboliva",
@@ -20209,7 +20209,7 @@ let nationalDex = {
         cryUrl: "cries/930.mp3",
         ability: ["Early Bird", "Harvest"],
         evolution: evolutionFamilies.smoliv,
-        japaneseName: "Orīva"
+        japaneseName: "Oliva"
     },
     {
         name: "Squawkabilly",
@@ -20269,7 +20269,7 @@ let nationalDex = {
         cryUrl: "cries/933.mp3",
         ability: ["Purifying Salt", "Sturdy", "Clear Body"],
         evolution: evolutionFamilies.nacli,
-        japaneseName: "Jiodzumu"
+        japaneseName: "Jiodumu"
     },
     {
         name: "Garganacl",
@@ -20289,7 +20289,7 @@ let nationalDex = {
         cryUrl: "cries/934.mp3",
         ability: ["Purifying Salt", "Sturdy", "Clear Body"],
         evolution: evolutionFamilies.nacli,
-        japaneseName: "Kyojiōn"
+        japaneseName: "Kyojiohn"
     },
     {
         name: "Charcadet",
@@ -20389,7 +20389,7 @@ let nationalDex = {
         cryUrl: "cries/939.mp3",
         ability: ["Electromorphosis", "Static", "Damp"],
         evolution: evolutionFamilies.tadbulb,
-        japaneseName: "Harabarī"
+        japaneseName: "Harabarie"
     },
     {
         name: "Wattrel",
@@ -20469,7 +20469,7 @@ let nationalDex = {
         cryUrl: "cries/943.mp3",
         ability: ["Intimidate", "Guard Dog", "Stakeout"],
         evolution: evolutionFamilies.maschiff,
-        japaneseName: "Mafitifu"
+        japaneseName: "Mafitiff"
     },
     {
         name: "Shroodle",
@@ -20489,7 +20489,7 @@ let nationalDex = {
         cryUrl: "cries/944.mp3",
         ability: ["Unburden", "Pickpocket", "Prankster"],
         evolution: evolutionFamilies.shroodle,
-        japaneseName: "Shirushurū"
+        japaneseName: "Shirushrew"
     },
     {
         name: "Grafaiai",
@@ -20509,7 +20509,7 @@ let nationalDex = {
         cryUrl: "cries/945.mp3",
         ability: ["Unburden", "Poison Touch", "Prankster"],
         evolution: evolutionFamilies.shroodle,
-        japaneseName: "Taginguru"
+        japaneseName: "Taggingru"
     },
     {
         name: "Bramblin",
@@ -20629,7 +20629,7 @@ let nationalDex = {
         cryUrl: "cries/951.mp3",
         ability: ["Chlorophyll", "Insomnia", "Klutz"],
         evolution: evolutionFamilies.capsakid,
-        japaneseName: "Kapusaiji"
+        japaneseName: "Capsaiji"
     },
     {
         name: "Scovillain",
@@ -20649,7 +20649,7 @@ let nationalDex = {
         cryUrl: "cries/952.mp3",
         ability: ["Chlorophyll", "Insomnia", "Moody"],
         evolution: evolutionFamilies.capsakid,
-        japaneseName: "Sukoviran"
+        japaneseName: "Scovillain"
     },
     {
         name: "Rellor",
@@ -20689,7 +20689,7 @@ let nationalDex = {
         cryUrl: "cries/954.mp3",
         ability: ["Synchronize", "Telepathy"],
         evolution: evolutionFamilies.rellor,
-        japaneseName: "Berakasu"
+        japaneseName: "Beracas"
     },
     {
         name: "Flittle",
@@ -20729,7 +20729,7 @@ let nationalDex = {
         cryUrl: "cries/956.mp3",
         ability: ["Opportunist", "Frisk", "Speed Boost"],
         evolution: evolutionFamilies.flittle,
-        japaneseName: "Kuesupatora"
+        japaneseName: "Cuespatra"
     },
     {
         name: "Tinkatink",
@@ -20929,7 +20929,7 @@ let nationalDex = {
         cryUrl: "cries/966.mp3",
         ability: ["Overcoat", "Filter"],
         evolution: evolutionFamilies.revavroom,
-        japaneseName: "Burororōmu"
+        japaneseName: "Burororoom"
     },
     {
         name: "Cyclizar",
@@ -20989,7 +20989,7 @@ let nationalDex = {
         cryUrl: "cries/969.mp3",
         ability: ["Toxic Debris", "Corrosion"],
         evolution: evolutionFamilies.glimmet,
-        japaneseName: "Kirāme"
+        japaneseName: "Kirame"
     },
     {
         name: "Glimmora",
@@ -21009,7 +21009,7 @@ let nationalDex = {
         cryUrl: "cries/970.mp3",
         ability: ["Toxic Debris", "Corrosion"],
         evolution: evolutionFamilies.glimmet,
-        japaneseName: "Kirafuoru"
+        japaneseName: "Kiraflor"
     },
     {
         name: "Greavard",
@@ -21049,7 +21049,7 @@ let nationalDex = {
         cryUrl: "cries/972.mp3",
         ability: ["Sand Rush", "Fluffy"],
         evolution: evolutionFamilies.greavard,
-        japaneseName: "Hakadoggu"
+        japaneseName: "Hakadog"
     },
     {
         name: "Flamigo",
@@ -21109,7 +21109,7 @@ let nationalDex = {
         cryUrl: "cries/975.mp3",
         ability: ["Thick Fat", "Slush Rush", "Sheer Force"],
         evolution: evolutionFamilies.cetoddle,
-        japaneseName: "Harukujira"
+        japaneseName: "Hulkujira"
     },
     {
         name: "Veluza",
@@ -21129,7 +21129,7 @@ let nationalDex = {
         cryUrl: "cries/976.mp3",
         ability: ["Mold Breaker", "Sharpness"],
         evolution: evolutionFamilies.veluza,
-        japaneseName: "Migarūsa"
+        japaneseName: "Migalusa"
     },
     {
         name: "Dondozo",
@@ -21369,7 +21369,7 @@ let nationalDex = {
         cryUrl: "cries/988.mp3",
         ability: ["Protosynthesis"],
         evolution: evolutionFamilies.slitherwing,
-        japaneseName: "Chiyohauhane"
+        japaneseName: "Chiwohauhane"
     },
     {
         name: "Sandy Shocks",
@@ -21549,7 +21549,7 @@ let nationalDex = {
         cryUrl: "cries/997.mp3",
         ability: ["Thermal Exchange", "Ice Body"],
         evolution: evolutionFamilies.frigibax,
-        japaneseName: "Segōru"
+        japaneseName: "Segohru"
     },
     {
         name: "Baxcalibur",
@@ -21689,7 +21689,7 @@ let nationalDex = {
         cryUrl: "cries/1004.mp3",
         ability: ["Beads of Ruin"],
         evolution: evolutionFamilies.chiyu,
-        japaneseName: "Īyui"
+        japaneseName: "Yiyui"
     },
     {
         name: "Roaring Moon",
