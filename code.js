@@ -10987,7 +10987,7 @@ let nationalDex = {
         metricWeight: 51.5,
         dexEntry: "By churning its wings, it creates shock waves that inflict critical internal injuries on foes.",
         cryUrl: "cries/469.mp3",
-        ability: ["Speed Boost", "Tinted Eyes", "Frisk"],
+        ability: ["Speed Boost", "Tinted Lens", "Frisk"],
         evolution: evolutionFamilies.yanma,
         japaneseName: "Megayanma"
     },
