@@ -21540,7 +21540,7 @@ let nationalDex = {
         region: "Paldea",
         generation: "9",
         height: "2'07\"",
-        weight: "36.1 lbs.",
+        weight: "66.1 lbs.",
         favorites: false,
         caught: false,
         metricHeight: 0.8,
