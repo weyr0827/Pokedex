@@ -109,7 +109,7 @@ let nationalDex = {
             metricWeight: 326.5,
             dexEntry: "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.",
             cryUrl: "cries/911.mp3",
-            japaneseName: "Loudbone"
+            japaneseName: "Laudbon"
         },
         {
             name: "Quaxly",

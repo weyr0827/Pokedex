@@ -109,7 +109,7 @@ let nationalDex = {
             metricWeight: 326.5,
             dexEntry: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
             cryUrl: "cries/911.mp3",
-            japaneseName: "Loudbone"
+            japaneseName: "Laudbon"
         },
         {
             name: "Quaxly",

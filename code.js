@@ -19829,7 +19829,7 @@ let nationalDex = {
         cryUrl: "cries/911.mp3",
         ability: ["Blaze", "Unaware"],
         evolution: evolutionFamilies.fuecoco,
-        japaneseName: "Loudbone"
+        japaneseName: "Laudbon"
     },
     {
         name: "Quaxly",
