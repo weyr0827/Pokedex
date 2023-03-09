@@ -6808,7 +6808,7 @@ function isSearching() {
 }
 
 function errors() {
-    if (numberId === "000") {
+    if (numberId === "0000") {
         alert("Error: MissingNo.")
     }
     else if (regionId.toLowerCase() === "hyrule") {
