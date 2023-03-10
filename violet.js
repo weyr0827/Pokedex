@@ -665,7 +665,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "This Pokémon was born in frigid lands. It scatters colorful, toxic scales from its wings during battle.",
+            dexEntry: "This Pokémon was born in a land where flowers bloom. It scatters colorful, toxic scales from its wings during battle.",
             cryUrl: "cries/666.mp3",
             japaneseName: "Viviyon"
         },

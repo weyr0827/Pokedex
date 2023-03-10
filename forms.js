@@ -3328,7 +3328,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.6,
             metricWeight: 19.5,
-            dexEntry: "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+            dexEntry: "To prevent Deerling from entering their fields, many farmers will have several Lycanroc stand guard, as they are the natural enemy of Deerling.",
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
         },
@@ -3346,7 +3346,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.6,
             metricWeight: 19.5,
-            dexEntry: "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+            dexEntry: "These Pokémon are not shy—they will behave as they please, even in front of people. If you feed one of them, it will quickly take a liking to you.",
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
         },
@@ -3364,7 +3364,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.6,
             metricWeight: 19.5,
-            dexEntry: "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+            dexEntry: "Deerling’s scent changes with the seasons, but when the Pokémon is in its Winter Form, it has hardly any scent at all.",
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
         },
@@ -3382,7 +3382,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.9,
             metricWeight: 92.5,
-            dexEntry: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+            dexEntry: "There are many Sawsbuck enthusiasts. The thicker and larger the branches and leaves on its antlers, the more majestic the Sawsbuck is thought to be.",
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
         },
@@ -3400,7 +3400,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.9,
             metricWeight: 92.5,
-            dexEntry: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+            dexEntry: "There are many Sawsbuck enthusiasts. The darker the red of the foliage that hangs from its antlers, the more stylish the Sawsbuck is thought to be.",
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
         },
@@ -3418,7 +3418,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.9,
             metricWeight: 92.5,
-            dexEntry: "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns.",
+            dexEntry: "It’s said that Sawsbuck are calm and easy to tame during the season when they take on this form, so it’s the perfect time to make one your partner.",
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"]
         },
@@ -3724,7 +3724,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from places with many islands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3742,7 +3742,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of vast space.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3760,7 +3760,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with distinct seasons.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3778,7 +3778,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from a mysterious land.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3796,7 +3796,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from verdant lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3814,7 +3814,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with little rain.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3832,7 +3832,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from frigid lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3850,7 +3850,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of tropical rain forests.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3868,7 +3868,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with ocean breezes.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3886,7 +3886,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from sun-drenched lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3904,7 +3904,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with intense rainfall.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3922,7 +3922,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of perpetual summer.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3940,7 +3940,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from a special land.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3958,7 +3958,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from snowy lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3976,7 +3976,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands where large rivers flow.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -3994,7 +3994,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from parched lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -4012,7 +4012,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with a tropical climate.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -4030,7 +4030,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands bathed in light.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -4048,7 +4048,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of severe cold.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"]
         },
@@ -4084,7 +4084,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.1,
             metricWeight: 0.1,
-            dexEntry: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+            dexEntry: "This Flabébé rides a yellow flower. The Pokémon is defenseless and vulnerable before it has found and received power from a flower.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4102,7 +4102,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.1,
             metricWeight: 0.1,
-            dexEntry: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+            dexEntry: "This Flabébé rides an orange flower. On its head, it wears a crown of pollen that has healing properties.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4120,7 +4120,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.1,
             metricWeight: 0.1,
-            dexEntry: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+            dexEntry: "Once it finds a flower it likes, this Pokémon will spend the rest of its life taking care of its flower. This Flabébé rides a blue flower.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4138,7 +4138,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.1,
             metricWeight: 0.1,
-            dexEntry: "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+            dexEntry: "This Flabébé rides a white flower. The wind blows this Pokémon around as it drifts in search of flower gardens.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4156,7 +4156,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.2,
             metricWeight: 0.9,
-            dexEntry: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+            dexEntry: "This Pokémon can draw forth the power hidden within yellow flowers. This power then becomes the moves Floette uses to protect itself.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4174,7 +4174,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.2,
             metricWeight: 0.9,
-            dexEntry: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+            dexEntry: "This Pokémon can draw forth the most power when in sync with orange flowers, compared to flowers of other colors.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4192,7 +4192,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.2,
             metricWeight: 0.9,
-            dexEntry: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+            dexEntry: "Whenever this Pokémon finds flowering plants that are withering, it will bring them back to its territory and care for them until they are healthy.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4210,7 +4210,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.2,
             metricWeight: 0.9,
-            dexEntry: "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the power of flowers to battle.",
+            dexEntry: "Floette that are fond of white flowers can also easily sync with flowers of other colors.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4228,7 +4228,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.1,
             metricWeight: 10.0,
-            dexEntry: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+            dexEntry: "It is said that there was once a Florges that protected the garden of a castle for over 300 years.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4246,7 +4246,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.1,
             metricWeight: 10.0,
-            dexEntry: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+            dexEntry: "Its orange flowers fire off powerful beams, attacking as if they were a battery of artillery.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4264,7 +4264,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.1,
             metricWeight: 10.0,
-            dexEntry: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+            dexEntry: "Though usually compassionate, Florges will hunt down anyone who vandalizes its flower garden, showing no mercy even if they beg for their lives.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -4282,7 +4282,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.1,
             metricWeight: 10.0,
-            dexEntry: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+            dexEntry: "A flower garden made by a white-flowered Florges will be beautifully decorated with flowering plants of many different colors.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"]
         },
@@ -5650,7 +5650,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 24.0,
             metricWeight: 9999,
-            dexEntry: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
+            dexEntry: "Its excessive electric energy is its weapon. This Pokémon can build up more electricity than any thundercloud.",
             cryUrl: "cries/849.mp3",
             ability: ["Punk Rock", "Plus", "Technician"]
         },
@@ -6210,7 +6210,7 @@ let nationalDex = {
             metricWeight: 120.0,
             dexEntry: "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
             cryUrl: "cries/formCries/916-Female.mp3",
-            ability: ["Lingering Aroma", "Gluttony", "Thick Fat"]
+            ability: ["Aroma Veil", "Gluttony", "Thick Fat"]
         },
         {
             name: "Maushold",

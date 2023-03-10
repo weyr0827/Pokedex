@@ -665,7 +665,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.2,
             metricWeight: 17.0,
-            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from frigid lands.",
+            dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands where flowers bloom.",
             cryUrl: "cries/666.mp3",
             japaneseName: "Viviyon"
         },
