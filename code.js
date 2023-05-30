@@ -1592,21 +1592,6 @@ let evolutionFamilies = {
     ironleaves: [
         "Iron Leaves"
     ],
-    okidogi: [
-        "Okidogi"
-    ],
-    munkidori: [
-        "Munkidori"
-    ],
-    fezandipiti: [
-        "Fezandipiti"
-    ],
-    ogerpon: [
-        "Ogerpon"
-    ],
-    terapagos: [
-        "Terapagos"
-    ]
 }
 
 let nationalDex = {
@@ -21785,7 +21770,7 @@ let nationalDex = {
         caught: false,
         metricHeight: 3.5,
         metricWeight: 280.0,
-        dexEntry: "N/A",
+        dexEntry: "Ecology under research.",
         cryUrl: "cries/1009.mp3",
         ability: ["Protosynthesis"],
         evolution: evolutionFamilies.walkingwake,
@@ -21805,7 +21790,7 @@ let nationalDex = {
         caught: false,
         metricHeight: 1.5,
         metricWeight: 125.0,
-        dexEntry: "N/A",
+        dexEntry: "Ecology under analysis.",
         cryUrl: "cries/1010.mp3",
         ability: ["Quark Drive"],
         evolution: evolutionFamilies.ironleaves,
