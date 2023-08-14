@@ -6577,7 +6577,7 @@ let nationalDex = {
             name: "Mr. Rime",
             imageUrl: "images/866Mr._Rime.png",
             number: "366",
-            type: ["Ice, Psychic"],
+            type: ["Ice", "Psychic"],
             category: "Comedian",
             region: "Galar",
             generation: "8",

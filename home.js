@@ -16442,7 +16442,7 @@ let nationalDex = {
             name: "Mr. Rime",
             imageUrl: "HOME/866.png",
             number: "0866",
-            type: ["Ice, Psychic"],
+            type: ["Ice", "Psychic"],
             category: "Comedian",
             region: "Galar",
             generation: "8",
