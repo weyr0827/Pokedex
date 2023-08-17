@@ -19,7 +19,8 @@ let nationalDex = {
             dexEntry: "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
             cryUrl: "cries/003.mp3",
             ability: ["Overgrow", "Chlorophyll"],
-            form: "Venusaur (Female)"
+            form: "Venusaur (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Venusaur",
@@ -38,7 +39,8 @@ let nationalDex = {
             dexEntry: "In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.",
             cryUrl: "cries/formCries/003-Mega.mp3",
             ability: ["Thick Fat"],
-            form: "Mega Venusaur"
+            form: "Mega Venusaur",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Venusaur",
@@ -57,7 +59,8 @@ let nationalDex = {
             dexEntry: "In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it.",
             cryUrl: "cries/003.mp3",
             ability: ["Overgrow", "Chlorophyll"],
-            form: "Gigantamax Venusaur"
+            form: "Gigantamax Venusaur",
+            formType: ["Gigantamax"]
         },
         {
             name: "Charizard",
@@ -76,7 +79,8 @@ let nationalDex = {
             dexEntry: "The overwhelming power that fills its entire body causes it to turn black and creates intense blue flames.",
             cryUrl: "cries/formCries/006-MegaX.mp3",
             ability: ["Tough Claws"],
-            form: "Mega Charizard X"
+            form: "Mega Charizard X",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Charizard",
@@ -95,7 +99,8 @@ let nationalDex = {
             dexEntry: "Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.",
             cryUrl: "cries/formCries/006-MegaY.mp3",
             ability: ["Drought"],
-            form: "Mega Charizard Y"
+            form: "Mega Charizard Y",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Charizard",
@@ -114,7 +119,8 @@ let nationalDex = {
             dexEntry: "This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy.",
             cryUrl: "cries/006.mp3",
             ability: ["Blaze", "Solar Power"],
-            form: "Gigantamax Charizard"
+            form: "Gigantamax Charizard",
+            formType: ["Gigantamax"]
         },
         {
             name: "Blastoise",
@@ -133,7 +139,8 @@ let nationalDex = {
             dexEntry: "The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.",
             cryUrl: "cries/formCries/009-Mega.mp3",
             ability: ["Mega Launcher"],
-            form: "Mega Blastoise"
+            form: "Mega Blastoise",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Blastoise",
@@ -152,7 +159,8 @@ let nationalDex = {
             dexEntry: "It's not very good at precision shooting. When attacking, it just fires its 31 cannons over and over and over.",
             cryUrl: "cries/009.mp3",
             ability: ["Torrent", "Rain Dish"],
-            form: "Gigantamax Blastoise"
+            form: "Gigantamax Blastoise",
+            formType: ["Gigantamax"]
         },
         {
             name: "Butterfree",
@@ -171,7 +179,8 @@ let nationalDex = {
             dexEntry: "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
             cryUrl: "cries/012.mp3",
             ability: ["Compound Eyes", "Tinted Lens"],
-            form: "Butterfree (Female)"
+            form: "Butterfree (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Butterfree",
@@ -190,7 +199,8 @@ let nationalDex = {
             dexEntry: "Crystallized Gigantamax energy makes up this Pokémon's blindingly bright and highly toxic scales.",
             cryUrl: "cries/012.mp3",
             ability: ["Compound Eyes", "Tinted Lens"],
-            form: "Gigantamax Butterfree"
+            form: "Gigantamax Butterfree",
+            formType: ["Gigantamax"]
         },
         {
             name: "Beedrill",
@@ -209,7 +219,8 @@ let nationalDex = {
             dexEntry: "Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.",
             cryUrl: "cries/formCries/015-Mega.mp3",
             ability: ["Adaptability"],
-            form: "Mega Beedrill"
+            form: "Mega Beedrill",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Pidgeot",
@@ -228,7 +239,8 @@ let nationalDex = {
             dexEntry: "With its muscular strength now greatly increased, it can fly continuously for two weeks without resting.",
             cryUrl: "cries/formCries/018-Mega.mp3",
             ability: ["No Guard"],
-            form: "Mega Pidgeot"
+            form: "Mega Pidgeot",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Rattata",
@@ -247,7 +259,8 @@ let nationalDex = {
             dexEntry: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
             cryUrl: "cries/019.mp3",
             ability: ["Run Away", "Guts", "Hustle"],
-            form: "Rattata (Female)"
+            form: "Rattata (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Rattata",
@@ -266,7 +279,8 @@ let nationalDex = {
             dexEntry: "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.",
             cryUrl: "cries/019.mp3",
             ability: ["Gluttony", "Hustle", "Thick Fat"],
-            form: "Alolan Rattata"
+            form: "Alolan Rattata",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Raticate",
@@ -285,7 +299,8 @@ let nationalDex = {
             dexEntry: "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
             cryUrl: "cries/020.mp3",
             ability: ["Run Away", "Guts", "Hustle"],
-            form: "Raticate (Female)"
+            form: "Raticate (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Raticate",
@@ -304,7 +319,8 @@ let nationalDex = {
             dexEntry: "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.",
             cryUrl: "cries/020.mp3",
             ability: ["Gluttony", "Hustle", "Thick Fat"],
-            form: "Alolan Raticate"
+            form: "Alolan Raticate",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Pikachu",
@@ -323,7 +339,8 @@ let nationalDex = {
             dexEntry: "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Female)"
+            form: "Pikachu (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Pikachu",
@@ -342,7 +359,8 @@ let nationalDex = {
             dexEntry: "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Cosplay Pikachu"
+            form: "Cosplay Pikachu",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -361,7 +379,8 @@ let nationalDex = {
             dexEntry: "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu Rock Star"
+            form: "Pikachu Rock Star",
+            formType: ["Special Form", "Form Change"]
         },
         {
             name: "Pikachu",
@@ -380,7 +399,8 @@ let nationalDex = {
             dexEntry: "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu Belle"
+            form: "Pikachu Belle",
+            formType: ["Special Form", "Form Change"]
         },
         {
             name: "Pikachu",
@@ -399,7 +419,8 @@ let nationalDex = {
             dexEntry: "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu Pop Star"
+            form: "Pikachu Pop Star",
+            formType: ["Special Form", "Form Change"]
         },
         {
             name: "Pikachu",
@@ -418,7 +439,8 @@ let nationalDex = {
             dexEntry: "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu, Ph. D"
+            form: "Pikachu, Ph. D",
+            formType: ["Special Form", "Form Change"]
         },
         {
             name: "Pikachu",
@@ -437,7 +459,8 @@ let nationalDex = {
             dexEntry: "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu Libre"
+            form: "Pikachu Libre",
+            formType: ["Special Form", "Form Change"]
         },
         {
             name: "Pikachu",
@@ -456,7 +479,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of traveling through many different regions.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Original Cap)"
+            form: "Pikachu (Original Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -475,7 +499,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Hoenn region.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Hoenn Cap)"
+            form: "Pikachu (Hoenn Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -494,7 +519,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Sinnoh region.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Sinnoh Cap)"
+            form: "Pikachu (Sinnoh Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -513,7 +539,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Unova region.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Unova Cap)"
+            form: "Pikachu (Unova Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -532,7 +559,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Kalos region.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Kalos Cap)"
+            form: "Pikachu (Kalos Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -551,7 +579,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of traveling through the Alola region.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Alola Cap)"
+            form: "Pikachu (Alola Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -570,7 +599,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of when they first met.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (Partner Cap)"
+            form: "Pikachu (Partner Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -589,7 +619,8 @@ let nationalDex = {
             dexEntry: "This Pikachu wears its partner's cap, which is brimming with memories of traveling through different regions.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Pikachu (World Cap)"
+            form: "Pikachu (World Cap)",
+            formType: ["Special Form"]
         },
         {
             name: "Pikachu",
@@ -608,7 +639,8 @@ let nationalDex = {
             dexEntry: "Its Gigantamax power expanded, forming its supersized body and towering tail.",
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Gigantamax Pikachu"
+            form: "Gigantamax Pikachu",
+            formType: ["Gigantamax"]
         },
         {
             name: "Raichu",
@@ -627,7 +659,8 @@ let nationalDex = {
             dexEntry: "Its long tail serves as a ground to protect itself from its own high voltage power.",
             cryUrl: "cries/026.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Raichu (Female)"
+            form: "Raichu (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Raichu",
@@ -646,7 +679,8 @@ let nationalDex = {
             dexEntry: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
             cryUrl: "cries/026.mp3",
             ability: ["Surge Surfer"],
-            form: "Alolan Raichu"
+            form: "Alolan Raichu",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Sandshrew",
@@ -665,7 +699,8 @@ let nationalDex = {
             dexEntry: "It lives on snowy mountains. Its steel shell is very hard—so much so, it can't roll its body up into a ball.",
             cryUrl: "cries/027.mp3",
             ability: ["Snow Cloak", "Slush Rush"],
-            form: "Alolan Sandshrew"
+            form: "Alolan Sandshrew",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Sandslash",
@@ -684,7 +719,8 @@ let nationalDex = {
             dexEntry: "Fleeing a volcanic eruption, it settled on a snowy mountain. As it races through the snowfields, it sends up a spray of snow.",
             cryUrl: "cries/028.mp3",
             ability: ["Snow Cloak", "Slush Rush"],
-            form: "Alolan Sandslash"
+            form: "Alolan Sandslash",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Vulpix",
@@ -703,7 +739,8 @@ let nationalDex = {
             dexEntry: "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo.",
             cryUrl: "cries/037.mp3",
             ability: ["Snow Cloak", "Snow Warning"],
-            form: "Alolan Vulpix"
+            form: "Alolan Vulpix",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Ninetales",
@@ -722,7 +759,8 @@ let nationalDex = {
             dexEntry: "It creates drops of ice in its coat and showers them over its enemies. Anyone who angers it will be frozen stiff in an instant.",
             cryUrl: "cries/038.mp3",
             ability: ["Snow Cloak", "Snow Warning"],
-            form: "Alolan Ninetales"
+            form: "Alolan Ninetales",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Zubat",
@@ -741,7 +779,8 @@ let nationalDex = {
             dexEntry: "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
             cryUrl: "cries/041.mp3",
             ability: ["Inner Focus", "Infiltrator"],
-            form: "Zubat (Male)"
+            form: "Zubat (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Golbat",
@@ -760,7 +799,8 @@ let nationalDex = {
             dexEntry: "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
             cryUrl: "cries/042.mp3",
             ability: ["Inner Focus", "Infiltrator"],
-            form: "Golbat (Female)"
+            form: "Golbat (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gloom",
@@ -779,7 +819,8 @@ let nationalDex = {
             dexEntry: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
             cryUrl: "cries/044.mp3",
             ability: ["Chlorophyll", "Stench"],
-            form: "Gloom (Female)"
+            form: "Gloom (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Vileplume",
@@ -798,7 +839,8 @@ let nationalDex = {
             dexEntry: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
             cryUrl: "cries/045.mp3",
             ability: ["Chlorophyll", "Effect Spore"],
-            form: "Vileplume (Female)"
+            form: "Vileplume (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Diglett",
@@ -817,7 +859,8 @@ let nationalDex = {
             dexEntry: "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
             cryUrl: "cries/050.mp3",
             ability: ["Sand Veil", "Tangling Hair", "Sand Force"],
-            form: "Alolan Diglett"
+            form: "Alolan Diglett",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Dugtrio",
@@ -836,7 +879,8 @@ let nationalDex = {
             dexEntry: "Its shining gold hair provides it with protection. It's reputed that keeping any of its fallen hairs will bring bad luck.",
             cryUrl: "cries/051.mp3",
             ability: ["Sand Veil", "Tangling Hair", "Sand Force"],
-            form: "Alolan Dugtrio"
+            form: "Alolan Dugtrio",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Meowth",
@@ -855,7 +899,8 @@ let nationalDex = {
             dexEntry: "The pattern that has appeared on its giant coin is thought to be the key to unlocking the secrets of the Dynamax phenomenon.",
             cryUrl: "cries/052.mp3",
             ability: ["Pickup", "Technician", "Unnerve"],
-            form: "Gigantamax Meowth"
+            form: "Gigantamax Meowth",
+            formType: ["Gigantamax"]
         },
         {
             name: "Meowth",
@@ -874,7 +919,8 @@ let nationalDex = {
             dexEntry: "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They're prideful and crafty.",
             cryUrl: "cries/052.mp3",
             ability: ["Pickup", "Technician", "Rattled"],
-            form: "Alolan Meowth"
+            form: "Alolan Meowth",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Meowth",
@@ -893,7 +939,8 @@ let nationalDex = {
             dexEntry: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
             cryUrl: "cries/052.mp3",
             ability: ["Pickup", "Tough Claws", "Unnerve"],
-            form: "Galarian Meowth"
+            form: "Galarian Meowth",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Persian",
@@ -912,7 +959,8 @@ let nationalDex = {
             dexEntry: "Its round face and smooth coat—softer than the most high-class velvet—have made this a very popular Pokémon in Alola.",
             cryUrl: "cries/053.mp3",
             ability: ["Fur Coat", "Technician", "Rattled"],
-            form: "Alolan Persian"
+            form: "Alolan Persian",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Growlithe",
@@ -931,7 +979,8 @@ let nationalDex = {
             dexEntry: "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
             cryUrl: "cries/058.mp3",
             ability: ["Intimidate", "Flash Fire", "Justified"],
-            form: "Hisuian Growlithe"
+            form: "Hisuian Growlithe",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Arcanine",
@@ -950,7 +999,8 @@ let nationalDex = {
             dexEntry: "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
             cryUrl: "cries/059.mp3",
             ability: ["Intimidate", "Flash Fire", "Justified"],
-            form: "Hisuian Arcanine"
+            form: "Hisuian Arcanine",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Kadabra",
@@ -969,7 +1019,8 @@ let nationalDex = {
             dexEntry: "It emits special alpha waves from its body that induce headaches just by being close by.",
             cryUrl: "cries/064.mp3",
             ability: ["Synchronize", "Inner Focus", "Magic Guard"],
-            form: "Kadabra (Female)"
+            form: "Kadabra (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Alakazam",
@@ -988,7 +1039,8 @@ let nationalDex = {
             dexEntry: "Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000.",
             cryUrl: "cries/065.mp3",
             ability: ["Synchronize", "Inner Focus", "Magic Guard"],
-            form: "Alakazam (Female)"
+            form: "Alakazam (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Alakazam",
@@ -1007,7 +1059,8 @@ let nationalDex = {
             dexEntry: "As a result of Mega Evolution, its power has been entirely converted into psychic energy, and it has lost all strength in its muscles.",
             cryUrl: "cries/formCries/065-Mega.mp3",
             ability: ["Trace"],
-            form: "Mega Alakazam"
+            form: "Mega Alakazam",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Machamp",
@@ -1026,7 +1079,8 @@ let nationalDex = {
             dexEntry: "The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts.",
             cryUrl: "cries/068.mp3",
             ability: ["Guts", "No Guard", "Steadfast"],
-            form: "Gigantamax Machamp"
+            form: "Gigantamax Machamp",
+            formType: ["Gigantamax"]
         },
         {
             name: "Geodude",
@@ -1045,7 +1099,8 @@ let nationalDex = {
             dexEntry: "Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic.",
             cryUrl: "cries/074.mp3",
             ability: ["Magnet Pull", "Sturdy", "Galvanize"],
-            form: "Alolan Geodude"
+            form: "Alolan Geodude",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Graveler",
@@ -1064,7 +1119,8 @@ let nationalDex = {
             dexEntry: "Its preferred food is dravite. After it has eaten this mineral, crystals form inside the Pokémon, rising to the surface of part of its body.",
             cryUrl: "cries/075.mp3",
             ability: ["Magnet Pull", "Sturdy", "Galvanize"],
-            form: "Alolan Graveler"
+            form: "Alolan Graveler",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Golem",
@@ -1083,7 +1139,8 @@ let nationalDex = {
             dexEntry: "It fires rocks charged with electricity. Even if the rock isn't fired that accurately, just grazing an opponent will cause numbness and fainting.",
             cryUrl: "cries/076.mp3",
             ability: ["Magnet Pull", "Sturdy", "Galvanize"],
-            form: "Alolan Golem"
+            form: "Alolan Golem",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Ponyta",
@@ -1102,7 +1159,8 @@ let nationalDex = {
             dexEntry: "Its small horn hides a healing power. With a few rubs from this Pokémon's horn, any slight wound you have will be healed.",
             cryUrl: "cries/077.mp3",
             ability: ["Run Away", "Pastel Veil", "Anticipation"],
-            form: "Galarian Ponyta"
+            form: "Galarian Ponyta",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Rapidash",
@@ -1121,7 +1179,8 @@ let nationalDex = {
             dexEntry: "Little can stand up to its psycho cut. Unleashed from this Pokémon's horn, the move will punch a hole right through a thick metal sheet.",
             cryUrl: "cries/078.mp3",
             ability: ["Run Away", "Pastel Veil", "Anticipation"],
-            form: "Galarian Rapidash"
+            form: "Galarian Rapidash",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Slowpoke",
@@ -1140,7 +1199,8 @@ let nationalDex = {
             dexEntry: "Although this Pokémon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet.",
             cryUrl: "cries/formCries/079-Galar.mp3",
             ability: ["Gluttony", "Own Tempo", "Regenerator"],
-            form: "Galarian Slowpoke"
+            form: "Galarian Slowpoke",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Slowbro",
@@ -1159,7 +1219,8 @@ let nationalDex = {
             dexEntry: "All the energy from Mega Evolution poured into the Shellder on its tail, leaving Slowpoke to be swallowed whole.",
             cryUrl: "cries/formCries/080-Mega.mp3",
             ability: ["Shell Armor"],
-            form: "Mega Slowbro"
+            form: "Mega Slowbro",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Slowbro",
@@ -1178,7 +1239,8 @@ let nationalDex = {
             dexEntry: "A Shellder bite set off a chemical reaction with the spices inside Slowbro's body, causing Slowbro to become a Poison-type Pokémon.",
             cryUrl: "cries/080.mp3",
             ability: ["Quick Draw", "Own Tempo", "Regenerator"],
-            form: "Galarian Slowbro"
+            form: "Galarian Slowbro",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Farfetch'd",
@@ -1197,7 +1259,8 @@ let nationalDex = {
             dexEntry: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle.",
             cryUrl: "cries/083.mp3",
             ability: ["Steadfast", "Scrappy"],
-            form: "Galarian Farfetch'd"
+            form: "Galarian Farfetch'd",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Doduo",
@@ -1216,7 +1279,8 @@ let nationalDex = {
             dexEntry: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
             cryUrl: "cries/084.mp3",
             ability: ["Run Away", "Early Bird", "Tangled Feet"],
-            form: "Doduo (Female)"
+            form: "Doduo (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Dodrio",
@@ -1235,7 +1299,8 @@ let nationalDex = {
             dexEntry: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
             cryUrl: "cries/085.mp3",
             ability: ["Run Away", "Early Bird", "Tangled Feet"],
-            form: "Dodrio (Male)"
+            form: "Dodrio (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Grimer",
@@ -1254,7 +1319,8 @@ let nationalDex = {
             dexEntry: "A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.",
             cryUrl: "cries/088.mp3",
             ability: ["Poison Touch", "Gluttony", "Power of Alchemy"],
-            form: "Alolan Grimer"
+            form: "Alolan Grimer",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Muk",
@@ -1273,7 +1339,8 @@ let nationalDex = {
             dexEntry: "The garbage it eats causes continuous chemical changes in its body, which produce its exceedingly vivid coloration.",
             cryUrl: "cries/089.mp3",
             ability: ["Poison Touch", "Gluttony", "Power of Alchemy"],
-            form: "Alolan Muk"
+            form: "Alolan Muk",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Gengar",
@@ -1292,7 +1359,8 @@ let nationalDex = {
             dexEntry: "Gengar's relationships are warped. It has no interest in opponents unless it perceives them as prey.",
             cryUrl: "cries/formCries/094-Mega.mp3",
             ability: ["Shadow Tag"],
-            form: "Mega Gengar"
+            form: "Mega Gengar",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Gengar",
@@ -1311,7 +1379,8 @@ let nationalDex = {
             dexEntry: "Rumor has it that its gigantic mouth leads not into its body, filled with cursed energy, but instead directly to the afterlife.",
             cryUrl: "cries/094.mp3",
             ability: ["Cursed Body"],
-            form: "Gigantamax Gengar"
+            form: "Gigantamax Gengar",
+            formType: ["Gigantamax"]
         },
         {
             name: "Hypno",
@@ -1330,7 +1399,8 @@ let nationalDex = {
             dexEntry: "When it locks eyes with an enemy, it will use a mix of PSI moves such as Hypnosis and Confusion.",
             cryUrl: "cries/097.mp3",
             ability: ["Insomnia", "Forewarn", "Inner Focus"],
-            form: "Hypno (Female)"
+            form: "Hypno (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Kingler",
@@ -1349,7 +1419,8 @@ let nationalDex = {
             dexEntry: "The flow of Gigantamax energy has spurred this Pokémon's left pincer to grow to an enormous size. That claw can pulverize anything.",
             cryUrl: "cries/099.mp3",
             ability: ["Hyper Cutter", "Shell Armor", "Sheer Force"],
-            form: "Gigantamax Kingler"
+            form: "Gigantamax Kingler",
+            formType: ["Gigantamax"]
         },
         {
             name: "Voltorb",
@@ -1368,7 +1439,8 @@ let nationalDex = {
             dexEntry: "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
             cryUrl: "cries/100.mp3",
             ability: ["Soundproof", "Static", "Aftermath"],
-            form: "Hisuian Voltorb"
+            form: "Hisuian Voltorb",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Electrode",
@@ -1387,7 +1459,8 @@ let nationalDex = {
             dexEntry: "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
             cryUrl: "cries/101.mp3",
             ability: ["Soundproof", "Static", "Aftermath"],
-            form: "Hisuian Electrode"
+            form: "Hisuian Electrode",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Exeggutor",
@@ -1406,7 +1479,8 @@ let nationalDex = {
             dexEntry: "Alola is the best environment for this Pokémon. Local people take pride in its appearance, saying this is how Exeggutor ought to look.",
             cryUrl: "cries/103.mp3",
             ability: ["Frisk", "Harvest"],
-            form: "Alolan Exeggutor"
+            form: "Alolan Exeggutor",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Marowak",
@@ -1425,7 +1499,8 @@ let nationalDex = {
             dexEntry: "The bones it possesses were once its mother's. Its mother's regrets have become like a vengeful spirit protecting this Pokémon.",
             cryUrl: "cries/105.mp3",
             ability: ["Cursed Body", "Lightning Rod", "Rock Head"],
-            form: "Alolan Marowak"
+            form: "Alolan Marowak",
+            formType: ["Regional Form", "Alolan Form"]
         },
         {
             name: "Weezing",
@@ -1444,7 +1519,8 @@ let nationalDex = {
             dexEntry: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
             cryUrl: "cries/110.mp3",
             ability: ["Levitate", "Neutralizing Gas", "Misty Surge"],
-            form: "Galarian Weezing"
+            form: "Galarian Weezing",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Rhyhorn",
@@ -1463,7 +1539,8 @@ let nationalDex = {
             dexEntry: "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
             cryUrl: "cries/111.mp3",
             ability: ["Lightning Rod", "Rock Head", "Reckless"],
-            form: "Rhyhorn (Female)"
+            form: "Rhyhorn (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Rhydon",
@@ -1482,7 +1559,8 @@ let nationalDex = {
             dexEntry: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
             cryUrl: "cries/112.mp3",
             ability: ["Lightning Rod", "Rock Head", "Reckless"],
-            form: "Rhydon (Male)"
+            form: "Rhydon (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Kangaskhan",
@@ -1501,7 +1579,8 @@ let nationalDex = {
             dexEntry: "Mega Kangaskhan's strength derives from the mother's happiness about her child's growth. Watching it grow up keeps her spirits high.",
             cryUrl: "cries/formCries/115-Mega.mp3",
             ability: ["Parental Bond"],
-            form: "Mega Kangaskhan"
+            form: "Mega Kangaskhan",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Goldeen",
@@ -1520,7 +1599,8 @@ let nationalDex = {
             dexEntry: "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
             cryUrl: "cries/118.mp3",
             ability: ["Swift Swim", "Water Veil", "Lightning Rod"],
-            form: "Goldeen (Female)"
+            form: "Goldeen (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Seaking",
@@ -1539,7 +1619,8 @@ let nationalDex = {
             dexEntry: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
             cryUrl: "cries/119.mp3",
             ability: ["Swift Swim", "Water Veil", "Lightning Rod"],
-            form: "Seaking (Male)"
+            form: "Seaking (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Mr. Mime",
@@ -1558,7 +1639,8 @@ let nationalDex = {
             dexEntry: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
             cryUrl: "cries/122.mp3",
             ability: ["Vital Spirit", "Screen Cleaner", "Ice Body"],
-            form: "Galarian Mr. Mime"
+            form: "Galarian Mr. Mime",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Scyther",
@@ -1577,7 +1659,8 @@ let nationalDex = {
             dexEntry: "With ninja-like agility and speed, it can create the illusion that there is more than one.",
             cryUrl: "cries/123.mp3",
             ability: ["Swarm", "Technician", "Steadfast"],
-            form: "Scyther (Female)"
+            form: "Scyther (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Pinsir",
@@ -1596,7 +1679,8 @@ let nationalDex = {
             dexEntry: "The influence of Mega Evolution leaves it in a state of constant excitement. It pierces enemies with its two large horns before shredding them.",
             cryUrl: "cries/formCries/127-Mega.mp3",
             ability: ["Aerilate"],
-            form: "Mega Pinsir"
+            form: "Mega Pinsir",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Tauros",
@@ -1615,7 +1699,8 @@ let nationalDex = {
             dexEntry: "This Pokémon has a muscular body and excels at close-quarters combat. It uses its short horns to strike the opponent's weak spots.",
             cryUrl: "cries/128.mp3",
             ability: ["Intimidate", "Anger Point", "Cud Chew"],
-            form: "Paldean Tauros (Combat Breed)"
+            form: "Paldean Tauros (Combat Breed)",
+            formType: ["Regional Form", "Paldean Form", "Variation"]
         },
         {
             name: "Tauros",
@@ -1634,7 +1719,8 @@ let nationalDex = {
             dexEntry: "When heated by fire energy, its horns can get hotter than 1,800 degrees Fahrenheit. Those gored by them will suffer both wounds and burns.",
             cryUrl: "cries/128.mp3",
             ability: ["Intimidate", "Anger Point", "Cud Chew"],
-            form: "Paldean Tauros (Blaze Breed)"
+            form: "Paldean Tauros (Blaze Breed)",
+            formType: ["Regional Form", "Paldean Form", "Variation"]
         },
         {
             name: "Tauros",
@@ -1653,7 +1739,8 @@ let nationalDex = {
             dexEntry: "This Pokémon blasts water from holes on the tips of its horns—the high-pressure jets pierce right through Tauros’s enemies.",
             cryUrl: "cries/128.mp3",
             ability: ["Intimidate", "Anger Point", "Cud Chew"],
-            form: "Paldean Tauros (Aqua Breed)"
+            form: "Paldean Tauros (Aqua Breed)",
+            formType: ["Regional Form", "Paldean Form", "Variation"]
         },{
             name: "Magikarp",
             imageUrl: "forms/129Magikarp-Female.png",
@@ -1671,7 +1758,8 @@ let nationalDex = {
             dexEntry: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
             cryUrl: "cries/129.mp3",
             ability: ["Swift Swim", "Rattled"],
-            form: "Magikarp (Female)"
+            form: "Magikarp (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gyarados",
@@ -1690,7 +1778,8 @@ let nationalDex = {
             dexEntry: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
             cryUrl: "cries/130.mp3",
             ability: ["Intimidate", "Moxie"],
-            form: "Gyarados (Female)"
+            form: "Gyarados (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gyarados",
@@ -1709,7 +1798,8 @@ let nationalDex = {
             dexEntry: "Mega Evolution also affects its brain, leaving no other function except its destructive instinct to burn everything to cinders.",
             cryUrl: "cries/formCries/130-Mega.mp3",
             ability: ["Mold Breaker"],
-            form: "Mega Gyarados"
+            form: "Mega Gyarados",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Lapras",
@@ -1728,7 +1818,8 @@ let nationalDex = {
             dexEntry: "Over 5,000 people can ride on its shell at once. And it's a very comfortable ride, without the slightest shaking or swaying.",
             cryUrl: "cries/131.mp3",
             ability: ["Water Absorb", "Shell Armor", "Hydration"],
-            form: "Gigantamax Lapras"
+            form: "Gigantamax Lapras",
+            formType: ["Gigantamax"]
         },
         {
             name: "Eevee",
@@ -1747,7 +1838,8 @@ let nationalDex = {
             dexEntry: "Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
             cryUrl: "cries/133.mp3",
             ability: ["Run Away", "Adaptability", "Anticipation"],
-            form: "Eevee (Female)"
+            form: "Eevee (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Eevee",
@@ -1766,7 +1858,8 @@ let nationalDex = {
             dexEntry: "Gigantamax energy upped the fluffiness of the fur around Eevee's neck. The fur will envelop a foe, capturing its body and captivating its mind.",
             cryUrl: "cries/133.mp3",
             ability: ["Run Away", "Adaptability", "Anticipation"],
-            form: "Gigantamax Eevee"
+            form: "Gigantamax Eevee",
+            formType: ["Gigantamax"]
         },
         {
             name: "Aerodactyl",
@@ -1785,7 +1878,8 @@ let nationalDex = {
             dexEntry: "Part of its body has become stone. Some scholars claim that this is Aerodactyl's true appearance.",
             cryUrl: "cries/formCries/142-Mega.mp3",
             ability: ["Tough Claws"],
-            form: "Mega Aerodactyl"
+            form: "Mega Aerodactyl",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Snorlax",
@@ -1804,7 +1898,8 @@ let nationalDex = {
             dexEntry: "Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size.",
             cryUrl: "cries/143.mp3",
             ability: ["Immunity", "Thick Fat", "Gluttony"],
-            form: "Gigantamax Snorlax"
+            form: "Gigantamax Snorlax",
+            formType: ["Gigantamax"]
         },
         {
             name: "Articuno",
@@ -1823,7 +1918,8 @@ let nationalDex = {
             dexEntry: "Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.",
             cryUrl: "cries/144.mp3",
             ability: ["Competitive"],
-            form: "Galarian Articuno"
+            form: "Galarian Articuno",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Zapdos",
@@ -1842,7 +1938,8 @@ let nationalDex = {
             dexEntry: "When its feathers rub together, they produce a crackling sound like the zapping of electricity. That's why this Pokémon is called Zapdos.",
             cryUrl: "cries/145.mp3",
             ability: ["Defiant"],
-            form: "Galarian Zapdos"
+            form: "Galarian Zapdos",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Moltres",
@@ -1861,7 +1958,8 @@ let nationalDex = {
             dexEntry: "This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.",
             cryUrl: "cries/146.mp3",
             ability: ["Berserk"],
-            form: "Galarian Moltres"
+            form: "Galarian Moltres",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Mewtwo",
@@ -1880,7 +1978,8 @@ let nationalDex = {
             dexEntry: "Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!",
             cryUrl: "cries/formCries/150-MegaX.mp3",
             ability: ["Steadfast"],
-            form: "Mega Mewtwo X"
+            form: "Mega Mewtwo X",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Mewtwo",
@@ -1899,7 +1998,8 @@ let nationalDex = {
             dexEntry: "Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.",
             cryUrl: "cries/formCries/150-MegaY.mp3",
             ability: ["Insomnia"],
-            form: "Mega Mewtwo Y"
+            form: "Mega Mewtwo Y",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Meganium",
@@ -1918,7 +2018,8 @@ let nationalDex = {
             dexEntry: "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
             cryUrl: "cries/154.mp3",
             ability: ["Overgrow", "Leaf Guard"],
-            form: "Meganium (Male)"
+            form: "Meganium (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Typhlosion",
@@ -1937,7 +2038,8 @@ let nationalDex = {
             dexEntry: "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
             cryUrl: "cries/157.mp3",
             ability: ["Blaze", "Flash Fire"],
-            form: "Hisuian Typhlosion"
+            form: "Hisuian Typhlosion",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Ledyba",
@@ -1956,7 +2058,8 @@ let nationalDex = {
             dexEntry: "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group.",
             cryUrl: "cries/165.mp3",
             ability: ["Swarm", "Early Bird", "Rattled"],
-            form: "Ledyba (Female)"
+            form: "Ledyba (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Ledian",
@@ -1975,7 +2078,8 @@ let nationalDex = {
             dexEntry: "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
             cryUrl: "cries/166.mp3",
             ability: ["Swarm", "Early Bird", "Iron Fist"],
-            form: "Ledian (Female)"
+            form: "Ledian (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Pichu",
@@ -1994,7 +2098,8 @@ let nationalDex = {
             dexEntry: "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
             cryUrl: "cries/172.mp3",
             ability: ["Static", "Lightning Rod"],
-            form: "Spiky-Eared Pichu"
+            form: "Spiky-Eared Pichu",
+            formType: ["Special Form"]
         },
         {
             name: "Xatu",
@@ -2013,7 +2118,8 @@ let nationalDex = {
             dexEntry: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
             cryUrl: "cries/178.mp3",
             ability: ["Synchronize", "Early Bird", "Magic Bounce"],
-            form: "Xatu (Male)"
+            form: "Xatu (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Ampharos",
@@ -2032,7 +2138,8 @@ let nationalDex = {
             dexEntry: "Excess energy from Mega Evolution stimulates its genes, and the wool it had lost grows in again.",
             cryUrl: "cries/formCries/181-Mega.mp3",
             ability: ["Mold Breaker"],
-            form: "Mega Ampharos"
+            form: "Mega Ampharos",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Sudowoodo",
@@ -2051,7 +2158,8 @@ let nationalDex = {
             dexEntry: "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant.",
             cryUrl: "cries/185.mp3",
             ability: ["Sturdy", "Rock Head", "Rattled"],
-            form: "Sudowoodo (Female)"
+            form: "Sudowoodo (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Politoed",
@@ -2070,7 +2178,8 @@ let nationalDex = {
             dexEntry: "If Poliwag and Poliwhirl hear its echoing cry, they respond by gathering from far and wide.",
             cryUrl: "cries/186.mp3",
             ability: ["Water Absorb", "Damp", "Drizzle"],
-            form: "Politoed (Female)"
+            form: "Politoed (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Aipom",
@@ -2089,7 +2198,8 @@ let nationalDex = {
             dexEntry: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
             cryUrl: "cries/190.mp3",
             ability: ["Run Away", "Pickup", "Skill Link"],
-            form: "Aipom (Female)"
+            form: "Aipom (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Wooper",
@@ -2108,7 +2218,8 @@ let nationalDex = {
             dexEntry: "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
             cryUrl: "cries/194.mp3",
             ability: ["Damp", "Water Absorb", "Unaware"],
-            form: "Wooper (Female)"
+            form: "Wooper (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Wooper",
@@ -2127,7 +2238,8 @@ let nationalDex = {
             dexEntry: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
             cryUrl: "cries/194.mp3",
             ability: ["Poison Point", "Water Absorb", "Unaware"],
-            form: "Paldean Wooper"
+            form: "Paldean Wooper",
+            formType: ["Regional Form", "Paldean Form"]
         },
         {
             name: "Quagsire",
@@ -2146,7 +2258,8 @@ let nationalDex = {
             dexEntry: "This carefree Pokémon has an easy-going nature. While swimming, it always bumps into boat hulls.",
             cryUrl: "cries/195.mp3",
             ability: ["Damp", "Water Absorb", "Unaware"],
-            form: "Quagsire (Female)"
+            form: "Quagsire (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Murkrow",
@@ -2165,7 +2278,8 @@ let nationalDex = {
             dexEntry: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
             cryUrl: "cries/198.mp3",
             ability: ["Insomnia", "Super Luck", "Prankster"],
-            form: "Murkrow (Female)"
+            form: "Murkrow (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Slowking",
@@ -2184,7 +2298,8 @@ let nationalDex = {
             dexEntry: "A combination of toxins and the shock of evolving has increased Shellder's intelligence to the point that Shellder now controls Slowking.",
             cryUrl: "cries/199.mp3",
             ability: ["Curious Medicine", "Own Tempo", "Regenerator"],
-            form: "Galarian Slowking"
+            form: "Galarian Slowking",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Unown",
@@ -2203,7 +2318,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown A"
+            form: "Unown A",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2222,7 +2338,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown B"
+            form: "Unown B",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2241,7 +2358,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown C"
+            form: "Unown C",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2260,7 +2378,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown D"
+            form: "Unown D",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2279,7 +2398,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown E"
+            form: "Unown E",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2298,7 +2418,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown G"
+            form: "Unown G",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2317,7 +2438,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown H"
+            form: "Unown H",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2336,7 +2458,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown I"
+            form: "Unown I",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2355,7 +2478,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown J"
+            form: "Unown J",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2374,7 +2498,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown K"
+            form: "Unown K",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2393,7 +2518,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown L"
+            form: "Unown L",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2412,7 +2538,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown M"
+            form: "Unown M",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2431,7 +2558,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown N"
+            form: "Unown N",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2450,7 +2578,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown O"
+            form: "Unown O",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2469,7 +2598,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown P"
+            form: "Unown P",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2488,7 +2618,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown Q"
+            form: "Unown Q",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2507,7 +2638,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown R"
+            form: "Unown R",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2526,7 +2658,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown S"
+            form: "Unown S",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2545,7 +2678,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown T"
+            form: "Unown T",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2564,7 +2698,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown U"
+            form: "Unown U",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2583,7 +2718,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown V"
+            form: "Unown V",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2602,7 +2738,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown W"
+            form: "Unown W",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2621,7 +2758,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown X"
+            form: "Unown X",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2640,7 +2778,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown Y"
+            form: "Unown Y",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2659,7 +2798,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown Z"
+            form: "Unown Z",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2678,7 +2818,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown !"
+            form: "Unown !",
+            formType: ["Variation"]
         },
         {
             name: "Unown",
@@ -2697,7 +2838,8 @@ let nationalDex = {
             dexEntry: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
-            form: "Unown ?"
+            form: "Unown ?",
+            formType: ["Variation"]
         },
         {
             name: "Wobbuffet",
@@ -2716,7 +2858,8 @@ let nationalDex = {
             dexEntry: "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike.",
             cryUrl: "cries/202.mp3",
             ability: ["Shadow Tag", "Telepathy"],
-            form: "Wobbuffet (Female)"
+            form: "Wobbuffet (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Girafarig",
@@ -2735,7 +2878,8 @@ let nationalDex = {
             dexEntry: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
             cryUrl: "cries/203.mp3",
             ability: ["Inner Focus", "Early Bird", "Sap Sipper"],
-            form: "Girafarig (Female)"
+            form: "Girafarig (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gligar",
@@ -2754,7 +2898,8 @@ let nationalDex = {
             dexEntry: "It flies straight at its target's face then clamps down on the startled victim to inject poison.",
             cryUrl: "cries/207.mp3",
             ability: ["Hyper Cutter", "Sand Veil", "Immunity"],
-            form: "Gligar (Female)"
+            form: "Gligar (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Steelix",
@@ -2773,7 +2918,8 @@ let nationalDex = {
             dexEntry: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
             cryUrl: "cries/208.mp3",
             ability: ["Rock Head", "Sturdy", "Sheer Force"],
-            form: "Steelix (Female)"
+            form: "Steelix (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Steelix",
@@ -2792,7 +2938,8 @@ let nationalDex = {
             dexEntry: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
             cryUrl: "cries/formCries/208-Mega.mp3",
             ability: ["Sand Force"],
-            form: "Mega Steelix"
+            form: "Mega Steelix",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Qwilfish",
@@ -2811,7 +2958,8 @@ let nationalDex = {
             dexEntry: "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
             cryUrl: "cries/211.mp3",
             ability: ["Poison Point", "Swift Swim", "Intimidate"],
-            form: "Hisuian Qwilfish"
+            form: "Hisuian Qwilfish",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Scizor",
@@ -2830,7 +2978,8 @@ let nationalDex = {
             dexEntry: "It swings its eye-patterned pincers up to scare its foes. This makes it look like it has three heads.",
             cryUrl: "cries/212.mp3",
             ability: ["Swarm", "Technician", "Light Metal"],
-            form: "Scizor (Male)"
+            form: "Scizor (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Scizor",
@@ -2849,7 +2998,8 @@ let nationalDex = {
             dexEntry: "The excess energy that bathes this Pokémon keeps it in constant danger of overflow. It can't sustain a battle over long periods of time.",
             cryUrl: "cries/formCries/212-Mega.mp3",
             ability: ["Technician"],
-            form: "Mega Scizor"
+            form: "Mega Scizor",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Heracross",
@@ -2868,7 +3018,8 @@ let nationalDex = {
             dexEntry: "This powerful Pokémon thrusts its prized horn under its enemies' bellies then lifts and throws them.",
             cryUrl: "cries/214.mp3",
             ability: ["Swarm", "Guts", "Moxie"],
-            form: "Heracross (Female)"
+            form: "Heracross (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Heracross",
@@ -2887,7 +3038,8 @@ let nationalDex = {
             dexEntry: "It can grip things with its two horns and lift 500 times its own body weight.",
             cryUrl: "cries/formCries/214-Mega.mp3",
             ability: ["Skill Link"],
-            form: "Mega Heracross"
+            form: "Mega Heracross",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Sneasel",
@@ -2906,7 +3058,8 @@ let nationalDex = {
             dexEntry: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
             cryUrl: "cries/215.mp3",
             ability: ["Inner Focus", "Keen Eye", "Pickpocket"],
-            form: "Sneasel (Female)"
+            form: "Sneasel (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Sneasel",
@@ -2925,7 +3078,8 @@ let nationalDex = {
             dexEntry: "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
             cryUrl: "cries/215.mp3",
             ability: ["Inner Focus", "Keen Eye", "Poison Touch"],
-            form: "Hisuian Sneasel"
+            form: "Hisuian Sneasel",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Sneasel",
@@ -2944,7 +3098,8 @@ let nationalDex = {
             dexEntry: "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
             cryUrl: "cries/215.mp3",
             ability: ["Inner Focus", "Keen Eye", "Poison Touch"],
-            form: "Hisuian Sneasel (Female)"
+            form: "Hisuian Sneasel (Female)",
+            formType: ["Regional Form", "Hisuian Form", "Gender Difference"]
         },
         {
             name: "Ursaring",
@@ -2963,7 +3118,8 @@ let nationalDex = {
             dexEntry: "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen Berries.",
             cryUrl: "cries/217.mp3",
             ability: ["Guts", "Quick Feet", "Unnerve"],
-            form: "Ursaring (Female)"
+            form: "Ursaring (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Piloswine",
@@ -2982,7 +3138,8 @@ let nationalDex = {
             dexEntry: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
             cryUrl: "cries/221.mp3",
             ability: ["Oblivious", "Snow Cloak", "Thick Fat"],
-            form: "Piloswine (Female)"
+            form: "Piloswine (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Corsola",
@@ -3001,7 +3158,8 @@ let nationalDex = {
             dexEntry: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it.",
             cryUrl: "cries/222.mp3",
             ability: ["Weak Armor", "Cursed Body"],
-            form: "Galarian Corsola"
+            form: "Galarian Corsola",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Octillery",
@@ -3020,7 +3178,8 @@ let nationalDex = {
             dexEntry: "It traps enemies with its suction-cupped tentacles then smashes them with its rock-hard head.",
             cryUrl: "cries/224.mp3",
             ability: ["Suction Cups", "Sniper", "Moody"],
-            form: "Octillery (Female)"
+            form: "Octillery (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Houndoom",
@@ -3039,7 +3198,8 @@ let nationalDex = {
             dexEntry: "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
             cryUrl: "cries/229.mp3",
             ability: ["Early Bird", "Flash Fire", "Unnerve"],
-            form: "Houndoom (Female)"
+            form: "Houndoom (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Houndoom",
@@ -3058,7 +3218,8 @@ let nationalDex = {
             dexEntry: "Its red claws and the tips of its tail are melting from high internal temperatures that are painful to Houndoom itself.",
             cryUrl: "cries/formCries/229-Mega.mp3",
             ability: ["Solar Power"],
-            form: "Mega Houndoom"
+            form: "Mega Houndoom",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Donphan",
@@ -3077,7 +3238,8 @@ let nationalDex = {
             dexEntry: "It has sharp, hard tusks and a rugged hide. Its Tackle is strong enough to knock down a house.",
             cryUrl: "cries/232.mp3",
             ability: ["Sturdy", "Sand Veil"],
-            form: "Donphan (Female)"
+            form: "Donphan (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Tyranitar",
@@ -3096,7 +3258,8 @@ let nationalDex = {
             dexEntry: "Due to the colossal power poured into it, this Pokémon's back split right open. Its destructive instincts are the only thing keeping it moving.",
             cryUrl: "cries/formCries/248-Mega.mp3",
             ability: ["Sand Stream"],
-            form: "Mega Tyranitar"
+            form: "Mega Tyranitar",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Sceptile",
@@ -3115,7 +3278,8 @@ let nationalDex = {
             dexEntry: "The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.",
             cryUrl: "cries/formCries/254-Mega.mp3",
             ability: ["Lightning Rod"],
-            form: "Mega Sceptile"
+            form: "Mega Sceptile",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Torchic",
@@ -3134,7 +3298,8 @@ let nationalDex = {
             dexEntry: "Torchic sticks with its Trainer, following behind with unsteady steps. This Pokémon breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black.",
             cryUrl: "cries/255.mp3",
             ability: ["Blaze", "Speed Boost"],
-            form: "Torchic (Male)"
+            form: "Torchic (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Combusken",
@@ -3153,7 +3318,8 @@ let nationalDex = {
             dexEntry: "Combusken toughens up its legs and thighs by running through fields and mountains. This Pokémon's legs possess both speed and power, enabling it to dole out ten kicks in one second.",
             cryUrl: "cries/256.mp3",
             ability: ["Blaze", "Speed Boost"],
-            form: "Combusken (Female)"
+            form: "Combusken (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Blaziken",
@@ -3172,7 +3338,8 @@ let nationalDex = {
             dexEntry: "In battle, Blaziken blows out intense flames from its wrists and attacks the foe courageously. The stronger the foes, the more intensely this Pokémon's wrists burn.",
             cryUrl: "cries/257.mp3",
             ability: ["Blaze", "Speed Boost"],
-            form: "Blaziken (Female)"
+            form: "Blaziken (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Blaziken",
@@ -3191,7 +3358,8 @@ let nationalDex = {
             dexEntry: "In battle, Blaziken blows out intense flames from its wrists and attacks the foe courageously. The stronger the foes, the more intensely this Pokémon's wrists burn.",
             cryUrl: "cries/formCries/257-Mega.mp3",
             ability: ["Speed Boost"],
-            form: "Mega Blaziken"
+            form: "Mega Blaziken",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Swampert",
@@ -3210,7 +3378,8 @@ let nationalDex = {
             dexEntry: "Swampert is very strong. It has enough power to easily drag a boulder weighing more than a ton. This Pokémon also has powerful vision that lets it see even in murky water.",
             cryUrl: "cries/formCries/260-Mega.mp3",
             ability: ["Swift Swim"],
-            form: "Mega Swampert"
+            form: "Mega Swampert",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Zigzagoon",
@@ -3229,7 +3398,8 @@ let nationalDex = {
             dexEntry: "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
             cryUrl: "cries/263.mp3",
             ability: ["Pickup", "Gluttony", "Quick Feet"],
-            form: "Galarian Zigzagoon"
+            form: "Galarian Zigzagoon",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Linoone",
@@ -3248,7 +3418,8 @@ let nationalDex = {
             dexEntry: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
             cryUrl: "cries/264.mp3",
             ability: ["Pickup", "Gluttony", "Quick Feet"],
-            form: "Galarian Linoone"
+            form: "Galarian Linoone",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Beautifly",
@@ -3267,7 +3438,8 @@ let nationalDex = {
             dexEntry: "Beautifly's favorite food is the sweet pollen of flowers. If you want to see this Pokémon, just leave a potted flower by an open window. Beautifly is sure to come looking for pollen.",
             cryUrl: "cries/267.mp3",
             ability: ["Swarm", "Rivalry"],
-            form: "Beautifly (Male)"
+            form: "Beautifly (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Dustox",
@@ -3286,7 +3458,8 @@ let nationalDex = {
             dexEntry: "Dustox is instinctively drawn to light. Swarms of this Pokémon are attracted by the bright light of cities, where they wreak havoc by stripping the leaves off roadside trees for food.",
             cryUrl: "cries/269.mp3",
             ability: ["Shield Dust", "Compound Eyes"],
-            form: "Dustox (Female)"
+            form: "Dustox (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Ludicolo",
@@ -3305,7 +3478,8 @@ let nationalDex = {
             dexEntry: "Ludicolo begins dancing as soon as it hears cheerful, festive music. This Pokémon is said to appear when it hears the singing of children on hiking outings.",
             cryUrl: "cries/272.mp3",
             ability: ["Swift Swim", "Rain Dish", "Own Tempo"],
-            form: "Ludicolo (Male)"
+            form: "Ludicolo (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Nuzleaf",
@@ -3324,7 +3498,8 @@ let nationalDex = {
             dexEntry: "Nuzleaf live in densely overgrown forests. They occasionally venture out of the forest to scare people. This Pokémon dislikes having its long nose pinched.",
             cryUrl: "cries/274.mp3",
             ability: ["Chlorophyll", "Early Bird", "Pickpocket"],
-            form: "Nuzleaf (Male)"
+            form: "Nuzleaf (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Shiftry",
@@ -3343,7 +3518,8 @@ let nationalDex = {
             dexEntry: "Shiftry is a mysterious Pokémon that is said to live atop towering trees dating back over a thousand years. It creates terrific windstorms with the fans it holds.",
             cryUrl: "cries/275.mp3",
             ability: ["Chlorophyll", "Early Bird", "Pickpocket"],
-            form: "Shiftry (Female)"
+            form: "Shiftry (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gardevoir",
@@ -3362,7 +3538,8 @@ let nationalDex = {
             dexEntry: "Gardevoir has the ability to read the future. If it senses impending danger to its Trainer, this Pokémon is said to unleash its psychokinetic energy at full power.",
             cryUrl: "cries/formCries/282-Mega.mp3",
             ability: ["Pixilate"],
-            form: "Mega Gardevoir"
+            form: "Mega Gardevoir",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Sableye",
@@ -3381,7 +3558,8 @@ let nationalDex = {
             dexEntry: "The jewel from its chest, which has grown gigantic due to the effects of Mega Evolution, can turn back any attack.",
             cryUrl: "cries/formCries/302-Mega.mp3",
             ability: ["Magic Bounce"],
-            form: "Mega Sableye"
+            form: "Mega Sableye",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Mawile",
@@ -3400,7 +3578,8 @@ let nationalDex = {
             dexEntry: "It has an extremely vicious disposition. It grips prey in its two sets of jaws and tears them apart with raw power.",
             cryUrl: "cries/formCries/303-Mega.mp3",
             ability: ["Huge Power"],
-            form: "Mega Mawile"
+            form: "Mega Mawile",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Aggron",
@@ -3419,7 +3598,8 @@ let nationalDex = {
             dexEntry: "Aggron claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This Pokémon vigilantly patrols its territory at all times.",
             cryUrl: "cries/formCries/306-Mega.mp3",
             ability: ["Filter"],
-            form: "Mega Aggron"
+            form: "Mega Aggron",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Meditite",
@@ -3438,7 +3618,8 @@ let nationalDex = {
             dexEntry: "Meditite undertakes rigorous mental training deep in the mountains. However, whenever it meditates, this Pokémon always loses its concentration and focus. As a result, its training never ends.",
             cryUrl: "cries/307.mp3",
             ability: ["Pure Power", "Telepathy"],
-            form: "Meditite (Male)"
+            form: "Meditite (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Medicham",
@@ -3457,7 +3638,8 @@ let nationalDex = {
             dexEntry: "It is said that through meditation, Medicham heightens energy inside its body and sharpens its sixth sense. This Pokémon hides its presence by merging itself with fields and mountains.",
             cryUrl: "cries/308.mp3",
             ability: ["Pure Power", "Telepathy"],
-            form: "Medicham (Male)"
+            form: "Medicham (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Medicham",
@@ -3476,7 +3658,8 @@ let nationalDex = {
             dexEntry: "It is said that through meditation, Medicham heightens energy inside its body and sharpens its sixth sense. This Pokémon hides its presence by merging itself with fields and mountains.",
             cryUrl: "cries/formCries/308-Mega.mp3",
             ability: ["Pure Power"],
-            form: "Mega Medicham"
+            form: "Mega Medicham",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Manectric",
@@ -3495,7 +3678,8 @@ let nationalDex = {
             dexEntry: "Mega Evolution fills its body with a tremendous amount of electricity, but it's too much for Manectric to fully control.",
             cryUrl: "cries/formCries/310-Mega.mp3",
             ability: ["Intimidate"],
-            form: "Mega Manectric"
+            form: "Mega Manectric",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Roselia",
@@ -3514,7 +3698,8 @@ let nationalDex = {
             dexEntry: "Roselia shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this Pokémon brings serenity to living things.",
             cryUrl: "cries/315.mp3",
             ability: ["Natural Cure", "Poison Point", "Leaf Guard"],
-            form: "Roselia (Female)"
+            form: "Roselia (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gulpin",
@@ -3533,7 +3718,8 @@ let nationalDex = {
             dexEntry: "Virtually all of Gulpin's body is its stomach. As a result, it can swallow something its own size. This Pokémon's stomach contains a special fluid that digests anything.",
             cryUrl: "cries/316.mp3",
             ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"],
-            form: "Gulpin (Female)"
+            form: "Gulpin (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Swalot",
@@ -3552,7 +3738,8 @@ let nationalDex = {
             dexEntry: "When Swalot spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this Pokémon gulps it down whole with its cavernous mouth.",
             cryUrl: "cries/317.mp3",
             ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"],
-            form: "Swalot (Female)"
+            form: "Swalot (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Sharpedo",
@@ -3571,7 +3758,8 @@ let nationalDex = {
             dexEntry: "The spines sprouting from its head are transformed fangs. If they're injured or broken off, the spines will regenerate countless times.",
             cryUrl: "cries/formCries/319-Mega.mp3",
             ability: ["Strong Jaw"],
-            form: "Mega Sharpedo"
+            form: "Mega Sharpedo",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Numel",
@@ -3590,7 +3778,8 @@ let nationalDex = {
             dexEntry: "Numel is extremely dull witted - it doesn't notice being hit. However, it can't stand hunger for even a second. This Pokémon's body is a seething cauldron of boiling magma.",
             cryUrl: "cries/322.mp3",
             ability: ["Oblivious", "Simple", "Own Tempo"],
-            form: "Numel (Male)"
+            form: "Numel (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Camerupt",
@@ -3609,7 +3798,8 @@ let nationalDex = {
             dexEntry: "Camerupt has a volcano inside its body. Magma of 18,000 degrees F courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.",
             cryUrl: "cries/323.mp3",
             ability: ["Magma Armor", "Solid Rock", "Anger Point"],
-            form: "Camerupt (Male)"
+            form: "Camerupt (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Camerupt",
@@ -3628,7 +3818,8 @@ let nationalDex = {
             dexEntry: "Camerupt has a volcano inside its body. Magma of 18,000 degrees F courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.",
             cryUrl: "cries/formCries/323-Mega.mp3",
             ability: ["Sheer Force"],
-            form: "Mega Camerupt"
+            form: "Mega Camerupt",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Cacturne",
@@ -3647,7 +3838,8 @@ let nationalDex = {
             dexEntry: "During the daytime, Cacturne remains unmoving so that it does not lose any moisture to the harsh desert sun. This Pokémon becomes active at night when the temperature drops.",
             cryUrl: "cries/332.mp3",
             ability: ["Sand Veil", "Water Absorb"],
-            form: "Cacturne (Female)"
+            form: "Cacturne (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Altaria",
@@ -3666,7 +3858,8 @@ let nationalDex = {
             dexEntry: "Altaria dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this Pokémon makes its listeners experience dreamy wonderment.",
             cryUrl: "cries/formCries/334-Mega.mp3",
             ability: ["Pixilate"],
-            form: "Mega Altaria"
+            form: "Mega Altaria",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Milotic",
@@ -3685,7 +3878,8 @@ let nationalDex = {
             dexEntry: "Milotic is said to be the most beautiful of all the Pokémon. It has the power to becalm such emotions as anger and hostility to quell bitter feuding.",
             cryUrl: "cries/350.mp3",
             ability: ["Marvel Scale", "Competitive", "Cute Charm"],
-            form: "Milotic (Male)"
+            form: "Milotic (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Castform",
@@ -3704,7 +3898,8 @@ let nationalDex = {
             dexEntry: "This is the form Castform takes on the brightest of days. Its skin is unexpectedly hot to the touch, so approach with care.",
             cryUrl: "cries/351.mp3",
             ability: ["Forecast"],
-            form: "Castform (Sunny Form)"
+            form: "Castform (Sunny Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Castform",
@@ -3723,7 +3918,8 @@ let nationalDex = {
             dexEntry: "This is the form Castform takes when soaked with rain. When its body is compressed, water will seep out as if from a sponge.",
             cryUrl: "cries/351.mp3",
             ability: ["Forecast"],
-            form: "Castform (Rainy Form)"
+            form: "Castform (Rainy Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Castform",
@@ -3742,7 +3938,8 @@ let nationalDex = {
             dexEntry: "This is the form Castform takes when covered in snow. Its body becomes an ice-like material, with a temperature near 23 degrees Fahrenheit.",
             cryUrl: "cries/351.mp3",
             ability: ["Forecast"],
-            form: "Castform (Snowy Form)"
+            form: "Castform (Snowy Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Banette",
@@ -3761,7 +3958,8 @@ let nationalDex = {
             dexEntry: "Extraordinary energy amplifies its cursing power to such an extent that it can't help but curse its own Trainer.",
             cryUrl: "cries/formCries/354-Mega.mp3",
             ability: ["Prankster"],
-            form: "Mega Banette"
+            form: "Mega Banette",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Absol",
@@ -3780,7 +3978,8 @@ let nationalDex = {
             dexEntry: "When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.",
             cryUrl: "cries/formCries/359-Mega.mp3",
             ability: ["Magic Bounce"],
-            form: "Mega Absol"
+            form: "Mega Absol",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Glalie",
@@ -3799,7 +3998,8 @@ let nationalDex = {
             dexEntry: "The excess energy from Mega Evolution spilled over from its mouth, breaking its jaw. It spews endless blizzards.",
             cryUrl: "cries/formCries/362-Mega.mp3",
             ability: ["Refrigerate"],
-            form: "Mega Glalie"
+            form: "Mega Glalie",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Relicanth",
@@ -3818,7 +4018,8 @@ let nationalDex = {
             dexEntry: "Relicanth is a Pokémon species that existed for a hundred million years without ever changing its form. This ancient Pokémon feeds on microscopic organisms with its toothless mouth.",
             cryUrl: "cries/369.mp3",
             ability: ["Swift Swim", "Rock Head", "Sturdy"],
-            form: "Relicanth (Male)"
+            form: "Relicanth (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Salamence",
@@ -3837,7 +4038,8 @@ let nationalDex = {
             dexEntry: "Anyone standing in its path gets sliced right in two, while this Pokémon continues its flight without interruption.",
             cryUrl: "cries/formCries/373-Mega.mp3",
             ability: ["Aerilate"],
-            form: "Mega Salamence"
+            form: "Mega Salamence",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Metagross",
@@ -3856,7 +4058,8 @@ let nationalDex = {
             dexEntry: "This form results from one Metagross, one Metang, and two Beldum linking up.",
             cryUrl: "cries/formCries/376-Mega.mp3",
             ability: ["Tough Claws"],
-            form: "Mega Metagross"
+            form: "Mega Metagross",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Latias",
@@ -3875,7 +4078,8 @@ let nationalDex = {
             dexEntry: "Latias is highly sensitive to the emotions of people. If it senses any hostility, this Pokémon ruffles the feathers all over its body and cries shrilly to intimidate the foe.",
             cryUrl: "cries/formCries/380-Mega.mp3",
             ability: ["Levitate"],
-            form: "Mega Latias"
+            form: "Mega Latias",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Latios",
@@ -3894,7 +4098,8 @@ let nationalDex = {
             dexEntry: "Latios has the ability to make its foe see an image of what it has seen or imagines in its head. This Pokémon is intelligent and understands human speech.",
             cryUrl: "cries/formCries/381-Mega.mp3",
             ability: ["Levitate"],
-            form: "Mega Latios"
+            form: "Mega Latios",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Kyogre",
@@ -3913,7 +4118,8 @@ let nationalDex = {
             dexEntry: "Kyogre has the power to create massive rain clouds that cover the entire sky and bring about torrential downpours. This Pokémon saved people who were suffering from droughts.",
             cryUrl: "cries/formCries/382-Primal.mp3",
             ability: ["Primordial Sea"],
-            form: "Primal Kyogre"
+            form: "Primal Kyogre",
+            formType: ["Primal Reversion"]
         },
         {
             name: "Groudon",
@@ -3932,7 +4138,8 @@ let nationalDex = {
             dexEntry: "Groudon has long been described in mythology as the Pokémon that raised lands and expanded continents. This Pokémon took to sleep after a cataclysmic battle with Kyogre.",
             cryUrl: "cries/formCries/383-Primal.mp3",
             ability: ["Desolate Land"],
-            form: "Primal Groudon"
+            form: "Primal Groudon",
+            formType: ["Primal Reversion"]
         },
         {
             name: "Rayquaza",
@@ -3951,7 +4158,8 @@ let nationalDex = {
             dexEntry: "Rayquaza lived for hundreds of millions of years in the earth's ozone layer, never descending to the ground. This Pokémon appears to feed on water and particles in the atmosphere.",
             cryUrl: "cries/formCries/384-Mega.mp3",
             ability: ["Delta Stream"],
-            form: "Mega Rayquaza"
+            form: "Mega Rayquaza",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Deoxys",
@@ -3970,7 +4178,8 @@ let nationalDex = {
             dexEntry: "This Deoxys has transformed into its aggressive guise. It can fool enemies by altering its appearance.",
             cryUrl: "cries/386.mp3",
             ability: ["Pressure"],
-            form: "Deoxys (Attack Forme)"
+            form: "Deoxys (Attack Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Deoxys",
@@ -3989,7 +4198,8 @@ let nationalDex = {
             dexEntry: "When it changes form, an aurora appears. It absorbs attacks by altering its cellular structure.",
             cryUrl: "cries/386.mp3",
             ability: ["Pressure"],
-            form: "Deoxys (Defense Forme)"
+            form: "Deoxys (Defense Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Deoxys",
@@ -4008,7 +4218,8 @@ let nationalDex = {
             dexEntry: "A Pokémon that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
             cryUrl: "cries/386.mp3",
             ability: ["Pressure"],
-            form: "Deoxys (Speed Forme)"
+            form: "Deoxys (Speed Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Starly",
@@ -4027,7 +4238,8 @@ let nationalDex = {
             dexEntry: "They flock in great numbers. Though small, they flap their wings with great power.",
             cryUrl: "cries/396.mp3",
             ability: ["Keen Eye", "Reckless"],
-            form: "Starly (Female)"
+            form: "Starly (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Staravia",
@@ -4046,7 +4258,8 @@ let nationalDex = {
             dexEntry: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
             cryUrl: "cries/397.mp3",
             ability: ["Intimidate", "Reckless"],
-            form: "Staravia (Female)"
+            form: "Staravia (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Staraptor",
@@ -4065,7 +4278,8 @@ let nationalDex = {
             dexEntry: "It has a savage nature. It will courageously challenge foes that are much larger.",
             cryUrl: "cries/398.mp3",
             ability: ["Intimidate", "Reckless"],
-            form: "Staraptor (Female)"
+            form: "Staraptor (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Bidoof",
@@ -4084,7 +4298,8 @@ let nationalDex = {
             dexEntry: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
             cryUrl: "cries/399.mp3",
             ability: ["Simple", "Unaware", "Moody"],
-            form: "Bidoof (Male)"
+            form: "Bidoof (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Bibarel",
@@ -4103,7 +4318,8 @@ let nationalDex = {
             dexEntry: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
             cryUrl: "cries/400.mp3",
             ability: ["Simple", "Unaware", "Moody"],
-            form: "Bibarel (Male)"
+            form: "Bibarel (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Kricketot",
@@ -4122,7 +4338,8 @@ let nationalDex = {
             dexEntry: "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
             cryUrl: "cries/401.mp3",
             ability: ["Shed Skin", "Run Away"],
-            form: "Kricketot (Female)"
+            form: "Kricketot (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Kricketune",
@@ -4141,7 +4358,8 @@ let nationalDex = {
             dexEntry: "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
             cryUrl: "cries/402.mp3",
             ability: ["Swarm", "Technician"],
-            form: "Kricketune (Female)"
+            form: "Kricketune (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Shinx",
@@ -4160,7 +4378,8 @@ let nationalDex = {
             dexEntry: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
             cryUrl: "cries/403.mp3",
             ability: ["Rivalry", "Intimidate", "Guts"],
-            form: "Shinx (Female)"
+            form: "Shinx (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Luxio",
@@ -4179,7 +4398,8 @@ let nationalDex = {
             dexEntry: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
             cryUrl: "cries/404.mp3",
             ability: ["Rivalry", "Intimidate", "Guts"],
-            form: "Luxio (Female)"
+            form: "Luxio (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Luxray",
@@ -4198,7 +4418,8 @@ let nationalDex = {
             dexEntry: "It has eyes which can see through anything. It spots and captures prey hiding behind objects.",
             cryUrl: "cries/405.mp3",
             ability: ["Rivalry", "Intimidate", "Guts"],
-            form: "Luxray (Female)"
+            form: "Luxray (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Roserade",
@@ -4217,7 +4438,8 @@ let nationalDex = {
             dexEntry: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
             cryUrl: "cries/407.mp3",
             ability: ["Natural Cure", "Poison Point", "Technician"],
-            form: "Roserade (Male)"
+            form: "Roserade (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Burmy",
@@ -4236,7 +4458,8 @@ let nationalDex = {
             dexEntry: "It creates a cloak by weaving together sand, mud, and silk it has spat out. This earthen cloak is ruined by wind and rain, so the Pokémon hides away in caves and other such places.",
             cryUrl: "cries/412.mp3",
             ability: ["Shed Skin", "Overcoat"],
-            form: "Burmy (Sandy Cloak)"
+            form: "Burmy (Sandy Cloak)",
+            formType: ["Form Change"]
         },
         {
             name: "Burmy",
@@ -4255,7 +4478,8 @@ let nationalDex = {
             dexEntry: "When confronted by a lack of other materials, Burmy will create its cloak using dust and refuse. The cloak seems to be more comfortable than one would think.",
             cryUrl: "cries/412.mp3",
             ability: ["Shed Skin", "Overcoat"],
-            form: "Burmy (Trash Cloak)"
+            form: "Burmy (Trash Cloak)",
+            formType: ["Form Change"]
         },
         {
             name: "Wormadam",
@@ -4274,7 +4498,8 @@ let nationalDex = {
             dexEntry: "Its earthen skin is reasonably hard—it has no problem repelling a Starly's pecking, at least.",
             cryUrl: "cries/413.mp3",
             ability: ["Anticipation", "Overcoat"],
-            form: "Wormadam (Sandy Cloak)"
+            form: "Wormadam (Sandy Cloak)",
+            formType: ["Variation"]
         },
         {
             name: "Wormadam",
@@ -4293,7 +4518,8 @@ let nationalDex = {
             dexEntry: "Its body, composed of refuse, blends in to the scenery so much as to be inconspicuous. This seems to be the perfect way for the Pokémon to evade the detection of predators.",
             cryUrl: "cries/413.mp3",
             ability: ["Anticipation", "Overcoat"],
-            form: "Wormadam (Trash Cloak)"
+            form: "Wormadam (Trash Cloak)",
+            formType: ["Variation"]
         },
         {
             name: "Combee",
@@ -4312,7 +4538,8 @@ let nationalDex = {
             dexEntry: "A Pokémon formed by three others. It busily carries sweet floral honey to Vespiquen.",
             cryUrl: "cries/415.mp3",
             ability: ["Honey Gather", "Hustle"],
-            form: "Combee (Male)"
+            form: "Combee (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Pachirisu",
@@ -4331,7 +4558,8 @@ let nationalDex = {
             dexEntry: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
             cryUrl: "cries/417.mp3",
             ability: ["Run Away", "Pickup", "Volt Absorb"],
-            form: "Pachirisu (Female)"
+            form: "Pachirisu (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Buizel",
@@ -4350,7 +4578,8 @@ let nationalDex = {
             dexEntry: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
             cryUrl: "cries/418.mp3",
             ability: ["Swift Swim", "Water Veil"],
-            form: "Buizel (Female)"
+            form: "Buizel (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Floatzel",
@@ -4369,7 +4598,8 @@ let nationalDex = {
             dexEntry: "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
             cryUrl: "cries/419.mp3",
             ability: ["Swift Swim", "Water Veil"],
-            form: "Floatzel (Female)"
+            form: "Floatzel (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Cherrim",
@@ -4388,7 +4618,8 @@ let nationalDex = {
             dexEntry: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
             cryUrl: "cries/421.mp3",
             ability: ["Flower Gift"],
-            form: "Cherrim (Sunshine Form)"
+            form: "Cherrim (Sunshine Form)",
+            formType: ["Form Difference"]
         },
         {
             name: "Shellos",
@@ -4407,7 +4638,8 @@ let nationalDex = {
             dexEntry: "For the most part, it makes its home along the seashore. Its color and form differ according to its habitat and the quality of its food.",
             cryUrl: "cries/422.mp3",
             ability: ["Sticky Hold", "Storm Drain", "Sand Force"],
-            form: "West Sea Shellos"
+            form: "West Sea Shellos",
+            formType: ["Variation"]
         },
         {
             name: "Gastrodon",
@@ -4426,7 +4658,8 @@ let nationalDex = {
             dexEntry: "It has strong regenerative capabilities. Even if parts of it are bitten off by fish Pokémon, it will return to normal within a few hours.",
             cryUrl: "cries/423.mp3",
             ability: ["Sticky Hold", "Storm Drain", "Sand Force"],
-            form: "West Sea Gastrodon"
+            form: "West Sea Gastrodon",
+            formType: ["Variation"]
         },
         {
             name: "Ambipom",
@@ -4445,7 +4678,8 @@ let nationalDex = {
             dexEntry: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
             cryUrl: "cries/424.mp3",
             ability: ["Technician", "Pickup", "Skill Link"],
-            form: "Ambipom (Male)"
+            form: "Ambipom (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Lopunny",
@@ -4464,7 +4698,8 @@ let nationalDex = {
             dexEntry: "It swings its ears like whips and strikes its enemies with them. It has an intensely combative disposition.",
             cryUrl: "cries/formCries/428-Mega.mp3",
             ability: ["Scrappy"],
-            form: "Mega Lopunny"
+            form: "Mega Lopunny",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Gible",
@@ -4483,7 +4718,8 @@ let nationalDex = {
             dexEntry: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
             cryUrl: "cries/443.mp3",
             ability: ["Sand Veil", "Rough Skin"],
-            form: "Gible (Male)"
+            form: "Gible (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gabite",
@@ -4502,7 +4738,8 @@ let nationalDex = {
             dexEntry: "There is a long-held belief that medicine made from its scales will heal even incurable illnesses.",
             cryUrl: "cries/444.mp3",
             ability: ["Sand Veil", "Rough Skin"],
-            form: "Gabite (Male)"
+            form: "Gabite (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Garchomp",
@@ -4521,7 +4758,8 @@ let nationalDex = {
             dexEntry: "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
             cryUrl: "cries/445.mp3",
             ability: ["Sand Veil", "Rough Skin"],
-            form: "Garchomp (Male)"
+            form: "Garchomp (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Garchomp",
@@ -4540,7 +4778,8 @@ let nationalDex = {
             dexEntry: "Excess energy melted its arms and wings, transforming them into giant scythes.",
             cryUrl: "cries/formCries/445-Mega.mp3",
             ability: ["Sand Force"],
-            form: "Mega Garchomp"
+            form: "Mega Garchomp",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Lucario",
@@ -4559,7 +4798,8 @@ let nationalDex = {
             dexEntry: "Black streaks all over its body show where its auras and the energy of Mega Evolution intermingled and raced through it.",
             cryUrl: "cries/formCries/448-Mega.mp3",
             ability: ["Adaptability"],
-            form: "Mega Lucario"
+            form: "Mega Lucario",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Hippopotas",
@@ -4578,7 +4818,8 @@ let nationalDex = {
             dexEntry: "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
             cryUrl: "cries/449.mp3",
             ability: ["Sand Stream", "Sand Force"],
-            form: "Hippopotas (Female)"
+            form: "Hippopotas (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Hippowdon",
@@ -4597,7 +4838,8 @@ let nationalDex = {
             dexEntry: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
             cryUrl: "cries/450.mp3",
             ability: ["Sand Stream", "Sand Force"],
-            form: "Hippowdon (Female)"
+            form: "Hippowdon (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Croagunk",
@@ -4616,7 +4858,8 @@ let nationalDex = {
             dexEntry: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
             cryUrl: "cries/453.mp3",
             ability: ["Anticipation", "Dry Skin", "Poison Touch"],
-            form: "Croagunk (Female)"
+            form: "Croagunk (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Toxicroak",
@@ -4635,7 +4878,8 @@ let nationalDex = {
             dexEntry: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
             cryUrl: "cries/454.mp3",
             ability: ["Anticipation", "Dry Skin", "Poison Touch"],
-            form: "Toxicroak (Female)"
+            form: "Toxicroak (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Finneon",
@@ -4654,7 +4898,8 @@ let nationalDex = {
             dexEntry: "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
             cryUrl: "cries/456.mp3",
             ability: ["Swift Swim", "Storm Drain", "Water Veil"],
-            form: "Finneon (Male)"
+            form: "Finneon (Male)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Lumineon",
@@ -4673,7 +4918,8 @@ let nationalDex = {
             dexEntry: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
             cryUrl: "cries/457.mp3",
             ability: ["Swift Swim", "Storm Drain", "Water Veil"],
-            form: "Lumineon (Female)"
+            form: "Lumineon (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Snover",
@@ -4692,7 +4938,8 @@ let nationalDex = {
             dexEntry: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
             cryUrl: "cries/459.mp3",
             ability: ["Snow Warning", "Soundproof"],
-            form: "Snover (Female)"
+            form: "Snover (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Abomasnow",
@@ -4711,7 +4958,8 @@ let nationalDex = {
             dexEntry: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
             cryUrl: "cries/460.mp3",
             ability: ["Snow Warning", "Soundproof"],
-            form: "Abomasnow (Female)"
+            form: "Abomasnow (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Abomasnow",
@@ -4730,7 +4978,8 @@ let nationalDex = {
             dexEntry: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
             cryUrl: "cries/formCries/460-Mega.mp3",
             ability: ["Snow Warning"],
-            form: "Mega Abomasnow"
+            form: "Mega Abomasnow",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Weavile",
@@ -4749,7 +4998,8 @@ let nationalDex = {
             dexEntry: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
             cryUrl: "cries/461.mp3",
             ability: ["Pressure", "Pickpocket"],
-            form: "Weavile (Female)"
+            form: "Weavile (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Rhyperior",
@@ -4768,7 +5018,8 @@ let nationalDex = {
             dexEntry: "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
             cryUrl: "cries/464.mp3",
             ability: ["Lightning Rod", "Solid Rock", "Reckless"],
-            form: "Rhyperior (Female)"
+            form: "Rhyperior (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Tangrowth",
@@ -4787,7 +5038,8 @@ let nationalDex = {
             dexEntry: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
             cryUrl: "cries/465.mp3",
             ability: ["Chlorophyll", "Leaf Guard", "Regenerator"],
-            form: "Tangrowth (Female)"
+            form: "Tangrowth (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Mamoswine",
@@ -4806,7 +5058,8 @@ let nationalDex = {
             dexEntry: "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
             cryUrl: "cries/473.mp3",
             ability: ["Oblivious", "Snow Cloak", "Thick Fat"],
-            form: "Mamoswine (Female)"
+            form: "Mamoswine (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Gallade",
@@ -4825,7 +5078,8 @@ let nationalDex = {
             dexEntry: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
             cryUrl: "cries/formCries/475-Mega.mp3",
             ability: ["Inner Focus"],
-            form: "Mega Gallade"
+            form: "Mega Gallade",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Rotom",
@@ -4844,7 +5098,8 @@ let nationalDex = {
             dexEntry: "This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.",
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
-            form: "Heat Rotom"
+            form: "Heat Rotom",
+            formType: ["Form Change"]
         },
         {
             name: "Rotom",
@@ -4863,7 +5118,8 @@ let nationalDex = {
             dexEntry: "This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don't want your room flooded.",
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
-            form: "Wash Rotom"
+            form: "Wash Rotom",
+            formType: ["Form Change"]
         },
         {
             name: "Rotom",
@@ -4882,7 +5138,8 @@ let nationalDex = {
             dexEntry: "Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.",
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
-            form: "Frost Rotom"
+            form: "Frost Rotom",
+            formType: ["Form Change"]
         },
         {
             name: "Rotom",
@@ -4901,7 +5158,8 @@ let nationalDex = {
             dexEntry: "In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.",
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
-            form: "Fan Rotom"
+            form: "Fan Rotom",
+            formType: ["Form Change"]
         },
         {
             name: "Rotom",
@@ -4920,7 +5178,8 @@ let nationalDex = {
             dexEntry: "This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.",
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
-            form: "Mow Rotom"
+            form: "Mow Rotom",
+            formType: ["Form Change"]
         },
         {
             name: "Dialga",
@@ -4939,7 +5198,8 @@ let nationalDex = {
             dexEntry: "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.",
             cryUrl: "cries/483.mp3",
             ability: ["Pressure", "Telepathy"],
-            form: "Dialga (Origin Forme)"
+            form: "Dialga (Origin Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Palkia",
@@ -4958,7 +5218,8 @@ let nationalDex = {
             dexEntry: "It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.",
             cryUrl: "cries/484.mp3",
             ability: ["Pressure", "Telepathy"],
-            form: "Palkia (Origin Forme)"
+            form: "Palkia (Origin Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Giratina",
@@ -4977,7 +5238,8 @@ let nationalDex = {
             dexEntry: "Giratina loses its legs upon changing into this form. I believe this Pokémon must hail from a world where the heavens and the earth are as one, though I have no way of proving it.",
             cryUrl: "cries/487.mp3",
             ability: ["Levitate"],
-            form: "Giratina (Origin Forme)"
+            form: "Giratina (Origin Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Shaymin",
@@ -4996,7 +5258,8 @@ let nationalDex = {
             dexEntry: "Upon taking in the scent of a particular rare flower, Shaymin is enveloped in light, and its tiny body transforms. I took a whiff of the flower myself, but alas, my body remained unchanged.",
             cryUrl: "cries/formCries/492-Sky.mp3",
             ability: ["Serene Grace"],
-            form: "Shaymin (Sky Forme)"
+            form: "Shaymin (Sky Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5015,7 +5278,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Flame Plate)"
+            form: "Arceus (Flame Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5034,7 +5298,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Splash Plate)"
+            form: "Arceus (Splash Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5053,7 +5318,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Zap Plate)"
+            form: "Arceus (Zap Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5072,7 +5338,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Meadow Plate)"
+            form: "Arceus (Meadow Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5091,7 +5358,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Icicle Plate)"
+            form: "Arceus (Icicle Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5110,7 +5378,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Fist Plate)"
+            form: "Arceus (Fist Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5129,7 +5398,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Toxic Plate)"
+            form: "Arceus (Toxic Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5148,7 +5418,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Earth Plate)"
+            form: "Arceus (Earth Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5167,7 +5438,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Sky Plate)"
+            form: "Arceus (Sky Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5186,7 +5458,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Mind Plate)"
+            form: "Arceus (Mind Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5205,7 +5478,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Insect Plate)"
+            form: "Arceus (Insect Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5224,7 +5498,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Stone Plate)"
+            form: "Arceus (Stone Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5243,7 +5518,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Spooky Plate)"
+            form: "Arceus (Spooky Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5262,7 +5538,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Draco Plate)"
+            form: "Arceus (Draco Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5281,7 +5558,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Dread Plate)"
+            form: "Arceus (Dread Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5300,7 +5578,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Iron Plate)"
+            form: "Arceus (Iron Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Arceus",
@@ -5319,7 +5598,8 @@ let nationalDex = {
             dexEntry: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
-            form: "Arceus (Pixie Plate)"
+            form: "Arceus (Pixie Plate)",
+            formType: ["Form Change"]
         },
         {
             name: "Samurott",
@@ -5338,7 +5618,8 @@ let nationalDex = {
             dexEntry: "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
             cryUrl: "cries/503.mp3",
             ability: ["Torrent", "Shell Armor"],
-            form: "Hisuian Samurott"
+            form: "Hisuian Samurott",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Unfezant",
@@ -5357,7 +5638,8 @@ let nationalDex = {
             dexEntry: "Females of this species are very capable fliers, particularly notable for their stamina. They also take longer to adjust to people.",
             cryUrl: "cries/521.mp3",
             ability: ["Big Pecks", "Super Luck", "Rivalry"],
-            form: "Unfezant (Female)"
+            form: "Unfezant (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Audino",
@@ -5376,7 +5658,8 @@ let nationalDex = {
             dexEntry: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling.",
             cryUrl: "cries/formCries/531-Mega.mp3",
             ability: ["Healer"],
-            form: "Mega Audino"
+            form: "Mega Audino",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Lilligant",
@@ -5395,7 +5678,8 @@ let nationalDex = {
             dexEntry: "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
             cryUrl: "cries/549.mp3",
             ability: ["Chlorophyll", "Hustle", "Leaf Guard"],
-            form: "Hisuian Lilligant"
+            form: "Hisuian Lilligant",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Basculin",
@@ -5414,7 +5698,8 @@ let nationalDex = {
             dexEntry: "Even Basculin, which devours everything it can with its huge jaws, is nothing more than food to organisms stronger than itself.",
             cryUrl: "cries/550.mp3",
             ability: ["Rock Head", "Adaptability", "Mold Breaker"],
-            form: "Blue-Striped Basculin"
+            form: "Blue-Striped Basculin",
+            formType: ["Variation"]
         },
         {
             name: "Basculin",
@@ -5433,7 +5718,8 @@ let nationalDex = {
             dexEntry: "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
             cryUrl: "cries/550.mp3",
             ability: ["Rattled", "Adaptability", "Mold Breaker"],
-            form: "White-Striped Basculin"
+            form: "White-Striped Basculin",
+            formType: ["Variation"]
         },
         {
             name: "Darumaka",
@@ -5452,7 +5738,8 @@ let nationalDex = {
             dexEntry: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead.",
             cryUrl: "cries/554.mp3",
             ability: ["Hustle", "Inner Focus"],
-            form: "Galarian Darumaka"
+            form: "Galarian Darumaka",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Darmanitan",
@@ -5471,7 +5758,8 @@ let nationalDex = {
             dexEntry: "Through meditation, it calms its raging spirit and hones its psychic powers.",
             cryUrl: "cries/555.mp3",
             ability: ["Zen Mode"],
-            form: "Darmanitan (Zen Mode)"
+            form: "Darmanitan (Zen Mode)",
+            formType: ["Form Change"]
         },
         {
             name: "Darmanitan",
@@ -5490,7 +5778,8 @@ let nationalDex = {
             dexEntry: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later.",
             cryUrl: "cries/555.mp3",
             ability: ["Gorilla Tactics", "Zen Mode"],
-            form: "Galarian Darmanitan"
+            form: "Galarian Darmanitan",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Darmanitan",
@@ -5509,7 +5798,8 @@ let nationalDex = {
             dexEntry: "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately.",
             cryUrl: "cries/555.mp3",
             ability: ["Zen Mode"],
-            form: "Galarian Darmanitan (Zen Mode)"
+            form: "Galarian Darmanitan (Zen Mode)",
+            formType: ["Regional Form", "Galarian Form", "Form Change"]
         },
         {
             name: "Yamask",
@@ -5528,7 +5818,8 @@ let nationalDex = {
             dexEntry: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power.",
             cryUrl: "cries/562.mp3",
             ability: ["Wandering Spirit"],
-            form: "Galarian Yamask"
+            form: "Galarian Yamask",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Garbodor",
@@ -5547,7 +5838,8 @@ let nationalDex = {
             dexEntry: "Due to Gigantamax energy, this Pokémon's toxic gas has become much thicker, congealing into masses shaped like discarded toys.",
             cryUrl: "cries/569.mp3",
             ability: ["Stench", "Weak Armor", "Aftermath"],
-            form: "Gigantamax Garbodor"
+            form: "Gigantamax Garbodor",
+            formType: ["Gigantamax"]
         },
         {
             name: "Zorua",
@@ -5566,7 +5858,8 @@ let nationalDex = {
             dexEntry: "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
             cryUrl: "cries/570.mp3",
             ability: ["Illusion"],
-            form: "Hisuian Zorua"
+            form: "Hisuian Zorua",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Zoroark",
@@ -5585,7 +5878,8 @@ let nationalDex = {
             dexEntry: "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
             cryUrl: "cries/571.mp3",
             ability: ["Illusion"],
-            form: "Hisuian Zoroark"
+            form: "Hisuian Zoroark",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Deerling",
@@ -5604,7 +5898,8 @@ let nationalDex = {
             dexEntry: "To prevent Deerling from entering their fields, many farmers will have several Lycanroc stand guard, as they are the natural enemy of Deerling.",
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
-            form: "Deerling (Summer Form)"
+            form: "Deerling (Summer Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Deerling",
@@ -5623,7 +5918,8 @@ let nationalDex = {
             dexEntry: "These Pokémon are not shy—they will behave as they please, even in front of people. If you feed one of them, it will quickly take a liking to you.",
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
-            form: "Deerling (Autumn Form)"
+            form: "Deerling (Autumn Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Deerling",
@@ -5642,7 +5938,8 @@ let nationalDex = {
             dexEntry: "Deerling’s scent changes with the seasons, but when the Pokémon is in its Winter Form, it has hardly any scent at all.",
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
-            form: "Deerling (Winter Form)"
+            form: "Deerling (Winter Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Sawsbuck",
@@ -5661,7 +5958,8 @@ let nationalDex = {
             dexEntry: "There are many Sawsbuck enthusiasts. The thicker and larger the branches and leaves on its antlers, the more majestic the Sawsbuck is thought to be.",
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
-            form: "Sawsbuck (Summer Form)"
+            form: "Sawsbuck (Summer Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Sawsbuck",
@@ -5680,7 +5978,8 @@ let nationalDex = {
             dexEntry: "There are many Sawsbuck enthusiasts. The darker the red of the foliage that hangs from its antlers, the more stylish the Sawsbuck is thought to be.",
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
-            form: "Sawsbuck (Autumn Form)"
+            form: "Sawsbuck (Autumn Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Sawsbuck",
@@ -5699,7 +5998,8 @@ let nationalDex = {
             dexEntry: "It’s said that Sawsbuck are calm and easy to tame during the season when they take on this form, so it’s the perfect time to make one your partner.",
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
-            form: "Sawsbuck (Winter Form)"
+            form: "Sawsbuck (Winter Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Frillish",
@@ -5718,7 +6018,8 @@ let nationalDex = {
             dexEntry: "It envelops its prey in its veillike arms and draws it down to the deeps, five miles below the ocean's surface.",
             cryUrl: "cries/592.mp3",
             ability: ["Water Absorb", "Cursed Body", "Damp"],
-            form: "Frillish (Female)"
+            form: "Frillish (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Jellicent",
@@ -5737,7 +6038,8 @@ let nationalDex = {
             dexEntry: "These Pokémon have body compositions that are mostly identical to seawater. They make their lairs from sunken ships.",
             cryUrl: "cries/593.mp3",
             ability: ["Water Absorb", "Cursed Body", "Damp"],
-            form: "Jellicent (Female)"
+            form: "Jellicent (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Stunfisk",
@@ -5756,7 +6058,8 @@ let nationalDex = {
             dexEntry: "Living in mud with a high iron content has given it a strong steel body.",
             cryUrl: "cries/618.mp3",
             ability: ["Mimicry"],
-            form: "Galarian Stunfisk"
+            form: "Galarian Stunfisk",
+            formType: ["Regional Form", "Galarian Form"]
         },
         {
             name: "Braviary",
@@ -5775,7 +6078,8 @@ let nationalDex = {
             dexEntry: "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
             cryUrl: "cries/628.mp3",
             ability: ["Keen Eye", "Sheer Force", "Defiant"],
-            form: "Hisuian Braviary"
+            form: "Hisuian Braviary",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Tornadus",
@@ -5794,7 +6098,8 @@ let nationalDex = {
             dexEntry: "An example of what is known as a “form change,” though I suspect this strange avian guise to be Tornadus's true form. Tornadus has been sighted crossing the ocean while in this form.",
             cryUrl: "cries/formCries/641-Therian.mp3",
             ability: ["Regenerator"],
-            form: "Tornadus (Therian Forme)"
+            form: "Tornadus (Therian Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Thundurus",
@@ -5813,7 +6118,8 @@ let nationalDex = {
             dexEntry: "Quick as a flash, it materializes out of nowhere. It pulverizes foes into nothingness with showers of devastatingly powerful lightning bolts launched from the string of orbs on its tail.",
             cryUrl: "cries/formCries/642-Therian.mp3",
             ability: ["Volt Absorb"],
-            form: "Thundurus (Therian Forme)"
+            form: "Thundurus (Therian Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Landorus",
@@ -5832,7 +6138,8 @@ let nationalDex = {
             dexEntry: "Landorus soars through the sky in this form, bestowing plentiful harvests upon the land and earning the people's reverence. It can traverse the whole of Hisui in a mere couple of hours.",
             cryUrl: "cries/formCries/645-Therian.mp3",
             ability: ["Intimidate"],
-            form: "Landorus (Therian Forme)"
+            form: "Landorus (Therian Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Kyurem",
@@ -5851,7 +6158,8 @@ let nationalDex = {
             dexEntry: "It's said that this Pokémon battles in order to protect the ideal world that will exist in the future for people and Pokémon.",
             cryUrl: "cries/formCries/646-Black.mp3",
             ability: ["Teravolt"],
-            form: "Black Kyurem"
+            form: "Black Kyurem",
+            formType: ["Fusion", "Form Change"]
         },
         {
             name: "Kyurem",
@@ -5870,7 +6178,8 @@ let nationalDex = {
             dexEntry: "The sameness of Reshiram's and Kyurem's genes allowed Kyurem to absorb Reshiram. Kyurem can now use the power of both fire and ice.",
             cryUrl: "cries/formCries/646-White.mp3",
             ability: ["Turboblaze"],
-            form: "White Kyurem"
+            form: "White Kyurem",
+            formType: ["Fusion", "Form Change"]
         },
         {
             name: "Keldeo",
@@ -5889,7 +6198,8 @@ let nationalDex = {
             dexEntry: "Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.",
             cryUrl: "cries/647.mp3",
             ability: ["Justified"],
-            form: "Keldeo (Resolute Forme)"
+            form: "Keldeo (Resolute Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Meloetta",
@@ -5908,7 +6218,8 @@ let nationalDex = {
             dexEntry: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
             cryUrl: "cries/648.mp3",
             ability: ["Serene Grace"],
-            form: "Meloetta (Pirouette Forme)"
+            form: "Meloetta (Pirouette Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Genesect",
@@ -5927,7 +6238,8 @@ let nationalDex = {
             dexEntry: "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.",
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
-            form: "Genesect (Douse Drive)"
+            form: "Genesect (Douse Drive)",
+            formType: ["Form Change"]
         },
         {
             name: "Genesect",
@@ -5946,7 +6258,8 @@ let nationalDex = {
             dexEntry: "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.",
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
-            form: "Genesect (Shock Drive)"
+            form: "Genesect (Shock Drive)",
+            formType: ["Form Change"]
         },
         {
             name: "Genesect",
@@ -5965,7 +6278,8 @@ let nationalDex = {
             dexEntry: "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.",
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
-            form: "Genesect (Burn Drive)"
+            form: "Genesect (Burn Drive)",
+            formType: ["Form Change"]
         },
         {
             name: "Genesect",
@@ -5984,7 +6298,8 @@ let nationalDex = {
             dexEntry: "Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma.",
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
-            form: "Genesect (Chill Drive)"
+            form: "Genesect (Chill Drive)",
+            formType: ["Form Change"]
         },
         {
             name: "Greninja",
@@ -6003,7 +6318,8 @@ let nationalDex = {
             dexEntry: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
             cryUrl: "cries/658.mp3",
             ability: ["Battle Bond"],
-            form: "Ash-Greninja"
+            form: "Ash-Greninja",
+            formType: ["Special Form", "Form Change"]
         },
         {
             name: "Vivillon",
@@ -6022,7 +6338,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from places with many islands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Archipelago Pattern)"
+            form: "Vivillon (Archipelago Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6041,7 +6358,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of vast space.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Continental Pattern)"
+            form: "Vivillon (Continental Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6060,7 +6378,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with distinct seasons.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Elegant Pattern)"
+            form: "Vivillon (Elegant Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6079,7 +6398,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from a mysterious land.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Fancy Pattern)"
+            form: "Vivillon (Fancy Pattern)",
+            formType: ["Variation", "Special Form"]
         },
         {
             name: "Vivillon",
@@ -6098,7 +6418,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from verdant lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Garden Pattern)"
+            form: "Vivillon (Garden Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6117,7 +6438,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with little rain.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (High Plains Pattern)"
+            form: "Vivillon (High Plains Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6136,7 +6458,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from frigid lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Icy Snow Pattern)"
+            form: "Vivillon (Icy Snow Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6155,7 +6478,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of tropical rain forests.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Jungle Pattern)"
+            form: "Vivillon (Jungle Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6174,7 +6498,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with ocean breezes.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Marine Pattern)"
+            form: "Vivillon (Marine Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6193,7 +6518,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from sun-drenched lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Modern Pattern)"
+            form: "Vivillon (Modern Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6212,7 +6538,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with intense rainfall.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Monsoon Pattern)"
+            form: "Vivillon (Monsoon Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6231,7 +6558,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of perpetual summer.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Ocean Pattern)"
+            form: "Vivillon (Ocean Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6250,7 +6578,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from a special land.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Poké Ball Pattern)"
+            form: "Vivillon (Poké Ball Pattern)",
+            formType: ["Variation", "Special Form"]
         },
         {
             name: "Vivillon",
@@ -6269,7 +6598,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from snowy lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Polar Pattern)"
+            form: "Vivillon (Polar Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6288,7 +6618,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands where large rivers flow.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (River Pattern)"
+            form: "Vivillon (River Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6307,7 +6638,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from parched lands.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Sandstorm Pattern)"
+            form: "Vivillon (Sandstorm Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6326,7 +6658,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands with a tropical climate.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Savanna Pattern)"
+            form: "Vivillon (Savanna Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6345,7 +6678,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands bathed in light.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Sun Pattern)"
+            form: "Vivillon (Sun Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Vivillon",
@@ -6364,7 +6698,8 @@ let nationalDex = {
             dexEntry: "The patterns on this Pokémon depend on the climate and topography of the land it was born in. This form is from lands of severe cold.",
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
-            form: "Vivillon (Tundra Pattern)"
+            form: "Vivillon (Tundra Pattern)",
+            formType: ["Variation"]
         },
         {
             name: "Pyroar",
@@ -6383,7 +6718,8 @@ let nationalDex = {
             dexEntry: "The male with the largest mane of fire is the leader of the pride.",
             cryUrl: "cries/668.mp3",
             ability: ["Rivalry", "Unnerve", "Moxie"],
-            form: "Pyroar (Female)"
+            form: "Pyroar (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Flabébé",
@@ -6402,7 +6738,8 @@ let nationalDex = {
             dexEntry: "This Flabébé rides a yellow flower. The Pokémon is defenseless and vulnerable before it has found and received power from a flower.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Flabébé (Yellow Flower)"
+            form: "Flabébé (Yellow Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Flabébé",
@@ -6421,7 +6758,8 @@ let nationalDex = {
             dexEntry: "This Flabébé rides an orange flower. On its head, it wears a crown of pollen that has healing properties.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Flabébé (Orange Flower)"
+            form: "Flabébé (Orange Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Flabébé",
@@ -6440,7 +6778,8 @@ let nationalDex = {
             dexEntry: "Once it finds a flower it likes, this Pokémon will spend the rest of its life taking care of its flower. This Flabébé rides a blue flower.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Flabébé (Blue Flower)"
+            form: "Flabébé (Blue Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Flabébé",
@@ -6459,7 +6798,8 @@ let nationalDex = {
             dexEntry: "This Flabébé rides a white flower. The wind blows this Pokémon around as it drifts in search of flower gardens.",
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Flabébé (White Flower)"
+            form: "Flabébé (White Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Floette",
@@ -6478,7 +6818,8 @@ let nationalDex = {
             dexEntry: "This Pokémon can draw forth the power hidden within yellow flowers. This power then becomes the moves Floette uses to protect itself.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Floette (Yellow Flower)"
+            form: "Floette (Yellow Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Floette",
@@ -6497,7 +6838,8 @@ let nationalDex = {
             dexEntry: "This Pokémon can draw forth the most power when in sync with orange flowers, compared to flowers of other colors.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Floette (Orange Flower)"
+            form: "Floette (Orange Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Floette",
@@ -6516,7 +6858,8 @@ let nationalDex = {
             dexEntry: "Whenever this Pokémon finds flowering plants that are withering, it will bring them back to its territory and care for them until they are healthy.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Floette (Blue Flower)"
+            form: "Floette (Blue Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Floette",
@@ -6535,7 +6878,8 @@ let nationalDex = {
             dexEntry: "Floette that are fond of white flowers can also easily sync with flowers of other colors.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Floette (White Flower)"
+            form: "Floette (White Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Floette",
@@ -6554,7 +6898,8 @@ let nationalDex = {
             dexEntry: "The flower it's holding can no longer be found blooming anywhere. It's also thought to contain terrifying power.",
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Floette (Eternal Flower)"
+            form: "Floette (Eternal Flower)",
+            formType: ["Special Form"]
         },
         {
             name: "Florges",
@@ -6573,7 +6918,8 @@ let nationalDex = {
             dexEntry: "It is said that there was once a Florges that protected the garden of a castle for over 300 years.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Florges (Yellow Flower)"
+            form: "Florges (Yellow Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Florges",
@@ -6592,7 +6938,8 @@ let nationalDex = {
             dexEntry: "Its orange flowers fire off powerful beams, attacking as if they were a battery of artillery.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Florges (Orange Flower)"
+            form: "Florges (Orange Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Florges",
@@ -6611,7 +6958,8 @@ let nationalDex = {
             dexEntry: "Though usually compassionate, Florges will hunt down anyone who vandalizes its flower garden, showing no mercy even if they beg for their lives.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Florges (Blue Flower)"
+            form: "Florges (Blue Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Florges",
@@ -6630,7 +6978,8 @@ let nationalDex = {
             dexEntry: "A flower garden made by a white-flowered Florges will be beautifully decorated with flowering plants of many different colors.",
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
-            form: "Florges (White Flower)"
+            form: "Florges (White Flower)",
+            formType: ["Variation"]
         },
         {
             name: "Furfrou",
@@ -6649,7 +6998,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Heart Trim)"
+            form: "Furfrou (Heart Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6668,7 +7018,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Star Trim)"
+            form: "Furfrou (Star Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6687,7 +7038,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Diamond Trim)"
+            form: "Furfrou (Diamond Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6706,7 +7058,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Debutante Trim)"
+            form: "Furfrou (Debutante Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6725,7 +7078,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Matron Trim)"
+            form: "Furfrou (Matron Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6744,7 +7098,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Dandy Trim)"
+            form: "Furfrou (Dandy Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6763,7 +7118,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (La Reine Trim)"
+            form: "Furfrou (La Reine Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6782,7 +7138,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Kabuki Trim)"
+            form: "Furfrou (Kabuki Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Furfrou",
@@ -6801,7 +7158,8 @@ let nationalDex = {
             dexEntry: "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
-            form: "Furfrou (Pharaoh Trim)"
+            form: "Furfrou (Pharaoh Trim)",
+            formType: ["Form Change"]
         },
         {
             name: "Meowstic",
@@ -6820,7 +7178,8 @@ let nationalDex = {
             dexEntry: "Females are a bit more selfish and aggressive than males. If they don't get what they want, they will torment you with their psychic abilities.",
             cryUrl: "cries/678.mp3",
             ability: ["Keen Eye", "Infiltrator", "Competitive"],
-            form: "Meowstic (Female)"
+            form: "Meowstic (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Aegislash",
@@ -6839,7 +7198,8 @@ let nationalDex = {
             dexEntry: "This stance is dedicated to offense. It can cleave any opponent with the strength and weight of its steel blade.",
             cryUrl: "cries/681.mp3",
             ability: ["Stance Change"],
-            form: "Aegislash (Blade Forme)"
+            form: "Aegislash (Blade Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Sliggoo",
@@ -6858,7 +7218,8 @@ let nationalDex = {
             dexEntry: "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
             cryUrl: "cries/705.mp3",
             ability: ["Sap Sipper", "Overcoat", "Gooey"],
-            form: "Hisuian Sliggoo"
+            form: "Hisuian Sliggoo",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Goodra",
@@ -6877,7 +7238,8 @@ let nationalDex = {
             dexEntry: "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.",
             cryUrl: "cries/706.mp3",
             ability: ["Sap Sipper", "Overcoat", "Gooey"],
-            form: "Hisuian Goodra"
+            form: "Hisuian Goodra",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Pumpkaboo",
@@ -6896,7 +7258,8 @@ let nationalDex = {
             dexEntry: "When taking spirits to the afterlife, small Pumpkaboo prefer the spirits of children to those of adults.",
             cryUrl: "cries/710.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
-            form: "Pumpkaboo (Small Size)"
+            form: "Pumpkaboo (Small Size)",
+            formType: ["Variation"]
         },
         {
             name: "Pumpkaboo",
@@ -6915,7 +7278,8 @@ let nationalDex = {
             dexEntry: "When taking spirits to the afterlife, large Pumpkaboo prefer the spirits of adults to those of children.",
             cryUrl: "cries/710.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
-            form: "Pumpkaboo (Large Size)"
+            form: "Pumpkaboo (Large Size)",
+            formType: ["Variation"]
         },
         {
             name: "Pumpkaboo",
@@ -6934,7 +7298,8 @@ let nationalDex = {
             dexEntry: "Supersized Pumpkaboo are very partial to the spirits of people who were of similarly superior proportions.",
             cryUrl: "cries/formCries/710-Super.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
-            form: "Pumpkaboo (Super Size)"
+            form: "Pumpkaboo (Super Size)",
+            formType: ["Variation"]
         },
         {
             name: "Gourgeist",
@@ -6953,7 +7318,8 @@ let nationalDex = {
             dexEntry: "Small Gourgeist pretend to be children to fool adults. Anyone who falls for the act gets carried away to the hereafter.",
             cryUrl: "cries/711.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
-            form: "Gourgeist (Small Size)"
+            form: "Gourgeist (Small Size)",
+            formType: ["Variation"]
         },
         {
             name: "Gourgeist",
@@ -6972,7 +7338,8 @@ let nationalDex = {
             dexEntry: "Large Gourgeist put on the guise of adults, taking the hands of children to lead them to the afterlife.",
             cryUrl: "cries/711.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
-            form: "Gourgeist (Large Size)"
+            form: "Gourgeist (Large Size)",
+            formType: ["Variation"]
         },
         {
             name: "Gourgeist",
@@ -6991,7 +7358,8 @@ let nationalDex = {
             dexEntry: "Supersized Gourgeist aren't picky. They will forcefully drag anyone off to the afterlife.",
             cryUrl: "cries/formCries/711-Super.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
-            form: "Gourgeist (Super Size)"
+            form: "Gourgeist (Super Size)",
+            formType: ["Variation"]
         },
         {
             name: "Avalugg",
@@ -7010,7 +7378,8 @@ let nationalDex = {
             dexEntry: "The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.",
             cryUrl: "cries/713.mp3",
             ability: ["Strong Jaw", "Ice Body", "Sturdy"],
-            form: "Hisuian Avalugg"
+            form: "Hisuian Avalugg",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Xerneas",
@@ -7029,7 +7398,8 @@ let nationalDex = {
             dexEntry: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
             cryUrl: "cries/716.mp3",
             ability: ["Fairy Aura"],
-            form: "Xerneas (Neutral Mode)"
+            form: "Xerneas (Neutral Mode)",
+            formType: ["Form Change"]
         },
         {
             name: "Zygarde",
@@ -7048,7 +7418,8 @@ let nationalDex = {
             dexEntry: "Its sharp fangs make short work of finishing off its enemies, but it's unable to maintain this body indefinitely. After a period of time, it falls apart.",
             cryUrl: "cries/formCries/718-TenPercent.mp3",
             ability: ["Aura Break", "Power Construct"],
-            form: "Zygarde (10% Forme)"
+            form: "Zygarde (10% Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Zygarde",
@@ -7067,7 +7438,8 @@ let nationalDex = {
             dexEntry: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
             cryUrl: "cries/formCries/718-Complete.mp3",
             ability: ["Power Construct"],
-            form: "Zygarde (Complete Forme)"
+            form: "Zygarde (Complete Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Diancie",
@@ -7086,7 +7458,8 @@ let nationalDex = {
             dexEntry: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
             cryUrl: "cries/formCries/719-Mega.mp3",
             ability: ["Magic Bounce"],
-            form: "Mega Diancie"
+            form: "Mega Diancie",
+            formType: ["Mega Evolution"]
         },
         {
             name: "Hoopa",
@@ -7105,7 +7478,8 @@ let nationalDex = {
             dexEntry: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
             cryUrl: "cries/formCries/720-Unbound.mp3",
             ability: ["Magician"],
-            form: "Hoopa Unbound"
+            form: "Hoopa Unbound",
+            formType: ["Form Change"]
         },
         {
             name: "Decidueye",
@@ -7124,7 +7498,8 @@ let nationalDex = {
             dexEntry: "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
             cryUrl: "cries/724.mp3",
             ability: ["Overgrow", "Long Reach"],
-            form: "Hisuian Decidueye"
+            form: "Hisuian Decidueye",
+            formType: ["Regional Form", "Hisuian Form"]
         },
         {
             name: "Oricorio",
@@ -7143,7 +7518,8 @@ let nationalDex = {
             dexEntry: "This Oricorio has sipped bright yellow nectar. Its bright, cheerful dance melts the hearts of its enemies.",
             cryUrl: "cries/formCries/741-PomPom.mp3",
             ability: ["Dancer"],
-            form: "Oricorio (Pom-Pom Style)"
+            form: "Oricorio (Pom-Pom Style)",
+            formType: ["Form Change"]
         },
         {
             name: "Oricorio",
@@ -7162,7 +7538,8 @@ let nationalDex = {
             dexEntry: "This Oricorio relaxes by swaying gently. This increases its psychic energy, which it then fires at its enemies.",
             cryUrl: "cries/formCries/741-Pau.mp3",
             ability: ["Dancer"],
-            form: "Oricorio (Pa'u Style)"
+            form: "Oricorio (Pa'u Style)",
+            formType: ["Form Change"]
         },
         {
             name: "Oricorio",
@@ -7181,7 +7558,8 @@ let nationalDex = {
             dexEntry: "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
             cryUrl: "cries/formCries/741-Sensu.mp3",
             ability: ["Dancer"],
-            form: "Oricorio (Sensu Style)"
+            form: "Oricorio (Sensu Style)",
+            formType: ["Form Change"]
         },
         {
             name: "Lycanroc",
@@ -7200,7 +7578,8 @@ let nationalDex = {
             dexEntry: "The more intimidating the opponent it faces, the more this Pokémon's blood boils. It will attack with no regard for its own safety.",
             cryUrl: "cries/formCries/745-Midnight.mp3",
             ability: ["Keen Eye", "Vital Spirit", "No Guard"],
-            form: "Lycanroc (Midnight Form)"
+            form: "Lycanroc (Midnight Form)",
+            formType: ["Variation"]
         },
         {
             name: "Lycanroc",
@@ -7219,7 +7598,8 @@ let nationalDex = {
             dexEntry: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
             cryUrl: "cries/formCries/745-Dusk.mp3",
             ability: ["Tough Claws"],
-            form: "Lycanroc (Dusk Form)"
+            form: "Lycanroc (Dusk Form)",
+            formType: ["Variation", "Special Form"]
         },
         {
             name: "Wishiwashi",
@@ -7238,7 +7618,8 @@ let nationalDex = {
             dexEntry: "Weak Wishiwashi school together to concentrate their power. Their united force makes them the demon of the sea, feared near and far.",
             cryUrl: "cries/formCries/746-School.mp3",
             ability: ["Schooling"],
-            form: "Wishiwashi (School Form)"
+            form: "Wishiwashi (School Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7257,7 +7638,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Fire Memory)"
+            form: "Silvally (Fire Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7276,7 +7658,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Water Memory)"
+            form: "Silvally (Water Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7295,7 +7678,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Electric Memory)"
+            form: "Silvally (Electric Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7314,7 +7698,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Grass Memory)"
+            form: "Silvally (Grass Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7333,7 +7718,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Ice Memory)"
+            form: "Silvally (Ice Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7352,7 +7738,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Fighting Memory)"
+            form: "Silvally (Fighting Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7371,7 +7758,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Poison Memory)"
+            form: "Silvally (Poison Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7390,7 +7778,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Ground Memory)"
+            form: "Silvally (Ground Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7409,7 +7798,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Flying Memory)"
+            form: "Silvally (Flying Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7428,7 +7818,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Psychic Memory)"
+            form: "Silvally (Psychic Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7447,7 +7838,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Bug Memory)"
+            form: "Silvally (Bug Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7466,7 +7858,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Rock Memory)"
+            form: "Silvally (Rock Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7485,7 +7878,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Ghost Memory)"
+            form: "Silvally (Ghost Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7504,7 +7898,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Dragon Memory)"
+            form: "Silvally (Dragon Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7523,7 +7918,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Dark Memory)"
+            form: "Silvally (Dark Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7542,7 +7938,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Steel Memory)"
+            form: "Silvally (Steel Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Silvally",
@@ -7561,7 +7958,8 @@ let nationalDex = {
             dexEntry: "It destroyed its own control mask. It has become capable of changing its type by equipping special memories.",
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
-            form: "Silvally (Fairy Memory)"
+            form: "Silvally (Fairy Memory)",
+            formType: ["Form Change"]
         },
         {
             name: "Minior",
@@ -7580,7 +7978,8 @@ let nationalDex = {
             dexEntry: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
-            form: "Minior (Red Core Form)"
+            form: "Minior (Red Core Form)",
+            formType: ["Form Change", "Variation"]
         },
         {
             name: "Minior",
@@ -7599,7 +7998,8 @@ let nationalDex = {
             dexEntry: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
-            form: "Minior (Orange Core Form)"
+            form: "Minior (Orange Core Form)",
+            formType: ["Form Change", "Variation"]
         },
         {
             name: "Minior",
@@ -7618,7 +8018,8 @@ let nationalDex = {
             dexEntry: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
-            form: "Minior (Yellow Core Form)"
+            form: "Minior (Yellow Core Form)",
+            formType: ["Form Change", "Variation"]
         },
         {
             name: "Minior",
@@ -7637,7 +8038,8 @@ let nationalDex = {
             dexEntry: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
-            form: "Minior (Green Core Form)"
+            form: "Minior (Green Core Form)",
+            formType: ["Form Change", "Variation"]
         },
         {
             name: "Minior",
@@ -7656,7 +8058,8 @@ let nationalDex = {
             dexEntry: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
-            form: "Minior (Blue Core Form)"
+            form: "Minior (Blue Core Form)",
+            formType: ["Form Change", "Variation"]
         },
         {
             name: "Minior",
@@ -7675,7 +8078,8 @@ let nationalDex = {
             dexEntry: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
-            form: "Minior (Indigo Core Form)"
+            form: "Minior (Indigo Core Form)",
+            formType: ["Form Change", "Variation"]
         },
         {
             name: "Minior",
@@ -7694,7 +8098,8 @@ let nationalDex = {
             dexEntry: "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
-            form: "Minior (Violet Core Form)"
+            form: "Minior (Violet Core Form)",
+            formType: ["Form Change", "Variation"]
         },
         {
             name: "Mimikyu",
@@ -7713,7 +8118,8 @@ let nationalDex = {
             dexEntry: "After going to all the effort of disguising itself, its neck was broken. Whatever is inside is probably unharmed, but it's still feeling sad.",
             cryUrl: "cries/778.mp3",
             ability: ["Disguise"],
-            form: "Mimikyu (Busted Form)"
+            form: "Mimikyu (Busted Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Necrozma",
@@ -7732,7 +8138,8 @@ let nationalDex = {
             dexEntry: "This is its form while it is devouring the light of Solgaleo. It pounces on foes and then slashes them with the claws on its four limbs and back.",
             cryUrl: "cries/formCries/800-DuskMane.mp3",
             ability: ["Prism Armor"],
-            form: "Dusk Mane Necrozma"
+            form: "Dusk Mane Necrozma",
+            formType: ["Fusion", "Form Change"]
         },
         {
             name: "Necrozma",
@@ -7751,7 +8158,8 @@ let nationalDex = {
             dexEntry: "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
             cryUrl: "cries/formCries/800-DawnWings.mp3",
             ability: ["Prism Armor"],
-            form: "Dawn Wings Necrozma"
+            form: "Dawn Wings Necrozma",
+            formType: ["Fusion", "Form Change"]
         },
         {
             name: "Necrozma",
@@ -7770,7 +8178,8 @@ let nationalDex = {
             dexEntry: "This is its form when it has absorbed overwhelming light energy. It fires laser beams from all over its body.",
             cryUrl: "cries/formCries/800-Ultra.mp3",
             ability: ["Neuroforce"],
-            form: "Ultra Necrozma"
+            form: "Ultra Necrozma",
+            formType: ["Form Change"]
         },
         {
             name: "Magearna",
@@ -7789,7 +8198,8 @@ let nationalDex = {
             dexEntry: "This beautiful form reflects Magearna's appearance when first presented to a king's daughter 500 years ago.",
             cryUrl: "cries/801.mp3",
             ability: ["Soul-Heart"],
-            form: "Original Color Magearna"
+            form: "Original Color Magearna",
+            formType: ["Variation", "Special Form"]
         },
         {
             name: "Melmetal",
@@ -7808,7 +8218,8 @@ let nationalDex = {
             dexEntry: "In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy.",
             cryUrl: "cries/809.mp3",
             ability: ["Iron Fist"],
-            form: "Gigantamax Melmetal"
+            form: "Gigantamax Melmetal",
+            formType: ["Gigantamax"]
         },
         {
             name: "Rillaboom",
@@ -7827,7 +8238,8 @@ let nationalDex = {
             dexEntry: "Gigantamax energy has caused Rillaboom's stump to grow into a drum set that resembles a forest.",
             cryUrl: "cries/812.mp3",
             ability: ["Overgrow", "Grassy Surge"],
-            form: "Gigantamax Rillaboom"
+            form: "Gigantamax Rillaboom",
+            formType: ["Gigantamax"]
         },
         {
             name: "Cinderace",
@@ -7846,7 +8258,8 @@ let nationalDex = {
             dexEntry: "Infused with Cinderace's fighting spirit, the gigantic Pyro Ball never misses its targets and completely roasts opponents.",
             cryUrl: "cries/815.mp3",
             ability: ["Blaze", "Libero"],
-            form: "Gigantamax Cinderace"
+            form: "Gigantamax Cinderace",
+            formType: ["Gigantamax"]
         },
         {
             name: "Inteleon",
@@ -7865,7 +8278,8 @@ let nationalDex = {
             dexEntry: "Gigantamax Inteleon's Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature.",
             cryUrl: "cries/818.mp3",
             ability: ["Torrent", "Sniper"],
-            form: "Gigantamax Inteleon"
+            form: "Gigantamax Inteleon",
+            formType: ["Gigantamax"]
         },
         {
             name: "Corviknight",
@@ -7884,7 +8298,8 @@ let nationalDex = {
             dexEntry: "Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away.",
             cryUrl: "cries/823.mp3",
             ability: ["Pressure", "Unnerve", "Mirror Armor"],
-            form: "Gigantamax Corviknight"
+            form: "Gigantamax Corviknight",
+            formType: ["Gigantamax"]
         },
         {
             name: "Orbeetle",
@@ -7903,7 +8318,8 @@ let nationalDex = {
             dexEntry: "Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon's intellect and psychic abilities are overpowering.",
             cryUrl: "cries/826.mp3",
             ability: ["Swarm", "Frisk", "Telepathy"],
-            form: "Gigantamax Orbeetle"
+            form: "Gigantamax Orbeetle",
+            formType: ["Gigantamax"]
         },
         {
             name: "Drednaw",
@@ -7922,7 +8338,8 @@ let nationalDex = {
             dexEntry: "It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws.",
             cryUrl: "cries/834.mp3",
             ability: ["Strong Jaw", "Shell Armor", "Swift Swim"],
-            form: "Gigantamax Drednaw"
+            form: "Gigantamax Drednaw",
+            formType: ["Gigantamax"]
         },
         {
             name: "Coalossal",
@@ -7941,7 +8358,8 @@ let nationalDex = {
             dexEntry: "Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon's flame burns hotter than 3,600 degrees Fahrenheit.",
             cryUrl: "cries/839.mp3",
             ability: ["Steam Engine", "Flame Body", "Flash Fire"],
-            form: "Gigantamax Coalossal"
+            form: "Gigantamax Coalossal",
+            formType: ["Gigantamax"]
         },
         {
             name: "Flapple",
@@ -7960,7 +8378,8 @@ let nationalDex = {
             dexEntry: "Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple.",
             cryUrl: "cries/841.mp3",
             ability: ["Ripen", "Gluttony", "Hustle"],
-            form: "Gigantamax Flapple"
+            form: "Gigantamax Flapple",
+            formType: ["Gigantamax"]
         },
         {
             name: "Appletun",
@@ -7979,7 +8398,8 @@ let nationalDex = {
             dexEntry: "It blasts its opponents with massive amounts of sweet, sticky nectar, drowning them under the deluge.",
             cryUrl: "cries/842.mp3",
             ability: ["Ripen", "Gluttony", "Thick Fat"],
-            form: "Gigantamax Appletun"
+            form: "Gigantamax Appletun",
+            formType: ["Gigantamax"]
         },
         {
             name: "Sandaconda",
@@ -7998,7 +8418,8 @@ let nationalDex = {
             dexEntry: "Its sand pouch has grown to tremendous proportions. More than 1,000,000 tons of sand now swirl around its body.",
             cryUrl: "cries/844.mp3",
             ability: ["Sand Spit", "Shed Skin", "Sand Veil"],
-            form: "Gigantamax Sandaconda"
+            form: "Gigantamax Sandaconda",
+            formType: ["Gigantamax"]
         },
         {
             name: "Cramorant",
@@ -8017,7 +8438,8 @@ let nationalDex = {
             dexEntry: "Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat.",
             cryUrl: "cries/formCries/845-Gulping.mp3",
             ability: ["Gulp Missile"],
-            form: "Cramorant (Gulping Form)"
+            form: "Cramorant (Gulping Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Cramorant",
@@ -8036,7 +8458,8 @@ let nationalDex = {
             dexEntry: "This Cramorant has accidentally gotten a Pikachu lodged in its gullet. Cramorant is choking a little, but it isn't really bothered.",
             cryUrl: "cries/formCries/845-Gorging.mp3",
             ability: ["Gulp Missile"],
-            form: "Cramorant (Gorging Form)"
+            form: "Cramorant (Gorging Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Toxtricity",
@@ -8055,7 +8478,8 @@ let nationalDex = {
             dexEntry: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
             cryUrl: "cries/formCries/849-LowKey.mp3",
             ability: ["Punk Rock", "Minus", "Technician"],
-            form: "Toxtricity (Low Key Form)"
+            form: "Toxtricity (Low Key Form)",
+            formType: ["Variation"]
         },
         {
             name: "Toxtricity",
@@ -8074,7 +8498,8 @@ let nationalDex = {
             dexEntry: "Its excessive electric energy is its weapon. This Pokémon can build up more electricity than any thundercloud.",
             cryUrl: "cries/849.mp3",
             ability: ["Punk Rock", "Plus", "Technician"],
-            form: "Gigantamax Toxtricity"
+            form: "Gigantamax Toxtricity",
+            formType: ["Gigantamax"]
         },
         {
             name: "Centiskorch",
@@ -8093,7 +8518,8 @@ let nationalDex = {
             dexEntry: "Gigantamax energy has evoked a rise in its body temperature, now reaching over 1,800 degrees Fahrenheit. Its heat waves incinerate its enemies.",
             cryUrl: "cries/851.mp3",
             ability: ["Flash Fire", "White Smoke", "Flame Body"],
-            form: "Gigantamax Centiskorch"
+            form: "Gigantamax Centiskorch",
+            formType: ["Gigantamax"]
         },
         {
             name: "Sinistea",
@@ -8112,7 +8538,8 @@ let nationalDex = {
             dexEntry: "The swirl pattern in this Pokémon's body is its weakness. If it gets stirred, the swirl loses its shape, and Sinistea gets dizzy.",
             cryUrl: "cries/854.mp3",
             ability: ["Weak Armor", "Cursed Body"],
-            form: "Sinistea (Antique Form)"
+            form: "Sinistea (Antique Form)",
+            formType: ["Variation"]
         },
         {
             name: "Polteageist",
@@ -8131,7 +8558,8 @@ let nationalDex = {
             dexEntry: "Trainers Polteageist trusts will be allowed to experience its distinctive flavor and aroma firsthand by sampling just a tiny bit of its tea.",
             cryUrl: "cries/855.mp3",
             ability: ["Weak Armor", "Cursed Body"],
-            form: "Polteageist (Antique Form)"
+            form: "Polteageist (Antique Form)",
+            formType: ["Variation"]
         },
         {
             name: "Hatterene",
@@ -8150,7 +8578,8 @@ let nationalDex = {
             dexEntry: "This Pokémon can read the emotions of creatures over 30 miles away. The minute it senses hostility, it goes on the attack.",
             cryUrl: "cries/858.mp3",
             ability: ["Healer", "Anticipation", "Magic Bounce"],
-            form: "Gigantamax Hatterene"
+            form: "Gigantamax Hatterene",
+            formType: ["Gigantamax"]
         },
         {
             name: "Grimmsnarl",
@@ -8169,7 +8598,8 @@ let nationalDex = {
             dexEntry: "By transforming its leg hair, this Pokémon delivers power-packed drill kicks that can bore huge holes in Galar's terrain.",
             cryUrl: "cries/861.mp3",
             ability: ["Prankster", "Frisk", "Pickpocket"],
-            form: "Gigantamax Grimmsnarl"
+            form: "Gigantamax Grimmsnarl",
+            formType: ["Gigantamax"]
         },
         {
             name: "Alcremie",
@@ -8188,7 +8618,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sweet and tart flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Ruby Cream)"
+            form: "Alcremie (Strawberry Sweet, Ruby Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8207,7 +8638,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on an aromatic flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Matcha Cream)"
+            form: "Alcremie (Strawberry Sweet, Matcha Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8226,7 +8658,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a refreshing flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Mint Cream)"
+            form: "Alcremie (Strawberry Sweet, Mint Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8245,7 +8678,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sour flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Lemon Cream)"
+            form: "Alcremie (Strawberry Sweet, Lemon Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8264,7 +8698,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Salted Cream)"
+            form: "Alcremie (Strawberry Sweet, Salted Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8283,7 +8718,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a mixed flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Ruby Swirl)"
+            form: "Alcremie (Strawberry Sweet, Ruby Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8302,7 +8738,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Caramel Swirl)"
+            form: "Alcremie (Strawberry Sweet, Caramel Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8321,7 +8758,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a complex flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Strawberry Sweet, Rainbow Swirl)"
+            form: "Alcremie (Strawberry Sweet, Rainbow Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8340,7 +8778,8 @@ let nationalDex = {
             dexEntry: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Vanilla Cream)"
+            form: "Alcremie (Berry Sweet, Vanilla Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8359,7 +8798,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sweet and tart flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Ruby Cream)"
+            form: "Alcremie (Berry Sweet, Ruby Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8378,7 +8818,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on an aromatic flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Matcha Cream)"
+            form: "Alcremie (Berry Sweet, Matcha Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8397,7 +8838,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a refreshing flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Mint Cream)"
+            form: "Alcremie (Berry Sweet, Mint Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8416,7 +8858,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sour flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Lemon Cream)"
+            form: "Alcremie (Berry Sweet, Lemon Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8435,7 +8878,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Salted Cream)"
+            form: "Alcremie (Berry Sweet, Salted Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8454,7 +8898,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a mixed flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Ruby Swirl)"
+            form: "Alcremie (Berry Sweet, Ruby Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8473,7 +8918,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Caramel Swirl)"
+            form: "Alcremie (Berry Sweet, Caramel Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8492,7 +8938,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a complex flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Berry Sweet, Rainbow Swirl)"
+            form: "Alcremie (Berry Sweet, Rainbow Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8511,7 +8958,8 @@ let nationalDex = {
             dexEntry: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Vanilla Cream)"
+            form: "Alcremie (Love Sweet, Vanilla Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8530,7 +8978,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sweet and tart flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Ruby Cream)"
+            form: "Alcremie (Love Sweet, Ruby Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8549,7 +8998,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on an aromatic flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Matcha Cream)"
+            form: "Alcremie (Love Sweet, Matcha Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8568,7 +9018,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a refreshing flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Mint Cream)"
+            form: "Alcremie (Love Sweet, Mint Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8587,7 +9038,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sour flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Lemon Cream)"
+            form: "Alcremie (Love Sweet, Lemon Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8606,7 +9058,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Salted Cream)"
+            form: "Alcremie (Love Sweet, Salted Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8625,7 +9078,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a mixed flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Ruby Swirl)"
+            form: "Alcremie (Love Sweet, Ruby Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8644,7 +9098,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Caramel Swirl)"
+            form: "Alcremie (Love Sweet, Caramel Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8663,7 +9118,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a complex flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Love Sweet, Rainbow Swirl)"
+            form: "Alcremie (Love Sweet, Rainbow Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8682,7 +9138,8 @@ let nationalDex = {
             dexEntry: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Vanilla Cream)"
+            form: "Alcremie (Star Sweet, Vanilla Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8701,7 +9158,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sweet and tart flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Ruby Cream)"
+            form: "Alcremie (Star Sweet, Ruby Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8720,7 +9178,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on an aromatic flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Matcha Cream)"
+            form: "Alcremie (Star Sweet, Matcha Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8739,7 +9198,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a refreshing flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Mint Cream)"
+            form: "Alcremie (Star Sweet, Mint Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8758,7 +9218,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sour flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Lemon Cream)"
+            form: "Alcremie (Star Sweet, Lemon Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8777,7 +9238,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Salted Cream)"
+            form: "Alcremie (Star Sweet, Salted Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8796,7 +9258,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a mixed flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Ruby Swirl)"
+            form: "Alcremie (Star Sweet, Ruby Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8815,7 +9278,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Caramel Swirl)"
+            form: "Alcremie (Star Sweet, Caramel Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8834,7 +9298,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a complex flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Star Sweet, Rainbow Swirl)"
+            form: "Alcremie (Star Sweet, Rainbow Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8853,7 +9318,8 @@ let nationalDex = {
             dexEntry: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Vanilla Cream)"
+            form: "Alcremie (Clover Sweet, Vanilla Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8872,7 +9338,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sweet and tart flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Ruby Cream)"
+            form: "Alcremie (Clover Sweet, Ruby Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8891,7 +9358,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on an aromatic flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Matcha Cream)"
+            form: "Alcremie (Clover Sweet, Matcha Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8910,7 +9378,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a refreshing flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Mint Cream)"
+            form: "Alcremie (Clover Sweet, Mint Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8929,7 +9398,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sour flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Lemon Cream)"
+            form: "Alcremie (Clover Sweet, Lemon Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8948,7 +9418,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Salted Cream)"
+            form: "Alcremie (Clover Sweet, Salted Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8967,7 +9438,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a mixed flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Ruby Swirl)"
+            form: "Alcremie (Clover Sweet, Ruby Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -8986,7 +9458,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Caramel Swirl)"
+            form: "Alcremie (Clover Sweet, Caramel Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9005,7 +9478,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a complex flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Clover Sweet, Rainbow Swirl)"
+            form: "Alcremie (Clover Sweet, Rainbow Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9024,7 +9498,8 @@ let nationalDex = {
             dexEntry: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Vanilla Cream)"
+            form: "Alcremie (Flower Sweet, Vanilla Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9043,7 +9518,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sweet and tart flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Ruby Cream)"
+            form: "Alcremie (Flower Sweet, Ruby Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9062,7 +9538,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on an aromatic flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Matcha Cream)"
+            form: "Alcremie (Flower Sweet, Matcha Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9081,7 +9558,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a refreshing flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Mint Cream)"
+            form: "Alcremie (Flower Sweet, Mint Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9100,7 +9578,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sour flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Lemon Cream)"
+            form: "Alcremie (Flower Sweet, Lemon Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9119,7 +9598,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Salted Cream)"
+            form: "Alcremie (Flower Sweet, Salted Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9138,7 +9618,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a mixed flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Ruby Swirl)"
+            form: "Alcremie (Flower Sweet, Ruby Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9157,7 +9638,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Caramel Swirl)"
+            form: "Alcremie (Flower Sweet, Caramel Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9176,7 +9658,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a complex flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Flower Sweet, Rainbow Swirl)"
+            form: "Alcremie (Flower Sweet, Rainbow Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9195,7 +9678,8 @@ let nationalDex = {
             dexEntry: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Vanilla Cream)"
+            form: "Alcremie (Ribbon Sweet, Vanilla Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9214,7 +9698,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sweet and tart flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Ruby Cream)"
+            form: "Alcremie (Ribbon Sweet, Ruby Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9233,7 +9718,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on an aromatic flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Matcha Cream)"
+            form: "Alcremie (Ribbon Sweet, Matcha Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9252,7 +9738,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a refreshing flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Mint Cream)"
+            form: "Alcremie (Ribbon Sweet, Mint Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9271,7 +9758,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a sour flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Lemon Cream)"
+            form: "Alcremie (Ribbon Sweet, Lemon Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9290,7 +9778,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Salted Cream)"
+            form: "Alcremie (Ribbon Sweet, Salted Cream)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9309,7 +9798,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a mixed flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Ruby Swirl)"
+            form: "Alcremie (Ribbon Sweet, Ruby Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9328,7 +9818,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a bitter flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Caramel Swirl)"
+            form: "Alcremie (Ribbon Sweet, Caramel Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9347,7 +9838,8 @@ let nationalDex = {
             dexEntry: "The moment it evolved, it took on a complex flavor. This is because of the way its cells spontaneously shifted during evolution.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Alcremie (Ribbon Sweet, Rainbow Swirl)"
+            form: "Alcremie (Ribbon Sweet, Rainbow Swirl)",
+            formType: ["Variation"]
         },
         {
             name: "Alcremie",
@@ -9366,7 +9858,8 @@ let nationalDex = {
             dexEntry: "Cream pours endlessly from this Pokémon's body. The cream stiffens when compressed by an impact. A harder impact results in harder cream.",
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
-            form: "Gigantamax Alcremie"
+            form: "Gigantamax Alcremie",
+            formType: ["Gigantamax"]
         },
         {
             name: "Eiscue",
@@ -9385,7 +9878,8 @@ let nationalDex = {
             dexEntry: "The ice covering this Pokémon's face has shattered, revealing a slightly worried expression that many people are enamored with.",
             cryUrl: "cries/formCries/875-Noice.mp3",
             ability: ["Ice Face"],
-            form: "Eiscue (Noice Face)"
+            form: "Eiscue (Noice Face)",
+            formType: ["Form Change"]
         },
         {
             name: "Indeedee",
@@ -9404,7 +9898,8 @@ let nationalDex = {
             dexEntry: "These intelligent Pokémon touch horns with each other to share information between them.",
             cryUrl: "cries/formCries/876-Female.mp3",
             ability: ["Own Tempo", "Synchronize", "Psychic Surge"],
-            form: "Indeedee (Female)"
+            form: "Indeedee (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Morpeko",
@@ -9423,7 +9918,8 @@ let nationalDex = {
             dexEntry: "Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.",
             cryUrl: "cries/formCries/877-Hangry.mp3",
             ability: ["Hunger Switch"],
-            form: "Morpeko (Hangry Mode)"
+            form: "Morpeko (Hangry Mode)",
+            formType: ["Form Change"]
         },
         {
             name: "Copperajah",
@@ -9442,7 +9938,8 @@ let nationalDex = {
             dexEntry: "So much power is packed within its trunk that if it were to unleash that power, the resulting blast could level mountains and change the landscape.",
             cryUrl: "cries/879.mp3",
             ability: ["Sheer Force", "Heavy Metal"],
-            form: "Gigantamax Copperajah"
+            form: "Gigantamax Copperajah",
+            formType: ["Gigantamax"]
         },
         {
             name: "Duraludon",
@@ -9461,7 +9958,8 @@ let nationalDex = {
             dexEntry: "It's grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy.",
             cryUrl: "cries/884.mp3",
             ability: ["Light Metal", "Heavy Metal", "Stalwart"],
-            form: "Gigantamax Duraludon"
+            form: "Gigantamax Duraludon",
+            formType: ["Gigantamax"]
         },
         {
             name: "Zacian",
@@ -9480,7 +9978,8 @@ let nationalDex = {
             dexEntry: "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
             cryUrl: "cries/formCries/888-Hero.mp3",
             ability: ["Intrepid Sword"],
-            form: "Zacian (Hero of Many Battles)"
+            form: "Zacian (Hero of Many Battles)",
+            formType: ["Form Change"]
         },
         {
             name: "Zamazenta",
@@ -9499,7 +9998,8 @@ let nationalDex = {
             dexEntry: "In times past, it worked together with a king of the people to save the Galar region. It absorbs metal that it then uses in battle.",
             cryUrl: "cries/formCries/889-Hero.mp3",
             ability: ["Dauntless Shield"],
-            form: "Zamazenta (Hero of Many Battles)"
+            form: "Zamazenta (Hero of Many Battles)",
+            formType: ["Form Change"]
         },
         {
             name: "Eternatus",
@@ -9518,7 +10018,8 @@ let nationalDex = {
             dexEntry: "As a result of Rose's meddling, Eternatus absorbed all the energy in the Galar region. It's now in a state of power overload.",
             cryUrl: "cries/formCries/890-Eternamax.mp3",
             ability: ["Pressure"],
-            form: "Eternamax Eternatus"
+            form: "Eternamax Eternatus",
+            formType: ["Form Change", "Special Form"]
         },
         {
             name: "Urshifu",
@@ -9537,7 +10038,8 @@ let nationalDex = {
             dexEntry: "People call it the embodiment of rage. It's said that this Pokémon's terrifying expression and shout will rid the world of malevolence.",
             cryUrl: "cries/892.mp3",
             ability: ["Unseen Fist"],
-            form: "Gigantamax Urshifu (Single Strike Style)"
+            form: "Gigantamax Urshifu (Single Strike Style)",
+            formType: ["Gigantamax", "Variation"]
         },
         {
             name: "Urshifu",
@@ -9556,7 +10058,8 @@ let nationalDex = {
             dexEntry: "It's believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm.",
             cryUrl: "cries/formCries/892-RapidStrike.mp3",
             ability: ["Unseen Fist"],
-            form: "Urshifu (Rapid Strike Style)"
+            form: "Urshifu (Rapid Strike Style)",
+            formType: ["Variation"]
         },
         {
             name: "Urshifu",
@@ -9575,7 +10078,8 @@ let nationalDex = {
             dexEntry: "As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch.",
             cryUrl: "cries/formCries/892-RapidStrike.mp3",
             ability: ["Unseen Fist"],
-            form: "Gigantamax Urshifu (Rapid Strike Style)"
+            form: "Gigantamax Urshifu (Rapid Strike Style)",
+            formType: ["Gigantamax", "Variation"]
         },
         {
             name: "Zarude",
@@ -9594,7 +10098,8 @@ let nationalDex = {
             dexEntry: "This Zarude left its pack to raise a human child. The cloth Zarude would wrap the child with has a comforting scent that calmed the child's crying.",
             cryUrl: "cries/893.mp3",
             ability: ["Leaf Guard"],
-            form: "Dada Zarude"
+            form: "Dada Zarude",
+            formType: ["Special Form"]
         },
         {
             name: "Calyrex",
@@ -9612,8 +10117,9 @@ let nationalDex = {
             metricWeight: 809.1,
             dexEntry: "According to lore, this Pokémon showed no mercy to those who got in its way, yet it would heal its opponents' wounds after battle.",
             cryUrl: "cries/formCries/898-IceRider.mp3",
-            ability: ["Unnerve"],
-            form: "Ice Rider Calyrex"
+            ability: ["As One"],
+            form: "Ice Rider Calyrex",
+            formType: ["Fusion", "Form Change"]
         },
         {
             name: "Calyrex",
@@ -9631,8 +10137,9 @@ let nationalDex = {
             metricWeight: 53.6,
             dexEntry: "It's said that Calyrex and a Pokémon that had bonded with it ran all across the Galar region to bring green to the wastelands.",
             cryUrl: "cries/formCries/898-ShadowRider.mp3",
-            ability: ["Unnerve"],
-            form: "Shadow Rider Calyrex"
+            ability: ["As One"],
+            form: "Shadow Rider Calyrex",
+            formType: ["Fusion", "Form Change"]
         },
         {
             name: "Basculegion",
@@ -9651,7 +10158,8 @@ let nationalDex = {
             dexEntry: "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
             cryUrl: "cries/902.mp3",
             ability: ["Rattled", "Adaptability", "Mold Breaker"],
-            form: "Basculegion (Female)"
+            form: "Basculegion (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Enamorus",
@@ -9670,7 +10178,8 @@ let nationalDex = {
             dexEntry: "A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.",
             cryUrl: "cries/formCries/905-Therian.mp3",
             ability: ["Overcoat"],
-            form: "Enamorus (Therian Forme)"
+            form: "Enamorus (Therian Forme)",
+            formType: ["Form Change"]
         },
         {
             name: "Oinkologne",
@@ -9689,7 +10198,8 @@ let nationalDex = {
             dexEntry: "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
             cryUrl: "cries/formCries/916-Female.mp3",
             ability: ["Aroma Veil", "Gluttony", "Thick Fat"],
-            form: "Oinkologne (Female)"
+            form: "Oinkologne (Female)",
+            formType: ["Gender Difference"]
         },
         {
             name: "Maushold",
@@ -9708,7 +10218,8 @@ let nationalDex = {
             dexEntry: "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
             cryUrl: "cries/formCries/925-FamilyOfThree.mp3",
             ability: ["Friend Guard", "Cheek Pouch", "Technician"],
-            form: "Maushold (Family of Three)"
+            form: "Maushold (Family of Three)",
+            formType: ["Variation"]
         },
         {
             name: "Squawkabilly",
@@ -9727,7 +10238,8 @@ let nationalDex = {
             dexEntry: "The largest of their flocks can contain more than 50 individuals. They fly around towns and forests, searching for food and making a racket.",
             cryUrl: "cries/931.mp3",
             ability: ["Intimidate", "Hustle", "Guts"],
-            form: "Squawkabilly (Blue Plumage)"
+            form: "Squawkabilly (Blue Plumage)",
+            formType: ["Variation"]
         },
         {
             name: "Squawkabilly",
@@ -9746,7 +10258,8 @@ let nationalDex = {
             dexEntry: "These Squawkabilly are hotheaded, and their fighting style is vicious. They’ll leap within reach of their foes to engage in close combat.",
             cryUrl: "cries/931.mp3",
             ability: ["Intimidate", "Hustle", "Guts"],
-            form: "Squawkabilly (Yellow Plumage)"
+            form: "Squawkabilly (Yellow Plumage)",
+            formType: ["Variation"]
         },
         {
             name: "Squawkabilly",
@@ -9765,7 +10278,8 @@ let nationalDex = {
             dexEntry: "This Pokémon dislikes being alone. It has a strong sense of community and survives by cooperating with allies.",
             cryUrl: "cries/931.mp3",
             ability: ["Intimidate", "Hustle", "Guts"],
-            form: "Squawkabilly (White Plumage)"
+            form: "Squawkabilly (White Plumage)",
+            formType: ["Variation"]
         },
         {
             name: "Palafin",
@@ -9784,7 +10298,8 @@ let nationalDex = {
             dexEntry: "This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.",
             cryUrl: "cries/formCries/964-Zero.mp3",
             ability: ["Zero to Hero"],
-            form: "Palafin (Zero Form)"
+            form: "Palafin (Zero Form)",
+            formType: ["Form Change"]
         },
         {
             name: "Tatsugiri",
@@ -9803,7 +10318,8 @@ let nationalDex = {
             dexEntry: "This species' differing colors and patterns are apparently the result of Tatsugiri changing itself to suit the preferences of the prey it lures in.",
             cryUrl: "cries/formCries/978-Droopy.mp3",
             ability: ["Commander", "Storm Drain"],
-            form: "Tatsugiri (Droopy Form)"
+            form: "Tatsugiri (Droopy Form)",
+            formType: ["Variation"]
         },
         {
             name: "Tatsugiri",
@@ -9822,7 +10338,8 @@ let nationalDex = {
             dexEntry: "Bird Pokémon are its main prey.  This Pokémon knows it's weak, so it hunts with a partner.",
             cryUrl: "cries/formCries/978-Stretchy.mp3",
             ability: ["Commander", "Storm Drain"],
-            form: "Tatsugiri (Stretchy Form)"
+            form: "Tatsugiri (Stretchy Form)",
+            formType: ["Variation"]
         },
         {
             name: "Dudunsparce",
@@ -9841,7 +10358,8 @@ let nationalDex = {
             dexEntry: "The gentle Dudunsparce will put Pokémon that wander into its nest onto its back and carry them to the entrance.",
             cryUrl: "cries/982.mp3",
             ability: ["Serene Grace", "Run Away", "Rattled"],
-            form: "Dudunsparce (Three-Segment Form)"
+            form: "Dudunsparce (Three-Segment Form)",
+            formType: ["Variation"]
         },
         {
             name: "Gimmighoul",
@@ -9860,7 +10378,8 @@ let nationalDex = {
             dexEntry: "This Pokémon was born from passion that seeped into a coin. It wanders, apparently seeking to return to the treasure chest it once inhabited.",
             cryUrl: "cries/formCries/999-Roaming.mp3",
             ability: ["Run Away"],
-            form: "Gimmighoul (Roaming Form)"
+            form: "Gimmighoul (Roaming Form)",
+            formType: ["Variation"]
         }
     ]
 }
@@ -10218,7 +10737,7 @@ let caughtId = document.getElementById("caught_input").value
 let filterPokemon = nationalDex.nationalPokedex.filter(searching => searching.name.toLowerCase().indexOf(nameId.toLowerCase()) > -1 )
 .filter(searching => searching.number.indexOf(numberId) > -1 )
 .filter(searching => String(searching.type).toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
-.filter(searching => String(searching.form).toLowerCase().indexOf(formId.toLowerCase()) > -1 )
+.filter(searching => String(searching.formType).toLowerCase().indexOf(formId.toLowerCase()) > -1 )
 .filter(searching => searching.category.toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
 .filter(searching => searching.region.toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
 .filter(searching => searching.generation.toLowerCase().indexOf(genId.toLowerCase()) > -1 )
