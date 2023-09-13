@@ -18,7 +18,7 @@
   </head>
 
   <body style="text-align: center;">
-    <h1 style="background-color: #ffd733; border: 5px solid darkblue; color: black; border-radius: 25px;">Pokémon Yellow Version</h1>
+    <h1 id="heading" style="background-color: #ffd733; border: 5px solid darkblue; color: black; border-radius: 25px;"><img id="mascot" src="images/025Pikachu.png" style="height:50px">Pokémon Yellow Version<img id="mascot" src="images/025Pikachu.png" style="height:50px"></h1>
     <label for="game_select">Change Dex</label>
     <select name="game" id="game_select" onchange="location = this.value;">
       <option value="yellow.html">Yellow</option>
@@ -63,6 +63,8 @@
       <option value="legendsarceus.html">Legends: Arceus</option>
       <option value="scarlet.html">Scarlet</option>
       <option value="violet.html">Violet</option>
+      <option value="tealmask.html">Teal Mask</option>
+      <option value="indigodisk.html">Indigo Disk</option>
     </select>
     <div>
       <label for="name_input">Name</label>
@@ -94,7 +96,10 @@
       <label for="region_input">Region</label>
       <input id="region_input" type="text" placeholder="region"/>
       <label for="gen_input">Generation</label>
-      <input id="gen_input" type="text" placeholder="Gen #"/>
+      <select name="gen" id="gen_input">
+        <option value=""></option>
+        <option value="01">Gen I</option>
+      </select>
       </br>
       <label for="height_input">Height</label>
       <input id="height_input" type="height" placeholder="height"/>

@@ -38,3 +38,16 @@ h1 {
 label {
     font-family: 'Titillium Web', sans-serif;
 }
+
+#heading {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mascot {
+    margin-right: 10px;
+    margin-left: 10px;
+}

@@ -18,7 +18,7 @@
   </head>
 
   <body style="text-align: center;">
-    <h1 style="background-color: #999999; border: 5px solid darkblue; color: black; border-radius: 25px;">Pokémon Platinum Version</h1>
+    <h1 id="heading" style="background-color: #999999; border: 5px solid darkblue; color: black; border-radius: 25px;"><img id="mascot" src="forms/487Giratina-Origin.png" style="height:50px">Pokémon Platinum Version<img id="mascot" src="forms/487Giratina-Origin.png" style="height:50px"></h1>
     <label for="game_select">Change Dex</label>
     <select name="game" id="game_select" onchange="location = this.value;">
       <option value="platinum.html">Platinum</option>
@@ -63,6 +63,8 @@
       <option value="legendsarceus.html">Legends: Arceus</option>
       <option value="scarlet.html">Scarlet</option>
       <option value="violet.html">Violet</option>
+      <option value="tealmask.html">Teal Mask</option>
+      <option value="indigodisk.html">Indigo Disk</option>
     </select>
     <div>
       <label for="name_input">Name</label>
@@ -96,7 +98,13 @@
       <label for="region_input">Region</label>
       <input id="region_input" type="text" placeholder="region"/>
       <label for="gen_input">Generation</label>
-      <input id="gen_input" type="text" placeholder="Gen #"/>
+      <select name="gen" id="gen_input">
+        <option value=""></option>
+        <option value="01">Gen I</option>
+        <option value="02">Gen II</option>
+        <option value="03">Gen III</option>
+        <option value="04">Gen IV</option>
+      </select>
       </br>
       <label for="height_input">Height</label>
       <input id="height_input" type="height" placeholder="height"/>
