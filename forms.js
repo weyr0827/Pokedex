@@ -10403,7 +10403,7 @@ let nationalDex = {
         },
         {
             name: "Poltchageist",
-            imageUrl: "forms/1012Poltchageist-Masterpiece.png",
+            imageUrl: "forms/1012Poltchageist-Artisan.png",
             number: "1012",
             type: ["Grass", "Ghost"],
             category: "Matcha",
@@ -10418,7 +10418,7 @@ let nationalDex = {
             dexEntry: "It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.",
             cryUrl: "cries/1012.mp3",
             ability: ["Hospitality", "Heatproof"],
-            form: "Poltchageist (Masterpiece Form)",
+            form: "Poltchageist (Artisan Form)",
             formType: ["Variation"]
         },
         {

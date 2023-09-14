@@ -7655,7 +7655,7 @@ let nationalDex = {
         metricWeight: 59.6,
         dexEntry: "Shiftry is a mysterious Pokémon that is said to live atop towering trees dating back over a thousand years. It creates terrific windstorms with the fans it holds.",
         cryUrl: "cries/275.mp3",
-        ability: ["Chlorophyll", "Early Bird", "Pickpocket"],
+        ability: ["Chlorophyll", "Wind Rider", "Pickpocket"],
         evolution: evolutionFamilies.seedot,
         japaneseName: "Dirteng",
         family: "Seedot",
@@ -10251,7 +10251,7 @@ let nationalDex = {
         metricWeight: 5.2,
         dexEntry: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
         cryUrl: "cries/393.mp3",
-        ability: ["Torrent", "Defiant"],
+        ability: ["Torrent", "Competitive"],
         evolution: evolutionFamilies.piplup,
         japaneseName: "Pochama",
         family: "Piplup",
@@ -10273,7 +10273,7 @@ let nationalDex = {
         metricWeight: 23.0,
         dexEntry: "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
         cryUrl: "cries/394.mp3",
-        ability: ["Torrent", "Defiant"],
+        ability: ["Torrent", "Competitive"],
         evolution: evolutionFamilies.piplup,
         japaneseName: "Pottaishi",
         family: "Piplup",
@@ -10295,7 +10295,7 @@ let nationalDex = {
         metricWeight: 84.5,
         dexEntry: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
         cryUrl: "cries/395.mp3",
-        ability: ["Torrent", "Defiant"],
+        ability: ["Torrent", "Competitive"],
         evolution: evolutionFamilies.piplup,
         japaneseName: "Emperte",
         family: "Piplup",
@@ -23917,7 +23917,7 @@ let nationalDex = {
         evolution: evolutionFamilies.okidogi,
         japaneseName: "Iineinu",
         family: "Okidogi",
-        tags: []
+        tags: ["Legendary"]
     },
     {
         name: "Munkidori",
@@ -23939,7 +23939,7 @@ let nationalDex = {
         evolution: evolutionFamilies.munkidori,
         japaneseName: "Mashimashira",
         family: "Munkidori",
-        tags: []
+        tags: ["Legendary"]
     },
     {
         name: "Fezandipiti",
@@ -23961,7 +23961,7 @@ let nationalDex = {
         evolution: evolutionFamilies.fezandipiti,
         japaneseName: "Kichikigisu",
         family: "Fezandipiti",
-        tags: []
+        tags: ["Legendary"]
     },
     {
         name: "Ogerpon",
