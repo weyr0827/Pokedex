@@ -89,7 +89,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 0.4,
             metricWeight: 8.5,
-            dexEntry: "It's dangerous for Wooper to travel alone. They line up in groups of three or four and help each other as they walk around the wetlands.",
+            dexEntry: "A transparent mucous membrane covers its body. Touching it bare-handed will cause a tingling numbness.",
             cryUrl: "cries/194.mp3",
             japaneseName: "Upah"
         },
