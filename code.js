@@ -7655,7 +7655,7 @@ let nationalDex = {
         metricWeight: 59.6,
         dexEntry: "Shiftry is a mysterious Pokémon that is said to live atop towering trees dating back over a thousand years. It creates terrific windstorms with the fans it holds.",
         cryUrl: "cries/275.mp3",
-        ability: ["Chlorophyll", "Wind Rider", "Pickpocket"],
+        ability: ["Chlorophyll", "Wind Power", "Pickpocket"],
         evolution: evolutionFamilies.seedot,
         japaneseName: "Dirteng",
         family: "Seedot",
