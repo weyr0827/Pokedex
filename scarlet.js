@@ -6491,7 +6491,7 @@ let nationalDex = {
             category: "Terra Whale",
             region: "Paldea",
             generation: "09",
-            height: "4'11\"",
+            height: "3'11\"",
             weight: "99.2 lbs.",
             favorites: false,
             caught: false,
