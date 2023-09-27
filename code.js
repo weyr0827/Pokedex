@@ -1631,7 +1631,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bulbasaur,
         japaneseName: "Fushigidane",
         family: "Bulbasaur",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Ivysaur",
@@ -1653,7 +1654,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bulbasaur,
         japaneseName: "Fushigisou",
         family: "Bulbasaur",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Venusaur",
@@ -1675,7 +1677,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bulbasaur,
         japaneseName: "Fushigibana",
         family: "Bulbasaur",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Charmander",
@@ -1697,7 +1700,8 @@ let nationalDex = {
         evolution: evolutionFamilies.charmander,
         japaneseName: "Hitokage",
         family: "Charmander",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Charmeleon",
@@ -1719,7 +1723,8 @@ let nationalDex = {
         evolution: evolutionFamilies.charmander,
         japaneseName: "Lizardo",
         family: "Charmander",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Charizard",
@@ -1741,7 +1746,8 @@ let nationalDex = {
         evolution: evolutionFamilies.charmander,
         japaneseName: "Lizardon",
         family: "Charmander",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Squirtle",
@@ -1763,7 +1769,8 @@ let nationalDex = {
         evolution: evolutionFamilies.squirtle,
         japaneseName: "Zenigame",
         family: "Squirtle",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Wartortle",
@@ -1785,7 +1792,8 @@ let nationalDex = {
         evolution: evolutionFamilies.squirtle,
         japaneseName: "Kameil",
         family: "Squirtle",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Blastoise",
@@ -1807,7 +1815,8 @@ let nationalDex = {
         evolution: evolutionFamilies.squirtle,
         japaneseName: "Kamex",
         family: "Squirtle",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Caterpie",
@@ -1829,7 +1838,8 @@ let nationalDex = {
         evolution: evolutionFamilies.caterpie,
         japaneseName: "Caterpie",
         family: "Caterpie",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Metapod",
@@ -1851,7 +1861,8 @@ let nationalDex = {
         evolution: evolutionFamilies.caterpie,
         japaneseName: "Transel",
         family: "Caterpie",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Butterfree",
@@ -1873,7 +1884,8 @@ let nationalDex = {
         evolution: evolutionFamilies.caterpie,
         japaneseName: "Butterfree",
         family: "Caterpie",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Weedle",
@@ -1895,7 +1907,8 @@ let nationalDex = {
         evolution: evolutionFamilies.weedle,
         japaneseName: "Beedle",
         family: "Weedle",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Kakuna",
@@ -1917,7 +1930,8 @@ let nationalDex = {
         evolution: evolutionFamilies.weedle,
         japaneseName: "Cocoon",
         family: "Weedle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Beedrill",
@@ -1939,7 +1953,8 @@ let nationalDex = {
         evolution: evolutionFamilies.weedle,
         japaneseName: "Spear",
         family: "Weedle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Pidgey",
@@ -1961,7 +1976,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pidgey,
         japaneseName: "Poppo",
         family: "Pidgey",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Pidgeotto",
@@ -1983,7 +1999,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pidgey,
         japaneseName: "Pigeon",
         family: "Pidgey",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Pidgeot",
@@ -2005,7 +2022,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pidgey,
         japaneseName: "Pigeot",
         family: "Pidgey",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Rattata",
@@ -2027,7 +2045,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rattata,
         japaneseName: "Koratta",
         family: "Rattata",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Raticate",
@@ -2049,7 +2068,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rattata,
         japaneseName: "Ratta",
         family: "Rattata",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Spearow",
@@ -2071,7 +2091,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spearow,
         japaneseName: "Onisuzume",
         family: "Spearow",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Fearow",
@@ -2093,7 +2114,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spearow,
         japaneseName: "Onidrill",
         family: "Spearow",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Ekans",
@@ -2115,7 +2137,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ekans,
         japaneseName: "Arbo",
         family: "Ekans",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Arbok",
@@ -2137,7 +2160,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ekans,
         japaneseName: "Arbok",
         family: "Ekans",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Pikachu",
@@ -2159,7 +2183,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pichu,
         japaneseName: "Pikachu",
         family: "Pichu",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Raichu",
@@ -2181,7 +2206,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pichu,
         japaneseName: "Raichu",
         family: "Pichu",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Sandshrew",
@@ -2203,7 +2229,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandshrew,
         japaneseName: "Sand",
         family: "Sandshrew",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Sandslash",
@@ -2225,7 +2252,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandshrew,
         japaneseName: "Sandpan",
         family: "Sandshrew",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Nidoran♀",
@@ -2247,7 +2275,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nidoranf,
         japaneseName: "Nidoran♀",
         family: "NidoranF",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Nidorina",
@@ -2269,7 +2298,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nidoranf,
         japaneseName: "Nidorina",
         family: "NidoranF",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Nidoqueen",
@@ -2291,7 +2321,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nidoranf,
         japaneseName: "Nidoqueen",
         family: "NidoranF",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Nidoran♂",
@@ -2313,7 +2344,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nidoranm,
         japaneseName: "Nidoran♂",
         family: "NidoranM",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Nidorino",
@@ -2335,7 +2367,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nidoranm,
         japaneseName: "Nidorino",
         family: "NidoranM",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Nidoking",
@@ -2357,7 +2390,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nidoranm,
         japaneseName: "Nidoking",
         family: "NidoranM",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Clefairy",
@@ -2379,7 +2413,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cleffa,
         japaneseName: "Pippi",
         family: "Cleffa",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Clefable",
@@ -2401,7 +2436,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cleffa,
         japaneseName: "Pixy",
         family: "Cleffa",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Vulpix",
@@ -2423,7 +2459,8 @@ let nationalDex = {
         evolution: evolutionFamilies.vulpix,
         japaneseName: "Rokon",
         family: "Vulpix",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Ninetales",
@@ -2445,7 +2482,8 @@ let nationalDex = {
         evolution: evolutionFamilies.vulpix,
         japaneseName: "Kyukon",
         family: "Vulpix",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Jigglypuff",
@@ -2467,7 +2505,8 @@ let nationalDex = {
         evolution: evolutionFamilies.igglybuff,
         japaneseName: "Purin",
         family: "Igglybuff",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Wigglytuff",
@@ -2489,7 +2528,8 @@ let nationalDex = {
         evolution: evolutionFamilies.igglybuff,
         japaneseName: "Pukurin",
         family: "Igglybuff",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Zubat",
@@ -2511,7 +2551,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zubat,
         japaneseName: "Zubat",
         family: "Zubat",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Golbat",
@@ -2533,7 +2574,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zubat,
         japaneseName: "Golbat",
         family: "Zubat",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Oddish",
@@ -2555,7 +2597,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oddish,
         japaneseName: "Nazonokusa",
         family: "Oddish",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Gloom",
@@ -2577,7 +2620,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oddish,
         japaneseName: "Kusaihana",
         family: "Oddish",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Vileplume",
@@ -2599,7 +2643,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oddish,
         japaneseName: "Ruffresia",
         family: "Oddish",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Paras",
@@ -2621,7 +2666,8 @@ let nationalDex = {
         evolution: evolutionFamilies.paras,
         japaneseName: "Paras",
         family: "Paras",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Parasect",
@@ -2643,7 +2689,8 @@ let nationalDex = {
         evolution: evolutionFamilies.paras,
         japaneseName: "Parasect",
         family: "Paras",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Venonat",
@@ -2665,7 +2712,8 @@ let nationalDex = {
         evolution: evolutionFamilies.venonat,
         japaneseName: "Kongpang",
         family: "Venonat",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Venomoth",
@@ -2687,7 +2735,8 @@ let nationalDex = {
         evolution: evolutionFamilies.venonat,
         japaneseName: "Morphon",
         family: "Venonat",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Diglett",
@@ -2709,7 +2758,8 @@ let nationalDex = {
         evolution: evolutionFamilies.diglett,
         japaneseName: "Digda",
         family: "Diglett",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Dugtrio",
@@ -2731,7 +2781,8 @@ let nationalDex = {
         evolution: evolutionFamilies.diglett,
         japaneseName: "Dugtrio",
         family: "Diglett",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Meowth",
@@ -2753,7 +2804,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meowth,
         japaneseName: "Nyarth",
         family: "Meowth",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Persian",
@@ -2775,7 +2827,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meowth,
         japaneseName: "Persian",
         family: "Meowth",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Psyduck",
@@ -2797,7 +2850,8 @@ let nationalDex = {
         evolution: evolutionFamilies.psyduck,
         japaneseName: "Koduck",
         family: "Psyduck",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Golduck",
@@ -2819,7 +2873,8 @@ let nationalDex = {
         evolution: evolutionFamilies.psyduck,
         japaneseName: "Golduck",
         family: "Psyduck",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Mankey",
@@ -2841,7 +2896,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mankey,
         japaneseName: "Mankey",
         family: "Mankey",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Primeape",
@@ -2863,7 +2919,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mankey,
         japaneseName: "Okorizaru",
         family: "Mankey",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Growlithe",
@@ -2885,7 +2942,8 @@ let nationalDex = {
         evolution: evolutionFamilies.growlithe,
         japaneseName: "Gardie",
         family: "Growlithe",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Arcanine",
@@ -2907,7 +2965,8 @@ let nationalDex = {
         evolution: evolutionFamilies.growlithe,
         japaneseName: "Windie",
         family: "Growlithe",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Poliwag",
@@ -2929,7 +2988,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poliwag,
         japaneseName: "Nyoromo",
         family: "Poliwag",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Poliwhirl",
@@ -2951,7 +3011,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poliwag,
         japaneseName: "Nyorozo",
         family: "Poliwag",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Poliwrath",
@@ -2973,7 +3034,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poliwag,
         japaneseName: "Nyorobon",
         family: "Poliwag",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Abra",
@@ -2994,8 +3056,9 @@ let nationalDex = {
         ability: ["Synchronize", "Inner Focus", "Magic Guard"],
         evolution: evolutionFamilies.abra,
         japaneseName: "Casey",
-        family: "Abra",
-        tags: []
+        family: "Abra1",
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Kadabra",
@@ -3016,8 +3079,9 @@ let nationalDex = {
         ability: ["Synchronize", "Inner Focus", "Magic Guard"],
         evolution: evolutionFamilies.abra,
         japaneseName: "Yungerer",
-        family: "Abra",
-        tags: []
+        family: "Abra1",
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Alakazam",
@@ -3038,8 +3102,9 @@ let nationalDex = {
         ability: ["Synchronize", "Inner Focus", "Magic Guard"],
         evolution: evolutionFamilies.abra,
         japaneseName: "Foodin",
-        family: "Abra",
-        tags: []
+        family: "Abra1",
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Machop",
@@ -3061,7 +3126,8 @@ let nationalDex = {
         evolution: evolutionFamilies.machop,
         japaneseName: "Wanriky",
         family: "Machop",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Machoke",
@@ -3083,7 +3149,8 @@ let nationalDex = {
         evolution: evolutionFamilies.machop,
         japaneseName: "Goriky",
         family: "Machop",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Machamp",
@@ -3105,7 +3172,8 @@ let nationalDex = {
         evolution: evolutionFamilies.machop,
         japaneseName: "Kairiky",
         family: "Machop",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Bellsprout",
@@ -3127,7 +3195,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bellsprout,
         japaneseName: "Madatsubomi",
         family: "Bellsprout",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Weepinbell",
@@ -3149,7 +3218,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bellsprout,
         japaneseName: "Utsudon",
         family: "Bellsprout",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Victreebel",
@@ -3171,7 +3241,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bellsprout,
         japaneseName: "Utsubot",
         family: "Bellsprout",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Tentacool",
@@ -3193,7 +3264,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tentacool,
         japaneseName: "Menokurage",
         family: "Tentacool",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Tentacruel",
@@ -3215,7 +3287,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tentacool,
         japaneseName: "Dokukurage",
         family: "Tentacool",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Geodude",
@@ -3237,7 +3310,8 @@ let nationalDex = {
         evolution: evolutionFamilies.geodude,
         japaneseName: "Isitsubute",
         family: "Geodude",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Graveler",
@@ -3259,7 +3333,8 @@ let nationalDex = {
         evolution: evolutionFamilies.geodude,
         japaneseName: "Golone",
         family: "Geodude",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Golem",
@@ -3281,7 +3356,8 @@ let nationalDex = {
         evolution: evolutionFamilies.geodude,
         japaneseName: "Golonya",
         family: "Geodude",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Ponyta",
@@ -3303,7 +3379,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ponyta,
         japaneseName: "Ponyta",
         family: "Ponyta",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Rapidash",
@@ -3325,7 +3402,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ponyta,
         japaneseName: "Gallop",
         family: "Ponyta",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Slowpoke",
@@ -3347,7 +3425,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slowpoke,
         japaneseName: "Yadon",
         family: "Slowpoke",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Slowbro",
@@ -3369,7 +3448,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slowpoke,
         japaneseName: "Yadoran",
         family: "Slowpoke",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Magnemite",
@@ -3391,7 +3471,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magnemite,
         japaneseName: "Coil",
         family: "Magnemite",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Magneton",
@@ -3413,7 +3494,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magnemite,
         japaneseName: "Rarecoil",
         family: "Magnemite",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Farfetch'd",
@@ -3435,7 +3517,8 @@ let nationalDex = {
         evolution: evolutionFamilies.farfetchd,
         japaneseName: "Kamonegi",
         family: "Farfetchd",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Doduo",
@@ -3457,7 +3540,8 @@ let nationalDex = {
         evolution: evolutionFamilies.doduo,
         japaneseName: "Dodo",
         family: "Doduo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Dodrio",
@@ -3479,7 +3563,8 @@ let nationalDex = {
         evolution: evolutionFamilies.doduo,
         japaneseName: "Dodorio",
         family: "Doduo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Seel",
@@ -3501,7 +3586,8 @@ let nationalDex = {
         evolution: evolutionFamilies.seel,
         japaneseName: "Pawou",
         family: "Seel",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Dewgong",
@@ -3523,7 +3609,8 @@ let nationalDex = {
         evolution: evolutionFamilies.seel,
         japaneseName: "Jugon",
         family: "Seel",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Grimer",
@@ -3545,7 +3632,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grimer,
         japaneseName: "Betbeter",
         family: "Grimer",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Muk",
@@ -3567,7 +3655,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grimer,
         japaneseName: "Betbeton",
         family: "Grimer",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Shellder",
@@ -3589,7 +3678,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shellder,
         japaneseName: "Shellder",
         family: "Shellder",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Cloyster",
@@ -3611,7 +3701,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shellder,
         japaneseName: "Parshen",
         family: "Shellder",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Gastly",
@@ -3633,7 +3724,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gastly,
         japaneseName: "Ghos",
         family: "Gastly",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Haunter",
@@ -3655,7 +3747,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gastly,
         japaneseName: "Ghost",
         family: "Gastly",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Gengar",
@@ -3677,7 +3770,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gastly,
         japaneseName: "Gangar",
         family: "Gastly",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Onix",
@@ -3699,7 +3793,8 @@ let nationalDex = {
         evolution: evolutionFamilies.onix,
         japaneseName: "Iwark",
         family: "Onix",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Drowzee",
@@ -3721,7 +3816,8 @@ let nationalDex = {
         evolution: evolutionFamilies.drowzee,
         japaneseName: "Sleepe",
         family: "Drowzee",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Hypno",
@@ -3743,7 +3839,8 @@ let nationalDex = {
         evolution: evolutionFamilies.drowzee,
         japaneseName: "Sleeper",
         family: "Drowzee",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Krabby",
@@ -3765,7 +3862,8 @@ let nationalDex = {
         evolution: evolutionFamilies.krabby,
         japaneseName: "Crab",
         family: "Krabby",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Kingler",
@@ -3787,7 +3885,8 @@ let nationalDex = {
         evolution: evolutionFamilies.krabby,
         japaneseName: "Kingler",
         family: "Krabby",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Voltorb",
@@ -3809,7 +3908,8 @@ let nationalDex = {
         evolution: evolutionFamilies.voltorb,
         japaneseName: "Biriridama",
         family: "Voltorb",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Electrode",
@@ -3831,7 +3931,8 @@ let nationalDex = {
         evolution: evolutionFamilies.voltorb,
         japaneseName: "Marumine",
         family: "Voltorb",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Exeggcute",
@@ -3853,7 +3954,8 @@ let nationalDex = {
         evolution: evolutionFamilies.exeggcute,
         japaneseName: "Tamatama",
         family: "Exeggcute",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Exeggutor",
@@ -3875,7 +3977,8 @@ let nationalDex = {
         evolution: evolutionFamilies.exeggcute,
         japaneseName: "Nassy",
         family: "Exeggcute",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Cubone",
@@ -3897,7 +4000,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cubone,
         japaneseName: "Karakara",
         family: "Cubone",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Marowak",
@@ -3919,7 +4023,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cubone,
         japaneseName: "Garagara",
         family: "Cubone",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Hitmonlee",
@@ -3941,7 +4046,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tyrogue,
         japaneseName: "Sawamular",
         family: "Tyrogue",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Hitmonchan",
@@ -3963,7 +4069,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tyrogue,
         japaneseName: "Ebiwalar",
         family: "Tyrogue",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Lickitung",
@@ -3985,7 +4092,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lickitung,
         japaneseName: "Beroringa",
         family: "Lickitung",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Koffing",
@@ -4007,7 +4115,8 @@ let nationalDex = {
         evolution: evolutionFamilies.koffing,
         japaneseName: "Dogars",
         family: "Koffing",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Weezing",
@@ -4029,7 +4138,8 @@ let nationalDex = {
         evolution: evolutionFamilies.koffing,
         japaneseName: "Matadogas",
         family: "Koffing",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Rhyhorn",
@@ -4051,7 +4161,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rhyhorn,
         japaneseName: "Sihorn",
         family: "Rhyhorn",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Rhydon",
@@ -4073,7 +4184,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rhyhorn,
         japaneseName: "Sidon",
         family: "Rhyhorn",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Chansey",
@@ -4095,7 +4207,8 @@ let nationalDex = {
         evolution: evolutionFamilies.happiny,
         japaneseName: "Lucky",
         family: "Happiny",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Tangela",
@@ -4117,7 +4230,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tangela,
         japaneseName: "Monjara",
         family: "Tangela",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Kangaskhan",
@@ -4139,7 +4253,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kangaskhan,
         japaneseName: "Garura",
         family: "Kangaskhan",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Horsea",
@@ -4161,7 +4276,8 @@ let nationalDex = {
         evolution: evolutionFamilies.horsea,
         japaneseName: "Tattu",
         family: "Horsea",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Seadra",
@@ -4183,7 +4299,8 @@ let nationalDex = {
         evolution: evolutionFamilies.horsea,
         japaneseName: "Seadra",
         family: "Horsea",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Goldeen",
@@ -4205,7 +4322,8 @@ let nationalDex = {
         evolution: evolutionFamilies.goldeen,
         japaneseName: "Tosakinto",
         family: "Goldeen",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Seaking",
@@ -4227,7 +4345,8 @@ let nationalDex = {
         evolution: evolutionFamilies.goldeen,
         japaneseName: "Azumao",
         family: "Goldeen",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Staryu",
@@ -4249,7 +4368,8 @@ let nationalDex = {
         evolution: evolutionFamilies.staryu,
         japaneseName: "Hitodeman",
         family: "Staryu",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Starmie",
@@ -4271,7 +4391,8 @@ let nationalDex = {
         evolution: evolutionFamilies.staryu,
         japaneseName: "Starmie",
         family: "Staryu",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Mr. Mime",
@@ -4293,7 +4414,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mimejr,
         japaneseName: "Barrierd",
         family: "MimeJr",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Scyther",
@@ -4315,7 +4437,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scyther,
         japaneseName: "Strike",
         family: "Scyther",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Jynx",
@@ -4337,7 +4460,8 @@ let nationalDex = {
         evolution: evolutionFamilies.smoochum,
         japaneseName: "Rougela",
         family: "Smoochum",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Electabuzz",
@@ -4359,7 +4483,8 @@ let nationalDex = {
         evolution: evolutionFamilies.elekid,
         japaneseName: "Eleboo",
         family: "Elekid",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Magmar",
@@ -4381,7 +4506,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magby,
         japaneseName: "Boober",
         family: "Magby",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Pinsir",
@@ -4403,7 +4529,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pinsir,
         japaneseName: "Kailios",
         family: "Pinsir",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Tauros",
@@ -4425,7 +4552,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tauros,
         japaneseName: "Kentauros",
         family: "Tauros",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Magikarp",
@@ -4447,7 +4575,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magikarp,
         japaneseName: "Koiking",
         family: "Magikarp",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Gyarados",
@@ -4469,7 +4598,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magikarp,
         japaneseName: "Gyarados",
         family: "Magikarp",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Lapras",
@@ -4491,7 +4621,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lapras,
         japaneseName: "Laplace",
         family: "Lapras",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Ditto",
@@ -4513,7 +4644,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ditto,
         japaneseName: "Metamon",
         family: "Ditto",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Eevee",
@@ -4535,7 +4667,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Eievui",
         family: "Eevee",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Vaporeon",
@@ -4557,7 +4690,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Showers",
         family: "Eevee",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Jolteon",
@@ -4579,7 +4713,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Thunders",
         family: "Eevee",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Flareon",
@@ -4601,7 +4736,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Booster",
         family: "Eevee",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Porygon",
@@ -4623,7 +4759,8 @@ let nationalDex = {
         evolution: evolutionFamilies.porygon,
         japaneseName: "Porygon",
         family: "Porygon",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Omanyte",
@@ -4645,7 +4782,8 @@ let nationalDex = {
         evolution: evolutionFamilies.omanyte,
         japaneseName: "Omnite",
         family: "Omanyte",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Omastar",
@@ -4667,7 +4805,8 @@ let nationalDex = {
         evolution: evolutionFamilies.omanyte,
         japaneseName: "Omstar",
         family: "Omanyte",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Kabuto",
@@ -4689,7 +4828,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kabuto,
         japaneseName: "Kabuto",
         family: "Kabuto",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Brown"
     },
     {
         name: "Kabutops",
@@ -4711,7 +4851,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kabuto,
         japaneseName: "Kabutops",
         family: "Kabuto",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Brown"
     },
     {
         name: "Aerodactyl",
@@ -4733,7 +4874,8 @@ let nationalDex = {
         evolution: evolutionFamilies.aerodactyl,
         japaneseName: "Ptera",
         family: "Aerodactyl",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Purple"
     },
     {
         name: "Snorlax",
@@ -4755,7 +4897,8 @@ let nationalDex = {
         evolution: evolutionFamilies.munchlax,
         japaneseName: "Kabigon",
         family: "Munchlax",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Articuno",
@@ -4777,7 +4920,8 @@ let nationalDex = {
         evolution: evolutionFamilies.articuno,
         japaneseName: "Freezer",
         family: "Articuno",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Zapdos",
@@ -4799,7 +4943,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zapdos,
         japaneseName: "Thunder",
         family: "Zapdos",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Yellow"
     },
     {
         name: "Moltres",
@@ -4821,7 +4966,8 @@ let nationalDex = {
         evolution: evolutionFamilies.moltres,
         japaneseName: "Fire",
         family: "Moltres",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Yellow"
     },
     {
         name: "Dratini",
@@ -4843,7 +4989,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dratini,
         japaneseName: "Miniryu",
         family: "Dratini",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Dragonair",
@@ -4865,7 +5012,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dratini,
         japaneseName: "Hakuryu",
         family: "Dratini",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Dragonite",
@@ -4887,7 +5035,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dratini,
         japaneseName: "Kairyu",
         family: "Dratini",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Brown"
     },
     {
         name: "Mewtwo",
@@ -4909,7 +5058,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mewtwo,
         japaneseName: "Mewtwo",
         family: "Mewtwo",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Purple"
     },
     {
         name: "Mew",
@@ -4931,7 +5081,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mew,
         japaneseName: "Mew",
         family: "Mew1",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Pink"
     },
     {
         name: "Chikorita",
@@ -4953,7 +5104,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chikorita,
         japaneseName: "Chicorita",
         family: "Chikorita",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Bayleef",
@@ -4975,7 +5127,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chikorita,
         japaneseName: "Bayleaf",
         family: "Chikorita",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Meganium",
@@ -4997,7 +5150,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chikorita,
         japaneseName: "Meganium",
         family: "Chikorita",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Cyndaquil",
@@ -5019,7 +5173,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cyndaquil,
         japaneseName: "Hinoarashi",
         family: "Cyndaquil",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Yellow"
     },
     {
         name: "Quilava",
@@ -5041,7 +5196,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cyndaquil,
         japaneseName: "Magmarashi",
         family: "Cyndaquil",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Yellow"
     },
     {
         name: "Typhlosion",
@@ -5063,7 +5219,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cyndaquil,
         japaneseName: "Bakphoon",
         family: "Cyndaquil",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Yellow"
     },
     {
         name: "Totodile",
@@ -5085,7 +5242,8 @@ let nationalDex = {
         evolution: evolutionFamilies.totodile,
         japaneseName: "Waninoko",
         family: "Totodile",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Croconaw",
@@ -5107,7 +5265,8 @@ let nationalDex = {
         evolution: evolutionFamilies.totodile,
         japaneseName: "Alligates",
         family: "Totodile",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Feraligatr",
@@ -5129,7 +5288,8 @@ let nationalDex = {
         evolution: evolutionFamilies.totodile,
         japaneseName: "Ordile",
         family: "Totodile",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Sentret",
@@ -5151,7 +5311,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sentret,
         japaneseName: "Otachi",
         family: "Sentret",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Furret",
@@ -5173,7 +5334,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sentret,
         japaneseName: "Ootachi",
         family: "Sentret",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Hoothoot",
@@ -5195,7 +5357,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hoothoot,
         japaneseName: "Hoho",
         family: "Hoothoot",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Noctowl",
@@ -5217,7 +5380,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hoothoot,
         japaneseName: "Yorunozuku",
         family: "Hoothoot",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Ledyba",
@@ -5239,7 +5403,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ledyba,
         japaneseName: "Rediba",
         family: "Ledyba",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Ledian",
@@ -5261,7 +5426,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ledyba,
         japaneseName: "Redian",
         family: "Ledyba",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Spinarak",
@@ -5283,7 +5449,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spinarak,
         japaneseName: "Itomaru",
         family: "Spinarak",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Ariados",
@@ -5305,7 +5472,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spinarak,
         japaneseName: "Ariados",
         family: "Spinarak",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Crobat",
@@ -5327,7 +5495,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zubat,
         japaneseName: "Crobat",
         family: "Zubat",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Purple"
     },
     {
         name: "Chinchou",
@@ -5349,7 +5518,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chinchou,
         japaneseName: "Chonchie",
         family: "Chinchou",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Lanturn",
@@ -5371,7 +5541,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chinchou,
         japaneseName: "Lantern",
         family: "Chinchou",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Pichu",
@@ -5393,7 +5564,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pichu,
         japaneseName: "Pichu",
         family: "Pichu",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Yellow"
     },
     {
         name: "Cleffa",
@@ -5415,7 +5587,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cleffa,
         japaneseName: "Py",
         family: "Cleffa",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Pink"
     },
     {
         name: "Igglybuff",
@@ -5437,7 +5610,8 @@ let nationalDex = {
         evolution: evolutionFamilies.igglybuff,
         japaneseName: "Pupurin",
         family: "Igglybuff",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Pink"
     },
     {
         name: "Togepi",
@@ -5459,7 +5633,8 @@ let nationalDex = {
         evolution: evolutionFamilies.togepi,
         japaneseName: "Togepy",
         family: "Togepi",
-        tags: ["Baby"]
+        tags: ["Baby"],
+        color: "White"
     },
     {
         name: "Togetic",
@@ -5481,7 +5656,8 @@ let nationalDex = {
         evolution: evolutionFamilies.togepi,
         japaneseName: "Togechick",
         family: "Togepi",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Natu",
@@ -5503,7 +5679,8 @@ let nationalDex = {
         evolution: evolutionFamilies.natu,
         japaneseName: "Naty",
         family: "Natu1",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Xatu",
@@ -5525,7 +5702,8 @@ let nationalDex = {
         evolution: evolutionFamilies.natu,
         japaneseName: "Natio",
         family: "Natu1",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Mareep",
@@ -5547,7 +5725,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mareep,
         japaneseName: "Merriep",
         family: "Mareep",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Flaaffy",
@@ -5569,7 +5748,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mareep,
         japaneseName: "Mokoko",
         family: "Mareep",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Ampharos",
@@ -5591,7 +5771,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mareep,
         japaneseName: "Denryu",
         family: "Mareep",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Bellossom",
@@ -5613,7 +5794,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oddish,
         japaneseName: "Kireihana",
         family: "Oddish",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Marill",
@@ -5635,7 +5817,8 @@ let nationalDex = {
         evolution: evolutionFamilies.azurill,
         japaneseName: "Maril",
         family: "Azurill",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Azumarill",
@@ -5657,7 +5840,8 @@ let nationalDex = {
         evolution: evolutionFamilies.azurill,
         japaneseName: "Marilli",
         family: "Azurill",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Sudowoodo",
@@ -5679,7 +5863,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bonsly,
         japaneseName: "Usokkie",
         family: "Bonsly",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Politoed",
@@ -5701,7 +5886,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poliwag,
         japaneseName: "Nyorotono",
         family: "Poliwag",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Hoppip",
@@ -5723,7 +5909,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hoppip,
         japaneseName: "Hanecco",
         family: "Hoppip",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Skiploom",
@@ -5745,7 +5932,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hoppip,
         japaneseName: "Popocco",
         family: "Hoppip",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Jumpluff",
@@ -5767,7 +5955,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hoppip,
         japaneseName: "Watacco",
         family: "Hoppip",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Aipom",
@@ -5789,7 +5978,8 @@ let nationalDex = {
         evolution: evolutionFamilies.aipom,
         japaneseName: "Eipom",
         family: "Aipom",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Sunkern",
@@ -5811,7 +6001,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sunkern,
         japaneseName: "Himanuts",
         family: "Sunkern",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Sunflora",
@@ -5833,7 +6024,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sunkern,
         japaneseName: "Kimawari",
         family: "Sunkern",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Yanma",
@@ -5855,7 +6047,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yanma,
         japaneseName: "Yanyanma",
         family: "Yanma",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Wooper",
@@ -5877,7 +6070,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wooper,
         japaneseName: "Upah",
         family: "Wooper",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Quagsire",
@@ -5899,7 +6093,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wooper,
         japaneseName: "Nuoh",
         family: "Wooper",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Espeon",
@@ -5921,7 +6116,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Eifie",
         family: "Eevee",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Purple"
     },
     {
         name: "Umbreon",
@@ -5943,7 +6139,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Blacky",
         family: "Eevee",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Black"
     },
     {
         name: "Murkrow",
@@ -5965,7 +6162,8 @@ let nationalDex = {
         evolution: evolutionFamilies.murkrow,
         japaneseName: "Yamikarasu",
         family: "Murkrow",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Slowking",
@@ -5987,7 +6185,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slowpoke,
         japaneseName: "Yadoking",
         family: "Slowpoke",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Misdreavus",
@@ -6009,7 +6208,8 @@ let nationalDex = {
         evolution: evolutionFamilies.misdreavus,
         japaneseName: "Muma",
         family: "Misdreavus",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Unown",
@@ -6031,7 +6231,8 @@ let nationalDex = {
         evolution: evolutionFamilies.unown,
         japaneseName: "Unknown",
         family: "Unown",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Wobbuffet",
@@ -6053,7 +6254,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wynaut,
         japaneseName: "Sonans",
         family: "Wynaut",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Girafarig",
@@ -6075,7 +6277,8 @@ let nationalDex = {
         evolution: evolutionFamilies.girafarig,
         japaneseName: "Kirinriki",
         family: "Girafarig",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Pineco",
@@ -6097,7 +6300,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pineco,
         japaneseName: "Kunugidama",
         family: "Pineco",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Forretress",
@@ -6119,7 +6323,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pineco,
         japaneseName: "Foretos",
         family: "Pineco",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Dunsparce",
@@ -6141,7 +6346,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dunsparce,
         japaneseName: "Nokocchi",
         family: "Dunsparce",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Gligar",
@@ -6163,7 +6369,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gligar,
         japaneseName: "Gliger",
         family: "Gligar",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Steelix",
@@ -6185,7 +6392,8 @@ let nationalDex = {
         evolution: evolutionFamilies.onix,
         japaneseName: "Haganeil",
         family: "Onix",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Snubbull",
@@ -6207,7 +6415,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snubbull,
         japaneseName: "Bulu",
         family: "Snubbull",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Granbull",
@@ -6229,7 +6438,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snubbull,
         japaneseName: "Granbulu",
         family: "Snubbull",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Qwilfish",
@@ -6251,7 +6461,8 @@ let nationalDex = {
         evolution: evolutionFamilies.qwilfish,
         japaneseName: "Harysen",
         family: "Qwilfish",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Scizor",
@@ -6273,7 +6484,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scyther,
         japaneseName: "Hassam",
         family: "Scyther",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Red"
     },
     {
         name: "Shuckle",
@@ -6295,7 +6507,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shuckle,
         japaneseName: "Tsubotsubo",
         family: "Shuckle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Heracross",
@@ -6317,7 +6530,8 @@ let nationalDex = {
         evolution: evolutionFamilies.heracross,
         japaneseName: "Heracros",
         family: "Heracross",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Sneasel",
@@ -6339,7 +6553,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sneasel,
         japaneseName: "Nyula",
         family: "Sneasel",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Teddiursa",
@@ -6361,7 +6576,8 @@ let nationalDex = {
         evolution: evolutionFamilies.teddiursa,
         japaneseName: "Himeguma",
         family: "Teddiursa",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Ursaring",
@@ -6383,7 +6599,8 @@ let nationalDex = {
         evolution: evolutionFamilies.teddiursa,
         japaneseName: "Ringuma",
         family: "Teddiursa",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Slugma",
@@ -6405,7 +6622,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slugma,
         japaneseName: "Magmag",
         family: "Slugma",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Magcargo",
@@ -6427,7 +6645,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slugma,
         japaneseName: "Magcargot",
         family: "Slugma",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Swinub",
@@ -6449,7 +6668,8 @@ let nationalDex = {
         evolution: evolutionFamilies.swinub,
         japaneseName: "Urimoo",
         family: "Swinub",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Piloswine",
@@ -6471,7 +6691,8 @@ let nationalDex = {
         evolution: evolutionFamilies.swinub,
         japaneseName: "Inomoo",
         family: "Swinub",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Corsola",
@@ -6493,7 +6714,8 @@ let nationalDex = {
         evolution: evolutionFamilies.corsola,
         japaneseName: "Sunnygo",
         family: "Corsola",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Remoraid",
@@ -6515,7 +6737,8 @@ let nationalDex = {
         evolution: evolutionFamilies.remoraid,
         japaneseName: "Teppouo",
         family: "Remoraid",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Octillery",
@@ -6537,7 +6760,8 @@ let nationalDex = {
         evolution: evolutionFamilies.remoraid,
         japaneseName: "Okutank",
         family: "Remoraid",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Delibird",
@@ -6559,7 +6783,8 @@ let nationalDex = {
         evolution: evolutionFamilies.delibird,
         japaneseName: "Delibird",
         family: "Delibird",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Mantine",
@@ -6581,7 +6806,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mantyke,
         japaneseName: "Mantain",
         family: "Mantyke",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Skarmory",
@@ -6603,7 +6829,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skarmory,
         japaneseName: "Airmd",
         family: "Skarmory",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Houndour",
@@ -6625,7 +6852,8 @@ let nationalDex = {
         evolution: evolutionFamilies.houndour,
         japaneseName: "Delvil",
         family: "Houndour",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Houndoom",
@@ -6647,7 +6875,8 @@ let nationalDex = {
         evolution: evolutionFamilies.houndour,
         japaneseName: "Hellgar",
         family: "Houndour",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Kingdra",
@@ -6669,7 +6898,8 @@ let nationalDex = {
         evolution: evolutionFamilies.horsea,
         japaneseName: "Kingdra",
         family: "Horsea",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Blue"
     },
     {
         name: "Phanpy",
@@ -6691,7 +6921,8 @@ let nationalDex = {
         evolution: evolutionFamilies.phanpy,
         japaneseName: "Gomazou",
         family: "Phanpy",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Donphan",
@@ -6713,7 +6944,8 @@ let nationalDex = {
         evolution: evolutionFamilies.phanpy,
         japaneseName: "Donfan",
         family: "Phanpy",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Porygon2",
@@ -6735,7 +6967,8 @@ let nationalDex = {
         evolution: evolutionFamilies.porygon,
         japaneseName: "Porygon2",
         family: "Porygon",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Red"
     },
     {
         name: "Stantler",
@@ -6757,7 +6990,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stantler,
         japaneseName: "Odoshishi",
         family: "Stantler",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Smeargle",
@@ -6779,7 +7013,8 @@ let nationalDex = {
         evolution: evolutionFamilies.smeargle,
         japaneseName: "Doble",
         family: "Smeargle",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Tyrogue",
@@ -6801,7 +7036,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tyrogue,
         japaneseName: "Balkie",
         family: "Tyrogue",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Purple"
     },
     {
         name: "Hitmontop",
@@ -6823,7 +7059,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tyrogue,
         japaneseName: "Kapoerer",
         family: "Tyrogue",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Smoochum",
@@ -6845,7 +7082,8 @@ let nationalDex = {
         evolution: evolutionFamilies.smoochum,
         japaneseName: "Muchul",
         family: "Smoochum",
-        tags: ["Baby"]
+        tags: ["Baby"],
+        color: "Pink"
     },
     {
         name: "Elekid",
@@ -6867,7 +7105,8 @@ let nationalDex = {
         evolution: evolutionFamilies.elekid,
         japaneseName: "Elekid",
         family: "Elekid",
-        tags: ["Baby"]
+        tags: ["Baby"],
+        color: "Yellow"
     },
     {
         name: "Magby",
@@ -6889,7 +7128,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magby,
         japaneseName: "Buby",
         family: "Magby",
-        tags: ["Baby"]
+        tags: ["Baby"],
+        color: "Red"
     },
     {
         name: "Miltank",
@@ -6911,7 +7151,8 @@ let nationalDex = {
         evolution: evolutionFamilies.miltank,
         japaneseName: "Miltank",
         family: "Miltank",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Blissey",
@@ -6933,7 +7174,8 @@ let nationalDex = {
         evolution: evolutionFamilies.happiny,
         japaneseName: "Happinas",
         family: "Happiny",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Pink"
     },
     {
         name: "Raikou",
@@ -6955,7 +7197,8 @@ let nationalDex = {
         evolution: evolutionFamilies.raikou,
         japaneseName: "Raikou",
         family: "Raikou",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Yellow"
     },
     {
         name: "Entei",
@@ -6977,7 +7220,8 @@ let nationalDex = {
         evolution: evolutionFamilies.entei,
         japaneseName: "Entei",
         family: "Entei",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Brown"
     },
     {
         name: "Suicune",
@@ -6999,7 +7243,8 @@ let nationalDex = {
         evolution: evolutionFamilies.suicune,
         japaneseName: "Suicune",
         family: "Suicune",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Larvitar",
@@ -7021,7 +7266,8 @@ let nationalDex = {
         evolution: evolutionFamilies.larvitar,
         japaneseName: "Yogiras",
         family: "Larvitar",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Green"
     },
     {
         name: "Pupitar",
@@ -7043,7 +7289,8 @@ let nationalDex = {
         evolution: evolutionFamilies.larvitar,
         japaneseName: "Sanagiras",
         family: "Larvitar",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Gray"
     },
     {
         name: "Tyranitar",
@@ -7065,7 +7312,8 @@ let nationalDex = {
         evolution: evolutionFamilies.larvitar,
         japaneseName: "Bangiras",
         family: "Larvitar",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Green"
     },
     {
         name: "Lugia",
@@ -7087,7 +7335,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lugia,
         japaneseName: "Lugia",
         family: "Lugia",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "White"
     },
     {
         name: "Ho-Oh",
@@ -7109,7 +7358,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hooh,
         japaneseName: "Houou",
         family: "HoOh",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Red"
     },
     {
         name: "Celebi",
@@ -7131,7 +7381,8 @@ let nationalDex = {
         evolution: evolutionFamilies.celebi,
         japaneseName: "Celebi",
         family: "Celebi",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Green"
     },
     {
         name: "Treecko",
@@ -7153,7 +7404,8 @@ let nationalDex = {
         evolution: evolutionFamilies.treecko,
         japaneseName: "Kimori",
         family: "Treecko",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Grovyle",
@@ -7175,7 +7427,8 @@ let nationalDex = {
         evolution: evolutionFamilies.treecko,
         japaneseName: "Juptile",
         family: "Treecko",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Sceptile",
@@ -7197,7 +7450,8 @@ let nationalDex = {
         evolution: evolutionFamilies.treecko,
         japaneseName: "Jukain",
         family: "Treecko",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Torchic",
@@ -7219,7 +7473,8 @@ let nationalDex = {
         evolution: evolutionFamilies.torchic,
         japaneseName: "Achamo",
         family: "Torchic",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Combusken",
@@ -7241,7 +7496,8 @@ let nationalDex = {
         evolution: evolutionFamilies.torchic,
         japaneseName: "Wakasyamo",
         family: "Torchic",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Blaziken",
@@ -7263,7 +7519,8 @@ let nationalDex = {
         evolution: evolutionFamilies.torchic,
         japaneseName: "Bursyamo",
         family: "Torchic",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Mudkip",
@@ -7285,7 +7542,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mudkip,
         japaneseName: "Mizugorou",
         family: "Mudkip",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Marshtomp",
@@ -7307,7 +7565,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mudkip,
         japaneseName: "Numacraw",
         family: "Mudkip",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Swampert",
@@ -7329,7 +7588,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mudkip,
         japaneseName: "Laglarge",
         family: "Mudkip",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Poochyena",
@@ -7351,7 +7611,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poochyena,
         japaneseName: "Pochiena",
         family: "Poochyena",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Mightyena",
@@ -7373,7 +7634,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poochyena,
         japaneseName: "Graena",
         family: "Poochyena",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Zigzagoon",
@@ -7395,7 +7657,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zigzagoon,
         japaneseName: "Jiguzaguma",
         family: "Zigzagoon",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Linoone",
@@ -7417,7 +7680,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zigzagoon,
         japaneseName: "Massuguma",
         family: "Zigzagoon",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Wurmple",
@@ -7439,7 +7703,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wurmple,
         japaneseName: "Kemusso",
         family: "Wurmple",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Silcoon",
@@ -7461,7 +7726,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wurmple,
         japaneseName: "Karasalis",
         family: "Wurmple",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Beautifly",
@@ -7483,7 +7749,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wurmple,
         japaneseName: "Agehunt",
         family: "Wurmple",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Cascoon",
@@ -7505,7 +7772,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wurmple,
         japaneseName: "Mayuld",
         family: "Wurmple",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Dustox",
@@ -7527,7 +7795,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wurmple,
         japaneseName: "Dokucale",
         family: "Wurmple",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Lotad",
@@ -7549,7 +7818,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lotad,
         japaneseName: "Hassboh",
         family: "Lotad",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Lombre",
@@ -7571,7 +7841,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lotad,
         japaneseName: "Hasubrero",
         family: "Lotad",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Ludicolo",
@@ -7593,7 +7864,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lotad,
         japaneseName: "Runpappa",
         family: "Lotad",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Seedot",
@@ -7615,7 +7887,8 @@ let nationalDex = {
         evolution: evolutionFamilies.seedot,
         japaneseName: "Taneboh",
         family: "Seedot",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Nuzleaf",
@@ -7637,7 +7910,8 @@ let nationalDex = {
         evolution: evolutionFamilies.seedot,
         japaneseName: "Konohana",
         family: "Seedot",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Shiftry",
@@ -7659,7 +7933,8 @@ let nationalDex = {
         evolution: evolutionFamilies.seedot,
         japaneseName: "Dirteng",
         family: "Seedot",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Taillow",
@@ -7681,7 +7956,8 @@ let nationalDex = {
         evolution: evolutionFamilies.taillow,
         japaneseName: "Subame",
         family: "Taillow",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Swellow",
@@ -7703,7 +7979,8 @@ let nationalDex = {
         evolution: evolutionFamilies.taillow,
         japaneseName: "Ohsubame",
         family: "Taillow",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Wingull",
@@ -7725,7 +8002,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wingull,
         japaneseName: "Camome",
         family: "Wingull",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Pelipper",
@@ -7747,7 +8025,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wingull,
         japaneseName: "Pelipper",
         family: "Wingull",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Ralts",
@@ -7769,7 +8048,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ralts,
         japaneseName: "Ralts",
         family: "Ralts",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Kirlia",
@@ -7791,7 +8071,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ralts,
         japaneseName: "Kirlia",
         family: "Ralts",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Gardevoir",
@@ -7813,7 +8094,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ralts,
         japaneseName: "Sirnight",
         family: "Ralts",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Surskit",
@@ -7835,7 +8117,8 @@ let nationalDex = {
         evolution: evolutionFamilies.surskit,
         japaneseName: "Ametama",
         family: "Surskit",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Masquerain",
@@ -7857,7 +8140,8 @@ let nationalDex = {
         evolution: evolutionFamilies.surskit,
         japaneseName: "Amemoth",
         family: "Surskit",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Shroomish",
@@ -7879,7 +8163,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shroomish,
         japaneseName: "Kinococo",
         family: "Shroomish",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Breloom",
@@ -7901,7 +8186,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shroomish,
         japaneseName: "Kinogassa",
         family: "Shroomish",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Slakoth",
@@ -7923,7 +8209,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slakoth,
         japaneseName: "Namakero",
         family: "Slakoth",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Vigoroth",
@@ -7945,7 +8232,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slakoth,
         japaneseName: "Yarukimono",
         family: "Slakoth",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Slaking",
@@ -7967,7 +8255,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slakoth,
         japaneseName: "Kekking",
         family: "Slakoth",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Nincada",
@@ -7989,7 +8278,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nincada,
         japaneseName: "Tutinin",
         family: "Nincada",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Ninjask",
@@ -8011,7 +8301,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nincada,
         japaneseName: "Tekkanin",
         family: "Nincada",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Shedinja",
@@ -8033,7 +8324,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nincada,
         japaneseName: "Nukenin",
         family: "Nincada",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Whismur",
@@ -8055,7 +8347,8 @@ let nationalDex = {
         evolution: evolutionFamilies.whismur,
         japaneseName: "Gonyonyo",
         family: "Whismur",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Loudred",
@@ -8077,7 +8370,8 @@ let nationalDex = {
         evolution: evolutionFamilies.whismur,
         japaneseName: "Dogohmb",
         family: "Whismur",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Exploud",
@@ -8099,7 +8393,8 @@ let nationalDex = {
         evolution: evolutionFamilies.whismur,
         japaneseName: "Bakuong",
         family: "Whismur",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Makuhita",
@@ -8121,7 +8416,8 @@ let nationalDex = {
         evolution: evolutionFamilies.makuhita,
         japaneseName: "Makunoshita",
         family: "Makuhita",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Hariyama",
@@ -8143,7 +8439,8 @@ let nationalDex = {
         evolution: evolutionFamilies.makuhita,
         japaneseName: "Hariteyama",
         family: "Makuhita",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Azurill",
@@ -8165,7 +8462,8 @@ let nationalDex = {
         evolution: evolutionFamilies.azurill,
         japaneseName: "Ruriri",
         family: "Azurill",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Blue"
     },
     {
         name: "Nosepass",
@@ -8187,7 +8485,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nosepass,
         japaneseName: "Nosepass",
         family: "Nosepass",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Skitty",
@@ -8209,7 +8508,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skitty,
         japaneseName: "Eneco",
         family: "Skitty",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Delcatty",
@@ -8231,7 +8531,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skitty,
         japaneseName: "Enekororo",
         family: "Skitty",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Sableye",
@@ -8253,7 +8554,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sableye,
         japaneseName: "Yamirami",
         family: "Sableye",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Mawile",
@@ -8275,7 +8577,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mawile,
         japaneseName: "Kucheat",
         family: "Mawile",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Aron",
@@ -8297,7 +8600,8 @@ let nationalDex = {
         evolution: evolutionFamilies.aron,
         japaneseName: "Cokodora",
         family: "Aron",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Lairon",
@@ -8319,7 +8623,8 @@ let nationalDex = {
         evolution: evolutionFamilies.aron,
         japaneseName: "Kodora",
         family: "Aron",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Aggron",
@@ -8341,7 +8646,8 @@ let nationalDex = {
         evolution: evolutionFamilies.aron,
         japaneseName: "Bossgodora",
         family: "Aron",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Meditite",
@@ -8363,7 +8669,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meditite,
         japaneseName: "Asanan",
         family: "Meditite",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Medicham",
@@ -8385,7 +8692,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meditite,
         japaneseName: "Charem",
         family: "Meditite",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Electrike",
@@ -8407,7 +8715,8 @@ let nationalDex = {
         evolution: evolutionFamilies.electrike,
         japaneseName: "Rakurai",
         family: "Electrike",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Manectric",
@@ -8429,7 +8738,8 @@ let nationalDex = {
         evolution: evolutionFamilies.electrike,
         japaneseName: "Livolt",
         family: "Electrike",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Plusle",
@@ -8451,7 +8761,8 @@ let nationalDex = {
         evolution: evolutionFamilies.plusle,
         japaneseName: "Prasle",
         family: "Plusle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Minun",
@@ -8473,7 +8784,8 @@ let nationalDex = {
         evolution: evolutionFamilies.minun,
         japaneseName: "Minun",
         family: "Minun",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Volbeat",
@@ -8495,7 +8807,8 @@ let nationalDex = {
         evolution: evolutionFamilies.volbeat,
         japaneseName: "Barubeat",
         family: "Volbeat",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Illumise",
@@ -8517,7 +8830,8 @@ let nationalDex = {
         evolution: evolutionFamilies.illumise,
         japaneseName: "Illumise",
         family: "Illumise",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Roselia",
@@ -8539,7 +8853,8 @@ let nationalDex = {
         evolution: evolutionFamilies.budew,
         japaneseName: "Roselia",
         family: "Budew",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Gulpin",
@@ -8561,7 +8876,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gulpin,
         japaneseName: "Gokulin",
         family: "Gulpin",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Swalot",
@@ -8583,7 +8899,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gulpin,
         japaneseName: "Marunoom",
         family: "Gulpin",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Carvanha",
@@ -8605,7 +8922,8 @@ let nationalDex = {
         evolution: evolutionFamilies.carvanha,
         japaneseName: "Kibanha",
         family: "Carvanha",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Sharpedo",
@@ -8627,7 +8945,8 @@ let nationalDex = {
         evolution: evolutionFamilies.carvanha,
         japaneseName: "Samehader",
         family: "Carvanha",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Wailmer",
@@ -8649,7 +8968,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wailmer,
         japaneseName: "Hoeruko",
         family: "Wailmer",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Wailord",
@@ -8671,7 +8991,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wailmer,
         japaneseName: "Whaloh",
         family: "Wailmer",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Numel",
@@ -8693,7 +9014,8 @@ let nationalDex = {
         evolution: evolutionFamilies.numel,
         japaneseName: "Donmel",
         family: "Numel",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Camerupt",
@@ -8715,7 +9037,8 @@ let nationalDex = {
         evolution: evolutionFamilies.numel,
         japaneseName: "Bakuuda",
         family: "Numel",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Torkoal",
@@ -8737,7 +9060,8 @@ let nationalDex = {
         evolution: evolutionFamilies.torkoal,
         japaneseName: "Cotoise",
         family: "Torkoal",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Spoink",
@@ -8759,7 +9083,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spoink,
         japaneseName: "Baneboo",
         family: "Spoink",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Grumpig",
@@ -8781,7 +9106,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spoink,
         japaneseName: "Boopig",
         family: "Spoink",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Spinda",
@@ -8803,7 +9129,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spinda,
         japaneseName: "Patcheel",
         family: "Spinda",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Trapinch",
@@ -8825,7 +9152,8 @@ let nationalDex = {
         evolution: evolutionFamilies.trapinch,
         japaneseName: "Nuckrar",
         family: "Trapinch",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Vibrava",
@@ -8847,7 +9175,8 @@ let nationalDex = {
         evolution: evolutionFamilies.trapinch,
         japaneseName: "Vibrava",
         family: "Trapinch",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Flygon",
@@ -8869,7 +9198,8 @@ let nationalDex = {
         evolution: evolutionFamilies.trapinch,
         japaneseName: "Flygon",
         family: "Trapinch",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Cacnea",
@@ -8891,7 +9221,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cacnea,
         japaneseName: "Sabonea",
         family: "Cacnea",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Cacturne",
@@ -8913,7 +9244,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cacnea,
         japaneseName: "Noctus",
         family: "Cacnea",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Swablu",
@@ -8935,7 +9267,8 @@ let nationalDex = {
         evolution: evolutionFamilies.swablu,
         japaneseName: "Tyltto",
         family: "Swablu",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Altaria",
@@ -8957,7 +9290,8 @@ let nationalDex = {
         evolution: evolutionFamilies.swablu,
         japaneseName: "Tyltalis",
         family: "Swablu",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Zangoose",
@@ -8979,7 +9313,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zangoose,
         japaneseName: "Zangoose",
         family: "Zangoose",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Seviper",
@@ -9001,7 +9336,8 @@ let nationalDex = {
         evolution: evolutionFamilies.seviper,
         japaneseName: "Habunake",
         family: "Seviper",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Lunatone",
@@ -9023,7 +9359,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lunatone,
         japaneseName: "Lunatone",
         family: "Lunatone",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Solrock",
@@ -9045,7 +9382,8 @@ let nationalDex = {
         evolution: evolutionFamilies.solrock,
         japaneseName: "Solrock",
         family: "Solrock",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Barboach",
@@ -9067,7 +9405,8 @@ let nationalDex = {
         evolution: evolutionFamilies.barboach,
         japaneseName: "Dojoach",
         family: "Barboach",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Whiscash",
@@ -9089,7 +9428,8 @@ let nationalDex = {
         evolution: evolutionFamilies.barboach,
         japaneseName: "Namazun",
         family: "Barboach",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Corphish",
@@ -9111,7 +9451,8 @@ let nationalDex = {
         evolution: evolutionFamilies.corphish,
         japaneseName: "Heigani",
         family: "Corphish",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Crawdaunt",
@@ -9133,7 +9474,8 @@ let nationalDex = {
         evolution: evolutionFamilies.corphish,
         japaneseName: "Shizariger",
         family: "Corphish",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Baltoy",
@@ -9155,7 +9497,8 @@ let nationalDex = {
         evolution: evolutionFamilies.baltoy,
         japaneseName: "Yajilon",
         family: "Baltoy",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Claydol",
@@ -9177,7 +9520,8 @@ let nationalDex = {
         evolution: evolutionFamilies.baltoy,
         japaneseName: "Nendoll",
         family: "Baltoy",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Lileep",
@@ -9199,7 +9543,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lileep,
         japaneseName: "Lilyla",
         family: "Lileep",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Purple"
     },
     {
         name: "Cradily",
@@ -9221,7 +9566,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lileep,
         japaneseName: "Yuradle",
         family: "Lileep",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Green"
     },
     {
         name: "Anorith",
@@ -9243,7 +9589,8 @@ let nationalDex = {
         evolution: evolutionFamilies.anorith,
         japaneseName: "Anopth",
         family: "Anorith",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Gray"
     },
     {
         name: "Armaldo",
@@ -9265,7 +9612,8 @@ let nationalDex = {
         evolution: evolutionFamilies.anorith,
         japaneseName: "Armaldo",
         family: "Anorith",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Gray"
     },
     {
         name: "Feebas",
@@ -9287,7 +9635,8 @@ let nationalDex = {
         evolution: evolutionFamilies.feebas,
         japaneseName: "Hinbass",
         family: "Feebas",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Milotic",
@@ -9309,7 +9658,8 @@ let nationalDex = {
         evolution: evolutionFamilies.feebas,
         japaneseName: "Milokaross",
         family: "Feebas",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Castform",
@@ -9331,7 +9681,8 @@ let nationalDex = {
         evolution: evolutionFamilies.castform,
         japaneseName: "Powalen",
         family: "Castform",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Kecleon",
@@ -9353,7 +9704,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kecleon,
         japaneseName: "Kakureon",
         family: "Kecleon",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Shuppet",
@@ -9375,7 +9727,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shuppet,
         japaneseName: "Kagebouzu",
         family: "Shuppet",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Banette",
@@ -9397,7 +9750,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shuppet,
         japaneseName: "Juppeta",
         family: "Shuppet",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Duskull",
@@ -9419,7 +9773,8 @@ let nationalDex = {
         evolution: evolutionFamilies.duskull,
         japaneseName: "Yomawaru",
         family: "Duskull",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Dusclops",
@@ -9441,7 +9796,8 @@ let nationalDex = {
         evolution: evolutionFamilies.duskull,
         japaneseName: "Samayouru",
         family: "Duskull",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Tropius",
@@ -9463,7 +9819,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tropius,
         japaneseName: "Tropius",
         family: "Tropius",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Chimecho",
@@ -9485,7 +9842,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chingling,
         japaneseName: "Chirean",
         family: "Chingling",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Absol",
@@ -9507,7 +9865,8 @@ let nationalDex = {
         evolution: evolutionFamilies.absol,
         japaneseName: "Absol",
         family: "Absol",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Wynaut",
@@ -9529,7 +9888,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wynaut,
         japaneseName: "Sohnano",
         family: "Wynaut",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Blue"
     },
     {
         name: "Snorunt",
@@ -9551,7 +9911,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snorunt,
         japaneseName: "Yukiwarashi",
         family: "Snorunt",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Glalie",
@@ -9573,7 +9934,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snorunt,
         japaneseName: "Onigohri",
         family: "Snorunt",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Spheal",
@@ -9595,7 +9957,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spheal,
         japaneseName: "Tamazarashi",
         family: "Spheal",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Sealeo",
@@ -9617,7 +9980,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spheal,
         japaneseName: "Todoggler",
         family: "Spheal",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Walrein",
@@ -9639,7 +10003,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spheal,
         japaneseName: "Todoseruga",
         family: "Spheal",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Clamperl",
@@ -9661,7 +10026,8 @@ let nationalDex = {
         evolution: evolutionFamilies.clamperl,
         japaneseName: "Pearlulu",
         family: "Clamperl",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Huntail",
@@ -9683,7 +10049,8 @@ let nationalDex = {
         evolution: evolutionFamilies.clamperl,
         japaneseName: "Huntail",
         family: "Clamperl",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Gorebyss",
@@ -9705,7 +10072,8 @@ let nationalDex = {
         evolution: evolutionFamilies.clamperl,
         japaneseName: "Sakurabyss",
         family: "Clamperl",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Relicanth",
@@ -9727,7 +10095,8 @@ let nationalDex = {
         evolution: evolutionFamilies.relicanth,
         japaneseName: "Glanth",
         family: "Relicanth",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Luvdisc",
@@ -9749,7 +10118,8 @@ let nationalDex = {
         evolution: evolutionFamilies.luvdisc,
         japaneseName: "Lovecus",
         family: "Luvdisc",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Bagon",
@@ -9771,7 +10141,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bagon,
         japaneseName: "Tatsubay",
         family: "Bagon",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Shelgon",
@@ -9793,7 +10164,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bagon,
         japaneseName: "Komoruu",
         family: "Bagon",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "White"
     },
     {
         name: "Salamence",
@@ -9815,7 +10187,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bagon,
         japaneseName: "Bohmander",
         family: "Bagon",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Beldum",
@@ -9837,7 +10210,8 @@ let nationalDex = {
         evolution: evolutionFamilies.beldum,
         japaneseName: "Dumbber",
         family: "Beldum",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Metang",
@@ -9859,7 +10233,8 @@ let nationalDex = {
         evolution: evolutionFamilies.beldum,
         japaneseName: "Metang",
         family: "Beldum",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Metagross",
@@ -9881,7 +10256,8 @@ let nationalDex = {
         evolution: evolutionFamilies.beldum,
         japaneseName: "Metagross",
         family: "Beldum",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Regirock",
@@ -9903,7 +10279,8 @@ let nationalDex = {
         evolution: evolutionFamilies.regirock,
         japaneseName: "Regirock",
         family: "Regirock",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Brown"
     },
     {
         name: "Regice",
@@ -9925,7 +10302,8 @@ let nationalDex = {
         evolution: evolutionFamilies.regice,
         japaneseName: "Regice",
         family: "Regice",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Registeel",
@@ -9947,7 +10325,8 @@ let nationalDex = {
         evolution: evolutionFamilies.registeel,
         japaneseName: "Registeel",
         family: "Registeel",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Gray"
     },
     {
         name: "Latias",
@@ -9969,7 +10348,8 @@ let nationalDex = {
         evolution: evolutionFamilies.latias,
         japaneseName: "Latias",
         family: "Latias",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Red"
     },
     {
         name: "Latios",
@@ -9991,7 +10371,8 @@ let nationalDex = {
         evolution: evolutionFamilies.latios,
         japaneseName: "Latios",
         family: "Latios",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Kyogre",
@@ -10013,7 +10394,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kyogre,
         japaneseName: "Kyogre",
         family: "Kyogre",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Groudon",
@@ -10035,7 +10417,8 @@ let nationalDex = {
         evolution: evolutionFamilies.groudon,
         japaneseName: "Groudon",
         family: "Groudon",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Red"
     },
     {
         name: "Rayquaza",
@@ -10057,7 +10440,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rayquaza,
         japaneseName: "Rayquaza",
         family: "Rayquaza",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Green"
     },
     {
         name: "Jirachi",
@@ -10079,7 +10463,8 @@ let nationalDex = {
         evolution: evolutionFamilies.jirachi,
         japaneseName: "Jirachi",
         family: "Jirachi",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Yellow"
     },
     {
         name: "Deoxys",
@@ -10101,7 +10486,8 @@ let nationalDex = {
         evolution: evolutionFamilies.deoxys,
         japaneseName: "Deoxys",
         family: "Deoxys",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Red"
     },
     {
         name: "Turtwig",
@@ -10123,7 +10509,8 @@ let nationalDex = {
         evolution: evolutionFamilies.turtwig,
         japaneseName: "Naetle",
         family: "Turtwig",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Grotle",
@@ -10145,7 +10532,8 @@ let nationalDex = {
         evolution: evolutionFamilies.turtwig,
         japaneseName: "Hayashigame",
         family: "Turtwig",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Torterra",
@@ -10167,7 +10555,8 @@ let nationalDex = {
         evolution: evolutionFamilies.turtwig,
         japaneseName: "Dodaitose",
         family: "Turtwig",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Chimchar",
@@ -10189,7 +10578,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chimchar,
         japaneseName: "Hikozaru",
         family: "Chimchar",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Brown"
     },
     {
         name: "Monferno",
@@ -10211,7 +10601,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chimchar,
         japaneseName: "Moukazaru",
         family: "Chimchar",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Brown"
     },
     {
         name: "Infernape",
@@ -10233,7 +10624,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chimchar,
         japaneseName: "Goukazaru",
         family: "Chimchar",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Brown"
     },
     {
         name: "Piplup",
@@ -10255,7 +10647,8 @@ let nationalDex = {
         evolution: evolutionFamilies.piplup,
         japaneseName: "Pochama",
         family: "Piplup",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Prinplup",
@@ -10277,7 +10670,8 @@ let nationalDex = {
         evolution: evolutionFamilies.piplup,
         japaneseName: "Pottaishi",
         family: "Piplup",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Empoleon",
@@ -10299,7 +10693,8 @@ let nationalDex = {
         evolution: evolutionFamilies.piplup,
         japaneseName: "Emperte",
         family: "Piplup",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Starly",
@@ -10321,7 +10716,8 @@ let nationalDex = {
         evolution: evolutionFamilies.starly,
         japaneseName: "Mukkuru",
         family: "Starly",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Staravia",
@@ -10343,7 +10739,8 @@ let nationalDex = {
         evolution: evolutionFamilies.starly,
         japaneseName: "Mukubird",
         family: "Starly",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Staraptor",
@@ -10365,7 +10762,8 @@ let nationalDex = {
         evolution: evolutionFamilies.starly,
         japaneseName: "Mukuhawk",
         family: "Starly",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Bidoof",
@@ -10387,7 +10785,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bidoof,
         japaneseName: "Bippa",
         family: "Bidoof",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Bibarel",
@@ -10409,7 +10808,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bidoof,
         japaneseName: "Beadaru",
         family: "Bidoof",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Kricketot",
@@ -10431,7 +10831,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kricketot,
         japaneseName: "Korobohshi",
         family: "Kricketot",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Kricketune",
@@ -10453,7 +10854,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kricketot,
         japaneseName: "Korotock",
         family: "Kricketot",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Shinx",
@@ -10475,7 +10877,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shinx,
         japaneseName: "Kolink",
         family: "Shinx",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Luxio",
@@ -10497,7 +10900,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shinx,
         japaneseName: "Luxio",
         family: "Shinx",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Luxray",
@@ -10519,7 +10923,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shinx,
         japaneseName: "Rentorar",
         family: "Shinx",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Budew",
@@ -10541,7 +10946,8 @@ let nationalDex = {
         evolution: evolutionFamilies.budew,
         japaneseName: "Subomie",
         family: "Budew",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Roserade",
@@ -10563,7 +10969,8 @@ let nationalDex = {
         evolution: evolutionFamilies.budew,
         japaneseName: "Roserade",
         family: "Budew",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Cranidos",
@@ -10585,7 +10992,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cranidos,
         japaneseName: "Zugaidos",
         family: "Cranidos",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Rampardos",
@@ -10607,7 +11015,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cranidos,
         japaneseName: "Rampald",
         family: "Cranidos",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Shieldon",
@@ -10629,7 +11038,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shieldon,
         japaneseName: "Tatetops",
         family: "Shieldon",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Gray"
     },
     {
         name: "Bastiodon",
@@ -10651,7 +11061,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shieldon,
         japaneseName: "Torideps",
         family: "Shieldon",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Gray"
     },
     {
         name: "Burmy",
@@ -10673,7 +11084,8 @@ let nationalDex = {
         evolution: evolutionFamilies.burmy,
         japaneseName: "Minomucchi",
         family: "Burmy",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Wormadam",
@@ -10695,7 +11107,8 @@ let nationalDex = {
         evolution: evolutionFamilies.burmy,
         japaneseName: "Minomadam",
         family: "Burmy",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Mothim",
@@ -10717,7 +11130,8 @@ let nationalDex = {
         evolution: evolutionFamilies.burmy,
         japaneseName: "Gamale",
         family: "Burmy",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Combee",
@@ -10739,7 +11153,8 @@ let nationalDex = {
         evolution: evolutionFamilies.combee,
         japaneseName: "Mitsuhoney",
         family: "Combee",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Vespiquen",
@@ -10761,7 +11176,8 @@ let nationalDex = {
         evolution: evolutionFamilies.combee,
         japaneseName: "Beequen",
         family: "Combee",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Pachirisu",
@@ -10783,7 +11199,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pachirisu,
         japaneseName: "Pachirisu",
         family: "Pachirisu",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Buizel",
@@ -10805,7 +11222,8 @@ let nationalDex = {
         evolution: evolutionFamilies.buizel,
         japaneseName: "Buoysel",
         family: "Buizel",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Floatzel",
@@ -10827,7 +11245,8 @@ let nationalDex = {
         evolution: evolutionFamilies.buizel,
         japaneseName: "Floazel",
         family: "Buizel",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Cherubi",
@@ -10849,7 +11268,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cherubi,
         japaneseName: "Cherinbo",
         family: "Cherubi",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Cherrim",
@@ -10871,7 +11291,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cherubi,
         japaneseName: "Cherrim",
         family: "Cherubi",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Shellos",
@@ -10893,7 +11314,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shellos,
         japaneseName: "Karanakushi",
         family: "Shellos",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Gastrodon",
@@ -10915,7 +11337,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shellos,
         japaneseName: "Tritodon",
         family: "Shellos",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Ambipom",
@@ -10937,7 +11360,8 @@ let nationalDex = {
         evolution: evolutionFamilies.aipom,
         japaneseName: "Eteboth",
         family: "Aipom",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Purple"
     },
     {
         name: "Drifloon",
@@ -10959,7 +11383,8 @@ let nationalDex = {
         evolution: evolutionFamilies.drifloon,
         japaneseName: "Fuwante",
         family: "Drifloon",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Drifblim",
@@ -10981,7 +11406,8 @@ let nationalDex = {
         evolution: evolutionFamilies.drifloon,
         japaneseName: "Fuwaride",
         family: "Drifloon",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Buneary",
@@ -11003,7 +11429,8 @@ let nationalDex = {
         evolution: evolutionFamilies.buneary,
         japaneseName: "Mimirol",
         family: "Buneary",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Lopunny",
@@ -11025,7 +11452,8 @@ let nationalDex = {
         evolution: evolutionFamilies.buneary,
         japaneseName: "Mimilop",
         family: "Buneary",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Mismagius",
@@ -11047,7 +11475,8 @@ let nationalDex = {
         evolution: evolutionFamilies.misdreavus,
         japaneseName: "Mumargi",
         family: "Misdreavus",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Purple"
     },
     {
         name: "Honchkrow",
@@ -11069,7 +11498,8 @@ let nationalDex = {
         evolution: evolutionFamilies.murkrow,
         japaneseName: "Dongkarasu",
         family: "Murkrow",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Black"
     },
     {
         name: "Glameow",
@@ -11091,7 +11521,8 @@ let nationalDex = {
         evolution: evolutionFamilies.glameow,
         japaneseName: "Nyarmar",
         family: "Glameow",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Purugly",
@@ -11113,7 +11544,8 @@ let nationalDex = {
         evolution: evolutionFamilies.glameow,
         japaneseName: "Bunyatto",
         family: "Glameow",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Chingling",
@@ -11135,7 +11567,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chingling,
         japaneseName: "Lisyan",
         family: "Chingling",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Yellow"
     },
     {
         name: "Stunky",
@@ -11157,7 +11590,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stunky,
         japaneseName: "Skunpuu",
         family: "Stunky",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Skuntank",
@@ -11179,7 +11613,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stunky,
         japaneseName: "Skutank",
         family: "Stunky",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Bronzor",
@@ -11201,7 +11636,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bronzor,
         japaneseName: "Dohmirror",
         family: "Bronzor",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Bronzong",
@@ -11223,7 +11659,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bronzor,
         japaneseName: "Dohtakun",
         family: "Bronzor",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Bonsly",
@@ -11245,7 +11682,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bonsly,
         japaneseName: "Usohachi",
         family: "Bonsly",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Mime Jr.",
@@ -11267,7 +11705,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mimejr,
         japaneseName: "Manene",
         family: "MimeJr",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Pink"
     },
     {
         name: "Happiny",
@@ -11289,7 +11728,8 @@ let nationalDex = {
         evolution: evolutionFamilies.happiny,
         japaneseName: "Pinpuku",
         family: "Happiny",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Pink"
     },
     {
         name: "Chatot",
@@ -11311,7 +11751,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chatot,
         japaneseName: "Perap",
         family: "Chatot",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Spiritomb",
@@ -11333,7 +11774,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spiritomb,
         japaneseName: "Mikaruge",
         family: "Spiritomb",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Gible",
@@ -11355,7 +11797,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gible,
         japaneseName: "Fukamaru",
         family: "Gible",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Gabite",
@@ -11377,7 +11820,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gible,
         japaneseName: "Gabite",
         family: "Gible",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Garchomp",
@@ -11399,7 +11843,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gible,
         japaneseName: "Gaburias",
         family: "Gible",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Munchlax",
@@ -11421,7 +11866,8 @@ let nationalDex = {
         evolution: evolutionFamilies.munchlax,
         japaneseName: "Gonbe",
         family: "Munchlax",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Black"
     },
     {
         name: "Riolu",
@@ -11443,7 +11889,8 @@ let nationalDex = {
         evolution: evolutionFamilies.riolu,
         japaneseName: "Riolu",
         family: "Riolu",
-        tags: ["Baby"]
+        tags: ["Baby"],
+        color: "Blue"
     },
     {
         name: "Lucario",
@@ -11465,7 +11912,8 @@ let nationalDex = {
         evolution: evolutionFamilies.riolu,
         japaneseName: "Lucario",
         family: "Riolu",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Hippopotas",
@@ -11487,7 +11935,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hippopotas,
         japaneseName: "Hippopotas",
         family: "Hippopotas",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Hippowdon",
@@ -11509,7 +11958,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hippopotas,
         japaneseName: "Kabaldon",
         family: "Hippopotas",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Skorupi",
@@ -11531,7 +11981,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skorupi,
         japaneseName: "Scorupi",
         family: "Skorupi",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Drapion",
@@ -11553,7 +12004,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skorupi,
         japaneseName: "Dorapion",
         family: "Skorupi",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Croagunk",
@@ -11575,7 +12027,8 @@ let nationalDex = {
         evolution: evolutionFamilies.croagunk,
         japaneseName: "Gureggru",
         family: "Croagunk",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Toxicroak",
@@ -11597,7 +12050,8 @@ let nationalDex = {
         evolution: evolutionFamilies.croagunk,
         japaneseName: "Dokurog",
         family: "Croagunk",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Carnivine",
@@ -11619,7 +12073,8 @@ let nationalDex = {
         evolution: evolutionFamilies.carnivine,
         japaneseName: "Muskippa",
         family: "Carnivine",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Finneon",
@@ -11641,7 +12096,8 @@ let nationalDex = {
         evolution: evolutionFamilies.finneon,
         japaneseName: "Keikouo",
         family: "Finneon",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Lumineon",
@@ -11663,7 +12119,8 @@ let nationalDex = {
         evolution: evolutionFamilies.finneon,
         japaneseName: "Neolant",
         family: "Finneon",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Mantyke",
@@ -11685,7 +12142,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mantyke,
         japaneseName: "Tamanta",
         family: "Mantyke",
-        tags: ["Baby", "Cross-Gen"]
+        tags: ["Baby", "Cross-Gen"],
+        color: "Blue"
     },
     {
         name: "Snover",
@@ -11707,7 +12165,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snover,
         japaneseName: "Yukikaburi",
         family: "Snover",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Abomasnow",
@@ -11729,7 +12188,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snover,
         japaneseName: "Yukinooh",
         family: "Snover",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Weavile",
@@ -11751,7 +12211,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sneasel,
         japaneseName: "Manyula",
         family: "Sneasel",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Black"
     },
     {
         name: "Magnezone",
@@ -11773,7 +12234,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magnemite,
         japaneseName: "Jibacoil",
         family: "Magnemite",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Lickilicky",
@@ -11795,7 +12257,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lickitung,
         japaneseName: "Berobelt",
         family: "Lickitung",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Pink"
     },
     {
         name: "Rhyperior",
@@ -11817,7 +12280,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rhyhorn,
         japaneseName: "Dosidon",
         family: "Rhyhorn",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Tangrowth",
@@ -11839,7 +12303,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tangela,
         japaneseName: "Mojumbo",
         family: "Tangela",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Blue"
     },
     {
         name: "Electivire",
@@ -11861,7 +12326,8 @@ let nationalDex = {
         evolution: evolutionFamilies.elekid,
         japaneseName: "Elekible",
         family: "Elekid",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Yellow"
     },
     {
         name: "Magmortar",
@@ -11883,7 +12349,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magby,
         japaneseName: "Booburn",
         family: "Magby",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Red"
     },
     {
         name: "Togekiss",
@@ -11905,7 +12372,8 @@ let nationalDex = {
         evolution: evolutionFamilies.togepi,
         japaneseName: "Togekiss",
         family: "Togepi",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "White"
     },
     {
         name: "Yanmega",
@@ -11927,7 +12395,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yanma,
         japaneseName: "Megayanma",
         family: "Yanma",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Leafeon",
@@ -11949,7 +12418,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Leafia",
         family: "Eevee",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Glaceon",
@@ -11971,7 +12441,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Glacia",
         family: "Eevee",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Blue"
     },
     {
         name: "Gliscor",
@@ -11993,7 +12464,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gligar,
         japaneseName: "Glion",
         family: "Gligar",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Purple"
     },
     {
         name: "Mamoswine",
@@ -12015,7 +12487,8 @@ let nationalDex = {
         evolution: evolutionFamilies.swinub,
         japaneseName: "Mammoo",
         family: "Swinub",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Porygon-Z",
@@ -12037,7 +12510,8 @@ let nationalDex = {
         evolution: evolutionFamilies.porygon,
         japaneseName: "Porygon-Z",
         family: "Porygon",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Red"
     },
     {
         name: "Gallade",
@@ -12059,7 +12533,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ralts,
         japaneseName: "Erureido",
         family: "Ralts",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "White"
     },
     {
         name: "Probopass",
@@ -12081,7 +12556,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nosepass,
         japaneseName: "Dainose",
         family: "Nosepass",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Dusknoir",
@@ -12103,7 +12579,8 @@ let nationalDex = {
         evolution: evolutionFamilies.duskull,
         japaneseName: "Yonoir",
         family: "Duskull",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Black"
     },
     {
         name: "Froslass",
@@ -12125,7 +12602,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snorunt,
         japaneseName: "Yukimenoko",
         family: "Snorunt",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "White"
     },
     {
         name: "Rotom",
@@ -12147,7 +12625,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rotom,
         japaneseName: "Rotom",
         family: "Rotom",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Uxie",
@@ -12169,7 +12648,8 @@ let nationalDex = {
         evolution: evolutionFamilies.uxie,
         japaneseName: "Yuxie",
         family: "Uxie",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Yellow"
     },
     {
         name: "Mesprit",
@@ -12191,7 +12671,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mesprit,
         japaneseName: "Emrit",
         family: "Mesprit",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Pink"
     },
     {
         name: "Azelf",
@@ -12213,7 +12694,8 @@ let nationalDex = {
         evolution: evolutionFamilies.azelf,
         japaneseName: "Agnome",
         family: "Azelf",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Dialga",
@@ -12235,7 +12717,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dialga,
         japaneseName: "Dialga",
         family: "Dialga",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "White"
     },
     {
         name: "Palkia",
@@ -12257,7 +12740,8 @@ let nationalDex = {
         evolution: evolutionFamilies.palkia,
         japaneseName: "Palkia",
         family: "Palkia",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Purple"
     },
     {
         name: "Heatran",
@@ -12279,7 +12763,8 @@ let nationalDex = {
         evolution: evolutionFamilies.heatran,
         japaneseName: "Heatran",
         family: "Heatran",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Brown"
     },
     {
         name: "Regigigas",
@@ -12301,7 +12786,8 @@ let nationalDex = {
         evolution: evolutionFamilies.regigigas,
         japaneseName: "Regigigas",
         family: "Regigigas",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "White"
     },
     {
         name: "Giratina",
@@ -12323,7 +12809,8 @@ let nationalDex = {
         evolution: evolutionFamilies.giratina,
         japaneseName: "Giratina",
         family: "Giratina",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Black"
     },
     {
         name: "Cresselia",
@@ -12345,7 +12832,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cresselia,
         japaneseName: "Cresselia",
         family: "Cresselia",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Yellow"
     },
     {
         name: "Phione",
@@ -12367,7 +12855,8 @@ let nationalDex = {
         evolution: evolutionFamilies.phione,
         japaneseName: "Phione",
         family: "Phione",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Blue"
     },
     {
         name: "Manaphy",
@@ -12389,7 +12878,8 @@ let nationalDex = {
         evolution: evolutionFamilies.manaphy,
         japaneseName: "Manaphy",
         family: "Manaphy",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Blue"
     },
     {
         name: "Darkrai",
@@ -12411,7 +12901,8 @@ let nationalDex = {
         evolution: evolutionFamilies.darkrai,
         japaneseName: "Darkrai",
         family: "Darkrai",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Black"
     },
     {
         name: "Shaymin",
@@ -12433,7 +12924,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shaymin,
         japaneseName: "Shaymin",
         family: "Shaymin",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Green"
     },
     {
         name: "Arceus",
@@ -12455,7 +12947,8 @@ let nationalDex = {
         evolution: evolutionFamilies.arceus,
         japaneseName: "Arceus",
         family: "Arceus",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "White"
     },
     {
         name: "Victini",
@@ -12477,7 +12970,8 @@ let nationalDex = {
         evolution: evolutionFamilies.victini,
         japaneseName: "Victini",
         family: "Victini",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Yellow"
     },
     {
         name: "Snivy",
@@ -12499,7 +12993,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snivy,
         japaneseName: "Tsutarja",
         family: "Snivy",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Servine",
@@ -12521,7 +13016,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snivy,
         japaneseName: "Janovy",
         family: "Snivy",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Serperior",
@@ -12543,7 +13039,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snivy,
         japaneseName: "Jalorda",
         family: "Snivy",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Tepig",
@@ -12565,7 +13062,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tepig,
         japaneseName: "Pokabu",
         family: "Tepig",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Pignite",
@@ -12587,7 +13085,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tepig,
         japaneseName: "Chaoboo",
         family: "Tepig",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Emboar",
@@ -12609,7 +13108,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tepig,
         japaneseName: "Enbuoh",
         family: "Tepig",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Oshawott",
@@ -12631,7 +13131,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oshawott,
         japaneseName: "Mijumaru",
         family: "Oshawott",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Dewott",
@@ -12653,7 +13154,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oshawott,
         japaneseName: "Futachimaru",
         family: "Oshawott",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Samurott",
@@ -12675,7 +13177,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oshawott,
         japaneseName: "Daikenki",
         family: "Oshawott",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Patrat",
@@ -12697,7 +13200,8 @@ let nationalDex = {
         evolution: evolutionFamilies.patrat,
         japaneseName: "Minezumi",
         family: "Patrat",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Watchog",
@@ -12719,7 +13223,8 @@ let nationalDex = {
         evolution: evolutionFamilies.patrat,
         japaneseName: "Miruhog",
         family: "Patrat",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Lillipup",
@@ -12741,7 +13246,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lillipup,
         japaneseName: "Yorterrie",
         family: "Lillipup",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Herdier",
@@ -12763,7 +13269,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lillipup,
         japaneseName: "Herderrie",
         family: "Lillipup",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Stoutland",
@@ -12785,7 +13292,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lillipup,
         japaneseName: "Mooland",
         family: "Lillipup",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Purrloin",
@@ -12807,7 +13315,8 @@ let nationalDex = {
         evolution: evolutionFamilies.purrloin,
         japaneseName: "Choroneko",
         family: "Purrloin",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Liepard",
@@ -12829,7 +13338,8 @@ let nationalDex = {
         evolution: evolutionFamilies.purrloin,
         japaneseName: "Lepardas",
         family: "Purrloin",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Pansage",
@@ -12851,7 +13361,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pansage,
         japaneseName: "Yanappu",
         family: "Pansage",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Simisage",
@@ -12873,7 +13384,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pansage,
         japaneseName: "Yanakkie",
         family: "Pansage",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Pansear",
@@ -12895,7 +13407,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pansear,
         japaneseName: "Baoppu",
         family: "Pansear",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Simisear",
@@ -12917,7 +13430,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pansear,
         japaneseName: "Baokkie",
         family: "Pansear",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Panpour",
@@ -12939,7 +13453,8 @@ let nationalDex = {
         evolution: evolutionFamilies.panpour,
         japaneseName: "Hiyappu",
         family: "Panpour",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Simipour",
@@ -12961,7 +13476,8 @@ let nationalDex = {
         evolution: evolutionFamilies.panpour,
         japaneseName: "Hiyakkie",
         family: "Panpour",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Munna",
@@ -12983,7 +13499,8 @@ let nationalDex = {
         evolution: evolutionFamilies.munna,
         japaneseName: "Munna",
         family: "Munna",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Musharna",
@@ -13005,7 +13522,8 @@ let nationalDex = {
         evolution: evolutionFamilies.munna,
         japaneseName: "Musharna",
         family: "Munna",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Pidove",
@@ -13027,7 +13545,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pidove,
         japaneseName: "Mamepato",
         family: "Pidove",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Tranquill",
@@ -13049,7 +13568,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pidove,
         japaneseName: "Hatoboh",
         family: "Pidove",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Unfezant",
@@ -13071,7 +13591,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pidove,
         japaneseName: "Kenhallow",
         family: "Pidove",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Blitzle",
@@ -13093,7 +13614,8 @@ let nationalDex = {
         evolution: evolutionFamilies.blitzle,
         japaneseName: "Shimama",
         family: "Blitzle",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Zebstrika",
@@ -13115,7 +13637,8 @@ let nationalDex = {
         evolution: evolutionFamilies.blitzle,
         japaneseName: "Zebraika",
         family: "Blitzle",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Roggenrola",
@@ -13137,7 +13660,8 @@ let nationalDex = {
         evolution: evolutionFamilies.roggenrola,
         japaneseName: "Dangoro",
         family: "Roggenrola",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Boldore",
@@ -13159,7 +13683,8 @@ let nationalDex = {
         evolution: evolutionFamilies.roggenrola,
         japaneseName: "Gantle",
         family: "Roggenrola",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Gigalith",
@@ -13181,7 +13706,8 @@ let nationalDex = {
         evolution: evolutionFamilies.roggenrola,
         japaneseName: "Gigaiath",
         family: "Roggenrola",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Woobat",
@@ -13203,7 +13729,8 @@ let nationalDex = {
         evolution: evolutionFamilies.woobat,
         japaneseName: "Koromori",
         family: "Woobat",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Swoobat",
@@ -13225,7 +13752,8 @@ let nationalDex = {
         evolution: evolutionFamilies.woobat,
         japaneseName: "Kokoromori",
         family: "Woobat",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Drilbur",
@@ -13247,7 +13775,8 @@ let nationalDex = {
         evolution: evolutionFamilies.drilbur,
         japaneseName: "Mogurew",
         family: "Drilbur",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Excadrill",
@@ -13269,7 +13798,8 @@ let nationalDex = {
         evolution: evolutionFamilies.drilbur,
         japaneseName: "Doryuzu",
         family: "Drilbur",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Audino",
@@ -13291,7 +13821,8 @@ let nationalDex = {
         evolution: evolutionFamilies.audino,
         japaneseName: "Tabunne",
         family: "Audino",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Timburr",
@@ -13313,7 +13844,8 @@ let nationalDex = {
         evolution: evolutionFamilies.timburr,
         japaneseName: "Dokkorer",
         family: "Timburr",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Gurdurr",
@@ -13335,7 +13867,8 @@ let nationalDex = {
         evolution: evolutionFamilies.timburr,
         japaneseName: "Dotekkotsu",
         family: "Timburr",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Conkeldurr",
@@ -13357,7 +13890,8 @@ let nationalDex = {
         evolution: evolutionFamilies.timburr,
         japaneseName: "Roubushin",
         family: "Timburr",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Tympole",
@@ -13379,7 +13913,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tympole,
         japaneseName: "Otamaro",
         family: "Tympole",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Palpitoad",
@@ -13401,7 +13936,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tympole,
         japaneseName: "Gamagaru",
         family: "Tympole",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Seismitoad",
@@ -13423,7 +13959,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tympole,
         japaneseName: "Gamageroge",
         family: "Tympole",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Throh",
@@ -13445,7 +13982,8 @@ let nationalDex = {
         evolution: evolutionFamilies.throh,
         japaneseName: "Nageki",
         family: "Throh",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Sawk",
@@ -13467,7 +14005,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sawk,
         japaneseName: "Dageki",
         family: "Sawk",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Sewaddle",
@@ -13489,7 +14028,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sewaddle,
         japaneseName: "Kurumiru",
         family: "Sewaddle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Swadloon",
@@ -13511,7 +14051,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sewaddle,
         japaneseName: "Kurumayu",
         family: "Sewaddle",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Leavanny",
@@ -13533,7 +14074,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sewaddle,
         japaneseName: "Hahakomori",
         family: "Sewaddle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Venipede",
@@ -13555,7 +14097,8 @@ let nationalDex = {
         evolution: evolutionFamilies.venipede,
         japaneseName: "Fushide",
         family: "Venipede",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Whirlipede",
@@ -13577,7 +14120,8 @@ let nationalDex = {
         evolution: evolutionFamilies.venipede,
         japaneseName: "Wheega",
         family: "Venipede",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Scolipede",
@@ -13599,7 +14143,8 @@ let nationalDex = {
         evolution: evolutionFamilies.venipede,
         japaneseName: "Pendror",
         family: "Venipede",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Cottonee",
@@ -13621,7 +14166,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cottonee,
         japaneseName: "Monmen",
         family: "Cottonee",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Whimsicott",
@@ -13643,7 +14189,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cottonee,
         japaneseName: "Elfuun",
         family: "Cottonee",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Petilil",
@@ -13665,7 +14212,8 @@ let nationalDex = {
         evolution: evolutionFamilies.petilil,
         japaneseName: "Churine",
         family: "Petilil",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Lilligant",
@@ -13687,7 +14235,8 @@ let nationalDex = {
         evolution: evolutionFamilies.petilil,
         japaneseName: "Dredear",
         family: "Petilil",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Basculin",
@@ -13709,7 +14258,8 @@ let nationalDex = {
         evolution: evolutionFamilies.basculin,
         japaneseName: "Bassrao",
         family: "Basculin",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Sandile",
@@ -13731,7 +14281,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandile,
         japaneseName: "Meguroco",
         family: "Sandile",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Krokorok",
@@ -13753,7 +14304,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandile,
         japaneseName: "Waruvile",
         family: "Sandile",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Krookodile",
@@ -13775,7 +14327,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandile,
         japaneseName: "Waruvial",
         family: "Sandile",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Darumaka",
@@ -13797,7 +14350,8 @@ let nationalDex = {
         evolution: evolutionFamilies.darumaka,
         japaneseName: "Darumakka",
         family: "Darumaka",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Darmanitan",
@@ -13819,7 +14373,8 @@ let nationalDex = {
         evolution: evolutionFamilies.darumaka,
         japaneseName: "Hihidaruma",
         family: "Darumaka",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Maractus",
@@ -13841,7 +14396,8 @@ let nationalDex = {
         evolution: evolutionFamilies.maractus,
         japaneseName: "Maracacchi",
         family: "Maractus",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Dwebble",
@@ -13863,7 +14419,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dwebble,
         japaneseName: "Ishizumai",
         family: "Dwebble",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Crustle",
@@ -13885,7 +14442,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dwebble,
         japaneseName: "Iwapalace",
         family: "Dwebble",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Scraggy",
@@ -13907,7 +14465,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scraggy,
         japaneseName: "Zuruggu",
         family: "Scraggy",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Scrafty",
@@ -13929,7 +14488,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scraggy,
         japaneseName: "Zuruzukin",
         family: "Scraggy",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Sigilyph",
@@ -13951,7 +14511,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sigilyph,
         japaneseName: "Symboler",
         family: "Sigilyph",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Yamask",
@@ -13973,7 +14534,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yamask,
         japaneseName: "Desumasu",
         family: "Yamask",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Cofagrigus",
@@ -13995,7 +14557,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yamask,
         japaneseName: "Desukarn",
         family: "Yamask",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Tirtouga",
@@ -14017,7 +14580,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tirtouga,
         japaneseName: "Protoga",
         family: "Tirtouga",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Carracosta",
@@ -14039,7 +14603,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tirtouga,
         japaneseName: "Abagoura",
         family: "Tirtouga",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Archen",
@@ -14061,7 +14626,8 @@ let nationalDex = {
         evolution: evolutionFamilies.archen,
         japaneseName: "Archen",
         family: "Archen",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Yellow"
     },
     {
         name: "Archeops",
@@ -14083,7 +14649,8 @@ let nationalDex = {
         evolution: evolutionFamilies.archen,
         japaneseName: "Archeos",
         family: "Archen",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Yellow"
     },
     {
         name: "Trubbish",
@@ -14105,7 +14672,8 @@ let nationalDex = {
         evolution: evolutionFamilies.trubbish,
         japaneseName: "Yabukuron",
         family: "Trubbish",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Garbodor",
@@ -14127,7 +14695,8 @@ let nationalDex = {
         evolution: evolutionFamilies.trubbish,
         japaneseName: "Dustdas",
         family: "Trubbish",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Zorua",
@@ -14149,7 +14718,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zorua,
         japaneseName: "Zorua",
         family: "Zorua",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Zoroark",
@@ -14171,7 +14741,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zorua,
         japaneseName: "Zoroark",
         family: "Zorua",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Minccino",
@@ -14193,7 +14764,8 @@ let nationalDex = {
         evolution: evolutionFamilies.minccino,
         japaneseName: "Chillarmy",
         family: "Minccino",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Cinccino",
@@ -14215,7 +14787,8 @@ let nationalDex = {
         evolution: evolutionFamilies.minccino,
         japaneseName: "Chillaccino",
         family: "Minccino",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Gothita",
@@ -14237,7 +14810,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gothita,
         japaneseName: "Gothimu",
         family: "Gothita",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Gothorita",
@@ -14259,7 +14833,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gothita,
         japaneseName: "Gothimiru",
         family: "Gothita",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Gothitelle",
@@ -14281,7 +14856,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gothita,
         japaneseName: "Gothiruselle",
         family: "Gothita",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Solosis",
@@ -14303,7 +14879,8 @@ let nationalDex = {
         evolution: evolutionFamilies.solosis,
         japaneseName: "Uniran",
         family: "Solosis",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Duosion",
@@ -14325,7 +14902,8 @@ let nationalDex = {
         evolution: evolutionFamilies.solosis,
         japaneseName: "Doublan",
         family: "Solosis",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Reuniclus",
@@ -14347,7 +14925,8 @@ let nationalDex = {
         evolution: evolutionFamilies.solosis,
         japaneseName: "Lanculus",
         family: "Solosis",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Ducklett",
@@ -14369,7 +14948,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ducklett,
         japaneseName: "Koaruhie",
         family: "Ducklett",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Swanna",
@@ -14391,7 +14971,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ducklett,
         japaneseName: "Swanna",
         family: "Ducklett",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Vanillite",
@@ -14413,7 +14994,8 @@ let nationalDex = {
         evolution: evolutionFamilies.vanillite,
         japaneseName: "Vanipeti",
         family: "Vanillite",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Vanillish",
@@ -14435,7 +15017,8 @@ let nationalDex = {
         evolution: evolutionFamilies.vanillite,
         japaneseName: "Vanirich",
         family: "Vanillite",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Vanilluxe",
@@ -14457,7 +15040,8 @@ let nationalDex = {
         evolution: evolutionFamilies.vanillite,
         japaneseName: "Baivanilla",
         family: "Vanillite",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Deerling",
@@ -14479,7 +15063,8 @@ let nationalDex = {
         evolution: evolutionFamilies.deerling,
         japaneseName: "Shikijika",
         family: "Deerling",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Sawsbuck",
@@ -14501,7 +15086,8 @@ let nationalDex = {
         evolution: evolutionFamilies.deerling,
         japaneseName: "Mebukijika",
         family: "Deerling",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Emolga",
@@ -14523,7 +15109,8 @@ let nationalDex = {
         evolution: evolutionFamilies.emolga,
         japaneseName: "Emonga",
         family: "Emolga",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Karrablast",
@@ -14545,7 +15132,8 @@ let nationalDex = {
         evolution: evolutionFamilies.karrablast,
         japaneseName: "Kaburumo",
         family: "Karrablast",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Escavalier",
@@ -14567,7 +15155,8 @@ let nationalDex = {
         evolution: evolutionFamilies.karrablast,
         japaneseName: "Chevargo",
         family: "Karrablast",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Foongus",
@@ -14589,7 +15178,8 @@ let nationalDex = {
         evolution: evolutionFamilies.foongus,
         japaneseName: "Tamagetake",
         family: "Foongus",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Amoonguss",
@@ -14611,7 +15201,8 @@ let nationalDex = {
         evolution: evolutionFamilies.foongus,
         japaneseName: "Morobareru",
         family: "Foongus",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Frillish",
@@ -14633,7 +15224,8 @@ let nationalDex = {
         evolution: evolutionFamilies.frillish,
         japaneseName: "Pururill",
         family: "Frillish",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Jellicent",
@@ -14655,7 +15247,8 @@ let nationalDex = {
         evolution: evolutionFamilies.frillish,
         japaneseName: "Burungel",
         family: "Frillish",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Alomomola",
@@ -14677,7 +15270,8 @@ let nationalDex = {
         evolution: evolutionFamilies.alomomola,
         japaneseName: "Mamanbou",
         family: "Alomomola",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Joltik",
@@ -14699,7 +15293,8 @@ let nationalDex = {
         evolution: evolutionFamilies.joltik,
         japaneseName: "Bachuru",
         family: "Joltik",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Galvantula",
@@ -14721,7 +15316,8 @@ let nationalDex = {
         evolution: evolutionFamilies.joltik,
         japaneseName: "Dentula",
         family: "Joltik",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Ferroseed",
@@ -14743,7 +15339,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ferroseed,
         japaneseName: "Tesseed",
         family: "Ferroseed",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Ferrothorn",
@@ -14765,7 +15362,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ferroseed,
         japaneseName: "Nutrey",
         family: "Ferroseed",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Klink",
@@ -14787,7 +15385,8 @@ let nationalDex = {
         evolution: evolutionFamilies.klink,
         japaneseName: "Giaru",
         family: "Klink",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Klang",
@@ -14809,7 +15408,8 @@ let nationalDex = {
         evolution: evolutionFamilies.klink,
         japaneseName: "Gigiaru",
         family: "Klink",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Klinklang",
@@ -14831,7 +15431,8 @@ let nationalDex = {
         evolution: evolutionFamilies.klink,
         japaneseName: "Gigigiaru",
         family: "Klink",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Tynamo",
@@ -14853,7 +15454,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tynamo,
         japaneseName: "Shibishirasu",
         family: "Tynamo",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Eelektrik",
@@ -14875,7 +15477,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tynamo,
         japaneseName: "Shibibeel",
         family: "Tynamo",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Eelektross",
@@ -14897,7 +15500,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tynamo,
         japaneseName: "Shibirudon",
         family: "Tynamo",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Elgyem",
@@ -14919,7 +15523,8 @@ let nationalDex = {
         evolution: evolutionFamilies.elgyem,
         japaneseName: "Ligray",
         family: "Elgyem",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Beheeyem",
@@ -14941,7 +15546,8 @@ let nationalDex = {
         evolution: evolutionFamilies.elgyem,
         japaneseName: "Ohbem",
         family: "Elgyem",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Litwick",
@@ -14963,7 +15569,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litwick,
         japaneseName: "Hitomoshi",
         family: "Litwick",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Lampent",
@@ -14985,7 +15592,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litwick,
         japaneseName: "Lampler",
         family: "Litwick",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Chandelure",
@@ -15007,7 +15615,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litwick,
         japaneseName: "Chandela",
         family: "Litwick",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Axew",
@@ -15029,7 +15638,8 @@ let nationalDex = {
         evolution: evolutionFamilies.axew,
         japaneseName: "Kibago",
         family: "Axew",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Fraxure",
@@ -15051,7 +15661,8 @@ let nationalDex = {
         evolution: evolutionFamilies.axew,
         japaneseName: "Onondo",
         family: "Axew",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Haxorus",
@@ -15073,7 +15684,8 @@ let nationalDex = {
         evolution: evolutionFamilies.axew,
         japaneseName: "Ononokus",
         family: "Axew",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Cubchoo",
@@ -15095,7 +15707,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cubchoo,
         japaneseName: "Kumasyun",
         family: "Cubchoo",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Beartic",
@@ -15117,7 +15730,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cubchoo,
         japaneseName: "Tunbear",
         family: "Cubchoo",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Cryogonal",
@@ -15139,7 +15753,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cryogonal,
         japaneseName: "Freegeo",
         family: "Cryogonal",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Shelmet",
@@ -15161,7 +15776,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shelmet,
         japaneseName: "Chobomaki",
         family: "Shelmet",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Accelgor",
@@ -15183,7 +15799,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shelmet,
         japaneseName: "Agilder",
         family: "Shelmet",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Stunfisk",
@@ -15205,7 +15822,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stunfisk,
         japaneseName: "Maggyo",
         family: "Stunfisk",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Mienfoo",
@@ -15227,7 +15845,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mienfoo,
         japaneseName: "Kojofu",
         family: "Mienfoo",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Mienshao",
@@ -15249,7 +15868,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mienfoo,
         japaneseName: "Kojondo",
         family: "Mienfoo",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Druddigon",
@@ -15271,7 +15891,8 @@ let nationalDex = {
         evolution: evolutionFamilies.druddigon,
         japaneseName: "Crimgan",
         family: "Druddigon",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Golett",
@@ -15293,7 +15914,8 @@ let nationalDex = {
         evolution: evolutionFamilies.golett,
         japaneseName: "Gobit",
         family: "Golett",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Golurk",
@@ -15315,7 +15937,8 @@ let nationalDex = {
         evolution: evolutionFamilies.golett,
         japaneseName: "Goloog",
         family: "Golett",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Pawniard",
@@ -15337,7 +15960,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pawniard,
         japaneseName: "Komatana",
         family: "Pawniard",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Bisharp",
@@ -15359,7 +15983,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pawniard,
         japaneseName: "Kirikizan",
         family: "Pawniard",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Bouffalant",
@@ -15381,7 +16006,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bouffalant,
         japaneseName: "Buffron",
         family: "Bouffalant",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Rufflet",
@@ -15403,7 +16029,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rufflet,
         japaneseName: "Washibon",
         family: "Rufflet",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Braviary",
@@ -15425,7 +16052,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rufflet,
         japaneseName: "Warrgle",
         family: "Rufflet",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Vullaby",
@@ -15447,7 +16075,8 @@ let nationalDex = {
         evolution: evolutionFamilies.vullaby,
         japaneseName: "Valchai",
         family: "Vullaby",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Mandibuzz",
@@ -15469,7 +16098,8 @@ let nationalDex = {
         evolution: evolutionFamilies.vullaby,
         japaneseName: "Vulgina",
         family: "Vullaby",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Heatmor",
@@ -15491,7 +16121,8 @@ let nationalDex = {
         evolution: evolutionFamilies.heatmor,
         japaneseName: "Kuitaran",
         family: "Heatmor",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Durant",
@@ -15513,7 +16144,8 @@ let nationalDex = {
         evolution: evolutionFamilies.heatmor,
         japaneseName: "Aiant",
         family: "Durant",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Deino",
@@ -15535,7 +16167,8 @@ let nationalDex = {
         evolution: evolutionFamilies.deino,
         japaneseName: "Monozu",
         family: "Deino",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Zweilous",
@@ -15557,7 +16190,8 @@ let nationalDex = {
         evolution: evolutionFamilies.deino,
         japaneseName: "Dihead",
         family: "Deino",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Hydreigon",
@@ -15579,7 +16213,8 @@ let nationalDex = {
         evolution: evolutionFamilies.deino,
         japaneseName: "Sazandora",
         family: "Deino",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Larvesta",
@@ -15601,7 +16236,8 @@ let nationalDex = {
         evolution: evolutionFamilies.larvesta,
         japaneseName: "Merlarva",
         family: "Larvesta",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Volcarona",
@@ -15623,7 +16259,8 @@ let nationalDex = {
         evolution: evolutionFamilies.larvesta,
         japaneseName: "Ulgamoth",
         family: "Larvesta",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Cobalion",
@@ -15645,7 +16282,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cobalion,
         japaneseName: "Cobalon",
         family: "Cobalion",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Terrakion",
@@ -15667,7 +16305,8 @@ let nationalDex = {
         evolution: evolutionFamilies.terrakion,
         japaneseName: "Terrakion",
         family: "Terrakion",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Gray"
     },
     {
         name: "Virizion",
@@ -15689,7 +16328,8 @@ let nationalDex = {
         evolution: evolutionFamilies.virizion,
         japaneseName: "Virizion",
         family: "Virizion",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Green"
     },
     {
         name: "Tornadus",
@@ -15711,7 +16351,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tornadus,
         japaneseName: "Tornelos",
         family: "Tornadus",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Green"
     },
     {
         name: "Thundurus",
@@ -15733,7 +16374,8 @@ let nationalDex = {
         evolution: evolutionFamilies.thundurus,
         japaneseName: "Voltolos",
         family: "Thundurus",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Reshiram",
@@ -15755,7 +16397,8 @@ let nationalDex = {
         evolution: evolutionFamilies.reshiram,
         japaneseName: "Reshiram",
         family: "Reshiram",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "White"
     },
     {
         name: "Zekrom",
@@ -15777,7 +16420,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zekrom,
         japaneseName: "Zekrom",
         family: "Zekrom",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Black"
     },
     {
         name: "Landorus",
@@ -15799,7 +16443,8 @@ let nationalDex = {
         evolution: evolutionFamilies.landorus,
         japaneseName: "Landlos",
         family: "Landorus",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Brown"
     },
     {
         name: "Kyurem",
@@ -15821,7 +16466,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kyurem,
         japaneseName: "Kyurem",
         family: "Kyurem",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Gray"
     },
     {
         name: "Keldeo",
@@ -15843,7 +16489,8 @@ let nationalDex = {
         evolution: evolutionFamilies.keldeo,
         japaneseName: "Keldeo",
         family: "Keldeo",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Yellow"
     },
     {
         name: "Meloetta",
@@ -15865,7 +16512,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meloetta,
         japaneseName: "Meloetta",
         family: "Meloetta",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "White"
     },
     {
         name: "Genesect",
@@ -15887,7 +16535,8 @@ let nationalDex = {
         evolution: evolutionFamilies.genesect,
         japaneseName: "Genesect",
         family: "Genesect",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Purple"
     },
     {
         name: "Chespin",
@@ -15909,7 +16558,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chespin,
         japaneseName: "Harimaron",
         family: "Chespin",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Quilladin",
@@ -15931,7 +16581,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chespin,
         japaneseName: "Hariborg",
         family: "Chespin",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Chesnaught",
@@ -15953,7 +16604,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chespin,
         japaneseName: "Brigarron",
         family: "Chespin",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Fennekin",
@@ -15975,7 +16627,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fennekin,
         japaneseName: "Fokko",
         family: "Fennekin",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Braixen",
@@ -15997,7 +16650,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fennekin,
         japaneseName: "Tairenar",
         family: "Fennekin",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Delphox",
@@ -16019,7 +16673,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fennekin,
         japaneseName: "Mahoxy",
         family: "Fennekin",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Froakie",
@@ -16041,7 +16696,8 @@ let nationalDex = {
         evolution: evolutionFamilies.froakie,
         japaneseName: "Keromatsu",
         family: "Froakie",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Frogadier",
@@ -16063,7 +16719,8 @@ let nationalDex = {
         evolution: evolutionFamilies.froakie,
         japaneseName: "Gekogashira",
         family: "Froakie",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Greninja",
@@ -16085,7 +16742,8 @@ let nationalDex = {
         evolution: evolutionFamilies.froakie,
         japaneseName: "Gekkouga",
         family: "Froakie",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Bunnelby",
@@ -16107,7 +16765,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bunnelby,
         japaneseName: "Horubee",
         family: "Bunnelby",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Diggersby",
@@ -16129,7 +16788,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bunnelby,
         japaneseName: "Horudo",
         family: "Bunnelby",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Fletchling",
@@ -16151,7 +16811,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fletchling,
         japaneseName: "Yayakoma",
         family: "Fletchling",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Fletchinder",
@@ -16173,7 +16834,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fletchling,
         japaneseName: "Hinoyakoma",
         family: "Fletchling",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Talonflame",
@@ -16195,7 +16857,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fletchling,
         japaneseName: "Fiarrow",
         family: "Fletchling",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Scatterbug",
@@ -16217,7 +16880,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scatterbug,
         japaneseName: "Kofukimushi",
         family: "Scatterbug",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Spewpa",
@@ -16239,7 +16903,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scatterbug,
         japaneseName: "Kofuurai",
         family: "Scatterbug",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Vivillon",
@@ -16261,7 +16926,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scatterbug,
         japaneseName: "Viviyon",
         family: "Scatterbug",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Litleo",
@@ -16283,7 +16949,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litleo,
         japaneseName: "Shishiko",
         family: "Litleo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Pyroar",
@@ -16305,7 +16972,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litleo,
         japaneseName: "Kaenjishi",
         family: "Litleo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Flabébé",
@@ -16327,7 +16995,8 @@ let nationalDex = {
         evolution: evolutionFamilies.flabebe,
         japaneseName: "Flabebe",
         family: "Flabebe",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Floette",
@@ -16349,7 +17018,8 @@ let nationalDex = {
         evolution: evolutionFamilies.flabebe,
         japaneseName: "Floette",
         family: "Flabebe",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Florges",
@@ -16371,7 +17041,8 @@ let nationalDex = {
         evolution: evolutionFamilies.flabebe,
         japaneseName: "Florges",
         family: "Flabebe",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Skiddo",
@@ -16393,7 +17064,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skiddo,
         japaneseName: "Meecle",
         family: "Skiddo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Gogoat",
@@ -16415,7 +17087,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skiddo,
         japaneseName: "Gogoat",
         family: "Skiddo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Pancham",
@@ -16437,7 +17110,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pancham,
         japaneseName: "Yancham",
         family: "Pancham",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Pangoro",
@@ -16459,7 +17133,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pancham,
         japaneseName: "Goronda",
         family: "Pancham",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Furfrou",
@@ -16481,7 +17156,8 @@ let nationalDex = {
         evolution: evolutionFamilies.furfrou,
         japaneseName: "Trimmien",
         family: "Furfrou",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Espurr",
@@ -16503,7 +17179,8 @@ let nationalDex = {
         evolution: evolutionFamilies.espurr,
         japaneseName: "Nyasper",
         family: "Espurr",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Meowstic",
@@ -16525,7 +17202,8 @@ let nationalDex = {
         evolution: evolutionFamilies.espurr,
         japaneseName: "Nyaonix",
         family: "Espurr",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Honedge",
@@ -16547,7 +17225,8 @@ let nationalDex = {
         evolution: evolutionFamilies.honedge,
         japaneseName: "Hitotsuki",
         family: "Honedge",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Doublade",
@@ -16569,7 +17248,8 @@ let nationalDex = {
         evolution: evolutionFamilies.honedge,
         japaneseName: "Nidangill",
         family: "Honedge",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Aegislash",
@@ -16591,7 +17271,8 @@ let nationalDex = {
         evolution: evolutionFamilies.honedge,
         japaneseName: "Gillgard",
         family: "Honedge",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Spritzee",
@@ -16613,7 +17294,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spritzee,
         japaneseName: "Shushupu",
         family: "Spritzee",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Aromatisse",
@@ -16635,7 +17317,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spritzee,
         japaneseName: "Frefuwan",
         family: "Spritzee",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Swirlix",
@@ -16657,7 +17340,8 @@ let nationalDex = {
         evolution: evolutionFamilies.swirlix,
         japaneseName: "Peroppafu",
         family: "Swirlix",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Slurpuff",
@@ -16679,7 +17363,8 @@ let nationalDex = {
         evolution: evolutionFamilies.swirlix,
         japaneseName: "Peroream",
         family: "Swirlix",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Inkay",
@@ -16701,7 +17386,8 @@ let nationalDex = {
         evolution: evolutionFamilies.inkay,
         japaneseName: "Maaiika",
         family: "Inkay",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Malamar",
@@ -16723,7 +17409,8 @@ let nationalDex = {
         evolution: evolutionFamilies.inkay,
         japaneseName: "Calamanero",
         family: "Inkay",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Binacle",
@@ -16745,7 +17432,8 @@ let nationalDex = {
         evolution: evolutionFamilies.binacle,
         japaneseName: "Kamatete",
         family: "Binacle",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Barbaracle",
@@ -16767,7 +17455,8 @@ let nationalDex = {
         evolution: evolutionFamilies.binacle,
         japaneseName: "Gamenodes",
         family: "Binacle",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Skrelp",
@@ -16789,7 +17478,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skrelp,
         japaneseName: "Kuzumo",
         family: "Skrelp",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Dragalge",
@@ -16811,7 +17501,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skrelp,
         japaneseName: "Dramidoro",
         family: "Skrelp",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Clauncher",
@@ -16833,7 +17524,8 @@ let nationalDex = {
         evolution: evolutionFamilies.clauncher,
         japaneseName: "Udeppou",
         family: "Clauncher",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Clawitzer",
@@ -16855,7 +17547,8 @@ let nationalDex = {
         evolution: evolutionFamilies.clauncher,
         japaneseName: "Bloster",
         family: "Clauncher",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Helioptile",
@@ -16877,7 +17570,8 @@ let nationalDex = {
         evolution: evolutionFamilies.helioptile,
         japaneseName: "Erikiteru",
         family: "Helioptile",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Heliolisk",
@@ -16899,7 +17593,8 @@ let nationalDex = {
         evolution: evolutionFamilies.helioptile,
         japaneseName: "Elezard",
         family: "Helioptile",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Tyrunt",
@@ -16921,7 +17616,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tyrunt,
         japaneseName: "Chigoras",
         family: "Tyrunt",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Brown"
     },
     {
         name: "Tyrantrum",
@@ -16943,7 +17639,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tyrunt,
         japaneseName: "Gachigoras",
         family: "Tyrunt",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Red"
     },
     {
         name: "Amaura",
@@ -16965,7 +17662,8 @@ let nationalDex = {
         evolution: evolutionFamilies.amaura,
         japaneseName: "Amarus",
         family: "Amaura",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Aurorus",
@@ -16987,7 +17685,8 @@ let nationalDex = {
         evolution: evolutionFamilies.amaura,
         japaneseName: "Amaruruga",
         family: "Amaura",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Sylveon",
@@ -17009,7 +17708,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eevee,
         japaneseName: "Nymphia",
         family: "Eevee",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Pink"
     },
     {
         name: "Hawlucha",
@@ -17031,7 +17731,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hawlucha,
         japaneseName: "Luchabull",
         family: "Hawlucha",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Dedenne",
@@ -17053,7 +17754,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dedenne,
         japaneseName: "Dedenne",
         family: "Dedenne",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Carbink",
@@ -17075,7 +17777,8 @@ let nationalDex = {
         evolution: evolutionFamilies.carbink,
         japaneseName: "Melecie",
         family: "Carbink",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Goomy",
@@ -17097,7 +17800,8 @@ let nationalDex = {
         evolution: evolutionFamilies.goomy,
         japaneseName: "Numera",
         family: "Goomy",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Purple"
     },
     {
         name: "Sliggoo",
@@ -17119,7 +17823,8 @@ let nationalDex = {
         evolution: evolutionFamilies.goomy,
         japaneseName: "Numeil",
         family: "Goomy",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Purple"
     },
     {
         name: "Goodra",
@@ -17141,7 +17846,8 @@ let nationalDex = {
         evolution: evolutionFamilies.goomy,
         japaneseName: "Numelgon",
         family: "Goomy",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Purple"
     },
     {
         name: "Klefki",
@@ -17163,7 +17869,8 @@ let nationalDex = {
         evolution: evolutionFamilies.klefki,
         japaneseName: "Cleffy",
         family: "Klefki",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Phantump",
@@ -17185,7 +17892,8 @@ let nationalDex = {
         evolution: evolutionFamilies.phantump,
         japaneseName: "Bokurei",
         family: "Phantump",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Trevenant",
@@ -17207,7 +17915,8 @@ let nationalDex = {
         evolution: evolutionFamilies.phantump,
         japaneseName: "Ohrot",
         family: "Phantump",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Pumpkaboo",
@@ -17229,7 +17938,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pumpkaboo,
         japaneseName: "Bakeccha",
         family: "Pumpkaboo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Gourgeist",
@@ -17251,7 +17961,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pumpkaboo,
         japaneseName: "Pumpjin",
         family: "Pumpkaboo",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Bergmite",
@@ -17273,7 +17984,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bergmite,
         japaneseName: "Kachikohru",
         family: "Bergmite",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Avalugg",
@@ -17295,7 +18007,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bergmite,
         japaneseName: "Crebase",
         family: "Bergmite",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Noibat",
@@ -17317,7 +18030,8 @@ let nationalDex = {
         evolution: evolutionFamilies.noibat,
         japaneseName: "Onbat",
         family: "Noibat",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Noivern",
@@ -17339,7 +18053,8 @@ let nationalDex = {
         evolution: evolutionFamilies.noibat,
         japaneseName: "Onvern",
         family: "Noibat",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Xerneas",
@@ -17361,7 +18076,8 @@ let nationalDex = {
         evolution: evolutionFamilies.xerneas,
         japaneseName: "Xerneas",
         family: "Xerneas",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Yveltal",
@@ -17383,7 +18099,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yveltal,
         japaneseName: "Yveltal",
         family: "Yveltal",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Red"
     },
     {
         name: "Zygarde",
@@ -17405,7 +18122,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zygarde,
         japaneseName: "Zygarde",
         family: "Zygarde",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Green"
     },
     {
         name: "Diancie",
@@ -17427,7 +18145,8 @@ let nationalDex = {
         evolution: evolutionFamilies.diancie,
         japaneseName: "Diancie",
         family: "Diancie",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Pink"
     },
     {
         name: "Hoopa",
@@ -17449,7 +18168,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hoopa,
         japaneseName: "Hoopa",
         family: "Hoopa",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Purple"
     },
     {
         name: "Volcanion",
@@ -17471,7 +18191,8 @@ let nationalDex = {
         evolution: evolutionFamilies.volcanion,
         japaneseName: "Volcanion",
         family: "Volcanion",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Brown"
     },
     {
         name: "Rowlet",
@@ -17493,7 +18214,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rowlet,
         japaneseName: "Mokuroh",
         family: "Rowlet",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Brown"
     },
     {
         name: "Dartrix",
@@ -17515,7 +18237,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rowlet,
         japaneseName: "Fukuthrow",
         family: "Rowlet",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Brown"
     },
     {
         name: "Decidueye",
@@ -17537,7 +18260,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rowlet,
         japaneseName: "Junaiper",
         family: "Rowlet",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Brown"
     },
     {
         name: "Litten",
@@ -17559,7 +18283,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litten,
         japaneseName: "Nyabby",
         family: "Litten",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Torracat",
@@ -17581,7 +18306,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litten,
         japaneseName: "Nyaheat",
         family: "Litten",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Incineroar",
@@ -17603,7 +18329,8 @@ let nationalDex = {
         evolution: evolutionFamilies.litten,
         japaneseName: "Gaogaen",
         family: "Litten",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Popplio",
@@ -17625,7 +18352,8 @@ let nationalDex = {
         evolution: evolutionFamilies.popplio,
         japaneseName: "Ashimari",
         family: "Popplio",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Brionne",
@@ -17647,7 +18375,8 @@ let nationalDex = {
         evolution: evolutionFamilies.popplio,
         japaneseName: "Osyamari",
         family: "Popplio",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Primarina",
@@ -17669,7 +18398,8 @@ let nationalDex = {
         evolution: evolutionFamilies.popplio,
         japaneseName: "Ashirene",
         family: "Popplio",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Pikipek",
@@ -17691,7 +18421,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pikipek,
         japaneseName: "Tsutsukera",
         family: "Pikipek",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Trumbeak",
@@ -17713,7 +18444,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pikipek,
         japaneseName: "Kerarappa",
         family: "Pikipek",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Toucannon",
@@ -17735,7 +18467,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pikipek,
         japaneseName: "Dodekabashi",
         family: "Pikipek",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Yungoos",
@@ -17757,7 +18490,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yungoos,
         japaneseName: "Youngoose",
         family: "Yungoos",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Gumshoos",
@@ -17779,7 +18513,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yungoos,
         japaneseName: "Dekagoose",
         family: "Yungoos",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Grubbin",
@@ -17801,7 +18536,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grubbin,
         japaneseName: "Agojimushi",
         family: "Grubbin",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Charjabug",
@@ -17823,7 +18559,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grubbin,
         japaneseName: "Dendimushi",
         family: "Grubbin",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Vikavolt",
@@ -17845,7 +18582,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grubbin,
         japaneseName: "Kuwagannon",
         family: "Grubbin",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Crabrawler",
@@ -17867,7 +18605,8 @@ let nationalDex = {
         evolution: evolutionFamilies.crabrawler,
         japaneseName: "Makenkani",
         family: "Crabrawler",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Crabominable",
@@ -17889,7 +18628,8 @@ let nationalDex = {
         evolution: evolutionFamilies.crabrawler,
         japaneseName: "Kekenkani",
         family: "Crabrawler",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Oricorio",
@@ -17911,7 +18651,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oricorio,
         japaneseName: "Odoridori",
         family: "Oricorio",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Cutiefly",
@@ -17933,7 +18674,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cutiefly,
         japaneseName: "Abuly",
         family: "Cutiefly",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Ribombee",
@@ -17955,7 +18697,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cutiefly,
         japaneseName: "Aburibbon",
         family: "Cutiefly",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Rockruff",
@@ -17977,7 +18720,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rockruff,
         japaneseName: "Iwanko",
         family: "Rockruff",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Lycanroc",
@@ -17999,7 +18743,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rockruff,
         japaneseName: "Lugarugan",
         family: "Rockruff",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Wishiwashi",
@@ -18021,7 +18766,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wishiwashi,
         japaneseName: "Yowashi",
         family: "Wishiwashi",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Mareanie",
@@ -18043,7 +18789,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mareanie,
         japaneseName: "Hidoide",
         family: "Mareanie",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Toxapex",
@@ -18065,7 +18812,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mareanie,
         japaneseName: "Dohidoide",
         family: "Mareanie",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Mudbray",
@@ -18087,7 +18835,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mudbray,
         japaneseName: "Dorobanko",
         family: "Mudbray",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Mudsdale",
@@ -18109,7 +18858,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mudbray,
         japaneseName: "Banbadoro",
         family: "Mudbray",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Dewpider",
@@ -18131,7 +18881,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dewpider,
         japaneseName: "Shizukumo",
         family: "Dewpider",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Araquanid",
@@ -18153,7 +18904,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dewpider,
         japaneseName: "Onishizukumo",
         family: "Dewpider",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Fomantis",
@@ -18175,7 +18927,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fomantis,
         japaneseName: "Karikiri",
         family: "Fomantis",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Lurantis",
@@ -18197,7 +18950,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fomantis,
         japaneseName: "Lalantes",
         family: "Fomantis",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Morelull",
@@ -18219,7 +18973,8 @@ let nationalDex = {
         evolution: evolutionFamilies.morelull,
         japaneseName: "Nemasyu",
         family: "Morelull",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Shiinotic",
@@ -18241,7 +18996,8 @@ let nationalDex = {
         evolution: evolutionFamilies.morelull,
         japaneseName: "Mashade",
         family: "Morelull",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Salandit",
@@ -18263,7 +19019,8 @@ let nationalDex = {
         evolution: evolutionFamilies.salandit,
         japaneseName: "Yatoumori",
         family: "Salandit",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Salazzle",
@@ -18285,7 +19042,8 @@ let nationalDex = {
         evolution: evolutionFamilies.salandit,
         japaneseName: "Ennewt",
         family: "Salandit",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Stufful",
@@ -18307,7 +19065,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stufful,
         japaneseName: "Nuikoguma",
         family: "Stufful",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Bewear",
@@ -18329,7 +19088,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stufful,
         japaneseName: "Kiteruguma",
         family: "Stufful",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Bounsweet",
@@ -18351,7 +19111,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bounsweet,
         japaneseName: "Amakaji",
         family: "Bounsweet",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Steenee",
@@ -18373,7 +19134,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bounsweet,
         japaneseName: "Amamaiko",
         family: "Bounsweet",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Tsareena",
@@ -18395,7 +19157,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bounsweet,
         japaneseName: "Amajo",
         family: "Bounsweet",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Comfey",
@@ -18417,7 +19180,8 @@ let nationalDex = {
         evolution: evolutionFamilies.comfey,
         japaneseName: "Cuwawa",
         family: "Comfey",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Oranguru",
@@ -18439,7 +19203,8 @@ let nationalDex = {
         evolution: evolutionFamilies.oranguru,
         japaneseName: "Yareyuutan",
         family: "Oranguru",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Passimian",
@@ -18461,7 +19226,8 @@ let nationalDex = {
         evolution: evolutionFamilies.passimian,
         japaneseName: "Nagetukesaru",
         family: "Passimian",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Wimpod",
@@ -18483,7 +19249,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wimpod,
         japaneseName: "Kosokumushi",
         family: "Wimpod",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Golisopod",
@@ -18505,7 +19272,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wimpod,
         japaneseName: "Gusokumusha",
         family: "Wimpod",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Sandygast",
@@ -18527,7 +19295,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandygast,
         japaneseName: "Sunaba",
         family: "Sandygast",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Palossand",
@@ -18549,7 +19318,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandygast,
         japaneseName: "Sirodethna",
         family: "Sandygast",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Pyukumuku",
@@ -18571,7 +19341,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pyukumuku,
         japaneseName: "Namakobushi",
         family: "Pyukumuku",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Type: Null",
@@ -18593,7 +19364,8 @@ let nationalDex = {
         evolution: evolutionFamilies.typenull,
         japaneseName: "Type: Null",
         family: "TypeNull",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Gray"
     },
     {
         name: "Silvally",
@@ -18615,7 +19387,8 @@ let nationalDex = {
         evolution: evolutionFamilies.typenull,
         japaneseName: "Silvady",
         family: "TypeNull",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Gray"
     },
     {
         name: "Minior",
@@ -18637,7 +19410,8 @@ let nationalDex = {
         evolution: evolutionFamilies.minior,
         japaneseName: "Meteno",
         family: "Minior",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Komala",
@@ -18659,7 +19433,8 @@ let nationalDex = {
         evolution: evolutionFamilies.komala,
         japaneseName: "Nekkoara",
         family: "Komala",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Turtonator",
@@ -18681,7 +19456,8 @@ let nationalDex = {
         evolution: evolutionFamilies.turtonator,
         japaneseName: "Bakugames",
         family: "Turtonator",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Togedemaru",
@@ -18703,7 +19479,8 @@ let nationalDex = {
         evolution: evolutionFamilies.togedemaru,
         japaneseName: "Togedemaru",
         family: "Togedemaru",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Mimikyu",
@@ -18725,7 +19502,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mimikyu,
         japaneseName: "Mimikkyu",
         family: "Mimikyu",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Bruxish",
@@ -18747,7 +19525,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bruxish,
         japaneseName: "Hagigishiri",
         family: "Bruxish",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Drampa",
@@ -18769,7 +19548,8 @@ let nationalDex = {
         evolution: evolutionFamilies.drampa,
         japaneseName: "Jijilong",
         family: "Drampa",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Dhelmise",
@@ -18791,7 +19571,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dhelmise,
         japaneseName: "Dadarin",
         family: "Dhelmise",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Jangmo-o",
@@ -18813,7 +19594,8 @@ let nationalDex = {
         evolution: evolutionFamilies.jangmoo,
         japaneseName: "Jyarako",
         family: "Jangmoo",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Gray"
     },
     {
         name: "Hakamo-o",
@@ -18835,7 +19617,8 @@ let nationalDex = {
         evolution: evolutionFamilies.jangmoo,
         japaneseName: "Jyarango",
         family: "Jangmoo",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Gray"
     },
     {
         name: "Kommo-o",
@@ -18857,7 +19640,8 @@ let nationalDex = {
         evolution: evolutionFamilies.jangmoo,
         japaneseName: "Jyararanga",
         family: "Jangmoo",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Gray"
     },
     {
         name: "Tapu Koko",
@@ -18879,7 +19663,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tapukoko,
         japaneseName: "Kapu-Kokeko",
         family: "TapuKoko",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Yellow"
     },
     {
         name: "Tapu Lele",
@@ -18901,7 +19686,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tapulele,
         japaneseName: "Kapu-Tetefu",
         family: "TapuLele",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Pink"
     },
     {
         name: "Tapu Bulu",
@@ -18923,7 +19709,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tapubulu,
         japaneseName: "Kapu-Bulul",
         family: "TapuBulu",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Red"
     },
     {
         name: "Tapu Fini",
@@ -18945,7 +19732,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tapufini,
         japaneseName: "Kapu-Rehire",
         family: "TapuFini",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Purple"
     },
     {
         name: "Cosmog",
@@ -18967,7 +19755,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cosmog,
         japaneseName: "Cosmog",
         family: "Cosmog",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Cosmoem",
@@ -18989,7 +19778,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cosmog,
         japaneseName: "Cosmovum",
         family: "Cosmog",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Solgaleo",
@@ -19011,7 +19801,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cosmog,
         japaneseName: "Solgaleo",
         family: "Cosmog",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "White"
     },
     {
         name: "Lunala",
@@ -19033,7 +19824,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cosmog,
         japaneseName: "Lunala",
         family: "Cosmog",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Purple"
     },
     {
         name: "Nihilego",
@@ -19055,7 +19847,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nihilego,
         japaneseName: "Uturoid",
         family: "Nihilego",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "White"
     },
     {
         name: "Buzzwole",
@@ -19077,7 +19870,8 @@ let nationalDex = {
         evolution: evolutionFamilies.buzzwole,
         japaneseName: "Massivoon",
         family: "Buzzwole",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "Red"
     },
     {
         name: "Pheromosa",
@@ -19099,7 +19893,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pheromosa,
         japaneseName: "Pheroache",
         family: "Pheromosa",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "White"
     },
     {
         name: "Xurkitree",
@@ -19121,7 +19916,8 @@ let nationalDex = {
         evolution: evolutionFamilies.xurkitree,
         japaneseName: "Denjyumoku",
         family: "Xurkitree",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "Black"
     },
     {
         name: "Celesteela",
@@ -19143,7 +19939,8 @@ let nationalDex = {
         evolution: evolutionFamilies.celesteela,
         japaneseName: "Tekkaguya",
         family: "Celesteela",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "Green"
     },
     {
         name: "Kartana",
@@ -19165,7 +19962,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kartana,
         japaneseName: "Kamiturugi",
         family: "Kartana",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "White"
     },
     {
         name: "Guzzlord",
@@ -19187,7 +19985,8 @@ let nationalDex = {
         evolution: evolutionFamilies.guzzlord,
         japaneseName: "Akuziking",
         family: "Guzzlord",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "Black"
     },
     {
         name: "Necrozma",
@@ -19209,7 +20008,8 @@ let nationalDex = {
         evolution: evolutionFamilies.necrozma,
         japaneseName: "Necrozma",
         family: "Necrozma",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Black"
     },
     {
         name: "Magearna",
@@ -19231,7 +20031,8 @@ let nationalDex = {
         evolution: evolutionFamilies.magearna,
         japaneseName: "Magearna",
         family: "Magearna",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Gray"
     },
     {
         name: "Marshadow",
@@ -19253,7 +20054,8 @@ let nationalDex = {
         evolution: evolutionFamilies.marshadow,
         japaneseName: "Marshadow",
         family: "Marshadow",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Gray"
     },
     {
         name: "Poipole",
@@ -19275,7 +20077,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poipole,
         japaneseName: "Bevenom",
         family: "Poipole",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "Purple"
     },
     {
         name: "Naganadel",
@@ -19297,7 +20100,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poipole,
         japaneseName: "Agoyon",
         family: "Poipole",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "Purple"
     },
     {
         name: "Stakataka",
@@ -19319,7 +20123,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stakataka,
         japaneseName: "Tundetunde",
         family: "Stakataka",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "Gray"
     },
     {
         name: "Blacephalon",
@@ -19341,7 +20146,8 @@ let nationalDex = {
         evolution: evolutionFamilies.blacephalon,
         japaneseName: "Zugadoon",
         family: "Blacephalon",
-        tags: ["Ultra Beast"]
+        tags: ["Ultra Beast"],
+        color: "White"
     },
     {
         name: "Zeraora",
@@ -19363,7 +20169,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zeraora,
         japaneseName: "Zeraora",
         family: "Zeraora",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Yellow"
     },
     {
         name: "Meltan",
@@ -19385,7 +20192,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meltan,
         japaneseName: "Meltan",
         family: "Meltan",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Gray"
     },
     {
         name: "Melmetal",
@@ -19407,7 +20215,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meltan,
         japaneseName: "Melmetal",
         family: "Meltan",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Gray"
     },
     {
         name: "Grookey",
@@ -19429,7 +20238,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grookey,
         japaneseName: "Sarunori",
         family: "Grookey",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Thwackey",
@@ -19451,7 +20261,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grookey,
         japaneseName: "Bachinkey",
         family: "Grookey",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Rillaboom",
@@ -19473,7 +20284,8 @@ let nationalDex = {
         evolution: evolutionFamilies.grookey,
         japaneseName: "Gorirander",
         family: "Grookey",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Scorbunny",
@@ -19495,7 +20307,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scorbunny,
         japaneseName: "Hibanny",
         family: "Scorbunny",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "White"
     },
     {
         name: "Raboot",
@@ -19517,7 +20330,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scorbunny,
         japaneseName: "Rabbifuto",
         family: "Scorbunny",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Gray"
     },
     {
         name: "Cinderace",
@@ -19539,7 +20353,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scorbunny,
         japaneseName: "Aceburn",
         family: "Scorbunny",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "White"
     },
     {
         name: "Sobble",
@@ -19561,7 +20376,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sobble,
         japaneseName: "Messon",
         family: "Sobble",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Drizzile",
@@ -19583,7 +20399,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sobble,
         japaneseName: "Jimereon",
         family: "Sobble",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Inteleon",
@@ -19605,7 +20422,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sobble,
         japaneseName: "Intereon",
         family: "Sobble",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Skwovet",
@@ -19627,7 +20445,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skwovet,
         japaneseName: "Hoshigarisu",
         family: "Skwovet",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Greedent",
@@ -19649,7 +20468,8 @@ let nationalDex = {
         evolution: evolutionFamilies.skwovet,
         japaneseName: "Yokubarisu",
         family: "Skwovet",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Rookidee",
@@ -19671,7 +20491,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rookidee,
         japaneseName: "Kokogara",
         family: "Rookidee",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Corvisquire",
@@ -19693,7 +20514,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rookidee,
         japaneseName: "Aogarasu",
         family: "Rookidee",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Corviknight",
@@ -19715,7 +20537,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rookidee,
         japaneseName: "Armorga",
         family: "Rookidee",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Blipbug",
@@ -19737,7 +20560,8 @@ let nationalDex = {
         evolution: evolutionFamilies.blipbug,
         japaneseName: "Sacchimushi",
         family: "Blipbug",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Dottler",
@@ -19759,7 +20583,8 @@ let nationalDex = {
         evolution: evolutionFamilies.blipbug,
         japaneseName: "Redomushi",
         family: "Blipbug",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Orbeetle",
@@ -19781,7 +20606,8 @@ let nationalDex = {
         evolution: evolutionFamilies.blipbug,
         japaneseName: "Eolb",
         family: "Blipbug",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Nickit",
@@ -19803,7 +20629,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nickit,
         japaneseName: "Kusune",
         family: "Nickit",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Thievul",
@@ -19825,7 +20652,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nickit,
         japaneseName: "Foxly",
         family: "Nickit",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Gossifleur",
@@ -19847,7 +20675,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gossifleur,
         japaneseName: "Himenka",
         family: "Gossifleur",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Eldegoss",
@@ -19869,7 +20698,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gossifleur,
         japaneseName: "Watashiraga",
         family: "Gossifleur",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Wooloo",
@@ -19891,7 +20721,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wooloo,
         japaneseName: "Wooluu",
         family: "Wooloo",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Dubwool",
@@ -19913,7 +20744,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wooloo,
         japaneseName: "Baiwooluu",
         family: "Wooloo",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Chewtle",
@@ -19935,7 +20767,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chewtle,
         japaneseName: "Kamukame",
         family: "Chewtle",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Drednaw",
@@ -19957,7 +20790,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chewtle,
         japaneseName: "Kajirigame",
         family: "Chewtle",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Yamper",
@@ -19979,7 +20813,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yamper,
         japaneseName: "Wanpachi",
         family: "Yamper",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Boltund",
@@ -20001,7 +20836,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yamper,
         japaneseName: "Pulsewan",
         family: "Yamper",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Rolycoly",
@@ -20023,7 +20859,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rolycoly,
         japaneseName: "Tandon",
         family: "Rolycoly",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Carkol",
@@ -20045,7 +20882,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rolycoly,
         japaneseName: "Toroggon",
         family: "Rolycoly",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Coalossal",
@@ -20067,7 +20905,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rolycoly,
         japaneseName: "Sekitanzan",
         family: "Rolycoly",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Applin",
@@ -20089,7 +20928,8 @@ let nationalDex = {
         evolution: evolutionFamilies.applin,
         japaneseName: "Kajicchu",
         family: "Applin",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Flapple",
@@ -20111,7 +20951,8 @@ let nationalDex = {
         evolution: evolutionFamilies.applin,
         japaneseName: "Appryu",
         family: "Applin",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Appletun",
@@ -20133,7 +20974,8 @@ let nationalDex = {
         evolution: evolutionFamilies.applin,
         japaneseName: "Tarupple",
         family: "Applin",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Silicobra",
@@ -20155,7 +20997,8 @@ let nationalDex = {
         evolution: evolutionFamilies.silicobra,
         japaneseName: "Sunahebi",
         family: "Silicobra",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Sandaconda",
@@ -20177,7 +21020,8 @@ let nationalDex = {
         evolution: evolutionFamilies.silicobra,
         japaneseName: "Sadaija",
         family: "Silicobra",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Cramorant",
@@ -20199,7 +21043,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cramorant,
         japaneseName: "Uu",
         family: "Cramorant",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Arrokuda",
@@ -20221,7 +21066,8 @@ let nationalDex = {
         evolution: evolutionFamilies.arrokuda,
         japaneseName: "Sasikamasu",
         family: "Arrokuda",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Barraskewda",
@@ -20243,7 +21089,8 @@ let nationalDex = {
         evolution: evolutionFamilies.arrokuda,
         japaneseName: "Kamasujaw",
         family: "Arrokuda",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Toxel",
@@ -20265,7 +21112,8 @@ let nationalDex = {
         evolution: evolutionFamilies.toxel,
         japaneseName: "Eleson",
         family: "Toxel",
-        tags: ["Baby"]
+        tags: ["Baby"],
+        color: "Purple"
     },
     {
         name: "Toxtricity",
@@ -20287,7 +21135,8 @@ let nationalDex = {
         evolution: evolutionFamilies.toxel,
         japaneseName: "Strinder",
         family: "Toxel",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Sizzlipede",
@@ -20309,7 +21158,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sizzlipede,
         japaneseName: "Yakude",
         family: "Sizzlipede",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Centiskorch",
@@ -20331,7 +21181,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sizzlipede,
         japaneseName: "Maruyakude",
         family: "Sizzlipede",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Clobbopus",
@@ -20353,7 +21204,8 @@ let nationalDex = {
         evolution: evolutionFamilies.clobbopus,
         japaneseName: "Tatakko",
         family: "Clobbopus",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Grapploct",
@@ -20375,7 +21227,8 @@ let nationalDex = {
         evolution: evolutionFamilies.clobbopus,
         japaneseName: "Otosupus",
         family: "Clobbopus",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Sinistea",
@@ -20397,7 +21250,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sinistea,
         japaneseName: "Yabacha",
         family: "Sinistea",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Polteageist",
@@ -20419,7 +21273,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sinistea,
         japaneseName: "Potdeath",
         family: "Sinistea",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Hatenna",
@@ -20441,7 +21296,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hatenna,
         japaneseName: "Mibrim",
         family: "Hatenna",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Hattrem",
@@ -20463,7 +21319,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hatenna,
         japaneseName: "Tebrim",
         family: "Hatenna",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Hatterene",
@@ -20485,7 +21342,8 @@ let nationalDex = {
         evolution: evolutionFamilies.hatenna,
         japaneseName: "Brimuon",
         family: "Hatenna",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Impidimp",
@@ -20507,7 +21365,8 @@ let nationalDex = {
         evolution: evolutionFamilies.impidimp,
         japaneseName: "Beroba",
         family: "Impidimp",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Morgrem",
@@ -20529,7 +21388,8 @@ let nationalDex = {
         evolution: evolutionFamilies.impidimp,
         japaneseName: "Gimoh",
         family: "Impidimp",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Grimmsnarl",
@@ -20551,7 +21411,8 @@ let nationalDex = {
         evolution: evolutionFamilies.impidimp,
         japaneseName: "Ohlonge",
         family: "Impidimp",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Obstagoon",
@@ -20573,7 +21434,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zigzagoon,
         japaneseName: "Tachifusaguma",
         family: "Zigzagoon",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Perrserker",
@@ -20595,7 +21457,8 @@ let nationalDex = {
         evolution: evolutionFamilies.meowth,
         japaneseName: "Nyaiking",
         family: "Meowth",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Cursola",
@@ -20617,7 +21480,8 @@ let nationalDex = {
         evolution: evolutionFamilies.corsola,
         japaneseName: "Sunigoon",
         family: "Corsola",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "White"
     },
     {
         name: "Sirfetch'd",
@@ -20639,7 +21503,8 @@ let nationalDex = {
         evolution: evolutionFamilies.farfetchd,
         japaneseName: "Negigaknight",
         family: "Farfetchd",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "White"
     },
     {
         name: "Mr. Rime",
@@ -20661,7 +21526,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mimejr,
         japaneseName: "Barrikohru",
         family: "MimeJr",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Purple"
     },
     {
         name: "Runerigus",
@@ -20683,7 +21549,8 @@ let nationalDex = {
         evolution: evolutionFamilies.yamask,
         japaneseName: "Deathbarn",
         family: "Yamask",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Milcery",
@@ -20705,7 +21572,8 @@ let nationalDex = {
         evolution: evolutionFamilies.milcery,
         japaneseName: "Mahomil",
         family: "Milcery",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Alcremie",
@@ -20727,7 +21595,8 @@ let nationalDex = {
         evolution: evolutionFamilies.milcery,
         japaneseName: "Mawhip",
         family: "Milcery",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Falinks",
@@ -20749,7 +21618,8 @@ let nationalDex = {
         evolution: evolutionFamilies.falinks,
         japaneseName: "Tairetsu",
         family: "Falinks",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Pincurchin",
@@ -20771,7 +21641,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pincurchin,
         japaneseName: "Bachinuni",
         family: "Pincurchin",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Snom",
@@ -20793,7 +21664,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snom,
         japaneseName: "Yukihami",
         family: "Snom",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Frosmoth",
@@ -20815,7 +21687,8 @@ let nationalDex = {
         evolution: evolutionFamilies.snom,
         japaneseName: "Mothnow",
         family: "Snom",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Stonjourner",
@@ -20837,7 +21710,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stonjourner,
         japaneseName: "Ishihengin",
         family: "Stonjourner",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Eiscue",
@@ -20859,7 +21733,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eiscue,
         japaneseName: "Korippo",
         family: "Eiscue",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Indeedee",
@@ -20881,7 +21756,8 @@ let nationalDex = {
         evolution: evolutionFamilies.indeedee,
         japaneseName: "Yessan",
         family: "Indeedee",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Morpeko",
@@ -20903,7 +21779,8 @@ let nationalDex = {
         evolution: evolutionFamilies.morpeko,
         japaneseName: "Morpeko",
         family: "Morpeko",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Cufant",
@@ -20925,7 +21802,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cufant,
         japaneseName: "Zoudou",
         family: "Cufant",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Copperajah",
@@ -20947,7 +21825,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cufant,
         japaneseName: "Daioudou",
         family: "Cufant",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Dracozolt",
@@ -20969,7 +21848,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dracozolt,
         japaneseName: "Patchiragon",
         family: "Dracozolt",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Green"
     },
     {
         name: "Arctozolt",
@@ -20991,7 +21871,8 @@ let nationalDex = {
         evolution: evolutionFamilies.arctozolt,
         japaneseName: "Patchilldon",
         family: "Arctozolt",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Dracovish",
@@ -21013,7 +21894,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dracovish,
         japaneseName: "Uonoragon",
         family: "Dracovish",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Green"
     },
     {
         name: "Arctovish",
@@ -21035,7 +21917,8 @@ let nationalDex = {
         evolution: evolutionFamilies.arctovish,
         japaneseName: "Uochilldon",
         family: "Arctovish",
-        tags: ["Fossil"]
+        tags: ["Fossil"],
+        color: "Blue"
     },
     {
         name: "Duraludon",
@@ -21057,7 +21940,8 @@ let nationalDex = {
         evolution: evolutionFamilies.duraludon,
         japaneseName: "Duraludon",
         family: "Duraludon",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Dreepy",
@@ -21079,7 +21963,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dreepy,
         japaneseName: "Dorameshiya",
         family: "Dreepy",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Green"
     },
     {
         name: "Drakloak",
@@ -21101,7 +21986,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dreepy,
         japaneseName: "Doronch",
         family: "Dreepy",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Green"
     },
     {
         name: "Dragapult",
@@ -21123,7 +22009,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dreepy,
         japaneseName: "Dorapult",
         family: "Dreepy",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Green"
     },
     {
         name: "Zacian",
@@ -21145,7 +22032,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zacian,
         japaneseName: "Zacian",
         family: "Zacian",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Blue"
     },
     {
         name: "Zamazenta",
@@ -21167,7 +22055,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zamazenta,
         japaneseName: "Zamazenta",
         family: "Zamazenta",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Red"
     },
     {
         name: "Eternatus",
@@ -21189,7 +22078,8 @@ let nationalDex = {
         evolution: evolutionFamilies.eternatus,
         japaneseName: "Mugendina",
         family: "Eternatus",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Purple"
     },
     {
         name: "Kubfu",
@@ -21211,7 +22101,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kubfu,
         japaneseName: "Dakuma",
         family: "Kubfu",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Gray"
     },
     {
         name: "Urshifu",
@@ -21233,7 +22124,8 @@ let nationalDex = {
         evolution: evolutionFamilies.kubfu,
         japaneseName: "Wulaosu",
         family: "Kubfu",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Gray"
     },
     {
         name: "Zarude",
@@ -21255,7 +22147,8 @@ let nationalDex = {
         evolution: evolutionFamilies.zarude,
         japaneseName: "Zarude",
         family: "Zarude",
-        tags: ["Mythical"]
+        tags: ["Mythical"],
+        color: "Black"
     },
     {
         name: "Regieleki",
@@ -21277,7 +22170,8 @@ let nationalDex = {
         evolution: evolutionFamilies.regieleki,
         japaneseName: "Regieleki",
         family: "Regieleki",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Yellow"
     },
     {
         name: "Regidrago",
@@ -21299,7 +22193,8 @@ let nationalDex = {
         evolution: evolutionFamilies.regidrago,
         japaneseName: "Regidorago",
         family: "Regidrago",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Green"
     },
     {
         name: "Glastrier",
@@ -21321,7 +22216,8 @@ let nationalDex = {
         evolution: evolutionFamilies.glastrier,
         japaneseName: "Blizzapos",
         family: "Glastrier",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "White"
     },
     {
         name: "Spectrier",
@@ -21343,7 +22239,8 @@ let nationalDex = {
         evolution: evolutionFamilies.spectrier,
         japaneseName: "Wraithpos",
         family: "Spectrier",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Black"
     },
     {
         name: "Calyrex",
@@ -21365,7 +22262,8 @@ let nationalDex = {
         evolution: evolutionFamilies.calyrex,
         japaneseName: "Budrex",
         family: "Calyrex",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Green"
     },
     {
         name: "Wyrdeer",
@@ -21387,7 +22285,8 @@ let nationalDex = {
         evolution: evolutionFamilies.stantler,
         japaneseName: "Ayashishi",
         family: "Stantler",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Kleavor",
@@ -21409,7 +22308,8 @@ let nationalDex = {
         evolution: evolutionFamilies.scyther,
         japaneseName: "Basagiri",
         family: "Scyther",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Ursaluna",
@@ -21431,7 +22331,8 @@ let nationalDex = {
         evolution: evolutionFamilies.teddiursa,
         japaneseName: "Gachiguma",
         family: "Teddiursa",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Basculegion",
@@ -21453,7 +22354,8 @@ let nationalDex = {
         evolution: evolutionFamilies.basculin,
         japaneseName: "Idaitou",
         family: "Basculin",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Sneasler",
@@ -21475,7 +22377,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sneasel,
         japaneseName: "Ohnyula",
         family: "Sneasel",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Blue"
     },
     {
         name: "Overqwil",
@@ -21497,7 +22400,8 @@ let nationalDex = {
         evolution: evolutionFamilies.qwilfish,
         japaneseName: "Haryman",
         family: "Qwilfish",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Black"
     },
     {
         name: "Enamorus",
@@ -21519,7 +22423,8 @@ let nationalDex = {
         evolution: evolutionFamilies.enamorus,
         japaneseName: "Lovetolos",
         family: "Enamorus",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Pink"
     },
     {
         name: "Sprigatito",
@@ -21541,7 +22446,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sprigatito,
         japaneseName: "Nyahoja",
         family: "Sprigatito",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Floragato",
@@ -21563,7 +22469,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sprigatito,
         japaneseName: "Nyarote",
         family: "Sprigatito",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Meowscarada",
@@ -21585,7 +22492,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sprigatito,
         japaneseName: "Masquernya",
         family: "Sprigatito",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Green"
     },
     {
         name: "Fuecoco",
@@ -21607,7 +22515,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fuecoco,
         japaneseName: "Hogator",
         family: "Fuecoco",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Crocalor",
@@ -21629,7 +22538,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fuecoco,
         japaneseName: "Achigator",
         family: "Fuecoco",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Skeledirge",
@@ -21651,7 +22561,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fuecoco,
         japaneseName: "Laudbon",
         family: "Fuecoco",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Red"
     },
     {
         name: "Quaxly",
@@ -21673,7 +22584,8 @@ let nationalDex = {
         evolution: evolutionFamilies.quaxly,
         japaneseName: "Kuwassu",
         family: "Quaxly",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Quaxwell",
@@ -21695,7 +22607,8 @@ let nationalDex = {
         evolution: evolutionFamilies.quaxly,
         japaneseName: "Welkamo",
         family: "Quaxly",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Quaquaval",
@@ -21717,7 +22630,8 @@ let nationalDex = {
         evolution: evolutionFamilies.quaxly,
         japaneseName: "Wanival",
         family: "Quaxly",
-        tags: ["Starter"]
+        tags: ["Starter"],
+        color: "Blue"
     },
     {
         name: "Lechonk",
@@ -21739,7 +22653,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lechonk,
         japaneseName: "Gourton",
         family: "Lechonk",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Oinkologne",
@@ -21761,7 +22676,8 @@ let nationalDex = {
         evolution: evolutionFamilies.lechonk,
         japaneseName: "Perfuton",
         family: "Lechonk",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Tarountula",
@@ -21783,7 +22699,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tarountula,
         japaneseName: "Tamantula",
         family: "Tarountula",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Spidops",
@@ -21805,7 +22722,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tarountula,
         japaneseName: "Wanaider",
         family: "Tarountula",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Nymble",
@@ -21827,7 +22745,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nymble,
         japaneseName: "Nymble",
         family: "",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Lokix",
@@ -21849,7 +22768,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nymble,
         japaneseName: "Exleg",
         family: "Nymble",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Pawmi",
@@ -21871,7 +22791,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pawmi,
         japaneseName: "Pamo",
         family: "Pawmi",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Pawmo",
@@ -21893,7 +22814,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pawmi,
         japaneseName: "Pamot",
         family: "Pawmi",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Pawmot",
@@ -21915,7 +22837,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pawmi,
         japaneseName: "Parmot",
         family: "Pawmi",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Tandemaus",
@@ -21937,7 +22860,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tandemaus,
         japaneseName: "Wakkanezumi",
         family: "Tandemaus",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Maushold",
@@ -21959,7 +22883,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tandemaus,
         japaneseName: "Ikkanezumi",
         family: "Tandemaus",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Fidough",
@@ -21981,7 +22906,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fidough,
         japaneseName: "Pupimocchi",
         family: "Fidough",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Dachsbun",
@@ -22003,7 +22929,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fidough,
         japaneseName: "Bowtzel",
         family: "Fidough",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Smoliv",
@@ -22025,7 +22952,8 @@ let nationalDex = {
         evolution: evolutionFamilies.smoliv,
         japaneseName: "Minive",
         family: "Smoliv",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Dolliv",
@@ -22047,7 +22975,8 @@ let nationalDex = {
         evolution: evolutionFamilies.smoliv,
         japaneseName: "Olinyo",
         family: "Smoliv",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Arboliva",
@@ -22069,7 +22998,8 @@ let nationalDex = {
         evolution: evolutionFamilies.smoliv,
         japaneseName: "Oliva",
         family: "Smoliv",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Squawkabilly",
@@ -22091,7 +23021,8 @@ let nationalDex = {
         evolution: evolutionFamilies.squawkabilly,
         japaneseName: "Ikirinko",
         family: "Squawkabilly",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Nacli",
@@ -22113,7 +23044,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nacli,
         japaneseName: "Kojio",
         family: "Nacli",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Naclstack",
@@ -22135,7 +23067,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nacli,
         japaneseName: "Jiodumu",
         family: "Nacli",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Garganacl",
@@ -22157,7 +23090,8 @@ let nationalDex = {
         evolution: evolutionFamilies.nacli,
         japaneseName: "Kyojiohn",
         family: "Nacli",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Charcadet",
@@ -22179,7 +23113,8 @@ let nationalDex = {
         evolution: evolutionFamilies.charcadet,
         japaneseName: "Carbou",
         family: "Charcadet",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Armarouge",
@@ -22201,7 +23136,8 @@ let nationalDex = {
         evolution: evolutionFamilies.charcadet,
         japaneseName: "Gurenarma",
         family: "Charcadet",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Ceruledge",
@@ -22223,7 +23159,8 @@ let nationalDex = {
         evolution: evolutionFamilies.charcadet,
         japaneseName: "Soublades",
         family: "Charcadet",
-        tags: []
+        tags: [],
+        color: "Purple"
     },
     {
         name: "Tadbulb",
@@ -22245,7 +23182,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tadbulb,
         japaneseName: "Zupika",
         family: "Tadbulb",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Bellibolt",
@@ -22267,7 +23205,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tadbulb,
         japaneseName: "Harabarie",
         family: "Tadbulb",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Wattrel",
@@ -22289,7 +23228,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wattrel,
         japaneseName: "Kaiden",
         family: "Wattrel",
-        tags: []
+        tags: [],
+        color: "Black"
     },
     {
         name: "Kilowattrel",
@@ -22311,7 +23251,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wattrel,
         japaneseName: "Taikaiden",
         family: "Wattrel",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Maschiff",
@@ -22333,7 +23274,8 @@ let nationalDex = {
         evolution: evolutionFamilies.maschiff,
         japaneseName: "Orachifu",
         family: "Maschiff",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Mabosstiff",
@@ -22355,7 +23297,8 @@ let nationalDex = {
         evolution: evolutionFamilies.maschiff,
         japaneseName: "Mafitiff",
         family: "Maschiff",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Shroodle",
@@ -22377,7 +23320,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shroodle,
         japaneseName: "Shirushrew",
         family: "Shroodle",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Grafaiai",
@@ -22399,7 +23343,8 @@ let nationalDex = {
         evolution: evolutionFamilies.shroodle,
         japaneseName: "Taggingru",
         family: "Shroodle",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Bramblin",
@@ -22421,7 +23366,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bramblin,
         japaneseName: "Anokusa",
         family: "Bramblin",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Brambleghast",
@@ -22443,7 +23389,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bramblin,
         japaneseName: "Anohoragusa",
         family: "Bramblin",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Toedscool",
@@ -22465,7 +23412,8 @@ let nationalDex = {
         evolution: evolutionFamilies.toedscool,
         japaneseName: "Nonokurage",
         family: "Toedscool",
-        tags: ["Convergent"]
+        tags: ["Convergent"],
+        color: "Yellow"
     },
     {
         name: "Toedscruel",
@@ -22487,7 +23435,8 @@ let nationalDex = {
         evolution: evolutionFamilies.toedscool,
         japaneseName: "Rikukurage",
         family: "Toedscool",
-        tags: ["Convergent"]
+        tags: ["Convergent"],
+        color: "Black"
     },
     {
         name: "Klawf",
@@ -22509,7 +23458,8 @@ let nationalDex = {
         evolution: evolutionFamilies.klawf,
         japaneseName: "Gakegani",
         family: "Klawf",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Capsakid",
@@ -22531,7 +23481,8 @@ let nationalDex = {
         evolution: evolutionFamilies.capsakid,
         japaneseName: "Capsaiji",
         family: "Capsakid",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Scovillain",
@@ -22553,7 +23504,8 @@ let nationalDex = {
         evolution: evolutionFamilies.capsakid,
         japaneseName: "Scovillain",
         family: "Capsakid",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Rellor",
@@ -22575,7 +23527,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rellor,
         japaneseName: "Shigaroko",
         family: "Rellor",
-        tags: []
+        tags: [],
+        color: "Brown"
     },
     {
         name: "Rabsca",
@@ -22597,7 +23550,8 @@ let nationalDex = {
         evolution: evolutionFamilies.rellor,
         japaneseName: "Beracas",
         family: "Rellor",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Flittle",
@@ -22619,7 +23573,8 @@ let nationalDex = {
         evolution: evolutionFamilies.flittle,
         japaneseName: "Hirahina",
         family: "Flittle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Espathra",
@@ -22641,7 +23596,8 @@ let nationalDex = {
         evolution: evolutionFamilies.flittle,
         japaneseName: "Cuespatra",
         family: "Flittle",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Tinkatink",
@@ -22663,7 +23619,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tinkatink,
         japaneseName: "Kanuchan",
         family: "Tinkatink",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Tinkatuff",
@@ -22685,7 +23642,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tinkatink,
         japaneseName: "Nakanuchan",
         family: "Tinkatink",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Tinkaton",
@@ -22707,7 +23665,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tinkatink,
         japaneseName: "Dekanuchan",
         family: "Tinkatink",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Wiglett",
@@ -22729,7 +23688,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wiglett,
         japaneseName: "Umidigda",
         family: "Wiglett",
-        tags: ["Convergent"]
+        tags: ["Convergent"],
+        color: "White"
     },
     {
         name: "Wugtrio",
@@ -22751,7 +23711,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wiglett,
         japaneseName: "Umitrio",
         family: "Wiglett",
-        tags: ["Convergent"]
+        tags: ["Convergent"],
+        color: "Red"
     },
     {
         name: "Bombirdier",
@@ -22773,7 +23734,8 @@ let nationalDex = {
         evolution: evolutionFamilies.bombirdier,
         japaneseName: "Otoshidori",
         family: "Bombirdier",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Finizen",
@@ -22795,7 +23757,8 @@ let nationalDex = {
         evolution: evolutionFamilies.finizen,
         japaneseName: "Namiiruka",
         family: "Finizen",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Palafin",
@@ -22817,7 +23780,8 @@ let nationalDex = {
         evolution: evolutionFamilies.finizen,
         japaneseName: "Irukaman",
         family: "Finizen",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Varoom",
@@ -22839,7 +23803,8 @@ let nationalDex = {
         evolution: evolutionFamilies.varoom,
         japaneseName: "Buroron",
         family: "Varoom",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Revavroom",
@@ -22861,7 +23826,8 @@ let nationalDex = {
         evolution: evolutionFamilies.varoom,
         japaneseName: "Burororoom",
         family: "Varoom",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Cyclizar",
@@ -22883,7 +23849,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cyclizar,
         japaneseName: "Mototokage",
         family: "Cyclizar",
-        tags: []
+        tags: [],
+        color: "Green"
     },
     {
         name: "Orthworm",
@@ -22905,7 +23872,8 @@ let nationalDex = {
         evolution: evolutionFamilies.orthworm,
         japaneseName: "Mimizuzu",
         family: "Orthworm",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Glimmet",
@@ -22927,7 +23895,8 @@ let nationalDex = {
         evolution: evolutionFamilies.glimmet,
         japaneseName: "Kirame",
         family: "Glimmet",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Glimmora",
@@ -22949,7 +23918,8 @@ let nationalDex = {
         evolution: evolutionFamilies.glimmet,
         japaneseName: "Kiraflor",
         family: "Glimmet",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Greavard",
@@ -22971,7 +23941,8 @@ let nationalDex = {
         evolution: evolutionFamilies.greavard,
         japaneseName: "Bochi",
         family: "Greavard",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Houndstone",
@@ -22993,7 +23964,8 @@ let nationalDex = {
         evolution: evolutionFamilies.greavard,
         japaneseName: "Hakadog",
         family: "Greavard",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Flamigo",
@@ -23015,7 +23987,8 @@ let nationalDex = {
         evolution: evolutionFamilies.flamigo,
         japaneseName: "Karamingo",
         family: "Flamigo",
-        tags: []
+        tags: [],
+        color: "Pink"
     },
     {
         name: "Cetoddle",
@@ -23037,7 +24010,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cetoddle,
         japaneseName: "Arukujira",
         family: "Cetoddle",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Cetitan",
@@ -23059,7 +24033,8 @@ let nationalDex = {
         evolution: evolutionFamilies.cetoddle,
         japaneseName: "Hulkujira",
         family: "Cetoddle",
-        tags: []
+        tags: [],
+        color: "White"
     },
     {
         name: "Veluza",
@@ -23081,7 +24056,8 @@ let nationalDex = {
         evolution: evolutionFamilies.veluza,
         japaneseName: "Migalusa",
         family: "Veluza",
-        tags: []
+        tags: [],
+        color: "Gray"
     },
     {
         name: "Dondozo",
@@ -23103,7 +24079,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dondozo,
         japaneseName: "Heyrusher",
         family: "Dondozo",
-        tags: []
+        tags: [],
+        color: "Blue"
     },
     {
         name: "Tatsugiri",
@@ -23125,7 +24102,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tatsugiri,
         japaneseName: "Syaritatsu",
         family: "Tatsugiri",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Annihilape",
@@ -23147,7 +24125,8 @@ let nationalDex = {
         evolution: evolutionFamilies.mankey,
         japaneseName: "Konoyozaru",
         family: "Mankey",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Gray"
     },
     {
         name: "Clodsire",
@@ -23169,7 +24148,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wooper,
         japaneseName: "Dooh",
         family: "Wooper",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Farigiraf",
@@ -23191,7 +24171,8 @@ let nationalDex = {
         evolution: evolutionFamilies.girafarig,
         japaneseName: "Rikikirin",
         family: "Girafarig",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Brown"
     },
     {
         name: "Dudunsparce",
@@ -23213,7 +24194,8 @@ let nationalDex = {
         evolution: evolutionFamilies.dunsparce,
         japaneseName: "Nokokocchi",
         family: "Dunsparce",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Yellow"
     },
     {
         name: "Kingambit",
@@ -23235,7 +24217,8 @@ let nationalDex = {
         evolution: evolutionFamilies.pawniard,
         japaneseName: "Dodogezan",
         family: "Pawniard",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Black"
     },
     {
         name: "Great Tusk",
@@ -23257,7 +24240,8 @@ let nationalDex = {
         evolution: evolutionFamilies.greattusk,
         japaneseName: "Idainakiba",
         family: "GreatTusk",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Purple"
     },
     {
         name: "Scream Tail",
@@ -23279,7 +24263,8 @@ let nationalDex = {
         evolution: evolutionFamilies.screamtail,
         japaneseName: "Sakebushippo",
         family: "ScreamTail",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Pink"
     },
     {
         name: "Brute Bonnet",
@@ -23301,7 +24286,8 @@ let nationalDex = {
         evolution: evolutionFamilies.brutebonnet,
         japaneseName: "Araburutake",
         family: "BruteBonnet",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "White"
     },
     {
         name: "Flutter Mane",
@@ -23323,7 +24309,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fluttermane,
         japaneseName: "Habatakukami",
         family: "FlutterMane",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Gray"
     },
     {
         name: "Slither Wing",
@@ -23345,7 +24332,8 @@ let nationalDex = {
         evolution: evolutionFamilies.slitherwing,
         japaneseName: "Chiwohauhane",
         family: "SlitherWing",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "White"
     },
     {
         name: "Sandy Shocks",
@@ -23367,7 +24355,8 @@ let nationalDex = {
         evolution: evolutionFamilies.sandyshocks,
         japaneseName: "Sunanokegawa",
         family: "SandyShocks",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Gray"
     },
     {
         name: "Iron Treads",
@@ -23389,7 +24378,8 @@ let nationalDex = {
         evolution: evolutionFamilies.irontreads,
         japaneseName: "Tetsunowadachi",
         family: "IronTreads",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Gray"
     },
     {
         name: "Iron Bundle",
@@ -23411,7 +24401,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ironbundle,
         japaneseName: "Tetsunotsutsumi",
         family: "IronBundle",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Red"
     },
     {
         name: "Iron Hands",
@@ -23433,7 +24424,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ironhands,
         japaneseName: "Tetsunokaina",
         family: "IronHands",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Gray"
     },
     {
         name: "Iron Jugulis",
@@ -23455,7 +24447,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ironjugulis,
         japaneseName: "Tetsunokoube",
         family: "IronJugulis",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Blue"
     },
     {
         name: "Iron Moth",
@@ -23477,7 +24470,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ironmoth,
         japaneseName: "Tetsunodokuga",
         family: "IronMoth",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "White"
     },
     {
         name: "Iron Thorns",
@@ -23499,7 +24493,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ironthorns,
         japaneseName: "Tetsunoibara",
         family: "IronThorns",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Green"
     },
     {
         name: "Frigibax",
@@ -23521,7 +24516,8 @@ let nationalDex = {
         evolution: evolutionFamilies.frigibax,
         japaneseName: "Sebie",
         family: "Frigibax",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Gray"
     },
     {
         name: "Arctibax",
@@ -23543,7 +24539,8 @@ let nationalDex = {
         evolution: evolutionFamilies.frigibax,
         japaneseName: "Segohru",
         family: "Frigibax",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Baxcalibur",
@@ -23565,7 +24562,8 @@ let nationalDex = {
         evolution: evolutionFamilies.frigibax,
         japaneseName: "Seglaive",
         family: "Frigibax",
-        tags: ["Pseudo"]
+        tags: ["Pseudo"],
+        color: "Blue"
     },
     {
         name: "Gimmighoul",
@@ -23587,7 +24585,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gimmighoul,
         japaneseName: "Collecurei",
         family: "Gimmighoul",
-        tags: []
+        tags: [],
+        color: "Red"
     },
     {
         name: "Gholdengo",
@@ -23609,7 +24608,8 @@ let nationalDex = {
         evolution: evolutionFamilies.gimmighoul,
         japaneseName: "Surfugo",
         family: "Gimmighoul",
-        tags: []
+        tags: [],
+        color: "Yellow"
     },
     {
         name: "Wo-Chien",
@@ -23631,7 +24631,8 @@ let nationalDex = {
         evolution: evolutionFamilies.wochien,
         japaneseName: "Chionjen",
         family: "WoChien",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Brown"
     },
     {
         name: "Chien-Pao",
@@ -23653,7 +24654,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chienpao,
         japaneseName: "Paojian",
         family: "ChienPao",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "White"
     },
     {
         name: "Ting-Lu",
@@ -23675,7 +24677,8 @@ let nationalDex = {
         evolution: evolutionFamilies.tinglu,
         japaneseName: "Dinlu",
         family: "TingLu",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Brown"
     },
     {
         name: "Chi-Yu",
@@ -23697,7 +24700,8 @@ let nationalDex = {
         evolution: evolutionFamilies.chiyu,
         japaneseName: "Yiyui",
         family: "ChiYu",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Red"
     },
     {
         name: "Roaring Moon",
@@ -23719,7 +24723,8 @@ let nationalDex = {
         evolution: evolutionFamilies.roaringmoon,
         japaneseName: "Todorokutsuki",
         family: "RoaringMoon",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Blue"
     },
     {
         name: "Iron Valiant",
@@ -23741,7 +24746,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ironvaliant,
         japaneseName: "Tetsunobujin",
         family: "IronValiant",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "White"
     },
     {
         name: "Koraidon",
@@ -23763,7 +24769,8 @@ let nationalDex = {
         evolution: evolutionFamilies.koraidon,
         japaneseName: "Koraidon",
         family: "Koraidon",
-        tags: ["Legendary", "Paradox"]
+        tags: ["Legendary", "Paradox"],
+        color: "Red"
     },
     {
         name: "Miraidon",
@@ -23785,7 +24792,8 @@ let nationalDex = {
         evolution: evolutionFamilies.miraidon,
         japaneseName: "Miraidon",
         family: "Miraidon",
-        tags: ["Legendary", "Paradox"]
+        tags: ["Legendary", "Paradox"],
+        color: "Purple"
     },
     {
         name: "Walking Wake",
@@ -23807,7 +24815,8 @@ let nationalDex = {
         evolution: evolutionFamilies.walkingwake,
         japaneseName: "Uneruminamo",
         family: "WalkingWake",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Blue"
     },
     {
         name: "Iron Leaves",
@@ -23829,7 +24838,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ironleaves,
         japaneseName: "Tetsunoisaha",
         family: "IronLeaves",
-        tags: ["Paradox"]
+        tags: ["Paradox"],
+        color: "Green"
     },
     {
         name: "Dipplin",
@@ -23851,7 +24861,8 @@ let nationalDex = {
         evolution: evolutionFamilies.applin,
         japaneseName: "Kamicchu",
         family: "Applin",
-        tags: ["Cross-Gen"]
+        tags: ["Cross-Gen"],
+        color: "Green"
     },
     {
         name: "Poltchageist",
@@ -23873,7 +24884,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poltchageist,
         japaneseName: "Chadesu",
         family: "Poltchageist",
-        tags: ["Convergent"]
+        tags: ["Convergent"],
+        color: "Green"
     },
     {
         name: "Sinistcha",
@@ -23895,7 +24907,8 @@ let nationalDex = {
         evolution: evolutionFamilies.poltchageist,
         japaneseName: "Yabasocha",
         family: "Poltchageist",
-        tags: ["Convergent"]
+        tags: ["Convergent"],
+        color: "Green"
     },
     {
         name: "Okidogi",
@@ -23917,7 +24930,8 @@ let nationalDex = {
         evolution: evolutionFamilies.okidogi,
         japaneseName: "Iineinu",
         family: "Okidogi",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Black"
     },
     {
         name: "Munkidori",
@@ -23939,7 +24953,8 @@ let nationalDex = {
         evolution: evolutionFamilies.munkidori,
         japaneseName: "Mashimashira",
         family: "Munkidori",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Black"
     },
     {
         name: "Fezandipiti",
@@ -23961,7 +24976,8 @@ let nationalDex = {
         evolution: evolutionFamilies.fezandipiti,
         japaneseName: "Kichikigisu",
         family: "Fezandipiti",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Black"
     },
     {
         name: "Ogerpon",
@@ -23983,7 +24999,8 @@ let nationalDex = {
         evolution: evolutionFamilies.ogerpon,
         japaneseName: "Ogerpon",
         family: "Ogerpon",
-        tags: ["Legendary"]
+        tags: ["Legendary"],
+        color: "Green"
     },
 ]
 }
@@ -24362,6 +25379,7 @@ let categoryId = document.getElementById("category_input").value
 let regionId = document.getElementById("region_input").value
 let genId = document.getElementById("gen_input").value
 let abilityId = document.getElementById("ability_input").value
+let colorId = document.getElementById("color_input").value
 let heightId = document.getElementById("height_input").value
 let weightId = document.getElementById("weight_input").value
 let favoritesId = document.getElementById("favorites_input").value
@@ -24376,6 +25394,7 @@ let filterPokemon = nationalDex.nationalPokedex.filter(searching => searching.na
 .filter(searching => searching.region.toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
 .filter(searching => searching.generation.toLowerCase().indexOf(genId.toLowerCase()) > -1 )
 .filter(searching => String(searching.ability).toLowerCase().indexOf(abilityId.toLowerCase()) > -1 )
+.filter(searching => String(searching.color).toLowerCase().indexOf(colorId.toLowerCase()) > -1 )
 .filter(searching => searching.height.toLowerCase().indexOf(heightId.toLowerCase()) > -1 )
 .filter(searching => searching.weight.toLowerCase().indexOf(weightId.toLowerCase()) > -1 )
 .filter(searching => String(searching.favorites).toLowerCase().indexOf(favoritesId.toLowerCase()) > -1 )
