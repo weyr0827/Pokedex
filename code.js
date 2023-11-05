@@ -1632,7 +1632,8 @@ let nationalDex = {
         japaneseName: "Fushigidane",
         family: "Bulbasaur",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Ivysaur",
@@ -1655,7 +1656,8 @@ let nationalDex = {
         japaneseName: "Fushigisou",
         family: "Bulbasaur",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Venusaur",
@@ -1678,7 +1680,8 @@ let nationalDex = {
         japaneseName: "Fushigibana",
         family: "Bulbasaur",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Charmander",
@@ -1701,7 +1704,8 @@ let nationalDex = {
         japaneseName: "Hitokage",
         family: "Charmander",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Charmeleon",
@@ -1724,7 +1728,8 @@ let nationalDex = {
         japaneseName: "Lizardo",
         family: "Charmander",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Charizard",
@@ -1747,7 +1752,8 @@ let nationalDex = {
         japaneseName: "Lizardon",
         family: "Charmander",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Squirtle",
@@ -1770,7 +1776,8 @@ let nationalDex = {
         japaneseName: "Zenigame",
         family: "Squirtle",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Wartortle",
@@ -1793,7 +1800,8 @@ let nationalDex = {
         japaneseName: "Kameil",
         family: "Squirtle",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Blastoise",
@@ -1816,7 +1824,8 @@ let nationalDex = {
         japaneseName: "Kamex",
         family: "Squirtle",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Caterpie",
@@ -1839,7 +1848,8 @@ let nationalDex = {
         japaneseName: "Caterpie",
         family: "Caterpie",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Metapod",
@@ -1862,7 +1872,8 @@ let nationalDex = {
         japaneseName: "Transel",
         family: "Caterpie",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Butterfree",
@@ -1885,7 +1896,8 @@ let nationalDex = {
         japaneseName: "Butterfree",
         family: "Caterpie",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Weedle",
@@ -1908,7 +1920,8 @@ let nationalDex = {
         japaneseName: "Beedle",
         family: "Weedle",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Kakuna",
@@ -1931,7 +1944,8 @@ let nationalDex = {
         japaneseName: "Cocoon",
         family: "Weedle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Beedrill",
@@ -1954,7 +1968,8 @@ let nationalDex = {
         japaneseName: "Spear",
         family: "Weedle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Pidgey",
@@ -1977,7 +1992,8 @@ let nationalDex = {
         japaneseName: "Poppo",
         family: "Pidgey",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Pidgeotto",
@@ -2000,7 +2016,8 @@ let nationalDex = {
         japaneseName: "Pigeon",
         family: "Pidgey",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Pidgeot",
@@ -2023,7 +2040,8 @@ let nationalDex = {
         japaneseName: "Pigeot",
         family: "Pidgey",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Rattata",
@@ -2046,7 +2064,8 @@ let nationalDex = {
         japaneseName: "Koratta",
         family: "Rattata",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Raticate",
@@ -2069,7 +2088,8 @@ let nationalDex = {
         japaneseName: "Ratta",
         family: "Rattata",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Spearow",
@@ -2092,7 +2112,8 @@ let nationalDex = {
         japaneseName: "Onisuzume",
         family: "Spearow",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Fearow",
@@ -2115,7 +2136,8 @@ let nationalDex = {
         japaneseName: "Onidrill",
         family: "Spearow",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Ekans",
@@ -2138,7 +2160,8 @@ let nationalDex = {
         japaneseName: "Arbo",
         family: "Ekans",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Arbok",
@@ -2161,7 +2184,8 @@ let nationalDex = {
         japaneseName: "Arbok",
         family: "Ekans",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Pikachu",
@@ -2184,7 +2208,8 @@ let nationalDex = {
         japaneseName: "Pikachu",
         family: "Pichu",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Raichu",
@@ -2207,7 +2232,8 @@ let nationalDex = {
         japaneseName: "Raichu",
         family: "Pichu",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Sandshrew",
@@ -2230,7 +2256,8 @@ let nationalDex = {
         japaneseName: "Sand",
         family: "Sandshrew",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Sandslash",
@@ -2253,7 +2280,8 @@ let nationalDex = {
         japaneseName: "Sandpan",
         family: "Sandshrew",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Nidoran♀",
@@ -2276,7 +2304,8 @@ let nationalDex = {
         japaneseName: "Nidoran♀",
         family: "NidoranF",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Nidorina",
@@ -2299,7 +2328,8 @@ let nationalDex = {
         japaneseName: "Nidorina",
         family: "NidoranF",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Nidoqueen",
@@ -2322,7 +2352,8 @@ let nationalDex = {
         japaneseName: "Nidoqueen",
         family: "NidoranF",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Nidoran♂",
@@ -2345,7 +2376,8 @@ let nationalDex = {
         japaneseName: "Nidoran♂",
         family: "NidoranM",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Nidorino",
@@ -2368,7 +2400,8 @@ let nationalDex = {
         japaneseName: "Nidorino",
         family: "NidoranM",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Nidoking",
@@ -2391,7 +2424,8 @@ let nationalDex = {
         japaneseName: "Nidoking",
         family: "NidoranM",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Clefairy",
@@ -2414,7 +2448,8 @@ let nationalDex = {
         japaneseName: "Pippi",
         family: "Cleffa",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Clefable",
@@ -2437,7 +2472,8 @@ let nationalDex = {
         japaneseName: "Pixy",
         family: "Cleffa",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Third Stage"
     },
     {
         name: "Vulpix",
@@ -2460,7 +2496,8 @@ let nationalDex = {
         japaneseName: "Rokon",
         family: "Vulpix",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Ninetales",
@@ -2483,7 +2520,8 @@ let nationalDex = {
         japaneseName: "Kyukon",
         family: "Vulpix",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Jigglypuff",
@@ -2506,7 +2544,8 @@ let nationalDex = {
         japaneseName: "Purin",
         family: "Igglybuff",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Wigglytuff",
@@ -2529,7 +2568,8 @@ let nationalDex = {
         japaneseName: "Pukurin",
         family: "Igglybuff",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Third Stage"
     },
     {
         name: "Zubat",
@@ -2552,7 +2592,8 @@ let nationalDex = {
         japaneseName: "Zubat",
         family: "Zubat",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Golbat",
@@ -2575,7 +2616,8 @@ let nationalDex = {
         japaneseName: "Golbat",
         family: "Zubat",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Oddish",
@@ -2598,7 +2640,8 @@ let nationalDex = {
         japaneseName: "Nazonokusa",
         family: "Oddish",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Gloom",
@@ -2621,7 +2664,8 @@ let nationalDex = {
         japaneseName: "Kusaihana",
         family: "Oddish",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Vileplume",
@@ -2644,7 +2688,8 @@ let nationalDex = {
         japaneseName: "Ruffresia",
         family: "Oddish",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Paras",
@@ -2667,7 +2712,8 @@ let nationalDex = {
         japaneseName: "Paras",
         family: "Paras",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Parasect",
@@ -2690,7 +2736,8 @@ let nationalDex = {
         japaneseName: "Parasect",
         family: "Paras",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Venonat",
@@ -2713,7 +2760,8 @@ let nationalDex = {
         japaneseName: "Kongpang",
         family: "Venonat",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Venomoth",
@@ -2736,7 +2784,8 @@ let nationalDex = {
         japaneseName: "Morphon",
         family: "Venonat",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Diglett",
@@ -2759,7 +2808,8 @@ let nationalDex = {
         japaneseName: "Digda",
         family: "Diglett",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Dugtrio",
@@ -2782,7 +2832,8 @@ let nationalDex = {
         japaneseName: "Dugtrio",
         family: "Diglett",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Meowth",
@@ -2805,7 +2856,8 @@ let nationalDex = {
         japaneseName: "Nyarth",
         family: "Meowth",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Persian",
@@ -2828,7 +2880,8 @@ let nationalDex = {
         japaneseName: "Persian",
         family: "Meowth",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Psyduck",
@@ -2851,7 +2904,8 @@ let nationalDex = {
         japaneseName: "Koduck",
         family: "Psyduck",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Golduck",
@@ -2874,7 +2928,8 @@ let nationalDex = {
         japaneseName: "Golduck",
         family: "Psyduck",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Mankey",
@@ -2897,7 +2952,8 @@ let nationalDex = {
         japaneseName: "Mankey",
         family: "Mankey",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Primeape",
@@ -2920,7 +2976,8 @@ let nationalDex = {
         japaneseName: "Okorizaru",
         family: "Mankey",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Growlithe",
@@ -2943,7 +3000,8 @@ let nationalDex = {
         japaneseName: "Gardie",
         family: "Growlithe",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Arcanine",
@@ -2966,7 +3024,8 @@ let nationalDex = {
         japaneseName: "Windie",
         family: "Growlithe",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Poliwag",
@@ -2989,7 +3048,8 @@ let nationalDex = {
         japaneseName: "Nyoromo",
         family: "Poliwag",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Poliwhirl",
@@ -3012,7 +3072,8 @@ let nationalDex = {
         japaneseName: "Nyorozo",
         family: "Poliwag",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Poliwrath",
@@ -3035,7 +3096,8 @@ let nationalDex = {
         japaneseName: "Nyorobon",
         family: "Poliwag",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Abra",
@@ -3058,7 +3120,8 @@ let nationalDex = {
         japaneseName: "Casey",
         family: "Abra1",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Kadabra",
@@ -3081,7 +3144,8 @@ let nationalDex = {
         japaneseName: "Yungerer",
         family: "Abra1",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Alakazam",
@@ -3104,7 +3168,8 @@ let nationalDex = {
         japaneseName: "Foodin",
         family: "Abra1",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Machop",
@@ -3127,7 +3192,8 @@ let nationalDex = {
         japaneseName: "Wanriky",
         family: "Machop",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Machoke",
@@ -3150,7 +3216,8 @@ let nationalDex = {
         japaneseName: "Goriky",
         family: "Machop",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Machamp",
@@ -3173,7 +3240,8 @@ let nationalDex = {
         japaneseName: "Kairiky",
         family: "Machop",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Bellsprout",
@@ -3196,7 +3264,8 @@ let nationalDex = {
         japaneseName: "Madatsubomi",
         family: "Bellsprout",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Weepinbell",
@@ -3219,7 +3288,8 @@ let nationalDex = {
         japaneseName: "Utsudon",
         family: "Bellsprout",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Victreebel",
@@ -3242,7 +3312,8 @@ let nationalDex = {
         japaneseName: "Utsubot",
         family: "Bellsprout",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Tentacool",
@@ -3265,7 +3336,8 @@ let nationalDex = {
         japaneseName: "Menokurage",
         family: "Tentacool",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Tentacruel",
@@ -3288,7 +3360,8 @@ let nationalDex = {
         japaneseName: "Dokukurage",
         family: "Tentacool",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Geodude",
@@ -3311,7 +3384,8 @@ let nationalDex = {
         japaneseName: "Isitsubute",
         family: "Geodude",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Graveler",
@@ -3334,7 +3408,8 @@ let nationalDex = {
         japaneseName: "Golone",
         family: "Geodude",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Golem",
@@ -3357,7 +3432,8 @@ let nationalDex = {
         japaneseName: "Golonya",
         family: "Geodude",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Ponyta",
@@ -3380,7 +3456,8 @@ let nationalDex = {
         japaneseName: "Ponyta",
         family: "Ponyta",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Rapidash",
@@ -3403,7 +3480,8 @@ let nationalDex = {
         japaneseName: "Gallop",
         family: "Ponyta",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Slowpoke",
@@ -3426,7 +3504,8 @@ let nationalDex = {
         japaneseName: "Yadon",
         family: "Slowpoke",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Slowbro",
@@ -3449,7 +3528,8 @@ let nationalDex = {
         japaneseName: "Yadoran",
         family: "Slowpoke",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Magnemite",
@@ -3472,7 +3552,8 @@ let nationalDex = {
         japaneseName: "Coil",
         family: "Magnemite",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Magneton",
@@ -3495,7 +3576,8 @@ let nationalDex = {
         japaneseName: "Rarecoil",
         family: "Magnemite",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Farfetch'd",
@@ -3518,7 +3600,8 @@ let nationalDex = {
         japaneseName: "Kamonegi",
         family: "Farfetchd",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Doduo",
@@ -3541,7 +3624,8 @@ let nationalDex = {
         japaneseName: "Dodo",
         family: "Doduo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Dodrio",
@@ -3564,7 +3648,8 @@ let nationalDex = {
         japaneseName: "Dodorio",
         family: "Doduo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Seel",
@@ -3587,7 +3672,8 @@ let nationalDex = {
         japaneseName: "Pawou",
         family: "Seel",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Dewgong",
@@ -3610,7 +3696,8 @@ let nationalDex = {
         japaneseName: "Jugon",
         family: "Seel",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Grimer",
@@ -3633,7 +3720,8 @@ let nationalDex = {
         japaneseName: "Betbeter",
         family: "Grimer",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Muk",
@@ -3656,7 +3744,8 @@ let nationalDex = {
         japaneseName: "Betbeton",
         family: "Grimer",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Shellder",
@@ -3679,7 +3768,8 @@ let nationalDex = {
         japaneseName: "Shellder",
         family: "Shellder",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Cloyster",
@@ -3702,7 +3792,8 @@ let nationalDex = {
         japaneseName: "Parshen",
         family: "Shellder",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Gastly",
@@ -3725,7 +3816,8 @@ let nationalDex = {
         japaneseName: "Ghos",
         family: "Gastly",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Haunter",
@@ -3748,7 +3840,8 @@ let nationalDex = {
         japaneseName: "Ghost",
         family: "Gastly",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Gengar",
@@ -3771,7 +3864,8 @@ let nationalDex = {
         japaneseName: "Gangar",
         family: "Gastly",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Onix",
@@ -3794,7 +3888,8 @@ let nationalDex = {
         japaneseName: "Iwark",
         family: "Onix",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Drowzee",
@@ -3817,7 +3912,8 @@ let nationalDex = {
         japaneseName: "Sleepe",
         family: "Drowzee",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Hypno",
@@ -3840,7 +3936,8 @@ let nationalDex = {
         japaneseName: "Sleeper",
         family: "Drowzee",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Krabby",
@@ -3863,7 +3960,8 @@ let nationalDex = {
         japaneseName: "Crab",
         family: "Krabby",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Kingler",
@@ -3886,7 +3984,8 @@ let nationalDex = {
         japaneseName: "Kingler",
         family: "Krabby",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Voltorb",
@@ -3909,7 +4008,8 @@ let nationalDex = {
         japaneseName: "Biriridama",
         family: "Voltorb",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Electrode",
@@ -3932,7 +4032,8 @@ let nationalDex = {
         japaneseName: "Marumine",
         family: "Voltorb",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Exeggcute",
@@ -3955,7 +4056,8 @@ let nationalDex = {
         japaneseName: "Tamatama",
         family: "Exeggcute",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Exeggutor",
@@ -3978,7 +4080,8 @@ let nationalDex = {
         japaneseName: "Nassy",
         family: "Exeggcute",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Cubone",
@@ -4001,7 +4104,8 @@ let nationalDex = {
         japaneseName: "Karakara",
         family: "Cubone",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Marowak",
@@ -4024,7 +4128,8 @@ let nationalDex = {
         japaneseName: "Garagara",
         family: "Cubone",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Hitmonlee",
@@ -4047,7 +4152,8 @@ let nationalDex = {
         japaneseName: "Sawamular",
         family: "Tyrogue",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Hitmonchan",
@@ -4070,7 +4176,8 @@ let nationalDex = {
         japaneseName: "Ebiwalar",
         family: "Tyrogue",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Lickitung",
@@ -4093,7 +4200,8 @@ let nationalDex = {
         japaneseName: "Beroringa",
         family: "Lickitung",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Koffing",
@@ -4116,7 +4224,8 @@ let nationalDex = {
         japaneseName: "Dogars",
         family: "Koffing",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Weezing",
@@ -4139,7 +4248,8 @@ let nationalDex = {
         japaneseName: "Matadogas",
         family: "Koffing",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Rhyhorn",
@@ -4162,7 +4272,8 @@ let nationalDex = {
         japaneseName: "Sihorn",
         family: "Rhyhorn",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Rhydon",
@@ -4185,7 +4296,8 @@ let nationalDex = {
         japaneseName: "Sidon",
         family: "Rhyhorn",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Chansey",
@@ -4208,7 +4320,8 @@ let nationalDex = {
         japaneseName: "Lucky",
         family: "Happiny",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Tangela",
@@ -4231,7 +4344,8 @@ let nationalDex = {
         japaneseName: "Monjara",
         family: "Tangela",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Kangaskhan",
@@ -4254,7 +4368,8 @@ let nationalDex = {
         japaneseName: "Garura",
         family: "Kangaskhan",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Horsea",
@@ -4277,7 +4392,8 @@ let nationalDex = {
         japaneseName: "Tattu",
         family: "Horsea",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Seadra",
@@ -4300,7 +4416,8 @@ let nationalDex = {
         japaneseName: "Seadra",
         family: "Horsea",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Goldeen",
@@ -4323,7 +4440,8 @@ let nationalDex = {
         japaneseName: "Tosakinto",
         family: "Goldeen",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Seaking",
@@ -4346,7 +4464,8 @@ let nationalDex = {
         japaneseName: "Azumao",
         family: "Goldeen",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Staryu",
@@ -4369,7 +4488,8 @@ let nationalDex = {
         japaneseName: "Hitodeman",
         family: "Staryu",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Starmie",
@@ -4392,7 +4512,8 @@ let nationalDex = {
         japaneseName: "Starmie",
         family: "Staryu",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Mr. Mime",
@@ -4415,7 +4536,8 @@ let nationalDex = {
         japaneseName: "Barrierd",
         family: "MimeJr",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Scyther",
@@ -4438,7 +4560,8 @@ let nationalDex = {
         japaneseName: "Strike",
         family: "Scyther",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Jynx",
@@ -4461,7 +4584,8 @@ let nationalDex = {
         japaneseName: "Rougela",
         family: "Smoochum",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Electabuzz",
@@ -4484,7 +4608,8 @@ let nationalDex = {
         japaneseName: "Eleboo",
         family: "Elekid",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Magmar",
@@ -4507,7 +4632,8 @@ let nationalDex = {
         japaneseName: "Boober",
         family: "Magby",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Pinsir",
@@ -4530,7 +4656,8 @@ let nationalDex = {
         japaneseName: "Kailios",
         family: "Pinsir",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Tauros",
@@ -4553,7 +4680,8 @@ let nationalDex = {
         japaneseName: "Kentauros",
         family: "Tauros",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Magikarp",
@@ -4576,7 +4704,8 @@ let nationalDex = {
         japaneseName: "Koiking",
         family: "Magikarp",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Gyarados",
@@ -4599,7 +4728,8 @@ let nationalDex = {
         japaneseName: "Gyarados",
         family: "Magikarp",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Lapras",
@@ -4622,7 +4752,8 @@ let nationalDex = {
         japaneseName: "Laplace",
         family: "Lapras",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Ditto",
@@ -4645,7 +4776,8 @@ let nationalDex = {
         japaneseName: "Metamon",
         family: "Ditto",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Eevee",
@@ -4668,7 +4800,8 @@ let nationalDex = {
         japaneseName: "Eievui",
         family: "Eevee",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Vaporeon",
@@ -4691,7 +4824,8 @@ let nationalDex = {
         japaneseName: "Showers",
         family: "Eevee",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Jolteon",
@@ -4714,7 +4848,8 @@ let nationalDex = {
         japaneseName: "Thunders",
         family: "Eevee",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Flareon",
@@ -4737,7 +4872,8 @@ let nationalDex = {
         japaneseName: "Booster",
         family: "Eevee",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Porygon",
@@ -4760,7 +4896,8 @@ let nationalDex = {
         japaneseName: "Porygon",
         family: "Porygon",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Omanyte",
@@ -4783,7 +4920,8 @@ let nationalDex = {
         japaneseName: "Omnite",
         family: "Omanyte",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Omastar",
@@ -4806,7 +4944,8 @@ let nationalDex = {
         japaneseName: "Omstar",
         family: "Omanyte",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Kabuto",
@@ -4829,7 +4968,8 @@ let nationalDex = {
         japaneseName: "Kabuto",
         family: "Kabuto",
         tags: ["Fossil"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Kabutops",
@@ -4852,7 +4992,8 @@ let nationalDex = {
         japaneseName: "Kabutops",
         family: "Kabuto",
         tags: ["Fossil"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Aerodactyl",
@@ -4875,7 +5016,8 @@ let nationalDex = {
         japaneseName: "Ptera",
         family: "Aerodactyl",
         tags: ["Fossil"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Snorlax",
@@ -4898,7 +5040,8 @@ let nationalDex = {
         japaneseName: "Kabigon",
         family: "Munchlax",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Articuno",
@@ -4921,7 +5064,8 @@ let nationalDex = {
         japaneseName: "Freezer",
         family: "Articuno",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Zapdos",
@@ -4944,7 +5088,8 @@ let nationalDex = {
         japaneseName: "Thunder",
         family: "Zapdos",
         tags: ["Legendary"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Moltres",
@@ -4967,7 +5112,8 @@ let nationalDex = {
         japaneseName: "Fire",
         family: "Moltres",
         tags: ["Legendary"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Dratini",
@@ -4990,7 +5136,8 @@ let nationalDex = {
         japaneseName: "Miniryu",
         family: "Dratini",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Dragonair",
@@ -5013,7 +5160,8 @@ let nationalDex = {
         japaneseName: "Hakuryu",
         family: "Dratini",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Dragonite",
@@ -5036,7 +5184,8 @@ let nationalDex = {
         japaneseName: "Kairyu",
         family: "Dratini",
         tags: ["Pseudo"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Mewtwo",
@@ -5059,7 +5208,8 @@ let nationalDex = {
         japaneseName: "Mewtwo",
         family: "Mewtwo",
         tags: ["Legendary"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Mew",
@@ -5082,7 +5232,8 @@ let nationalDex = {
         japaneseName: "Mew",
         family: "Mew1",
         tags: ["Mythical"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Chikorita",
@@ -5105,7 +5256,8 @@ let nationalDex = {
         japaneseName: "Chicorita",
         family: "Chikorita",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Bayleef",
@@ -5128,7 +5280,8 @@ let nationalDex = {
         japaneseName: "Bayleaf",
         family: "Chikorita",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Meganium",
@@ -5151,7 +5304,8 @@ let nationalDex = {
         japaneseName: "Meganium",
         family: "Chikorita",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Cyndaquil",
@@ -5174,7 +5328,8 @@ let nationalDex = {
         japaneseName: "Hinoarashi",
         family: "Cyndaquil",
         tags: ["Starter"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Quilava",
@@ -5197,7 +5352,8 @@ let nationalDex = {
         japaneseName: "Magmarashi",
         family: "Cyndaquil",
         tags: ["Starter"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Typhlosion",
@@ -5220,7 +5376,8 @@ let nationalDex = {
         japaneseName: "Bakphoon",
         family: "Cyndaquil",
         tags: ["Starter"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Totodile",
@@ -5243,7 +5400,8 @@ let nationalDex = {
         japaneseName: "Waninoko",
         family: "Totodile",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Croconaw",
@@ -5266,7 +5424,8 @@ let nationalDex = {
         japaneseName: "Alligates",
         family: "Totodile",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Feraligatr",
@@ -5289,7 +5448,8 @@ let nationalDex = {
         japaneseName: "Ordile",
         family: "Totodile",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Sentret",
@@ -5312,7 +5472,8 @@ let nationalDex = {
         japaneseName: "Otachi",
         family: "Sentret",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Furret",
@@ -5335,7 +5496,8 @@ let nationalDex = {
         japaneseName: "Ootachi",
         family: "Sentret",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Hoothoot",
@@ -5358,7 +5520,8 @@ let nationalDex = {
         japaneseName: "Hoho",
         family: "Hoothoot",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Noctowl",
@@ -5381,7 +5544,8 @@ let nationalDex = {
         japaneseName: "Yorunozuku",
         family: "Hoothoot",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Ledyba",
@@ -5404,7 +5568,8 @@ let nationalDex = {
         japaneseName: "Rediba",
         family: "Ledyba",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Ledian",
@@ -5427,7 +5592,8 @@ let nationalDex = {
         japaneseName: "Redian",
         family: "Ledyba",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Spinarak",
@@ -5450,7 +5616,8 @@ let nationalDex = {
         japaneseName: "Itomaru",
         family: "Spinarak",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Ariados",
@@ -5473,7 +5640,8 @@ let nationalDex = {
         japaneseName: "Ariados",
         family: "Spinarak",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Crobat",
@@ -5496,7 +5664,8 @@ let nationalDex = {
         japaneseName: "Crobat",
         family: "Zubat",
         tags: ["Cross-Gen"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Chinchou",
@@ -5519,7 +5688,8 @@ let nationalDex = {
         japaneseName: "Chonchie",
         family: "Chinchou",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Lanturn",
@@ -5542,7 +5712,8 @@ let nationalDex = {
         japaneseName: "Lantern",
         family: "Chinchou",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Pichu",
@@ -5565,7 +5736,8 @@ let nationalDex = {
         japaneseName: "Pichu",
         family: "Pichu",
         tags: ["Baby", "Cross-Gen"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Cleffa",
@@ -5588,7 +5760,8 @@ let nationalDex = {
         japaneseName: "Py",
         family: "Cleffa",
         tags: ["Baby", "Cross-Gen"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Igglybuff",
@@ -5611,7 +5784,8 @@ let nationalDex = {
         japaneseName: "Pupurin",
         family: "Igglybuff",
         tags: ["Baby", "Cross-Gen"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Togepi",
@@ -5634,7 +5808,8 @@ let nationalDex = {
         japaneseName: "Togepy",
         family: "Togepi",
         tags: ["Baby"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Togetic",
@@ -5657,7 +5832,8 @@ let nationalDex = {
         japaneseName: "Togechick",
         family: "Togepi",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Natu",
@@ -5680,7 +5856,8 @@ let nationalDex = {
         japaneseName: "Naty",
         family: "Natu1",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Xatu",
@@ -5703,7 +5880,8 @@ let nationalDex = {
         japaneseName: "Natio",
         family: "Natu1",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Mareep",
@@ -5726,7 +5904,8 @@ let nationalDex = {
         japaneseName: "Merriep",
         family: "Mareep",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Flaaffy",
@@ -5749,7 +5928,8 @@ let nationalDex = {
         japaneseName: "Mokoko",
         family: "Mareep",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Ampharos",
@@ -5772,7 +5952,8 @@ let nationalDex = {
         japaneseName: "Denryu",
         family: "Mareep",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Bellossom",
@@ -5795,7 +5976,8 @@ let nationalDex = {
         japaneseName: "Kireihana",
         family: "Oddish",
         tags: ["Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Marill",
@@ -5818,7 +6000,8 @@ let nationalDex = {
         japaneseName: "Maril",
         family: "Azurill",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Azumarill",
@@ -5841,7 +6024,8 @@ let nationalDex = {
         japaneseName: "Marilli",
         family: "Azurill",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Sudowoodo",
@@ -5864,7 +6048,8 @@ let nationalDex = {
         japaneseName: "Usokkie",
         family: "Bonsly",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Politoed",
@@ -5887,7 +6072,8 @@ let nationalDex = {
         japaneseName: "Nyorotono",
         family: "Poliwag",
         tags: ["Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Hoppip",
@@ -5910,7 +6096,8 @@ let nationalDex = {
         japaneseName: "Hanecco",
         family: "Hoppip",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Skiploom",
@@ -5933,7 +6120,8 @@ let nationalDex = {
         japaneseName: "Popocco",
         family: "Hoppip",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Jumpluff",
@@ -5956,7 +6144,8 @@ let nationalDex = {
         japaneseName: "Watacco",
         family: "Hoppip",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Aipom",
@@ -5979,7 +6168,8 @@ let nationalDex = {
         japaneseName: "Eipom",
         family: "Aipom",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Sunkern",
@@ -6002,7 +6192,8 @@ let nationalDex = {
         japaneseName: "Himanuts",
         family: "Sunkern",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Sunflora",
@@ -6025,7 +6216,8 @@ let nationalDex = {
         japaneseName: "Kimawari",
         family: "Sunkern",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Yanma",
@@ -6048,7 +6240,8 @@ let nationalDex = {
         japaneseName: "Yanyanma",
         family: "Yanma",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Wooper",
@@ -6071,7 +6264,8 @@ let nationalDex = {
         japaneseName: "Upah",
         family: "Wooper",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Quagsire",
@@ -6094,7 +6288,8 @@ let nationalDex = {
         japaneseName: "Nuoh",
         family: "Wooper",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Espeon",
@@ -6117,7 +6312,8 @@ let nationalDex = {
         japaneseName: "Eifie",
         family: "Eevee",
         tags: ["Cross-Gen"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Umbreon",
@@ -6140,7 +6336,8 @@ let nationalDex = {
         japaneseName: "Blacky",
         family: "Eevee",
         tags: ["Cross-Gen"],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Murkrow",
@@ -6163,7 +6360,8 @@ let nationalDex = {
         japaneseName: "Yamikarasu",
         family: "Murkrow",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Slowking",
@@ -6186,7 +6384,8 @@ let nationalDex = {
         japaneseName: "Yadoking",
         family: "Slowpoke",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Misdreavus",
@@ -6209,7 +6408,8 @@ let nationalDex = {
         japaneseName: "Muma",
         family: "Misdreavus",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Unown",
@@ -6232,7 +6432,8 @@ let nationalDex = {
         japaneseName: "Unknown",
         family: "Unown",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Wobbuffet",
@@ -6255,7 +6456,8 @@ let nationalDex = {
         japaneseName: "Sonans",
         family: "Wynaut",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Girafarig",
@@ -6278,7 +6480,8 @@ let nationalDex = {
         japaneseName: "Kirinriki",
         family: "Girafarig",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Pineco",
@@ -6301,7 +6504,8 @@ let nationalDex = {
         japaneseName: "Kunugidama",
         family: "Pineco",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Forretress",
@@ -6324,7 +6528,8 @@ let nationalDex = {
         japaneseName: "Foretos",
         family: "Pineco",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Dunsparce",
@@ -6347,7 +6552,8 @@ let nationalDex = {
         japaneseName: "Nokocchi",
         family: "Dunsparce",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Gligar",
@@ -6370,7 +6576,8 @@ let nationalDex = {
         japaneseName: "Gliger",
         family: "Gligar",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Steelix",
@@ -6393,7 +6600,8 @@ let nationalDex = {
         japaneseName: "Haganeil",
         family: "Onix",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Snubbull",
@@ -6416,7 +6624,8 @@ let nationalDex = {
         japaneseName: "Bulu",
         family: "Snubbull",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Granbull",
@@ -6439,7 +6648,8 @@ let nationalDex = {
         japaneseName: "Granbulu",
         family: "Snubbull",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Qwilfish",
@@ -6462,7 +6672,8 @@ let nationalDex = {
         japaneseName: "Harysen",
         family: "Qwilfish",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Scizor",
@@ -6485,7 +6696,8 @@ let nationalDex = {
         japaneseName: "Hassam",
         family: "Scyther",
         tags: ["Cross-Gen"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Shuckle",
@@ -6508,7 +6720,8 @@ let nationalDex = {
         japaneseName: "Tsubotsubo",
         family: "Shuckle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Heracross",
@@ -6531,7 +6744,8 @@ let nationalDex = {
         japaneseName: "Heracros",
         family: "Heracross",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Sneasel",
@@ -6554,7 +6768,8 @@ let nationalDex = {
         japaneseName: "Nyula",
         family: "Sneasel",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Teddiursa",
@@ -6577,7 +6792,8 @@ let nationalDex = {
         japaneseName: "Himeguma",
         family: "Teddiursa",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Ursaring",
@@ -6600,7 +6816,8 @@ let nationalDex = {
         japaneseName: "Ringuma",
         family: "Teddiursa",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Slugma",
@@ -6623,7 +6840,8 @@ let nationalDex = {
         japaneseName: "Magmag",
         family: "Slugma",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Magcargo",
@@ -6646,7 +6864,8 @@ let nationalDex = {
         japaneseName: "Magcargot",
         family: "Slugma",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Swinub",
@@ -6669,7 +6888,8 @@ let nationalDex = {
         japaneseName: "Urimoo",
         family: "Swinub",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Piloswine",
@@ -6692,7 +6912,8 @@ let nationalDex = {
         japaneseName: "Inomoo",
         family: "Swinub",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Corsola",
@@ -6715,7 +6936,8 @@ let nationalDex = {
         japaneseName: "Sunnygo",
         family: "Corsola",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Remoraid",
@@ -6738,7 +6960,8 @@ let nationalDex = {
         japaneseName: "Teppouo",
         family: "Remoraid",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Octillery",
@@ -6761,7 +6984,8 @@ let nationalDex = {
         japaneseName: "Okutank",
         family: "Remoraid",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Delibird",
@@ -6784,7 +7008,8 @@ let nationalDex = {
         japaneseName: "Delibird",
         family: "Delibird",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Mantine",
@@ -6807,7 +7032,8 @@ let nationalDex = {
         japaneseName: "Mantain",
         family: "Mantyke",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Skarmory",
@@ -6830,7 +7056,8 @@ let nationalDex = {
         japaneseName: "Airmd",
         family: "Skarmory",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Houndour",
@@ -6853,7 +7080,8 @@ let nationalDex = {
         japaneseName: "Delvil",
         family: "Houndour",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Houndoom",
@@ -6876,7 +7104,8 @@ let nationalDex = {
         japaneseName: "Hellgar",
         family: "Houndour",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Kingdra",
@@ -6899,7 +7128,8 @@ let nationalDex = {
         japaneseName: "Kingdra",
         family: "Horsea",
         tags: ["Cross-Gen"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Phanpy",
@@ -6922,7 +7152,8 @@ let nationalDex = {
         japaneseName: "Gomazou",
         family: "Phanpy",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Donphan",
@@ -6945,7 +7176,8 @@ let nationalDex = {
         japaneseName: "Donfan",
         family: "Phanpy",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Porygon2",
@@ -6968,7 +7200,8 @@ let nationalDex = {
         japaneseName: "Porygon2",
         family: "Porygon",
         tags: ["Cross-Gen"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Stantler",
@@ -6991,7 +7224,8 @@ let nationalDex = {
         japaneseName: "Odoshishi",
         family: "Stantler",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Smeargle",
@@ -7014,7 +7248,8 @@ let nationalDex = {
         japaneseName: "Doble",
         family: "Smeargle",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Tyrogue",
@@ -7037,7 +7272,8 @@ let nationalDex = {
         japaneseName: "Balkie",
         family: "Tyrogue",
         tags: ["Baby", "Cross-Gen"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Hitmontop",
@@ -7060,7 +7296,8 @@ let nationalDex = {
         japaneseName: "Kapoerer",
         family: "Tyrogue",
         tags: ["Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Smoochum",
@@ -7083,7 +7320,8 @@ let nationalDex = {
         japaneseName: "Muchul",
         family: "Smoochum",
         tags: ["Baby"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Elekid",
@@ -7106,7 +7344,8 @@ let nationalDex = {
         japaneseName: "Elekid",
         family: "Elekid",
         tags: ["Baby"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Magby",
@@ -7129,7 +7368,8 @@ let nationalDex = {
         japaneseName: "Buby",
         family: "Magby",
         tags: ["Baby"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Miltank",
@@ -7152,7 +7392,8 @@ let nationalDex = {
         japaneseName: "Miltank",
         family: "Miltank",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Blissey",
@@ -7175,7 +7416,8 @@ let nationalDex = {
         japaneseName: "Happinas",
         family: "Happiny",
         tags: ["Cross-Gen"],
-        color: "Pink"
+        color: "Pink",
+        stage: "Third Stage"
     },
     {
         name: "Raikou",
@@ -7198,7 +7440,8 @@ let nationalDex = {
         japaneseName: "Raikou",
         family: "Raikou",
         tags: ["Legendary"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Entei",
@@ -7221,7 +7464,8 @@ let nationalDex = {
         japaneseName: "Entei",
         family: "Entei",
         tags: ["Legendary"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Suicune",
@@ -7244,7 +7488,8 @@ let nationalDex = {
         japaneseName: "Suicune",
         family: "Suicune",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Larvitar",
@@ -7267,7 +7512,8 @@ let nationalDex = {
         japaneseName: "Yogiras",
         family: "Larvitar",
         tags: ["Pseudo"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Pupitar",
@@ -7290,7 +7536,8 @@ let nationalDex = {
         japaneseName: "Sanagiras",
         family: "Larvitar",
         tags: ["Pseudo"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Tyranitar",
@@ -7313,7 +7560,8 @@ let nationalDex = {
         japaneseName: "Bangiras",
         family: "Larvitar",
         tags: ["Pseudo"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Lugia",
@@ -7336,7 +7584,8 @@ let nationalDex = {
         japaneseName: "Lugia",
         family: "Lugia",
         tags: ["Legendary"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Ho-Oh",
@@ -7359,7 +7608,8 @@ let nationalDex = {
         japaneseName: "Houou",
         family: "HoOh",
         tags: ["Legendary"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Celebi",
@@ -7382,7 +7632,8 @@ let nationalDex = {
         japaneseName: "Celebi",
         family: "Celebi",
         tags: ["Mythical"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Treecko",
@@ -7405,7 +7656,8 @@ let nationalDex = {
         japaneseName: "Kimori",
         family: "Treecko",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Grovyle",
@@ -7428,7 +7680,8 @@ let nationalDex = {
         japaneseName: "Juptile",
         family: "Treecko",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Sceptile",
@@ -7451,7 +7704,8 @@ let nationalDex = {
         japaneseName: "Jukain",
         family: "Treecko",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Torchic",
@@ -7474,7 +7728,8 @@ let nationalDex = {
         japaneseName: "Achamo",
         family: "Torchic",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Combusken",
@@ -7497,7 +7752,8 @@ let nationalDex = {
         japaneseName: "Wakasyamo",
         family: "Torchic",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Blaziken",
@@ -7520,7 +7776,8 @@ let nationalDex = {
         japaneseName: "Bursyamo",
         family: "Torchic",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Mudkip",
@@ -7543,7 +7800,8 @@ let nationalDex = {
         japaneseName: "Mizugorou",
         family: "Mudkip",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Marshtomp",
@@ -7566,7 +7824,8 @@ let nationalDex = {
         japaneseName: "Numacraw",
         family: "Mudkip",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Swampert",
@@ -7589,7 +7848,8 @@ let nationalDex = {
         japaneseName: "Laglarge",
         family: "Mudkip",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Poochyena",
@@ -7612,7 +7872,8 @@ let nationalDex = {
         japaneseName: "Pochiena",
         family: "Poochyena",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Mightyena",
@@ -7635,7 +7896,8 @@ let nationalDex = {
         japaneseName: "Graena",
         family: "Poochyena",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Zigzagoon",
@@ -7658,7 +7920,8 @@ let nationalDex = {
         japaneseName: "Jiguzaguma",
         family: "Zigzagoon",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Linoone",
@@ -7681,7 +7944,8 @@ let nationalDex = {
         japaneseName: "Massuguma",
         family: "Zigzagoon",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Wurmple",
@@ -7704,7 +7968,8 @@ let nationalDex = {
         japaneseName: "Kemusso",
         family: "Wurmple",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Silcoon",
@@ -7727,7 +7992,8 @@ let nationalDex = {
         japaneseName: "Karasalis",
         family: "Wurmple",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Beautifly",
@@ -7750,7 +8016,8 @@ let nationalDex = {
         japaneseName: "Agehunt",
         family: "Wurmple",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Cascoon",
@@ -7773,7 +8040,8 @@ let nationalDex = {
         japaneseName: "Mayuld",
         family: "Wurmple",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Dustox",
@@ -7796,7 +8064,8 @@ let nationalDex = {
         japaneseName: "Dokucale",
         family: "Wurmple",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Lotad",
@@ -7819,7 +8088,8 @@ let nationalDex = {
         japaneseName: "Hassboh",
         family: "Lotad",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Lombre",
@@ -7842,7 +8112,8 @@ let nationalDex = {
         japaneseName: "Hasubrero",
         family: "Lotad",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Ludicolo",
@@ -7865,7 +8136,8 @@ let nationalDex = {
         japaneseName: "Runpappa",
         family: "Lotad",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Seedot",
@@ -7888,7 +8160,8 @@ let nationalDex = {
         japaneseName: "Taneboh",
         family: "Seedot",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Nuzleaf",
@@ -7911,7 +8184,8 @@ let nationalDex = {
         japaneseName: "Konohana",
         family: "Seedot",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Shiftry",
@@ -7934,7 +8208,8 @@ let nationalDex = {
         japaneseName: "Dirteng",
         family: "Seedot",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Taillow",
@@ -7957,7 +8232,8 @@ let nationalDex = {
         japaneseName: "Subame",
         family: "Taillow",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Swellow",
@@ -7980,7 +8256,8 @@ let nationalDex = {
         japaneseName: "Ohsubame",
         family: "Taillow",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Wingull",
@@ -8003,7 +8280,8 @@ let nationalDex = {
         japaneseName: "Camome",
         family: "Wingull",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Pelipper",
@@ -8026,7 +8304,8 @@ let nationalDex = {
         japaneseName: "Pelipper",
         family: "Wingull",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Ralts",
@@ -8049,7 +8328,8 @@ let nationalDex = {
         japaneseName: "Ralts",
         family: "Ralts",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Kirlia",
@@ -8072,7 +8352,8 @@ let nationalDex = {
         japaneseName: "Kirlia",
         family: "Ralts",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Gardevoir",
@@ -8095,7 +8376,8 @@ let nationalDex = {
         japaneseName: "Sirnight",
         family: "Ralts",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Surskit",
@@ -8118,7 +8400,8 @@ let nationalDex = {
         japaneseName: "Ametama",
         family: "Surskit",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Masquerain",
@@ -8141,7 +8424,8 @@ let nationalDex = {
         japaneseName: "Amemoth",
         family: "Surskit",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Shroomish",
@@ -8164,7 +8448,8 @@ let nationalDex = {
         japaneseName: "Kinococo",
         family: "Shroomish",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Breloom",
@@ -8187,7 +8472,8 @@ let nationalDex = {
         japaneseName: "Kinogassa",
         family: "Shroomish",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Slakoth",
@@ -8210,7 +8496,8 @@ let nationalDex = {
         japaneseName: "Namakero",
         family: "Slakoth",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Vigoroth",
@@ -8233,7 +8520,8 @@ let nationalDex = {
         japaneseName: "Yarukimono",
         family: "Slakoth",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Slaking",
@@ -8256,7 +8544,8 @@ let nationalDex = {
         japaneseName: "Kekking",
         family: "Slakoth",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Nincada",
@@ -8279,7 +8568,8 @@ let nationalDex = {
         japaneseName: "Tutinin",
         family: "Nincada",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Ninjask",
@@ -8302,7 +8592,8 @@ let nationalDex = {
         japaneseName: "Tekkanin",
         family: "Nincada",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Shedinja",
@@ -8325,7 +8616,8 @@ let nationalDex = {
         japaneseName: "Nukenin",
         family: "Nincada",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Whismur",
@@ -8348,7 +8640,8 @@ let nationalDex = {
         japaneseName: "Gonyonyo",
         family: "Whismur",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Loudred",
@@ -8371,7 +8664,8 @@ let nationalDex = {
         japaneseName: "Dogohmb",
         family: "Whismur",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Exploud",
@@ -8394,7 +8688,8 @@ let nationalDex = {
         japaneseName: "Bakuong",
         family: "Whismur",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Makuhita",
@@ -8417,7 +8712,8 @@ let nationalDex = {
         japaneseName: "Makunoshita",
         family: "Makuhita",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Hariyama",
@@ -8440,7 +8736,8 @@ let nationalDex = {
         japaneseName: "Hariteyama",
         family: "Makuhita",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Azurill",
@@ -8463,7 +8760,8 @@ let nationalDex = {
         japaneseName: "Ruriri",
         family: "Azurill",
         tags: ["Baby", "Cross-Gen"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Nosepass",
@@ -8486,7 +8784,8 @@ let nationalDex = {
         japaneseName: "Nosepass",
         family: "Nosepass",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Skitty",
@@ -8509,7 +8808,8 @@ let nationalDex = {
         japaneseName: "Eneco",
         family: "Skitty",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Delcatty",
@@ -8532,7 +8832,8 @@ let nationalDex = {
         japaneseName: "Enekororo",
         family: "Skitty",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Sableye",
@@ -8555,7 +8856,8 @@ let nationalDex = {
         japaneseName: "Yamirami",
         family: "Sableye",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Mawile",
@@ -8578,7 +8880,8 @@ let nationalDex = {
         japaneseName: "Kucheat",
         family: "Mawile",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Aron",
@@ -8601,7 +8904,8 @@ let nationalDex = {
         japaneseName: "Cokodora",
         family: "Aron",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Lairon",
@@ -8624,7 +8928,8 @@ let nationalDex = {
         japaneseName: "Kodora",
         family: "Aron",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Aggron",
@@ -8647,7 +8952,8 @@ let nationalDex = {
         japaneseName: "Bossgodora",
         family: "Aron",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Meditite",
@@ -8670,7 +8976,8 @@ let nationalDex = {
         japaneseName: "Asanan",
         family: "Meditite",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Medicham",
@@ -8693,7 +9000,8 @@ let nationalDex = {
         japaneseName: "Charem",
         family: "Meditite",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Electrike",
@@ -8716,7 +9024,8 @@ let nationalDex = {
         japaneseName: "Rakurai",
         family: "Electrike",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Manectric",
@@ -8739,7 +9048,8 @@ let nationalDex = {
         japaneseName: "Livolt",
         family: "Electrike",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Plusle",
@@ -8762,7 +9072,8 @@ let nationalDex = {
         japaneseName: "Prasle",
         family: "Plusle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Minun",
@@ -8785,7 +9096,8 @@ let nationalDex = {
         japaneseName: "Minun",
         family: "Minun",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Volbeat",
@@ -8808,7 +9120,8 @@ let nationalDex = {
         japaneseName: "Barubeat",
         family: "Volbeat",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Illumise",
@@ -8831,7 +9144,8 @@ let nationalDex = {
         japaneseName: "Illumise",
         family: "Illumise",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Roselia",
@@ -8854,7 +9168,8 @@ let nationalDex = {
         japaneseName: "Roselia",
         family: "Budew",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Gulpin",
@@ -8877,7 +9192,8 @@ let nationalDex = {
         japaneseName: "Gokulin",
         family: "Gulpin",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Swalot",
@@ -8900,7 +9216,8 @@ let nationalDex = {
         japaneseName: "Marunoom",
         family: "Gulpin",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Carvanha",
@@ -8923,7 +9240,8 @@ let nationalDex = {
         japaneseName: "Kibanha",
         family: "Carvanha",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Sharpedo",
@@ -8946,7 +9264,8 @@ let nationalDex = {
         japaneseName: "Samehader",
         family: "Carvanha",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Wailmer",
@@ -8969,7 +9288,8 @@ let nationalDex = {
         japaneseName: "Hoeruko",
         family: "Wailmer",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Wailord",
@@ -8992,7 +9312,8 @@ let nationalDex = {
         japaneseName: "Whaloh",
         family: "Wailmer",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Numel",
@@ -9015,7 +9336,8 @@ let nationalDex = {
         japaneseName: "Donmel",
         family: "Numel",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Camerupt",
@@ -9038,7 +9360,8 @@ let nationalDex = {
         japaneseName: "Bakuuda",
         family: "Numel",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Torkoal",
@@ -9061,7 +9384,8 @@ let nationalDex = {
         japaneseName: "Cotoise",
         family: "Torkoal",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Spoink",
@@ -9084,7 +9408,8 @@ let nationalDex = {
         japaneseName: "Baneboo",
         family: "Spoink",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Grumpig",
@@ -9107,7 +9432,8 @@ let nationalDex = {
         japaneseName: "Boopig",
         family: "Spoink",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Spinda",
@@ -9130,7 +9456,8 @@ let nationalDex = {
         japaneseName: "Patcheel",
         family: "Spinda",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Trapinch",
@@ -9153,7 +9480,8 @@ let nationalDex = {
         japaneseName: "Nuckrar",
         family: "Trapinch",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Vibrava",
@@ -9176,7 +9504,8 @@ let nationalDex = {
         japaneseName: "Vibrava",
         family: "Trapinch",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Flygon",
@@ -9199,7 +9528,8 @@ let nationalDex = {
         japaneseName: "Flygon",
         family: "Trapinch",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Cacnea",
@@ -9222,7 +9552,8 @@ let nationalDex = {
         japaneseName: "Sabonea",
         family: "Cacnea",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Cacturne",
@@ -9245,7 +9576,8 @@ let nationalDex = {
         japaneseName: "Noctus",
         family: "Cacnea",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Swablu",
@@ -9268,7 +9600,8 @@ let nationalDex = {
         japaneseName: "Tyltto",
         family: "Swablu",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Altaria",
@@ -9291,7 +9624,8 @@ let nationalDex = {
         japaneseName: "Tyltalis",
         family: "Swablu",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Zangoose",
@@ -9314,7 +9648,8 @@ let nationalDex = {
         japaneseName: "Zangoose",
         family: "Zangoose",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Seviper",
@@ -9337,7 +9672,8 @@ let nationalDex = {
         japaneseName: "Habunake",
         family: "Seviper",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Lunatone",
@@ -9360,7 +9696,8 @@ let nationalDex = {
         japaneseName: "Lunatone",
         family: "Lunatone",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Solrock",
@@ -9383,7 +9720,8 @@ let nationalDex = {
         japaneseName: "Solrock",
         family: "Solrock",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Barboach",
@@ -9406,7 +9744,8 @@ let nationalDex = {
         japaneseName: "Dojoach",
         family: "Barboach",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Whiscash",
@@ -9429,7 +9768,8 @@ let nationalDex = {
         japaneseName: "Namazun",
         family: "Barboach",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Corphish",
@@ -9452,7 +9792,8 @@ let nationalDex = {
         japaneseName: "Heigani",
         family: "Corphish",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Crawdaunt",
@@ -9475,7 +9816,8 @@ let nationalDex = {
         japaneseName: "Shizariger",
         family: "Corphish",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Baltoy",
@@ -9498,7 +9840,8 @@ let nationalDex = {
         japaneseName: "Yajilon",
         family: "Baltoy",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Claydol",
@@ -9521,7 +9864,8 @@ let nationalDex = {
         japaneseName: "Nendoll",
         family: "Baltoy",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Lileep",
@@ -9544,7 +9888,8 @@ let nationalDex = {
         japaneseName: "Lilyla",
         family: "Lileep",
         tags: ["Fossil"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Cradily",
@@ -9567,7 +9912,8 @@ let nationalDex = {
         japaneseName: "Yuradle",
         family: "Lileep",
         tags: ["Fossil"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Anorith",
@@ -9590,7 +9936,8 @@ let nationalDex = {
         japaneseName: "Anopth",
         family: "Anorith",
         tags: ["Fossil"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Armaldo",
@@ -9613,7 +9960,8 @@ let nationalDex = {
         japaneseName: "Armaldo",
         family: "Anorith",
         tags: ["Fossil"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Feebas",
@@ -9636,7 +9984,8 @@ let nationalDex = {
         japaneseName: "Hinbass",
         family: "Feebas",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Milotic",
@@ -9659,7 +10008,8 @@ let nationalDex = {
         japaneseName: "Milokaross",
         family: "Feebas",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Castform",
@@ -9682,7 +10032,8 @@ let nationalDex = {
         japaneseName: "Powalen",
         family: "Castform",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Kecleon",
@@ -9705,7 +10056,8 @@ let nationalDex = {
         japaneseName: "Kakureon",
         family: "Kecleon",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Shuppet",
@@ -9728,7 +10080,8 @@ let nationalDex = {
         japaneseName: "Kagebouzu",
         family: "Shuppet",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Banette",
@@ -9751,7 +10104,8 @@ let nationalDex = {
         japaneseName: "Juppeta",
         family: "Shuppet",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Duskull",
@@ -9774,7 +10128,8 @@ let nationalDex = {
         japaneseName: "Yomawaru",
         family: "Duskull",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Dusclops",
@@ -9797,7 +10152,8 @@ let nationalDex = {
         japaneseName: "Samayouru",
         family: "Duskull",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Tropius",
@@ -9820,7 +10176,8 @@ let nationalDex = {
         japaneseName: "Tropius",
         family: "Tropius",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Chimecho",
@@ -9843,7 +10200,8 @@ let nationalDex = {
         japaneseName: "Chirean",
         family: "Chingling",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Absol",
@@ -9866,7 +10224,8 @@ let nationalDex = {
         japaneseName: "Absol",
         family: "Absol",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Wynaut",
@@ -9889,7 +10248,8 @@ let nationalDex = {
         japaneseName: "Sohnano",
         family: "Wynaut",
         tags: ["Baby", "Cross-Gen"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Snorunt",
@@ -9912,7 +10272,8 @@ let nationalDex = {
         japaneseName: "Yukiwarashi",
         family: "Snorunt",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Glalie",
@@ -9935,7 +10296,8 @@ let nationalDex = {
         japaneseName: "Onigohri",
         family: "Snorunt",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Spheal",
@@ -9958,7 +10320,8 @@ let nationalDex = {
         japaneseName: "Tamazarashi",
         family: "Spheal",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Sealeo",
@@ -9981,7 +10344,8 @@ let nationalDex = {
         japaneseName: "Todoggler",
         family: "Spheal",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Walrein",
@@ -10004,7 +10368,8 @@ let nationalDex = {
         japaneseName: "Todoseruga",
         family: "Spheal",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Clamperl",
@@ -10027,7 +10392,8 @@ let nationalDex = {
         japaneseName: "Pearlulu",
         family: "Clamperl",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Huntail",
@@ -10050,7 +10416,8 @@ let nationalDex = {
         japaneseName: "Huntail",
         family: "Clamperl",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Gorebyss",
@@ -10073,7 +10440,8 @@ let nationalDex = {
         japaneseName: "Sakurabyss",
         family: "Clamperl",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Relicanth",
@@ -10096,7 +10464,8 @@ let nationalDex = {
         japaneseName: "Glanth",
         family: "Relicanth",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Luvdisc",
@@ -10119,7 +10488,8 @@ let nationalDex = {
         japaneseName: "Lovecus",
         family: "Luvdisc",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Bagon",
@@ -10142,7 +10512,8 @@ let nationalDex = {
         japaneseName: "Tatsubay",
         family: "Bagon",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Shelgon",
@@ -10165,7 +10536,8 @@ let nationalDex = {
         japaneseName: "Komoruu",
         family: "Bagon",
         tags: ["Pseudo"],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Salamence",
@@ -10188,7 +10560,8 @@ let nationalDex = {
         japaneseName: "Bohmander",
         family: "Bagon",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Beldum",
@@ -10211,7 +10584,8 @@ let nationalDex = {
         japaneseName: "Dumbber",
         family: "Beldum",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Metang",
@@ -10234,7 +10608,8 @@ let nationalDex = {
         japaneseName: "Metang",
         family: "Beldum",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Metagross",
@@ -10257,7 +10632,8 @@ let nationalDex = {
         japaneseName: "Metagross",
         family: "Beldum",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Regirock",
@@ -10280,7 +10656,8 @@ let nationalDex = {
         japaneseName: "Regirock",
         family: "Regirock",
         tags: ["Legendary"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Regice",
@@ -10303,7 +10680,8 @@ let nationalDex = {
         japaneseName: "Regice",
         family: "Regice",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Registeel",
@@ -10326,7 +10704,8 @@ let nationalDex = {
         japaneseName: "Registeel",
         family: "Registeel",
         tags: ["Legendary"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Latias",
@@ -10349,7 +10728,8 @@ let nationalDex = {
         japaneseName: "Latias",
         family: "Latias",
         tags: ["Legendary"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Latios",
@@ -10372,7 +10752,8 @@ let nationalDex = {
         japaneseName: "Latios",
         family: "Latios",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Kyogre",
@@ -10395,7 +10776,8 @@ let nationalDex = {
         japaneseName: "Kyogre",
         family: "Kyogre",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Groudon",
@@ -10418,7 +10800,8 @@ let nationalDex = {
         japaneseName: "Groudon",
         family: "Groudon",
         tags: ["Legendary"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Rayquaza",
@@ -10441,7 +10824,8 @@ let nationalDex = {
         japaneseName: "Rayquaza",
         family: "Rayquaza",
         tags: ["Legendary"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Jirachi",
@@ -10464,7 +10848,8 @@ let nationalDex = {
         japaneseName: "Jirachi",
         family: "Jirachi",
         tags: ["Mythical"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Deoxys",
@@ -10487,7 +10872,8 @@ let nationalDex = {
         japaneseName: "Deoxys",
         family: "Deoxys",
         tags: ["Mythical"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Turtwig",
@@ -10510,7 +10896,8 @@ let nationalDex = {
         japaneseName: "Naetle",
         family: "Turtwig",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Grotle",
@@ -10533,7 +10920,8 @@ let nationalDex = {
         japaneseName: "Hayashigame",
         family: "Turtwig",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Torterra",
@@ -10556,7 +10944,8 @@ let nationalDex = {
         japaneseName: "Dodaitose",
         family: "Turtwig",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Chimchar",
@@ -10579,7 +10968,8 @@ let nationalDex = {
         japaneseName: "Hikozaru",
         family: "Chimchar",
         tags: ["Starter"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Monferno",
@@ -10602,7 +10992,8 @@ let nationalDex = {
         japaneseName: "Moukazaru",
         family: "Chimchar",
         tags: ["Starter"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Infernape",
@@ -10625,7 +11016,8 @@ let nationalDex = {
         japaneseName: "Goukazaru",
         family: "Chimchar",
         tags: ["Starter"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Piplup",
@@ -10648,7 +11040,8 @@ let nationalDex = {
         japaneseName: "Pochama",
         family: "Piplup",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Prinplup",
@@ -10671,7 +11064,8 @@ let nationalDex = {
         japaneseName: "Pottaishi",
         family: "Piplup",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Empoleon",
@@ -10694,7 +11088,8 @@ let nationalDex = {
         japaneseName: "Emperte",
         family: "Piplup",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Starly",
@@ -10717,7 +11112,8 @@ let nationalDex = {
         japaneseName: "Mukkuru",
         family: "Starly",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Staravia",
@@ -10740,7 +11136,8 @@ let nationalDex = {
         japaneseName: "Mukubird",
         family: "Starly",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Staraptor",
@@ -10763,7 +11160,8 @@ let nationalDex = {
         japaneseName: "Mukuhawk",
         family: "Starly",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Bidoof",
@@ -10786,7 +11184,8 @@ let nationalDex = {
         japaneseName: "Bippa",
         family: "Bidoof",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Bibarel",
@@ -10809,7 +11208,8 @@ let nationalDex = {
         japaneseName: "Beadaru",
         family: "Bidoof",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Kricketot",
@@ -10832,7 +11232,8 @@ let nationalDex = {
         japaneseName: "Korobohshi",
         family: "Kricketot",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Kricketune",
@@ -10855,7 +11256,8 @@ let nationalDex = {
         japaneseName: "Korotock",
         family: "Kricketot",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Shinx",
@@ -10878,7 +11280,8 @@ let nationalDex = {
         japaneseName: "Kolink",
         family: "Shinx",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Luxio",
@@ -10901,7 +11304,8 @@ let nationalDex = {
         japaneseName: "Luxio",
         family: "Shinx",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Luxray",
@@ -10924,7 +11328,8 @@ let nationalDex = {
         japaneseName: "Rentorar",
         family: "Shinx",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Budew",
@@ -10947,7 +11352,8 @@ let nationalDex = {
         japaneseName: "Subomie",
         family: "Budew",
         tags: ["Baby", "Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Roserade",
@@ -10970,7 +11376,8 @@ let nationalDex = {
         japaneseName: "Roserade",
         family: "Budew",
         tags: ["Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Cranidos",
@@ -10993,7 +11400,8 @@ let nationalDex = {
         japaneseName: "Zugaidos",
         family: "Cranidos",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Rampardos",
@@ -11016,7 +11424,8 @@ let nationalDex = {
         japaneseName: "Rampald",
         family: "Cranidos",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Shieldon",
@@ -11039,7 +11448,8 @@ let nationalDex = {
         japaneseName: "Tatetops",
         family: "Shieldon",
         tags: ["Fossil"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Bastiodon",
@@ -11062,7 +11472,8 @@ let nationalDex = {
         japaneseName: "Torideps",
         family: "Shieldon",
         tags: ["Fossil"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Burmy",
@@ -11085,7 +11496,8 @@ let nationalDex = {
         japaneseName: "Minomucchi",
         family: "Burmy",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Wormadam",
@@ -11108,7 +11520,8 @@ let nationalDex = {
         japaneseName: "Minomadam",
         family: "Burmy",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Mothim",
@@ -11131,7 +11544,8 @@ let nationalDex = {
         japaneseName: "Gamale",
         family: "Burmy",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Combee",
@@ -11154,7 +11568,8 @@ let nationalDex = {
         japaneseName: "Mitsuhoney",
         family: "Combee",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Vespiquen",
@@ -11177,7 +11592,8 @@ let nationalDex = {
         japaneseName: "Beequen",
         family: "Combee",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Pachirisu",
@@ -11200,7 +11616,8 @@ let nationalDex = {
         japaneseName: "Pachirisu",
         family: "Pachirisu",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Buizel",
@@ -11223,7 +11640,8 @@ let nationalDex = {
         japaneseName: "Buoysel",
         family: "Buizel",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Floatzel",
@@ -11246,7 +11664,8 @@ let nationalDex = {
         japaneseName: "Floazel",
         family: "Buizel",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Cherubi",
@@ -11269,7 +11688,8 @@ let nationalDex = {
         japaneseName: "Cherinbo",
         family: "Cherubi",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Cherrim",
@@ -11292,7 +11712,8 @@ let nationalDex = {
         japaneseName: "Cherrim",
         family: "Cherubi",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Shellos",
@@ -11315,7 +11736,8 @@ let nationalDex = {
         japaneseName: "Karanakushi",
         family: "Shellos",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Gastrodon",
@@ -11338,7 +11760,8 @@ let nationalDex = {
         japaneseName: "Tritodon",
         family: "Shellos",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Ambipom",
@@ -11361,7 +11784,8 @@ let nationalDex = {
         japaneseName: "Eteboth",
         family: "Aipom",
         tags: ["Cross-Gen"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Drifloon",
@@ -11384,7 +11808,8 @@ let nationalDex = {
         japaneseName: "Fuwante",
         family: "Drifloon",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Drifblim",
@@ -11407,7 +11832,8 @@ let nationalDex = {
         japaneseName: "Fuwaride",
         family: "Drifloon",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Buneary",
@@ -11430,7 +11856,8 @@ let nationalDex = {
         japaneseName: "Mimirol",
         family: "Buneary",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Lopunny",
@@ -11453,7 +11880,8 @@ let nationalDex = {
         japaneseName: "Mimilop",
         family: "Buneary",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Mismagius",
@@ -11476,7 +11904,8 @@ let nationalDex = {
         japaneseName: "Mumargi",
         family: "Misdreavus",
         tags: ["Cross-Gen"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Honchkrow",
@@ -11499,7 +11928,8 @@ let nationalDex = {
         japaneseName: "Dongkarasu",
         family: "Murkrow",
         tags: ["Cross-Gen"],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Glameow",
@@ -11522,7 +11952,8 @@ let nationalDex = {
         japaneseName: "Nyarmar",
         family: "Glameow",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Purugly",
@@ -11545,7 +11976,8 @@ let nationalDex = {
         japaneseName: "Bunyatto",
         family: "Glameow",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Chingling",
@@ -11568,7 +12000,8 @@ let nationalDex = {
         japaneseName: "Lisyan",
         family: "Chingling",
         tags: ["Baby", "Cross-Gen"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Stunky",
@@ -11591,7 +12024,8 @@ let nationalDex = {
         japaneseName: "Skunpuu",
         family: "Stunky",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Skuntank",
@@ -11614,7 +12048,8 @@ let nationalDex = {
         japaneseName: "Skutank",
         family: "Stunky",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Bronzor",
@@ -11637,7 +12072,8 @@ let nationalDex = {
         japaneseName: "Dohmirror",
         family: "Bronzor",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Bronzong",
@@ -11660,7 +12096,8 @@ let nationalDex = {
         japaneseName: "Dohtakun",
         family: "Bronzor",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Bonsly",
@@ -11683,7 +12120,8 @@ let nationalDex = {
         japaneseName: "Usohachi",
         family: "Bonsly",
         tags: ["Baby", "Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Mime Jr.",
@@ -11706,7 +12144,8 @@ let nationalDex = {
         japaneseName: "Manene",
         family: "MimeJr",
         tags: ["Baby", "Cross-Gen"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Happiny",
@@ -11729,7 +12168,8 @@ let nationalDex = {
         japaneseName: "Pinpuku",
         family: "Happiny",
         tags: ["Baby", "Cross-Gen"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Chatot",
@@ -11752,7 +12192,8 @@ let nationalDex = {
         japaneseName: "Perap",
         family: "Chatot",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Spiritomb",
@@ -11775,7 +12216,8 @@ let nationalDex = {
         japaneseName: "Mikaruge",
         family: "Spiritomb",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Gible",
@@ -11798,7 +12240,8 @@ let nationalDex = {
         japaneseName: "Fukamaru",
         family: "Gible",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Gabite",
@@ -11821,7 +12264,8 @@ let nationalDex = {
         japaneseName: "Gabite",
         family: "Gible",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Garchomp",
@@ -11844,7 +12288,8 @@ let nationalDex = {
         japaneseName: "Gaburias",
         family: "Gible",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Munchlax",
@@ -11867,7 +12312,8 @@ let nationalDex = {
         japaneseName: "Gonbe",
         family: "Munchlax",
         tags: ["Baby", "Cross-Gen"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Riolu",
@@ -11890,7 +12336,8 @@ let nationalDex = {
         japaneseName: "Riolu",
         family: "Riolu",
         tags: ["Baby"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Lucario",
@@ -11913,7 +12360,8 @@ let nationalDex = {
         japaneseName: "Lucario",
         family: "Riolu",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Hippopotas",
@@ -11936,7 +12384,8 @@ let nationalDex = {
         japaneseName: "Hippopotas",
         family: "Hippopotas",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Hippowdon",
@@ -11959,7 +12408,8 @@ let nationalDex = {
         japaneseName: "Kabaldon",
         family: "Hippopotas",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Skorupi",
@@ -11982,7 +12432,8 @@ let nationalDex = {
         japaneseName: "Scorupi",
         family: "Skorupi",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Drapion",
@@ -12005,7 +12456,8 @@ let nationalDex = {
         japaneseName: "Dorapion",
         family: "Skorupi",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Croagunk",
@@ -12028,7 +12480,8 @@ let nationalDex = {
         japaneseName: "Gureggru",
         family: "Croagunk",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Toxicroak",
@@ -12051,7 +12504,8 @@ let nationalDex = {
         japaneseName: "Dokurog",
         family: "Croagunk",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Carnivine",
@@ -12074,7 +12528,8 @@ let nationalDex = {
         japaneseName: "Muskippa",
         family: "Carnivine",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Finneon",
@@ -12097,7 +12552,8 @@ let nationalDex = {
         japaneseName: "Keikouo",
         family: "Finneon",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Lumineon",
@@ -12120,7 +12576,8 @@ let nationalDex = {
         japaneseName: "Neolant",
         family: "Finneon",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Mantyke",
@@ -12143,7 +12600,8 @@ let nationalDex = {
         japaneseName: "Tamanta",
         family: "Mantyke",
         tags: ["Baby", "Cross-Gen"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Snover",
@@ -12166,7 +12624,8 @@ let nationalDex = {
         japaneseName: "Yukikaburi",
         family: "Snover",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Abomasnow",
@@ -12189,7 +12648,8 @@ let nationalDex = {
         japaneseName: "Yukinooh",
         family: "Snover",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Weavile",
@@ -12212,7 +12672,8 @@ let nationalDex = {
         japaneseName: "Manyula",
         family: "Sneasel",
         tags: ["Cross-Gen"],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Magnezone",
@@ -12235,7 +12696,8 @@ let nationalDex = {
         japaneseName: "Jibacoil",
         family: "Magnemite",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Lickilicky",
@@ -12258,7 +12720,8 @@ let nationalDex = {
         japaneseName: "Berobelt",
         family: "Lickitung",
         tags: ["Cross-Gen"],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Rhyperior",
@@ -12281,7 +12744,8 @@ let nationalDex = {
         japaneseName: "Dosidon",
         family: "Rhyhorn",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Tangrowth",
@@ -12304,7 +12768,8 @@ let nationalDex = {
         japaneseName: "Mojumbo",
         family: "Tangela",
         tags: ["Cross-Gen"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Electivire",
@@ -12327,7 +12792,8 @@ let nationalDex = {
         japaneseName: "Elekible",
         family: "Elekid",
         tags: ["Cross-Gen"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Magmortar",
@@ -12350,7 +12816,8 @@ let nationalDex = {
         japaneseName: "Booburn",
         family: "Magby",
         tags: ["Cross-Gen"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Togekiss",
@@ -12373,7 +12840,8 @@ let nationalDex = {
         japaneseName: "Togekiss",
         family: "Togepi",
         tags: ["Cross-Gen"],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Yanmega",
@@ -12396,7 +12864,8 @@ let nationalDex = {
         japaneseName: "Megayanma",
         family: "Yanma",
         tags: ["Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Leafeon",
@@ -12419,7 +12888,8 @@ let nationalDex = {
         japaneseName: "Leafia",
         family: "Eevee",
         tags: ["Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Glaceon",
@@ -12442,7 +12912,8 @@ let nationalDex = {
         japaneseName: "Glacia",
         family: "Eevee",
         tags: ["Cross-Gen"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Gliscor",
@@ -12465,7 +12936,8 @@ let nationalDex = {
         japaneseName: "Glion",
         family: "Gligar",
         tags: ["Cross-Gen"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Mamoswine",
@@ -12488,7 +12960,8 @@ let nationalDex = {
         japaneseName: "Mammoo",
         family: "Swinub",
         tags: ["Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Porygon-Z",
@@ -12511,7 +12984,8 @@ let nationalDex = {
         japaneseName: "Porygon-Z",
         family: "Porygon",
         tags: ["Cross-Gen"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Gallade",
@@ -12534,7 +13008,8 @@ let nationalDex = {
         japaneseName: "Erureido",
         family: "Ralts",
         tags: ["Cross-Gen"],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Probopass",
@@ -12557,7 +13032,8 @@ let nationalDex = {
         japaneseName: "Dainose",
         family: "Nosepass",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Dusknoir",
@@ -12580,7 +13056,8 @@ let nationalDex = {
         japaneseName: "Yonoir",
         family: "Duskull",
         tags: ["Cross-Gen"],
-        color: "Black"
+        color: "Black",
+        stage: "Third Stage"
     },
     {
         name: "Froslass",
@@ -12603,7 +13080,8 @@ let nationalDex = {
         japaneseName: "Yukimenoko",
         family: "Snorunt",
         tags: ["Cross-Gen"],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Rotom",
@@ -12626,7 +13104,8 @@ let nationalDex = {
         japaneseName: "Rotom",
         family: "Rotom",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Uxie",
@@ -12649,7 +13128,8 @@ let nationalDex = {
         japaneseName: "Yuxie",
         family: "Uxie",
         tags: ["Legendary"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Mesprit",
@@ -12672,7 +13152,8 @@ let nationalDex = {
         japaneseName: "Emrit",
         family: "Mesprit",
         tags: ["Legendary"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Azelf",
@@ -12695,7 +13176,8 @@ let nationalDex = {
         japaneseName: "Agnome",
         family: "Azelf",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Dialga",
@@ -12718,7 +13200,8 @@ let nationalDex = {
         japaneseName: "Dialga",
         family: "Dialga",
         tags: ["Legendary"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Palkia",
@@ -12741,7 +13224,8 @@ let nationalDex = {
         japaneseName: "Palkia",
         family: "Palkia",
         tags: ["Legendary"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Heatran",
@@ -12764,7 +13248,8 @@ let nationalDex = {
         japaneseName: "Heatran",
         family: "Heatran",
         tags: ["Legendary"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Regigigas",
@@ -12787,7 +13272,8 @@ let nationalDex = {
         japaneseName: "Regigigas",
         family: "Regigigas",
         tags: ["Legendary"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Giratina",
@@ -12810,7 +13296,8 @@ let nationalDex = {
         japaneseName: "Giratina",
         family: "Giratina",
         tags: ["Legendary"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Cresselia",
@@ -12833,7 +13320,8 @@ let nationalDex = {
         japaneseName: "Cresselia",
         family: "Cresselia",
         tags: ["Legendary"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Phione",
@@ -12856,7 +13344,8 @@ let nationalDex = {
         japaneseName: "Phione",
         family: "Phione",
         tags: ["Mythical"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Manaphy",
@@ -12879,7 +13368,8 @@ let nationalDex = {
         japaneseName: "Manaphy",
         family: "Manaphy",
         tags: ["Mythical"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Darkrai",
@@ -12902,7 +13392,8 @@ let nationalDex = {
         japaneseName: "Darkrai",
         family: "Darkrai",
         tags: ["Mythical"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Shaymin",
@@ -12925,7 +13416,8 @@ let nationalDex = {
         japaneseName: "Shaymin",
         family: "Shaymin",
         tags: ["Mythical"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Arceus",
@@ -12948,7 +13440,8 @@ let nationalDex = {
         japaneseName: "Arceus",
         family: "Arceus",
         tags: ["Mythical"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Victini",
@@ -12971,7 +13464,8 @@ let nationalDex = {
         japaneseName: "Victini",
         family: "Victini",
         tags: ["Mythical"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Snivy",
@@ -12994,7 +13488,8 @@ let nationalDex = {
         japaneseName: "Tsutarja",
         family: "Snivy",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Servine",
@@ -13017,7 +13512,8 @@ let nationalDex = {
         japaneseName: "Janovy",
         family: "Snivy",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Serperior",
@@ -13040,7 +13536,8 @@ let nationalDex = {
         japaneseName: "Jalorda",
         family: "Snivy",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Tepig",
@@ -13063,7 +13560,8 @@ let nationalDex = {
         japaneseName: "Pokabu",
         family: "Tepig",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Pignite",
@@ -13086,7 +13584,8 @@ let nationalDex = {
         japaneseName: "Chaoboo",
         family: "Tepig",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Emboar",
@@ -13109,7 +13608,8 @@ let nationalDex = {
         japaneseName: "Enbuoh",
         family: "Tepig",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Oshawott",
@@ -13132,7 +13632,8 @@ let nationalDex = {
         japaneseName: "Mijumaru",
         family: "Oshawott",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Dewott",
@@ -13155,7 +13656,8 @@ let nationalDex = {
         japaneseName: "Futachimaru",
         family: "Oshawott",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Samurott",
@@ -13178,7 +13680,8 @@ let nationalDex = {
         japaneseName: "Daikenki",
         family: "Oshawott",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Patrat",
@@ -13201,7 +13704,8 @@ let nationalDex = {
         japaneseName: "Minezumi",
         family: "Patrat",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Watchog",
@@ -13224,7 +13728,8 @@ let nationalDex = {
         japaneseName: "Miruhog",
         family: "Patrat",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Lillipup",
@@ -13247,7 +13752,8 @@ let nationalDex = {
         japaneseName: "Yorterrie",
         family: "Lillipup",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Herdier",
@@ -13270,7 +13776,8 @@ let nationalDex = {
         japaneseName: "Herderrie",
         family: "Lillipup",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Stoutland",
@@ -13293,7 +13800,8 @@ let nationalDex = {
         japaneseName: "Mooland",
         family: "Lillipup",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Purrloin",
@@ -13316,7 +13824,8 @@ let nationalDex = {
         japaneseName: "Choroneko",
         family: "Purrloin",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Liepard",
@@ -13339,7 +13848,8 @@ let nationalDex = {
         japaneseName: "Lepardas",
         family: "Purrloin",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Pansage",
@@ -13362,7 +13872,8 @@ let nationalDex = {
         japaneseName: "Yanappu",
         family: "Pansage",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Simisage",
@@ -13385,7 +13896,8 @@ let nationalDex = {
         japaneseName: "Yanakkie",
         family: "Pansage",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Pansear",
@@ -13408,7 +13920,8 @@ let nationalDex = {
         japaneseName: "Baoppu",
         family: "Pansear",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Simisear",
@@ -13431,7 +13944,8 @@ let nationalDex = {
         japaneseName: "Baokkie",
         family: "Pansear",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Panpour",
@@ -13454,7 +13968,8 @@ let nationalDex = {
         japaneseName: "Hiyappu",
         family: "Panpour",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Simipour",
@@ -13477,7 +13992,8 @@ let nationalDex = {
         japaneseName: "Hiyakkie",
         family: "Panpour",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Munna",
@@ -13500,7 +14016,8 @@ let nationalDex = {
         japaneseName: "Munna",
         family: "Munna",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Musharna",
@@ -13523,7 +14040,8 @@ let nationalDex = {
         japaneseName: "Musharna",
         family: "Munna",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Pidove",
@@ -13546,7 +14064,8 @@ let nationalDex = {
         japaneseName: "Mamepato",
         family: "Pidove",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Tranquill",
@@ -13569,7 +14088,8 @@ let nationalDex = {
         japaneseName: "Hatoboh",
         family: "Pidove",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Unfezant",
@@ -13592,7 +14112,8 @@ let nationalDex = {
         japaneseName: "Kenhallow",
         family: "Pidove",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Blitzle",
@@ -13615,7 +14136,8 @@ let nationalDex = {
         japaneseName: "Shimama",
         family: "Blitzle",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Zebstrika",
@@ -13638,7 +14160,8 @@ let nationalDex = {
         japaneseName: "Zebraika",
         family: "Blitzle",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Roggenrola",
@@ -13661,7 +14184,8 @@ let nationalDex = {
         japaneseName: "Dangoro",
         family: "Roggenrola",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Boldore",
@@ -13684,7 +14208,8 @@ let nationalDex = {
         japaneseName: "Gantle",
         family: "Roggenrola",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Gigalith",
@@ -13707,7 +14232,8 @@ let nationalDex = {
         japaneseName: "Gigaiath",
         family: "Roggenrola",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Woobat",
@@ -13730,7 +14256,8 @@ let nationalDex = {
         japaneseName: "Koromori",
         family: "Woobat",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Swoobat",
@@ -13753,7 +14280,8 @@ let nationalDex = {
         japaneseName: "Kokoromori",
         family: "Woobat",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Drilbur",
@@ -13776,7 +14304,8 @@ let nationalDex = {
         japaneseName: "Mogurew",
         family: "Drilbur",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Excadrill",
@@ -13799,7 +14328,8 @@ let nationalDex = {
         japaneseName: "Doryuzu",
         family: "Drilbur",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Audino",
@@ -13822,7 +14352,8 @@ let nationalDex = {
         japaneseName: "Tabunne",
         family: "Audino",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Timburr",
@@ -13845,7 +14376,8 @@ let nationalDex = {
         japaneseName: "Dokkorer",
         family: "Timburr",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Gurdurr",
@@ -13868,7 +14400,8 @@ let nationalDex = {
         japaneseName: "Dotekkotsu",
         family: "Timburr",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Conkeldurr",
@@ -13891,7 +14424,8 @@ let nationalDex = {
         japaneseName: "Roubushin",
         family: "Timburr",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Tympole",
@@ -13914,7 +14448,8 @@ let nationalDex = {
         japaneseName: "Otamaro",
         family: "Tympole",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Palpitoad",
@@ -13937,7 +14472,8 @@ let nationalDex = {
         japaneseName: "Gamagaru",
         family: "Tympole",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Seismitoad",
@@ -13960,7 +14496,8 @@ let nationalDex = {
         japaneseName: "Gamageroge",
         family: "Tympole",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Throh",
@@ -13983,7 +14520,8 @@ let nationalDex = {
         japaneseName: "Nageki",
         family: "Throh",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Sawk",
@@ -14006,7 +14544,8 @@ let nationalDex = {
         japaneseName: "Dageki",
         family: "Sawk",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Sewaddle",
@@ -14029,7 +14568,8 @@ let nationalDex = {
         japaneseName: "Kurumiru",
         family: "Sewaddle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Swadloon",
@@ -14052,7 +14592,8 @@ let nationalDex = {
         japaneseName: "Kurumayu",
         family: "Sewaddle",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Leavanny",
@@ -14075,7 +14616,8 @@ let nationalDex = {
         japaneseName: "Hahakomori",
         family: "Sewaddle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Venipede",
@@ -14098,7 +14640,8 @@ let nationalDex = {
         japaneseName: "Fushide",
         family: "Venipede",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Whirlipede",
@@ -14121,7 +14664,8 @@ let nationalDex = {
         japaneseName: "Wheega",
         family: "Venipede",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Scolipede",
@@ -14144,7 +14688,8 @@ let nationalDex = {
         japaneseName: "Pendror",
         family: "Venipede",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Cottonee",
@@ -14167,7 +14712,8 @@ let nationalDex = {
         japaneseName: "Monmen",
         family: "Cottonee",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Whimsicott",
@@ -14190,7 +14736,8 @@ let nationalDex = {
         japaneseName: "Elfuun",
         family: "Cottonee",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Petilil",
@@ -14213,7 +14760,8 @@ let nationalDex = {
         japaneseName: "Churine",
         family: "Petilil",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Lilligant",
@@ -14236,7 +14784,8 @@ let nationalDex = {
         japaneseName: "Dredear",
         family: "Petilil",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Basculin",
@@ -14259,7 +14808,8 @@ let nationalDex = {
         japaneseName: "Bassrao",
         family: "Basculin",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Sandile",
@@ -14282,7 +14832,8 @@ let nationalDex = {
         japaneseName: "Meguroco",
         family: "Sandile",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Krokorok",
@@ -14305,7 +14856,8 @@ let nationalDex = {
         japaneseName: "Waruvile",
         family: "Sandile",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Krookodile",
@@ -14328,7 +14880,8 @@ let nationalDex = {
         japaneseName: "Waruvial",
         family: "Sandile",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Darumaka",
@@ -14351,7 +14904,8 @@ let nationalDex = {
         japaneseName: "Darumakka",
         family: "Darumaka",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Darmanitan",
@@ -14374,7 +14928,8 @@ let nationalDex = {
         japaneseName: "Hihidaruma",
         family: "Darumaka",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Maractus",
@@ -14397,7 +14952,8 @@ let nationalDex = {
         japaneseName: "Maracacchi",
         family: "Maractus",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Dwebble",
@@ -14420,7 +14976,8 @@ let nationalDex = {
         japaneseName: "Ishizumai",
         family: "Dwebble",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Crustle",
@@ -14443,7 +15000,8 @@ let nationalDex = {
         japaneseName: "Iwapalace",
         family: "Dwebble",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Scraggy",
@@ -14466,7 +15024,8 @@ let nationalDex = {
         japaneseName: "Zuruggu",
         family: "Scraggy",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Scrafty",
@@ -14489,7 +15048,8 @@ let nationalDex = {
         japaneseName: "Zuruzukin",
         family: "Scraggy",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Sigilyph",
@@ -14512,7 +15072,8 @@ let nationalDex = {
         japaneseName: "Symboler",
         family: "Sigilyph",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Yamask",
@@ -14535,7 +15096,8 @@ let nationalDex = {
         japaneseName: "Desumasu",
         family: "Yamask",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Cofagrigus",
@@ -14558,7 +15120,8 @@ let nationalDex = {
         japaneseName: "Desukarn",
         family: "Yamask",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Tirtouga",
@@ -14581,7 +15144,8 @@ let nationalDex = {
         japaneseName: "Protoga",
         family: "Tirtouga",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Carracosta",
@@ -14604,7 +15168,8 @@ let nationalDex = {
         japaneseName: "Abagoura",
         family: "Tirtouga",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Archen",
@@ -14627,7 +15192,8 @@ let nationalDex = {
         japaneseName: "Archen",
         family: "Archen",
         tags: ["Fossil"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Archeops",
@@ -14650,7 +15216,8 @@ let nationalDex = {
         japaneseName: "Archeos",
         family: "Archen",
         tags: ["Fossil"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Trubbish",
@@ -14673,7 +15240,8 @@ let nationalDex = {
         japaneseName: "Yabukuron",
         family: "Trubbish",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Garbodor",
@@ -14696,7 +15264,8 @@ let nationalDex = {
         japaneseName: "Dustdas",
         family: "Trubbish",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Zorua",
@@ -14719,7 +15288,8 @@ let nationalDex = {
         japaneseName: "Zorua",
         family: "Zorua",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Zoroark",
@@ -14742,7 +15312,8 @@ let nationalDex = {
         japaneseName: "Zoroark",
         family: "Zorua",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Minccino",
@@ -14765,7 +15336,8 @@ let nationalDex = {
         japaneseName: "Chillarmy",
         family: "Minccino",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Cinccino",
@@ -14788,7 +15360,8 @@ let nationalDex = {
         japaneseName: "Chillaccino",
         family: "Minccino",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Gothita",
@@ -14811,7 +15384,8 @@ let nationalDex = {
         japaneseName: "Gothimu",
         family: "Gothita",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Gothorita",
@@ -14834,7 +15408,8 @@ let nationalDex = {
         japaneseName: "Gothimiru",
         family: "Gothita",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Gothitelle",
@@ -14857,7 +15432,8 @@ let nationalDex = {
         japaneseName: "Gothiruselle",
         family: "Gothita",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Solosis",
@@ -14880,7 +15456,8 @@ let nationalDex = {
         japaneseName: "Uniran",
         family: "Solosis",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Duosion",
@@ -14903,7 +15480,8 @@ let nationalDex = {
         japaneseName: "Doublan",
         family: "Solosis",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Reuniclus",
@@ -14926,7 +15504,8 @@ let nationalDex = {
         japaneseName: "Lanculus",
         family: "Solosis",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Ducklett",
@@ -14949,7 +15528,8 @@ let nationalDex = {
         japaneseName: "Koaruhie",
         family: "Ducklett",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Swanna",
@@ -14972,7 +15552,8 @@ let nationalDex = {
         japaneseName: "Swanna",
         family: "Ducklett",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Vanillite",
@@ -14995,7 +15576,8 @@ let nationalDex = {
         japaneseName: "Vanipeti",
         family: "Vanillite",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Vanillish",
@@ -15018,7 +15600,8 @@ let nationalDex = {
         japaneseName: "Vanirich",
         family: "Vanillite",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Vanilluxe",
@@ -15041,7 +15624,8 @@ let nationalDex = {
         japaneseName: "Baivanilla",
         family: "Vanillite",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Deerling",
@@ -15064,7 +15648,8 @@ let nationalDex = {
         japaneseName: "Shikijika",
         family: "Deerling",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Sawsbuck",
@@ -15087,7 +15672,8 @@ let nationalDex = {
         japaneseName: "Mebukijika",
         family: "Deerling",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Emolga",
@@ -15110,7 +15696,8 @@ let nationalDex = {
         japaneseName: "Emonga",
         family: "Emolga",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Karrablast",
@@ -15133,7 +15720,8 @@ let nationalDex = {
         japaneseName: "Kaburumo",
         family: "Karrablast",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Escavalier",
@@ -15156,7 +15744,8 @@ let nationalDex = {
         japaneseName: "Chevargo",
         family: "Karrablast",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Foongus",
@@ -15179,7 +15768,8 @@ let nationalDex = {
         japaneseName: "Tamagetake",
         family: "Foongus",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Amoonguss",
@@ -15202,7 +15792,8 @@ let nationalDex = {
         japaneseName: "Morobareru",
         family: "Foongus",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Frillish",
@@ -15225,7 +15816,8 @@ let nationalDex = {
         japaneseName: "Pururill",
         family: "Frillish",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Jellicent",
@@ -15248,7 +15840,8 @@ let nationalDex = {
         japaneseName: "Burungel",
         family: "Frillish",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Alomomola",
@@ -15271,7 +15864,8 @@ let nationalDex = {
         japaneseName: "Mamanbou",
         family: "Alomomola",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Joltik",
@@ -15294,7 +15888,8 @@ let nationalDex = {
         japaneseName: "Bachuru",
         family: "Joltik",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Galvantula",
@@ -15317,7 +15912,8 @@ let nationalDex = {
         japaneseName: "Dentula",
         family: "Joltik",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Ferroseed",
@@ -15340,7 +15936,8 @@ let nationalDex = {
         japaneseName: "Tesseed",
         family: "Ferroseed",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Ferrothorn",
@@ -15363,7 +15960,8 @@ let nationalDex = {
         japaneseName: "Nutrey",
         family: "Ferroseed",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Klink",
@@ -15386,7 +15984,8 @@ let nationalDex = {
         japaneseName: "Giaru",
         family: "Klink",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Klang",
@@ -15409,7 +16008,8 @@ let nationalDex = {
         japaneseName: "Gigiaru",
         family: "Klink",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Klinklang",
@@ -15432,7 +16032,8 @@ let nationalDex = {
         japaneseName: "Gigigiaru",
         family: "Klink",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Tynamo",
@@ -15455,7 +16056,8 @@ let nationalDex = {
         japaneseName: "Shibishirasu",
         family: "Tynamo",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Eelektrik",
@@ -15478,7 +16080,8 @@ let nationalDex = {
         japaneseName: "Shibibeel",
         family: "Tynamo",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Eelektross",
@@ -15501,7 +16104,8 @@ let nationalDex = {
         japaneseName: "Shibirudon",
         family: "Tynamo",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Elgyem",
@@ -15524,7 +16128,8 @@ let nationalDex = {
         japaneseName: "Ligray",
         family: "Elgyem",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Beheeyem",
@@ -15547,7 +16152,8 @@ let nationalDex = {
         japaneseName: "Ohbem",
         family: "Elgyem",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Litwick",
@@ -15570,7 +16176,8 @@ let nationalDex = {
         japaneseName: "Hitomoshi",
         family: "Litwick",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Lampent",
@@ -15593,7 +16200,8 @@ let nationalDex = {
         japaneseName: "Lampler",
         family: "Litwick",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Chandelure",
@@ -15616,7 +16224,8 @@ let nationalDex = {
         japaneseName: "Chandela",
         family: "Litwick",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Third Stage"
     },
     {
         name: "Axew",
@@ -15639,7 +16248,8 @@ let nationalDex = {
         japaneseName: "Kibago",
         family: "Axew",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Fraxure",
@@ -15662,7 +16272,8 @@ let nationalDex = {
         japaneseName: "Onondo",
         family: "Axew",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Haxorus",
@@ -15685,7 +16296,8 @@ let nationalDex = {
         japaneseName: "Ononokus",
         family: "Axew",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Cubchoo",
@@ -15708,7 +16320,8 @@ let nationalDex = {
         japaneseName: "Kumasyun",
         family: "Cubchoo",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Beartic",
@@ -15731,7 +16344,8 @@ let nationalDex = {
         japaneseName: "Tunbear",
         family: "Cubchoo",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Cryogonal",
@@ -15754,7 +16368,8 @@ let nationalDex = {
         japaneseName: "Freegeo",
         family: "Cryogonal",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Shelmet",
@@ -15777,7 +16392,8 @@ let nationalDex = {
         japaneseName: "Chobomaki",
         family: "Shelmet",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Accelgor",
@@ -15800,7 +16416,8 @@ let nationalDex = {
         japaneseName: "Agilder",
         family: "Shelmet",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Stunfisk",
@@ -15823,7 +16440,8 @@ let nationalDex = {
         japaneseName: "Maggyo",
         family: "Stunfisk",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Mienfoo",
@@ -15846,7 +16464,8 @@ let nationalDex = {
         japaneseName: "Kojofu",
         family: "Mienfoo",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Mienshao",
@@ -15869,7 +16488,8 @@ let nationalDex = {
         japaneseName: "Kojondo",
         family: "Mienfoo",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Druddigon",
@@ -15892,7 +16512,8 @@ let nationalDex = {
         japaneseName: "Crimgan",
         family: "Druddigon",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Golett",
@@ -15915,7 +16536,8 @@ let nationalDex = {
         japaneseName: "Gobit",
         family: "Golett",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Golurk",
@@ -15938,7 +16560,8 @@ let nationalDex = {
         japaneseName: "Goloog",
         family: "Golett",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Pawniard",
@@ -15961,7 +16584,8 @@ let nationalDex = {
         japaneseName: "Komatana",
         family: "Pawniard",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Bisharp",
@@ -15984,7 +16608,8 @@ let nationalDex = {
         japaneseName: "Kirikizan",
         family: "Pawniard",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Bouffalant",
@@ -16007,7 +16632,8 @@ let nationalDex = {
         japaneseName: "Buffron",
         family: "Bouffalant",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Rufflet",
@@ -16030,7 +16656,8 @@ let nationalDex = {
         japaneseName: "Washibon",
         family: "Rufflet",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Braviary",
@@ -16053,7 +16680,8 @@ let nationalDex = {
         japaneseName: "Warrgle",
         family: "Rufflet",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Vullaby",
@@ -16076,7 +16704,8 @@ let nationalDex = {
         japaneseName: "Valchai",
         family: "Vullaby",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Mandibuzz",
@@ -16099,7 +16728,8 @@ let nationalDex = {
         japaneseName: "Vulgina",
         family: "Vullaby",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Heatmor",
@@ -16122,7 +16752,8 @@ let nationalDex = {
         japaneseName: "Kuitaran",
         family: "Heatmor",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Durant",
@@ -16145,7 +16776,8 @@ let nationalDex = {
         japaneseName: "Aiant",
         family: "Durant",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Deino",
@@ -16168,7 +16800,8 @@ let nationalDex = {
         japaneseName: "Monozu",
         family: "Deino",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Zweilous",
@@ -16191,7 +16824,8 @@ let nationalDex = {
         japaneseName: "Dihead",
         family: "Deino",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Hydreigon",
@@ -16214,7 +16848,8 @@ let nationalDex = {
         japaneseName: "Sazandora",
         family: "Deino",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Larvesta",
@@ -16237,7 +16872,8 @@ let nationalDex = {
         japaneseName: "Merlarva",
         family: "Larvesta",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Volcarona",
@@ -16260,7 +16896,8 @@ let nationalDex = {
         japaneseName: "Ulgamoth",
         family: "Larvesta",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Cobalion",
@@ -16283,7 +16920,8 @@ let nationalDex = {
         japaneseName: "Cobalon",
         family: "Cobalion",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Terrakion",
@@ -16306,7 +16944,8 @@ let nationalDex = {
         japaneseName: "Terrakion",
         family: "Terrakion",
         tags: ["Legendary"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Virizion",
@@ -16329,7 +16968,8 @@ let nationalDex = {
         japaneseName: "Virizion",
         family: "Virizion",
         tags: ["Legendary"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Tornadus",
@@ -16352,7 +16992,8 @@ let nationalDex = {
         japaneseName: "Tornelos",
         family: "Tornadus",
         tags: ["Legendary"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Thundurus",
@@ -16375,7 +17016,8 @@ let nationalDex = {
         japaneseName: "Voltolos",
         family: "Thundurus",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Reshiram",
@@ -16398,7 +17040,8 @@ let nationalDex = {
         japaneseName: "Reshiram",
         family: "Reshiram",
         tags: ["Legendary"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Zekrom",
@@ -16421,7 +17064,8 @@ let nationalDex = {
         japaneseName: "Zekrom",
         family: "Zekrom",
         tags: ["Legendary"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Landorus",
@@ -16444,7 +17088,8 @@ let nationalDex = {
         japaneseName: "Landlos",
         family: "Landorus",
         tags: ["Legendary"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Kyurem",
@@ -16467,7 +17112,8 @@ let nationalDex = {
         japaneseName: "Kyurem",
         family: "Kyurem",
         tags: ["Legendary"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Keldeo",
@@ -16490,7 +17136,8 @@ let nationalDex = {
         japaneseName: "Keldeo",
         family: "Keldeo",
         tags: ["Mythical"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Meloetta",
@@ -16513,7 +17160,8 @@ let nationalDex = {
         japaneseName: "Meloetta",
         family: "Meloetta",
         tags: ["Mythical"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Genesect",
@@ -16536,7 +17184,8 @@ let nationalDex = {
         japaneseName: "Genesect",
         family: "Genesect",
         tags: ["Mythical"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Chespin",
@@ -16559,7 +17208,8 @@ let nationalDex = {
         japaneseName: "Harimaron",
         family: "Chespin",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Quilladin",
@@ -16582,7 +17232,8 @@ let nationalDex = {
         japaneseName: "Hariborg",
         family: "Chespin",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Chesnaught",
@@ -16605,7 +17256,8 @@ let nationalDex = {
         japaneseName: "Brigarron",
         family: "Chespin",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Fennekin",
@@ -16628,7 +17280,8 @@ let nationalDex = {
         japaneseName: "Fokko",
         family: "Fennekin",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Braixen",
@@ -16651,7 +17304,8 @@ let nationalDex = {
         japaneseName: "Tairenar",
         family: "Fennekin",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Delphox",
@@ -16674,7 +17328,8 @@ let nationalDex = {
         japaneseName: "Mahoxy",
         family: "Fennekin",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Froakie",
@@ -16697,7 +17352,8 @@ let nationalDex = {
         japaneseName: "Keromatsu",
         family: "Froakie",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Frogadier",
@@ -16720,7 +17376,8 @@ let nationalDex = {
         japaneseName: "Gekogashira",
         family: "Froakie",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Greninja",
@@ -16743,7 +17400,8 @@ let nationalDex = {
         japaneseName: "Gekkouga",
         family: "Froakie",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Bunnelby",
@@ -16766,7 +17424,8 @@ let nationalDex = {
         japaneseName: "Horubee",
         family: "Bunnelby",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Diggersby",
@@ -16789,7 +17448,8 @@ let nationalDex = {
         japaneseName: "Horudo",
         family: "Bunnelby",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Fletchling",
@@ -16812,7 +17472,8 @@ let nationalDex = {
         japaneseName: "Yayakoma",
         family: "Fletchling",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Fletchinder",
@@ -16835,7 +17496,8 @@ let nationalDex = {
         japaneseName: "Hinoyakoma",
         family: "Fletchling",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Talonflame",
@@ -16858,7 +17520,8 @@ let nationalDex = {
         japaneseName: "Fiarrow",
         family: "Fletchling",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Scatterbug",
@@ -16881,7 +17544,8 @@ let nationalDex = {
         japaneseName: "Kofukimushi",
         family: "Scatterbug",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Spewpa",
@@ -16904,7 +17568,8 @@ let nationalDex = {
         japaneseName: "Kofuurai",
         family: "Scatterbug",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Vivillon",
@@ -16927,7 +17592,8 @@ let nationalDex = {
         japaneseName: "Viviyon",
         family: "Scatterbug",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Third Stage"
     },
     {
         name: "Litleo",
@@ -16950,7 +17616,8 @@ let nationalDex = {
         japaneseName: "Shishiko",
         family: "Litleo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Pyroar",
@@ -16973,7 +17640,8 @@ let nationalDex = {
         japaneseName: "Kaenjishi",
         family: "Litleo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Flabébé",
@@ -16996,7 +17664,8 @@ let nationalDex = {
         japaneseName: "Flabebe",
         family: "Flabebe",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Floette",
@@ -17019,7 +17688,8 @@ let nationalDex = {
         japaneseName: "Floette",
         family: "Flabebe",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Florges",
@@ -17042,7 +17712,8 @@ let nationalDex = {
         japaneseName: "Florges",
         family: "Flabebe",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Skiddo",
@@ -17065,7 +17736,8 @@ let nationalDex = {
         japaneseName: "Meecle",
         family: "Skiddo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Gogoat",
@@ -17088,7 +17760,8 @@ let nationalDex = {
         japaneseName: "Gogoat",
         family: "Skiddo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Pancham",
@@ -17111,7 +17784,8 @@ let nationalDex = {
         japaneseName: "Yancham",
         family: "Pancham",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Pangoro",
@@ -17134,7 +17808,8 @@ let nationalDex = {
         japaneseName: "Goronda",
         family: "Pancham",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Furfrou",
@@ -17157,7 +17832,8 @@ let nationalDex = {
         japaneseName: "Trimmien",
         family: "Furfrou",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Espurr",
@@ -17180,7 +17856,8 @@ let nationalDex = {
         japaneseName: "Nyasper",
         family: "Espurr",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Meowstic",
@@ -17203,7 +17880,8 @@ let nationalDex = {
         japaneseName: "Nyaonix",
         family: "Espurr",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Honedge",
@@ -17226,7 +17904,8 @@ let nationalDex = {
         japaneseName: "Hitotsuki",
         family: "Honedge",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Doublade",
@@ -17249,7 +17928,8 @@ let nationalDex = {
         japaneseName: "Nidangill",
         family: "Honedge",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Aegislash",
@@ -17272,7 +17952,8 @@ let nationalDex = {
         japaneseName: "Gillgard",
         family: "Honedge",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Spritzee",
@@ -17295,7 +17976,8 @@ let nationalDex = {
         japaneseName: "Shushupu",
         family: "Spritzee",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Aromatisse",
@@ -17318,7 +18000,8 @@ let nationalDex = {
         japaneseName: "Frefuwan",
         family: "Spritzee",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Swirlix",
@@ -17341,7 +18024,8 @@ let nationalDex = {
         japaneseName: "Peroppafu",
         family: "Swirlix",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Slurpuff",
@@ -17364,7 +18048,8 @@ let nationalDex = {
         japaneseName: "Peroream",
         family: "Swirlix",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Inkay",
@@ -17387,7 +18072,8 @@ let nationalDex = {
         japaneseName: "Maaiika",
         family: "Inkay",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Malamar",
@@ -17410,7 +18096,8 @@ let nationalDex = {
         japaneseName: "Calamanero",
         family: "Inkay",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Binacle",
@@ -17433,7 +18120,8 @@ let nationalDex = {
         japaneseName: "Kamatete",
         family: "Binacle",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Barbaracle",
@@ -17456,7 +18144,8 @@ let nationalDex = {
         japaneseName: "Gamenodes",
         family: "Binacle",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Skrelp",
@@ -17479,7 +18168,8 @@ let nationalDex = {
         japaneseName: "Kuzumo",
         family: "Skrelp",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Dragalge",
@@ -17502,7 +18192,8 @@ let nationalDex = {
         japaneseName: "Dramidoro",
         family: "Skrelp",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Clauncher",
@@ -17525,7 +18216,8 @@ let nationalDex = {
         japaneseName: "Udeppou",
         family: "Clauncher",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Clawitzer",
@@ -17548,7 +18240,8 @@ let nationalDex = {
         japaneseName: "Bloster",
         family: "Clauncher",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Helioptile",
@@ -17571,7 +18264,8 @@ let nationalDex = {
         japaneseName: "Erikiteru",
         family: "Helioptile",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Heliolisk",
@@ -17594,7 +18288,8 @@ let nationalDex = {
         japaneseName: "Elezard",
         family: "Helioptile",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Tyrunt",
@@ -17617,7 +18312,8 @@ let nationalDex = {
         japaneseName: "Chigoras",
         family: "Tyrunt",
         tags: ["Fossil"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Tyrantrum",
@@ -17640,7 +18336,8 @@ let nationalDex = {
         japaneseName: "Gachigoras",
         family: "Tyrunt",
         tags: ["Fossil"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Amaura",
@@ -17663,7 +18360,8 @@ let nationalDex = {
         japaneseName: "Amarus",
         family: "Amaura",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Aurorus",
@@ -17686,7 +18384,8 @@ let nationalDex = {
         japaneseName: "Amaruruga",
         family: "Amaura",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Sylveon",
@@ -17709,7 +18408,8 @@ let nationalDex = {
         japaneseName: "Nymphia",
         family: "Eevee",
         tags: ["Cross-Gen"],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Hawlucha",
@@ -17732,7 +18432,8 @@ let nationalDex = {
         japaneseName: "Luchabull",
         family: "Hawlucha",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Dedenne",
@@ -17755,7 +18456,8 @@ let nationalDex = {
         japaneseName: "Dedenne",
         family: "Dedenne",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Carbink",
@@ -17778,7 +18480,8 @@ let nationalDex = {
         japaneseName: "Melecie",
         family: "Carbink",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Goomy",
@@ -17801,7 +18504,8 @@ let nationalDex = {
         japaneseName: "Numera",
         family: "Goomy",
         tags: ["Pseudo"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Sliggoo",
@@ -17824,7 +18528,8 @@ let nationalDex = {
         japaneseName: "Numeil",
         family: "Goomy",
         tags: ["Pseudo"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Goodra",
@@ -17847,7 +18552,8 @@ let nationalDex = {
         japaneseName: "Numelgon",
         family: "Goomy",
         tags: ["Pseudo"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Klefki",
@@ -17870,7 +18576,8 @@ let nationalDex = {
         japaneseName: "Cleffy",
         family: "Klefki",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Phantump",
@@ -17893,7 +18600,8 @@ let nationalDex = {
         japaneseName: "Bokurei",
         family: "Phantump",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Trevenant",
@@ -17916,7 +18624,8 @@ let nationalDex = {
         japaneseName: "Ohrot",
         family: "Phantump",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Pumpkaboo",
@@ -17939,7 +18648,8 @@ let nationalDex = {
         japaneseName: "Bakeccha",
         family: "Pumpkaboo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Gourgeist",
@@ -17962,7 +18672,8 @@ let nationalDex = {
         japaneseName: "Pumpjin",
         family: "Pumpkaboo",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Bergmite",
@@ -17985,7 +18696,8 @@ let nationalDex = {
         japaneseName: "Kachikohru",
         family: "Bergmite",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Avalugg",
@@ -18008,7 +18720,8 @@ let nationalDex = {
         japaneseName: "Crebase",
         family: "Bergmite",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Noibat",
@@ -18031,7 +18744,8 @@ let nationalDex = {
         japaneseName: "Onbat",
         family: "Noibat",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Noivern",
@@ -18054,7 +18768,8 @@ let nationalDex = {
         japaneseName: "Onvern",
         family: "Noibat",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Xerneas",
@@ -18077,7 +18792,8 @@ let nationalDex = {
         japaneseName: "Xerneas",
         family: "Xerneas",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Yveltal",
@@ -18100,7 +18816,8 @@ let nationalDex = {
         japaneseName: "Yveltal",
         family: "Yveltal",
         tags: ["Legendary"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Zygarde",
@@ -18123,7 +18840,8 @@ let nationalDex = {
         japaneseName: "Zygarde",
         family: "Zygarde",
         tags: ["Legendary"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Diancie",
@@ -18146,7 +18864,8 @@ let nationalDex = {
         japaneseName: "Diancie",
         family: "Diancie",
         tags: ["Mythical"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Hoopa",
@@ -18169,7 +18888,8 @@ let nationalDex = {
         japaneseName: "Hoopa",
         family: "Hoopa",
         tags: ["Mythical"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Volcanion",
@@ -18192,7 +18912,8 @@ let nationalDex = {
         japaneseName: "Volcanion",
         family: "Volcanion",
         tags: ["Mythical"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Rowlet",
@@ -18215,7 +18936,8 @@ let nationalDex = {
         japaneseName: "Mokuroh",
         family: "Rowlet",
         tags: ["Starter"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Dartrix",
@@ -18238,7 +18960,8 @@ let nationalDex = {
         japaneseName: "Fukuthrow",
         family: "Rowlet",
         tags: ["Starter"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Decidueye",
@@ -18261,7 +18984,8 @@ let nationalDex = {
         japaneseName: "Junaiper",
         family: "Rowlet",
         tags: ["Starter"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Litten",
@@ -18284,7 +19008,8 @@ let nationalDex = {
         japaneseName: "Nyabby",
         family: "Litten",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Torracat",
@@ -18307,7 +19032,8 @@ let nationalDex = {
         japaneseName: "Nyaheat",
         family: "Litten",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Incineroar",
@@ -18330,7 +19056,8 @@ let nationalDex = {
         japaneseName: "Gaogaen",
         family: "Litten",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Popplio",
@@ -18353,7 +19080,8 @@ let nationalDex = {
         japaneseName: "Ashimari",
         family: "Popplio",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Brionne",
@@ -18376,7 +19104,8 @@ let nationalDex = {
         japaneseName: "Osyamari",
         family: "Popplio",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Primarina",
@@ -18399,7 +19128,8 @@ let nationalDex = {
         japaneseName: "Ashirene",
         family: "Popplio",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Pikipek",
@@ -18422,7 +19152,8 @@ let nationalDex = {
         japaneseName: "Tsutsukera",
         family: "Pikipek",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Trumbeak",
@@ -18445,7 +19176,8 @@ let nationalDex = {
         japaneseName: "Kerarappa",
         family: "Pikipek",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Toucannon",
@@ -18468,7 +19200,8 @@ let nationalDex = {
         japaneseName: "Dodekabashi",
         family: "Pikipek",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Third Stage"
     },
     {
         name: "Yungoos",
@@ -18491,7 +19224,8 @@ let nationalDex = {
         japaneseName: "Youngoose",
         family: "Yungoos",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Gumshoos",
@@ -18514,7 +19248,8 @@ let nationalDex = {
         japaneseName: "Dekagoose",
         family: "Yungoos",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Grubbin",
@@ -18537,7 +19272,8 @@ let nationalDex = {
         japaneseName: "Agojimushi",
         family: "Grubbin",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Charjabug",
@@ -18560,7 +19296,8 @@ let nationalDex = {
         japaneseName: "Dendimushi",
         family: "Grubbin",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Vikavolt",
@@ -18583,7 +19320,8 @@ let nationalDex = {
         japaneseName: "Kuwagannon",
         family: "Grubbin",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Crabrawler",
@@ -18606,7 +19344,8 @@ let nationalDex = {
         japaneseName: "Makenkani",
         family: "Crabrawler",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Crabominable",
@@ -18629,7 +19368,8 @@ let nationalDex = {
         japaneseName: "Kekenkani",
         family: "Crabrawler",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Oricorio",
@@ -18652,7 +19392,8 @@ let nationalDex = {
         japaneseName: "Odoridori",
         family: "Oricorio",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Cutiefly",
@@ -18675,7 +19416,8 @@ let nationalDex = {
         japaneseName: "Abuly",
         family: "Cutiefly",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Ribombee",
@@ -18698,7 +19440,8 @@ let nationalDex = {
         japaneseName: "Aburibbon",
         family: "Cutiefly",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Rockruff",
@@ -18721,7 +19464,8 @@ let nationalDex = {
         japaneseName: "Iwanko",
         family: "Rockruff",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Lycanroc",
@@ -18744,7 +19488,8 @@ let nationalDex = {
         japaneseName: "Lugarugan",
         family: "Rockruff",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Wishiwashi",
@@ -18767,7 +19512,8 @@ let nationalDex = {
         japaneseName: "Yowashi",
         family: "Wishiwashi",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Mareanie",
@@ -18790,7 +19536,8 @@ let nationalDex = {
         japaneseName: "Hidoide",
         family: "Mareanie",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Toxapex",
@@ -18813,7 +19560,8 @@ let nationalDex = {
         japaneseName: "Dohidoide",
         family: "Mareanie",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Mudbray",
@@ -18836,7 +19584,8 @@ let nationalDex = {
         japaneseName: "Dorobanko",
         family: "Mudbray",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Mudsdale",
@@ -18859,7 +19608,8 @@ let nationalDex = {
         japaneseName: "Banbadoro",
         family: "Mudbray",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Dewpider",
@@ -18882,7 +19632,8 @@ let nationalDex = {
         japaneseName: "Shizukumo",
         family: "Dewpider",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Araquanid",
@@ -18905,7 +19656,8 @@ let nationalDex = {
         japaneseName: "Onishizukumo",
         family: "Dewpider",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Fomantis",
@@ -18928,7 +19680,8 @@ let nationalDex = {
         japaneseName: "Karikiri",
         family: "Fomantis",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Lurantis",
@@ -18951,7 +19704,8 @@ let nationalDex = {
         japaneseName: "Lalantes",
         family: "Fomantis",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Morelull",
@@ -18974,7 +19728,8 @@ let nationalDex = {
         japaneseName: "Nemasyu",
         family: "Morelull",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Shiinotic",
@@ -18997,7 +19752,8 @@ let nationalDex = {
         japaneseName: "Mashade",
         family: "Morelull",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Salandit",
@@ -19020,7 +19776,8 @@ let nationalDex = {
         japaneseName: "Yatoumori",
         family: "Salandit",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Salazzle",
@@ -19043,7 +19800,8 @@ let nationalDex = {
         japaneseName: "Ennewt",
         family: "Salandit",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Stufful",
@@ -19066,7 +19824,8 @@ let nationalDex = {
         japaneseName: "Nuikoguma",
         family: "Stufful",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Bewear",
@@ -19089,7 +19848,8 @@ let nationalDex = {
         japaneseName: "Kiteruguma",
         family: "Stufful",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Bounsweet",
@@ -19112,7 +19872,8 @@ let nationalDex = {
         japaneseName: "Amakaji",
         family: "Bounsweet",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Steenee",
@@ -19135,7 +19896,8 @@ let nationalDex = {
         japaneseName: "Amamaiko",
         family: "Bounsweet",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Tsareena",
@@ -19158,7 +19920,8 @@ let nationalDex = {
         japaneseName: "Amajo",
         family: "Bounsweet",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Comfey",
@@ -19181,7 +19944,8 @@ let nationalDex = {
         japaneseName: "Cuwawa",
         family: "Comfey",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Oranguru",
@@ -19204,7 +19968,8 @@ let nationalDex = {
         japaneseName: "Yareyuutan",
         family: "Oranguru",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Passimian",
@@ -19227,7 +19992,8 @@ let nationalDex = {
         japaneseName: "Nagetukesaru",
         family: "Passimian",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Wimpod",
@@ -19250,7 +20016,8 @@ let nationalDex = {
         japaneseName: "Kosokumushi",
         family: "Wimpod",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Golisopod",
@@ -19273,7 +20040,8 @@ let nationalDex = {
         japaneseName: "Gusokumusha",
         family: "Wimpod",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Sandygast",
@@ -19296,7 +20064,8 @@ let nationalDex = {
         japaneseName: "Sunaba",
         family: "Sandygast",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Palossand",
@@ -19319,7 +20088,8 @@ let nationalDex = {
         japaneseName: "Sirodethna",
         family: "Sandygast",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Pyukumuku",
@@ -19342,7 +20112,8 @@ let nationalDex = {
         japaneseName: "Namakobushi",
         family: "Pyukumuku",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Type: Null",
@@ -19365,7 +20136,8 @@ let nationalDex = {
         japaneseName: "Type: Null",
         family: "TypeNull",
         tags: ["Legendary"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Silvally",
@@ -19388,7 +20160,8 @@ let nationalDex = {
         japaneseName: "Silvady",
         family: "TypeNull",
         tags: ["Legendary"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Minior",
@@ -19411,7 +20184,8 @@ let nationalDex = {
         japaneseName: "Meteno",
         family: "Minior",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Komala",
@@ -19434,7 +20208,8 @@ let nationalDex = {
         japaneseName: "Nekkoara",
         family: "Komala",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Turtonator",
@@ -19457,7 +20232,8 @@ let nationalDex = {
         japaneseName: "Bakugames",
         family: "Turtonator",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Togedemaru",
@@ -19480,7 +20256,8 @@ let nationalDex = {
         japaneseName: "Togedemaru",
         family: "Togedemaru",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Mimikyu",
@@ -19503,7 +20280,8 @@ let nationalDex = {
         japaneseName: "Mimikkyu",
         family: "Mimikyu",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Bruxish",
@@ -19526,7 +20304,8 @@ let nationalDex = {
         japaneseName: "Hagigishiri",
         family: "Bruxish",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Drampa",
@@ -19549,7 +20328,8 @@ let nationalDex = {
         japaneseName: "Jijilong",
         family: "Drampa",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Dhelmise",
@@ -19572,7 +20352,8 @@ let nationalDex = {
         japaneseName: "Dadarin",
         family: "Dhelmise",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Jangmo-o",
@@ -19595,7 +20376,8 @@ let nationalDex = {
         japaneseName: "Jyarako",
         family: "Jangmoo",
         tags: ["Pseudo"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Hakamo-o",
@@ -19618,7 +20400,8 @@ let nationalDex = {
         japaneseName: "Jyarango",
         family: "Jangmoo",
         tags: ["Pseudo"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Kommo-o",
@@ -19641,7 +20424,8 @@ let nationalDex = {
         japaneseName: "Jyararanga",
         family: "Jangmoo",
         tags: ["Pseudo"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Tapu Koko",
@@ -19664,7 +20448,8 @@ let nationalDex = {
         japaneseName: "Kapu-Kokeko",
         family: "TapuKoko",
         tags: ["Legendary"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Tapu Lele",
@@ -19687,7 +20472,8 @@ let nationalDex = {
         japaneseName: "Kapu-Tetefu",
         family: "TapuLele",
         tags: ["Legendary"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Tapu Bulu",
@@ -19710,7 +20496,8 @@ let nationalDex = {
         japaneseName: "Kapu-Bulul",
         family: "TapuBulu",
         tags: ["Legendary"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Tapu Fini",
@@ -19733,7 +20520,8 @@ let nationalDex = {
         japaneseName: "Kapu-Rehire",
         family: "TapuFini",
         tags: ["Legendary"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Cosmog",
@@ -19756,7 +20544,8 @@ let nationalDex = {
         japaneseName: "Cosmog",
         family: "Cosmog",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Cosmoem",
@@ -19779,7 +20568,8 @@ let nationalDex = {
         japaneseName: "Cosmovum",
         family: "Cosmog",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Solgaleo",
@@ -19802,7 +20592,8 @@ let nationalDex = {
         japaneseName: "Solgaleo",
         family: "Cosmog",
         tags: ["Legendary"],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Lunala",
@@ -19825,7 +20616,8 @@ let nationalDex = {
         japaneseName: "Lunala",
         family: "Cosmog",
         tags: ["Legendary"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Nihilego",
@@ -19848,7 +20640,8 @@ let nationalDex = {
         japaneseName: "Uturoid",
         family: "Nihilego",
         tags: ["Ultra Beast"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Buzzwole",
@@ -19871,7 +20664,8 @@ let nationalDex = {
         japaneseName: "Massivoon",
         family: "Buzzwole",
         tags: ["Ultra Beast"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Pheromosa",
@@ -19894,7 +20688,8 @@ let nationalDex = {
         japaneseName: "Pheroache",
         family: "Pheromosa",
         tags: ["Ultra Beast"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Xurkitree",
@@ -19917,7 +20712,8 @@ let nationalDex = {
         japaneseName: "Denjyumoku",
         family: "Xurkitree",
         tags: ["Ultra Beast"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Celesteela",
@@ -19940,7 +20736,8 @@ let nationalDex = {
         japaneseName: "Tekkaguya",
         family: "Celesteela",
         tags: ["Ultra Beast"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Kartana",
@@ -19963,7 +20760,8 @@ let nationalDex = {
         japaneseName: "Kamiturugi",
         family: "Kartana",
         tags: ["Ultra Beast"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Guzzlord",
@@ -19986,7 +20784,8 @@ let nationalDex = {
         japaneseName: "Akuziking",
         family: "Guzzlord",
         tags: ["Ultra Beast"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Necrozma",
@@ -20009,7 +20808,8 @@ let nationalDex = {
         japaneseName: "Necrozma",
         family: "Necrozma",
         tags: ["Legendary"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Magearna",
@@ -20032,7 +20832,8 @@ let nationalDex = {
         japaneseName: "Magearna",
         family: "Magearna",
         tags: ["Mythical"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Marshadow",
@@ -20055,7 +20856,8 @@ let nationalDex = {
         japaneseName: "Marshadow",
         family: "Marshadow",
         tags: ["Mythical"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Poipole",
@@ -20078,7 +20880,8 @@ let nationalDex = {
         japaneseName: "Bevenom",
         family: "Poipole",
         tags: ["Ultra Beast"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Naganadel",
@@ -20101,7 +20904,8 @@ let nationalDex = {
         japaneseName: "Agoyon",
         family: "Poipole",
         tags: ["Ultra Beast"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Stakataka",
@@ -20124,7 +20928,8 @@ let nationalDex = {
         japaneseName: "Tundetunde",
         family: "Stakataka",
         tags: ["Ultra Beast"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Blacephalon",
@@ -20147,7 +20952,8 @@ let nationalDex = {
         japaneseName: "Zugadoon",
         family: "Blacephalon",
         tags: ["Ultra Beast"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Zeraora",
@@ -20170,7 +20976,8 @@ let nationalDex = {
         japaneseName: "Zeraora",
         family: "Zeraora",
         tags: ["Mythical"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Meltan",
@@ -20193,7 +21000,8 @@ let nationalDex = {
         japaneseName: "Meltan",
         family: "Meltan",
         tags: ["Mythical"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Melmetal",
@@ -20216,7 +21024,8 @@ let nationalDex = {
         japaneseName: "Melmetal",
         family: "Meltan",
         tags: ["Mythical"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Grookey",
@@ -20239,7 +21048,8 @@ let nationalDex = {
         japaneseName: "Sarunori",
         family: "Grookey",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Thwackey",
@@ -20262,7 +21072,8 @@ let nationalDex = {
         japaneseName: "Bachinkey",
         family: "Grookey",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Rillaboom",
@@ -20285,7 +21096,8 @@ let nationalDex = {
         japaneseName: "Gorirander",
         family: "Grookey",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Scorbunny",
@@ -20308,7 +21120,8 @@ let nationalDex = {
         japaneseName: "Hibanny",
         family: "Scorbunny",
         tags: ["Starter"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Raboot",
@@ -20331,7 +21144,8 @@ let nationalDex = {
         japaneseName: "Rabbifuto",
         family: "Scorbunny",
         tags: ["Starter"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Cinderace",
@@ -20354,7 +21168,8 @@ let nationalDex = {
         japaneseName: "Aceburn",
         family: "Scorbunny",
         tags: ["Starter"],
-        color: "White"
+        color: "White",
+        stage: "Third Stage"
     },
     {
         name: "Sobble",
@@ -20377,7 +21192,8 @@ let nationalDex = {
         japaneseName: "Messon",
         family: "Sobble",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Drizzile",
@@ -20400,7 +21216,8 @@ let nationalDex = {
         japaneseName: "Jimereon",
         family: "Sobble",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Inteleon",
@@ -20423,7 +21240,8 @@ let nationalDex = {
         japaneseName: "Intereon",
         family: "Sobble",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Skwovet",
@@ -20446,7 +21264,8 @@ let nationalDex = {
         japaneseName: "Hoshigarisu",
         family: "Skwovet",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Greedent",
@@ -20469,7 +21288,8 @@ let nationalDex = {
         japaneseName: "Yokubarisu",
         family: "Skwovet",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Rookidee",
@@ -20492,7 +21312,8 @@ let nationalDex = {
         japaneseName: "Kokogara",
         family: "Rookidee",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Corvisquire",
@@ -20515,7 +21336,8 @@ let nationalDex = {
         japaneseName: "Aogarasu",
         family: "Rookidee",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Corviknight",
@@ -20538,7 +21360,8 @@ let nationalDex = {
         japaneseName: "Armorga",
         family: "Rookidee",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Blipbug",
@@ -20561,7 +21384,8 @@ let nationalDex = {
         japaneseName: "Sacchimushi",
         family: "Blipbug",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Dottler",
@@ -20584,7 +21408,8 @@ let nationalDex = {
         japaneseName: "Redomushi",
         family: "Blipbug",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Orbeetle",
@@ -20607,7 +21432,8 @@ let nationalDex = {
         japaneseName: "Eolb",
         family: "Blipbug",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Nickit",
@@ -20630,7 +21456,8 @@ let nationalDex = {
         japaneseName: "Kusune",
         family: "Nickit",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Thievul",
@@ -20653,7 +21480,8 @@ let nationalDex = {
         japaneseName: "Foxly",
         family: "Nickit",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Gossifleur",
@@ -20676,7 +21504,8 @@ let nationalDex = {
         japaneseName: "Himenka",
         family: "Gossifleur",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Eldegoss",
@@ -20699,7 +21528,8 @@ let nationalDex = {
         japaneseName: "Watashiraga",
         family: "Gossifleur",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Wooloo",
@@ -20722,7 +21552,8 @@ let nationalDex = {
         japaneseName: "Wooluu",
         family: "Wooloo",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Dubwool",
@@ -20745,7 +21576,8 @@ let nationalDex = {
         japaneseName: "Baiwooluu",
         family: "Wooloo",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Chewtle",
@@ -20768,7 +21600,8 @@ let nationalDex = {
         japaneseName: "Kamukame",
         family: "Chewtle",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Drednaw",
@@ -20791,7 +21624,8 @@ let nationalDex = {
         japaneseName: "Kajirigame",
         family: "Chewtle",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Yamper",
@@ -20814,7 +21648,8 @@ let nationalDex = {
         japaneseName: "Wanpachi",
         family: "Yamper",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Boltund",
@@ -20837,7 +21672,8 @@ let nationalDex = {
         japaneseName: "Pulsewan",
         family: "Yamper",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Rolycoly",
@@ -20860,7 +21696,8 @@ let nationalDex = {
         japaneseName: "Tandon",
         family: "Rolycoly",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Carkol",
@@ -20883,7 +21720,8 @@ let nationalDex = {
         japaneseName: "Toroggon",
         family: "Rolycoly",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Coalossal",
@@ -20906,7 +21744,8 @@ let nationalDex = {
         japaneseName: "Sekitanzan",
         family: "Rolycoly",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "Third Stage"
     },
     {
         name: "Applin",
@@ -20929,7 +21768,8 @@ let nationalDex = {
         japaneseName: "Kajicchu",
         family: "Applin",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Flapple",
@@ -20952,7 +21792,8 @@ let nationalDex = {
         japaneseName: "Appryu",
         family: "Applin",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Appletun",
@@ -20975,7 +21816,8 @@ let nationalDex = {
         japaneseName: "Tarupple",
         family: "Applin",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Silicobra",
@@ -20998,7 +21840,8 @@ let nationalDex = {
         japaneseName: "Sunahebi",
         family: "Silicobra",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Sandaconda",
@@ -21021,7 +21864,8 @@ let nationalDex = {
         japaneseName: "Sadaija",
         family: "Silicobra",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Cramorant",
@@ -21044,7 +21888,8 @@ let nationalDex = {
         japaneseName: "Uu",
         family: "Cramorant",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Arrokuda",
@@ -21067,7 +21912,8 @@ let nationalDex = {
         japaneseName: "Sasikamasu",
         family: "Arrokuda",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Barraskewda",
@@ -21090,7 +21936,8 @@ let nationalDex = {
         japaneseName: "Kamasujaw",
         family: "Arrokuda",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Toxel",
@@ -21113,7 +21960,8 @@ let nationalDex = {
         japaneseName: "Eleson",
         family: "Toxel",
         tags: ["Baby"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Toxtricity",
@@ -21136,7 +21984,8 @@ let nationalDex = {
         japaneseName: "Strinder",
         family: "Toxel",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Sizzlipede",
@@ -21159,7 +22008,8 @@ let nationalDex = {
         japaneseName: "Yakude",
         family: "Sizzlipede",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Centiskorch",
@@ -21182,7 +22032,8 @@ let nationalDex = {
         japaneseName: "Maruyakude",
         family: "Sizzlipede",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Clobbopus",
@@ -21205,7 +22056,8 @@ let nationalDex = {
         japaneseName: "Tatakko",
         family: "Clobbopus",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Grapploct",
@@ -21228,7 +22080,8 @@ let nationalDex = {
         japaneseName: "Otosupus",
         family: "Clobbopus",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Sinistea",
@@ -21251,7 +22104,8 @@ let nationalDex = {
         japaneseName: "Yabacha",
         family: "Sinistea",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Polteageist",
@@ -21274,7 +22128,8 @@ let nationalDex = {
         japaneseName: "Potdeath",
         family: "Sinistea",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Hatenna",
@@ -21297,7 +22152,8 @@ let nationalDex = {
         japaneseName: "Mibrim",
         family: "Hatenna",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Hattrem",
@@ -21320,7 +22176,8 @@ let nationalDex = {
         japaneseName: "Tebrim",
         family: "Hatenna",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Hatterene",
@@ -21343,7 +22200,8 @@ let nationalDex = {
         japaneseName: "Brimuon",
         family: "Hatenna",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Third Stage"
     },
     {
         name: "Impidimp",
@@ -21366,7 +22224,8 @@ let nationalDex = {
         japaneseName: "Beroba",
         family: "Impidimp",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Morgrem",
@@ -21389,7 +22248,8 @@ let nationalDex = {
         japaneseName: "Gimoh",
         family: "Impidimp",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Grimmsnarl",
@@ -21412,7 +22272,8 @@ let nationalDex = {
         japaneseName: "Ohlonge",
         family: "Impidimp",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Obstagoon",
@@ -21435,7 +22296,8 @@ let nationalDex = {
         japaneseName: "Tachifusaguma",
         family: "Zigzagoon",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Perrserker",
@@ -21458,7 +22320,8 @@ let nationalDex = {
         japaneseName: "Nyaiking",
         family: "Meowth",
         tags: ["Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Cursola",
@@ -21481,7 +22344,8 @@ let nationalDex = {
         japaneseName: "Sunigoon",
         family: "Corsola",
         tags: ["Cross-Gen"],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Sirfetch'd",
@@ -21504,7 +22368,8 @@ let nationalDex = {
         japaneseName: "Negigaknight",
         family: "Farfetchd",
         tags: ["Cross-Gen"],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Mr. Rime",
@@ -21527,7 +22392,8 @@ let nationalDex = {
         japaneseName: "Barrikohru",
         family: "MimeJr",
         tags: ["Cross-Gen"],
-        color: "Purple"
+        color: "Purple",
+        stage: "Third Stage"
     },
     {
         name: "Runerigus",
@@ -21550,7 +22416,8 @@ let nationalDex = {
         japaneseName: "Deathbarn",
         family: "Yamask",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Milcery",
@@ -21573,7 +22440,8 @@ let nationalDex = {
         japaneseName: "Mahomil",
         family: "Milcery",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Alcremie",
@@ -21596,7 +22464,8 @@ let nationalDex = {
         japaneseName: "Mawhip",
         family: "Milcery",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Falinks",
@@ -21619,7 +22488,8 @@ let nationalDex = {
         japaneseName: "Tairetsu",
         family: "Falinks",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Pincurchin",
@@ -21642,7 +22512,8 @@ let nationalDex = {
         japaneseName: "Bachinuni",
         family: "Pincurchin",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Snom",
@@ -21665,7 +22536,8 @@ let nationalDex = {
         japaneseName: "Yukihami",
         family: "Snom",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Frosmoth",
@@ -21688,7 +22560,8 @@ let nationalDex = {
         japaneseName: "Mothnow",
         family: "Snom",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Stonjourner",
@@ -21711,7 +22584,8 @@ let nationalDex = {
         japaneseName: "Ishihengin",
         family: "Stonjourner",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Eiscue",
@@ -21734,7 +22608,8 @@ let nationalDex = {
         japaneseName: "Korippo",
         family: "Eiscue",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Indeedee",
@@ -21757,7 +22632,8 @@ let nationalDex = {
         japaneseName: "Yessan",
         family: "Indeedee",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Morpeko",
@@ -21780,7 +22656,8 @@ let nationalDex = {
         japaneseName: "Morpeko",
         family: "Morpeko",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Cufant",
@@ -21803,7 +22680,8 @@ let nationalDex = {
         japaneseName: "Zoudou",
         family: "Cufant",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Copperajah",
@@ -21826,7 +22704,8 @@ let nationalDex = {
         japaneseName: "Daioudou",
         family: "Cufant",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Dracozolt",
@@ -21849,7 +22728,8 @@ let nationalDex = {
         japaneseName: "Patchiragon",
         family: "Dracozolt",
         tags: ["Fossil"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Arctozolt",
@@ -21872,7 +22752,8 @@ let nationalDex = {
         japaneseName: "Patchilldon",
         family: "Arctozolt",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Dracovish",
@@ -21895,7 +22776,8 @@ let nationalDex = {
         japaneseName: "Uonoragon",
         family: "Dracovish",
         tags: ["Fossil"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Arctovish",
@@ -21918,7 +22800,8 @@ let nationalDex = {
         japaneseName: "Uochilldon",
         family: "Arctovish",
         tags: ["Fossil"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Duraludon",
@@ -21941,7 +22824,8 @@ let nationalDex = {
         japaneseName: "Duraludon",
         family: "Duraludon",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Dreepy",
@@ -21964,7 +22848,8 @@ let nationalDex = {
         japaneseName: "Dorameshiya",
         family: "Dreepy",
         tags: ["Pseudo"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Drakloak",
@@ -21987,7 +22872,8 @@ let nationalDex = {
         japaneseName: "Doronch",
         family: "Dreepy",
         tags: ["Pseudo"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Dragapult",
@@ -22010,7 +22896,8 @@ let nationalDex = {
         japaneseName: "Dorapult",
         family: "Dreepy",
         tags: ["Pseudo"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Zacian",
@@ -22033,7 +22920,8 @@ let nationalDex = {
         japaneseName: "Zacian",
         family: "Zacian",
         tags: ["Legendary"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Zamazenta",
@@ -22056,7 +22944,8 @@ let nationalDex = {
         japaneseName: "Zamazenta",
         family: "Zamazenta",
         tags: ["Legendary"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Eternatus",
@@ -22079,7 +22968,8 @@ let nationalDex = {
         japaneseName: "Mugendina",
         family: "Eternatus",
         tags: ["Legendary"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Kubfu",
@@ -22102,7 +22992,8 @@ let nationalDex = {
         japaneseName: "Dakuma",
         family: "Kubfu",
         tags: ["Legendary"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Urshifu",
@@ -22125,7 +23016,8 @@ let nationalDex = {
         japaneseName: "Wulaosu",
         family: "Kubfu",
         tags: ["Legendary"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Zarude",
@@ -22148,7 +23040,8 @@ let nationalDex = {
         japaneseName: "Zarude",
         family: "Zarude",
         tags: ["Mythical"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Regieleki",
@@ -22171,7 +23064,8 @@ let nationalDex = {
         japaneseName: "Regieleki",
         family: "Regieleki",
         tags: ["Legendary"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Regidrago",
@@ -22194,7 +23088,8 @@ let nationalDex = {
         japaneseName: "Regidorago",
         family: "Regidrago",
         tags: ["Legendary"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Glastrier",
@@ -22217,7 +23112,8 @@ let nationalDex = {
         japaneseName: "Blizzapos",
         family: "Glastrier",
         tags: ["Legendary"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Spectrier",
@@ -22240,7 +23136,8 @@ let nationalDex = {
         japaneseName: "Wraithpos",
         family: "Spectrier",
         tags: ["Legendary"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Calyrex",
@@ -22263,7 +23160,8 @@ let nationalDex = {
         japaneseName: "Budrex",
         family: "Calyrex",
         tags: ["Legendary"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Wyrdeer",
@@ -22286,7 +23184,8 @@ let nationalDex = {
         japaneseName: "Ayashishi",
         family: "Stantler",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Kleavor",
@@ -22309,7 +23208,8 @@ let nationalDex = {
         japaneseName: "Basagiri",
         family: "Scyther",
         tags: ["Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Ursaluna",
@@ -22332,7 +23232,8 @@ let nationalDex = {
         japaneseName: "Gachiguma",
         family: "Teddiursa",
         tags: ["Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Basculegion",
@@ -22355,7 +23256,8 @@ let nationalDex = {
         japaneseName: "Idaitou",
         family: "Basculin",
         tags: ["Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Sneasler",
@@ -22378,7 +23280,8 @@ let nationalDex = {
         japaneseName: "Ohnyula",
         family: "Sneasel",
         tags: ["Cross-Gen"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Overqwil",
@@ -22401,7 +23304,8 @@ let nationalDex = {
         japaneseName: "Haryman",
         family: "Qwilfish",
         tags: ["Cross-Gen"],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Enamorus",
@@ -22424,7 +23328,8 @@ let nationalDex = {
         japaneseName: "Lovetolos",
         family: "Enamorus",
         tags: ["Legendary"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Sprigatito",
@@ -22447,7 +23352,8 @@ let nationalDex = {
         japaneseName: "Nyahoja",
         family: "Sprigatito",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Floragato",
@@ -22470,7 +23376,8 @@ let nationalDex = {
         japaneseName: "Nyarote",
         family: "Sprigatito",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Meowscarada",
@@ -22493,7 +23400,8 @@ let nationalDex = {
         japaneseName: "Masquernya",
         family: "Sprigatito",
         tags: ["Starter"],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Fuecoco",
@@ -22516,7 +23424,8 @@ let nationalDex = {
         japaneseName: "Hogator",
         family: "Fuecoco",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Crocalor",
@@ -22539,7 +23448,8 @@ let nationalDex = {
         japaneseName: "Achigator",
         family: "Fuecoco",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Skeledirge",
@@ -22562,7 +23472,8 @@ let nationalDex = {
         japaneseName: "Laudbon",
         family: "Fuecoco",
         tags: ["Starter"],
-        color: "Red"
+        color: "Red",
+        stage: "Third Stage"
     },
     {
         name: "Quaxly",
@@ -22585,7 +23496,8 @@ let nationalDex = {
         japaneseName: "Kuwassu",
         family: "Quaxly",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Quaxwell",
@@ -22608,7 +23520,8 @@ let nationalDex = {
         japaneseName: "Welkamo",
         family: "Quaxly",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Quaquaval",
@@ -22631,7 +23544,8 @@ let nationalDex = {
         japaneseName: "Wanival",
         family: "Quaxly",
         tags: ["Starter"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Lechonk",
@@ -22654,7 +23568,8 @@ let nationalDex = {
         japaneseName: "Gourton",
         family: "Lechonk",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Oinkologne",
@@ -22677,7 +23592,8 @@ let nationalDex = {
         japaneseName: "Perfuton",
         family: "Lechonk",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Tarountula",
@@ -22700,7 +23616,8 @@ let nationalDex = {
         japaneseName: "Tamantula",
         family: "Tarountula",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Spidops",
@@ -22723,7 +23640,8 @@ let nationalDex = {
         japaneseName: "Wanaider",
         family: "Tarountula",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Nymble",
@@ -22746,7 +23664,8 @@ let nationalDex = {
         japaneseName: "Nymble",
         family: "",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Lokix",
@@ -22769,7 +23688,8 @@ let nationalDex = {
         japaneseName: "Exleg",
         family: "Nymble",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Pawmi",
@@ -22792,7 +23712,8 @@ let nationalDex = {
         japaneseName: "Pamo",
         family: "Pawmi",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Pawmo",
@@ -22815,7 +23736,8 @@ let nationalDex = {
         japaneseName: "Pamot",
         family: "Pawmi",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Pawmot",
@@ -22838,7 +23760,8 @@ let nationalDex = {
         japaneseName: "Parmot",
         family: "Pawmi",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Third Stage"
     },
     {
         name: "Tandemaus",
@@ -22861,7 +23784,8 @@ let nationalDex = {
         japaneseName: "Wakkanezumi",
         family: "Tandemaus",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Maushold",
@@ -22884,7 +23808,8 @@ let nationalDex = {
         japaneseName: "Ikkanezumi",
         family: "Tandemaus",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Fidough",
@@ -22907,7 +23832,8 @@ let nationalDex = {
         japaneseName: "Pupimocchi",
         family: "Fidough",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Dachsbun",
@@ -22930,7 +23856,8 @@ let nationalDex = {
         japaneseName: "Bowtzel",
         family: "Fidough",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Smoliv",
@@ -22953,7 +23880,8 @@ let nationalDex = {
         japaneseName: "Minive",
         family: "Smoliv",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Dolliv",
@@ -22976,7 +23904,8 @@ let nationalDex = {
         japaneseName: "Olinyo",
         family: "Smoliv",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Arboliva",
@@ -22999,7 +23928,8 @@ let nationalDex = {
         japaneseName: "Oliva",
         family: "Smoliv",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Third Stage"
     },
     {
         name: "Squawkabilly",
@@ -23022,7 +23952,8 @@ let nationalDex = {
         japaneseName: "Ikirinko",
         family: "Squawkabilly",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Nacli",
@@ -23045,7 +23976,8 @@ let nationalDex = {
         japaneseName: "Kojio",
         family: "Nacli",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Naclstack",
@@ -23068,7 +24000,8 @@ let nationalDex = {
         japaneseName: "Jiodumu",
         family: "Nacli",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Garganacl",
@@ -23091,7 +24024,8 @@ let nationalDex = {
         japaneseName: "Kyojiohn",
         family: "Nacli",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Third Stage"
     },
     {
         name: "Charcadet",
@@ -23114,7 +24048,8 @@ let nationalDex = {
         japaneseName: "Carbou",
         family: "Charcadet",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Armarouge",
@@ -23137,7 +24072,8 @@ let nationalDex = {
         japaneseName: "Gurenarma",
         family: "Charcadet",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Ceruledge",
@@ -23160,7 +24096,8 @@ let nationalDex = {
         japaneseName: "Soublades",
         family: "Charcadet",
         tags: [],
-        color: "Purple"
+        color: "Purple",
+        stage: "Second Stage"
     },
     {
         name: "Tadbulb",
@@ -23183,7 +24120,8 @@ let nationalDex = {
         japaneseName: "Zupika",
         family: "Tadbulb",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Bellibolt",
@@ -23206,7 +24144,8 @@ let nationalDex = {
         japaneseName: "Harabarie",
         family: "Tadbulb",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Wattrel",
@@ -23229,7 +24168,8 @@ let nationalDex = {
         japaneseName: "Kaiden",
         family: "Wattrel",
         tags: [],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Kilowattrel",
@@ -23252,7 +24192,8 @@ let nationalDex = {
         japaneseName: "Taikaiden",
         family: "Wattrel",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Maschiff",
@@ -23275,7 +24216,8 @@ let nationalDex = {
         japaneseName: "Orachifu",
         family: "Maschiff",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Mabosstiff",
@@ -23298,7 +24240,8 @@ let nationalDex = {
         japaneseName: "Mafitiff",
         family: "Maschiff",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Shroodle",
@@ -23321,7 +24264,8 @@ let nationalDex = {
         japaneseName: "Shirushrew",
         family: "Shroodle",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Grafaiai",
@@ -23344,7 +24288,8 @@ let nationalDex = {
         japaneseName: "Taggingru",
         family: "Shroodle",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Bramblin",
@@ -23367,7 +24312,8 @@ let nationalDex = {
         japaneseName: "Anokusa",
         family: "Bramblin",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Brambleghast",
@@ -23390,7 +24336,8 @@ let nationalDex = {
         japaneseName: "Anohoragusa",
         family: "Bramblin",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Toedscool",
@@ -23413,7 +24360,8 @@ let nationalDex = {
         japaneseName: "Nonokurage",
         family: "Toedscool",
         tags: ["Convergent"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Toedscruel",
@@ -23436,7 +24384,8 @@ let nationalDex = {
         japaneseName: "Rikukurage",
         family: "Toedscool",
         tags: ["Convergent"],
-        color: "Black"
+        color: "Black",
+        stage: "Second Stage"
     },
     {
         name: "Klawf",
@@ -23459,7 +24408,8 @@ let nationalDex = {
         japaneseName: "Gakegani",
         family: "Klawf",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Capsakid",
@@ -23482,7 +24432,8 @@ let nationalDex = {
         japaneseName: "Capsaiji",
         family: "Capsakid",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Scovillain",
@@ -23505,7 +24456,8 @@ let nationalDex = {
         japaneseName: "Scovillain",
         family: "Capsakid",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Rellor",
@@ -23528,7 +24480,8 @@ let nationalDex = {
         japaneseName: "Shigaroko",
         family: "Rellor",
         tags: [],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Rabsca",
@@ -23551,7 +24504,8 @@ let nationalDex = {
         japaneseName: "Beracas",
         family: "Rellor",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Flittle",
@@ -23574,7 +24528,8 @@ let nationalDex = {
         japaneseName: "Hirahina",
         family: "Flittle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "First Stage"
     },
     {
         name: "Espathra",
@@ -23597,7 +24552,8 @@ let nationalDex = {
         japaneseName: "Cuespatra",
         family: "Flittle",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Tinkatink",
@@ -23620,7 +24576,8 @@ let nationalDex = {
         japaneseName: "Kanuchan",
         family: "Tinkatink",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Tinkatuff",
@@ -23643,7 +24600,8 @@ let nationalDex = {
         japaneseName: "Nakanuchan",
         family: "Tinkatink",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Second Stage"
     },
     {
         name: "Tinkaton",
@@ -23666,7 +24624,8 @@ let nationalDex = {
         japaneseName: "Dekanuchan",
         family: "Tinkatink",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "Third Stage"
     },
     {
         name: "Wiglett",
@@ -23689,7 +24648,8 @@ let nationalDex = {
         japaneseName: "Umidigda",
         family: "Wiglett",
         tags: ["Convergent"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Wugtrio",
@@ -23712,7 +24672,8 @@ let nationalDex = {
         japaneseName: "Umitrio",
         family: "Wiglett",
         tags: ["Convergent"],
-        color: "Red"
+        color: "Red",
+        stage: "Second Stage"
     },
     {
         name: "Bombirdier",
@@ -23735,7 +24696,8 @@ let nationalDex = {
         japaneseName: "Otoshidori",
         family: "Bombirdier",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Finizen",
@@ -23758,7 +24720,8 @@ let nationalDex = {
         japaneseName: "Namiiruka",
         family: "Finizen",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Palafin",
@@ -23781,7 +24744,8 @@ let nationalDex = {
         japaneseName: "Irukaman",
         family: "Finizen",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Varoom",
@@ -23804,7 +24768,8 @@ let nationalDex = {
         japaneseName: "Buroron",
         family: "Varoom",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Revavroom",
@@ -23827,7 +24792,8 @@ let nationalDex = {
         japaneseName: "Burororoom",
         family: "Varoom",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "Second Stage"
     },
     {
         name: "Cyclizar",
@@ -23850,7 +24816,8 @@ let nationalDex = {
         japaneseName: "Mototokage",
         family: "Cyclizar",
         tags: [],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Orthworm",
@@ -23873,7 +24840,8 @@ let nationalDex = {
         japaneseName: "Mimizuzu",
         family: "Orthworm",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Glimmet",
@@ -23896,7 +24864,8 @@ let nationalDex = {
         japaneseName: "Kirame",
         family: "Glimmet",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Glimmora",
@@ -23919,7 +24888,8 @@ let nationalDex = {
         japaneseName: "Kiraflor",
         family: "Glimmet",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Greavard",
@@ -23942,7 +24912,8 @@ let nationalDex = {
         japaneseName: "Bochi",
         family: "Greavard",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Houndstone",
@@ -23965,7 +24936,8 @@ let nationalDex = {
         japaneseName: "Hakadog",
         family: "Greavard",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Flamigo",
@@ -23988,7 +24960,8 @@ let nationalDex = {
         japaneseName: "Karamingo",
         family: "Flamigo",
         tags: [],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Cetoddle",
@@ -24011,7 +24984,8 @@ let nationalDex = {
         japaneseName: "Arukujira",
         family: "Cetoddle",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Cetitan",
@@ -24034,7 +25008,8 @@ let nationalDex = {
         japaneseName: "Hulkujira",
         family: "Cetoddle",
         tags: [],
-        color: "White"
+        color: "White",
+        stage: "Second Stage"
     },
     {
         name: "Veluza",
@@ -24057,7 +25032,8 @@ let nationalDex = {
         japaneseName: "Migalusa",
         family: "Veluza",
         tags: [],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Dondozo",
@@ -24080,7 +25056,8 @@ let nationalDex = {
         japaneseName: "Heyrusher",
         family: "Dondozo",
         tags: [],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Tatsugiri",
@@ -24103,7 +25080,8 @@ let nationalDex = {
         japaneseName: "Syaritatsu",
         family: "Tatsugiri",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Annihilape",
@@ -24126,7 +25104,8 @@ let nationalDex = {
         japaneseName: "Konoyozaru",
         family: "Mankey",
         tags: ["Cross-Gen"],
-        color: "Gray"
+        color: "Gray",
+        stage: "Third Stage"
     },
     {
         name: "Clodsire",
@@ -24149,7 +25128,8 @@ let nationalDex = {
         japaneseName: "Dooh",
         family: "Wooper",
         tags: ["Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Farigiraf",
@@ -24172,7 +25152,8 @@ let nationalDex = {
         japaneseName: "Rikikirin",
         family: "Girafarig",
         tags: ["Cross-Gen"],
-        color: "Brown"
+        color: "Brown",
+        stage: "Second Stage"
     },
     {
         name: "Dudunsparce",
@@ -24195,7 +25176,8 @@ let nationalDex = {
         japaneseName: "Nokokocchi",
         family: "Dunsparce",
         tags: ["Cross-Gen"],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Kingambit",
@@ -24218,7 +25200,8 @@ let nationalDex = {
         japaneseName: "Dodogezan",
         family: "Pawniard",
         tags: ["Cross-Gen"],
-        color: "Black"
+        color: "Black",
+        stage: "Third Stage"
     },
     {
         name: "Great Tusk",
@@ -24241,7 +25224,8 @@ let nationalDex = {
         japaneseName: "Idainakiba",
         family: "GreatTusk",
         tags: ["Paradox"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Scream Tail",
@@ -24264,7 +25248,8 @@ let nationalDex = {
         japaneseName: "Sakebushippo",
         family: "ScreamTail",
         tags: ["Paradox"],
-        color: "Pink"
+        color: "Pink",
+        stage: "First Stage"
     },
     {
         name: "Brute Bonnet",
@@ -24287,7 +25272,8 @@ let nationalDex = {
         japaneseName: "Araburutake",
         family: "BruteBonnet",
         tags: ["Paradox"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Flutter Mane",
@@ -24310,7 +25296,8 @@ let nationalDex = {
         japaneseName: "Habatakukami",
         family: "FlutterMane",
         tags: ["Paradox"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Slither Wing",
@@ -24333,7 +25320,8 @@ let nationalDex = {
         japaneseName: "Chiwohauhane",
         family: "SlitherWing",
         tags: ["Paradox"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Sandy Shocks",
@@ -24356,7 +25344,8 @@ let nationalDex = {
         japaneseName: "Sunanokegawa",
         family: "SandyShocks",
         tags: ["Paradox"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Iron Treads",
@@ -24379,7 +25368,8 @@ let nationalDex = {
         japaneseName: "Tetsunowadachi",
         family: "IronTreads",
         tags: ["Paradox"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Iron Bundle",
@@ -24402,7 +25392,8 @@ let nationalDex = {
         japaneseName: "Tetsunotsutsumi",
         family: "IronBundle",
         tags: ["Paradox"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Iron Hands",
@@ -24425,7 +25416,8 @@ let nationalDex = {
         japaneseName: "Tetsunokaina",
         family: "IronHands",
         tags: ["Paradox"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Iron Jugulis",
@@ -24448,7 +25440,8 @@ let nationalDex = {
         japaneseName: "Tetsunokoube",
         family: "IronJugulis",
         tags: ["Paradox"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Iron Moth",
@@ -24471,7 +25464,8 @@ let nationalDex = {
         japaneseName: "Tetsunodokuga",
         family: "IronMoth",
         tags: ["Paradox"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Iron Thorns",
@@ -24494,7 +25488,8 @@ let nationalDex = {
         japaneseName: "Tetsunoibara",
         family: "IronThorns",
         tags: ["Paradox"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Frigibax",
@@ -24517,7 +25512,8 @@ let nationalDex = {
         japaneseName: "Sebie",
         family: "Frigibax",
         tags: ["Pseudo"],
-        color: "Gray"
+        color: "Gray",
+        stage: "First Stage"
     },
     {
         name: "Arctibax",
@@ -24540,7 +25536,8 @@ let nationalDex = {
         japaneseName: "Segohru",
         family: "Frigibax",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Second Stage"
     },
     {
         name: "Baxcalibur",
@@ -24563,7 +25560,8 @@ let nationalDex = {
         japaneseName: "Seglaive",
         family: "Frigibax",
         tags: ["Pseudo"],
-        color: "Blue"
+        color: "Blue",
+        stage: "Third Stage"
     },
     {
         name: "Gimmighoul",
@@ -24586,7 +25584,8 @@ let nationalDex = {
         japaneseName: "Collecurei",
         family: "Gimmighoul",
         tags: [],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Gholdengo",
@@ -24609,7 +25608,8 @@ let nationalDex = {
         japaneseName: "Surfugo",
         family: "Gimmighoul",
         tags: [],
-        color: "Yellow"
+        color: "Yellow",
+        stage: "Second Stage"
     },
     {
         name: "Wo-Chien",
@@ -24632,7 +25632,8 @@ let nationalDex = {
         japaneseName: "Chionjen",
         family: "WoChien",
         tags: ["Legendary"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Chien-Pao",
@@ -24655,7 +25656,8 @@ let nationalDex = {
         japaneseName: "Paojian",
         family: "ChienPao",
         tags: ["Legendary"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Ting-Lu",
@@ -24678,7 +25680,8 @@ let nationalDex = {
         japaneseName: "Dinlu",
         family: "TingLu",
         tags: ["Legendary"],
-        color: "Brown"
+        color: "Brown",
+        stage: "First Stage"
     },
     {
         name: "Chi-Yu",
@@ -24701,7 +25704,8 @@ let nationalDex = {
         japaneseName: "Yiyui",
         family: "ChiYu",
         tags: ["Legendary"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Roaring Moon",
@@ -24724,7 +25728,8 @@ let nationalDex = {
         japaneseName: "Todorokutsuki",
         family: "RoaringMoon",
         tags: ["Paradox"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Iron Valiant",
@@ -24747,7 +25752,8 @@ let nationalDex = {
         japaneseName: "Tetsunobujin",
         family: "IronValiant",
         tags: ["Paradox"],
-        color: "White"
+        color: "White",
+        stage: "First Stage"
     },
     {
         name: "Koraidon",
@@ -24770,7 +25776,8 @@ let nationalDex = {
         japaneseName: "Koraidon",
         family: "Koraidon",
         tags: ["Legendary", "Paradox"],
-        color: "Red"
+        color: "Red",
+        stage: "First Stage"
     },
     {
         name: "Miraidon",
@@ -24793,7 +25800,8 @@ let nationalDex = {
         japaneseName: "Miraidon",
         family: "Miraidon",
         tags: ["Legendary", "Paradox"],
-        color: "Purple"
+        color: "Purple",
+        stage: "First Stage"
     },
     {
         name: "Walking Wake",
@@ -24816,7 +25824,8 @@ let nationalDex = {
         japaneseName: "Uneruminamo",
         family: "WalkingWake",
         tags: ["Paradox"],
-        color: "Blue"
+        color: "Blue",
+        stage: "First Stage"
     },
     {
         name: "Iron Leaves",
@@ -24839,7 +25848,8 @@ let nationalDex = {
         japaneseName: "Tetsunoisaha",
         family: "IronLeaves",
         tags: ["Paradox"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Dipplin",
@@ -24862,7 +25872,8 @@ let nationalDex = {
         japaneseName: "Kamicchu",
         family: "Applin",
         tags: ["Cross-Gen"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Poltchageist",
@@ -24885,7 +25896,8 @@ let nationalDex = {
         japaneseName: "Chadesu",
         family: "Poltchageist",
         tags: ["Convergent"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
     {
         name: "Sinistcha",
@@ -24908,7 +25920,8 @@ let nationalDex = {
         japaneseName: "Yabasocha",
         family: "Poltchageist",
         tags: ["Convergent"],
-        color: "Green"
+        color: "Green",
+        stage: "Second Stage"
     },
     {
         name: "Okidogi",
@@ -24931,7 +25944,8 @@ let nationalDex = {
         japaneseName: "Iineinu",
         family: "Okidogi",
         tags: ["Legendary"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Munkidori",
@@ -24954,7 +25968,8 @@ let nationalDex = {
         japaneseName: "Mashimashira",
         family: "Munkidori",
         tags: ["Legendary"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Fezandipiti",
@@ -24977,7 +25992,8 @@ let nationalDex = {
         japaneseName: "Kichikigisu",
         family: "Fezandipiti",
         tags: ["Legendary"],
-        color: "Black"
+        color: "Black",
+        stage: "First Stage"
     },
     {
         name: "Ogerpon",
@@ -25000,7 +26016,8 @@ let nationalDex = {
         japaneseName: "Ogerpon",
         family: "Ogerpon",
         tags: ["Legendary"],
-        color: "Green"
+        color: "Green",
+        stage: "First Stage"
     },
 ]
 }
@@ -25375,6 +26392,7 @@ let numberId = document.getElementById("number_input").value
 let typeId = document.getElementById("type_input").value
 let evoId = document.getElementById("evo_input").value
 let tagId = document.getElementById("tag_input").value
+let stageId = document.getElementById("stage_input").value
 let categoryId = document.getElementById("category_input").value
 let regionId = document.getElementById("region_input").value
 let genId = document.getElementById("gen_input").value
@@ -25390,6 +26408,7 @@ let filterPokemon = nationalDex.nationalPokedex.filter(searching => searching.na
 .filter(searching => String(searching.type).toLowerCase().indexOf(typeId.toLowerCase()) > -1 )
 .filter(searching => String(searching.family).toLowerCase().indexOf(evoId.toLowerCase()) > -1 )
 .filter(searching => String(searching.tags).toLowerCase().indexOf(tagId.toLowerCase()) > -1 )
+.filter(searching => String(searching.stage).toLowerCase().indexOf(stageId.toLowerCase()) > -1 )
 .filter(searching => searching.category.toLowerCase().indexOf(categoryId.toLowerCase()) > -1 )
 .filter(searching => searching.region.toLowerCase().indexOf(regionId.toLowerCase()) > -1 )
 .filter(searching => searching.generation.toLowerCase().indexOf(genId.toLowerCase()) > -1 )
