@@ -10158,7 +10158,7 @@ let nationalDex = {
             dexEntry: "It crossed the sea and drifted ashore in a new land. Surviving in this place led it to take on a unique appearance and gain special powers.",
             cryUrl: "cries/901.mp3",
             ability: ["Mind's Eye"],
-            form: "Ursaluna (Bloodmoon Form)",
+            form: "Bloodmoon Ursaluna",
             formType: ["Variation"]
         },
         {
