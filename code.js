@@ -1301,7 +1301,7 @@ let evolutionFamilies = {
         "Rolycoly", "Carkol", "Coalossal"
     ],
     applin: [
-        "Applin", "Flapple", "Appletun", "Dipplin"
+        "Applin", "Flapple", "Appletun", "Dipplin", "Hydrapple"
     ],
     silicobra: [
         "Silicobra", "Sandaconda"
@@ -1370,7 +1370,7 @@ let evolutionFamilies = {
         "Arctovish"
     ],
     duraludon: [
-        "Duraludon"
+        "Duraludon", "Archaludon"
     ],
     dreepy: [
         "Dreepy", "Drakloak", "Dragapult"
@@ -1606,6 +1606,24 @@ let evolutionFamilies = {
     ],
     ogerpon: [
         "Ogerpon"
+    ],
+    gougingfire: [
+        "Gouging Fire"
+    ],
+    ragingbolt: [
+        "Raging Bolt"
+    ],
+    ironboulder: [
+        "Iron Boulder"
+    ],
+    ironcrown: [
+        "Iron Crown"
+    ],
+    terapagos: [
+        "Terapagos"
+    ],
+    pecharunt: [
+        "Pecharunt"
     ],
 }
 
@@ -25817,7 +25835,7 @@ let nationalDex = {
         caught: false,
         metricHeight: 3.5,
         metricWeight: 280.0,
-        dexEntry: "Ecology under research.",
+        dexEntry: "This ferocious creature is shrouded in mystery. It’s named after an aquatic monster mentioned in an old expedition journal.",
         cryUrl: "cries/1009.mp3",
         ability: ["Protosynthesis"],
         evolution: evolutionFamilies.walkingwake,
@@ -25841,7 +25859,7 @@ let nationalDex = {
         caught: false,
         metricHeight: 1.5,
         metricWeight: 125.0,
-        dexEntry: "Ecology under analysis.",
+        dexEntry: "Many of its physical characteristics match those of a Virizion from the future that was covered in a paranormal magazine.",
         cryUrl: "cries/1010.mp3",
         ability: ["Quark Drive"],
         evolution: evolutionFamilies.ironleaves,
@@ -26017,6 +26035,198 @@ let nationalDex = {
         family: "Ogerpon",
         tags: ["Legendary"],
         color: "Green",
+        stage: "First Stage"
+    },
+    {
+        name: "Archaludon",
+        imageUrl: "images/1018Archaludon.png",
+        number: "1018",
+        type: ["Steel", "Dragon"],
+        category: "Alloy",
+        region: "Paldea",
+        generation: "09",
+        height: "6'07\"",
+        weight: "132.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 2.0,
+        metricWeight: 60.0,
+        dexEntry: "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+        cryUrl: "cries/1018.mp3",
+        ability: ["Stamina", "Sturdy", "Stalwart"],
+        evolution: evolutionFamilies.duraludon,
+        japaneseName: "Briduras",
+        family: "Duraludon",
+        tags: ["Cross-Gen"],
+        color: "White",
+        stage: "Second Stage"
+    },
+    {
+        name: "Hydrapple",
+        imageUrl: "images/1019Hydrapple.png",
+        number: "1019",
+        type: ["Grass", "Dragon"],
+        category: "Apple Hydra",
+        region: "Paldea",
+        generation: "09",
+        height: "5'11\"",
+        weight: "205.0 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.8,
+        metricWeight: 93.0,
+        dexEntry: "Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.",
+        cryUrl: "cries/1019.mp3",
+        ability: ["Supersweet Syrup", "Regenerator", "Sticky Hold"],
+        evolution: evolutionFamilies.applin,
+        japaneseName: "Kamitsuorochi",
+        family: "Applin",
+        tags: ["Cross-Gen"],
+        color: "Green",
+        stage: "Third Stage"
+    },
+    {
+        name: "Gouging Fire",
+        imageUrl: "images/1020Gouging_Fire.png",
+        number: "1020",
+        type: ["Fire", "Dragon"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "09",
+        height: "11'06\"",
+        weight: "1300.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 3.5,
+        metricWeight: 590.0,
+        dexEntry: "There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.",
+        cryUrl: "cries/1020.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.gougingfire,
+        japaneseName: "Ugatsuhomura",
+        family: "GougingFire",
+        tags: ["Paradox"],
+        color: "Brown",
+        stage: "First Stage"
+    },
+    {
+        name: "Raging Bolt",
+        imageUrl: "images/1021Raging_Bolt.png",
+        number: "1021",
+        type: ["Electric", "Dragon"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "09",
+        height: "17'01\"",
+        weight: "1058.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 5.2,
+        metricWeight: 480.0,
+        dexEntry: "It’s said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.",
+        cryUrl: "cries/1021.mp3",
+        ability: ["Protosynthesis"],
+        evolution: evolutionFamilies.ragingbolt,
+        japaneseName: "Takeruraiko",
+        family: "RagingBolt",
+        tags: ["Paradox"],
+        color: "Yellow",
+        stage: "First Stage"
+    },
+    {
+        name: "Iron Boulder",
+        imageUrl: "images/1022Iron_Boulder.png",
+        number: "1022",
+        type: ["Rock", "Psychic"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "09",
+        height: "4'11\"",
+        weight: "358.2 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.5,
+        metricWeight: 162.5,
+        dexEntry: "It resembles a Pokémon described in a dubious magazine as a Terrakion that had been modified by an evil organization.",
+        cryUrl: "cries/1022.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironboulder,
+        japaneseName: "Tetsunoiwao",
+        family: "IronBoulder",
+        tags: ["Paradox"],
+        color: "Gray",
+        stage: "First Stage"
+    },
+    {
+        name: "Iron Crown",
+        imageUrl: "images/1023Iron_Crown.png",
+        number: "1023",
+        type: ["Steel", "Psychic"],
+        category: "Paradox",
+        region: "Paldea",
+        generation: "09",
+        height: "5'03\"",
+        weight: "343.9 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 1.6,
+        metricWeight: 156.0,
+        dexEntry: "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like a Cobalion.",
+        cryUrl: "cries/1023.mp3",
+        ability: ["Quark Drive"],
+        evolution: evolutionFamilies.ironcrown,
+        japaneseName: "Tetsunokashira",
+        family: "IronCrown",
+        tags: ["Paradox"],
+        color: "Blue",
+        stage: "First Stage"
+    },
+    {
+        name: "Terapagos",
+        imageUrl: "images/1024Terapagos.png",
+        number: "1024",
+        type: ["Normal"],
+        category: "Tera",
+        region: "Paldea",
+        generation: "09",
+        height: "1'00\"",
+        weight: "35.3 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 16.0,
+        dexEntry: "Upon sensing danger, it prepares itself for battle by creating a sturdy shell of crystallized Terastal energy.",
+        cryUrl: "cries/1024.mp3",
+        ability: ["Tera Shell"],
+        evolution: evolutionFamilies.terapagos,
+        japaneseName: "Terapagos",
+        family: "Terapagos",
+        tags: ["Legendary"],
+        color: "Blue",
+        stage: "First Stage"
+    },
+    {
+        name: "Pecharunt",
+        imageUrl: "images/1025Pecharunt.png",
+        number: "1025",
+        type: ["Poison", "Ghost"],
+        category: "Subjugation",
+        region: "Paldea",
+        generation: "09",
+        height: "1'00\"",
+        weight: "0.7 lbs.",
+        favorites: false,
+        caught: false,
+        metricHeight: 0.3,
+        metricWeight: 0.3,
+        dexEntry: "It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt’s control, chained to its will.",
+        cryUrl: "cries/1025.mp3",
+        ability: ["Poison Puppeteer"],
+        evolution: evolutionFamilies.pecharunt,
+        japaneseName: "Momowarou",
+        family: "Pecharunt",
+        tags: ["Mythical"],
+        color: "Purple",
         stage: "First Stage"
     },
 ]

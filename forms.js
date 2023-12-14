@@ -10501,6 +10501,46 @@ let nationalDex = {
             form: "Ogerpon (Cornerstone Mask Form)",
             formType: ["Form Change"]
         },
+        {
+            name: "Terapagos",
+            imageUrl: "forms/1024Terapagos-Normal.png",
+            number: "1024",
+            type: ["Normal"],
+            category: "Tera",
+            region: "Paldea",
+            generation: "09",
+            height: "0'08\"",
+            weight: "14.3 lbs.",
+            favorites: false,
+            caught: false,
+            metricHeight: 0.2,
+            metricWeight: 6.5,
+            dexEntry: "Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.",
+            cryUrl: "cries/1024.mp3",
+            ability: ["Tera Shift"],
+            form: "Terapagos (Normal Form)",
+            formType: ["Form Change"]
+        },
+        {
+            name: "Terapagos",
+            imageUrl: "forms/1024Terapagos-Stellar.png",
+            number: "1024",
+            type: ["Normal"],
+            category: "Tera",
+            region: "Paldea",
+            generation: "09",
+            height: "5'07\"",
+            weight: "169.8 lbs.",
+            favorites: false,
+            caught: false,
+            metricHeight: 1.7,
+            metricWeight: 77.0,
+            dexEntry: "In this form, Terapagos resembles the world as the ancients saw it, and its Terastal energy is abnormally amplified.",
+            cryUrl: "cries/1024.mp3",
+            ability: ["Teraform Zero"],
+            form: "Terapagos (Stellar Form)",
+            formType: ["Form Change"]
+        },
     ]
 }
 

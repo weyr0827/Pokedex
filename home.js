@@ -19169,7 +19169,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 3.5,
             metricWeight: 280.0,
-            dexEntry: "Ecology under research.",
+            dexEntry: "This ferocious creature is shrouded in mystery. It’s named after an aquatic monster mentioned in an old expedition journal.",
             cryUrl: "cries/1009.mp3",
             japaneseName: "Uneruminamo",
             shinyUrl: "HOME/1009s.png"
@@ -19188,7 +19188,7 @@ let nationalDex = {
             caught: false,
             metricHeight: 1.5,
             metricWeight: 125.0,
-            dexEntry: "Ecology under analysis.",
+            dexEntry: "Many of its physical characteristics match those of a Virizion from the future that was covered in a paranormal magazine.",
             cryUrl: "cries/1010.mp3",
             japaneseName: "Tetsunoisaha",
             shinyUrl: "HOME/1010s.png"
