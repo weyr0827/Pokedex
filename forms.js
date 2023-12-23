@@ -10458,7 +10458,7 @@ let nationalDex = {
             dexEntry: "This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water.",
             cryUrl: "cries/1017.mp3",
             ability: ["Water Absorb", "Embody Aspect"],
-            form: "Ogerpon (Wellspring Mask Form)",
+            form: "Ogerpon (Wellspring Mask)",
             formType: ["Form Change"]
         },
         {
@@ -10478,7 +10478,7 @@ let nationalDex = {
             dexEntry: "This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth.",
             cryUrl: "cries/1017.mp3",
             ability: ["Mold Breaker", "Embody Aspect"],
-            form: "Ogerpon (Hearthflame Mask Form)",
+            form: "Ogerpon (Hearthflame Mask)",
             formType: ["Form Change"]
         },
         {
@@ -10498,7 +10498,7 @@ let nationalDex = {
             dexEntry: "This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses.",
             cryUrl: "cries/1017.mp3",
             ability: ["Sturdy", "Embody Aspect"],
-            form: "Ogerpon (Cornerstone Mask Form)",
+            form: "Ogerpon (Cornerstone Mask)",
             formType: ["Form Change"]
         },
         {

@@ -25973,7 +25973,7 @@ let nationalDex = {
         category: "Retainer",
         region: "Paldea",
         generation: "09",
-        height: "3'11\"",
+        height: "3'03\"",
         weight: "26.9 lbs.",
         favorites: false,
         caught: false,
