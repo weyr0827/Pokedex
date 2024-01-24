@@ -10277,7 +10277,7 @@ let nationalDex = {
             metricWeight: 2.4,
             dexEntry: "These Squawkabilly are hotheaded, and their fighting style is vicious. They’ll leap within reach of their foes to engage in close combat.",
             cryUrl: "cries/931.mp3",
-            ability: ["Intimidate", "Hustle", "Guts"],
+            ability: ["Intimidate", "Hustle", "Sheer Force"],
             form: "Squawkabilly (Yellow Plumage)",
             formType: ["Variation"]
         },
@@ -10297,7 +10297,7 @@ let nationalDex = {
             metricWeight: 2.4,
             dexEntry: "This Pokémon dislikes being alone. It has a strong sense of community and survives by cooperating with allies.",
             cryUrl: "cries/931.mp3",
-            ability: ["Intimidate", "Hustle", "Guts"],
+            ability: ["Intimidate", "Hustle", "Sheer Force"],
             form: "Squawkabilly (White Plumage)",
             formType: ["Variation"]
         },
