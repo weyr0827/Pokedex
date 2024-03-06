@@ -9,7 +9,7 @@
     />
     
     <!-- Title Page-->
-    <title>Kalos Pokedex</title>
+    <title>Kanto Pokedex</title>
 
     <!-- CSS-->
     <link href="style.css" rel="stylesheet" media="all" />
@@ -18,15 +18,14 @@
   </head>
 
   <body style="text-align: center;">
-    <h1 id="heading" style="background-color: #ea1a3e; border: 5px solid darkblue; color: black; border-radius: 25px;"><img id="mascot" src="images/717Yveltal.png" style="height:50px">Pokémon Y<img id="mascot" src="images/717Yveltal.png" style="height:50px"></h1>
+    <h1 id="heading" style="background-color: #11bb11; border: 5px solid darkblue; color: white; border-radius: 25px;"><img id="mascot" src="images/003Venusaur.png" style="height:50px">Pokémon Green Version<img id="mascot" src="images/003Venusaur.png" style="height:50px"></h1>
     <label for="game_select">Change Dex</label>
     <select name="game" id="game_select" onchange="location = this.value;">
-      <option value="y.html">Y</option>
+      <option value="green.html">Green</option>
       <option value="index.html">National Dex</option>
       <option value="formdex.html">Alternate Forms</option>
       <option value="home.html">HOME</option>
       <option value="red.html">Red</option>
-      <option value="green.html">Green</option>
       <option value="blue.html">Blue</option>
       <option value="yellow.html">Yellow</option>
       <option value="gold.html">Gold</option>
@@ -47,6 +46,7 @@
       <option value="black2.html">Black 2</option>
       <option value="white2.html">White 2</option>
       <option value="x.html">X</option>
+      <option value="y.html">Y</option>
       <option value="omegaruby.html">Omega Ruby</option>
       <option value="alphasapphire.html">Alpha Sapphire</option>
       <option value="sun.html">Sun</option>
@@ -91,9 +91,6 @@
         <option value="rock">Rock</option>
         <option value="ghost">Ghost</option>
         <option value="dragon">Dragon</option>
-        <option value="dark">Dark</option>
-        <option value="steel">Steel</option>
-        <option value="fairy">Fairy</option>
       </select>
       </br>
       <label for="category_input">Category</label>
@@ -104,11 +101,6 @@
       <select name="gen" id="gen_input">
         <option value=""></option>
         <option value="01">Gen I</option>
-        <option value="02">Gen II</option>
-        <option value="03">Gen III</option>
-        <option value="04">Gen IV</option>
-        <option value="05">Gen V</option>
-        <option value="06">Gen VI</option>
       </select>
       </br>
       <label for="height_input">Height</label>
@@ -141,6 +133,6 @@
     </div>
     <div id=container></div>
     <button id="morePkmn">More Pokémon</button>
-    <script src="y.js"></script>
+    <script src="green.js"></script>
   </body>
 </html>
