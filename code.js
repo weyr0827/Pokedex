@@ -1651,7 +1651,9 @@ let nationalDex = {
         family: "Bulbasaur",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Ivysaur",
@@ -1675,7 +1677,9 @@ let nationalDex = {
         family: "Bulbasaur",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Venusaur",
@@ -1699,7 +1703,9 @@ let nationalDex = {
         family: "Bulbasaur",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Charmander",
@@ -1723,7 +1729,9 @@ let nationalDex = {
         family: "Charmander",
         tags: ["Starter"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Charmeleon",
@@ -1747,7 +1755,9 @@ let nationalDex = {
         family: "Charmander",
         tags: ["Starter"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Charizard",
@@ -1771,7 +1781,9 @@ let nationalDex = {
         family: "Charmander",
         tags: ["Starter"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Squirtle",
@@ -1795,7 +1807,9 @@ let nationalDex = {
         family: "Squirtle",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Wartortle",
@@ -1819,7 +1833,9 @@ let nationalDex = {
         family: "Squirtle",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Blastoise",
@@ -1843,7 +1859,9 @@ let nationalDex = {
         family: "Squirtle",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Caterpie",
@@ -1867,7 +1885,9 @@ let nationalDex = {
         family: "Caterpie",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Metapod",
@@ -1891,7 +1911,9 @@ let nationalDex = {
         family: "Caterpie",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Butterfree",
@@ -1915,7 +1937,9 @@ let nationalDex = {
         family: "Caterpie",
         tags: [],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Weedle",
@@ -1939,7 +1963,9 @@ let nationalDex = {
         family: "Weedle",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Kakuna",
@@ -1963,7 +1989,9 @@ let nationalDex = {
         family: "Weedle",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Beedrill",
@@ -1987,7 +2015,9 @@ let nationalDex = {
         family: "Weedle",
         tags: [],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Pidgey",
@@ -2011,7 +2041,9 @@ let nationalDex = {
         family: "Pidgey",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Pidgeotto",
@@ -2035,7 +2067,9 @@ let nationalDex = {
         family: "Pidgey",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Pidgeot",
@@ -2059,7 +2093,9 @@ let nationalDex = {
         family: "Pidgey",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Rattata",
@@ -2083,7 +2119,9 @@ let nationalDex = {
         family: "Rattata",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Raticate",
@@ -2107,7 +2145,9 @@ let nationalDex = {
         family: "Rattata",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Spearow",
@@ -2131,7 +2171,9 @@ let nationalDex = {
         family: "Spearow",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Fearow",
@@ -2155,7 +2197,9 @@ let nationalDex = {
         family: "Spearow",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Ekans",
@@ -2179,7 +2223,9 @@ let nationalDex = {
         family: "Ekans",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Arbok",
@@ -2203,7 +2249,9 @@ let nationalDex = {
         family: "Ekans",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Pikachu",
@@ -2227,7 +2275,9 @@ let nationalDex = {
         family: "Pichu",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Raichu",
@@ -2251,7 +2301,9 @@ let nationalDex = {
         family: "Pichu",
         tags: [],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Sandshrew",
@@ -2275,7 +2327,9 @@ let nationalDex = {
         family: "Sandshrew",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Sandslash",
@@ -2299,7 +2353,9 @@ let nationalDex = {
         family: "Sandshrew",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Nidoran♀",
@@ -2323,7 +2379,9 @@ let nationalDex = {
         family: "NidoranF",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Nidorina",
@@ -2347,7 +2405,9 @@ let nationalDex = {
         family: "NidoranF",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Nidoqueen",
@@ -2371,7 +2431,9 @@ let nationalDex = {
         family: "NidoranF",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Nidoran♂",
@@ -2395,7 +2457,9 @@ let nationalDex = {
         family: "NidoranM",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Nidorino",
@@ -2419,7 +2483,9 @@ let nationalDex = {
         family: "NidoranM",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Nidoking",
@@ -2443,7 +2509,9 @@ let nationalDex = {
         family: "NidoranM",
         tags: [],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Clefairy",
@@ -2467,7 +2535,9 @@ let nationalDex = {
         family: "Cleffa",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Clefable",
@@ -2491,7 +2561,9 @@ let nationalDex = {
         family: "Cleffa",
         tags: [],
         color: "Pink",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Vulpix",
@@ -2515,7 +2587,9 @@ let nationalDex = {
         family: "Vulpix",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Ninetales",
@@ -2539,7 +2613,9 @@ let nationalDex = {
         family: "Vulpix",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Jigglypuff",
@@ -2563,7 +2639,9 @@ let nationalDex = {
         family: "Igglybuff",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Wigglytuff",
@@ -2587,7 +2665,9 @@ let nationalDex = {
         family: "Igglybuff",
         tags: [],
         color: "Pink",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Zubat",
@@ -2611,7 +2691,9 @@ let nationalDex = {
         family: "Zubat",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Golbat",
@@ -2635,7 +2717,9 @@ let nationalDex = {
         family: "Zubat",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Oddish",
@@ -2659,7 +2743,9 @@ let nationalDex = {
         family: "Oddish",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Gloom",
@@ -2683,7 +2769,9 @@ let nationalDex = {
         family: "Oddish",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Vileplume",
@@ -2707,7 +2795,9 @@ let nationalDex = {
         family: "Oddish",
         tags: [],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Paras",
@@ -2731,7 +2821,9 @@ let nationalDex = {
         family: "Paras",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Parasect",
@@ -2755,7 +2847,9 @@ let nationalDex = {
         family: "Paras",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Venonat",
@@ -2779,7 +2873,9 @@ let nationalDex = {
         family: "Venonat",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Venomoth",
@@ -2803,7 +2899,9 @@ let nationalDex = {
         family: "Venonat",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Diglett",
@@ -2827,7 +2925,9 @@ let nationalDex = {
         family: "Diglett",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Dugtrio",
@@ -2851,7 +2951,9 @@ let nationalDex = {
         family: "Diglett",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Meowth",
@@ -2875,7 +2977,9 @@ let nationalDex = {
         family: "Meowth",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Persian",
@@ -2899,7 +3003,9 @@ let nationalDex = {
         family: "Meowth",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Psyduck",
@@ -2923,7 +3029,9 @@ let nationalDex = {
         family: "Psyduck",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Golduck",
@@ -2947,7 +3055,9 @@ let nationalDex = {
         family: "Psyduck",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Mankey",
@@ -2971,7 +3081,9 @@ let nationalDex = {
         family: "Mankey",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Primeape",
@@ -2995,7 +3107,9 @@ let nationalDex = {
         family: "Mankey",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Growlithe",
@@ -3019,7 +3133,9 @@ let nationalDex = {
         family: "Growlithe",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Arcanine",
@@ -3043,7 +3159,9 @@ let nationalDex = {
         family: "Growlithe",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Poliwag",
@@ -3067,7 +3185,9 @@ let nationalDex = {
         family: "Poliwag",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Poliwhirl",
@@ -3091,7 +3211,9 @@ let nationalDex = {
         family: "Poliwag",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Poliwrath",
@@ -3115,7 +3237,9 @@ let nationalDex = {
         family: "Poliwag",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Abra",
@@ -3139,7 +3263,9 @@ let nationalDex = {
         family: "Abra1",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Kadabra",
@@ -3163,7 +3289,9 @@ let nationalDex = {
         family: "Abra1",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Alakazam",
@@ -3187,7 +3315,9 @@ let nationalDex = {
         family: "Abra1",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Machop",
@@ -3211,7 +3341,9 @@ let nationalDex = {
         family: "Machop",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Machoke",
@@ -3235,7 +3367,9 @@ let nationalDex = {
         family: "Machop",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Machamp",
@@ -3259,7 +3393,9 @@ let nationalDex = {
         family: "Machop",
         tags: [],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Bellsprout",
@@ -3283,7 +3419,9 @@ let nationalDex = {
         family: "Bellsprout",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Weepinbell",
@@ -3307,7 +3445,9 @@ let nationalDex = {
         family: "Bellsprout",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Victreebel",
@@ -3331,7 +3471,9 @@ let nationalDex = {
         family: "Bellsprout",
         tags: [],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Tentacool",
@@ -3355,7 +3497,9 @@ let nationalDex = {
         family: "Tentacool",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Tentacruel",
@@ -3379,7 +3523,9 @@ let nationalDex = {
         family: "Tentacool",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Geodude",
@@ -3403,7 +3549,9 @@ let nationalDex = {
         family: "Geodude",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Graveler",
@@ -3427,7 +3575,9 @@ let nationalDex = {
         family: "Geodude",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Golem",
@@ -3451,7 +3601,9 @@ let nationalDex = {
         family: "Geodude",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Ponyta",
@@ -3475,7 +3627,9 @@ let nationalDex = {
         family: "Ponyta",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Rapidash",
@@ -3499,7 +3653,9 @@ let nationalDex = {
         family: "Ponyta",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Slowpoke",
@@ -3523,7 +3679,9 @@ let nationalDex = {
         family: "Slowpoke",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Slowbro",
@@ -3547,7 +3705,9 @@ let nationalDex = {
         family: "Slowpoke",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Magnemite",
@@ -3571,7 +3731,9 @@ let nationalDex = {
         family: "Magnemite",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Magneton",
@@ -3595,7 +3757,9 @@ let nationalDex = {
         family: "Magnemite",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Farfetch'd",
@@ -3619,7 +3783,9 @@ let nationalDex = {
         family: "Farfetchd",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Doduo",
@@ -3643,7 +3809,9 @@ let nationalDex = {
         family: "Doduo",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Dodrio",
@@ -3667,7 +3835,9 @@ let nationalDex = {
         family: "Doduo",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Seel",
@@ -3691,7 +3861,9 @@ let nationalDex = {
         family: "Seel",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Dewgong",
@@ -3715,7 +3887,9 @@ let nationalDex = {
         family: "Seel",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Grimer",
@@ -3739,7 +3913,9 @@ let nationalDex = {
         family: "Grimer",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Muk",
@@ -3763,7 +3939,9 @@ let nationalDex = {
         family: "Grimer",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Shellder",
@@ -3787,7 +3965,9 @@ let nationalDex = {
         family: "Shellder",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Cloyster",
@@ -3811,7 +3991,9 @@ let nationalDex = {
         family: "Shellder",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Gastly",
@@ -3835,7 +4017,9 @@ let nationalDex = {
         family: "Gastly",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Haunter",
@@ -3859,7 +4043,9 @@ let nationalDex = {
         family: "Gastly",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Gengar",
@@ -3883,7 +4069,9 @@ let nationalDex = {
         family: "Gastly",
         tags: [],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Onix",
@@ -3907,7 +4095,9 @@ let nationalDex = {
         family: "Onix",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Drowzee",
@@ -3931,7 +4121,9 @@ let nationalDex = {
         family: "Drowzee",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Hypno",
@@ -3955,7 +4147,9 @@ let nationalDex = {
         family: "Drowzee",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Krabby",
@@ -3979,7 +4173,9 @@ let nationalDex = {
         family: "Krabby",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Kingler",
@@ -4003,7 +4199,9 @@ let nationalDex = {
         family: "Krabby",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Voltorb",
@@ -4027,7 +4225,9 @@ let nationalDex = {
         family: "Voltorb",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Electrode",
@@ -4051,7 +4251,9 @@ let nationalDex = {
         family: "Voltorb",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Exeggcute",
@@ -4075,7 +4277,9 @@ let nationalDex = {
         family: "Exeggcute",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Exeggutor",
@@ -4099,7 +4303,9 @@ let nationalDex = {
         family: "Exeggcute",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Cubone",
@@ -4123,7 +4329,9 @@ let nationalDex = {
         family: "Cubone",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Marowak",
@@ -4147,7 +4355,9 @@ let nationalDex = {
         family: "Cubone",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Hitmonlee",
@@ -4171,7 +4381,9 @@ let nationalDex = {
         family: "Tyrogue",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Hitmonchan",
@@ -4195,7 +4407,9 @@ let nationalDex = {
         family: "Tyrogue",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Lickitung",
@@ -4219,7 +4433,9 @@ let nationalDex = {
         family: "Lickitung",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Koffing",
@@ -4243,7 +4459,9 @@ let nationalDex = {
         family: "Koffing",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Weezing",
@@ -4267,7 +4485,9 @@ let nationalDex = {
         family: "Koffing",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Rhyhorn",
@@ -4291,7 +4511,9 @@ let nationalDex = {
         family: "Rhyhorn",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Rhydon",
@@ -4315,7 +4537,9 @@ let nationalDex = {
         family: "Rhyhorn",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Chansey",
@@ -4339,7 +4563,9 @@ let nationalDex = {
         family: "Happiny",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Tangela",
@@ -4363,7 +4589,9 @@ let nationalDex = {
         family: "Tangela",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Kangaskhan",
@@ -4387,7 +4615,9 @@ let nationalDex = {
         family: "Kangaskhan",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Horsea",
@@ -4411,7 +4641,9 @@ let nationalDex = {
         family: "Horsea",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Seadra",
@@ -4435,7 +4667,9 @@ let nationalDex = {
         family: "Horsea",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Goldeen",
@@ -4459,7 +4693,9 @@ let nationalDex = {
         family: "Goldeen",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Seaking",
@@ -4483,7 +4719,9 @@ let nationalDex = {
         family: "Goldeen",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Staryu",
@@ -4507,7 +4745,9 @@ let nationalDex = {
         family: "Staryu",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Starmie",
@@ -4531,7 +4771,9 @@ let nationalDex = {
         family: "Staryu",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Mr. Mime",
@@ -4555,7 +4797,9 @@ let nationalDex = {
         family: "MimeJr",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Scyther",
@@ -4579,7 +4823,9 @@ let nationalDex = {
         family: "Scyther",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Jynx",
@@ -4603,7 +4849,9 @@ let nationalDex = {
         family: "Smoochum",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Electabuzz",
@@ -4627,7 +4875,9 @@ let nationalDex = {
         family: "Elekid",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Magmar",
@@ -4651,7 +4901,9 @@ let nationalDex = {
         family: "Magby",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Pinsir",
@@ -4675,7 +4927,9 @@ let nationalDex = {
         family: "Pinsir",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Tauros",
@@ -4699,7 +4953,9 @@ let nationalDex = {
         family: "Tauros",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Magikarp",
@@ -4723,7 +4979,9 @@ let nationalDex = {
         family: "Magikarp",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Gyarados",
@@ -4747,7 +5005,9 @@ let nationalDex = {
         family: "Magikarp",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Lapras",
@@ -4771,7 +5031,9 @@ let nationalDex = {
         family: "Lapras",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Ditto",
@@ -4795,7 +5057,9 @@ let nationalDex = {
         family: "Ditto",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Eevee",
@@ -4819,7 +5083,9 @@ let nationalDex = {
         family: "Eevee",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Vaporeon",
@@ -4843,7 +5109,9 @@ let nationalDex = {
         family: "Eevee",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Jolteon",
@@ -4867,7 +5135,9 @@ let nationalDex = {
         family: "Eevee",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Flareon",
@@ -4891,7 +5161,9 @@ let nationalDex = {
         family: "Eevee",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Porygon",
@@ -4915,7 +5187,9 @@ let nationalDex = {
         family: "Porygon",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Omanyte",
@@ -4939,7 +5213,9 @@ let nationalDex = {
         family: "Omanyte",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Omastar",
@@ -4963,7 +5239,9 @@ let nationalDex = {
         family: "Omanyte",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Kabuto",
@@ -4987,7 +5265,9 @@ let nationalDex = {
         family: "Kabuto",
         tags: ["Fossil"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Kabutops",
@@ -5011,7 +5291,9 @@ let nationalDex = {
         family: "Kabuto",
         tags: ["Fossil"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Aerodactyl",
@@ -5035,7 +5317,9 @@ let nationalDex = {
         family: "Aerodactyl",
         tags: ["Fossil"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Snorlax",
@@ -5059,7 +5343,9 @@ let nationalDex = {
         family: "Munchlax",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Articuno",
@@ -5083,7 +5369,9 @@ let nationalDex = {
         family: "Articuno",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Zapdos",
@@ -5107,7 +5395,9 @@ let nationalDex = {
         family: "Zapdos",
         tags: ["Legendary"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Moltres",
@@ -5131,7 +5421,9 @@ let nationalDex = {
         family: "Moltres",
         tags: ["Legendary"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Dratini",
@@ -5155,7 +5447,9 @@ let nationalDex = {
         family: "Dratini",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Dragonair",
@@ -5179,7 +5473,9 @@ let nationalDex = {
         family: "Dratini",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Dragonite",
@@ -5203,7 +5499,9 @@ let nationalDex = {
         family: "Dratini",
         tags: ["Pseudo"],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Mewtwo",
@@ -5227,7 +5525,9 @@ let nationalDex = {
         family: "Mewtwo",
         tags: ["Legendary"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Mew",
@@ -5251,7 +5551,9 @@ let nationalDex = {
         family: "Mew1",
         tags: ["Mythical"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Chikorita",
@@ -5275,7 +5577,9 @@ let nationalDex = {
         family: "Chikorita",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Bayleef",
@@ -5299,7 +5603,9 @@ let nationalDex = {
         family: "Chikorita",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Meganium",
@@ -5323,7 +5629,9 @@ let nationalDex = {
         family: "Chikorita",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Cyndaquil",
@@ -5347,7 +5655,9 @@ let nationalDex = {
         family: "Cyndaquil",
         tags: ["Starter"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Quilava",
@@ -5371,7 +5681,9 @@ let nationalDex = {
         family: "Cyndaquil",
         tags: ["Starter"],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Typhlosion",
@@ -5395,7 +5707,9 @@ let nationalDex = {
         family: "Cyndaquil",
         tags: ["Starter"],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Totodile",
@@ -5419,7 +5733,9 @@ let nationalDex = {
         family: "Totodile",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Croconaw",
@@ -5443,7 +5759,9 @@ let nationalDex = {
         family: "Totodile",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Feraligatr",
@@ -5467,7 +5785,9 @@ let nationalDex = {
         family: "Totodile",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Sentret",
@@ -5491,7 +5811,9 @@ let nationalDex = {
         family: "Sentret",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Furret",
@@ -5515,7 +5837,9 @@ let nationalDex = {
         family: "Sentret",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Hoothoot",
@@ -5539,7 +5863,9 @@ let nationalDex = {
         family: "Hoothoot",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Noctowl",
@@ -5563,7 +5889,9 @@ let nationalDex = {
         family: "Hoothoot",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Ledyba",
@@ -5587,7 +5915,9 @@ let nationalDex = {
         family: "Ledyba",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Ledian",
@@ -5611,7 +5941,9 @@ let nationalDex = {
         family: "Ledyba",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Spinarak",
@@ -5635,7 +5967,9 @@ let nationalDex = {
         family: "Spinarak",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Ariados",
@@ -5659,7 +5993,9 @@ let nationalDex = {
         family: "Spinarak",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Crobat",
@@ -5683,7 +6019,9 @@ let nationalDex = {
         family: "Zubat",
         tags: ["Cross-Gen"],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Chinchou",
@@ -5707,7 +6045,9 @@ let nationalDex = {
         family: "Chinchou",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Lanturn",
@@ -5731,7 +6071,9 @@ let nationalDex = {
         family: "Chinchou",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Pichu",
@@ -5755,7 +6097,9 @@ let nationalDex = {
         family: "Pichu",
         tags: ["Baby", "Cross-Gen"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Cleffa",
@@ -5779,7 +6123,9 @@ let nationalDex = {
         family: "Cleffa",
         tags: ["Baby", "Cross-Gen"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Igglybuff",
@@ -5803,7 +6149,9 @@ let nationalDex = {
         family: "Igglybuff",
         tags: ["Baby", "Cross-Gen"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Togepi",
@@ -5827,7 +6175,9 @@ let nationalDex = {
         family: "Togepi",
         tags: ["Baby"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Togetic",
@@ -5851,7 +6201,9 @@ let nationalDex = {
         family: "Togepi",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Natu",
@@ -5875,7 +6227,9 @@ let nationalDex = {
         family: "Natu1",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Xatu",
@@ -5899,7 +6253,9 @@ let nationalDex = {
         family: "Natu1",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Mareep",
@@ -5923,7 +6279,9 @@ let nationalDex = {
         family: "Mareep",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Flaaffy",
@@ -5947,7 +6305,9 @@ let nationalDex = {
         family: "Mareep",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Ampharos",
@@ -5971,7 +6331,9 @@ let nationalDex = {
         family: "Mareep",
         tags: [],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Bellossom",
@@ -5995,7 +6357,9 @@ let nationalDex = {
         family: "Oddish",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Marill",
@@ -6019,7 +6383,9 @@ let nationalDex = {
         family: "Azurill",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Azumarill",
@@ -6043,7 +6409,9 @@ let nationalDex = {
         family: "Azurill",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Sudowoodo",
@@ -6067,7 +6435,9 @@ let nationalDex = {
         family: "Bonsly",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Politoed",
@@ -6091,7 +6461,9 @@ let nationalDex = {
         family: "Poliwag",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Hoppip",
@@ -6115,7 +6487,9 @@ let nationalDex = {
         family: "Hoppip",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Skiploom",
@@ -6139,7 +6513,9 @@ let nationalDex = {
         family: "Hoppip",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Jumpluff",
@@ -6163,7 +6539,9 @@ let nationalDex = {
         family: "Hoppip",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Aipom",
@@ -6187,7 +6565,9 @@ let nationalDex = {
         family: "Aipom",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Sunkern",
@@ -6211,7 +6591,9 @@ let nationalDex = {
         family: "Sunkern",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Sunflora",
@@ -6235,7 +6617,9 @@ let nationalDex = {
         family: "Sunkern",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Yanma",
@@ -6259,7 +6643,9 @@ let nationalDex = {
         family: "Yanma",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Wooper",
@@ -6283,7 +6669,9 @@ let nationalDex = {
         family: "Wooper",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Quagsire",
@@ -6307,7 +6695,9 @@ let nationalDex = {
         family: "Wooper",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Espeon",
@@ -6331,7 +6721,9 @@ let nationalDex = {
         family: "Eevee",
         tags: ["Cross-Gen"],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Umbreon",
@@ -6355,7 +6747,9 @@ let nationalDex = {
         family: "Eevee",
         tags: ["Cross-Gen"],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Murkrow",
@@ -6379,7 +6773,9 @@ let nationalDex = {
         family: "Murkrow",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Slowking",
@@ -6403,7 +6799,9 @@ let nationalDex = {
         family: "Slowpoke",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Misdreavus",
@@ -6427,7 +6825,9 @@ let nationalDex = {
         family: "Misdreavus",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Unown",
@@ -6451,7 +6851,9 @@ let nationalDex = {
         family: "Unown",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Wobbuffet",
@@ -6475,7 +6877,9 @@ let nationalDex = {
         family: "Wynaut",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Girafarig",
@@ -6499,7 +6903,9 @@ let nationalDex = {
         family: "Girafarig",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Pineco",
@@ -6523,7 +6929,9 @@ let nationalDex = {
         family: "Pineco",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Forretress",
@@ -6547,7 +6955,9 @@ let nationalDex = {
         family: "Pineco",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Dunsparce",
@@ -6571,7 +6981,9 @@ let nationalDex = {
         family: "Dunsparce",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Gligar",
@@ -6595,7 +7007,9 @@ let nationalDex = {
         family: "Gligar",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Steelix",
@@ -6619,7 +7033,9 @@ let nationalDex = {
         family: "Onix",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Snubbull",
@@ -6643,7 +7059,9 @@ let nationalDex = {
         family: "Snubbull",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Granbull",
@@ -6667,7 +7085,9 @@ let nationalDex = {
         family: "Snubbull",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Qwilfish",
@@ -6691,7 +7111,9 @@ let nationalDex = {
         family: "Qwilfish",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Scizor",
@@ -6715,7 +7137,9 @@ let nationalDex = {
         family: "Scyther",
         tags: ["Cross-Gen"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Shuckle",
@@ -6739,7 +7163,9 @@ let nationalDex = {
         family: "Shuckle",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Heracross",
@@ -6763,7 +7189,9 @@ let nationalDex = {
         family: "Heracross",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Sneasel",
@@ -6787,7 +7215,9 @@ let nationalDex = {
         family: "Sneasel",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Teddiursa",
@@ -6811,7 +7241,9 @@ let nationalDex = {
         family: "Teddiursa",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Ursaring",
@@ -6835,7 +7267,9 @@ let nationalDex = {
         family: "Teddiursa",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Slugma",
@@ -6859,7 +7293,9 @@ let nationalDex = {
         family: "Slugma",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Magcargo",
@@ -6883,7 +7319,9 @@ let nationalDex = {
         family: "Slugma",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Swinub",
@@ -6907,7 +7345,9 @@ let nationalDex = {
         family: "Swinub",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Piloswine",
@@ -6931,7 +7371,9 @@ let nationalDex = {
         family: "Swinub",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Corsola",
@@ -6955,7 +7397,9 @@ let nationalDex = {
         family: "Corsola",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Remoraid",
@@ -6979,7 +7423,9 @@ let nationalDex = {
         family: "Remoraid",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Octillery",
@@ -7003,7 +7449,9 @@ let nationalDex = {
         family: "Remoraid",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Delibird",
@@ -7027,7 +7475,9 @@ let nationalDex = {
         family: "Delibird",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Mantine",
@@ -7051,7 +7501,9 @@ let nationalDex = {
         family: "Mantyke",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Skarmory",
@@ -7075,7 +7527,9 @@ let nationalDex = {
         family: "Skarmory",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Houndour",
@@ -7099,7 +7553,9 @@ let nationalDex = {
         family: "Houndour",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Houndoom",
@@ -7123,7 +7579,9 @@ let nationalDex = {
         family: "Houndour",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Kingdra",
@@ -7147,7 +7605,9 @@ let nationalDex = {
         family: "Horsea",
         tags: ["Cross-Gen"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Phanpy",
@@ -7171,7 +7631,9 @@ let nationalDex = {
         family: "Phanpy",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Donphan",
@@ -7195,7 +7657,9 @@ let nationalDex = {
         family: "Phanpy",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Porygon2",
@@ -7219,7 +7683,9 @@ let nationalDex = {
         family: "Porygon",
         tags: ["Cross-Gen"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Stantler",
@@ -7243,7 +7709,9 @@ let nationalDex = {
         family: "Stantler",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Smeargle",
@@ -7267,7 +7735,9 @@ let nationalDex = {
         family: "Smeargle",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Tyrogue",
@@ -7291,7 +7761,9 @@ let nationalDex = {
         family: "Tyrogue",
         tags: ["Baby", "Cross-Gen"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Hitmontop",
@@ -7315,7 +7787,9 @@ let nationalDex = {
         family: "Tyrogue",
         tags: ["Cross-Gen"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Smoochum",
@@ -7339,7 +7813,9 @@ let nationalDex = {
         family: "Smoochum",
         tags: ["Baby"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Elekid",
@@ -7363,7 +7839,9 @@ let nationalDex = {
         family: "Elekid",
         tags: ["Baby"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Magby",
@@ -7387,7 +7865,9 @@ let nationalDex = {
         family: "Magby",
         tags: ["Baby"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Miltank",
@@ -7411,7 +7891,9 @@ let nationalDex = {
         family: "Miltank",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Blissey",
@@ -7435,7 +7917,9 @@ let nationalDex = {
         family: "Happiny",
         tags: ["Cross-Gen"],
         color: "Pink",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Raikou",
@@ -7459,7 +7943,9 @@ let nationalDex = {
         family: "Raikou",
         tags: ["Legendary"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Entei",
@@ -7483,7 +7969,9 @@ let nationalDex = {
         family: "Entei",
         tags: ["Legendary"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Suicune",
@@ -7507,7 +7995,9 @@ let nationalDex = {
         family: "Suicune",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Larvitar",
@@ -7531,7 +8021,9 @@ let nationalDex = {
         family: "Larvitar",
         tags: ["Pseudo"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Pupitar",
@@ -7555,7 +8047,9 @@ let nationalDex = {
         family: "Larvitar",
         tags: ["Pseudo"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Tyranitar",
@@ -7579,7 +8073,9 @@ let nationalDex = {
         family: "Larvitar",
         tags: ["Pseudo"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Lugia",
@@ -7603,7 +8099,9 @@ let nationalDex = {
         family: "Lugia",
         tags: ["Legendary"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Ho-Oh",
@@ -7627,7 +8125,9 @@ let nationalDex = {
         family: "HoOh",
         tags: ["Legendary"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Celebi",
@@ -7651,7 +8151,9 @@ let nationalDex = {
         family: "Celebi",
         tags: ["Mythical"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Treecko",
@@ -7675,7 +8177,9 @@ let nationalDex = {
         family: "Treecko",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Grovyle",
@@ -7699,7 +8203,9 @@ let nationalDex = {
         family: "Treecko",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Sceptile",
@@ -7723,7 +8229,9 @@ let nationalDex = {
         family: "Treecko",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Torchic",
@@ -7747,7 +8255,9 @@ let nationalDex = {
         family: "Torchic",
         tags: ["Starter"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Combusken",
@@ -7771,7 +8281,9 @@ let nationalDex = {
         family: "Torchic",
         tags: ["Starter"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Blaziken",
@@ -7795,7 +8307,9 @@ let nationalDex = {
         family: "Torchic",
         tags: ["Starter"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Mudkip",
@@ -7819,7 +8333,9 @@ let nationalDex = {
         family: "Mudkip",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Marshtomp",
@@ -7843,7 +8359,9 @@ let nationalDex = {
         family: "Mudkip",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Swampert",
@@ -7867,7 +8385,9 @@ let nationalDex = {
         family: "Mudkip",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Poochyena",
@@ -7891,7 +8411,9 @@ let nationalDex = {
         family: "Poochyena",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Mightyena",
@@ -7915,7 +8437,9 @@ let nationalDex = {
         family: "Poochyena",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Zigzagoon",
@@ -7939,7 +8463,9 @@ let nationalDex = {
         family: "Zigzagoon",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Linoone",
@@ -7963,7 +8489,9 @@ let nationalDex = {
         family: "Zigzagoon",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Wurmple",
@@ -7987,7 +8515,9 @@ let nationalDex = {
         family: "Wurmple",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Silcoon",
@@ -8011,7 +8541,9 @@ let nationalDex = {
         family: "Wurmple",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Beautifly",
@@ -8035,7 +8567,9 @@ let nationalDex = {
         family: "Wurmple",
         tags: [],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Cascoon",
@@ -8059,7 +8593,9 @@ let nationalDex = {
         family: "Wurmple",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Dustox",
@@ -8083,7 +8619,9 @@ let nationalDex = {
         family: "Wurmple",
         tags: [],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Lotad",
@@ -8107,7 +8645,9 @@ let nationalDex = {
         family: "Lotad",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Lombre",
@@ -8131,7 +8671,9 @@ let nationalDex = {
         family: "Lotad",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Ludicolo",
@@ -8155,7 +8697,9 @@ let nationalDex = {
         family: "Lotad",
         tags: [],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Seedot",
@@ -8179,7 +8723,9 @@ let nationalDex = {
         family: "Seedot",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Nuzleaf",
@@ -8203,7 +8749,9 @@ let nationalDex = {
         family: "Seedot",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Shiftry",
@@ -8227,7 +8775,9 @@ let nationalDex = {
         family: "Seedot",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Taillow",
@@ -8251,7 +8801,9 @@ let nationalDex = {
         family: "Taillow",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Swellow",
@@ -8275,7 +8827,9 @@ let nationalDex = {
         family: "Taillow",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Wingull",
@@ -8299,7 +8853,9 @@ let nationalDex = {
         family: "Wingull",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Pelipper",
@@ -8323,7 +8879,9 @@ let nationalDex = {
         family: "Wingull",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Ralts",
@@ -8347,7 +8905,9 @@ let nationalDex = {
         family: "Ralts",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Kirlia",
@@ -8371,7 +8931,9 @@ let nationalDex = {
         family: "Ralts",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Gardevoir",
@@ -8395,7 +8957,9 @@ let nationalDex = {
         family: "Ralts",
         tags: [],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Surskit",
@@ -8419,7 +8983,9 @@ let nationalDex = {
         family: "Surskit",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Masquerain",
@@ -8443,7 +9009,9 @@ let nationalDex = {
         family: "Surskit",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Shroomish",
@@ -8467,7 +9035,9 @@ let nationalDex = {
         family: "Shroomish",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Breloom",
@@ -8491,7 +9061,9 @@ let nationalDex = {
         family: "Shroomish",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Slakoth",
@@ -8515,7 +9087,9 @@ let nationalDex = {
         family: "Slakoth",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Vigoroth",
@@ -8539,7 +9113,9 @@ let nationalDex = {
         family: "Slakoth",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Slaking",
@@ -8563,7 +9139,9 @@ let nationalDex = {
         family: "Slakoth",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Nincada",
@@ -8587,7 +9165,9 @@ let nationalDex = {
         family: "Nincada",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Ninjask",
@@ -8611,7 +9191,9 @@ let nationalDex = {
         family: "Nincada",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Shedinja",
@@ -8635,7 +9217,9 @@ let nationalDex = {
         family: "Nincada",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Whismur",
@@ -8659,7 +9243,9 @@ let nationalDex = {
         family: "Whismur",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Loudred",
@@ -8683,7 +9269,9 @@ let nationalDex = {
         family: "Whismur",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Exploud",
@@ -8707,7 +9295,9 @@ let nationalDex = {
         family: "Whismur",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Makuhita",
@@ -8731,7 +9321,9 @@ let nationalDex = {
         family: "Makuhita",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Hariyama",
@@ -8755,7 +9347,9 @@ let nationalDex = {
         family: "Makuhita",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Azurill",
@@ -8779,7 +9373,9 @@ let nationalDex = {
         family: "Azurill",
         tags: ["Baby", "Cross-Gen"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Nosepass",
@@ -8803,7 +9399,9 @@ let nationalDex = {
         family: "Nosepass",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Skitty",
@@ -8827,7 +9425,9 @@ let nationalDex = {
         family: "Skitty",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Delcatty",
@@ -8851,7 +9451,9 @@ let nationalDex = {
         family: "Skitty",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Sableye",
@@ -8875,7 +9477,9 @@ let nationalDex = {
         family: "Sableye",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Mawile",
@@ -8899,7 +9503,9 @@ let nationalDex = {
         family: "Mawile",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Aron",
@@ -8923,7 +9529,9 @@ let nationalDex = {
         family: "Aron",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Lairon",
@@ -8947,7 +9555,9 @@ let nationalDex = {
         family: "Aron",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Aggron",
@@ -8971,7 +9581,9 @@ let nationalDex = {
         family: "Aron",
         tags: [],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Meditite",
@@ -8995,7 +9607,9 @@ let nationalDex = {
         family: "Meditite",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Medicham",
@@ -9019,7 +9633,9 @@ let nationalDex = {
         family: "Meditite",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Electrike",
@@ -9043,7 +9659,9 @@ let nationalDex = {
         family: "Electrike",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Manectric",
@@ -9067,7 +9685,9 @@ let nationalDex = {
         family: "Electrike",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Plusle",
@@ -9091,7 +9711,9 @@ let nationalDex = {
         family: "Plusle",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Minun",
@@ -9115,7 +9737,9 @@ let nationalDex = {
         family: "Minun",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Volbeat",
@@ -9139,7 +9763,9 @@ let nationalDex = {
         family: "Volbeat",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Illumise",
@@ -9163,7 +9789,9 @@ let nationalDex = {
         family: "Illumise",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Roselia",
@@ -9187,7 +9815,9 @@ let nationalDex = {
         family: "Budew",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Gulpin",
@@ -9211,7 +9841,9 @@ let nationalDex = {
         family: "Gulpin",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Swalot",
@@ -9235,7 +9867,9 @@ let nationalDex = {
         family: "Gulpin",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Carvanha",
@@ -9259,7 +9893,9 @@ let nationalDex = {
         family: "Carvanha",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Sharpedo",
@@ -9283,7 +9919,9 @@ let nationalDex = {
         family: "Carvanha",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Wailmer",
@@ -9307,7 +9945,9 @@ let nationalDex = {
         family: "Wailmer",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Wailord",
@@ -9331,7 +9971,9 @@ let nationalDex = {
         family: "Wailmer",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Numel",
@@ -9355,7 +9997,9 @@ let nationalDex = {
         family: "Numel",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Camerupt",
@@ -9379,7 +10023,9 @@ let nationalDex = {
         family: "Numel",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Torkoal",
@@ -9403,7 +10049,9 @@ let nationalDex = {
         family: "Torkoal",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Spoink",
@@ -9427,7 +10075,9 @@ let nationalDex = {
         family: "Spoink",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Grumpig",
@@ -9451,7 +10101,9 @@ let nationalDex = {
         family: "Spoink",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Spinda",
@@ -9475,7 +10127,9 @@ let nationalDex = {
         family: "Spinda",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Trapinch",
@@ -9499,7 +10153,9 @@ let nationalDex = {
         family: "Trapinch",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Vibrava",
@@ -9523,7 +10179,9 @@ let nationalDex = {
         family: "Trapinch",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Flygon",
@@ -9547,7 +10205,9 @@ let nationalDex = {
         family: "Trapinch",
         tags: [],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Cacnea",
@@ -9571,7 +10231,9 @@ let nationalDex = {
         family: "Cacnea",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Cacturne",
@@ -9595,7 +10257,9 @@ let nationalDex = {
         family: "Cacnea",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Swablu",
@@ -9619,7 +10283,9 @@ let nationalDex = {
         family: "Swablu",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Altaria",
@@ -9643,7 +10309,9 @@ let nationalDex = {
         family: "Swablu",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Zangoose",
@@ -9667,7 +10335,9 @@ let nationalDex = {
         family: "Zangoose",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Seviper",
@@ -9691,7 +10361,9 @@ let nationalDex = {
         family: "Seviper",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Lunatone",
@@ -9715,7 +10387,9 @@ let nationalDex = {
         family: "Lunatone",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Solrock",
@@ -9739,7 +10413,9 @@ let nationalDex = {
         family: "Solrock",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Barboach",
@@ -9763,7 +10439,9 @@ let nationalDex = {
         family: "Barboach",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Whiscash",
@@ -9787,7 +10465,9 @@ let nationalDex = {
         family: "Barboach",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Corphish",
@@ -9811,7 +10491,9 @@ let nationalDex = {
         family: "Corphish",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Crawdaunt",
@@ -9835,7 +10517,9 @@ let nationalDex = {
         family: "Corphish",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Baltoy",
@@ -9859,7 +10543,9 @@ let nationalDex = {
         family: "Baltoy",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Claydol",
@@ -9883,7 +10569,9 @@ let nationalDex = {
         family: "Baltoy",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Lileep",
@@ -9907,7 +10595,9 @@ let nationalDex = {
         family: "Lileep",
         tags: ["Fossil"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Cradily",
@@ -9931,7 +10621,9 @@ let nationalDex = {
         family: "Lileep",
         tags: ["Fossil"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Anorith",
@@ -9955,7 +10647,9 @@ let nationalDex = {
         family: "Anorith",
         tags: ["Fossil"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Armaldo",
@@ -9979,7 +10673,9 @@ let nationalDex = {
         family: "Anorith",
         tags: ["Fossil"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Feebas",
@@ -10003,7 +10699,9 @@ let nationalDex = {
         family: "Feebas",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Milotic",
@@ -10027,7 +10725,9 @@ let nationalDex = {
         family: "Feebas",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Castform",
@@ -10051,7 +10751,9 @@ let nationalDex = {
         family: "Castform",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Kecleon",
@@ -10075,7 +10777,9 @@ let nationalDex = {
         family: "Kecleon",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Shuppet",
@@ -10099,7 +10803,9 @@ let nationalDex = {
         family: "Shuppet",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Banette",
@@ -10123,7 +10829,9 @@ let nationalDex = {
         family: "Shuppet",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Duskull",
@@ -10147,7 +10855,9 @@ let nationalDex = {
         family: "Duskull",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Dusclops",
@@ -10171,7 +10881,9 @@ let nationalDex = {
         family: "Duskull",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Tropius",
@@ -10195,7 +10907,9 @@ let nationalDex = {
         family: "Tropius",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Chimecho",
@@ -10219,7 +10933,9 @@ let nationalDex = {
         family: "Chingling",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Absol",
@@ -10243,7 +10959,9 @@ let nationalDex = {
         family: "Absol",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Wynaut",
@@ -10267,7 +10985,9 @@ let nationalDex = {
         family: "Wynaut",
         tags: ["Baby", "Cross-Gen"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Snorunt",
@@ -10291,7 +11011,9 @@ let nationalDex = {
         family: "Snorunt",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Glalie",
@@ -10315,7 +11037,9 @@ let nationalDex = {
         family: "Snorunt",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Spheal",
@@ -10339,7 +11063,9 @@ let nationalDex = {
         family: "Spheal",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Sealeo",
@@ -10363,7 +11089,9 @@ let nationalDex = {
         family: "Spheal",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Walrein",
@@ -10387,7 +11115,9 @@ let nationalDex = {
         family: "Spheal",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Clamperl",
@@ -10411,7 +11141,9 @@ let nationalDex = {
         family: "Clamperl",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Huntail",
@@ -10435,7 +11167,9 @@ let nationalDex = {
         family: "Clamperl",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Gorebyss",
@@ -10459,7 +11193,9 @@ let nationalDex = {
         family: "Clamperl",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Relicanth",
@@ -10483,7 +11219,9 @@ let nationalDex = {
         family: "Relicanth",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Luvdisc",
@@ -10507,7 +11245,9 @@ let nationalDex = {
         family: "Luvdisc",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Bagon",
@@ -10531,7 +11271,9 @@ let nationalDex = {
         family: "Bagon",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Shelgon",
@@ -10555,7 +11297,9 @@ let nationalDex = {
         family: "Bagon",
         tags: ["Pseudo"],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Salamence",
@@ -10579,7 +11323,9 @@ let nationalDex = {
         family: "Bagon",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Beldum",
@@ -10603,7 +11349,9 @@ let nationalDex = {
         family: "Beldum",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Metang",
@@ -10627,7 +11375,9 @@ let nationalDex = {
         family: "Beldum",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Metagross",
@@ -10651,7 +11401,9 @@ let nationalDex = {
         family: "Beldum",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Regirock",
@@ -10675,7 +11427,9 @@ let nationalDex = {
         family: "Regirock",
         tags: ["Legendary"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Regice",
@@ -10699,7 +11453,9 @@ let nationalDex = {
         family: "Regice",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Registeel",
@@ -10723,7 +11479,9 @@ let nationalDex = {
         family: "Registeel",
         tags: ["Legendary"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Latias",
@@ -10747,7 +11505,9 @@ let nationalDex = {
         family: "Latias",
         tags: ["Legendary"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Latios",
@@ -10771,7 +11531,9 @@ let nationalDex = {
         family: "Latios",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Kyogre",
@@ -10795,7 +11557,9 @@ let nationalDex = {
         family: "Kyogre",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Groudon",
@@ -10819,7 +11583,9 @@ let nationalDex = {
         family: "Groudon",
         tags: ["Legendary"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Rayquaza",
@@ -10843,7 +11609,9 @@ let nationalDex = {
         family: "Rayquaza",
         tags: ["Legendary"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Jirachi",
@@ -10867,7 +11635,9 @@ let nationalDex = {
         family: "Jirachi",
         tags: ["Mythical"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Deoxys",
@@ -10891,7 +11661,9 @@ let nationalDex = {
         family: "Deoxys",
         tags: ["Mythical"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Turtwig",
@@ -10915,7 +11687,9 @@ let nationalDex = {
         family: "Turtwig",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Grotle",
@@ -10939,7 +11713,9 @@ let nationalDex = {
         family: "Turtwig",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Torterra",
@@ -10963,7 +11739,9 @@ let nationalDex = {
         family: "Turtwig",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Chimchar",
@@ -10987,7 +11765,9 @@ let nationalDex = {
         family: "Chimchar",
         tags: ["Starter"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Monferno",
@@ -11011,7 +11791,9 @@ let nationalDex = {
         family: "Chimchar",
         tags: ["Starter"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Infernape",
@@ -11035,7 +11817,9 @@ let nationalDex = {
         family: "Chimchar",
         tags: ["Starter"],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Piplup",
@@ -11059,7 +11843,9 @@ let nationalDex = {
         family: "Piplup",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Prinplup",
@@ -11083,7 +11869,9 @@ let nationalDex = {
         family: "Piplup",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Empoleon",
@@ -11107,7 +11895,9 @@ let nationalDex = {
         family: "Piplup",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Starly",
@@ -11131,7 +11921,9 @@ let nationalDex = {
         family: "Starly",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Staravia",
@@ -11155,7 +11947,9 @@ let nationalDex = {
         family: "Starly",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Staraptor",
@@ -11179,7 +11973,9 @@ let nationalDex = {
         family: "Starly",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Bidoof",
@@ -11203,7 +11999,9 @@ let nationalDex = {
         family: "Bidoof",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Bibarel",
@@ -11227,7 +12025,9 @@ let nationalDex = {
         family: "Bidoof",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Kricketot",
@@ -11251,7 +12051,9 @@ let nationalDex = {
         family: "Kricketot",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Kricketune",
@@ -11275,7 +12077,9 @@ let nationalDex = {
         family: "Kricketot",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Shinx",
@@ -11299,7 +12103,9 @@ let nationalDex = {
         family: "Shinx",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Luxio",
@@ -11323,7 +12129,9 @@ let nationalDex = {
         family: "Shinx",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Luxray",
@@ -11347,7 +12155,9 @@ let nationalDex = {
         family: "Shinx",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Budew",
@@ -11371,7 +12181,9 @@ let nationalDex = {
         family: "Budew",
         tags: ["Baby", "Cross-Gen"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Roserade",
@@ -11395,7 +12207,9 @@ let nationalDex = {
         family: "Budew",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Cranidos",
@@ -11419,7 +12233,9 @@ let nationalDex = {
         family: "Cranidos",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Rampardos",
@@ -11443,7 +12259,9 @@ let nationalDex = {
         family: "Cranidos",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Shieldon",
@@ -11467,7 +12285,9 @@ let nationalDex = {
         family: "Shieldon",
         tags: ["Fossil"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Bastiodon",
@@ -11491,7 +12311,9 @@ let nationalDex = {
         family: "Shieldon",
         tags: ["Fossil"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Burmy",
@@ -11515,7 +12337,9 @@ let nationalDex = {
         family: "Burmy",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Wormadam",
@@ -11539,7 +12363,9 @@ let nationalDex = {
         family: "Burmy",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Mothim",
@@ -11563,7 +12389,9 @@ let nationalDex = {
         family: "Burmy",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Combee",
@@ -11587,7 +12415,9 @@ let nationalDex = {
         family: "Combee",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Vespiquen",
@@ -11611,7 +12441,9 @@ let nationalDex = {
         family: "Combee",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Pachirisu",
@@ -11635,7 +12467,9 @@ let nationalDex = {
         family: "Pachirisu",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Buizel",
@@ -11659,7 +12493,9 @@ let nationalDex = {
         family: "Buizel",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Floatzel",
@@ -11683,7 +12519,9 @@ let nationalDex = {
         family: "Buizel",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Cherubi",
@@ -11707,7 +12545,9 @@ let nationalDex = {
         family: "Cherubi",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Cherrim",
@@ -11731,7 +12571,9 @@ let nationalDex = {
         family: "Cherubi",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Shellos",
@@ -11755,7 +12597,9 @@ let nationalDex = {
         family: "Shellos",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Gastrodon",
@@ -11779,7 +12623,9 @@ let nationalDex = {
         family: "Shellos",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Ambipom",
@@ -11803,7 +12649,9 @@ let nationalDex = {
         family: "Aipom",
         tags: ["Cross-Gen"],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Drifloon",
@@ -11827,7 +12675,9 @@ let nationalDex = {
         family: "Drifloon",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Drifblim",
@@ -11851,7 +12701,9 @@ let nationalDex = {
         family: "Drifloon",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Buneary",
@@ -11875,7 +12727,9 @@ let nationalDex = {
         family: "Buneary",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Lopunny",
@@ -11899,7 +12753,9 @@ let nationalDex = {
         family: "Buneary",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Mismagius",
@@ -11923,7 +12779,9 @@ let nationalDex = {
         family: "Misdreavus",
         tags: ["Cross-Gen"],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Honchkrow",
@@ -11947,7 +12805,9 @@ let nationalDex = {
         family: "Murkrow",
         tags: ["Cross-Gen"],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Glameow",
@@ -11971,7 +12831,9 @@ let nationalDex = {
         family: "Glameow",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Purugly",
@@ -11995,7 +12857,9 @@ let nationalDex = {
         family: "Glameow",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Chingling",
@@ -12019,7 +12883,9 @@ let nationalDex = {
         family: "Chingling",
         tags: ["Baby", "Cross-Gen"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Stunky",
@@ -12043,7 +12909,9 @@ let nationalDex = {
         family: "Stunky",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Skuntank",
@@ -12067,7 +12935,9 @@ let nationalDex = {
         family: "Stunky",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Bronzor",
@@ -12091,7 +12961,9 @@ let nationalDex = {
         family: "Bronzor",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Bronzong",
@@ -12115,7 +12987,9 @@ let nationalDex = {
         family: "Bronzor",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Bonsly",
@@ -12139,7 +13013,9 @@ let nationalDex = {
         family: "Bonsly",
         tags: ["Baby", "Cross-Gen"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Mime Jr.",
@@ -12163,7 +13039,9 @@ let nationalDex = {
         family: "MimeJr",
         tags: ["Baby", "Cross-Gen"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Happiny",
@@ -12187,7 +13065,9 @@ let nationalDex = {
         family: "Happiny",
         tags: ["Baby", "Cross-Gen"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Chatot",
@@ -12211,7 +13091,9 @@ let nationalDex = {
         family: "Chatot",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Spiritomb",
@@ -12235,7 +13117,9 @@ let nationalDex = {
         family: "Spiritomb",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Gible",
@@ -12259,7 +13143,9 @@ let nationalDex = {
         family: "Gible",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Gabite",
@@ -12283,7 +13169,9 @@ let nationalDex = {
         family: "Gible",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Garchomp",
@@ -12307,7 +13195,9 @@ let nationalDex = {
         family: "Gible",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Munchlax",
@@ -12331,7 +13221,9 @@ let nationalDex = {
         family: "Munchlax",
         tags: ["Baby", "Cross-Gen"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Riolu",
@@ -12355,7 +13247,9 @@ let nationalDex = {
         family: "Riolu",
         tags: ["Baby"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Lucario",
@@ -12379,7 +13273,9 @@ let nationalDex = {
         family: "Riolu",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Hippopotas",
@@ -12403,7 +13299,9 @@ let nationalDex = {
         family: "Hippopotas",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Hippowdon",
@@ -12427,7 +13325,9 @@ let nationalDex = {
         family: "Hippopotas",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Skorupi",
@@ -12451,7 +13351,9 @@ let nationalDex = {
         family: "Skorupi",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Drapion",
@@ -12475,7 +13377,9 @@ let nationalDex = {
         family: "Skorupi",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Croagunk",
@@ -12499,7 +13403,9 @@ let nationalDex = {
         family: "Croagunk",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Toxicroak",
@@ -12523,7 +13429,9 @@ let nationalDex = {
         family: "Croagunk",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Carnivine",
@@ -12547,7 +13455,9 @@ let nationalDex = {
         family: "Carnivine",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Finneon",
@@ -12571,7 +13481,9 @@ let nationalDex = {
         family: "Finneon",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Lumineon",
@@ -12595,7 +13507,9 @@ let nationalDex = {
         family: "Finneon",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Mantyke",
@@ -12619,7 +13533,9 @@ let nationalDex = {
         family: "Mantyke",
         tags: ["Baby", "Cross-Gen"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Snover",
@@ -12643,7 +13559,9 @@ let nationalDex = {
         family: "Snover",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Abomasnow",
@@ -12667,7 +13585,9 @@ let nationalDex = {
         family: "Snover",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Weavile",
@@ -12691,7 +13611,9 @@ let nationalDex = {
         family: "Sneasel",
         tags: ["Cross-Gen"],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Magnezone",
@@ -12715,7 +13637,9 @@ let nationalDex = {
         family: "Magnemite",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Lickilicky",
@@ -12739,7 +13663,9 @@ let nationalDex = {
         family: "Lickitung",
         tags: ["Cross-Gen"],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Rhyperior",
@@ -12763,7 +13689,9 @@ let nationalDex = {
         family: "Rhyhorn",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Tangrowth",
@@ -12787,7 +13715,9 @@ let nationalDex = {
         family: "Tangela",
         tags: ["Cross-Gen"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Electivire",
@@ -12811,7 +13741,9 @@ let nationalDex = {
         family: "Elekid",
         tags: ["Cross-Gen"],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Magmortar",
@@ -12835,7 +13767,9 @@ let nationalDex = {
         family: "Magby",
         tags: ["Cross-Gen"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Togekiss",
@@ -12859,7 +13793,9 @@ let nationalDex = {
         family: "Togepi",
         tags: ["Cross-Gen"],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Yanmega",
@@ -12883,7 +13819,9 @@ let nationalDex = {
         family: "Yanma",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Leafeon",
@@ -12907,7 +13845,9 @@ let nationalDex = {
         family: "Eevee",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Glaceon",
@@ -12931,7 +13871,9 @@ let nationalDex = {
         family: "Eevee",
         tags: ["Cross-Gen"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Gliscor",
@@ -12955,7 +13897,9 @@ let nationalDex = {
         family: "Gligar",
         tags: ["Cross-Gen"],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Mamoswine",
@@ -12979,7 +13923,9 @@ let nationalDex = {
         family: "Swinub",
         tags: ["Cross-Gen"],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Porygon-Z",
@@ -13003,7 +13949,9 @@ let nationalDex = {
         family: "Porygon",
         tags: ["Cross-Gen"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Gallade",
@@ -13027,7 +13975,9 @@ let nationalDex = {
         family: "Ralts",
         tags: ["Cross-Gen"],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Probopass",
@@ -13051,7 +14001,9 @@ let nationalDex = {
         family: "Nosepass",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Dusknoir",
@@ -13075,7 +14027,9 @@ let nationalDex = {
         family: "Duskull",
         tags: ["Cross-Gen"],
         color: "Black",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Froslass",
@@ -13099,7 +14053,9 @@ let nationalDex = {
         family: "Snorunt",
         tags: ["Cross-Gen"],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Rotom",
@@ -13123,7 +14079,9 @@ let nationalDex = {
         family: "Rotom",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Uxie",
@@ -13147,7 +14105,9 @@ let nationalDex = {
         family: "Uxie",
         tags: ["Legendary"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Mesprit",
@@ -13171,7 +14131,9 @@ let nationalDex = {
         family: "Mesprit",
         tags: ["Legendary"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Azelf",
@@ -13195,7 +14157,9 @@ let nationalDex = {
         family: "Azelf",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Dialga",
@@ -13219,7 +14183,9 @@ let nationalDex = {
         family: "Dialga",
         tags: ["Legendary"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Palkia",
@@ -13243,7 +14209,9 @@ let nationalDex = {
         family: "Palkia",
         tags: ["Legendary"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Heatran",
@@ -13267,7 +14235,9 @@ let nationalDex = {
         family: "Heatran",
         tags: ["Legendary"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Regigigas",
@@ -13291,7 +14261,9 @@ let nationalDex = {
         family: "Regigigas",
         tags: ["Legendary"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Giratina",
@@ -13315,7 +14287,9 @@ let nationalDex = {
         family: "Giratina",
         tags: ["Legendary"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Cresselia",
@@ -13339,7 +14313,9 @@ let nationalDex = {
         family: "Cresselia",
         tags: ["Legendary"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Phione",
@@ -13363,7 +14339,9 @@ let nationalDex = {
         family: "Phione",
         tags: ["Mythical"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Manaphy",
@@ -13387,7 +14365,9 @@ let nationalDex = {
         family: "Manaphy",
         tags: ["Mythical"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Darkrai",
@@ -13411,7 +14391,9 @@ let nationalDex = {
         family: "Darkrai",
         tags: ["Mythical"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Shaymin",
@@ -13435,7 +14417,9 @@ let nationalDex = {
         family: "Shaymin",
         tags: ["Mythical"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Arceus",
@@ -13459,7 +14443,9 @@ let nationalDex = {
         family: "Arceus",
         tags: ["Mythical"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Victini",
@@ -13483,7 +14469,9 @@ let nationalDex = {
         family: "Victini",
         tags: ["Mythical"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Snivy",
@@ -13507,7 +14495,9 @@ let nationalDex = {
         family: "Snivy",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Servine",
@@ -13531,7 +14521,9 @@ let nationalDex = {
         family: "Snivy",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Serperior",
@@ -13555,7 +14547,9 @@ let nationalDex = {
         family: "Snivy",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Tepig",
@@ -13579,7 +14573,9 @@ let nationalDex = {
         family: "Tepig",
         tags: ["Starter"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Pignite",
@@ -13603,7 +14599,9 @@ let nationalDex = {
         family: "Tepig",
         tags: ["Starter"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Emboar",
@@ -13627,7 +14625,9 @@ let nationalDex = {
         family: "Tepig",
         tags: ["Starter"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Oshawott",
@@ -13651,7 +14651,9 @@ let nationalDex = {
         family: "Oshawott",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Dewott",
@@ -13675,7 +14677,9 @@ let nationalDex = {
         family: "Oshawott",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Samurott",
@@ -13699,7 +14703,9 @@ let nationalDex = {
         family: "Oshawott",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Patrat",
@@ -13723,7 +14729,9 @@ let nationalDex = {
         family: "Patrat",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Watchog",
@@ -13747,7 +14755,9 @@ let nationalDex = {
         family: "Patrat",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Lillipup",
@@ -13771,7 +14781,9 @@ let nationalDex = {
         family: "Lillipup",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Herdier",
@@ -13795,7 +14807,9 @@ let nationalDex = {
         family: "Lillipup",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Stoutland",
@@ -13819,7 +14833,9 @@ let nationalDex = {
         family: "Lillipup",
         tags: [],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Purrloin",
@@ -13843,7 +14859,9 @@ let nationalDex = {
         family: "Purrloin",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Liepard",
@@ -13867,7 +14885,9 @@ let nationalDex = {
         family: "Purrloin",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Pansage",
@@ -13891,7 +14911,9 @@ let nationalDex = {
         family: "Pansage",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Simisage",
@@ -13915,7 +14937,9 @@ let nationalDex = {
         family: "Pansage",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Pansear",
@@ -13939,7 +14963,9 @@ let nationalDex = {
         family: "Pansear",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Simisear",
@@ -13963,7 +14989,9 @@ let nationalDex = {
         family: "Pansear",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Panpour",
@@ -13987,7 +15015,9 @@ let nationalDex = {
         family: "Panpour",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Simipour",
@@ -14011,7 +15041,9 @@ let nationalDex = {
         family: "Panpour",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Munna",
@@ -14035,7 +15067,9 @@ let nationalDex = {
         family: "Munna",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Musharna",
@@ -14059,7 +15093,9 @@ let nationalDex = {
         family: "Munna",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Pidove",
@@ -14083,7 +15119,9 @@ let nationalDex = {
         family: "Pidove",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Tranquill",
@@ -14107,7 +15145,9 @@ let nationalDex = {
         family: "Pidove",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Unfezant",
@@ -14131,7 +15171,9 @@ let nationalDex = {
         family: "Pidove",
         tags: [],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Blitzle",
@@ -14155,7 +15197,9 @@ let nationalDex = {
         family: "Blitzle",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Zebstrika",
@@ -14179,7 +15223,9 @@ let nationalDex = {
         family: "Blitzle",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Roggenrola",
@@ -14203,7 +15249,9 @@ let nationalDex = {
         family: "Roggenrola",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Boldore",
@@ -14227,7 +15275,9 @@ let nationalDex = {
         family: "Roggenrola",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Gigalith",
@@ -14251,7 +15301,9 @@ let nationalDex = {
         family: "Roggenrola",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Woobat",
@@ -14275,7 +15327,9 @@ let nationalDex = {
         family: "Woobat",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Swoobat",
@@ -14299,7 +15353,9 @@ let nationalDex = {
         family: "Woobat",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Drilbur",
@@ -14323,7 +15379,9 @@ let nationalDex = {
         family: "Drilbur",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Excadrill",
@@ -14347,7 +15405,9 @@ let nationalDex = {
         family: "Drilbur",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Audino",
@@ -14371,7 +15431,9 @@ let nationalDex = {
         family: "Audino",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Timburr",
@@ -14395,7 +15457,9 @@ let nationalDex = {
         family: "Timburr",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Gurdurr",
@@ -14419,7 +15483,9 @@ let nationalDex = {
         family: "Timburr",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Conkeldurr",
@@ -14443,7 +15509,9 @@ let nationalDex = {
         family: "Timburr",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Tympole",
@@ -14467,7 +15535,9 @@ let nationalDex = {
         family: "Tympole",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Palpitoad",
@@ -14491,7 +15561,9 @@ let nationalDex = {
         family: "Tympole",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Seismitoad",
@@ -14515,7 +15587,9 @@ let nationalDex = {
         family: "Tympole",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Throh",
@@ -14539,7 +15613,9 @@ let nationalDex = {
         family: "Throh",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Sawk",
@@ -14563,7 +15639,9 @@ let nationalDex = {
         family: "Sawk",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Sewaddle",
@@ -14587,7 +15665,9 @@ let nationalDex = {
         family: "Sewaddle",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Swadloon",
@@ -14611,7 +15691,9 @@ let nationalDex = {
         family: "Sewaddle",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Leavanny",
@@ -14635,7 +15717,9 @@ let nationalDex = {
         family: "Sewaddle",
         tags: [],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Venipede",
@@ -14659,7 +15743,9 @@ let nationalDex = {
         family: "Venipede",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Whirlipede",
@@ -14683,7 +15769,9 @@ let nationalDex = {
         family: "Venipede",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Scolipede",
@@ -14707,7 +15795,9 @@ let nationalDex = {
         family: "Venipede",
         tags: [],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Cottonee",
@@ -14731,7 +15821,9 @@ let nationalDex = {
         family: "Cottonee",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Whimsicott",
@@ -14755,7 +15847,9 @@ let nationalDex = {
         family: "Cottonee",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Petilil",
@@ -14779,7 +15873,9 @@ let nationalDex = {
         family: "Petilil",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Lilligant",
@@ -14803,7 +15899,9 @@ let nationalDex = {
         family: "Petilil",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Basculin",
@@ -14827,7 +15925,9 @@ let nationalDex = {
         family: "Basculin",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Sandile",
@@ -14851,7 +15951,9 @@ let nationalDex = {
         family: "Sandile",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Krokorok",
@@ -14875,7 +15977,9 @@ let nationalDex = {
         family: "Sandile",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Krookodile",
@@ -14899,7 +16003,9 @@ let nationalDex = {
         family: "Sandile",
         tags: [],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Darumaka",
@@ -14923,7 +16029,9 @@ let nationalDex = {
         family: "Darumaka",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Darmanitan",
@@ -14947,7 +16055,9 @@ let nationalDex = {
         family: "Darumaka",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Maractus",
@@ -14971,7 +16081,9 @@ let nationalDex = {
         family: "Maractus",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Dwebble",
@@ -14995,7 +16107,9 @@ let nationalDex = {
         family: "Dwebble",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Crustle",
@@ -15019,7 +16133,9 @@ let nationalDex = {
         family: "Dwebble",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Scraggy",
@@ -15043,7 +16159,9 @@ let nationalDex = {
         family: "Scraggy",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Scrafty",
@@ -15067,7 +16185,9 @@ let nationalDex = {
         family: "Scraggy",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Sigilyph",
@@ -15091,7 +16211,9 @@ let nationalDex = {
         family: "Sigilyph",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Yamask",
@@ -15115,7 +16237,9 @@ let nationalDex = {
         family: "Yamask",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Cofagrigus",
@@ -15139,7 +16263,9 @@ let nationalDex = {
         family: "Yamask",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Tirtouga",
@@ -15163,7 +16289,9 @@ let nationalDex = {
         family: "Tirtouga",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Carracosta",
@@ -15187,7 +16315,9 @@ let nationalDex = {
         family: "Tirtouga",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Archen",
@@ -15211,7 +16341,9 @@ let nationalDex = {
         family: "Archen",
         tags: ["Fossil"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Archeops",
@@ -15235,7 +16367,9 @@ let nationalDex = {
         family: "Archen",
         tags: ["Fossil"],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Trubbish",
@@ -15259,7 +16393,9 @@ let nationalDex = {
         family: "Trubbish",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Garbodor",
@@ -15283,7 +16419,9 @@ let nationalDex = {
         family: "Trubbish",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Zorua",
@@ -15307,7 +16445,9 @@ let nationalDex = {
         family: "Zorua",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Zoroark",
@@ -15331,7 +16471,9 @@ let nationalDex = {
         family: "Zorua",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Minccino",
@@ -15355,7 +16497,9 @@ let nationalDex = {
         family: "Minccino",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Cinccino",
@@ -15379,7 +16523,9 @@ let nationalDex = {
         family: "Minccino",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Gothita",
@@ -15403,7 +16549,9 @@ let nationalDex = {
         family: "Gothita",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Gothorita",
@@ -15427,7 +16575,9 @@ let nationalDex = {
         family: "Gothita",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Gothitelle",
@@ -15451,7 +16601,9 @@ let nationalDex = {
         family: "Gothita",
         tags: [],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Solosis",
@@ -15475,7 +16627,9 @@ let nationalDex = {
         family: "Solosis",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Duosion",
@@ -15499,7 +16653,9 @@ let nationalDex = {
         family: "Solosis",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Reuniclus",
@@ -15523,7 +16679,9 @@ let nationalDex = {
         family: "Solosis",
         tags: [],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Ducklett",
@@ -15547,7 +16705,9 @@ let nationalDex = {
         family: "Ducklett",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Swanna",
@@ -15571,7 +16731,9 @@ let nationalDex = {
         family: "Ducklett",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Vanillite",
@@ -15595,7 +16757,9 @@ let nationalDex = {
         family: "Vanillite",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Vanillish",
@@ -15619,7 +16783,9 @@ let nationalDex = {
         family: "Vanillite",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Vanilluxe",
@@ -15643,7 +16809,9 @@ let nationalDex = {
         family: "Vanillite",
         tags: [],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Deerling",
@@ -15667,7 +16835,9 @@ let nationalDex = {
         family: "Deerling",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Sawsbuck",
@@ -15691,7 +16861,9 @@ let nationalDex = {
         family: "Deerling",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Emolga",
@@ -15715,7 +16887,9 @@ let nationalDex = {
         family: "Emolga",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Karrablast",
@@ -15739,7 +16913,9 @@ let nationalDex = {
         family: "Karrablast",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Escavalier",
@@ -15763,7 +16939,9 @@ let nationalDex = {
         family: "Karrablast",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Foongus",
@@ -15787,7 +16965,9 @@ let nationalDex = {
         family: "Foongus",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Amoonguss",
@@ -15811,7 +16991,9 @@ let nationalDex = {
         family: "Foongus",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Frillish",
@@ -15835,7 +17017,9 @@ let nationalDex = {
         family: "Frillish",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Jellicent",
@@ -15859,7 +17043,9 @@ let nationalDex = {
         family: "Frillish",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Alomomola",
@@ -15883,7 +17069,9 @@ let nationalDex = {
         family: "Alomomola",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Joltik",
@@ -15907,7 +17095,9 @@ let nationalDex = {
         family: "Joltik",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Galvantula",
@@ -15931,7 +17121,9 @@ let nationalDex = {
         family: "Joltik",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Ferroseed",
@@ -15955,7 +17147,9 @@ let nationalDex = {
         family: "Ferroseed",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Ferrothorn",
@@ -15979,7 +17173,9 @@ let nationalDex = {
         family: "Ferroseed",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Klink",
@@ -16003,7 +17199,9 @@ let nationalDex = {
         family: "Klink",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Klang",
@@ -16027,7 +17225,9 @@ let nationalDex = {
         family: "Klink",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Klinklang",
@@ -16051,7 +17251,9 @@ let nationalDex = {
         family: "Klink",
         tags: [],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Tynamo",
@@ -16075,7 +17277,9 @@ let nationalDex = {
         family: "Tynamo",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Eelektrik",
@@ -16099,7 +17303,9 @@ let nationalDex = {
         family: "Tynamo",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Eelektross",
@@ -16123,7 +17329,9 @@ let nationalDex = {
         family: "Tynamo",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Elgyem",
@@ -16147,7 +17355,9 @@ let nationalDex = {
         family: "Elgyem",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Beheeyem",
@@ -16171,7 +17381,9 @@ let nationalDex = {
         family: "Elgyem",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Litwick",
@@ -16195,7 +17407,9 @@ let nationalDex = {
         family: "Litwick",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Lampent",
@@ -16219,7 +17433,9 @@ let nationalDex = {
         family: "Litwick",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Chandelure",
@@ -16243,7 +17459,9 @@ let nationalDex = {
         family: "Litwick",
         tags: [],
         color: "Black",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Axew",
@@ -16267,7 +17485,9 @@ let nationalDex = {
         family: "Axew",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Fraxure",
@@ -16291,7 +17511,9 @@ let nationalDex = {
         family: "Axew",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Haxorus",
@@ -16315,7 +17537,9 @@ let nationalDex = {
         family: "Axew",
         tags: [],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Cubchoo",
@@ -16339,7 +17563,9 @@ let nationalDex = {
         family: "Cubchoo",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Beartic",
@@ -16363,7 +17589,9 @@ let nationalDex = {
         family: "Cubchoo",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Cryogonal",
@@ -16387,7 +17615,9 @@ let nationalDex = {
         family: "Cryogonal",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Shelmet",
@@ -16411,7 +17641,9 @@ let nationalDex = {
         family: "Shelmet",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Accelgor",
@@ -16435,7 +17667,9 @@ let nationalDex = {
         family: "Shelmet",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Stunfisk",
@@ -16459,7 +17693,9 @@ let nationalDex = {
         family: "Stunfisk",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Mienfoo",
@@ -16483,7 +17719,9 @@ let nationalDex = {
         family: "Mienfoo",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Mienshao",
@@ -16507,7 +17745,9 @@ let nationalDex = {
         family: "Mienfoo",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Druddigon",
@@ -16531,7 +17771,9 @@ let nationalDex = {
         family: "Druddigon",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Golett",
@@ -16555,7 +17797,9 @@ let nationalDex = {
         family: "Golett",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Golurk",
@@ -16579,7 +17823,9 @@ let nationalDex = {
         family: "Golett",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Pawniard",
@@ -16603,7 +17849,9 @@ let nationalDex = {
         family: "Pawniard",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Bisharp",
@@ -16627,7 +17875,9 @@ let nationalDex = {
         family: "Pawniard",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Bouffalant",
@@ -16651,7 +17901,9 @@ let nationalDex = {
         family: "Bouffalant",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Rufflet",
@@ -16675,7 +17927,9 @@ let nationalDex = {
         family: "Rufflet",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Braviary",
@@ -16699,7 +17953,9 @@ let nationalDex = {
         family: "Rufflet",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Vullaby",
@@ -16723,7 +17979,9 @@ let nationalDex = {
         family: "Vullaby",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Mandibuzz",
@@ -16747,7 +18005,9 @@ let nationalDex = {
         family: "Vullaby",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Heatmor",
@@ -16771,7 +18031,9 @@ let nationalDex = {
         family: "Heatmor",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Durant",
@@ -16795,7 +18057,9 @@ let nationalDex = {
         family: "Durant",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Deino",
@@ -16819,7 +18083,9 @@ let nationalDex = {
         family: "Deino",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Zweilous",
@@ -16843,7 +18109,9 @@ let nationalDex = {
         family: "Deino",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Hydreigon",
@@ -16867,7 +18135,9 @@ let nationalDex = {
         family: "Deino",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Larvesta",
@@ -16891,7 +18161,9 @@ let nationalDex = {
         family: "Larvesta",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Volcarona",
@@ -16915,7 +18187,9 @@ let nationalDex = {
         family: "Larvesta",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Cobalion",
@@ -16939,7 +18213,9 @@ let nationalDex = {
         family: "Cobalion",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Terrakion",
@@ -16963,7 +18239,9 @@ let nationalDex = {
         family: "Terrakion",
         tags: ["Legendary"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Virizion",
@@ -16987,7 +18265,9 @@ let nationalDex = {
         family: "Virizion",
         tags: ["Legendary"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Tornadus",
@@ -17011,7 +18291,9 @@ let nationalDex = {
         family: "Tornadus",
         tags: ["Legendary"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Flying.png",
+        type2Url: ""
     },
     {
         name: "Thundurus",
@@ -17035,7 +18317,9 @@ let nationalDex = {
         family: "Thundurus",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Reshiram",
@@ -17059,7 +18343,9 @@ let nationalDex = {
         family: "Reshiram",
         tags: ["Legendary"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Zekrom",
@@ -17083,7 +18369,9 @@ let nationalDex = {
         family: "Zekrom",
         tags: ["Legendary"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Landorus",
@@ -17107,7 +18395,9 @@ let nationalDex = {
         family: "Landorus",
         tags: ["Legendary"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Kyurem",
@@ -17131,7 +18421,9 @@ let nationalDex = {
         family: "Kyurem",
         tags: ["Legendary"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Keldeo",
@@ -17155,7 +18447,9 @@ let nationalDex = {
         family: "Keldeo",
         tags: ["Mythical"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Meloetta",
@@ -17179,7 +18473,9 @@ let nationalDex = {
         family: "Meloetta",
         tags: ["Mythical"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Genesect",
@@ -17203,7 +18499,9 @@ let nationalDex = {
         family: "Genesect",
         tags: ["Mythical"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Chespin",
@@ -17227,7 +18525,9 @@ let nationalDex = {
         family: "Chespin",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Quilladin",
@@ -17251,7 +18551,9 @@ let nationalDex = {
         family: "Chespin",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Chesnaught",
@@ -17275,7 +18577,9 @@ let nationalDex = {
         family: "Chespin",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Fennekin",
@@ -17299,7 +18603,9 @@ let nationalDex = {
         family: "Fennekin",
         tags: ["Starter"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Braixen",
@@ -17323,7 +18629,9 @@ let nationalDex = {
         family: "Fennekin",
         tags: ["Starter"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Delphox",
@@ -17347,7 +18655,9 @@ let nationalDex = {
         family: "Fennekin",
         tags: ["Starter"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Froakie",
@@ -17371,7 +18681,9 @@ let nationalDex = {
         family: "Froakie",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Frogadier",
@@ -17395,7 +18707,9 @@ let nationalDex = {
         family: "Froakie",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Greninja",
@@ -17419,7 +18733,9 @@ let nationalDex = {
         family: "Froakie",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Bunnelby",
@@ -17443,7 +18759,9 @@ let nationalDex = {
         family: "Bunnelby",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Diggersby",
@@ -17467,7 +18785,9 @@ let nationalDex = {
         family: "Bunnelby",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Fletchling",
@@ -17491,7 +18811,9 @@ let nationalDex = {
         family: "Fletchling",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Fletchinder",
@@ -17515,7 +18837,9 @@ let nationalDex = {
         family: "Fletchling",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Talonflame",
@@ -17539,7 +18863,9 @@ let nationalDex = {
         family: "Fletchling",
         tags: [],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Scatterbug",
@@ -17563,7 +18889,9 @@ let nationalDex = {
         family: "Scatterbug",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Spewpa",
@@ -17587,7 +18915,9 @@ let nationalDex = {
         family: "Scatterbug",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Vivillon",
@@ -17611,7 +18941,9 @@ let nationalDex = {
         family: "Scatterbug",
         tags: [],
         color: "Pink",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Litleo",
@@ -17635,7 +18967,9 @@ let nationalDex = {
         family: "Litleo",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Pyroar",
@@ -17659,7 +18993,9 @@ let nationalDex = {
         family: "Litleo",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Flabébé",
@@ -17683,7 +19019,9 @@ let nationalDex = {
         family: "Flabebe",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Floette",
@@ -17707,7 +19045,9 @@ let nationalDex = {
         family: "Flabebe",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Florges",
@@ -17731,7 +19071,9 @@ let nationalDex = {
         family: "Flabebe",
         tags: [],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Skiddo",
@@ -17755,7 +19097,9 @@ let nationalDex = {
         family: "Skiddo",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Gogoat",
@@ -17779,7 +19123,9 @@ let nationalDex = {
         family: "Skiddo",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Pancham",
@@ -17803,7 +19149,9 @@ let nationalDex = {
         family: "Pancham",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Pangoro",
@@ -17827,7 +19175,9 @@ let nationalDex = {
         family: "Pancham",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Furfrou",
@@ -17851,7 +19201,9 @@ let nationalDex = {
         family: "Furfrou",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Espurr",
@@ -17875,7 +19227,9 @@ let nationalDex = {
         family: "Espurr",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Meowstic",
@@ -17899,7 +19253,9 @@ let nationalDex = {
         family: "Espurr",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Honedge",
@@ -17923,7 +19279,9 @@ let nationalDex = {
         family: "Honedge",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Doublade",
@@ -17947,7 +19305,9 @@ let nationalDex = {
         family: "Honedge",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Aegislash",
@@ -17971,7 +19331,9 @@ let nationalDex = {
         family: "Honedge",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Spritzee",
@@ -17995,7 +19357,9 @@ let nationalDex = {
         family: "Spritzee",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Aromatisse",
@@ -18019,7 +19383,9 @@ let nationalDex = {
         family: "Spritzee",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Swirlix",
@@ -18043,7 +19409,9 @@ let nationalDex = {
         family: "Swirlix",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Slurpuff",
@@ -18067,7 +19435,9 @@ let nationalDex = {
         family: "Swirlix",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Inkay",
@@ -18091,7 +19461,9 @@ let nationalDex = {
         family: "Inkay",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Malamar",
@@ -18115,7 +19487,9 @@ let nationalDex = {
         family: "Inkay",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Binacle",
@@ -18139,7 +19513,9 @@ let nationalDex = {
         family: "Binacle",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Barbaracle",
@@ -18163,7 +19539,9 @@ let nationalDex = {
         family: "Binacle",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Skrelp",
@@ -18187,7 +19565,9 @@ let nationalDex = {
         family: "Skrelp",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Dragalge",
@@ -18211,7 +19591,9 @@ let nationalDex = {
         family: "Skrelp",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Clauncher",
@@ -18235,7 +19617,9 @@ let nationalDex = {
         family: "Clauncher",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Clawitzer",
@@ -18259,7 +19643,9 @@ let nationalDex = {
         family: "Clauncher",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Helioptile",
@@ -18283,7 +19669,9 @@ let nationalDex = {
         family: "Helioptile",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Heliolisk",
@@ -18307,7 +19695,9 @@ let nationalDex = {
         family: "Helioptile",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Tyrunt",
@@ -18331,7 +19721,9 @@ let nationalDex = {
         family: "Tyrunt",
         tags: ["Fossil"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Tyrantrum",
@@ -18355,7 +19747,9 @@ let nationalDex = {
         family: "Tyrunt",
         tags: ["Fossil"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Amaura",
@@ -18379,7 +19773,9 @@ let nationalDex = {
         family: "Amaura",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Aurorus",
@@ -18403,7 +19799,9 @@ let nationalDex = {
         family: "Amaura",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Sylveon",
@@ -18427,7 +19825,9 @@ let nationalDex = {
         family: "Eevee",
         tags: ["Cross-Gen"],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Hawlucha",
@@ -18451,7 +19851,9 @@ let nationalDex = {
         family: "Hawlucha",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Dedenne",
@@ -18475,7 +19877,9 @@ let nationalDex = {
         family: "Dedenne",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Carbink",
@@ -18499,7 +19903,9 @@ let nationalDex = {
         family: "Carbink",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Goomy",
@@ -18523,7 +19929,9 @@ let nationalDex = {
         family: "Goomy",
         tags: ["Pseudo"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Sliggoo",
@@ -18547,7 +19955,9 @@ let nationalDex = {
         family: "Goomy",
         tags: ["Pseudo"],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Goodra",
@@ -18571,7 +19981,9 @@ let nationalDex = {
         family: "Goomy",
         tags: ["Pseudo"],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Klefki",
@@ -18595,7 +20007,9 @@ let nationalDex = {
         family: "Klefki",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Phantump",
@@ -18619,7 +20033,9 @@ let nationalDex = {
         family: "Phantump",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Trevenant",
@@ -18643,7 +20059,9 @@ let nationalDex = {
         family: "Phantump",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Pumpkaboo",
@@ -18667,7 +20085,9 @@ let nationalDex = {
         family: "Pumpkaboo",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Gourgeist",
@@ -18691,7 +20111,9 @@ let nationalDex = {
         family: "Pumpkaboo",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Bergmite",
@@ -18715,7 +20137,9 @@ let nationalDex = {
         family: "Bergmite",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Avalugg",
@@ -18739,7 +20163,9 @@ let nationalDex = {
         family: "Bergmite",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Noibat",
@@ -18763,7 +20189,9 @@ let nationalDex = {
         family: "Noibat",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Flying.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Noivern",
@@ -18787,7 +20215,9 @@ let nationalDex = {
         family: "Noibat",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Flying.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Xerneas",
@@ -18811,7 +20241,9 @@ let nationalDex = {
         family: "Xerneas",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Yveltal",
@@ -18835,7 +20267,9 @@ let nationalDex = {
         family: "Yveltal",
         tags: ["Legendary"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Zygarde",
@@ -18859,7 +20293,9 @@ let nationalDex = {
         family: "Zygarde",
         tags: ["Legendary"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Diancie",
@@ -18883,7 +20319,9 @@ let nationalDex = {
         family: "Diancie",
         tags: ["Mythical"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Hoopa",
@@ -18907,7 +20345,9 @@ let nationalDex = {
         family: "Hoopa",
         tags: ["Mythical"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Volcanion",
@@ -18931,7 +20371,9 @@ let nationalDex = {
         family: "Volcanion",
         tags: ["Mythical"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Rowlet",
@@ -18955,7 +20397,9 @@ let nationalDex = {
         family: "Rowlet",
         tags: ["Starter"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Dartrix",
@@ -18979,7 +20423,9 @@ let nationalDex = {
         family: "Rowlet",
         tags: ["Starter"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Decidueye",
@@ -19003,7 +20449,9 @@ let nationalDex = {
         family: "Rowlet",
         tags: ["Starter"],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Litten",
@@ -19027,7 +20475,9 @@ let nationalDex = {
         family: "Litten",
         tags: ["Starter"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Torracat",
@@ -19051,7 +20501,9 @@ let nationalDex = {
         family: "Litten",
         tags: ["Starter"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Incineroar",
@@ -19075,7 +20527,9 @@ let nationalDex = {
         family: "Litten",
         tags: ["Starter"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Popplio",
@@ -19099,7 +20553,9 @@ let nationalDex = {
         family: "Popplio",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Brionne",
@@ -19123,7 +20579,9 @@ let nationalDex = {
         family: "Popplio",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Primarina",
@@ -19147,7 +20605,9 @@ let nationalDex = {
         family: "Popplio",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Pikipek",
@@ -19171,7 +20631,9 @@ let nationalDex = {
         family: "Pikipek",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Trumbeak",
@@ -19195,7 +20657,9 @@ let nationalDex = {
         family: "Pikipek",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Toucannon",
@@ -19219,7 +20683,9 @@ let nationalDex = {
         family: "Pikipek",
         tags: [],
         color: "Black",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Yungoos",
@@ -19243,7 +20709,9 @@ let nationalDex = {
         family: "Yungoos",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Gumshoos",
@@ -19267,7 +20735,9 @@ let nationalDex = {
         family: "Yungoos",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Grubbin",
@@ -19291,7 +20761,9 @@ let nationalDex = {
         family: "Grubbin",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Charjabug",
@@ -19315,7 +20787,9 @@ let nationalDex = {
         family: "Grubbin",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Vikavolt",
@@ -19339,7 +20813,9 @@ let nationalDex = {
         family: "Grubbin",
         tags: [],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Crabrawler",
@@ -19363,7 +20839,9 @@ let nationalDex = {
         family: "Crabrawler",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Crabominable",
@@ -19387,7 +20865,9 @@ let nationalDex = {
         family: "Crabrawler",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Oricorio",
@@ -19411,7 +20891,9 @@ let nationalDex = {
         family: "Oricorio",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Cutiefly",
@@ -19435,7 +20917,9 @@ let nationalDex = {
         family: "Cutiefly",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Ribombee",
@@ -19459,7 +20943,9 @@ let nationalDex = {
         family: "Cutiefly",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Rockruff",
@@ -19483,7 +20969,9 @@ let nationalDex = {
         family: "Rockruff",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Lycanroc",
@@ -19507,7 +20995,9 @@ let nationalDex = {
         family: "Rockruff",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Wishiwashi",
@@ -19531,7 +21021,9 @@ let nationalDex = {
         family: "Wishiwashi",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Mareanie",
@@ -19555,7 +21047,9 @@ let nationalDex = {
         family: "Mareanie",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Toxapex",
@@ -19579,7 +21073,9 @@ let nationalDex = {
         family: "Mareanie",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Mudbray",
@@ -19603,7 +21099,9 @@ let nationalDex = {
         family: "Mudbray",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Mudsdale",
@@ -19627,7 +21125,9 @@ let nationalDex = {
         family: "Mudbray",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Dewpider",
@@ -19651,7 +21151,9 @@ let nationalDex = {
         family: "Dewpider",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Araquanid",
@@ -19675,7 +21177,9 @@ let nationalDex = {
         family: "Dewpider",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Fomantis",
@@ -19699,7 +21203,9 @@ let nationalDex = {
         family: "Fomantis",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Lurantis",
@@ -19723,7 +21229,9 @@ let nationalDex = {
         family: "Fomantis",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Morelull",
@@ -19747,7 +21255,9 @@ let nationalDex = {
         family: "Morelull",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Shiinotic",
@@ -19771,7 +21281,9 @@ let nationalDex = {
         family: "Morelull",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Salandit",
@@ -19795,7 +21307,9 @@ let nationalDex = {
         family: "Salandit",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Salazzle",
@@ -19819,7 +21333,9 @@ let nationalDex = {
         family: "Salandit",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Stufful",
@@ -19843,7 +21359,9 @@ let nationalDex = {
         family: "Stufful",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Bewear",
@@ -19867,7 +21385,9 @@ let nationalDex = {
         family: "Stufful",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Bounsweet",
@@ -19891,7 +21411,9 @@ let nationalDex = {
         family: "Bounsweet",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Steenee",
@@ -19915,7 +21437,9 @@ let nationalDex = {
         family: "Bounsweet",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Tsareena",
@@ -19939,7 +21463,9 @@ let nationalDex = {
         family: "Bounsweet",
         tags: [],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Comfey",
@@ -19963,7 +21489,9 @@ let nationalDex = {
         family: "Comfey",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Oranguru",
@@ -19987,7 +21515,9 @@ let nationalDex = {
         family: "Oranguru",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Passimian",
@@ -20011,7 +21541,9 @@ let nationalDex = {
         family: "Passimian",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Wimpod",
@@ -20035,7 +21567,9 @@ let nationalDex = {
         family: "Wimpod",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Golisopod",
@@ -20059,7 +21593,9 @@ let nationalDex = {
         family: "Wimpod",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Sandygast",
@@ -20083,7 +21619,9 @@ let nationalDex = {
         family: "Sandygast",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Palossand",
@@ -20107,7 +21645,9 @@ let nationalDex = {
         family: "Sandygast",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Pyukumuku",
@@ -20131,7 +21671,9 @@ let nationalDex = {
         family: "Pyukumuku",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Type: Null",
@@ -20155,7 +21697,9 @@ let nationalDex = {
         family: "TypeNull",
         tags: ["Legendary"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Silvally",
@@ -20179,7 +21723,9 @@ let nationalDex = {
         family: "TypeNull",
         tags: ["Legendary"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Minior",
@@ -20203,7 +21749,9 @@ let nationalDex = {
         family: "Minior",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Komala",
@@ -20227,7 +21775,9 @@ let nationalDex = {
         family: "Komala",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Turtonator",
@@ -20251,7 +21801,9 @@ let nationalDex = {
         family: "Turtonator",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Togedemaru",
@@ -20275,7 +21827,9 @@ let nationalDex = {
         family: "Togedemaru",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Mimikyu",
@@ -20299,7 +21853,9 @@ let nationalDex = {
         family: "Mimikyu",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Bruxish",
@@ -20323,7 +21879,9 @@ let nationalDex = {
         family: "Bruxish",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Drampa",
@@ -20347,7 +21905,9 @@ let nationalDex = {
         family: "Drampa",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Dhelmise",
@@ -20371,7 +21931,9 @@ let nationalDex = {
         family: "Dhelmise",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Jangmo-o",
@@ -20395,7 +21957,9 @@ let nationalDex = {
         family: "Jangmoo",
         tags: ["Pseudo"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Hakamo-o",
@@ -20419,7 +21983,9 @@ let nationalDex = {
         family: "Jangmoo",
         tags: ["Pseudo"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Kommo-o",
@@ -20443,7 +22009,9 @@ let nationalDex = {
         family: "Jangmoo",
         tags: ["Pseudo"],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Tapu Koko",
@@ -20467,7 +22035,9 @@ let nationalDex = {
         family: "TapuKoko",
         tags: ["Legendary"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Tapu Lele",
@@ -20491,7 +22061,9 @@ let nationalDex = {
         family: "TapuLele",
         tags: ["Legendary"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Tapu Bulu",
@@ -20515,7 +22087,9 @@ let nationalDex = {
         family: "TapuBulu",
         tags: ["Legendary"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Tapu Fini",
@@ -20539,7 +22113,9 @@ let nationalDex = {
         family: "TapuFini",
         tags: ["Legendary"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Cosmog",
@@ -20563,7 +22139,9 @@ let nationalDex = {
         family: "Cosmog",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Cosmoem",
@@ -20587,7 +22165,9 @@ let nationalDex = {
         family: "Cosmog",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Solgaleo",
@@ -20611,7 +22191,9 @@ let nationalDex = {
         family: "Cosmog",
         tags: ["Legendary"],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Lunala",
@@ -20635,7 +22217,9 @@ let nationalDex = {
         family: "Cosmog",
         tags: ["Legendary"],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Nihilego",
@@ -20659,7 +22243,9 @@ let nationalDex = {
         family: "Nihilego",
         tags: ["Ultra Beast"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Buzzwole",
@@ -20683,7 +22269,9 @@ let nationalDex = {
         family: "Buzzwole",
         tags: ["Ultra Beast"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Pheromosa",
@@ -20707,7 +22295,9 @@ let nationalDex = {
         family: "Pheromosa",
         tags: ["Ultra Beast"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Xurkitree",
@@ -20731,7 +22321,9 @@ let nationalDex = {
         family: "Xurkitree",
         tags: ["Ultra Beast"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Celesteela",
@@ -20755,7 +22347,9 @@ let nationalDex = {
         family: "Celesteela",
         tags: ["Ultra Beast"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Kartana",
@@ -20779,7 +22373,9 @@ let nationalDex = {
         family: "Kartana",
         tags: ["Ultra Beast"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Guzzlord",
@@ -20803,7 +22399,9 @@ let nationalDex = {
         family: "Guzzlord",
         tags: ["Ultra Beast"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Necrozma",
@@ -20827,7 +22425,9 @@ let nationalDex = {
         family: "Necrozma",
         tags: ["Legendary"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Magearna",
@@ -20851,7 +22451,9 @@ let nationalDex = {
         family: "Magearna",
         tags: ["Mythical"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Marshadow",
@@ -20875,7 +22477,9 @@ let nationalDex = {
         family: "Marshadow",
         tags: ["Mythical"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Poipole",
@@ -20899,7 +22503,9 @@ let nationalDex = {
         family: "Poipole",
         tags: ["Ultra Beast"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: ""
     },
     {
         name: "Naganadel",
@@ -20923,7 +22529,9 @@ let nationalDex = {
         family: "Poipole",
         tags: ["Ultra Beast"],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Stakataka",
@@ -20947,7 +22555,9 @@ let nationalDex = {
         family: "Stakataka",
         tags: ["Ultra Beast"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Blacephalon",
@@ -20971,7 +22581,9 @@ let nationalDex = {
         family: "Blacephalon",
         tags: ["Ultra Beast"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Zeraora",
@@ -20995,7 +22607,9 @@ let nationalDex = {
         family: "Zeraora",
         tags: ["Mythical"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Meltan",
@@ -21019,7 +22633,9 @@ let nationalDex = {
         family: "Meltan",
         tags: ["Mythical"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Melmetal",
@@ -21043,7 +22659,9 @@ let nationalDex = {
         family: "Meltan",
         tags: ["Mythical"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Grookey",
@@ -21067,7 +22685,9 @@ let nationalDex = {
         family: "Grookey",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Thwackey",
@@ -21091,7 +22711,9 @@ let nationalDex = {
         family: "Grookey",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Rillaboom",
@@ -21115,7 +22737,9 @@ let nationalDex = {
         family: "Grookey",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Scorbunny",
@@ -21139,7 +22763,9 @@ let nationalDex = {
         family: "Scorbunny",
         tags: ["Starter"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Raboot",
@@ -21163,7 +22789,9 @@ let nationalDex = {
         family: "Scorbunny",
         tags: ["Starter"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Cinderace",
@@ -21187,7 +22815,9 @@ let nationalDex = {
         family: "Scorbunny",
         tags: ["Starter"],
         color: "White",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Sobble",
@@ -21211,7 +22841,9 @@ let nationalDex = {
         family: "Sobble",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Drizzile",
@@ -21235,7 +22867,9 @@ let nationalDex = {
         family: "Sobble",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Inteleon",
@@ -21259,7 +22893,9 @@ let nationalDex = {
         family: "Sobble",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Skwovet",
@@ -21283,7 +22919,9 @@ let nationalDex = {
         family: "Skwovet",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Greedent",
@@ -21307,7 +22945,9 @@ let nationalDex = {
         family: "Skwovet",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Rookidee",
@@ -21331,7 +22971,9 @@ let nationalDex = {
         family: "Rookidee",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Flying.png",
+        type2Url: ""
     },
     {
         name: "Corvisquire",
@@ -21355,7 +22997,9 @@ let nationalDex = {
         family: "Rookidee",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Flying.png",
+        type2Url: ""
     },
     {
         name: "Corviknight",
@@ -21379,7 +23023,9 @@ let nationalDex = {
         family: "Rookidee",
         tags: [],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Flying.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Blipbug",
@@ -21403,7 +23049,9 @@ let nationalDex = {
         family: "Blipbug",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Dottler",
@@ -21427,7 +23075,9 @@ let nationalDex = {
         family: "Blipbug",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Orbeetle",
@@ -21451,7 +23101,9 @@ let nationalDex = {
         family: "Blipbug",
         tags: [],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Nickit",
@@ -21475,7 +23127,9 @@ let nationalDex = {
         family: "Nickit",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Thievul",
@@ -21499,7 +23153,9 @@ let nationalDex = {
         family: "Nickit",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Gossifleur",
@@ -21523,7 +23179,9 @@ let nationalDex = {
         family: "Gossifleur",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Eldegoss",
@@ -21547,7 +23205,9 @@ let nationalDex = {
         family: "Gossifleur",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Wooloo",
@@ -21571,7 +23231,9 @@ let nationalDex = {
         family: "Wooloo",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Dubwool",
@@ -21595,7 +23257,9 @@ let nationalDex = {
         family: "Wooloo",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Chewtle",
@@ -21619,7 +23283,9 @@ let nationalDex = {
         family: "Chewtle",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Drednaw",
@@ -21643,7 +23309,9 @@ let nationalDex = {
         family: "Chewtle",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Yamper",
@@ -21667,7 +23335,9 @@ let nationalDex = {
         family: "Yamper",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Boltund",
@@ -21691,7 +23361,9 @@ let nationalDex = {
         family: "Yamper",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Rolycoly",
@@ -21715,7 +23387,9 @@ let nationalDex = {
         family: "Rolycoly",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Carkol",
@@ -21739,7 +23413,9 @@ let nationalDex = {
         family: "Rolycoly",
         tags: [],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Coalossal",
@@ -21763,7 +23439,9 @@ let nationalDex = {
         family: "Rolycoly",
         tags: [],
         color: "Black",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Applin",
@@ -21787,7 +23465,9 @@ let nationalDex = {
         family: "Applin",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Flapple",
@@ -21811,7 +23491,9 @@ let nationalDex = {
         family: "Applin",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Appletun",
@@ -21835,7 +23517,9 @@ let nationalDex = {
         family: "Applin",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Silicobra",
@@ -21859,7 +23543,9 @@ let nationalDex = {
         family: "Silicobra",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Sandaconda",
@@ -21883,7 +23569,9 @@ let nationalDex = {
         family: "Silicobra",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: ""
     },
     {
         name: "Cramorant",
@@ -21907,7 +23595,9 @@ let nationalDex = {
         family: "Cramorant",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Flying.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Arrokuda",
@@ -21931,7 +23621,9 @@ let nationalDex = {
         family: "Arrokuda",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Barraskewda",
@@ -21955,7 +23647,9 @@ let nationalDex = {
         family: "Arrokuda",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Toxel",
@@ -21979,7 +23673,9 @@ let nationalDex = {
         family: "Toxel",
         tags: ["Baby"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Toxtricity",
@@ -22003,7 +23699,9 @@ let nationalDex = {
         family: "Toxel",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Sizzlipede",
@@ -22027,7 +23725,9 @@ let nationalDex = {
         family: "Sizzlipede",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Centiskorch",
@@ -22051,7 +23751,9 @@ let nationalDex = {
         family: "Sizzlipede",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Clobbopus",
@@ -22075,7 +23777,9 @@ let nationalDex = {
         family: "Clobbopus",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Grapploct",
@@ -22099,7 +23803,9 @@ let nationalDex = {
         family: "Clobbopus",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Sinistea",
@@ -22123,7 +23829,9 @@ let nationalDex = {
         family: "Sinistea",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Polteageist",
@@ -22147,7 +23855,9 @@ let nationalDex = {
         family: "Sinistea",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Hatenna",
@@ -22171,7 +23881,9 @@ let nationalDex = {
         family: "Hatenna",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Hattrem",
@@ -22195,7 +23907,9 @@ let nationalDex = {
         family: "Hatenna",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Hatterene",
@@ -22219,7 +23933,9 @@ let nationalDex = {
         family: "Hatenna",
         tags: [],
         color: "Pink",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Impidimp",
@@ -22243,7 +23959,9 @@ let nationalDex = {
         family: "Impidimp",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Morgrem",
@@ -22267,7 +23985,9 @@ let nationalDex = {
         family: "Impidimp",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Grimmsnarl",
@@ -22291,7 +24011,9 @@ let nationalDex = {
         family: "Impidimp",
         tags: [],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Obstagoon",
@@ -22315,7 +24037,9 @@ let nationalDex = {
         family: "Zigzagoon",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Perrserker",
@@ -22339,7 +24063,9 @@ let nationalDex = {
         family: "Meowth",
         tags: ["Cross-Gen"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Cursola",
@@ -22363,7 +24089,9 @@ let nationalDex = {
         family: "Corsola",
         tags: ["Cross-Gen"],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Sirfetch'd",
@@ -22387,7 +24115,9 @@ let nationalDex = {
         family: "Farfetchd",
         tags: ["Cross-Gen"],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Mr. Rime",
@@ -22411,7 +24141,9 @@ let nationalDex = {
         family: "MimeJr",
         tags: ["Cross-Gen"],
         color: "Purple",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Runerigus",
@@ -22435,7 +24167,9 @@ let nationalDex = {
         family: "Yamask",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Milcery",
@@ -22459,7 +24193,9 @@ let nationalDex = {
         family: "Milcery",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Alcremie",
@@ -22483,7 +24219,9 @@ let nationalDex = {
         family: "Milcery",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Falinks",
@@ -22507,7 +24245,9 @@ let nationalDex = {
         family: "Falinks",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Pincurchin",
@@ -22531,7 +24271,9 @@ let nationalDex = {
         family: "Pincurchin",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Snom",
@@ -22555,7 +24297,9 @@ let nationalDex = {
         family: "Snom",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Frosmoth",
@@ -22579,7 +24323,9 @@ let nationalDex = {
         family: "Snom",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Bug.png"
     },
     {
         name: "Stonjourner",
@@ -22603,7 +24349,9 @@ let nationalDex = {
         family: "Stonjourner",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Eiscue",
@@ -22627,7 +24375,9 @@ let nationalDex = {
         family: "Eiscue",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Indeedee",
@@ -22651,7 +24401,9 @@ let nationalDex = {
         family: "Indeedee",
         tags: [],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Morpeko",
@@ -22675,7 +24427,9 @@ let nationalDex = {
         family: "Morpeko",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Cufant",
@@ -22699,7 +24453,9 @@ let nationalDex = {
         family: "Cufant",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Copperajah",
@@ -22723,7 +24479,9 @@ let nationalDex = {
         family: "Cufant",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Dracozolt",
@@ -22747,7 +24505,9 @@ let nationalDex = {
         family: "Dracozolt",
         tags: ["Fossil"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Arctozolt",
@@ -22771,7 +24531,9 @@ let nationalDex = {
         family: "Arctozolt",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Dracovish",
@@ -22795,7 +24557,9 @@ let nationalDex = {
         family: "Dracovish",
         tags: ["Fossil"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Arctovish",
@@ -22819,7 +24583,9 @@ let nationalDex = {
         family: "Arctovish",
         tags: ["Fossil"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Duraludon",
@@ -22843,7 +24609,9 @@ let nationalDex = {
         family: "Duraludon",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Dreepy",
@@ -22867,7 +24635,9 @@ let nationalDex = {
         family: "Dreepy",
         tags: ["Pseudo"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Drakloak",
@@ -22891,7 +24661,9 @@ let nationalDex = {
         family: "Dreepy",
         tags: ["Pseudo"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Dragapult",
@@ -22915,7 +24687,9 @@ let nationalDex = {
         family: "Dreepy",
         tags: ["Pseudo"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Zacian",
@@ -22939,7 +24713,9 @@ let nationalDex = {
         family: "Zacian",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Zamazenta",
@@ -22963,7 +24739,9 @@ let nationalDex = {
         family: "Zamazenta",
         tags: ["Legendary"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Eternatus",
@@ -22987,7 +24765,9 @@ let nationalDex = {
         family: "Eternatus",
         tags: ["Legendary"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Kubfu",
@@ -23011,7 +24791,9 @@ let nationalDex = {
         family: "Kubfu",
         tags: ["Legendary"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: ""
     },
     {
         name: "Urshifu",
@@ -23035,7 +24817,9 @@ let nationalDex = {
         family: "Kubfu",
         tags: ["Legendary"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Zarude",
@@ -23059,7 +24843,9 @@ let nationalDex = {
         family: "Zarude",
         tags: ["Mythical"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Regieleki",
@@ -23083,7 +24869,9 @@ let nationalDex = {
         family: "Regieleki",
         tags: ["Legendary"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Regidrago",
@@ -23107,7 +24895,9 @@ let nationalDex = {
         family: "Regidrago",
         tags: ["Legendary"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: ""
     },
     {
         name: "Glastrier",
@@ -23131,7 +24921,9 @@ let nationalDex = {
         family: "Glastrier",
         tags: ["Legendary"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Spectrier",
@@ -23155,7 +24947,9 @@ let nationalDex = {
         family: "Spectrier",
         tags: ["Legendary"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Calyrex",
@@ -23179,7 +24973,9 @@ let nationalDex = {
         family: "Calyrex",
         tags: ["Legendary"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Wyrdeer",
@@ -23203,7 +24999,9 @@ let nationalDex = {
         family: "Stantler",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Kleavor",
@@ -23227,7 +25025,9 @@ let nationalDex = {
         family: "Scyther",
         tags: ["Cross-Gen"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Rock.png"
     },
     {
         name: "Ursaluna",
@@ -23251,7 +25051,9 @@ let nationalDex = {
         family: "Teddiursa",
         tags: ["Cross-Gen"],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Basculegion",
@@ -23275,7 +25077,9 @@ let nationalDex = {
         family: "Basculin",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Sneasler",
@@ -23299,7 +25103,9 @@ let nationalDex = {
         family: "Sneasel",
         tags: ["Cross-Gen"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Overqwil",
@@ -23323,7 +25129,9 @@ let nationalDex = {
         family: "Qwilfish",
         tags: ["Cross-Gen"],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Enamorus",
@@ -23347,7 +25155,9 @@ let nationalDex = {
         family: "Enamorus",
         tags: ["Legendary"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Sprigatito",
@@ -23371,7 +25181,9 @@ let nationalDex = {
         family: "Sprigatito",
         tags: ["Starter"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Floragato",
@@ -23395,7 +25207,9 @@ let nationalDex = {
         family: "Sprigatito",
         tags: ["Starter"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Meowscarada",
@@ -23419,7 +25233,9 @@ let nationalDex = {
         family: "Sprigatito",
         tags: ["Starter"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Fuecoco",
@@ -23443,7 +25259,9 @@ let nationalDex = {
         family: "Fuecoco",
         tags: ["Starter"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Crocalor",
@@ -23467,7 +25285,9 @@ let nationalDex = {
         family: "Fuecoco",
         tags: ["Starter"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Skeledirge",
@@ -23491,7 +25311,9 @@ let nationalDex = {
         family: "Fuecoco",
         tags: ["Starter"],
         color: "Red",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Quaxly",
@@ -23515,7 +25337,9 @@ let nationalDex = {
         family: "Quaxly",
         tags: ["Starter"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Quaxwell",
@@ -23539,7 +25363,9 @@ let nationalDex = {
         family: "Quaxly",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Quaquaval",
@@ -23563,7 +25389,9 @@ let nationalDex = {
         family: "Quaxly",
         tags: ["Starter"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Lechonk",
@@ -23587,7 +25415,9 @@ let nationalDex = {
         family: "Lechonk",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Oinkologne",
@@ -23611,7 +25441,9 @@ let nationalDex = {
         family: "Lechonk",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Tarountula",
@@ -23635,7 +25467,9 @@ let nationalDex = {
         family: "Tarountula",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Spidops",
@@ -23659,7 +25493,9 @@ let nationalDex = {
         family: "Tarountula",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Nymble",
@@ -23683,7 +25519,9 @@ let nationalDex = {
         family: "",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Lokix",
@@ -23707,7 +25545,9 @@ let nationalDex = {
         family: "Nymble",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Pawmi",
@@ -23731,7 +25571,9 @@ let nationalDex = {
         family: "Pawmi",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Pawmo",
@@ -23755,7 +25597,9 @@ let nationalDex = {
         family: "Pawmi",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Pawmot",
@@ -23779,7 +25623,9 @@ let nationalDex = {
         family: "Pawmi",
         tags: [],
         color: "Yellow",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Tandemaus",
@@ -23803,7 +25649,9 @@ let nationalDex = {
         family: "Tandemaus",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Maushold",
@@ -23827,7 +25675,9 @@ let nationalDex = {
         family: "Tandemaus",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Fidough",
@@ -23851,7 +25701,9 @@ let nationalDex = {
         family: "Fidough",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Dachsbun",
@@ -23875,7 +25727,9 @@ let nationalDex = {
         family: "Fidough",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: ""
     },
     {
         name: "Smoliv",
@@ -23899,7 +25753,9 @@ let nationalDex = {
         family: "Smoliv",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Dolliv",
@@ -23923,7 +25779,9 @@ let nationalDex = {
         family: "Smoliv",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Arboliva",
@@ -23947,7 +25805,9 @@ let nationalDex = {
         family: "Smoliv",
         tags: [],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Squawkabilly",
@@ -23971,7 +25831,9 @@ let nationalDex = {
         family: "Squawkabilly",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Nacli",
@@ -23995,7 +25857,9 @@ let nationalDex = {
         family: "Nacli",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Naclstack",
@@ -24019,7 +25883,9 @@ let nationalDex = {
         family: "Nacli",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Garganacl",
@@ -24043,7 +25909,9 @@ let nationalDex = {
         family: "Nacli",
         tags: [],
         color: "Brown",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Charcadet",
@@ -24067,7 +25935,9 @@ let nationalDex = {
         family: "Charcadet",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: ""
     },
     {
         name: "Armarouge",
@@ -24091,7 +25961,9 @@ let nationalDex = {
         family: "Charcadet",
         tags: [],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Ceruledge",
@@ -24115,7 +25987,9 @@ let nationalDex = {
         family: "Charcadet",
         tags: [],
         color: "Purple",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Tadbulb",
@@ -24139,7 +26013,9 @@ let nationalDex = {
         family: "Tadbulb",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Bellibolt",
@@ -24163,7 +26039,9 @@ let nationalDex = {
         family: "Tadbulb",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: ""
     },
     {
         name: "Wattrel",
@@ -24187,7 +26065,9 @@ let nationalDex = {
         family: "Wattrel",
         tags: [],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Kilowattrel",
@@ -24211,7 +26091,9 @@ let nationalDex = {
         family: "Wattrel",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Maschiff",
@@ -24235,7 +26117,9 @@ let nationalDex = {
         family: "Maschiff",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Mabosstiff",
@@ -24259,7 +26143,9 @@ let nationalDex = {
         family: "Maschiff",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dark.png",
+        type2Url: ""
     },
     {
         name: "Shroodle",
@@ -24283,7 +26169,9 @@ let nationalDex = {
         family: "Shroodle",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Grafaiai",
@@ -24307,7 +26195,9 @@ let nationalDex = {
         family: "Shroodle",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Bramblin",
@@ -24331,7 +26221,9 @@ let nationalDex = {
         family: "Bramblin",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Brambleghast",
@@ -24355,7 +26247,9 @@ let nationalDex = {
         family: "Bramblin",
         tags: [],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Toedscool",
@@ -24379,7 +26273,9 @@ let nationalDex = {
         family: "Toedscool",
         tags: ["Convergent"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Toedscruel",
@@ -24403,7 +26299,9 @@ let nationalDex = {
         family: "Toedscool",
         tags: ["Convergent"],
         color: "Black",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Klawf",
@@ -24427,7 +26325,9 @@ let nationalDex = {
         family: "Klawf",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: ""
     },
     {
         name: "Capsakid",
@@ -24451,7 +26351,9 @@ let nationalDex = {
         family: "Capsakid",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Scovillain",
@@ -24475,7 +26377,9 @@ let nationalDex = {
         family: "Capsakid",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Rellor",
@@ -24499,7 +26403,9 @@ let nationalDex = {
         family: "Rellor",
         tags: [],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: ""
     },
     {
         name: "Rabsca",
@@ -24523,7 +26429,9 @@ let nationalDex = {
         family: "Rellor",
         tags: [],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Flittle",
@@ -24547,7 +26455,9 @@ let nationalDex = {
         family: "Flittle",
         tags: [],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Espathra",
@@ -24571,7 +26481,9 @@ let nationalDex = {
         family: "Flittle",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Psychic.png",
+        type2Url: ""
     },
     {
         name: "Tinkatink",
@@ -24595,7 +26507,9 @@ let nationalDex = {
         family: "Tinkatink",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Tinkatuff",
@@ -24619,7 +26533,9 @@ let nationalDex = {
         family: "Tinkatink",
         tags: [],
         color: "Pink",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Tinkaton",
@@ -24643,7 +26559,9 @@ let nationalDex = {
         family: "Tinkatink",
         tags: [],
         color: "Pink",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Wiglett",
@@ -24667,7 +26585,9 @@ let nationalDex = {
         family: "Wiglett",
         tags: ["Convergent"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Wugtrio",
@@ -24691,7 +26611,9 @@ let nationalDex = {
         family: "Wiglett",
         tags: ["Convergent"],
         color: "Red",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Bombirdier",
@@ -24715,7 +26637,9 @@ let nationalDex = {
         family: "Bombirdier",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Flying.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Finizen",
@@ -24739,7 +26663,9 @@ let nationalDex = {
         family: "Finizen",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Palafin",
@@ -24763,7 +26689,9 @@ let nationalDex = {
         family: "Finizen",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Varoom",
@@ -24787,7 +26715,9 @@ let nationalDex = {
         family: "Varoom",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Revavroom",
@@ -24811,7 +26741,9 @@ let nationalDex = {
         family: "Varoom",
         tags: [],
         color: "Gray",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Cyclizar",
@@ -24835,7 +26767,9 @@ let nationalDex = {
         family: "Cyclizar",
         tags: [],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Normal.png"
     },
     {
         name: "Orthworm",
@@ -24859,7 +26793,9 @@ let nationalDex = {
         family: "Orthworm",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: ""
     },
     {
         name: "Glimmet",
@@ -24883,7 +26819,9 @@ let nationalDex = {
         family: "Glimmet",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Glimmora",
@@ -24907,7 +26845,9 @@ let nationalDex = {
         family: "Glimmet",
         tags: [],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Greavard",
@@ -24931,7 +26871,9 @@ let nationalDex = {
         family: "Greavard",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Houndstone",
@@ -24955,7 +26897,9 @@ let nationalDex = {
         family: "Greavard",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Flamigo",
@@ -24979,7 +26923,9 @@ let nationalDex = {
         family: "Flamigo",
         tags: [],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Flying.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Cetoddle",
@@ -25003,7 +26949,9 @@ let nationalDex = {
         family: "Cetoddle",
         tags: [],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Cetitan",
@@ -25027,7 +26975,9 @@ let nationalDex = {
         family: "Cetoddle",
         tags: [],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Ice.png",
+        type2Url: ""
     },
     {
         name: "Veluza",
@@ -25051,7 +27001,9 @@ let nationalDex = {
         family: "Veluza",
         tags: [],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Dondozo",
@@ -25075,7 +27027,9 @@ let nationalDex = {
         family: "Dondozo",
         tags: [],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: ""
     },
     {
         name: "Tatsugiri",
@@ -25099,7 +27053,9 @@ let nationalDex = {
         family: "Tatsugiri",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Annihilape",
@@ -25123,7 +27079,9 @@ let nationalDex = {
         family: "Mankey",
         tags: ["Cross-Gen"],
         color: "Gray",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Clodsire",
@@ -25147,7 +27105,9 @@ let nationalDex = {
         family: "Wooper",
         tags: ["Cross-Gen"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Farigiraf",
@@ -25171,7 +27131,9 @@ let nationalDex = {
         family: "Girafarig",
         tags: ["Cross-Gen"],
         color: "Brown",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Dudunsparce",
@@ -25195,7 +27157,9 @@ let nationalDex = {
         family: "Dunsparce",
         tags: ["Cross-Gen"],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Kingambit",
@@ -25219,7 +27183,9 @@ let nationalDex = {
         family: "Pawniard",
         tags: ["Cross-Gen"],
         color: "Black",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Great Tusk",
@@ -25243,7 +27209,9 @@ let nationalDex = {
         family: "GreatTusk",
         tags: ["Paradox"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Scream Tail",
@@ -25267,7 +27235,9 @@ let nationalDex = {
         family: "ScreamTail",
         tags: ["Paradox"],
         color: "Pink",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Brute Bonnet",
@@ -25291,7 +27261,9 @@ let nationalDex = {
         family: "BruteBonnet",
         tags: ["Paradox"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Flutter Mane",
@@ -25315,7 +27287,9 @@ let nationalDex = {
         family: "FlutterMane",
         tags: ["Paradox"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Slither Wing",
@@ -25339,7 +27313,9 @@ let nationalDex = {
         family: "SlitherWing",
         tags: ["Paradox"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Bug.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Sandy Shocks",
@@ -25363,7 +27339,9 @@ let nationalDex = {
         family: "SandyShocks",
         tags: ["Paradox"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Iron Treads",
@@ -25387,7 +27365,9 @@ let nationalDex = {
         family: "IronTreads",
         tags: ["Paradox"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ground.png",
+        type2Url: "types/Steel.png"
     },
     {
         name: "Iron Bundle",
@@ -25411,7 +27391,9 @@ let nationalDex = {
         family: "IronBundle",
         tags: ["Paradox"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ice.png",
+        type2Url: "types/Water.png"
     },
     {
         name: "Iron Hands",
@@ -25435,7 +27417,9 @@ let nationalDex = {
         family: "IronHands",
         tags: ["Paradox"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Iron Jugulis",
@@ -25459,7 +27443,9 @@ let nationalDex = {
         family: "IronJugulis",
         tags: ["Paradox"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Flying.png"
     },
     {
         name: "Iron Moth",
@@ -25483,7 +27469,9 @@ let nationalDex = {
         family: "IronMoth",
         tags: ["Paradox"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Poison.png"
     },
     {
         name: "Iron Thorns",
@@ -25507,7 +27495,9 @@ let nationalDex = {
         family: "IronThorns",
         tags: ["Paradox"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Electric.png"
     },
     {
         name: "Frigibax",
@@ -25531,7 +27521,9 @@ let nationalDex = {
         family: "Frigibax",
         tags: ["Pseudo"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Arctibax",
@@ -25555,7 +27547,9 @@ let nationalDex = {
         family: "Frigibax",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Baxcalibur",
@@ -25579,7 +27573,9 @@ let nationalDex = {
         family: "Frigibax",
         tags: ["Pseudo"],
         color: "Blue",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Gimmighoul",
@@ -25603,7 +27599,9 @@ let nationalDex = {
         family: "Gimmighoul",
         tags: [],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Ghost.png",
+        type2Url: ""
     },
     {
         name: "Gholdengo",
@@ -25627,7 +27625,9 @@ let nationalDex = {
         family: "Gimmighoul",
         tags: [],
         color: "Yellow",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Wo-Chien",
@@ -25651,7 +27651,9 @@ let nationalDex = {
         family: "WoChien",
         tags: ["Legendary"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Grass.png"
     },
     {
         name: "Chien-Pao",
@@ -25675,7 +27677,9 @@ let nationalDex = {
         family: "ChienPao",
         tags: ["Legendary"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Ice.png"
     },
     {
         name: "Ting-Lu",
@@ -25699,7 +27703,9 @@ let nationalDex = {
         family: "TingLu",
         tags: ["Legendary"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Ground.png"
     },
     {
         name: "Chi-Yu",
@@ -25723,7 +27729,9 @@ let nationalDex = {
         family: "ChiYu",
         tags: ["Legendary"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dark.png",
+        type2Url: "types/Fire.png"
     },
     {
         name: "Roaring Moon",
@@ -25747,7 +27755,9 @@ let nationalDex = {
         family: "RoaringMoon",
         tags: ["Paradox"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Dragon.png",
+        type2Url: "types/Dark.png"
     },
     {
         name: "Iron Valiant",
@@ -25771,7 +27781,9 @@ let nationalDex = {
         family: "IronValiant",
         tags: ["Paradox"],
         color: "White",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fairy.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Koraidon",
@@ -25795,7 +27807,9 @@ let nationalDex = {
         family: "Koraidon",
         tags: ["Legendary", "Paradox"],
         color: "Red",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fighting.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Miraidon",
@@ -25819,7 +27833,9 @@ let nationalDex = {
         family: "Miraidon",
         tags: ["Legendary", "Paradox"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Walking Wake",
@@ -25843,7 +27859,9 @@ let nationalDex = {
         family: "WalkingWake",
         tags: ["Paradox"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Water.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Iron Leaves",
@@ -25867,7 +27885,9 @@ let nationalDex = {
         family: "IronLeaves",
         tags: ["Paradox"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Dipplin",
@@ -25891,7 +27911,9 @@ let nationalDex = {
         family: "Applin",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Poltchageist",
@@ -25915,7 +27937,9 @@ let nationalDex = {
         family: "Poltchageist",
         tags: ["Convergent"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Sinistcha",
@@ -25939,7 +27963,9 @@ let nationalDex = {
         family: "Poltchageist",
         tags: ["Convergent"],
         color: "Green",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Ghost.png"
     },
     {
         name: "Okidogi",
@@ -25963,7 +27989,9 @@ let nationalDex = {
         family: "Okidogi",
         tags: ["Legendary"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Fighting.png"
     },
     {
         name: "Munkidori",
@@ -25987,7 +28015,9 @@ let nationalDex = {
         family: "Munkidori",
         tags: ["Legendary"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Fezandipiti",
@@ -26011,7 +28041,9 @@ let nationalDex = {
         family: "Fezandipiti",
         tags: ["Legendary"],
         color: "Black",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Fairy.png"
     },
     {
         name: "Ogerpon",
@@ -26035,7 +28067,9 @@ let nationalDex = {
         family: "Ogerpon",
         tags: ["Legendary"],
         color: "Green",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Grass.png",
+        type2Url: ""
     },
     {
         name: "Archaludon",
@@ -26059,7 +28093,9 @@ let nationalDex = {
         family: "Duraludon",
         tags: ["Cross-Gen"],
         color: "White",
-        stage: "Second Stage"
+        stage: "Second Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Hydrapple",
@@ -26083,7 +28119,9 @@ let nationalDex = {
         family: "Applin",
         tags: ["Cross-Gen"],
         color: "Green",
-        stage: "Third Stage"
+        stage: "Third Stage",
+        type1Url: "types/Grass.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Gouging Fire",
@@ -26107,7 +28145,9 @@ let nationalDex = {
         family: "GougingFire",
         tags: ["Paradox"],
         color: "Brown",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Fire.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Raging Bolt",
@@ -26131,7 +28171,9 @@ let nationalDex = {
         family: "RagingBolt",
         tags: ["Paradox"],
         color: "Yellow",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Electric.png",
+        type2Url: "types/Dragon.png"
     },
     {
         name: "Iron Boulder",
@@ -26155,7 +28197,9 @@ let nationalDex = {
         family: "IronBoulder",
         tags: ["Paradox"],
         color: "Gray",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Rock.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Iron Crown",
@@ -26179,7 +28223,9 @@ let nationalDex = {
         family: "IronCrown",
         tags: ["Paradox"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Steel.png",
+        type2Url: "types/Psychic.png"
     },
     {
         name: "Terapagos",
@@ -26203,7 +28249,9 @@ let nationalDex = {
         family: "Terapagos",
         tags: ["Legendary"],
         color: "Blue",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Normal.png",
+        type2Url: ""
     },
     {
         name: "Pecharunt",
@@ -26227,7 +28275,9 @@ let nationalDex = {
         family: "Pecharunt",
         tags: ["Mythical"],
         color: "Purple",
-        stage: "First Stage"
+        stage: "First Stage",
+        type1Url: "types/Poison.png",
+        type2Url: "types/Ghost.png"
     },
 ]
 }
@@ -26250,6 +28300,27 @@ let dexRender = (pokedex) => {
         pokemonImage.style = "width:200px"
         let pokemonNumber = document.createElement("p")
         pokemonNumber.append("#", pocketMonster.number)
+        let typeicons = document.createElement("div")
+        let typeOne = document.createElement("img")
+        typeOne.src = pocketMonster.type1Url
+        typeOne.style = "height:18px"
+        typeOne.style = "width:90px"
+        let typeTwo = document.createElement("img")
+        typeTwo.src = pocketMonster.type2Url
+        typeTwo.style = "height:18px"
+        typeTwo.style = "width:90px"
+
+        let typeCount = function dualType(){
+            if (pocketMonster.type2Url === ""){
+                typeicons.append(typeOne)
+            }
+            else {
+                typeicons.append(typeOne)
+                typeicons.append(typeTwo)
+            }
+        }
+        typeCount()
+
         let pokemonType = document.createElement("p")
         let typeString = (pocketMonster.type).toString()
         let typeFormat = typeString.replace(",", "/")
@@ -26401,7 +28472,8 @@ favoritePokemon.addEventListener("click", favorite)
         divVariable.append(pokemonName)
         divVariable.append(pokemonImage)
         divVariable.append(pokemonNumber)
-        divVariable.append(pokemonType)
+        divVariable.append(typeicons)
+        // divVariable.append(pokemonType)
         divVariable.append(pokemonCategory)
         divVariable.append(pokemonRegion)
         divVariable.append(pokemonGeneration)
