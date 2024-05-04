@@ -20,7 +20,9 @@ let nationalDex = {
             cryUrl: "cries/003.mp3",
             ability: ["Overgrow", "Chlorophyll"],
             form: "Venusaur (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Venusaur",
@@ -40,7 +42,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/003-Mega.mp3",
             ability: ["Thick Fat"],
             form: "Mega Venusaur",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Venusaur",
@@ -60,7 +64,9 @@ let nationalDex = {
             cryUrl: "cries/003.mp3",
             ability: ["Overgrow", "Chlorophyll"],
             form: "Gigantamax Venusaur",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Charizard",
@@ -80,7 +86,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/006-MegaX.mp3",
             ability: ["Tough Claws"],
             form: "Mega Charizard X",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Charizard",
@@ -100,7 +108,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/006-MegaY.mp3",
             ability: ["Drought"],
             form: "Mega Charizard Y",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Charizard",
@@ -120,7 +130,9 @@ let nationalDex = {
             cryUrl: "cries/006.mp3",
             ability: ["Blaze", "Solar Power"],
             form: "Gigantamax Charizard",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Blastoise",
@@ -140,7 +152,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/009-Mega.mp3",
             ability: ["Mega Launcher"],
             form: "Mega Blastoise",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Blastoise",
@@ -160,7 +174,9 @@ let nationalDex = {
             cryUrl: "cries/009.mp3",
             ability: ["Torrent", "Rain Dish"],
             form: "Gigantamax Blastoise",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Butterfree",
@@ -180,7 +196,9 @@ let nationalDex = {
             cryUrl: "cries/012.mp3",
             ability: ["Compound Eyes", "Tinted Lens"],
             form: "Butterfree (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Butterfree",
@@ -200,7 +218,9 @@ let nationalDex = {
             cryUrl: "cries/012.mp3",
             ability: ["Compound Eyes", "Tinted Lens"],
             form: "Gigantamax Butterfree",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Beedrill",
@@ -220,7 +240,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/015-Mega.mp3",
             ability: ["Adaptability"],
             form: "Mega Beedrill",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Pidgeot",
@@ -240,7 +262,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/018-Mega.mp3",
             ability: ["No Guard"],
             form: "Mega Pidgeot",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Rattata",
@@ -260,7 +284,9 @@ let nationalDex = {
             cryUrl: "cries/019.mp3",
             ability: ["Run Away", "Guts", "Hustle"],
             form: "Rattata (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Rattata",
@@ -280,7 +306,9 @@ let nationalDex = {
             cryUrl: "cries/019.mp3",
             ability: ["Gluttony", "Hustle", "Thick Fat"],
             form: "Alolan Rattata",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Normal.png"
         },
         {
             name: "Raticate",
@@ -300,7 +328,9 @@ let nationalDex = {
             cryUrl: "cries/020.mp3",
             ability: ["Run Away", "Guts", "Hustle"],
             form: "Raticate (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Raticate",
@@ -320,7 +350,9 @@ let nationalDex = {
             cryUrl: "cries/020.mp3",
             ability: ["Gluttony", "Hustle", "Thick Fat"],
             form: "Alolan Raticate",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Normal.png"
         },
         {
             name: "Pikachu",
@@ -340,7 +372,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -360,7 +394,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Cosplay Pikachu",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -380,7 +416,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu Rock Star",
-            formType: ["Special Form", "Form Change"]
+            formType: ["Special Form", "Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -400,7 +438,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu Belle",
-            formType: ["Special Form", "Form Change"]
+            formType: ["Special Form", "Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -420,7 +460,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu Pop Star",
-            formType: ["Special Form", "Form Change"]
+            formType: ["Special Form", "Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -440,7 +482,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu, Ph. D",
-            formType: ["Special Form", "Form Change"]
+            formType: ["Special Form", "Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -460,7 +504,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu Libre",
-            formType: ["Special Form", "Form Change"]
+            formType: ["Special Form", "Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -480,7 +526,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Original Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -500,7 +548,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Hoenn Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -520,7 +570,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Sinnoh Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -540,7 +592,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Unova Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -560,7 +614,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Kalos Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -580,7 +636,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Alola Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -600,7 +658,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (Partner Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -620,7 +680,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Pikachu (World Cap)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -640,7 +702,9 @@ let nationalDex = {
             cryUrl: "cries/025.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Gigantamax Pikachu",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Raichu",
@@ -660,7 +724,9 @@ let nationalDex = {
             cryUrl: "cries/026.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Raichu (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Raichu",
@@ -680,7 +746,9 @@ let nationalDex = {
             cryUrl: "cries/026.mp3",
             ability: ["Surge Surfer"],
             form: "Alolan Raichu",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Sandshrew",
@@ -700,7 +768,9 @@ let nationalDex = {
             cryUrl: "cries/027.mp3",
             ability: ["Snow Cloak", "Slush Rush"],
             form: "Alolan Sandshrew",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Sandslash",
@@ -720,7 +790,9 @@ let nationalDex = {
             cryUrl: "cries/028.mp3",
             ability: ["Snow Cloak", "Slush Rush"],
             form: "Alolan Sandslash",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Vulpix",
@@ -740,7 +812,9 @@ let nationalDex = {
             cryUrl: "cries/037.mp3",
             ability: ["Snow Cloak", "Snow Warning"],
             form: "Alolan Vulpix",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Ninetales",
@@ -760,7 +834,9 @@ let nationalDex = {
             cryUrl: "cries/038.mp3",
             ability: ["Snow Cloak", "Snow Warning"],
             form: "Alolan Ninetales",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Zubat",
@@ -780,7 +856,9 @@ let nationalDex = {
             cryUrl: "cries/041.mp3",
             ability: ["Inner Focus", "Infiltrator"],
             form: "Zubat (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Golbat",
@@ -800,7 +878,9 @@ let nationalDex = {
             cryUrl: "cries/042.mp3",
             ability: ["Inner Focus", "Infiltrator"],
             form: "Golbat (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Gloom",
@@ -820,7 +900,9 @@ let nationalDex = {
             cryUrl: "cries/044.mp3",
             ability: ["Chlorophyll", "Stench"],
             form: "Gloom (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Vileplume",
@@ -840,7 +922,9 @@ let nationalDex = {
             cryUrl: "cries/045.mp3",
             ability: ["Chlorophyll", "Effect Spore"],
             form: "Vileplume (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Diglett",
@@ -860,7 +944,9 @@ let nationalDex = {
             cryUrl: "cries/050.mp3",
             ability: ["Sand Veil", "Tangling Hair", "Sand Force"],
             form: "Alolan Diglett",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Dugtrio",
@@ -880,7 +966,9 @@ let nationalDex = {
             cryUrl: "cries/051.mp3",
             ability: ["Sand Veil", "Tangling Hair", "Sand Force"],
             form: "Alolan Dugtrio",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Meowth",
@@ -900,7 +988,9 @@ let nationalDex = {
             cryUrl: "cries/052.mp3",
             ability: ["Pickup", "Technician", "Unnerve"],
             form: "Gigantamax Meowth",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Meowth",
@@ -920,7 +1010,9 @@ let nationalDex = {
             cryUrl: "cries/052.mp3",
             ability: ["Pickup", "Technician", "Rattled"],
             form: "Alolan Meowth",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Dark.png",
+            type2Url: ""
         },
         {
             name: "Meowth",
@@ -940,7 +1032,9 @@ let nationalDex = {
             cryUrl: "cries/052.mp3",
             ability: ["Pickup", "Tough Claws", "Unnerve"],
             form: "Galarian Meowth",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Steel.png",
+            type2Url: ""
         },
         {
             name: "Persian",
@@ -960,7 +1054,9 @@ let nationalDex = {
             cryUrl: "cries/053.mp3",
             ability: ["Fur Coat", "Technician", "Rattled"],
             form: "Alolan Persian",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Dark.png",
+            type2Url: ""
         },
         {
             name: "Growlithe",
@@ -980,7 +1076,9 @@ let nationalDex = {
             cryUrl: "cries/058.mp3",
             ability: ["Intimidate", "Flash Fire", "Justified"],
             form: "Hisuian Growlithe",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Arcanine",
@@ -1000,7 +1098,9 @@ let nationalDex = {
             cryUrl: "cries/059.mp3",
             ability: ["Intimidate", "Flash Fire", "Justified"],
             form: "Hisuian Arcanine",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Kadabra",
@@ -1020,7 +1120,9 @@ let nationalDex = {
             cryUrl: "cries/064.mp3",
             ability: ["Synchronize", "Inner Focus", "Magic Guard"],
             form: "Kadabra (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Alakazam",
@@ -1040,7 +1142,9 @@ let nationalDex = {
             cryUrl: "cries/065.mp3",
             ability: ["Synchronize", "Inner Focus", "Magic Guard"],
             form: "Alakazam (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Alakazam",
@@ -1060,7 +1164,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/065-Mega.mp3",
             ability: ["Trace"],
             form: "Mega Alakazam",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Machamp",
@@ -1080,7 +1186,9 @@ let nationalDex = {
             cryUrl: "cries/068.mp3",
             ability: ["Guts", "No Guard", "Steadfast"],
             form: "Gigantamax Machamp",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Geodude",
@@ -1100,7 +1208,9 @@ let nationalDex = {
             cryUrl: "cries/074.mp3",
             ability: ["Magnet Pull", "Sturdy", "Galvanize"],
             form: "Alolan Geodude",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Electric.png"
         },
         {
             name: "Graveler",
@@ -1120,7 +1230,9 @@ let nationalDex = {
             cryUrl: "cries/075.mp3",
             ability: ["Magnet Pull", "Sturdy", "Galvanize"],
             form: "Alolan Graveler",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Electric.png"
         },
         {
             name: "Golem",
@@ -1140,7 +1252,9 @@ let nationalDex = {
             cryUrl: "cries/076.mp3",
             ability: ["Magnet Pull", "Sturdy", "Galvanize"],
             form: "Alolan Golem",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Electric.png"
         },
         {
             name: "Ponyta",
@@ -1160,7 +1274,9 @@ let nationalDex = {
             cryUrl: "cries/077.mp3",
             ability: ["Run Away", "Pastel Veil", "Anticipation"],
             form: "Galarian Ponyta",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Rapidash",
@@ -1180,7 +1296,9 @@ let nationalDex = {
             cryUrl: "cries/078.mp3",
             ability: ["Run Away", "Pastel Veil", "Anticipation"],
             form: "Galarian Rapidash",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Slowpoke",
@@ -1200,7 +1318,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/079-Galar.mp3",
             ability: ["Gluttony", "Own Tempo", "Regenerator"],
             form: "Galarian Slowpoke",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Slowbro",
@@ -1220,7 +1340,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/080-Mega.mp3",
             ability: ["Shell Armor"],
             form: "Mega Slowbro",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Slowbro",
@@ -1240,7 +1362,9 @@ let nationalDex = {
             cryUrl: "cries/080.mp3",
             ability: ["Quick Draw", "Own Tempo", "Regenerator"],
             form: "Galarian Slowbro",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Farfetch'd",
@@ -1260,7 +1384,9 @@ let nationalDex = {
             cryUrl: "cries/083.mp3",
             ability: ["Steadfast", "Scrappy"],
             form: "Galarian Farfetch'd",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Doduo",
@@ -1280,7 +1406,9 @@ let nationalDex = {
             cryUrl: "cries/084.mp3",
             ability: ["Run Away", "Early Bird", "Tangled Feet"],
             form: "Doduo (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Dodrio",
@@ -1300,7 +1428,9 @@ let nationalDex = {
             cryUrl: "cries/085.mp3",
             ability: ["Run Away", "Early Bird", "Tangled Feet"],
             form: "Dodrio (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Grimer",
@@ -1320,7 +1450,9 @@ let nationalDex = {
             cryUrl: "cries/088.mp3",
             ability: ["Poison Touch", "Gluttony", "Power of Alchemy"],
             form: "Alolan Grimer",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Muk",
@@ -1340,7 +1472,9 @@ let nationalDex = {
             cryUrl: "cries/089.mp3",
             ability: ["Poison Touch", "Gluttony", "Power of Alchemy"],
             form: "Alolan Muk",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Gengar",
@@ -1360,7 +1494,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/094-Mega.mp3",
             ability: ["Shadow Tag"],
             form: "Mega Gengar",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Gengar",
@@ -1380,7 +1516,9 @@ let nationalDex = {
             cryUrl: "cries/094.mp3",
             ability: ["Cursed Body"],
             form: "Gigantamax Gengar",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Hypno",
@@ -1400,7 +1538,9 @@ let nationalDex = {
             cryUrl: "cries/097.mp3",
             ability: ["Insomnia", "Forewarn", "Inner Focus"],
             form: "Hypno (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Kingler",
@@ -1420,7 +1560,9 @@ let nationalDex = {
             cryUrl: "cries/099.mp3",
             ability: ["Hyper Cutter", "Shell Armor", "Sheer Force"],
             form: "Gigantamax Kingler",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Voltorb",
@@ -1440,7 +1582,9 @@ let nationalDex = {
             cryUrl: "cries/100.mp3",
             ability: ["Soundproof", "Static", "Aftermath"],
             form: "Hisuian Voltorb",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Electrode",
@@ -1460,7 +1604,9 @@ let nationalDex = {
             cryUrl: "cries/101.mp3",
             ability: ["Soundproof", "Static", "Aftermath"],
             form: "Hisuian Electrode",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Exeggutor",
@@ -1480,7 +1626,9 @@ let nationalDex = {
             cryUrl: "cries/103.mp3",
             ability: ["Frisk", "Harvest"],
             form: "Alolan Exeggutor",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Marowak",
@@ -1500,7 +1648,9 @@ let nationalDex = {
             cryUrl: "cries/105.mp3",
             ability: ["Cursed Body", "Lightning Rod", "Rock Head"],
             form: "Alolan Marowak",
-            formType: ["Regional Form", "Alolan Form"]
+            formType: ["Regional Form", "Alolan Form"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Weezing",
@@ -1520,7 +1670,9 @@ let nationalDex = {
             cryUrl: "cries/110.mp3",
             ability: ["Levitate", "Neutralizing Gas", "Misty Surge"],
             form: "Galarian Weezing",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Rhyhorn",
@@ -1540,7 +1692,9 @@ let nationalDex = {
             cryUrl: "cries/111.mp3",
             ability: ["Lightning Rod", "Rock Head", "Reckless"],
             form: "Rhyhorn (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Rhydon",
@@ -1560,7 +1714,9 @@ let nationalDex = {
             cryUrl: "cries/112.mp3",
             ability: ["Lightning Rod", "Rock Head", "Reckless"],
             form: "Rhydon (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Kangaskhan",
@@ -1580,7 +1736,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/115-Mega.mp3",
             ability: ["Parental Bond"],
             form: "Mega Kangaskhan",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Goldeen",
@@ -1600,7 +1758,9 @@ let nationalDex = {
             cryUrl: "cries/118.mp3",
             ability: ["Swift Swim", "Water Veil", "Lightning Rod"],
             form: "Goldeen (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Seaking",
@@ -1620,7 +1780,9 @@ let nationalDex = {
             cryUrl: "cries/119.mp3",
             ability: ["Swift Swim", "Water Veil", "Lightning Rod"],
             form: "Seaking (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Mr. Mime",
@@ -1640,7 +1802,9 @@ let nationalDex = {
             cryUrl: "cries/122.mp3",
             ability: ["Vital Spirit", "Screen Cleaner", "Ice Body"],
             form: "Galarian Mr. Mime",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Scyther",
@@ -1660,7 +1824,9 @@ let nationalDex = {
             cryUrl: "cries/123.mp3",
             ability: ["Swarm", "Technician", "Steadfast"],
             form: "Scyther (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Pinsir",
@@ -1680,7 +1846,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/127-Mega.mp3",
             ability: ["Aerilate"],
             form: "Mega Pinsir",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Tauros",
@@ -1700,7 +1868,9 @@ let nationalDex = {
             cryUrl: "cries/128.mp3",
             ability: ["Intimidate", "Anger Point", "Cud Chew"],
             form: "Paldean Tauros (Combat Breed)",
-            formType: ["Regional Form", "Paldean Form", "Variation"]
+            formType: ["Regional Form", "Paldean Form", "Variation"],
+            type1Url: "types/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Tauros",
@@ -1720,7 +1890,9 @@ let nationalDex = {
             cryUrl: "cries/128.mp3",
             ability: ["Intimidate", "Anger Point", "Cud Chew"],
             form: "Paldean Tauros (Blaze Breed)",
-            formType: ["Regional Form", "Paldean Form", "Variation"]
+            formType: ["Regional Form", "Paldean Form", "Variation"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Tauros",
@@ -1740,7 +1912,9 @@ let nationalDex = {
             cryUrl: "cries/128.mp3",
             ability: ["Intimidate", "Anger Point", "Cud Chew"],
             form: "Paldean Tauros (Aqua Breed)",
-            formType: ["Regional Form", "Paldean Form", "Variation"]
+            formType: ["Regional Form", "Paldean Form", "Variation"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Water.png"
         },{
             name: "Magikarp",
             imageUrl: "forms/129Magikarp-Female.png",
@@ -1759,7 +1933,9 @@ let nationalDex = {
             cryUrl: "cries/129.mp3",
             ability: ["Swift Swim", "Rattled"],
             form: "Magikarp (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Gyarados",
@@ -1779,7 +1955,9 @@ let nationalDex = {
             cryUrl: "cries/130.mp3",
             ability: ["Intimidate", "Moxie"],
             form: "Gyarados (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Gyarados",
@@ -1799,7 +1977,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/130-Mega.mp3",
             ability: ["Mold Breaker"],
             form: "Mega Gyarados",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Lapras",
@@ -1819,7 +1999,9 @@ let nationalDex = {
             cryUrl: "cries/131.mp3",
             ability: ["Water Absorb", "Shell Armor", "Hydration"],
             form: "Gigantamax Lapras",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Eevee",
@@ -1839,7 +2021,9 @@ let nationalDex = {
             cryUrl: "cries/133.mp3",
             ability: ["Run Away", "Adaptability", "Anticipation"],
             form: "Eevee (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Eevee",
@@ -1859,7 +2043,9 @@ let nationalDex = {
             cryUrl: "cries/133.mp3",
             ability: ["Run Away", "Adaptability", "Anticipation"],
             form: "Gigantamax Eevee",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Aerodactyl",
@@ -1879,7 +2065,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/142-Mega.mp3",
             ability: ["Tough Claws"],
             form: "Mega Aerodactyl",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Snorlax",
@@ -1899,7 +2087,9 @@ let nationalDex = {
             cryUrl: "cries/143.mp3",
             ability: ["Immunity", "Thick Fat", "Gluttony"],
             form: "Gigantamax Snorlax",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Articuno",
@@ -1919,7 +2109,9 @@ let nationalDex = {
             cryUrl: "cries/144.mp3",
             ability: ["Competitive"],
             form: "Galarian Articuno",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Zapdos",
@@ -1939,7 +2131,9 @@ let nationalDex = {
             cryUrl: "cries/145.mp3",
             ability: ["Defiant"],
             form: "Galarian Zapdos",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Moltres",
@@ -1959,7 +2153,9 @@ let nationalDex = {
             cryUrl: "cries/146.mp3",
             ability: ["Berserk"],
             form: "Galarian Moltres",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Mewtwo",
@@ -1979,7 +2175,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/150-MegaX.mp3",
             ability: ["Steadfast"],
             form: "Mega Mewtwo X",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Mewtwo",
@@ -1999,7 +2197,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/150-MegaY.mp3",
             ability: ["Insomnia"],
             form: "Mega Mewtwo Y",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Meganium",
@@ -2019,7 +2219,9 @@ let nationalDex = {
             cryUrl: "cries/154.mp3",
             ability: ["Overgrow", "Leaf Guard"],
             form: "Meganium (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: ""
         },
         {
             name: "Typhlosion",
@@ -2039,7 +2241,9 @@ let nationalDex = {
             cryUrl: "cries/157.mp3",
             ability: ["Blaze", "Flash Fire"],
             form: "Hisuian Typhlosion",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Ledyba",
@@ -2059,7 +2263,9 @@ let nationalDex = {
             cryUrl: "cries/165.mp3",
             ability: ["Swarm", "Early Bird", "Rattled"],
             form: "Ledyba (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Ledian",
@@ -2079,7 +2285,9 @@ let nationalDex = {
             cryUrl: "cries/166.mp3",
             ability: ["Swarm", "Early Bird", "Iron Fist"],
             form: "Ledian (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Pichu",
@@ -2099,7 +2307,9 @@ let nationalDex = {
             cryUrl: "cries/172.mp3",
             ability: ["Static", "Lightning Rod"],
             form: "Spiky-Eared Pichu",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Xatu",
@@ -2119,7 +2329,9 @@ let nationalDex = {
             cryUrl: "cries/178.mp3",
             ability: ["Synchronize", "Early Bird", "Magic Bounce"],
             form: "Xatu (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Ampharos",
@@ -2139,7 +2351,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/181-Mega.mp3",
             ability: ["Mold Breaker"],
             form: "Mega Ampharos",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Sudowoodo",
@@ -2159,7 +2373,9 @@ let nationalDex = {
             cryUrl: "cries/185.mp3",
             ability: ["Sturdy", "Rock Head", "Rattled"],
             form: "Sudowoodo (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Rock.png",
+            type2Url: ""
         },
         {
             name: "Politoed",
@@ -2179,7 +2395,9 @@ let nationalDex = {
             cryUrl: "cries/186.mp3",
             ability: ["Water Absorb", "Damp", "Drizzle"],
             form: "Politoed (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Aipom",
@@ -2199,7 +2417,9 @@ let nationalDex = {
             cryUrl: "cries/190.mp3",
             ability: ["Run Away", "Pickup", "Skill Link"],
             form: "Aipom (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Wooper",
@@ -2219,7 +2439,9 @@ let nationalDex = {
             cryUrl: "cries/194.mp3",
             ability: ["Damp", "Water Absorb", "Unaware"],
             form: "Wooper (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Wooper",
@@ -2239,7 +2461,9 @@ let nationalDex = {
             cryUrl: "cries/194.mp3",
             ability: ["Poison Point", "Water Absorb", "Unaware"],
             form: "Paldean Wooper",
-            formType: ["Regional Form", "Paldean Form"]
+            formType: ["Regional Form", "Paldean Form"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Quagsire",
@@ -2259,7 +2483,9 @@ let nationalDex = {
             cryUrl: "cries/195.mp3",
             ability: ["Damp", "Water Absorb", "Unaware"],
             form: "Quagsire (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Murkrow",
@@ -2279,7 +2505,9 @@ let nationalDex = {
             cryUrl: "cries/198.mp3",
             ability: ["Insomnia", "Super Luck", "Prankster"],
             form: "Murkrow (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Slowking",
@@ -2299,7 +2527,9 @@ let nationalDex = {
             cryUrl: "cries/199.mp3",
             ability: ["Curious Medicine", "Own Tempo", "Regenerator"],
             form: "Galarian Slowking",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Unown",
@@ -2319,7 +2549,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown A",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2339,7 +2571,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown B",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2359,7 +2593,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown C",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2379,7 +2615,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown D",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2399,7 +2637,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown E",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2419,7 +2659,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown G",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2439,7 +2681,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown H",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2459,7 +2703,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown I",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2479,7 +2725,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown J",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2499,7 +2747,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown K",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2519,7 +2769,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown L",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2539,7 +2791,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown M",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2559,7 +2813,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown N",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2579,7 +2835,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown O",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2599,7 +2857,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown P",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2619,7 +2879,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown Q",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2639,7 +2901,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown R",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2659,7 +2923,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown S",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2679,7 +2945,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown T",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2699,7 +2967,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown U",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2719,7 +2989,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown V",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2739,7 +3011,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown W",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2759,7 +3033,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown X",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2779,7 +3055,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown Y",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2799,7 +3077,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown Z",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2819,7 +3099,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown !",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Unown",
@@ -2839,7 +3121,9 @@ let nationalDex = {
             cryUrl: "cries/201.mp3",
             ability: ["Levitate"],
             form: "Unown ?",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Wobbuffet",
@@ -2859,7 +3143,9 @@ let nationalDex = {
             cryUrl: "cries/202.mp3",
             ability: ["Shadow Tag", "Telepathy"],
             form: "Wobbuffet (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Girafarig",
@@ -2879,7 +3165,9 @@ let nationalDex = {
             cryUrl: "cries/203.mp3",
             ability: ["Inner Focus", "Early Bird", "Sap Sipper"],
             form: "Girafarig (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Gligar",
@@ -2899,7 +3187,9 @@ let nationalDex = {
             cryUrl: "cries/207.mp3",
             ability: ["Hyper Cutter", "Sand Veil", "Immunity"],
             form: "Gligar (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Steelix",
@@ -2919,7 +3209,9 @@ let nationalDex = {
             cryUrl: "cries/208.mp3",
             ability: ["Rock Head", "Sturdy", "Sheer Force"],
             form: "Steelix (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Steelix",
@@ -2939,7 +3231,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/208-Mega.mp3",
             ability: ["Sand Force"],
             form: "Mega Steelix",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Qwilfish",
@@ -2959,7 +3253,9 @@ let nationalDex = {
             cryUrl: "cries/211.mp3",
             ability: ["Poison Point", "Swift Swim", "Intimidate"],
             form: "Hisuian Qwilfish",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Scizor",
@@ -2979,7 +3275,9 @@ let nationalDex = {
             cryUrl: "cries/212.mp3",
             ability: ["Swarm", "Technician", "Light Metal"],
             form: "Scizor (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Scizor",
@@ -2999,7 +3297,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/212-Mega.mp3",
             ability: ["Technician"],
             form: "Mega Scizor",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Heracross",
@@ -3019,7 +3319,9 @@ let nationalDex = {
             cryUrl: "cries/214.mp3",
             ability: ["Swarm", "Guts", "Moxie"],
             form: "Heracross (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Heracross",
@@ -3039,7 +3341,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/214-Mega.mp3",
             ability: ["Skill Link"],
             form: "Mega Heracross",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Sneasel",
@@ -3059,7 +3363,9 @@ let nationalDex = {
             cryUrl: "cries/215.mp3",
             ability: ["Inner Focus", "Keen Eye", "Pickpocket"],
             form: "Sneasel (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Sneasel",
@@ -3079,7 +3385,9 @@ let nationalDex = {
             cryUrl: "cries/215.mp3",
             ability: ["Inner Focus", "Keen Eye", "Poison Touch"],
             form: "Hisuian Sneasel",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Sneasel",
@@ -3099,7 +3407,9 @@ let nationalDex = {
             cryUrl: "cries/215.mp3",
             ability: ["Inner Focus", "Keen Eye", "Poison Touch"],
             form: "Hisuian Sneasel (Female)",
-            formType: ["Regional Form", "Hisuian Form", "Gender Difference"]
+            formType: ["Regional Form", "Hisuian Form", "Gender Difference"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Ursaring",
@@ -3119,7 +3429,9 @@ let nationalDex = {
             cryUrl: "cries/217.mp3",
             ability: ["Guts", "Quick Feet", "Unnerve"],
             form: "Ursaring (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Piloswine",
@@ -3139,7 +3451,9 @@ let nationalDex = {
             cryUrl: "cries/221.mp3",
             ability: ["Oblivious", "Snow Cloak", "Thick Fat"],
             form: "Piloswine (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Corsola",
@@ -3159,7 +3473,9 @@ let nationalDex = {
             cryUrl: "cries/222.mp3",
             ability: ["Weak Armor", "Cursed Body"],
             form: "Galarian Corsola",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Ghost.png",
+            type2Url: ""
         },
         {
             name: "Octillery",
@@ -3179,7 +3495,9 @@ let nationalDex = {
             cryUrl: "cries/224.mp3",
             ability: ["Suction Cups", "Sniper", "Moody"],
             form: "Octillery (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Houndoom",
@@ -3199,7 +3517,9 @@ let nationalDex = {
             cryUrl: "cries/229.mp3",
             ability: ["Early Bird", "Flash Fire", "Unnerve"],
             form: "Houndoom (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Houndoom",
@@ -3219,7 +3539,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/229-Mega.mp3",
             ability: ["Solar Power"],
             form: "Mega Houndoom",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Donphan",
@@ -3239,7 +3561,9 @@ let nationalDex = {
             cryUrl: "cries/232.mp3",
             ability: ["Sturdy", "Sand Veil"],
             form: "Donphan (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ground.png",
+            type2Url: ""
         },
         {
             name: "Tyranitar",
@@ -3259,7 +3583,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/248-Mega.mp3",
             ability: ["Sand Stream"],
             form: "Mega Tyranitar",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Sceptile",
@@ -3279,7 +3605,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/254-Mega.mp3",
             ability: ["Lightning Rod"],
             form: "Mega Sceptile",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Torchic",
@@ -3299,7 +3627,9 @@ let nationalDex = {
             cryUrl: "cries/255.mp3",
             ability: ["Blaze", "Speed Boost"],
             form: "Torchic (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fire.png",
+            type2Url: ""
         },
         {
             name: "Combusken",
@@ -3319,7 +3649,9 @@ let nationalDex = {
             cryUrl: "cries/256.mp3",
             ability: ["Blaze", "Speed Boost"],
             form: "Combusken (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Blaziken",
@@ -3339,7 +3671,9 @@ let nationalDex = {
             cryUrl: "cries/257.mp3",
             ability: ["Blaze", "Speed Boost"],
             form: "Blaziken (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Blaziken",
@@ -3359,7 +3693,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/257-Mega.mp3",
             ability: ["Speed Boost"],
             form: "Mega Blaziken",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Swampert",
@@ -3379,7 +3715,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/260-Mega.mp3",
             ability: ["Swift Swim"],
             form: "Mega Swampert",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Zigzagoon",
@@ -3399,7 +3737,9 @@ let nationalDex = {
             cryUrl: "cries/263.mp3",
             ability: ["Pickup", "Gluttony", "Quick Feet"],
             form: "Galarian Zigzagoon",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Normal.png"
         },
         {
             name: "Linoone",
@@ -3419,7 +3759,9 @@ let nationalDex = {
             cryUrl: "cries/264.mp3",
             ability: ["Pickup", "Gluttony", "Quick Feet"],
             form: "Galarian Linoone",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Normal.png"
         },
         {
             name: "Beautifly",
@@ -3439,7 +3781,9 @@ let nationalDex = {
             cryUrl: "cries/267.mp3",
             ability: ["Swarm", "Rivalry"],
             form: "Beautifly (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Dustox",
@@ -3459,7 +3803,9 @@ let nationalDex = {
             cryUrl: "cries/269.mp3",
             ability: ["Shield Dust", "Compound Eyes"],
             form: "Dustox (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Ludicolo",
@@ -3479,7 +3825,9 @@ let nationalDex = {
             cryUrl: "cries/272.mp3",
             ability: ["Swift Swim", "Rain Dish", "Own Tempo"],
             form: "Ludicolo (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Nuzleaf",
@@ -3499,7 +3847,9 @@ let nationalDex = {
             cryUrl: "cries/274.mp3",
             ability: ["Chlorophyll", "Early Bird", "Pickpocket"],
             form: "Nuzleaf (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Shiftry",
@@ -3519,7 +3869,9 @@ let nationalDex = {
             cryUrl: "cries/275.mp3",
             ability: ["Chlorophyll", "Wind Power", "Pickpocket"],
             form: "Shiftry (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Gardevoir",
@@ -3539,7 +3891,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/282-Mega.mp3",
             ability: ["Pixilate"],
             form: "Mega Gardevoir",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Sableye",
@@ -3559,7 +3913,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/302-Mega.mp3",
             ability: ["Magic Bounce"],
             form: "Mega Sableye",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Mawile",
@@ -3579,7 +3935,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/303-Mega.mp3",
             ability: ["Huge Power"],
             form: "Mega Mawile",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Aggron",
@@ -3599,7 +3957,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/306-Mega.mp3",
             ability: ["Filter"],
             form: "Mega Aggron",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Steel.png",
+            type2Url: ""
         },
         {
             name: "Meditite",
@@ -3619,7 +3979,9 @@ let nationalDex = {
             cryUrl: "cries/307.mp3",
             ability: ["Pure Power", "Telepathy"],
             form: "Meditite (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Medicham",
@@ -3639,7 +4001,9 @@ let nationalDex = {
             cryUrl: "cries/308.mp3",
             ability: ["Pure Power", "Telepathy"],
             form: "Medicham (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Medicham",
@@ -3659,7 +4023,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/308-Mega.mp3",
             ability: ["Pure Power"],
             form: "Mega Medicham",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Manectric",
@@ -3679,7 +4045,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/310-Mega.mp3",
             ability: ["Intimidate"],
             form: "Mega Manectric",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Roselia",
@@ -3699,7 +4067,9 @@ let nationalDex = {
             cryUrl: "cries/315.mp3",
             ability: ["Natural Cure", "Poison Point", "Leaf Guard"],
             form: "Roselia (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Gulpin",
@@ -3719,7 +4089,9 @@ let nationalDex = {
             cryUrl: "cries/316.mp3",
             ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"],
             form: "Gulpin (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Poison.png",
+            type2Url: ""
         },
         {
             name: "Swalot",
@@ -3739,7 +4111,9 @@ let nationalDex = {
             cryUrl: "cries/317.mp3",
             ability: ["Liquid Ooze", "Sticky Hold", "Gluttony"],
             form: "Swalot (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Poison.png",
+            type2Url: ""
         },
         {
             name: "Sharpedo",
@@ -3759,7 +4133,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/319-Mega.mp3",
             ability: ["Strong Jaw"],
             form: "Mega Sharpedo",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Numel",
@@ -3779,7 +4155,9 @@ let nationalDex = {
             cryUrl: "cries/322.mp3",
             ability: ["Oblivious", "Simple", "Own Tempo"],
             form: "Numel (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Camerupt",
@@ -3799,7 +4177,9 @@ let nationalDex = {
             cryUrl: "cries/323.mp3",
             ability: ["Magma Armor", "Solid Rock", "Anger Point"],
             form: "Camerupt (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Camerupt",
@@ -3819,7 +4199,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/323-Mega.mp3",
             ability: ["Sheer Force"],
             form: "Mega Camerupt",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Cacturne",
@@ -3839,7 +4221,9 @@ let nationalDex = {
             cryUrl: "cries/332.mp3",
             ability: ["Sand Veil", "Water Absorb"],
             form: "Cacturne (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Altaria",
@@ -3859,7 +4243,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/334-Mega.mp3",
             ability: ["Pixilate"],
             form: "Mega Altaria",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Milotic",
@@ -3879,7 +4265,9 @@ let nationalDex = {
             cryUrl: "cries/350.mp3",
             ability: ["Marvel Scale", "Competitive", "Cute Charm"],
             form: "Milotic (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Castform",
@@ -3899,7 +4287,9 @@ let nationalDex = {
             cryUrl: "cries/351.mp3",
             ability: ["Forecast"],
             form: "Castform (Sunny Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fire.png",
+            type2Url: ""
         },
         {
             name: "Castform",
@@ -3919,7 +4309,9 @@ let nationalDex = {
             cryUrl: "cries/351.mp3",
             ability: ["Forecast"],
             form: "Castform (Rainy Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Castform",
@@ -3939,7 +4331,9 @@ let nationalDex = {
             cryUrl: "cries/351.mp3",
             ability: ["Forecast"],
             form: "Castform (Snowy Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Banette",
@@ -3959,7 +4353,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/354-Mega.mp3",
             ability: ["Prankster"],
             form: "Mega Banette",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Ghost.png",
+            type2Url: ""
         },
         {
             name: "Absol",
@@ -3979,7 +4375,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/359-Mega.mp3",
             ability: ["Magic Bounce"],
             form: "Mega Absol",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dark.png",
+            type2Url: ""
         },
         {
             name: "Glalie",
@@ -3999,7 +4397,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/362-Mega.mp3",
             ability: ["Refrigerate"],
             form: "Mega Glalie",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Relicanth",
@@ -4019,7 +4419,9 @@ let nationalDex = {
             cryUrl: "cries/369.mp3",
             ability: ["Swift Swim", "Rock Head", "Sturdy"],
             form: "Relicanth (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Salamence",
@@ -4039,7 +4441,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/373-Mega.mp3",
             ability: ["Aerilate"],
             form: "Mega Salamence",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Metagross",
@@ -4059,7 +4463,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/376-Mega.mp3",
             ability: ["Tough Claws"],
             form: "Mega Metagross",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Latias",
@@ -4079,7 +4485,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/380-Mega.mp3",
             ability: ["Levitate"],
             form: "Mega Latias",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Latios",
@@ -4099,7 +4507,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/381-Mega.mp3",
             ability: ["Levitate"],
             form: "Mega Latios",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Kyogre",
@@ -4119,7 +4529,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/382-Primal.mp3",
             ability: ["Primordial Sea"],
             form: "Primal Kyogre",
-            formType: ["Primal Reversion"]
+            formType: ["Primal Reversion"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Groudon",
@@ -4139,7 +4551,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/383-Primal.mp3",
             ability: ["Desolate Land"],
             form: "Primal Groudon",
-            formType: ["Primal Reversion"]
+            formType: ["Primal Reversion"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Rayquaza",
@@ -4159,7 +4573,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/384-Mega.mp3",
             ability: ["Delta Stream"],
             form: "Mega Rayquaza",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Deoxys",
@@ -4179,7 +4595,9 @@ let nationalDex = {
             cryUrl: "cries/386.mp3",
             ability: ["Pressure"],
             form: "Deoxys (Attack Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Deoxys",
@@ -4199,7 +4617,9 @@ let nationalDex = {
             cryUrl: "cries/386.mp3",
             ability: ["Pressure"],
             form: "Deoxys (Defense Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Deoxys",
@@ -4219,7 +4639,9 @@ let nationalDex = {
             cryUrl: "cries/386.mp3",
             ability: ["Pressure"],
             form: "Deoxys (Speed Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Starly",
@@ -4239,7 +4661,9 @@ let nationalDex = {
             cryUrl: "cries/396.mp3",
             ability: ["Keen Eye", "Reckless"],
             form: "Starly (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Staravia",
@@ -4259,7 +4683,9 @@ let nationalDex = {
             cryUrl: "cries/397.mp3",
             ability: ["Intimidate", "Reckless"],
             form: "Staravia (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Staraptor",
@@ -4279,7 +4705,9 @@ let nationalDex = {
             cryUrl: "cries/398.mp3",
             ability: ["Intimidate", "Reckless"],
             form: "Staraptor (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Bidoof",
@@ -4299,7 +4727,9 @@ let nationalDex = {
             cryUrl: "cries/399.mp3",
             ability: ["Simple", "Unaware", "Moody"],
             form: "Bidoof (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Bibarel",
@@ -4319,7 +4749,9 @@ let nationalDex = {
             cryUrl: "cries/400.mp3",
             ability: ["Simple", "Unaware", "Moody"],
             form: "Bibarel (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Kricketot",
@@ -4339,7 +4771,9 @@ let nationalDex = {
             cryUrl: "cries/401.mp3",
             ability: ["Shed Skin", "Run Away"],
             form: "Kricketot (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: ""
         },
         {
             name: "Kricketune",
@@ -4359,7 +4793,9 @@ let nationalDex = {
             cryUrl: "cries/402.mp3",
             ability: ["Swarm", "Technician"],
             form: "Kricketune (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: ""
         },
         {
             name: "Shinx",
@@ -4379,7 +4815,9 @@ let nationalDex = {
             cryUrl: "cries/403.mp3",
             ability: ["Rivalry", "Intimidate", "Guts"],
             form: "Shinx (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Luxio",
@@ -4399,7 +4837,9 @@ let nationalDex = {
             cryUrl: "cries/404.mp3",
             ability: ["Rivalry", "Intimidate", "Guts"],
             form: "Luxio (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Luxray",
@@ -4419,7 +4859,9 @@ let nationalDex = {
             cryUrl: "cries/405.mp3",
             ability: ["Rivalry", "Intimidate", "Guts"],
             form: "Luxray (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Roserade",
@@ -4439,7 +4881,9 @@ let nationalDex = {
             cryUrl: "cries/407.mp3",
             ability: ["Natural Cure", "Poison Point", "Technician"],
             form: "Roserade (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Burmy",
@@ -4459,7 +4903,9 @@ let nationalDex = {
             cryUrl: "cries/412.mp3",
             ability: ["Shed Skin", "Overcoat"],
             form: "Burmy (Sandy Cloak)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: ""
         },
         {
             name: "Burmy",
@@ -4479,7 +4925,9 @@ let nationalDex = {
             cryUrl: "cries/412.mp3",
             ability: ["Shed Skin", "Overcoat"],
             form: "Burmy (Trash Cloak)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: ""
         },
         {
             name: "Wormadam",
@@ -4499,7 +4947,9 @@ let nationalDex = {
             cryUrl: "cries/413.mp3",
             ability: ["Anticipation", "Overcoat"],
             form: "Wormadam (Sandy Cloak)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Wormadam",
@@ -4519,7 +4969,9 @@ let nationalDex = {
             cryUrl: "cries/413.mp3",
             ability: ["Anticipation", "Overcoat"],
             form: "Wormadam (Trash Cloak)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Combee",
@@ -4539,7 +4991,9 @@ let nationalDex = {
             cryUrl: "cries/415.mp3",
             ability: ["Honey Gather", "Hustle"],
             form: "Combee (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Pachirisu",
@@ -4559,7 +5013,9 @@ let nationalDex = {
             cryUrl: "cries/417.mp3",
             ability: ["Run Away", "Pickup", "Volt Absorb"],
             form: "Pachirisu (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Buizel",
@@ -4579,7 +5035,9 @@ let nationalDex = {
             cryUrl: "cries/418.mp3",
             ability: ["Swift Swim", "Water Veil"],
             form: "Buizel (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Floatzel",
@@ -4599,7 +5057,9 @@ let nationalDex = {
             cryUrl: "cries/419.mp3",
             ability: ["Swift Swim", "Water Veil"],
             form: "Floatzel (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Cherrim",
@@ -4619,7 +5079,9 @@ let nationalDex = {
             cryUrl: "cries/421.mp3",
             ability: ["Flower Gift"],
             form: "Cherrim (Sunshine Form)",
-            formType: ["Form Difference"]
+            formType: ["Form Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: ""
         },
         {
             name: "Shellos",
@@ -4639,7 +5101,9 @@ let nationalDex = {
             cryUrl: "cries/422.mp3",
             ability: ["Sticky Hold", "Storm Drain", "Sand Force"],
             form: "West Sea Shellos",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Gastrodon",
@@ -4659,7 +5123,9 @@ let nationalDex = {
             cryUrl: "cries/423.mp3",
             ability: ["Sticky Hold", "Storm Drain", "Sand Force"],
             form: "West Sea Gastrodon",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Ambipom",
@@ -4679,7 +5145,9 @@ let nationalDex = {
             cryUrl: "cries/424.mp3",
             ability: ["Technician", "Pickup", "Skill Link"],
             form: "Ambipom (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Lopunny",
@@ -4699,7 +5167,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/428-Mega.mp3",
             ability: ["Scrappy"],
             form: "Mega Lopunny",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Gible",
@@ -4719,7 +5189,9 @@ let nationalDex = {
             cryUrl: "cries/443.mp3",
             ability: ["Sand Veil", "Rough Skin"],
             form: "Gible (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Gabite",
@@ -4739,7 +5211,9 @@ let nationalDex = {
             cryUrl: "cries/444.mp3",
             ability: ["Sand Veil", "Rough Skin"],
             form: "Gabite (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Garchomp",
@@ -4759,7 +5233,9 @@ let nationalDex = {
             cryUrl: "cries/445.mp3",
             ability: ["Sand Veil", "Rough Skin"],
             form: "Garchomp (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Garchomp",
@@ -4779,7 +5255,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/445-Mega.mp3",
             ability: ["Sand Force"],
             form: "Mega Garchomp",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Lucario",
@@ -4799,7 +5277,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/448-Mega.mp3",
             ability: ["Adaptability"],
             form: "Mega Lucario",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Hippopotas",
@@ -4819,7 +5299,9 @@ let nationalDex = {
             cryUrl: "cries/449.mp3",
             ability: ["Sand Stream", "Sand Force"],
             form: "Hippopotas (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ground.png",
+            type2Url: ""
         },
         {
             name: "Hippowdon",
@@ -4839,7 +5321,9 @@ let nationalDex = {
             cryUrl: "cries/450.mp3",
             ability: ["Sand Stream", "Sand Force"],
             form: "Hippowdon (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ground.png",
+            type2Url: ""
         },
         {
             name: "Croagunk",
@@ -4859,7 +5343,9 @@ let nationalDex = {
             cryUrl: "cries/453.mp3",
             ability: ["Anticipation", "Dry Skin", "Poison Touch"],
             form: "Croagunk (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Toxicroak",
@@ -4879,7 +5365,9 @@ let nationalDex = {
             cryUrl: "cries/454.mp3",
             ability: ["Anticipation", "Dry Skin", "Poison Touch"],
             form: "Toxicroak (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Finneon",
@@ -4899,7 +5387,9 @@ let nationalDex = {
             cryUrl: "cries/456.mp3",
             ability: ["Swift Swim", "Storm Drain", "Water Veil"],
             form: "Finneon (Male)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Lumineon",
@@ -4919,7 +5409,9 @@ let nationalDex = {
             cryUrl: "cries/457.mp3",
             ability: ["Swift Swim", "Storm Drain", "Water Veil"],
             form: "Lumineon (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Snover",
@@ -4939,7 +5431,9 @@ let nationalDex = {
             cryUrl: "cries/459.mp3",
             ability: ["Snow Warning", "Soundproof"],
             form: "Snover (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Abomasnow",
@@ -4959,7 +5453,9 @@ let nationalDex = {
             cryUrl: "cries/460.mp3",
             ability: ["Snow Warning", "Soundproof"],
             form: "Abomasnow (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Abomasnow",
@@ -4979,7 +5475,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/460-Mega.mp3",
             ability: ["Snow Warning"],
             form: "Mega Abomasnow",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Weavile",
@@ -4999,7 +5497,9 @@ let nationalDex = {
             cryUrl: "cries/461.mp3",
             ability: ["Pressure", "Pickpocket"],
             form: "Weavile (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Rhyperior",
@@ -5019,7 +5519,9 @@ let nationalDex = {
             cryUrl: "cries/464.mp3",
             ability: ["Lightning Rod", "Solid Rock", "Reckless"],
             form: "Rhyperior (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Tangrowth",
@@ -5039,7 +5541,9 @@ let nationalDex = {
             cryUrl: "cries/465.mp3",
             ability: ["Chlorophyll", "Leaf Guard", "Regenerator"],
             form: "Tangrowth (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Grass.png",
+            type2Url: ""
         },
         {
             name: "Mamoswine",
@@ -5059,7 +5563,9 @@ let nationalDex = {
             cryUrl: "cries/473.mp3",
             ability: ["Oblivious", "Snow Cloak", "Thick Fat"],
             form: "Mamoswine (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Gallade",
@@ -5079,7 +5585,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/475-Mega.mp3",
             ability: ["Inner Focus"],
             form: "Mega Gallade",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Rotom",
@@ -5099,7 +5607,9 @@ let nationalDex = {
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
             form: "Heat Rotom",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Rotom",
@@ -5119,7 +5629,9 @@ let nationalDex = {
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
             form: "Wash Rotom",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Rotom",
@@ -5139,7 +5651,9 @@ let nationalDex = {
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
             form: "Frost Rotom",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Rotom",
@@ -5159,7 +5673,9 @@ let nationalDex = {
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
             form: "Fan Rotom",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Rotom",
@@ -5179,7 +5695,9 @@ let nationalDex = {
             cryUrl: "cries/479.mp3",
             ability: ["Levitate"],
             form: "Mow Rotom",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Dialga",
@@ -5199,7 +5717,9 @@ let nationalDex = {
             cryUrl: "cries/483.mp3",
             ability: ["Pressure", "Telepathy"],
             form: "Dialga (Origin Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Palkia",
@@ -5219,7 +5739,9 @@ let nationalDex = {
             cryUrl: "cries/484.mp3",
             ability: ["Pressure", "Telepathy"],
             form: "Palkia (Origin Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Giratina",
@@ -5239,7 +5761,9 @@ let nationalDex = {
             cryUrl: "cries/487.mp3",
             ability: ["Levitate"],
             form: "Giratina (Origin Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Shaymin",
@@ -5259,7 +5783,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/492-Sky.mp3",
             ability: ["Serene Grace"],
             form: "Shaymin (Sky Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Arceus",
@@ -5279,7 +5805,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Flame Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fire.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5299,7 +5827,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Splash Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5319,7 +5849,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Zap Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5339,7 +5871,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Meadow Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Grass.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5359,7 +5893,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Icicle Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5379,7 +5915,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Fist Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5399,7 +5937,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Toxic Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Poison.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5419,7 +5959,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Earth Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ground.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5439,7 +5981,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Sky Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Flying.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5459,7 +6003,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Mind Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5479,7 +6025,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Insect Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5499,7 +6047,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Stone Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Rock.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5519,7 +6069,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Spooky Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ghost.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5539,7 +6091,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Draco Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Dragon.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5559,7 +6113,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Dread Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Dark.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5579,7 +6135,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Iron Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Steel.png",
+            type2Url: ""
         },
         {
             name: "Arceus",
@@ -5599,7 +6157,9 @@ let nationalDex = {
             cryUrl: "cries/493.mp3",
             ability: ["Multitype"],
             form: "Arceus (Pixie Plate)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Samurott",
@@ -5619,7 +6179,9 @@ let nationalDex = {
             cryUrl: "cries/503.mp3",
             ability: ["Torrent", "Shell Armor"],
             form: "Hisuian Samurott",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Unfezant",
@@ -5639,7 +6201,9 @@ let nationalDex = {
             cryUrl: "cries/521.mp3",
             ability: ["Big Pecks", "Super Luck", "Rivalry"],
             form: "Unfezant (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Audino",
@@ -5659,7 +6223,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/531-Mega.mp3",
             ability: ["Healer"],
             form: "Mega Audino",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Lilligant",
@@ -5679,7 +6245,9 @@ let nationalDex = {
             cryUrl: "cries/549.mp3",
             ability: ["Chlorophyll", "Hustle", "Leaf Guard"],
             form: "Hisuian Lilligant",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Basculin",
@@ -5699,7 +6267,9 @@ let nationalDex = {
             cryUrl: "cries/550.mp3",
             ability: ["Rock Head", "Adaptability", "Mold Breaker"],
             form: "Blue-Striped Basculin",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Basculin",
@@ -5719,7 +6289,9 @@ let nationalDex = {
             cryUrl: "cries/550.mp3",
             ability: ["Rattled", "Adaptability", "Mold Breaker"],
             form: "White-Striped Basculin",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Darumaka",
@@ -5739,7 +6311,9 @@ let nationalDex = {
             cryUrl: "cries/554.mp3",
             ability: ["Hustle", "Inner Focus"],
             form: "Galarian Darumaka",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Darmanitan",
@@ -5759,7 +6333,9 @@ let nationalDex = {
             cryUrl: "cries/555.mp3",
             ability: ["Zen Mode"],
             form: "Darmanitan (Zen Mode)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Darmanitan",
@@ -5779,7 +6355,9 @@ let nationalDex = {
             cryUrl: "cries/555.mp3",
             ability: ["Gorilla Tactics", "Zen Mode"],
             form: "Galarian Darmanitan",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Darmanitan",
@@ -5799,7 +6377,9 @@ let nationalDex = {
             cryUrl: "cries/555.mp3",
             ability: ["Zen Mode"],
             form: "Galarian Darmanitan (Zen Mode)",
-            formType: ["Regional Form", "Galarian Form", "Form Change"]
+            formType: ["Regional Form", "Galarian Form", "Form Change"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Yamask",
@@ -5819,7 +6399,9 @@ let nationalDex = {
             cryUrl: "cries/562.mp3",
             ability: ["Wandering Spirit"],
             form: "Galarian Yamask",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Garbodor",
@@ -5839,7 +6421,9 @@ let nationalDex = {
             cryUrl: "cries/569.mp3",
             ability: ["Stench", "Weak Armor", "Aftermath"],
             form: "Gigantamax Garbodor",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Poison.png",
+            type2Url: ""
         },
         {
             name: "Zorua",
@@ -5859,7 +6443,9 @@ let nationalDex = {
             cryUrl: "cries/570.mp3",
             ability: ["Illusion"],
             form: "Hisuian Zorua",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Zoroark",
@@ -5879,7 +6465,9 @@ let nationalDex = {
             cryUrl: "cries/571.mp3",
             ability: ["Illusion"],
             form: "Hisuian Zoroark",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Deerling",
@@ -5899,7 +6487,9 @@ let nationalDex = {
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
             form: "Deerling (Summer Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Deerling",
@@ -5919,7 +6509,9 @@ let nationalDex = {
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
             form: "Deerling (Autumn Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Deerling",
@@ -5939,7 +6531,9 @@ let nationalDex = {
             cryUrl: "cries/585.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
             form: "Deerling (Winter Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Sawsbuck",
@@ -5959,7 +6553,9 @@ let nationalDex = {
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
             form: "Sawsbuck (Summer Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Sawsbuck",
@@ -5979,7 +6575,9 @@ let nationalDex = {
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
             form: "Sawsbuck (Autumn Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Sawsbuck",
@@ -5999,7 +6597,9 @@ let nationalDex = {
             cryUrl: "cries/586.mp3",
             ability: ["Chlorophyll", "Sap Sipper", "Serene Grace"],
             form: "Sawsbuck (Winter Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Frillish",
@@ -6019,7 +6619,9 @@ let nationalDex = {
             cryUrl: "cries/592.mp3",
             ability: ["Water Absorb", "Cursed Body", "Damp"],
             form: "Frillish (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Jellicent",
@@ -6039,7 +6641,9 @@ let nationalDex = {
             cryUrl: "cries/593.mp3",
             ability: ["Water Absorb", "Cursed Body", "Damp"],
             form: "Jellicent (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Stunfisk",
@@ -6059,7 +6663,9 @@ let nationalDex = {
             cryUrl: "cries/618.mp3",
             ability: ["Mimicry"],
             form: "Galarian Stunfisk",
-            formType: ["Regional Form", "Galarian Form"]
+            formType: ["Regional Form", "Galarian Form"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Braviary",
@@ -6079,7 +6685,9 @@ let nationalDex = {
             cryUrl: "cries/628.mp3",
             ability: ["Keen Eye", "Sheer Force", "Defiant"],
             form: "Hisuian Braviary",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Tornadus",
@@ -6099,7 +6707,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/641-Therian.mp3",
             ability: ["Regenerator"],
             form: "Tornadus (Therian Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Flying.png",
+            type2Url: ""
         },
         {
             name: "Thundurus",
@@ -6119,7 +6729,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/642-Therian.mp3",
             ability: ["Volt Absorb"],
             form: "Thundurus (Therian Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Landorus",
@@ -6139,7 +6751,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/645-Therian.mp3",
             ability: ["Intimidate"],
             form: "Landorus (Therian Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Kyurem",
@@ -6159,7 +6773,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/646-Black.mp3",
             ability: ["Teravolt"],
             form: "Black Kyurem",
-            formType: ["Fusion", "Form Change"]
+            formType: ["Fusion", "Form Change"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Kyurem",
@@ -6179,7 +6795,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/646-White.mp3",
             ability: ["Turboblaze"],
             form: "White Kyurem",
-            formType: ["Fusion", "Form Change"]
+            formType: ["Fusion", "Form Change"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Keldeo",
@@ -6199,7 +6817,9 @@ let nationalDex = {
             cryUrl: "cries/647.mp3",
             ability: ["Justified"],
             form: "Keldeo (Resolute Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Meloetta",
@@ -6219,7 +6839,9 @@ let nationalDex = {
             cryUrl: "cries/648.mp3",
             ability: ["Serene Grace"],
             form: "Meloetta (Pirouette Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Genesect",
@@ -6239,7 +6861,9 @@ let nationalDex = {
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
             form: "Genesect (Douse Drive)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Genesect",
@@ -6259,7 +6883,9 @@ let nationalDex = {
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
             form: "Genesect (Shock Drive)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Genesect",
@@ -6279,7 +6905,9 @@ let nationalDex = {
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
             form: "Genesect (Burn Drive)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Genesect",
@@ -6299,7 +6927,9 @@ let nationalDex = {
             cryUrl: "cries/649.mp3",
             ability: ["Download"],
             form: "Genesect (Chill Drive)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Greninja",
@@ -6319,7 +6949,9 @@ let nationalDex = {
             cryUrl: "cries/658.mp3",
             ability: ["Battle Bond"],
             form: "Ash-Greninja",
-            formType: ["Special Form", "Form Change"]
+            formType: ["Special Form", "Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Vivillon",
@@ -6339,7 +6971,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Archipelago Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6359,7 +6993,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Continental Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6379,7 +7015,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Elegant Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6399,7 +7037,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Fancy Pattern)",
-            formType: ["Variation", "Special Form"]
+            formType: ["Variation", "Special Form"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6419,7 +7059,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Garden Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6439,7 +7081,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (High Plains Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6459,7 +7103,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Icy Snow Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6479,7 +7125,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Jungle Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6499,7 +7147,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Marine Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6519,7 +7169,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Modern Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6539,7 +7191,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Monsoon Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6559,7 +7213,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Ocean Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6579,7 +7235,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Poké Ball Pattern)",
-            formType: ["Variation", "Special Form"]
+            formType: ["Variation", "Special Form"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6599,7 +7257,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Polar Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6619,7 +7279,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (River Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6639,7 +7301,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Sandstorm Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6659,7 +7323,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Savanna Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6679,7 +7345,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Sun Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Vivillon",
@@ -6699,7 +7367,9 @@ let nationalDex = {
             cryUrl: "cries/666.mp3",
             ability: ["Shield Dust", "Compound Eyes", "Friend Guard"],
             form: "Vivillon (Tundra Pattern)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Pyroar",
@@ -6719,7 +7389,9 @@ let nationalDex = {
             cryUrl: "cries/668.mp3",
             ability: ["Rivalry", "Unnerve", "Moxie"],
             form: "Pyroar (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Normal.png"
         },
         {
             name: "Flabébé",
@@ -6739,7 +7411,9 @@ let nationalDex = {
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Flabébé (Yellow Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Flabébé",
@@ -6759,7 +7433,9 @@ let nationalDex = {
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Flabébé (Orange Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Flabébé",
@@ -6779,7 +7455,9 @@ let nationalDex = {
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Flabébé (Blue Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Flabébé",
@@ -6799,7 +7477,9 @@ let nationalDex = {
             cryUrl: "cries/669.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Flabébé (White Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Floette",
@@ -6819,7 +7499,9 @@ let nationalDex = {
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Floette (Yellow Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Floette",
@@ -6839,7 +7521,9 @@ let nationalDex = {
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Floette (Orange Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Floette",
@@ -6859,7 +7543,9 @@ let nationalDex = {
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Floette (Blue Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Floette",
@@ -6879,7 +7565,9 @@ let nationalDex = {
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Floette (White Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Floette",
@@ -6899,7 +7587,9 @@ let nationalDex = {
             cryUrl: "cries/670.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Floette (Eternal Flower)",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Florges",
@@ -6919,7 +7609,9 @@ let nationalDex = {
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Florges (Yellow Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Florges",
@@ -6939,7 +7631,9 @@ let nationalDex = {
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Florges (Orange Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Florges",
@@ -6959,7 +7653,9 @@ let nationalDex = {
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Florges (Blue Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Florges",
@@ -6979,7 +7675,9 @@ let nationalDex = {
             cryUrl: "cries/671.mp3",
             ability: ["Flower Veil", "Symbiosis"],
             form: "Florges (White Flower)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -6999,7 +7697,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Heart Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7019,7 +7719,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Star Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7039,7 +7741,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Diamond Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7059,7 +7763,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Debutante Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7079,7 +7785,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Matron Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7099,7 +7807,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Dandy Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7119,7 +7829,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (La Reine Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7139,7 +7851,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Kabuki Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Furfrou",
@@ -7159,7 +7873,9 @@ let nationalDex = {
             cryUrl: "cries/676.mp3",
             ability: ["Fur Coat"],
             form: "Furfrou (Pharaoh Trim)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Meowstic",
@@ -7179,7 +7895,9 @@ let nationalDex = {
             cryUrl: "cries/678.mp3",
             ability: ["Keen Eye", "Infiltrator", "Competitive"],
             form: "Meowstic (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Aegislash",
@@ -7199,7 +7917,9 @@ let nationalDex = {
             cryUrl: "cries/681.mp3",
             ability: ["Stance Change"],
             form: "Aegislash (Blade Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Sliggoo",
@@ -7219,7 +7939,9 @@ let nationalDex = {
             cryUrl: "cries/705.mp3",
             ability: ["Sap Sipper", "Overcoat", "Gooey"],
             form: "Hisuian Sliggoo",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Goodra",
@@ -7239,7 +7961,9 @@ let nationalDex = {
             cryUrl: "cries/706.mp3",
             ability: ["Sap Sipper", "Overcoat", "Gooey"],
             form: "Hisuian Goodra",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Pumpkaboo",
@@ -7259,7 +7983,9 @@ let nationalDex = {
             cryUrl: "cries/710.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
             form: "Pumpkaboo (Small Size)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Pumpkaboo",
@@ -7279,7 +8005,9 @@ let nationalDex = {
             cryUrl: "cries/710.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
             form: "Pumpkaboo (Large Size)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Pumpkaboo",
@@ -7299,7 +8027,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/710-Super.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
             form: "Pumpkaboo (Super Size)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Gourgeist",
@@ -7319,7 +8049,9 @@ let nationalDex = {
             cryUrl: "cries/711.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
             form: "Gourgeist (Small Size)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Gourgeist",
@@ -7339,7 +8071,9 @@ let nationalDex = {
             cryUrl: "cries/711.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
             form: "Gourgeist (Large Size)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Gourgeist",
@@ -7359,7 +8093,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/711-Super.mp3",
             ability: ["Pickup", "Frisk", "Insomnia"],
             form: "Gourgeist (Super Size)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Avalugg",
@@ -7379,7 +8115,9 @@ let nationalDex = {
             cryUrl: "cries/713.mp3",
             ability: ["Strong Jaw", "Ice Body", "Sturdy"],
             form: "Hisuian Avalugg",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Ice.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Xerneas",
@@ -7399,7 +8137,9 @@ let nationalDex = {
             cryUrl: "cries/716.mp3",
             ability: ["Fairy Aura"],
             form: "Xerneas (Neutral Mode)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Zygarde",
@@ -7419,7 +8159,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/718-TenPercent.mp3",
             ability: ["Aura Break", "Power Construct"],
             form: "Zygarde (10% Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Zygarde",
@@ -7439,7 +8181,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/718-Complete.mp3",
             ability: ["Power Construct"],
             form: "Zygarde (Complete Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Ground.png"
         },
         {
             name: "Diancie",
@@ -7459,7 +8203,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/719-Mega.mp3",
             ability: ["Magic Bounce"],
             form: "Mega Diancie",
-            formType: ["Mega Evolution"]
+            formType: ["Mega Evolution"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Hoopa",
@@ -7479,7 +8225,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/720-Unbound.mp3",
             ability: ["Magician"],
             form: "Hoopa Unbound",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Decidueye",
@@ -7499,7 +8247,9 @@ let nationalDex = {
             cryUrl: "cries/724.mp3",
             ability: ["Overgrow", "Long Reach"],
             form: "Hisuian Decidueye",
-            formType: ["Regional Form", "Hisuian Form"]
+            formType: ["Regional Form", "Hisuian Form"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Fighting.png"
         },
         {
             name: "Oricorio",
@@ -7519,7 +8269,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/741-PomPom.mp3",
             ability: ["Dancer"],
             form: "Oricorio (Pom-Pom Style)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Oricorio",
@@ -7539,7 +8291,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/741-Pau.mp3",
             ability: ["Dancer"],
             form: "Oricorio (Pa'u Style)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Oricorio",
@@ -7559,7 +8313,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/741-Sensu.mp3",
             ability: ["Dancer"],
             form: "Oricorio (Sensu Style)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Lycanroc",
@@ -7579,7 +8335,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/745-Midnight.mp3",
             ability: ["Keen Eye", "Vital Spirit", "No Guard"],
             form: "Lycanroc (Midnight Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: ""
         },
         {
             name: "Lycanroc",
@@ -7599,7 +8357,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/745-Dusk.mp3",
             ability: ["Tough Claws"],
             form: "Lycanroc (Dusk Form)",
-            formType: ["Variation", "Special Form"]
+            formType: ["Variation", "Special Form"],
+            type1Url: "types/Rock.png",
+            type2Url: ""
         },
         {
             name: "Wishiwashi",
@@ -7619,7 +8379,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/746-School.mp3",
             ability: ["Schooling"],
             form: "Wishiwashi (School Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7639,7 +8401,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Fire Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fire.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7659,7 +8423,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Water Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7679,7 +8445,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Electric Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7699,7 +8467,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Grass Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Grass.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7719,7 +8489,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Ice Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7739,7 +8511,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Fighting Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7759,7 +8533,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Poison Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Poison.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7779,7 +8555,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Ground Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ground.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7799,7 +8577,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Flying Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Flying.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7819,7 +8599,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Psychic Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7839,7 +8621,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Bug Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Bug.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7859,7 +8643,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Rock Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Rock.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7879,7 +8665,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Ghost Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ghost.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7899,7 +8687,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Dragon Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Dragon.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7919,7 +8709,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Dark Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Dark.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7939,7 +8731,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Steel Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Steel.png",
+            type2Url: ""
         },
         {
             name: "Silvally",
@@ -7959,7 +8753,9 @@ let nationalDex = {
             cryUrl: "cries/773.mp3",
             ability: ["RKS System"],
             form: "Silvally (Fairy Memory)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Minior",
@@ -7979,7 +8775,9 @@ let nationalDex = {
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
             form: "Minior (Red Core Form)",
-            formType: ["Form Change", "Variation"]
+            formType: ["Form Change", "Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Minior",
@@ -7999,7 +8797,9 @@ let nationalDex = {
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
             form: "Minior (Orange Core Form)",
-            formType: ["Form Change", "Variation"]
+            formType: ["Form Change", "Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Minior",
@@ -8019,7 +8819,9 @@ let nationalDex = {
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
             form: "Minior (Yellow Core Form)",
-            formType: ["Form Change", "Variation"]
+            formType: ["Form Change", "Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Minior",
@@ -8039,7 +8841,9 @@ let nationalDex = {
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
             form: "Minior (Green Core Form)",
-            formType: ["Form Change", "Variation"]
+            formType: ["Form Change", "Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Minior",
@@ -8059,7 +8863,9 @@ let nationalDex = {
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
             form: "Minior (Blue Core Form)",
-            formType: ["Form Change", "Variation"]
+            formType: ["Form Change", "Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Minior",
@@ -8079,7 +8885,9 @@ let nationalDex = {
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
             form: "Minior (Indigo Core Form)",
-            formType: ["Form Change", "Variation"]
+            formType: ["Form Change", "Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Minior",
@@ -8099,7 +8907,9 @@ let nationalDex = {
             cryUrl: "cries/774.mp3",
             ability: ["Shields Down"],
             form: "Minior (Violet Core Form)",
-            formType: ["Form Change", "Variation"]
+            formType: ["Form Change", "Variation"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Mimikyu",
@@ -8119,7 +8929,9 @@ let nationalDex = {
             cryUrl: "cries/778.mp3",
             ability: ["Disguise"],
             form: "Mimikyu (Busted Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ghost.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Necrozma",
@@ -8139,7 +8951,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/800-DuskMane.mp3",
             ability: ["Prism Armor"],
             form: "Dusk Mane Necrozma",
-            formType: ["Fusion", "Form Change"]
+            formType: ["Fusion", "Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Necrozma",
@@ -8159,7 +8973,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/800-DawnWings.mp3",
             ability: ["Prism Armor"],
             form: "Dawn Wings Necrozma",
-            formType: ["Fusion", "Form Change"]
+            formType: ["Fusion", "Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Necrozma",
@@ -8179,7 +8995,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/800-Ultra.mp3",
             ability: ["Neuroforce"],
             form: "Ultra Necrozma",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Magearna",
@@ -8199,7 +9017,9 @@ let nationalDex = {
             cryUrl: "cries/801.mp3",
             ability: ["Soul-Heart"],
             form: "Original Color Magearna",
-            formType: ["Variation", "Special Form"]
+            formType: ["Variation", "Special Form"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Melmetal",
@@ -8219,7 +9039,9 @@ let nationalDex = {
             cryUrl: "cries/809.mp3",
             ability: ["Iron Fist"],
             form: "Gigantamax Melmetal",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Steel.png",
+            type2Url: ""
         },
         {
             name: "Rillaboom",
@@ -8239,7 +9061,9 @@ let nationalDex = {
             cryUrl: "cries/812.mp3",
             ability: ["Overgrow", "Grassy Surge"],
             form: "Gigantamax Rillaboom",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Grass.png",
+            type2Url: ""
         },
         {
             name: "Cinderace",
@@ -8259,7 +9083,9 @@ let nationalDex = {
             cryUrl: "cries/815.mp3",
             ability: ["Blaze", "Libero"],
             form: "Gigantamax Cinderace",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Fire.png",
+            type2Url: ""
         },
         {
             name: "Inteleon",
@@ -8279,7 +9105,9 @@ let nationalDex = {
             cryUrl: "cries/818.mp3",
             ability: ["Torrent", "Sniper"],
             form: "Gigantamax Inteleon",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Corviknight",
@@ -8299,7 +9127,9 @@ let nationalDex = {
             cryUrl: "cries/823.mp3",
             ability: ["Pressure", "Unnerve", "Mirror Armor"],
             form: "Gigantamax Corviknight",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Flying.png",
+            type2Url: "types/Steel.png"
         },
         {
             name: "Orbeetle",
@@ -8319,7 +9149,9 @@ let nationalDex = {
             cryUrl: "cries/826.mp3",
             ability: ["Swarm", "Frisk", "Telepathy"],
             form: "Gigantamax Orbeetle",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Bug.png",
+            type2Url: "types/Psychic.png"
         },
         {
             name: "Drednaw",
@@ -8339,7 +9171,9 @@ let nationalDex = {
             cryUrl: "cries/834.mp3",
             ability: ["Strong Jaw", "Shell Armor", "Swift Swim"],
             form: "Gigantamax Drednaw",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Coalossal",
@@ -8359,7 +9193,9 @@ let nationalDex = {
             cryUrl: "cries/839.mp3",
             ability: ["Steam Engine", "Flame Body", "Flash Fire"],
             form: "Gigantamax Coalossal",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Rock.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Flapple",
@@ -8379,7 +9215,9 @@ let nationalDex = {
             cryUrl: "cries/841.mp3",
             ability: ["Ripen", "Gluttony", "Hustle"],
             form: "Gigantamax Flapple",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Appletun",
@@ -8399,7 +9237,9 @@ let nationalDex = {
             cryUrl: "cries/842.mp3",
             ability: ["Ripen", "Gluttony", "Thick Fat"],
             form: "Gigantamax Appletun",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Sandaconda",
@@ -8419,7 +9259,9 @@ let nationalDex = {
             cryUrl: "cries/844.mp3",
             ability: ["Sand Spit", "Shed Skin", "Sand Veil"],
             form: "Gigantamax Sandaconda",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Ground.png",
+            type2Url: ""
         },
         {
             name: "Cramorant",
@@ -8439,7 +9281,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/845-Gulping.mp3",
             ability: ["Gulp Missile"],
             form: "Cramorant (Gulping Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Flying.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Cramorant",
@@ -8459,7 +9303,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/845-Gorging.mp3",
             ability: ["Gulp Missile"],
             form: "Cramorant (Gorging Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Flying.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Toxtricity",
@@ -8479,7 +9325,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/849-LowKey.mp3",
             ability: ["Punk Rock", "Minus", "Technician"],
             form: "Toxtricity (Low Key Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Toxtricity",
@@ -8499,7 +9347,9 @@ let nationalDex = {
             cryUrl: "cries/849.mp3",
             ability: ["Punk Rock", "Plus", "Technician"],
             form: "Gigantamax Toxtricity",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Poison.png"
         },
         {
             name: "Centiskorch",
@@ -8519,7 +9369,9 @@ let nationalDex = {
             cryUrl: "cries/851.mp3",
             ability: ["Flash Fire", "White Smoke", "Flame Body"],
             form: "Gigantamax Centiskorch",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Fire.png",
+            type2Url: "types/Bug.png"
         },
         {
             name: "Sinistea",
@@ -8539,7 +9391,9 @@ let nationalDex = {
             cryUrl: "cries/854.mp3",
             ability: ["Weak Armor", "Cursed Body"],
             form: "Sinistea (Antique Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: ""
         },
         {
             name: "Polteageist",
@@ -8559,7 +9413,9 @@ let nationalDex = {
             cryUrl: "cries/855.mp3",
             ability: ["Weak Armor", "Cursed Body"],
             form: "Polteageist (Antique Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: ""
         },
         {
             name: "Hatterene",
@@ -8579,7 +9435,9 @@ let nationalDex = {
             cryUrl: "cries/858.mp3",
             ability: ["Healer", "Anticipation", "Magic Bounce"],
             form: "Gigantamax Hatterene",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Grimmsnarl",
@@ -8599,7 +9457,9 @@ let nationalDex = {
             cryUrl: "cries/861.mp3",
             ability: ["Prankster", "Frisk", "Pickpocket"],
             form: "Gigantamax Grimmsnarl",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Fairy.png"
         },
         {
             name: "Alcremie",
@@ -8619,7 +9479,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Ruby Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8639,7 +9501,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Matcha Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8659,7 +9523,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Mint Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8679,7 +9545,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Lemon Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8699,7 +9567,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Salted Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8719,7 +9589,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Ruby Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8739,7 +9611,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Caramel Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8759,7 +9633,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Strawberry Sweet, Rainbow Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8779,7 +9655,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Vanilla Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8799,7 +9677,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Ruby Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8819,7 +9699,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Matcha Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8839,7 +9721,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Mint Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8859,7 +9743,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Lemon Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8879,7 +9765,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Salted Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8899,7 +9787,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Ruby Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8919,7 +9809,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Caramel Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8939,7 +9831,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Berry Sweet, Rainbow Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8959,7 +9853,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Vanilla Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8979,7 +9875,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Ruby Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -8999,7 +9897,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Matcha Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9019,7 +9919,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Mint Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9039,7 +9941,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Lemon Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9059,7 +9963,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Salted Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9079,7 +9985,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Ruby Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9099,7 +10007,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Caramel Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9119,7 +10029,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Love Sweet, Rainbow Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9139,7 +10051,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Vanilla Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9159,7 +10073,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Ruby Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9179,7 +10095,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Matcha Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9199,7 +10117,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Mint Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9219,7 +10139,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Lemon Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9239,7 +10161,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Salted Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9259,7 +10183,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Ruby Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9279,7 +10205,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Caramel Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9299,7 +10227,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Star Sweet, Rainbow Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9319,7 +10249,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Vanilla Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9339,7 +10271,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Ruby Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9359,7 +10293,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Matcha Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9379,7 +10315,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Mint Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9399,7 +10337,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Lemon Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9419,7 +10359,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Salted Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9439,7 +10381,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Ruby Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9459,7 +10403,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Caramel Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9479,7 +10425,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Clover Sweet, Rainbow Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9499,7 +10447,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Vanilla Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9519,7 +10469,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Ruby Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9539,7 +10491,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Matcha Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9559,7 +10513,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Mint Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9579,7 +10535,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Lemon Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9599,7 +10557,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Salted Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9619,7 +10579,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Ruby Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9639,7 +10601,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Caramel Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9659,7 +10623,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Flower Sweet, Rainbow Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9679,7 +10645,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Vanilla Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9699,7 +10667,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Ruby Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9719,7 +10689,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Matcha Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9739,7 +10711,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Mint Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9759,7 +10733,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Lemon Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9779,7 +10755,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Salted Cream)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9799,7 +10777,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Ruby Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9819,7 +10799,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Caramel Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9839,7 +10821,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Alcremie (Ribbon Sweet, Rainbow Swirl)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Alcremie",
@@ -9859,7 +10843,9 @@ let nationalDex = {
             cryUrl: "cries/869.mp3",
             ability: ["Sweet Veil", "Aroma Veil"],
             form: "Gigantamax Alcremie",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Eiscue",
@@ -9879,7 +10865,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/875-Noice.mp3",
             ability: ["Ice Face"],
             form: "Eiscue (Noice Face)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Ice.png",
+            type2Url: ""
         },
         {
             name: "Indeedee",
@@ -9899,7 +10887,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/876-Female.mp3",
             ability: ["Own Tempo", "Synchronize", "Psychic Surge"],
             form: "Indeedee (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Normal.png"
         },
         {
             name: "Morpeko",
@@ -9919,7 +10909,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/877-Hangry.mp3",
             ability: ["Hunger Switch"],
             form: "Morpeko (Hangry Mode)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Electric.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Copperajah",
@@ -9939,7 +10931,9 @@ let nationalDex = {
             cryUrl: "cries/879.mp3",
             ability: ["Sheer Force", "Heavy Metal"],
             form: "Gigantamax Copperajah",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Steel.png",
+            type2Url: ""
         },
         {
             name: "Duraludon",
@@ -9959,7 +10953,9 @@ let nationalDex = {
             cryUrl: "cries/884.mp3",
             ability: ["Light Metal", "Heavy Metal", "Stalwart"],
             form: "Gigantamax Duraludon",
-            formType: ["Gigantamax"]
+            formType: ["Gigantamax"],
+            type1Url: "types/Steel.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Zacian",
@@ -9979,7 +10975,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/888-Hero.mp3",
             ability: ["Intrepid Sword"],
             form: "Zacian (Hero of Many Battles)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fairy.png",
+            type2Url: ""
         },
         {
             name: "Zamazenta",
@@ -9999,7 +10997,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/889-Hero.mp3",
             ability: ["Dauntless Shield"],
             form: "Zamazenta (Hero of Many Battles)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Eternatus",
@@ -10019,7 +11019,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/890-Eternamax.mp3",
             ability: ["Pressure"],
             form: "Eternamax Eternatus",
-            formType: ["Form Change", "Special Form"]
+            formType: ["Form Change", "Special Form"],
+            type1Url: "types/Poison.png",
+            type2Url: "types/Dragon.png"
         },
         {
             name: "Urshifu",
@@ -10039,7 +11041,9 @@ let nationalDex = {
             cryUrl: "cries/892.mp3",
             ability: ["Unseen Fist"],
             form: "Gigantamax Urshifu (Single Strike Style)",
-            formType: ["Gigantamax", "Variation"]
+            formType: ["Gigantamax", "Variation"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Dark.png"
         },
         {
             name: "Urshifu",
@@ -10059,7 +11063,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/892-RapidStrike.mp3",
             ability: ["Unseen Fist"],
             form: "Urshifu (Rapid Strike Style)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Urshifu",
@@ -10079,7 +11085,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/892-RapidStrike.mp3",
             ability: ["Unseen Fist"],
             form: "Gigantamax Urshifu (Rapid Strike Style)",
-            formType: ["Gigantamax", "Variation"]
+            formType: ["Gigantamax", "Variation"],
+            type1Url: "types/Fighting.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Zarude",
@@ -10099,7 +11107,9 @@ let nationalDex = {
             cryUrl: "cries/893.mp3",
             ability: ["Leaf Guard"],
             form: "Dada Zarude",
-            formType: ["Special Form"]
+            formType: ["Special Form"],
+            type1Url: "types/Dark.png",
+            type2Url: "types/Grass.png"
         },
         {
             name: "Calyrex",
@@ -10119,7 +11129,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/898-IceRider.mp3",
             ability: ["As One"],
             form: "Ice Rider Calyrex",
-            formType: ["Fusion", "Form Change"]
+            formType: ["Fusion", "Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Ice.png"
         },
         {
             name: "Calyrex",
@@ -10139,7 +11151,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/898-ShadowRider.mp3",
             ability: ["As One"],
             form: "Shadow Rider Calyrex",
-            formType: ["Fusion", "Form Change"]
+            formType: ["Fusion", "Form Change"],
+            type1Url: "types/Psychic.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Ursaluna",
@@ -10159,7 +11173,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/901-Bloodmoon.mp3",
             ability: ["Mind's Eye"],
             form: "Bloodmoon Ursaluna",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ground.png",
+            type2Url: "types/Normal.png"
         },
         {
             name: "Basculegion",
@@ -10179,7 +11195,9 @@ let nationalDex = {
             cryUrl: "cries/902.mp3",
             ability: ["Rattled", "Adaptability", "Mold Breaker"],
             form: "Basculegion (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Water.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Enamorus",
@@ -10199,7 +11217,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/905-Therian.mp3",
             ability: ["Overcoat"],
             form: "Enamorus (Therian Forme)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Fairy.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Oinkologne",
@@ -10219,7 +11239,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/916-Female.mp3",
             ability: ["Aroma Veil", "Gluttony", "Thick Fat"],
             form: "Oinkologne (Female)",
-            formType: ["Gender Difference"]
+            formType: ["Gender Difference"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Maushold",
@@ -10239,7 +11261,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/925-FamilyOfThree.mp3",
             ability: ["Friend Guard", "Cheek Pouch", "Technician"],
             form: "Maushold (Family of Three)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Squawkabilly",
@@ -10259,7 +11283,9 @@ let nationalDex = {
             cryUrl: "cries/931.mp3",
             ability: ["Intimidate", "Hustle", "Guts"],
             form: "Squawkabilly (Blue Plumage)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Squawkabilly",
@@ -10279,7 +11305,9 @@ let nationalDex = {
             cryUrl: "cries/931.mp3",
             ability: ["Intimidate", "Hustle", "Sheer Force"],
             form: "Squawkabilly (Yellow Plumage)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Squawkabilly",
@@ -10299,7 +11327,9 @@ let nationalDex = {
             cryUrl: "cries/931.mp3",
             ability: ["Intimidate", "Hustle", "Sheer Force"],
             form: "Squawkabilly (White Plumage)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Normal.png",
+            type2Url: "types/Flying.png"
         },
         {
             name: "Palafin",
@@ -10319,7 +11349,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/964-Zero.mp3",
             ability: ["Zero to Hero"],
             form: "Palafin (Zero Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Water.png",
+            type2Url: ""
         },
         {
             name: "Tatsugiri",
@@ -10339,7 +11371,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/978-Droopy.mp3",
             ability: ["Commander", "Storm Drain"],
             form: "Tatsugiri (Droopy Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Tatsugiri",
@@ -10359,7 +11393,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/978-Stretchy.mp3",
             ability: ["Commander", "Storm Drain"],
             form: "Tatsugiri (Stretchy Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Dragon.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Dudunsparce",
@@ -10379,7 +11415,9 @@ let nationalDex = {
             cryUrl: "cries/982.mp3",
             ability: ["Serene Grace", "Run Away", "Rattled"],
             form: "Dudunsparce (Three-Segment Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Gimmighoul",
@@ -10399,7 +11437,9 @@ let nationalDex = {
             cryUrl: "cries/formCries/999-Roaming.mp3",
             ability: ["Run Away"],
             form: "Gimmighoul (Roaming Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Ghost.png",
+            type2Url: ""
         },
         {
             name: "Poltchageist",
@@ -10419,7 +11459,9 @@ let nationalDex = {
             cryUrl: "cries/1012.mp3",
             ability: ["Hospitality", "Heatproof"],
             form: "Poltchageist (Artisan Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Sinistcha",
@@ -10439,7 +11481,9 @@ let nationalDex = {
             cryUrl: "cries/1012.mp3",
             ability: ["Hospitality"],
             form: "Sinistcha (Masterpiece Form)",
-            formType: ["Variation"]
+            formType: ["Variation"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Ghost.png"
         },
         {
             name: "Ogerpon",
@@ -10459,7 +11503,9 @@ let nationalDex = {
             cryUrl: "cries/1017.mp3",
             ability: ["Water Absorb", "Embody Aspect"],
             form: "Ogerpon (Wellspring Mask)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Water.png"
         },
         {
             name: "Ogerpon",
@@ -10479,7 +11525,9 @@ let nationalDex = {
             cryUrl: "cries/1017.mp3",
             ability: ["Mold Breaker", "Embody Aspect"],
             form: "Ogerpon (Hearthflame Mask)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Fire.png"
         },
         {
             name: "Ogerpon",
@@ -10499,7 +11547,9 @@ let nationalDex = {
             cryUrl: "cries/1017.mp3",
             ability: ["Sturdy", "Embody Aspect"],
             form: "Ogerpon (Cornerstone Mask)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Grass.png",
+            type2Url: "types/Rock.png"
         },
         {
             name: "Terapagos",
@@ -10519,7 +11569,9 @@ let nationalDex = {
             cryUrl: "cries/1024.mp3",
             ability: ["Tera Shift"],
             form: "Terapagos (Normal Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
         {
             name: "Terapagos",
@@ -10539,7 +11591,9 @@ let nationalDex = {
             cryUrl: "cries/1024.mp3",
             ability: ["Teraform Zero"],
             form: "Terapagos (Stellar Form)",
-            formType: ["Form Change"]
+            formType: ["Form Change"],
+            type1Url: "types/Normal.png",
+            type2Url: ""
         },
     ]
 }
@@ -10563,6 +11617,27 @@ let dexRender = (pokedex) => {
         pokemonForm.append(pocketMonster.form)
         let pokemonNumber = document.createElement("p")
         pokemonNumber.append("#", pocketMonster.number)
+        let typeicons = document.createElement("div")
+        let typeOne = document.createElement("img")
+        typeOne.src = pocketMonster.type1Url
+        typeOne.style = "height:18px"
+        typeOne.style = "width:90px"
+        let typeTwo = document.createElement("img")
+        typeTwo.src = pocketMonster.type2Url
+        typeTwo.style = "height:18px"
+        typeTwo.style = "width:90px"
+
+        let typeCount = function dualType(){
+            if (pocketMonster.type2Url === ""){
+                typeicons.append(typeOne)
+            }
+            else {
+                typeicons.append(typeOne)
+                typeicons.append(typeTwo)
+            }
+        }
+        typeCount()
+
         let pokemonType = document.createElement("p")
         let typeString = (pocketMonster.type).toString()
         let typeFormat = typeString.replace(",", "/")
@@ -10686,7 +11761,8 @@ favoritePokemon.addEventListener("click", favorite)
         divVariable.append(pokemonImage)
         divVariable.append(pokemonForm)
         divVariable.append(pokemonNumber)
-        divVariable.append(pokemonType)
+        divVariable.append(typeicons)
+        // divVariable.append(pokemonType)
         divVariable.append(pokemonCategory)
         divVariable.append(pokemonRegion)
         divVariable.append(pokemonGeneration)
