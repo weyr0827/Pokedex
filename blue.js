@@ -19,7 +19,9 @@ let nationalDex = {
             metricWeight: 6.9,
             dexEntry: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
             cryUrl: "cries/001.mp3",
-            japaneseName: "Fushigidane"
+            japaneseName: "Fushigidane",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Ivysaur",
@@ -37,7 +39,9 @@ let nationalDex = {
             metricWeight: 13.0,
             dexEntry: "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
             cryUrl: "cries/002.mp3",
-            japaneseName: "Fushigisou"
+            japaneseName: "Fushigisou",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Venusaur",
@@ -55,7 +59,9 @@ let nationalDex = {
             metricWeight: 100.0,
             dexEntry: "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
             cryUrl: "cries/003.mp3",
-            japaneseName: "Fushigibana"
+            japaneseName: "Fushigibana",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Charmander",
@@ -73,7 +79,9 @@ let nationalDex = {
             metricWeight: 8.5,
             dexEntry: "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
             cryUrl: "cries/004.mp3",
-            japaneseName: "Hitokage"
+            japaneseName: "Hitokage",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Charmeleon",
@@ -91,7 +99,9 @@ let nationalDex = {
             metricWeight: 19.0,
             dexEntry: "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
             cryUrl: "cries/005.mp3",
-            japaneseName: "Lizardo"
+            japaneseName: "Lizardo",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Charizard",
@@ -109,7 +119,9 @@ let nationalDex = {
             metricWeight: 90.5,
             dexEntry: "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
             cryUrl: "cries/006.mp3",
-            japaneseName: "Lizardon"
+            japaneseName: "Lizardon",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Squirtle",
@@ -127,7 +139,9 @@ let nationalDex = {
             metricWeight: 9.0,
             dexEntry: "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
             cryUrl: "cries/007.mp3",
-            japaneseName: "Zenigame"
+            japaneseName: "Zenigame",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Wartortle",
@@ -145,7 +159,9 @@ let nationalDex = {
             metricWeight: 22.5,
             dexEntry: "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
             cryUrl: "cries/008.mp3",
-            japaneseName: "Kameil"
+            japaneseName: "Kameil",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Blastoise",
@@ -163,7 +179,9 @@ let nationalDex = {
             metricWeight: 85.5,
             dexEntry: "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.",
             cryUrl: "cries/009.mp3",
-            japaneseName: "Kamex"
+            japaneseName: "Kamex",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Caterpie",
@@ -181,7 +199,9 @@ let nationalDex = {
             metricWeight: 2.9,
             dexEntry: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
             cryUrl: "cries/010.mp3",
-            japaneseName: "Caterpie"
+            japaneseName: "Caterpie",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: ""
         },
         {
             name: "Metapod",
@@ -199,7 +219,9 @@ let nationalDex = {
             metricWeight: 9.9,
             dexEntry: "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
             cryUrl: "cries/011.mp3",
-            japaneseName: "Transel"
+            japaneseName: "Transel",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: ""
         },
         {
             name: "Butterfree",
@@ -217,7 +239,9 @@ let nationalDex = {
             metricWeight: 32.0,
             dexEntry: "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
             cryUrl: "cries/012.mp3",
-            japaneseName: "Butterfree"
+            japaneseName: "Butterfree",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Weedle",
@@ -235,7 +259,9 @@ let nationalDex = {
             metricWeight: 3.2,
             dexEntry: "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
             cryUrl: "cries/013.mp3",
-            japaneseName: "Beedle"
+            japaneseName: "Beedle",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Kakuna",
@@ -253,7 +279,9 @@ let nationalDex = {
             metricWeight: 10.0,
             dexEntry: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
             cryUrl: "cries/014.mp3",
-            japaneseName: "Cocoon"
+            japaneseName: "Cocoon",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Beedrill",
@@ -271,7 +299,9 @@ let nationalDex = {
             metricWeight: 29.5,
             dexEntry: "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.",
             cryUrl: "cries/015.mp3",
-            japaneseName: "Spear"
+            japaneseName: "Spear",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Pidgey",
@@ -289,7 +319,9 @@ let nationalDex = {
             metricWeight: 1.8,
             dexEntry: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
             cryUrl: "cries/016.mp3",
-            japaneseName: "Poppo"
+            japaneseName: "Poppo",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Pidgeotto",
@@ -307,7 +339,9 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
             cryUrl: "cries/017.mp3",
-            japaneseName: "Pigeon"
+            japaneseName: "Pigeon",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Pidgeot",
@@ -325,7 +359,9 @@ let nationalDex = {
             metricWeight: 39.5,
             dexEntry: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
             cryUrl: "cries/018.mp3",
-            japaneseName: "Pigeot"
+            japaneseName: "Pigeot",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Rattata",
@@ -343,7 +379,9 @@ let nationalDex = {
             metricWeight: 3.5,
             dexEntry: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
             cryUrl: "cries/019.mp3",
-            japaneseName: "Koratta"
+            japaneseName: "Koratta",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Raticate",
@@ -361,7 +399,9 @@ let nationalDex = {
             metricWeight: 18.5,
             dexEntry: "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
             cryUrl: "cries/020.mp3",
-            japaneseName: "Ratta"
+            japaneseName: "Ratta",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Spearow",
@@ -379,7 +419,9 @@ let nationalDex = {
             metricWeight: 2.0,
             dexEntry: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
             cryUrl: "cries/021.mp3",
-            japaneseName: "Onisuzume"
+            japaneseName: "Onisuzume",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Fearow",
@@ -397,7 +439,9 @@ let nationalDex = {
             metricWeight: 38.0,
             dexEntry: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
             cryUrl: "cries/022.mp3",
-            japaneseName: "Onidrill"
+            japaneseName: "Onidrill",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Ekans",
@@ -415,7 +459,9 @@ let nationalDex = {
             metricWeight: 6.9,
             dexEntry: "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole.",
             cryUrl: "cries/023.mp3",
-            japaneseName: "Arbo"
+            japaneseName: "Arbo",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Arbok",
@@ -433,7 +479,9 @@ let nationalDex = {
             metricWeight: 65.0,
             dexEntry: "It is rumored that the ferocious warning markings on its belly differ from area to area.",
             cryUrl: "cries/024.mp3",
-            japaneseName: "Arbok"
+            japaneseName: "Arbok",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Pikachu",
@@ -451,7 +499,9 @@ let nationalDex = {
             metricWeight: 6.0,
             dexEntry: "When several of these Pokémon gather, their electricity could build and cause lightning storms.",
             cryUrl: "cries/025.mp3",
-            japaneseName: "Pikachu"
+            japaneseName: "Pikachu",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Raichu",
@@ -469,7 +519,9 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Its long tail serves as a ground to protect itself from its own high voltage power.",
             cryUrl: "cries/026.mp3",
-            japaneseName: "Raichu"
+            japaneseName: "Raichu",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Sandshrew",
@@ -487,7 +539,9 @@ let nationalDex = {
             metricWeight: 12.0,
             dexEntry: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
             cryUrl: "cries/027.mp3",
-            japaneseName: "Sand"
+            japaneseName: "Sand",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: ""
         },
         {
             name: "Sandslash",
@@ -505,7 +559,9 @@ let nationalDex = {
             metricWeight: 29.5,
             dexEntry: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
             cryUrl: "cries/028.mp3",
-            japaneseName: "Sandpan"
+            japaneseName: "Sandpan",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: ""
         },
         {
             name: "Nidoran♀",
@@ -523,7 +579,9 @@ let nationalDex = {
             metricWeight: 7.0,
             dexEntry: "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
             cryUrl: "cries/029.mp3",
-            japaneseName: "Nidoran♀"
+            japaneseName: "Nidoran♀",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Nidorina",
@@ -541,7 +599,9 @@ let nationalDex = {
             metricWeight: 20.0,
             dexEntry: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
             cryUrl: "cries/030.mp3",
-            japaneseName: "Nidorina"
+            japaneseName: "Nidorina",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Nidoqueen",
@@ -559,7 +619,9 @@ let nationalDex = {
             metricWeight: 60.0,
             dexEntry: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
             cryUrl: "cries/031.mp3",
-            japaneseName: "Nidoqueen"
+            japaneseName: "Nidoqueen",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: "types/RGBYGSC/Ground.png"
         },
         {
             name: "Nidoran♂",
@@ -577,7 +639,9 @@ let nationalDex = {
             metricWeight: 9.0,
             dexEntry: "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
             cryUrl: "cries/032.mp3",
-            japaneseName: "Nidoran♂"
+            japaneseName: "Nidoran♂",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Nidorino",
@@ -595,7 +659,9 @@ let nationalDex = {
             metricWeight: 19.5,
             dexEntry: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
             cryUrl: "cries/033.mp3",
-            japaneseName: "Nidorino"
+            japaneseName: "Nidorino",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Nidoking",
@@ -613,7 +679,9 @@ let nationalDex = {
             metricWeight: 62.0,
             dexEntry: "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
             cryUrl: "cries/034.mp3",
-            japaneseName: "Nidoking"
+            japaneseName: "Nidoking",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: "types/RGBYGSC/Ground.png"
         },
         {
             name: "Clefairy",
@@ -631,7 +699,9 @@ let nationalDex = {
             metricWeight: 7.5,
             dexEntry: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
             cryUrl: "cries/035.mp3",
-            japaneseName: "Pippi"
+            japaneseName: "Pippi",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Clefable",
@@ -649,7 +719,9 @@ let nationalDex = {
             metricWeight: 40.0,
             dexEntry: "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
             cryUrl: "cries/036.mp3",
-            japaneseName: "Pixy"
+            japaneseName: "Pixy",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Vulpix",
@@ -667,7 +739,9 @@ let nationalDex = {
             metricWeight: 9.9,
             dexEntry: "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
             cryUrl: "cries/037.mp3",
-            japaneseName: "Rokon"
+            japaneseName: "Rokon",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Ninetales",
@@ -685,7 +759,9 @@ let nationalDex = {
             metricWeight: 19.9,
             dexEntry: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
             cryUrl: "cries/038.mp3",
-            japaneseName: "Kyukon"
+            japaneseName: "Kyukon",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Jigglypuff",
@@ -703,7 +779,9 @@ let nationalDex = {
             metricWeight: 5.5,
             dexEntry: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
             cryUrl: "cries/039.mp3",
-            japaneseName: "Purin"
+            japaneseName: "Purin",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Wigglytuff",
@@ -721,7 +799,9 @@ let nationalDex = {
             metricWeight: 12.0,
             dexEntry: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
             cryUrl: "cries/040.mp3",
-            japaneseName: "Pukurin"
+            japaneseName: "Pukurin",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Zubat",
@@ -739,7 +819,9 @@ let nationalDex = {
             metricWeight: 7.5,
             dexEntry: "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
             cryUrl: "cries/041.mp3",
-            japaneseName: "Zubat"
+            japaneseName: "Zubat",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Golbat",
@@ -757,7 +839,9 @@ let nationalDex = {
             metricWeight: 55.0,
             dexEntry: "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
             cryUrl: "cries/042.mp3",
-            japaneseName: "Golbat"
+            japaneseName: "Golbat",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Oddish",
@@ -775,7 +859,9 @@ let nationalDex = {
             metricWeight: 5.4,
             dexEntry: "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
             cryUrl: "cries/043.mp3",
-            japaneseName: "Nazonokusa"
+            japaneseName: "Nazonokusa",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Gloom",
@@ -793,7 +879,9 @@ let nationalDex = {
             metricWeight: 8.6,
             dexEntry: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
             cryUrl: "cries/044.mp3",
-            japaneseName: "Kusaihana"
+            japaneseName: "Kusaihana",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Vileplume",
@@ -811,7 +899,9 @@ let nationalDex = {
             metricWeight: 18.6,
             dexEntry: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
             cryUrl: "cries/045.mp3",
-            japaneseName: "Ruffresia"
+            japaneseName: "Ruffresia",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Paras",
@@ -829,7 +919,9 @@ let nationalDex = {
             metricWeight: 5.4,
             dexEntry: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
             cryUrl: "cries/046.mp3",
-            japaneseName: "Paras"
+            japaneseName: "Paras",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Grass.png"
         },
         {
             name: "Parasect",
@@ -847,7 +939,9 @@ let nationalDex = {
             metricWeight: 29.5,
             dexEntry: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
             cryUrl: "cries/047.mp3",
-            japaneseName: "Parasect"
+            japaneseName: "Parasect",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Grass.png"
         },
         {
             name: "Venonat",
@@ -865,7 +959,9 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
             cryUrl: "cries/048.mp3",
-            japaneseName: "Kongpang"
+            japaneseName: "Kongpang",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Venomoth",
@@ -883,7 +979,9 @@ let nationalDex = {
             metricWeight: 12.5,
             dexEntry: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
             cryUrl: "cries/049.mp3",
-            japaneseName: "Morphon"
+            japaneseName: "Morphon",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Diglett",
@@ -901,7 +999,9 @@ let nationalDex = {
             metricWeight: 0.8,
             dexEntry: "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
             cryUrl: "cries/050.mp3",
-            japaneseName: "Digda"
+            japaneseName: "Digda",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: ""
         },
         {
             name: "Dugtrio",
@@ -919,7 +1019,9 @@ let nationalDex = {
             metricWeight: 33.3,
             dexEntry: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
             cryUrl: "cries/051.mp3",
-            japaneseName: "Dugtrio"
+            japaneseName: "Dugtrio",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: ""
         },
         {
             name: "Meowth",
@@ -937,7 +1039,9 @@ let nationalDex = {
             metricWeight: 4.2,
             dexEntry: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
             cryUrl: "cries/052.mp3",
-            japaneseName: "Nyarth"
+            japaneseName: "Nyarth",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Persian",
@@ -955,7 +1059,9 @@ let nationalDex = {
             metricWeight: 32.0,
             dexEntry: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
             cryUrl: "cries/053.mp3",
-            japaneseName: "Persian"
+            japaneseName: "Persian",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Psyduck",
@@ -973,7 +1079,9 @@ let nationalDex = {
             metricWeight: 19.6,
             dexEntry: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
             cryUrl: "cries/054.mp3",
-            japaneseName: "Koduck"
+            japaneseName: "Koduck",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Golduck",
@@ -991,7 +1099,9 @@ let nationalDex = {
             metricWeight: 76.6,
             dexEntry: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
             cryUrl: "cries/055.mp3",
-            japaneseName: "Golduck"
+            japaneseName: "Golduck",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Mankey",
@@ -1009,7 +1119,9 @@ let nationalDex = {
             metricWeight: 28.0,
             dexEntry: "Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
             cryUrl: "cries/056.mp3",
-            japaneseName: "Mankey"
+            japaneseName: "Mankey",
+            type1Url: "types/RGBYGSC/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Primeape",
@@ -1027,7 +1139,9 @@ let nationalDex = {
             metricWeight: 32.0,
             dexEntry: "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.",
             cryUrl: "cries/057.mp3",
-            japaneseName: "Okorizaru"
+            japaneseName: "Okorizaru",
+            type1Url: "types/RGBYGSC/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Growlithe",
@@ -1045,7 +1159,9 @@ let nationalDex = {
             metricWeight: 19.0,
             dexEntry: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
             cryUrl: "cries/058.mp3",
-            japaneseName: "Gardie"
+            japaneseName: "Gardie",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Arcanine",
@@ -1063,7 +1179,9 @@ let nationalDex = {
             metricWeight: 155.0,
             dexEntry: "A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings.",
             cryUrl: "cries/059.mp3",
-            japaneseName: "Windie"
+            japaneseName: "Windie",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Poliwag",
@@ -1081,7 +1199,9 @@ let nationalDex = {
             metricWeight: 12.4,
             dexEntry: "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
             cryUrl: "cries/060.mp3",
-            japaneseName: "Nyoromo"
+            japaneseName: "Nyoromo",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Poliwhirl",
@@ -1099,7 +1219,9 @@ let nationalDex = {
             metricWeight: 20.0,
             dexEntry: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
             cryUrl: "cries/061.mp3",
-            japaneseName: "Nyorozo"
+            japaneseName: "Nyorozo",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Poliwrath",
@@ -1117,7 +1239,9 @@ let nationalDex = {
             metricWeight: 54.0,
             dexEntry: "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.",
             cryUrl: "cries/062.mp3",
-            japaneseName: "Nyorobon"
+            japaneseName: "Nyorobon",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Fighting.png"
         },
         {
             name: "Abra",
@@ -1135,7 +1259,9 @@ let nationalDex = {
             metricWeight: 19.5,
             dexEntry: "Using its ability to read minds, it will identify impending danger and Teleport to safety.",
             cryUrl: "cries/063.mp3",
-            japaneseName: "Casey"
+            japaneseName: "Casey",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Kadabra",
@@ -1153,7 +1279,9 @@ let nationalDex = {
             metricWeight: 56.5,
             dexEntry: "It emits special alpha waves from its body that induce headaches just by being close by.",
             cryUrl: "cries/064.mp3",
-            japaneseName: "Yungerer"
+            japaneseName: "Yungerer",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Alakazam",
@@ -1171,7 +1299,9 @@ let nationalDex = {
             metricWeight: 48.0,
             dexEntry: "Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000.",
             cryUrl: "cries/065.mp3",
-            japaneseName: "Foodin"
+            japaneseName: "Foodin",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Machop",
@@ -1189,7 +1319,9 @@ let nationalDex = {
             metricWeight: 19.5,
             dexEntry: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
             cryUrl: "cries/066.mp3",
-            japaneseName: "Wanriky"
+            japaneseName: "Wanriky",
+            type1Url: "types/RGBYGSC/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Machoke",
@@ -1207,7 +1339,9 @@ let nationalDex = {
             metricWeight: 70.5,
             dexEntry: "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
             cryUrl: "cries/067.mp3",
-            japaneseName: "Goriky"
+            japaneseName: "Goriky",
+            type1Url: "types/RGBYGSC/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Machamp",
@@ -1225,7 +1359,9 @@ let nationalDex = {
             metricWeight: 130.0,
             dexEntry: "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
             cryUrl: "cries/068.mp3",
-            japaneseName: "Kairiky"
+            japaneseName: "Kairiky",
+            type1Url: "types/RGBYGSC/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Bellsprout",
@@ -1243,7 +1379,9 @@ let nationalDex = {
             metricWeight: 4.0,
             dexEntry: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
             cryUrl: "cries/069.mp3",
-            japaneseName: "Madatsubomi"
+            japaneseName: "Madatsubomi",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Weepinbell",
@@ -1261,7 +1399,9 @@ let nationalDex = {
             metricWeight: 6.4,
             dexEntry: "It spits out PoisonPowder to immobilize the enemy and then finishes it with a spray of Acid.",
             cryUrl: "cries/070.mp3",
-            japaneseName: "Utsudon"
+            japaneseName: "Utsudon",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Victreebel",
@@ -1279,7 +1419,9 @@ let nationalDex = {
             metricWeight: 15.5,
             dexEntry: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
             cryUrl: "cries/071.mp3",
-            japaneseName: "Utsubot"
+            japaneseName: "Utsubot",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Tentacool",
@@ -1297,7 +1439,9 @@ let nationalDex = {
             metricWeight: 45.5,
             dexEntry: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
             cryUrl: "cries/072.mp3",
-            japaneseName: "Menokurage"
+            japaneseName: "Menokurage",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Tentacruel",
@@ -1315,7 +1459,9 @@ let nationalDex = {
             metricWeight: 55.0,
             dexEntry: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
             cryUrl: "cries/073.mp3",
-            japaneseName: "Dokukurage"
+            japaneseName: "Dokukurage",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Geodude",
@@ -1333,7 +1479,9 @@ let nationalDex = {
             metricWeight: 20.0,
             dexEntry: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
             cryUrl: "cries/074.mp3",
-            japaneseName: "Isitsubute"
+            japaneseName: "Isitsubute",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Ground.png"
         },
         {
             name: "Graveler",
@@ -1351,7 +1499,9 @@ let nationalDex = {
             metricWeight: 105.0,
             dexEntry: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
             cryUrl: "cries/075.mp3",
-            japaneseName: "Golone"
+            japaneseName: "Golone",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Ground.png"
         },
         {
             name: "Golem",
@@ -1369,7 +1519,9 @@ let nationalDex = {
             metricWeight: 300.0,
             dexEntry: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
             cryUrl: "cries/076.mp3",
-            japaneseName: "Golonya"
+            japaneseName: "Golonya",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Ground.png"
         },
         {
             name: "Ponyta",
@@ -1387,7 +1539,9 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.",
             cryUrl: "cries/077.mp3",
-            japaneseName: "Ponyta"
+            japaneseName: "Ponyta",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Rapidash",
@@ -1405,7 +1559,9 @@ let nationalDex = {
             metricWeight: 95.0,
             dexEntry: "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
             cryUrl: "cries/078.mp3",
-            japaneseName: "Gallop"
+            japaneseName: "Gallop",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Slowpoke",
@@ -1423,7 +1579,9 @@ let nationalDex = {
             metricWeight: 36.0,
             dexEntry: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
             cryUrl: "cries/079.mp3",
-            japaneseName: "Yadon"
+            japaneseName: "Yadon",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Psychic.png"
         },
         {
             name: "Slowbro",
@@ -1441,7 +1599,9 @@ let nationalDex = {
             metricWeight: 78.5,
             dexEntry: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left over scraps.",
             cryUrl: "cries/080.mp3",
-            japaneseName: "Yadoran"
+            japaneseName: "Yadoran",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Psychic.png"
         },
         {
             name: "Magnemite",
@@ -1459,7 +1619,9 @@ let nationalDex = {
             metricWeight: 6.0,
             dexEntry: "Uses anti-gravity to stay suspended. Appears without warning and uses Thunder Wave and similar moves.",
             cryUrl: "cries/081.mp3",
-            japaneseName: "Coil"
+            japaneseName: "Coil",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Magneton",
@@ -1477,7 +1639,9 @@ let nationalDex = {
             metricWeight: 60.0,
             dexEntry: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up.",
             cryUrl: "cries/082.mp3",
-            japaneseName: "Rarecoil"
+            japaneseName: "Rarecoil",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Farfetch'd",
@@ -1495,7 +1659,9 @@ let nationalDex = {
             metricWeight: 15.0,
             dexEntry: "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
             cryUrl: "cries/083.mp3",
-            japaneseName: "Kamonegi"
+            japaneseName: "Kamonegi",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Doduo",
@@ -1513,7 +1679,9 @@ let nationalDex = {
             metricWeight: 39.2,
             dexEntry: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
             cryUrl: "cries/084.mp3",
-            japaneseName: "Dodo"
+            japaneseName: "Dodo",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Dodrio",
@@ -1531,7 +1699,9 @@ let nationalDex = {
             metricWeight: 85.2,
             dexEntry: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
             cryUrl: "cries/085.mp3",
-            japaneseName: "Dodorio"
+            japaneseName: "Dodorio",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Seel",
@@ -1549,7 +1719,9 @@ let nationalDex = {
             metricWeight: 90.0,
             dexEntry: "The protruding horn on its head is very hard. It is used for bashing through thick ice.",
             cryUrl: "cries/086.mp3",
-            japaneseName: "Pawou"
+            japaneseName: "Pawou",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Dewgong",
@@ -1567,7 +1739,9 @@ let nationalDex = {
             metricWeight: 120.0,
             dexEntry: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
             cryUrl: "cries/087.mp3",
-            japaneseName: "Jugon"
+            japaneseName: "Jugon",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Ice.png"
         },
         {
             name: "Grimer",
@@ -1585,7 +1759,9 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
             cryUrl: "cries/088.mp3",
-            japaneseName: "Betbeter"
+            japaneseName: "Betbeter",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Muk",
@@ -1603,7 +1779,9 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
             cryUrl: "cries/089.mp3",
-            japaneseName: "Betbeton"
+            japaneseName: "Betbeton",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Shellder",
@@ -1621,7 +1799,9 @@ let nationalDex = {
             metricWeight: 4.0,
             dexEntry: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
             cryUrl: "cries/090.mp3",
-            japaneseName: "Shellder"
+            japaneseName: "Shellder",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Cloyster",
@@ -1639,7 +1819,9 @@ let nationalDex = {
             metricWeight: 132.5,
             dexEntry: "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
             cryUrl: "cries/091.mp3",
-            japaneseName: "Parshen"
+            japaneseName: "Parshen",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Ice.png"
         },
         {
             name: "Gastly",
@@ -1657,7 +1839,9 @@ let nationalDex = {
             metricWeight: 0.1,
             dexEntry: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
             cryUrl: "cries/092.mp3",
-            japaneseName: "Ghos"
+            japaneseName: "Ghos",
+            type1Url: "types/RGBYGSC/Ghost.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Haunter",
@@ -1675,7 +1859,9 @@ let nationalDex = {
             metricWeight: 0.1,
             dexEntry: "Because of its ability to slip through block walls, it is said to be from another dimension.",
             cryUrl: "cries/093.mp3",
-            japaneseName: "Ghost"
+            japaneseName: "Ghost",
+            type1Url: "types/RGBYGSC/Ghost.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Gengar",
@@ -1693,7 +1879,9 @@ let nationalDex = {
             metricWeight: 40.5,
             dexEntry: "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",
             cryUrl: "cries/094.mp3",
-            japaneseName: "Gangar"
+            japaneseName: "Gangar",
+            type1Url: "types/RGBYGSC/Ghost.png",
+            type2Url: "types/RGBYGSC/Poison.png"
         },
         {
             name: "Onix",
@@ -1711,7 +1899,9 @@ let nationalDex = {
             metricWeight: 210.0,
             dexEntry: "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",
             cryUrl: "cries/095.mp3",
-            japaneseName: "Iwark"
+            japaneseName: "Iwark",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Ground.png"
         },
         {
             name: "Drowzee",
@@ -1729,7 +1919,9 @@ let nationalDex = {
             metricWeight: 32.4,
             dexEntry: "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
             cryUrl: "cries/096.mp3",
-            japaneseName: "Sleepe"
+            japaneseName: "Sleepe",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Hypno",
@@ -1747,7 +1939,9 @@ let nationalDex = {
             metricWeight: 75.6,
             dexEntry: "When it locks eyes with an enemy, it will use a mix of PSI moves such as Hypnosis and Confusion.",
             cryUrl: "cries/097.mp3",
-            japaneseName: "Sleeper"
+            japaneseName: "Sleeper",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Krabby",
@@ -1765,7 +1959,9 @@ let nationalDex = {
             metricWeight: 6.5,
             dexEntry: "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
             cryUrl: "cries/098.mp3",
-            japaneseName: "Crab"
+            japaneseName: "Crab",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Kingler",
@@ -1783,7 +1979,9 @@ let nationalDex = {
             metricWeight: 60.0,
             dexEntry: "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.",
             cryUrl: "cries/099.mp3",
-            japaneseName: "Kingler"
+            japaneseName: "Kingler",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Voltorb",
@@ -1801,7 +1999,9 @@ let nationalDex = {
             metricWeight: 10.4,
             dexEntry: "Usually found in power plants. Easily mistaken for a Poké Ball, they have zapped many people.",
             cryUrl: "cries/100.mp3",
-            japaneseName: "Biriridama"
+            japaneseName: "Biriridama",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Electrode",
@@ -1819,7 +2019,9 @@ let nationalDex = {
             metricWeight: 66.6,
             dexEntry: "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
             cryUrl: "cries/101.mp3",
-            japaneseName: "Marumine"
+            japaneseName: "Marumine",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Exeggcute",
@@ -1837,7 +2039,9 @@ let nationalDex = {
             metricWeight: 2.5,
             dexEntry: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
             cryUrl: "cries/102.mp3",
-            japaneseName: "Tamatama"
+            japaneseName: "Tamatama",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Psychic.png"
         },
         {
             name: "Exeggutor",
@@ -1855,7 +2059,9 @@ let nationalDex = {
             metricWeight: 120.0,
             dexEntry: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
             cryUrl: "cries/103.mp3",
-            japaneseName: "Nassy"
+            japaneseName: "Nassy",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: "types/RGBYGSC/Psychic.png"
         },
         {
             name: "Cubone",
@@ -1873,7 +2079,9 @@ let nationalDex = {
             metricWeight: 6.5,
             dexEntry: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
             cryUrl: "cries/104.mp3",
-            japaneseName: "Karakara"
+            japaneseName: "Karakara",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: ""
         },
         {
             name: "Marowak",
@@ -1891,7 +2099,9 @@ let nationalDex = {
             metricWeight: 45.0,
             dexEntry: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
             cryUrl: "cries/105.mp3",
-            japaneseName: "Garagara"
+            japaneseName: "Garagara",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: ""
         },
         {
             name: "Hitmonlee",
@@ -1909,7 +2119,9 @@ let nationalDex = {
             metricWeight: 49.8,
             dexEntry: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
             cryUrl: "cries/106.mp3",
-            japaneseName: "Sawamular"
+            japaneseName: "Sawamular",
+            type1Url: "types/RGBYGSC/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Hitmonchan",
@@ -1927,7 +2139,9 @@ let nationalDex = {
             metricWeight: 50.2,
             dexEntry: "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",
             cryUrl: "cries/107.mp3",
-            japaneseName: "Ebiwalar"
+            japaneseName: "Ebiwalar",
+            type1Url: "types/RGBYGSC/Fighting.png",
+            type2Url: ""
         },
         {
             name: "Lickitung",
@@ -1945,7 +2159,9 @@ let nationalDex = {
             metricWeight: 65.5,
             dexEntry: "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
             cryUrl: "cries/108.mp3",
-            japaneseName: "Beroringa"
+            japaneseName: "Beroringa",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Koffing",
@@ -1963,7 +2179,9 @@ let nationalDex = {
             metricWeight: 2.2,
             dexEntry: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
             cryUrl: "cries/109.mp3",
-            japaneseName: "Dogars"
+            japaneseName: "Dogars",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Weezing",
@@ -1981,7 +2199,9 @@ let nationalDex = {
             metricWeight: 9.5,
             dexEntry: "Where two kinds of poison gases meet, 2 Koffings can fuse into a Weezing over many years.",
             cryUrl: "cries/110.mp3",
-            japaneseName: "Matadogas"
+            japaneseName: "Matadogas",
+            type1Url: "types/RGBYGSC/Poison.png",
+            type2Url: ""
         },
         {
             name: "Rhyhorn",
@@ -1999,7 +2219,9 @@ let nationalDex = {
             metricWeight: 115.0,
             dexEntry: "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
             cryUrl: "cries/111.mp3",
-            japaneseName: "Sihorn"
+            japaneseName: "Sihorn",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: "types/RGBYGSC/Rock.png"
         },
         {
             name: "Rhydon",
@@ -2017,7 +2239,9 @@ let nationalDex = {
             metricWeight: 120.0,
             dexEntry: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
             cryUrl: "cries/112.mp3",
-            japaneseName: "Sidon"
+            japaneseName: "Sidon",
+            type1Url: "types/RGBYGSC/Ground.png",
+            type2Url: "types/RGBYGSC/Rock.png"
         },
         {
             name: "Chansey",
@@ -2035,7 +2259,9 @@ let nationalDex = {
             metricWeight: 34.6,
             dexEntry: "A rare and elusive Pokémon that is said to bring happiness to those who manage to get it.",
             cryUrl: "cries/113.mp3",
-            japaneseName: "Lucky"
+            japaneseName: "Lucky",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Tangela",
@@ -2053,7 +2279,9 @@ let nationalDex = {
             metricWeight: 35.0,
             dexEntry: "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks.",
             cryUrl: "cries/114.mp3",
-            japaneseName: "Monjara"
+            japaneseName: "Monjara",
+            type1Url: "types/RGBYGSC/Grass.png",
+            type2Url: ""
         },
         {
             name: "Kangaskhan",
@@ -2071,7 +2299,9 @@ let nationalDex = {
             metricWeight: 80.0,
             dexEntry: "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
             cryUrl: "cries/115.mp3",
-            japaneseName: "Garura"
+            japaneseName: "Garura",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Horsea",
@@ -2089,7 +2319,9 @@ let nationalDex = {
             metricWeight: 8.0,
             dexEntry: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
             cryUrl: "cries/116.mp3",
-            japaneseName: "Tattu"
+            japaneseName: "Tattu",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Seadra",
@@ -2107,7 +2339,9 @@ let nationalDex = {
             metricWeight: 25.0,
             dexEntry: "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
             cryUrl: "cries/117.mp3",
-            japaneseName: "Seadra"
+            japaneseName: "Seadra",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Goldeen",
@@ -2125,7 +2359,9 @@ let nationalDex = {
             metricWeight: 15.0,
             dexEntry: "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
             cryUrl: "cries/118.mp3",
-            japaneseName: "Tosakinto"
+            japaneseName: "Tosakinto",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Seaking",
@@ -2143,7 +2379,9 @@ let nationalDex = {
             metricWeight: 39.0,
             dexEntry: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
             cryUrl: "cries/119.mp3",
-            japaneseName: "Azumao"
+            japaneseName: "Azumao",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Staryu",
@@ -2161,7 +2399,9 @@ let nationalDex = {
             metricWeight: 34.5,
             dexEntry: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
             cryUrl: "cries/120.mp3",
-            japaneseName: "Hitodeman"
+            japaneseName: "Hitodeman",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Starmie",
@@ -2179,7 +2419,9 @@ let nationalDex = {
             metricWeight: 80.0,
             dexEntry: "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
             cryUrl: "cries/121.mp3",
-            japaneseName: "Starmie"
+            japaneseName: "Starmie",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Psychic.png"
         },
         {
             name: "Mr. Mime",
@@ -2197,7 +2439,9 @@ let nationalDex = {
             metricWeight: 54.5,
             dexEntry: "If interrupted while it is miming, it will slap around the offender with its broad hands.",
             cryUrl: "cries/122.mp3",
-            japaneseName: "Barrierd"
+            japaneseName: "Barrierd",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Scyther",
@@ -2215,7 +2459,9 @@ let nationalDex = {
             metricWeight: 56.0,
             dexEntry: "With ninja-like agility and speed, it can create the illusion that there is more than one.",
             cryUrl: "cries/123.mp3",
-            japaneseName: "Strike"
+            japaneseName: "Strike",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Jynx",
@@ -2233,7 +2479,9 @@ let nationalDex = {
             metricWeight: 40.6,
             dexEntry: "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
             cryUrl: "cries/124.mp3",
-            japaneseName: "Rougela"
+            japaneseName: "Rougela",
+            type1Url: "types/RGBYGSC/Ice.png",
+            type2Url: "types/RGBYGSC/Psychic.png"
         },
         {
             name: "Electabuzz",
@@ -2251,7 +2499,9 @@ let nationalDex = {
             metricWeight: 30.0,
             dexEntry: "Normally found near power plants, they can wander away and cause major blackouts in cities.",
             cryUrl: "cries/125.mp3",
-            japaneseName: "Eleboo"
+            japaneseName: "Eleboo",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Magmar",
@@ -2269,7 +2519,9 @@ let nationalDex = {
             metricWeight: 44.5,
             dexEntry: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
             cryUrl: "cries/126.mp3",
-            japaneseName: "Boober"
+            japaneseName: "Boober",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Pinsir",
@@ -2287,7 +2539,9 @@ let nationalDex = {
             metricWeight: 55.0,
             dexEntry: "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
             cryUrl: "cries/127.mp3",
-            japaneseName: "Kailios"
+            japaneseName: "Kailios",
+            type1Url: "types/RGBYGSC/Bug.png",
+            type2Url: ""
         },
         {
             name: "Tauros",
@@ -2305,7 +2559,9 @@ let nationalDex = {
             metricWeight: 88.4,
             dexEntry: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
             cryUrl: "cries/128.mp3",
-            japaneseName: "Kentauros"
+            japaneseName: "Kentauros",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Magikarp",
@@ -2323,7 +2579,9 @@ let nationalDex = {
             metricWeight: 10.0,
             dexEntry: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
             cryUrl: "cries/129.mp3",
-            japaneseName: "Koiking"
+            japaneseName: "Koiking",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Gyarados",
@@ -2341,7 +2599,9 @@ let nationalDex = {
             metricWeight: 235.0,
             dexEntry: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
             cryUrl: "cries/130.mp3",
-            japaneseName: "Gyarados"
+            japaneseName: "Gyarados",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Lapras",
@@ -2359,7 +2619,9 @@ let nationalDex = {
             metricWeight: 220.0,
             dexEntry: "A Pokémon that has been overhunted almost to extinction. It can ferry people across the water.",
             cryUrl: "cries/131.mp3",
-            japaneseName: "Laplace"
+            japaneseName: "Laplace",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: "types/RGBYGSC/Ice.png"
         },
         {
             name: "Ditto",
@@ -2377,7 +2639,9 @@ let nationalDex = {
             metricWeight: 4.0,
             dexEntry: "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
             cryUrl: "cries/132.mp3",
-            japaneseName: "Metamon"
+            japaneseName: "Metamon",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Eevee",
@@ -2395,7 +2659,9 @@ let nationalDex = {
             metricWeight: 6.5,
             dexEntry: "Its genetic code is irregular. It may mutate if it is exposed to radiation from Evolution stones.",
             cryUrl: "cries/133.mp3",
-            japaneseName: "Eievui"
+            japaneseName: "Eievui",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Vaporeon",
@@ -2413,7 +2679,9 @@ let nationalDex = {
             metricWeight: 29.0,
             dexEntry: "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
             cryUrl: "cries/134.mp3",
-            japaneseName: "Showers"
+            japaneseName: "Showers",
+            type1Url: "types/RGBYGSC/Water.png",
+            type2Url: ""
         },
         {
             name: "Jolteon",
@@ -2431,7 +2699,9 @@ let nationalDex = {
             metricWeight: 24.5,
             dexEntry: "It accumulates negative ions in the atmosphere to blast out 10000-volt lightning bolts.",
             cryUrl: "cries/135.mp3",
-            japaneseName: "Thunders"
+            japaneseName: "Thunders",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: ""
         },
         {
             name: "Flareon",
@@ -2449,7 +2719,9 @@ let nationalDex = {
             metricWeight: 25.0,
             dexEntry: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
             cryUrl: "cries/136.mp3",
-            japaneseName: "Booster"
+            japaneseName: "Booster",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: ""
         },
         {
             name: "Porygon",
@@ -2467,7 +2739,9 @@ let nationalDex = {
             metricWeight: 36.5,
             dexEntry: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
             cryUrl: "cries/137.mp3",
-            japaneseName: "Porygon"
+            japaneseName: "Porygon",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Omanyte",
@@ -2485,7 +2759,9 @@ let nationalDex = {
             metricWeight: 7.5,
             dexEntry: "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
             cryUrl: "cries/138.mp3",
-            japaneseName: "Omnite"
+            japaneseName: "Omnite",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Water.png"
         },
         {
             name: "Omastar",
@@ -2503,7 +2779,9 @@ let nationalDex = {
             metricWeight: 35.0,
             dexEntry: "A prehistoric Pokémon that died out when its heavy shell made it impossible to catch prey.",
             cryUrl: "cries/139.mp3",
-            japaneseName: "Omstar"
+            japaneseName: "Omstar",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Water.png"
         },
         {
             name: "Kabuto",
@@ -2521,7 +2799,9 @@ let nationalDex = {
             metricWeight: 11.5,
             dexEntry: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago.",
             cryUrl: "cries/140.mp3",
-            japaneseName: "Kabuto"
+            japaneseName: "Kabuto",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Water.png"
         },
         {
             name: "Kabutops",
@@ -2539,7 +2819,9 @@ let nationalDex = {
             metricWeight: 40.5,
             dexEntry: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
             cryUrl: "cries/141.mp3",
-            japaneseName: "Kabutops"
+            japaneseName: "Kabutops",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Water.png"
         },
         {
             name: "Aerodactyl",
@@ -2557,7 +2839,9 @@ let nationalDex = {
             metricWeight: 59.0,
             dexEntry: "A ferocious, prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
             cryUrl: "cries/142.mp3",
-            japaneseName: "Ptera"
+            japaneseName: "Ptera",
+            type1Url: "types/RGBYGSC/Rock.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Snorlax",
@@ -2575,7 +2859,9 @@ let nationalDex = {
             metricWeight: 460.0,
             dexEntry: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
             cryUrl: "cries/143.mp3",
-            japaneseName: "Kabigon"
+            japaneseName: "Kabigon",
+            type1Url: "types/RGBYGSC/Normal.png",
+            type2Url: ""
         },
         {
             name: "Articuno",
@@ -2593,7 +2879,9 @@ let nationalDex = {
             metricWeight: 55.4,
             dexEntry: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
             cryUrl: "cries/144.mp3",
-            japaneseName: "Freezer"
+            japaneseName: "Freezer",
+            type1Url: "types/RGBYGSC/Ice.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Zapdos",
@@ -2611,7 +2899,9 @@ let nationalDex = {
             metricWeight: 52.6,
             dexEntry: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
             cryUrl: "cries/145.mp3",
-            japaneseName: "Thunder"
+            japaneseName: "Thunder",
+            type1Url: "types/RGBYGSC/Electric.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Moltres",
@@ -2629,7 +2919,9 @@ let nationalDex = {
             metricWeight: 60.0,
             dexEntry: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
             cryUrl: "cries/146.mp3",
-            japaneseName: "Fire"
+            japaneseName: "Fire",
+            type1Url: "types/RGBYGSC/Fire.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Dratini",
@@ -2647,7 +2939,9 @@ let nationalDex = {
             metricWeight: 3.3,
             dexEntry: "Long considered a mythical Pokémon until recently when a small colony was found living underwater.",
             cryUrl: "cries/147.mp3",
-            japaneseName: "Miniryu"
+            japaneseName: "Miniryu",
+            type1Url: "types/RGBYGSC/Dragon.png",
+            type2Url: ""
         },
         {
             name: "Dragonair",
@@ -2665,7 +2959,9 @@ let nationalDex = {
             metricWeight: 16.5,
             dexEntry: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
             cryUrl: "cries/148.mp3",
-            japaneseName: "Hakuryu"
+            japaneseName: "Hakuryu",
+            type1Url: "types/RGBYGSC/Dragon.png",
+            type2Url: ""
         },
         {
             name: "Dragonite",
@@ -2683,7 +2979,9 @@ let nationalDex = {
             metricWeight: 210.0,
             dexEntry: "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",
             cryUrl: "cries/149.mp3",
-            japaneseName: "Kairyu"
+            japaneseName: "Kairyu",
+            type1Url: "types/RGBYGSC/Dragon.png",
+            type2Url: "types/RGBYGSC/Flying.png"
         },
         {
             name: "Mewtwo",
@@ -2701,7 +2999,9 @@ let nationalDex = {
             metricWeight: 122.0,
             dexEntry: "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
             cryUrl: "cries/150.mp3",
-            japaneseName: "Mewtwo"
+            japaneseName: "Mewtwo",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         },
         {
             name: "Mew",
@@ -2719,7 +3019,9 @@ let nationalDex = {
             metricWeight: 4.0,
             dexEntry: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
             cryUrl: "cries/151.mp3",
-            japaneseName: "Mew"
+            japaneseName: "Mew",
+            type1Url: "types/RGBYGSC/Psychic.png",
+            type2Url: ""
         }
     ]
 }
@@ -2740,6 +3042,28 @@ let dexRender = (pokedex) => {
         pokemonImage.src = pocketMonster.imageUrl
         pokemonImage.style = "height:200px"
         let pokemonNumber = document.createElement("p")
+
+        let typeicons = document.createElement("div")
+        let typeOne = document.createElement("img")
+        typeOne.src = pocketMonster.type1Url
+        typeOne.style = "height:18px"
+        typeOne.style = "width:90px"
+        let typeTwo = document.createElement("img")
+        typeTwo.src = pocketMonster.type2Url
+        typeTwo.style = "height:18px"
+        typeTwo.style = "width:90px"
+
+        let typeCount = function dualType(){
+            if (pocketMonster.type2Url === ""){
+                typeicons.append(typeOne)
+            }
+            else {
+                typeicons.append(typeOne)
+                typeicons.append(typeTwo)
+            }
+        }
+        typeCount()
+
         pokemonNumber.append("#", pocketMonster.number)
         let pokemonType = document.createElement("p")
         let typeString = (pocketMonster.type).toString()
@@ -2879,7 +3203,8 @@ favoritePokemon.addEventListener("click", favorite)
         divVariable.append(pokemonName)
         divVariable.append(pokemonImage)
         divVariable.append(pokemonNumber)
-        divVariable.append(pokemonType)
+        divVariable.append(typeicons)
+        // divVariable.append(pokemonType)
         divVariable.append(pokemonCategory)
         divVariable.append(pokemonRegion)
         divVariable.append(pokemonGeneration)
